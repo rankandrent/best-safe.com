@@ -230,6 +230,7 @@
     "note": "Every post on this site must pass full QA (structure, facts and voice) before it goes live.",
     "voiceRequiredFrom": "2026-10-18T00:00:00Z",
     "ownersRequiredFrom": "2026-10-18T00:00:00Z",
-    "styleRequiredFrom": "2026-10-18T00:00:00Z"
+    "styleRequiredFrom": "2026-10-18T00:00:00Z",
+    "serpTitlesRequiredFrom": "2026-10-19T00:00:00Z"
   }
 }

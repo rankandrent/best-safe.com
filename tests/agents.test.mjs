@@ -177,3 +177,19 @@ test('empty category, brand and blog pages are noindex and stay out of the sitem
     assert.ok(new RegExp(`<loc>${SITE.url}/</loc>`).test(sitemap), 'home missing from sitemap');
   }
 });
+
+// Owner rule: no colon in any title or seoTitle, and both carry the exact keyword.
+test('titles have no colon and contain the exact keyword', async () => {
+  const { titleRules } = await import('../agents/qa-agent.mjs');
+  assert.deepEqual(titleRules({ title: 'Best Smart Lock for Renters – 4 Picks', seoTitle: 'Best Smart Lock for Renters (2026)', keyword: 'best smart lock for renters' }), []);
+  assert.equal(titleRules({ title: 'Best Smart Locks for Renters: 4 Picks', keyword: 'best smart lock for renters' }).length, 2);
+  const dir = path.join(ROOT, 'src/content/blog');
+  const files = fs.readdirSync(dir, { recursive: true }).filter((f) => String(f).endsWith('.md'));
+  const bad = [];
+  for (const f of files) {
+    const fm = fs.readFileSync(path.join(dir, String(f)), 'utf8').split('\n---')[0];
+    const get = (k) => (fm.match(new RegExp(`^${k}:\\s*(.*)$`, 'm'))?.[1] ?? '').trim().replace(/^(['"])(.*)\1$/, '$2').replace(/''/g, "'");
+    for (const p of titleRules({ title: get('title'), seoTitle: get('seoTitle'), keyword: get('keyword') })) bad.push(`${f}: ${p}`);
+  }
+  assert.deepEqual(bad, []);
+});

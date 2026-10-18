@@ -1,6 +1,6 @@
 ---
-title: 'Best Pistol Safe 2026: 4 Quick-Access Picks for Home and Travel'
-seoTitle: 'Best Pistol Safe (2026): 4 Picks With Reliable Backup Entry'
+title: 'Best Pistol Safe 2026 – 4 Quick-Access Picks for Home and Travel'
+seoTitle: 'Best Pistol Safe (2026) – 4 Picks With Reliable Backup Entry'
 description: >-
   The best pistol safe for your nightstand, desk or car: 4 picks compared on
   lock type, backup entry, steel gauge, handgun fit and bolt-down, plus owner

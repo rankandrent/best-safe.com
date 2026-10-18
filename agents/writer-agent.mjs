@@ -41,6 +41,17 @@ export const BriefSchema = z.object({
       usesBuyingGuide: z.boolean(),
     })
     .optional(),
+  // The live top-10 titles for the keyword and what they share; the seoTitle is built from them.
+  serpTitles: z.array(z.object({ position: z.number(), url: z.string(), title: z.string() })).max(10).optional(),
+  titlePattern: z
+    .object({
+      keywordAtStart: z.number(),
+      withYear: z.number(),
+      withNumber: z.number(),
+      commonModifiers: z.array(z.string()).max(12),
+      gap: z.string(),
+    })
+    .optional(),
 });
 
 const BRIEF_SYSTEM = `You are the semantic SEO strategist for ${SITE.domain} (honest buying guides for home safes, gun safes and fireproof safes). You build content briefs grounded in what currently ranks, using entity-based SEO (Koray-style topical maps / semantic content networks).
@@ -56,7 +67,8 @@ Method:
 8. contentGaps: things top pages miss that a SAFE BUYER needs: who actually certified a fire rating (UL or Intertek/ETL vs an in-house claim) and what temperature and duration it covers, real steel gauge and how pry-resistant the door is, the backup entry when batteries or biometrics fail, how fast the safe opens in the dark, whether it bolts down and how, interior dimensions against what the reader stores (a full-size pistol, letter-size folders, long guns with optics), and the legal storage context (point to official state and local rules, never give legal advice).
 9. outline: H2s that each satisfy a distinct sub-intent, ordered by search-journey logic; H3s beneath.
 10. targetWords: 10-20% more than the average top result, capped by usefulness (roundups 2000-3500, how-tos 1300-2200).
-11. serpStructure: open the top 5-10 organic results and record how they are built: the URLs you read; productStyle = how most of them present each product ("pros-cons" = a pros and cons list per product, "paragraph" = a written review paragraph per product, "specs" = a spec table per product) with a one-line reason; their average word count and number of products; the sections most of them share (e.g. "how we chose", "buying guide", "FAQ"); and whether most use a comparison table, an FAQ and a buying guide. The outline must cover those common sections in a similar order, then add the content gaps.`;
+11. serpStructure: open the top 5-10 organic results and record how they are built: the URLs you read; productStyle = how most of them present each product ("pros-cons" = a pros and cons list per product, "paragraph" = a written review paragraph per product, "specs" = a spec table per product) with a one-line reason; their average word count and number of products; the sections most of them share (e.g. "how we chose", "buying guide", "FAQ"); and whether most use a comparison table, an FAQ and a buying guide. The outline must cover those common sections in a similar order, then add the content gaps.
+12. serpTitles + titlePattern: record the live top-10 organic titles for the keyword exactly as Google shows them ({position, url, title}). Then count how many start with the keyword (keywordAtStart), carry a year (withYear) or a number of picks/tips (withNumber), list the modifiers several of them share (commonModifiers, e.g. "for renters", "no drill", "under $50", "tested"), and name one useful angle none of them promise (gap). The seoTitle is built from this.`;
 
 const WRITE_SYSTEM = `You are the senior writer for ${SITE.domain}. Voice: a knowledgeable friend who has spent years reading safe spec sheets, fire-test standards and owner reports, and who cares about safe, legal storage. Practical, specific, confident, never fluffy. US English.
 
@@ -76,7 +88,7 @@ LAYOUT-AWARE RULES (how search systems read a page as blocks: headers, paragraph
 - Mix block types: at least one bulleted or numbered list, and for roundups/comparisons at least one comparison table.
 - Every table is introduced by a sentence directly above it that says what the table compares; every list follows a lead-in sentence.
 - For roundups, give each product its own "### <exact product name>: <role>" heading using the exact product name from the research (the site places the product photo under that heading), followed by text that describes that product only.
-- Titles earn the click: seoTitle (max 60 characters) leads with the exact keyword and adds the year and/or a number ("(2026)", "9 Picks", "12 Tips") plus a buyer benefit ("UL Fire-Rated Picks", "Fast Biometric Access", "Bolt-Down Ready"). The description (140-160 characters) answers the query and says what the reader gets. The page must deliver exactly what the title promises in the first screen (short answer and top picks), so searchers stay instead of bouncing back.
+- Titles earn the click: seoTitle (max 60 characters) leads with the exact keyword and adds the year and/or a number ("(2026)", "9 Picks", "12 Tips") plus a buyer benefit ("UL Fire-Rated Picks", "Fast Biometric Access", "Bolt-Down Ready"). The description (140-160 characters) answers the query and says what the reader gets. The page must deliver exactly what the title promises in the first screen (short answer and top picks), so searchers stay instead of bouncing back. Never put a colon (":") in title or seoTitle (use " – " or parentheses), and both must contain the exact keyword as one unbroken phrase (no plural, no inserted words). Build the seoTitle from the brief's serpTitles/titlePattern: the exact keyword first, then the elements most top-10 titles share (year, number of picks, the audience modifier) so it matches what Google rewards for this query, plus the brief's gap as the one differentiator; never copy a top-10 title, and never borrow a claim we can't make (e.g. "Tested", "Hands-On").
 - Match the brief's serpStructure.productStyle and set productStyle in the frontmatter to the same value: "pros-cons" = the site shows What we like / What we don't like lists, so the text adds context; "paragraph" = no lists are shown, so write a full review paragraph (120-200 words) per product that covers its strengths and drawbacks in prose; "specs" = the site shows a spec table from each product's specs, so fill specs (4-8 verified rows) and keep the text focused on who it suits.
 - Keep each paragraph about one idea (3-4 sentences max) so blocks stay coherent.
 
@@ -116,7 +128,7 @@ Article type: ${item.articleType} · Intent: ${item.intent}
 Secondary keywords: ${item.secondaryKeywords.join(', ')}
 Seed questions: ${item.questions.join(' | ')}
 
-Return ONLY a \`\`\`json block with: centralEntity, entityVariants[], entities[{name,type,relation}], attributes[], ngrams[], skipgrams[], nlpTerms[], questions[], contentGaps[], outline[{h2,intent,h3[]}], targetWords (number), serpStructure{analyzedUrls[], productStyle, productStyleReason, avgWords, avgProducts, commonSections[], usesComparisonTable, usesFaq, usesBuyingGuide}.`,
+Return ONLY a \`\`\`json block with: centralEntity, entityVariants[], entities[{name,type,relation}], attributes[], ngrams[], skipgrams[], nlpTerms[], questions[], contentGaps[], outline[{h2,intent,h3[]}], targetWords (number), serpStructure{analyzedUrls[], productStyle, productStyleReason, avgWords, avgProducts, commonSections[], usesComparisonTable, usesFaq, usesBuyingGuide}, serpTitles[{position,url,title}], titlePattern{keywordAtStart, withYear, withNumber, commonModifiers[], gap}.`,
   });
 }
 
@@ -157,7 +169,7 @@ ${linkTargets.map((t) => `- /blog/${t.slug}/ : ${t.title} (keyword: ${t.keyword}
 
 LENGTH: about ${brief.targetWords} words in the body.
 
-METADATA JSON fields: title (≤70 chars, contains the keyword naturally), seoTitle (≤60 chars, keyword near the start), description (140-160 chars, keyword + benefit + the buyer it is for), tldr (2-4 one-line takeaways that directly answer the query), faqs (4-6 PAA-style Q&As, answers 2-3 sentences, entity-rich, no links), tags (3-6), entities (the 8-12 most important entities incl. the central entity).`;
+METADATA JSON fields: title (≤70 chars, contains the exact keyword as one phrase, no colon), seoTitle (≤60 chars, exact keyword near the start, no colon), description (140-160 chars, keyword + benefit + the buyer it is for), tldr (2-4 one-line takeaways that directly answer the query), faqs (4-6 PAA-style Q&As, answers 2-3 sentences, entity-rich, no links), tags (3-6), entities (the 8-12 most important entities incl. the central entity).`;
 
   let lastErr;
   for (let attempt = 0; attempt < 2; attempt++) {

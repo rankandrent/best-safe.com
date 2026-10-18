@@ -45,6 +45,19 @@ const BANNED = [
   [/\b(TODO|TBD|lorem ipsum|REPLACE|PUBDATE)\b/, 'placeholder text left in'],
 ];
 
+// Owner rule for every post and translation: no colon in title or seoTitle, and both carry the exact
+// keyword as one phrase (case, punctuation and hyphens ignored; plurals or inserted words don't count).
+const normTitle = (s) => String(s ?? '').toLowerCase().normalize('NFC').replace(/[-‐–—]/g, ' ').replace(/[^\p{L}\p{N} ]/gu, ' ').replace(/\s+/g, ' ').trim();
+export function titleRules(d) {
+  const problems = [];
+  for (const k of ['title', 'seoTitle']) {
+    if (!d[k]) continue;
+    if (d[k].includes(':')) problems.push(`${k} contains a colon; use " – " or parentheses instead`);
+    if (d.keyword && !normTitle(d[k]).includes(normTitle(d.keyword))) problems.push(`${k} doesn't contain the exact keyword "${d.keyword}"`);
+  }
+  return problems;
+}
+
 export function readQa(slug) {
   try {
     return JSON.parse(fs.readFileSync(path.join(QA_DIR, `${slug}.json`), 'utf8'));
@@ -93,6 +106,7 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
   const desc = (d.description ?? '').trim();
   if (desc.length < 110 || desc.length > 170) err(`description is ${desc.length} characters (aim for 140-160)`);
   if (!d.keyword) err('missing keyword');
+  for (const p of titleRules(d)) err(p);
   if (!SITE.categories.some((c) => c.slug === d.category)) err(`unknown category "${d.category}"`);
   const author = d.author ?? SITE.authors[0].slug;
   if (!SITE.authors.some((a) => a.slug === author)) err(`unknown author "${author}"`);
@@ -135,6 +149,13 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     const serp = brief?.serpStructure;
     if (!serp || (serp.analyzedUrls ?? []).length < 3) err('brief has no serpStructure from at least 3 top results (see ROUTINE.md step 4)');
     else if (d.productStyle !== serp.productStyle) err(`productStyle "${d.productStyle ?? 'pros-cons'}" doesn't match the top results ("${serp.productStyle}")`);
+    // Titles follow the live SERP: the brief records the top-10 titles and the seoTitle must not copy one.
+    if (pub >= Date.parse(SITE.qa?.serpTitlesRequiredFrom ?? '2100-01-01')) {
+      const titles = brief?.serpTitles ?? [];
+      if (titles.length < 5 || !brief?.titlePattern) err('brief has no serpTitles (top-10 titles, at least 5) and titlePattern: check the keyword SERP before writing the title (ROUTINE.md step 4)');
+      const mine = normTitle(d.seoTitle ?? d.title);
+      if (titles.some((t) => normTitle(t.title) === mine)) err('seoTitle copies a top-10 title word for word');
+    }
     const sections = body.split(/^### /m).slice(1);
     for (const p of d.products ?? []) {
       const sec = sections.find((x) => matches(x.split('\n')[0], p.name));
@@ -381,6 +402,7 @@ export async function qaTranslation(post, { posts = listPosts(), translations = 
   if (desc.length < 110 || desc.length > 170) err(`description is ${desc.length} characters (aim for 140-160)`);
   if (!d.keyword) err('missing keyword');
   else if (![d.title, d.seoTitle, d.description].some((x) => String(x ?? '').toLowerCase().includes(String(d.keyword).toLowerCase()))) warn(`keyword "${d.keyword}" appears in neither title, seoTitle nor description`);
+  for (const p of titleRules(d)) err(p);
   if (en && d.keyword && String(d.keyword).toLowerCase() === String(en.data.keyword).toLowerCase()) warn('keyword is the English keyword; use the phrase people search in this language');
   if (!SITE.categories.some((c) => c.slug === d.category)) err(`unknown category "${d.category}"`);
   if (en) {
