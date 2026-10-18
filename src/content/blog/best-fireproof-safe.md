@@ -119,9 +119,8 @@ sources:
       (manufacturer page)
     url: >-
       https://www.firstalert.com/us/en/products/more-safety-products/safes/2087f-waterproof-and-fire-resistant-combination-safe-094-cubic-feet-2087f/
-  - title: First Alert 2087F-BD Bolt-Down Safe with Ready-Seal (manufacturer store)
-    url: >-
-      https://firstalertstore.com/store/products/waterproof-and-fire-resistant-bolt-down-safe-ready-seal-technology-2087f-bd.htm
+  - title: First Alert 2087F-BD Bolt-Down Safe with Ready-Seal (manufacturer page)
+    url: 'https://firstalertsafes.com/products/2087f-bd'
   - title: 'Staples listing: SentrySafe SFW123GDC specifications'
     url: >-
       https://www.staples.com/sentrysafe-steel-fire-waterproof-safe-with-keypad-w-key-1-23-cu-ft-sfw123gdc/product_611911
