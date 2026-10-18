@@ -1,0 +1,58 @@
+---
+// Home page of a site language (/de/, /es/, /nl/): that language's published guides.
+// Until a language has its first guide, the page is a short intro pointing to the
+// English guides and stays out of the index (noindex, left out of the sitemap).
+import Base from '../../layouts/Base.astro';
+import PostItem from '../../components/PostItem.astro';
+import { getPublishedPosts, postUrl } from '../../lib/posts';
+import { SITE, absUrl } from '../../lib/site';
+import { OTHER_LANGS, t, tOr, langHome } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return OTHER_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props;
+const posts = await getPublishedPosts(lang);
+const [leadPost, ...rest] = posts;
+const home = langHome(lang);
+const jsonLd: object[] = posts.length
+  ? [{
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: t(lang, 'home.latest'),
+      itemListElement: posts.slice(0, 10).map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(postUrl(p)), name: p.data.title })),
+    }]
+  : [];
+---
+<Base lang={lang} title={t(lang, 'home.title')} description={tOr(lang, 'site.description', SITE.description)} jsonLd={jsonLd} image="/images/og/home.png" imageAlt={t(lang, 'home.title')} noindex={posts.length === 0}>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>{t(lang, 'home.h1')}</h1>
+        <p class="lead">{t(lang, 'home.lead')}</p>
+        <div class="hero-actions">
+          {posts.length > 0 && <a class="btn btn-primary" href={`${home}blog/`}>{t(lang, 'home.seeAll')}</a>}
+          <a class={`btn ${posts.length ? 'btn-quiet' : 'btn-primary'}`} href="/blog/" hreflang="en-US">{t(lang, 'home.english')}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      {leadPost ? (
+        <Fragment>
+          <div class="section-head">
+            <div><h2>{t(lang, 'home.latest')}</h2></div>
+            <a class="btn btn-quiet btn-sm" href={`${home}blog/`}>{t(lang, 'home.seeAll')}</a>
+          </div>
+          <div class="posts">
+            <PostItem post={leadPost} lead />
+            {rest.slice(0, 9).map((p) => <PostItem post={p} />)}
+          </div>
+        </Fragment>
+      ) : <p class="empty">{t(lang, 'home.empty')}</p>}
+    </div>
+  </section>
+</Base>

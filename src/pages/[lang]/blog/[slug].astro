@@ -1,0 +1,18 @@
+---
+// Translated articles: /<lang>/blog/<localized-slug>/ (src/content/blog/<lang>/<slug>.md).
+import PostPage from '../../../components/PostPage.astro';
+import { getPublishedPosts, postSlug } from '../../../lib/posts';
+import { OTHER_LANGS } from '../../../lib/i18n';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of OTHER_LANGS) {
+    const posts = await getPublishedPosts(lang);
+    for (const post of posts) paths.push({ params: { lang, slug: postSlug(post) }, props: { post, all: posts, lang } });
+  }
+  return paths;
+}
+
+const { post, all, lang } = Astro.props;
+---
+<PostPage post={post} all={all} lang={lang} />

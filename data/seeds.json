@@ -1,0 +1,14 @@
+{
+  "modifiers": ["best", "for home", "fireproof", "biometric", "quick access", "small", "vs", "for apartment", "under 500", "for beginners"],
+  "categories": {
+    "handgun-safes": ["pistol safe", "handgun safe", "bedside gun safe", "biometric gun safe", "nightstand gun safe", "quick access gun safe"],
+    "gun-safes": ["gun safe", "rifle safe", "long gun safe", "gun cabinet", "fireproof gun safe", "gun safe under 1000"],
+    "fireproof-safes": ["fireproof safe", "fireproof document safe", "fireproof document bag", "small fireproof safe", "waterproof fireproof safe"],
+    "home-safes": ["home safe", "safe for home", "jewelry safe", "small safe for home", "safe for cash", "home safe that bolts to floor"],
+    "vehicle-safes": ["car gun safe", "vehicle gun safe", "console safe", "truck gun safe"],
+    "wall-floor-safes": ["wall safe", "in wall safe", "floor safe", "hidden safe", "diversion safe"],
+    "lock-boxes": ["key lock box", "lock box for keys", "portable lock box", "medication lock box", "cash box"],
+    "safe-accessories": ["gun safe dehumidifier", "gun safe lights", "gun safe organizer", "ammo storage", "ammo can"],
+    "safe-guides": ["how to move a gun safe", "how to bolt a safe to the floor", "how to open a safe", "are gun safes fireproof", "safe storage laws"]
+  }
+}

@@ -1,0 +1,27 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import PostItem from '../../components/PostItem.astro';
+import { getPublishedPosts } from '../../lib/posts';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = await getPublishedPosts();
+  return paginate(posts, { pageSize: 18 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const title = page.currentPage === 1 ? 'All safe buying guides' : `All guides (page ${page.currentPage})`;
+---
+<Base title={title} description="Every Best Safe guide, newest first: handgun, gun, fireproof, home, vehicle, wall and floor safes, lock boxes and safe accessories." image="/images/og/blog.png" imageAlt="All Best Safe guides" noindex={page.data.length === 0}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{title}</h1>
+      <p class="dek">Honest advice on home safes, gun safes and fireproof safes: real fire ratings, real steel, real access speed.</p>
+    </header>
+    {page.data.length ? <div class="posts">{page.data.map((p) => <PostItem post={p} />)}</div> : <p class="empty">No guides yet. Our first guides are being researched now; in the meantime, see the <a href="/safe-buying-checklist/">safe buying checklist</a>.</p>}
+    <nav class="pager" aria-label="Pagination">
+      {page.url.prev ? <a class="btn btn-ghost btn-sm" href={page.url.prev}>Newer guides</a> : <span></span>}
+      {page.url.next ? <a class="btn btn-ghost btn-sm" href={page.url.next}>Older guides</a> : <span></span>}
+    </nav>
+  </div>
+</Base>

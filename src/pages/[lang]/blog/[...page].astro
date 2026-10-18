@@ -1,0 +1,35 @@
+---
+// All guides in one language, newest first: /<lang>/blog/, /<lang>/blog/2/ ...
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import PostItem from '../../../components/PostItem.astro';
+import { getPublishedPosts } from '../../../lib/posts';
+import { OTHER_LANGS, t, langHome } from '../../../lib/i18n';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const out = [];
+  for (const lang of OTHER_LANGS) {
+    const posts = await getPublishedPosts(lang);
+    out.push(...paginate(posts, { pageSize: 18, params: { lang }, props: { lang, total: posts.length } }));
+  }
+  return out;
+}) satisfies GetStaticPaths;
+
+const { page, lang, total } = Astro.props;
+const title = page.currentPage === 1 ? t(lang, 'list.title') : t(lang, 'list.titlePage', { n: page.currentPage });
+---
+<Base lang={lang} title={title} description={t(lang, 'list.description')} image="/images/og/blog.png" imageAlt={title} noindex={total === 0}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{title}</h1>
+      <p class="dek">{t(lang, 'list.dek')}</p>
+    </header>
+    {page.data.length ? <div class="posts">{page.data.map((p) => <PostItem post={p} />)}</div> : (
+      <p class="empty">{t(lang, 'home.empty')} <a href="/blog/">{t(lang, 'home.english')}</a>.</p>
+    )}
+    <nav class="pager" aria-label={t(lang, 'list.pagination')}>
+      {page.url.prev ? <a class="btn btn-ghost btn-sm" href={page.url.prev}>{t(lang, 'list.newer')}</a> : <span></span>}
+      {page.url.next ? <a class="btn btn-ghost btn-sm" href={page.url.next}>{t(lang, 'list.older')}</a> : <span></span>}
+    </nav>
+  </div>
+</Base>

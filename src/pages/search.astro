@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search safe buying guides" description="Search every Best Safe guide by product, brand or problem: gun safes, handgun safes, fireproof safes, lock boxes and more." noindex>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 style="font-size:var(--s4)">Search Best Safe</h1>
+      <p class="muted">Find a guide by product, brand or problem, like "biometric", "fireproof" or "bolt-down".</p>
+    </header>
+    <form class="search-form" role="search" action="/search/" method="get">
+      <label for="q" class="sr-only">Search guides</label>
+      <div class="suggest-wrap">
+        <input id="q" name="q" type="search" placeholder="Search safes, locks, brands…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggest" />
+        <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+      </div>
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <p id="search-status" class="muted" aria-live="polite"></p>
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</Base>
+
+<script>
+  const input = document.getElementById('q') as HTMLInputElement;
+  const list = document.getElementById('search-results')!;
+  const status = document.getElementById('search-status')!;
+  type Item = { url: string; title: string; description: string; category: string; terms: string };
+  let items: Item[] = [];
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  function score(item: Item, words: string[]) {
+    const title = item.title.toLowerCase();
+    const rest = `${item.description} ${item.category} ${item.terms}`.toLowerCase();
+    let s = 0;
+    for (const w of words) {
+      const re = new RegExp(`(^|[^a-z0-9])${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`);
+      if (re.test(title)) s += 3;
+      else if (re.test(rest)) s += 1;
+      else return 0;
+    }
+    return s;
+  }
+
+  function run() {
+    const q = input.value.trim().toLowerCase();
+    const words = q.split(/\s+/).filter(Boolean);
+    if (!words.length) { list.innerHTML = ''; status.textContent = ''; return; }
+    const hits = items.map((i) => ({ i, s: score(i, words) })).filter((h) => h.s > 0).sort((a, b) => b.s - a.s);
+    status.textContent = hits.length ? `${hits.length} guide${hits.length > 1 ? 's' : ''} found` : 'No guides match yet. Try a broader word, like "fireproof" or "lock".';
+    list.innerHTML = hits.map(({ i }) => `<li><a href="${i.url}"><span class="kicker">${esc(i.category)}</span><strong>${esc(i.title)}</strong><span>${esc(i.description)}</span></a></li>`).join('');
+  }
+
+  input.value = new URLSearchParams(location.search).get('q') ?? '';
+  fetch('/search-index.json').then((r) => r.json()).then((d) => { items = d; run(); });
+
+  // Autocomplete: a prefix trie of weighted phrases (keywords, products, tags).
+  // Every word start of a phrase is indexed, so "head" also finds "ball head".
+  // Each trie node keeps its best phrases by weight, so a lookup is one walk
+  // down the typed prefix.
+  type Sug = { text: string; weight: number; url: string };
+  type Node = { kids: Map<string, Node>; top: Sug[] };
+  const TOP = 6;
+  const root: Node = { kids: new Map(), top: [] };
+  const insert = (key: string, s: Sug) => {
+    let node = root;
+    for (const ch of key) {
+      let next = node.kids.get(ch);
+      if (!next) node.kids.set(ch, (next = { kids: new Map(), top: [] }));
+      node = next;
+      if (!node.top.some((x) => x.text === s.text)) {
+        node.top.push(s);
+        node.top.sort((a, b) => b.weight - a.weight);
+        if (node.top.length > TOP) node.top.length = TOP;
+      }
+    }
+  };
+  const lookup = (prefix: string) => {
+    let node: Node | undefined = root;
+    for (const ch of prefix) node = node?.kids.get(ch);
+    return node?.top ?? [];
+  };
+  fetch('/search-suggest.json').then((r) => r.json()).then((list: Sug[]) => {
+    for (const s of list) {
+      const words = s.text.split(' ');
+      words.forEach((_, i) => insert(words.slice(i).join(' '), s));
+    }
+  });
+
+  const box = document.getElementById('suggest')!;
+  let active = -1;
+  let shown: Sug[] = [];
+  const close = () => { box.hidden = true; input.setAttribute('aria-expanded', 'false'); active = -1; };
+  const paint = () => {
+    box.innerHTML = shown.map((s, i) => {
+      const q = input.value.trim().toLowerCase();
+      const at = s.text.indexOf(q);
+      const label = at >= 0 ? `${esc(s.text.slice(0, at))}<b>${esc(s.text.slice(at, at + q.length))}</b>${esc(s.text.slice(at + q.length))}` : esc(s.text);
+      return `<li role="option" id="sug-${i}" aria-selected="${i === active}" data-i="${i}">${label}</li>`;
+    }).join('');
+    if (active >= 0) input.setAttribute('aria-activedescendant', `sug-${active}`); else input.removeAttribute('aria-activedescendant');
+  };
+  const suggest = () => {
+    const q = input.value.trim().toLowerCase().replace(/\s+/g, ' ');
+    shown = q.length >= 2 ? lookup(q) : [];
+    active = -1;
+    if (!shown.length) return close();
+    box.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+    paint();
+  };
+  const choose = (s: Sug) => { input.value = s.text; close(); run(); };
+  input.addEventListener('input', suggest);
+  input.addEventListener('keydown', (e) => {
+    if (box.hidden) return;
+    if (e.key === 'ArrowDown') { active = (active + 1) % shown.length; paint(); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { active = (active - 1 + shown.length) % shown.length; paint(); e.preventDefault(); }
+    else if (e.key === 'Enter' && active >= 0) { choose(shown[active]); e.preventDefault(); }
+    else if (e.key === 'Escape') close();
+  });
+  box.addEventListener('mousedown', (e) => {
+    const li = (e.target as HTMLElement).closest('li');
+    if (li) { e.preventDefault(); choose(shown[Number(li.dataset.i)]); }
+  });
+  input.addEventListener('blur', () => setTimeout(close, 100));
+  input.addEventListener('input', () => {
+    run();
+    const u = new URL(location.href);
+    input.value ? u.searchParams.set('q', input.value) : u.searchParams.delete('q');
+    history.replaceState(null, '', u);
+  });
+  document.querySelector('.search-form')!.addEventListener('submit', (e) => { e.preventDefault(); run(); });
+</script>

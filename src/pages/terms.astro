@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Terms of use" description="Terms of use for Best-Safe.com, including informational-use and no-legal-advice disclaimers." updated="October 18, 2026">
+  <p>By using {SITE.domain} you agree to these terms.</p>
+  <h2>Informational purposes only</h2>
+  <p>Content on this site is general information, not professional, security or legal advice. Fire and burglary ratings describe how a product performed in a specific test, not a guarantee of how it will perform in your home. Firearm storage laws differ by state and city: check the rules where you live. Follow the manufacturer's instructions for installation, anchoring and use, and never attempt to open a safe that isn't yours.</p>
+  <h2>Accuracy</h2>
+  <p>We work to keep information accurate, but product specifications, prices and availability change. We make no warranties about completeness or accuracy and are not responsible for third-party products or retailers.</p>
+  <h2>Intellectual property</h2>
+  <p>Site content is owned by {SITE.name}. You may quote short excerpts with a link back; please do not republish full articles.</p>
+  <h2>Contact</h2>
+  <p>Questions about these terms: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>.</p>
+</Page>

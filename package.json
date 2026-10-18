@@ -1,0 +1,40 @@
+{
+  "name": "best-safe",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Best-Safe.com - honest home safe, gun safe and fireproof safe buying guides, built with Astro and an agentic content pipeline.",
+  "scripts": {
+    "dev": "astro dev",
+    "prebuild": "node scripts/redirects.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check:content": "node scripts/check-content.mjs",
+    "qa": "node scripts/qa.mjs",
+    "agents:run": "node agents/orchestrator.mjs",
+    "agents:dry": "node agents/orchestrator.mjs --dry-run",
+    "agents:keywords": "node agents/keyword-agent.mjs",
+    "agents:schedule": "node agents/lib/schedule.mjs",
+    "images": "node scripts/featured-images.mjs",
+    "amazon:refresh": "node agents/refresh-amazon.mjs",
+    "notify:search": "node scripts/notify-search-engines.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^5.18.2",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.1",
+    "@resvg/resvg-js": "^2.6.2",
+    "satori": "^0.56.1"
+  }
+}

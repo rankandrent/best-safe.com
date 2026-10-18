@@ -1,0 +1,14 @@
+---
+import Base from './Base.astro';
+interface Props { title: string; description: string; updated?: string }
+const { title, description, updated } = Astro.props;
+---
+<Base title={title} description={description}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 style="font-size:var(--s4)">{title}</h1>
+      {updated && <p class="muted" style="font-size:.95rem">Last updated {updated}</p>}
+    </header>
+    <div class="prose" style="padding-bottom:30px"><slot /></div>
+  </div>
+</Base>

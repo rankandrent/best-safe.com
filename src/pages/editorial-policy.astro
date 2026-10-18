@@ -1,0 +1,25 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Editorial policy" description="How Best Safe researches, writes, fact-checks, updates and corrects its home safe, gun safe and fireproof safe buying guides." updated="October 18, 2026">
+  <p>{SITE.name} publishes buying guides and how-tos for people choosing a safe for firearms, documents, cash and valuables. This policy explains how a guide goes from idea to page, and what we promise readers.</p>
+  <h2>How a guide is made</h2>
+  <ol>
+    <li><strong>Topic selection.</strong> We pick questions safe buyers actually search for, using keyword data and the questions people ask in owner communities.</li>
+    <li><strong>Product research.</strong> We read the top 10 search results for the guide's keyword and shortlist products at least two of them recommend, each sold in the U.S. as its own Amazon listing. We then check manufacturer specifications, manuals and certification listings, and read retailer, owner and expert reviews for every product (see <a href="/how-we-research/">how we research</a>).</li>
+    <li><strong>Scoring.</strong> Each product is rated on the Best Safe Score: security (lock and build), fire protection, access, capacity and value (see <a href="/how-we-score/">how we score</a>).</li>
+    <li><strong>Writing and fact-checking.</strong> Specifications and claims are checked against the sources listed at the end of each guide. We say whether a fire or security rating was certified by an independent lab or is the maker's own claim. We do not publish prices, star ratings or testing claims we cannot support.</li>
+    <li><strong>Review and updates.</strong> Guides show the date they were last reviewed. We revisit them when products are discontinued, replaced or materially changed.</li>
+  </ol>
+  <h2>Research, not hands-on testing</h2>
+  <p>We do not fire-test, pry-test or drop-test safes, and we never claim to. Our recommendations come from published specifications, independent certifications, owner reports and expert reviews, and each guide links its sources so you can check them.</p>
+  <h2>Use of AI tools</h2>
+  <p>We use AI-assisted tools to help with research, drafting and on-page SEO checks. Every recommendation must trace back to verifiable sources, and our editorial standards, not a tool, decide what gets published and recommended.</p>
+  <h2>Independence</h2>
+  <p>We earn money through affiliate links, including as an Amazon Associate. Brands cannot buy placement or review outcomes, and commission rates do not influence rankings. See our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
+  <h2>Corrections</h2>
+  <p>If something is wrong or out of date, email <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>. We review every report, fix verified errors promptly, and update the guide's review date.</p>
+  <h2>Safety and the law</h2>
+  <p>Our guides are general information, not legal advice. Firearm storage laws differ by state and city; check the rules where you live. Install and anchor safes according to the manufacturer's instructions, keep backup keys and codes out of the safe and away from children, and never try to open a safe that isn't yours.</p>
+</Page>

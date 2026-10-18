@@ -1,0 +1,53 @@
+---
+import Page from '../layouts/Page.astro';
+import { CRITERIA } from '../lib/score.mjs';
+import { SITE } from '../lib/site';
+---
+<Page title="How We Score Products: The Best Safe Score" description="How the Best Safe Score works: five criteria (security, fire protection, access, capacity, value), their weights, the formula and what each number means." updated="October 18, 2026">
+  <p>Every product we recommend gets a <strong>Best Safe Score</strong> out of 5. It answers one question: <em>how well does this keep what you store secure, protected and reachable, for the way you will actually use it?</em> It's our own editorial rating, built from manufacturer specifications, user manuals, independent certification listings, owner reports and the research listed in each guide. It is not a lab test or a customer rating, and we never copy star ratings from stores.</p>
+
+  <h2>The five criteria</h2>
+  <p>We rate each product from 1 to 10 on five criteria, weighted by how much they matter to someone protecting firearms, documents or valuables:</p>
+  <table>
+    <thead><tr><th scope="col">Criterion</th><th scope="col">Weight</th><th scope="col">What a 10 looks like</th></tr></thead>
+    <tbody>
+      {CRITERIA.map((c) => (
+        <tr>
+          <td>{c.label}</td>
+          <td>{Math.round(c.weight * 100)}%</td>
+          <td>{{
+            security: 'A proven lock with a sensible backup entry, thick steel for its class, solid bolt work and hinges with no easy pry points, plus an independent burglary rating or state listing where one applies.',
+            fire: 'An independently certified fire rating (UL or Intertek/ETL) with a duration and temperature that fit what you store, plus water protection where the maker has it verified.',
+            access: 'Opens fast and reliably under stress and in the dark, with a lock that owners report works first time, and a backup that does not depend on a single battery.',
+            capacity: 'Holds what the buyer needs to store with room to spare, with usable shelves or racks, in a footprint that fits where it has to go.',
+            value: 'A fair price for the protection it gives, with nothing important (bolt-down hardware, a backup key) left to buy separately.',
+          }[c.key]}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2>The formula</h2>
+  <p><strong>Score = (Security × 30% + Fire protection × 20% + Access × 20% + Capacity × 15% + Value × 15%) ÷ 2</strong>, rounded to one decimal.</p>
+  <p>Some criteria don't apply to every product. A car console safe, a portable lock box or a safe dehumidifier isn't meant to survive a house fire, so when a product makes no fire claim and fire protection isn't its job, we leave that criterion out and rescale the other weights so they still add up to 100%. A product that is sold as fire-resistant is always scored on it.</p>
+
+  <h2>How we pick each number</h2>
+  <ul>
+    <li><strong>Security (lock and build):</strong> 10 thick steel for its class, solid bolts and hinges, a reliable lock with a safe backup, and an independent burglary rating or state listing · 8 solid steel and a dependable lock · 6 thin steel or an easy pry point, fine against casual access · 4 or lower keeps honest people out and little more.</li>
+    <li><strong>Fire protection:</strong> 10 independently certified for an hour or more at a rating that fits what is stored · 8 independently certified for 30 minutes · 6 a maker's own fire claim with published test details · 4 or lower a fire claim with no rating details.</li>
+    <li><strong>Access (speed and ease):</strong> 10 opens in seconds by feel or in the dark, with owners reporting reliable entry · 8 quick with a minor quirk · 6 slow or fussy (a dial or a picky fingerprint reader) · 4 or lower frequent lockouts reported.</li>
+    <li><strong>Capacity:</strong> 10 roomy for its category with flexible interior layout · 8 fits the typical load with a little spare room · 6 tight · 4 or lower smaller than its category suggests (judged against its category, so a handgun safe is scored as a handgun safe).</li>
+    <li><strong>Value:</strong> 10 hard to beat for the protection and nothing essential to add · 8 good value · 6 premium price, or key hardware you will need to buy separately.</li>
+  </ul>
+
+  <h2>What each score band means</h2>
+  <ul>
+    <li><strong>4.5 to 5.0:</strong> outstanding for its job. Buy it with confidence if it fits what you store and where it has to go.</li>
+    <li><strong>4.0 to 4.4:</strong> very good, with one clear trade-off (a shorter fire rating, a slower lock, or a tighter interior).</li>
+    <li><strong>3.5 to 3.9:</strong> good for a specific use, such as keeping a handgun away from kids or papers in a closet, but limited outside it.</li>
+    <li><strong>Below 3.5:</strong> we rarely recommend it, and only when it is the one option for an unusual need.</li>
+  </ul>
+
+  <h2>What the score is not</h2>
+  <p>It isn't a lab test, a burglary or fire certification, or a customer review average, and it doesn't change with price swings or sales. When a product is revised or replaced, we re-check it and update the score. Read more about our <a href="/how-we-research/">research process</a>, the <a href="/safe-buying-checklist/">{SITE.name} buying checklist</a> and our <a href="/editorial-policy/">editorial policy</a>.</p>
+</Page>

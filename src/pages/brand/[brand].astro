@@ -1,0 +1,87 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostItem from '../../components/PostItem.astro';
+import { getPublishedPosts } from '../../lib/posts';
+import { SITE, absUrl } from '../../lib/site';
+import { BRANDS, brandOf, pickId } from '../../lib/brands.mjs';
+import { productScore } from '../../lib/score.mjs';
+import { amazonUrl, AFFILIATE_REL } from '../../lib/affiliate.mjs';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  // Products that have their own "### Name" section in the body get a #pick-… anchor
+  // (remark-product-figures); the rest live in the "Our top picks" box.
+  const inBody = new Map<string, string[]>();
+  for (const p of posts) {
+    const { remarkPluginFrontmatter } = await render(p);
+    inBody.set(p.id, remarkPluginFrontmatter?.productsInBody ?? []);
+  }
+  // Data-driven: a brand page only exists once a published guide features one of its products.
+  return BRANDS.map((brand) => {
+    const products = posts.flatMap((post) =>
+      post.data.products
+        .filter((p) => brandOf(p)?.slug === brand.slug)
+        .map((p) => ({ ...p, post, anchor: inBody.get(post.id)!.includes(p.name) ? pickId(p.name) : 'top-picks' })),
+    );
+    const guides = posts.filter((post) => products.some((p) => p.post.id === post.id));
+    return { params: { brand: brand.slug }, props: { brand, products, guides } };
+  }).filter((p) => p.props.products.length > 0);
+}
+const { brand, products, guides } = Astro.props;
+const url = absUrl(`/brand/${brand.slug}/`);
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${brand.name} Safes`,
+  description: brand.blurb,
+  url,
+  isPartOf: { '@id': absUrl('/#website') },
+  about: { '@type': 'Brand', name: brand.name },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: guides.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(`/blog/${p.id}/`), name: p.data.title })),
+  },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: absUrl('/') },
+    { '@type': 'ListItem', position: 2, name: 'Brands', item: absUrl('/brands/') },
+    { '@type': 'ListItem', position: 3, name: brand.name, item: url },
+  ],
+}];
+---
+<Base title={`${brand.name} Safes: Picks and Buying Guides`} description={`${brand.blurb} Every ${brand.name} safe and accessory we cover, with our score and the guide it appears in.`} jsonLd={jsonLd} noindex={products.length === 0} image={`/images/og/brand-${brand.slug}.png`} imageAlt={`${brand.name} safes: ${SITE.name}`} keywords={[`${brand.name.toLowerCase()} safe`, `best ${brand.name.toLowerCase()} safe`, ...guides.slice(0, 4).map((p) => p.data.keyword)]}>
+  <div class="wrap">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/brands/">Brands</a><span>/</span><span>{brand.name}</span></nav>
+      <h1>{brand.name} Safes</h1>
+      <p class="dek">{brand.blurb}</p>
+    </header>
+    {products.length ? (
+      <>
+        <section class="toppicks brand-products" aria-labelledby="products-we-cover">
+          <h2 id="products-we-cover">Products we cover</h2>
+          <ol>
+            {products.map((p) => (
+              <li>
+                {p.image ? <img src={p.image.url} alt="" width="64" height="64" loading="lazy" decoding="async" /> : <span aria-hidden="true"></span>}
+                <div class="tp-text">
+                  <span class="tp-badge">{p.badge}{productScore(p.scores) != null && <span class="tp-score"> · {SITE.name} Score {productScore(p.scores)!.toFixed(1)}/5</span>}</span>
+                  <a class="tp-name" href={`/blog/${p.post.id}/#${p.anchor}`}>{p.name}</a>
+                  <span class="bp-in">In <a href={`/blog/${p.post.id}/#${p.anchor}`}>{p.post.data.title}</a></span>
+                </div>
+                <a class="btn btn-quiet btn-sm tp-go" href={amazonUrl({ asin: p.asin, query: p.query })} rel={AFFILIATE_REL} target="_blank">Check price</a>
+              </li>
+            ))}
+          </ol>
+        </section>
+        <section class="section">
+          <div class="section-head"><h2>Guides featuring {brand.name}</h2></div>
+          <div class="posts">{guides.map((p) => <PostItem post={p} />)}</div>
+        </section>
+      </>
+    ) : <p class="empty">Guides featuring {brand.name} are coming soon. Browse <a href="/brands/">all brands</a> or <a href="/blog/">every guide</a> in the meantime.</p>}
+  </div>
+</Base>

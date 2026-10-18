@@ -1,0 +1,53 @@
+---
+import Logo from './Logo.astro';
+import { SITE } from '../lib/site';
+import { getPublishedPosts } from '../lib/posts';
+import { t, tOr, langHome, normLang } from '../lib/i18n';
+interface Props { lang?: string }
+const lang = normLang(Astro.props.lang);
+const used = new Set((await getPublishedPosts()).map((p) => p.data.category));
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <Logo href={langHome(lang)} label={t(lang, 'logo.aria')} />
+        <p style="margin-top:14px;max-width:30em">{tOr(lang, 'site.description', SITE.description)}</p>
+      </div>
+      <div>
+        <h3>{t(lang, 'footer.categories')}</h3>
+        <ul>
+          {SITE.categories.filter((c) => used.size === 0 || used.has(c.slug)).map((c) => <li><a href={`/category/${c.slug}/`}>{tOr(lang, `cat.${c.slug}`, c.name)}</a></li>)}
+          <li><a href="/brands/">{t(lang, 'footer.brands')}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>{t(lang, 'footer.howWeWork')}</h3>
+        <ul>
+          <li><a href="/safe-buying-checklist/">{t(lang, 'footer.checklist')}</a></li>
+          <li><a href="/search/">{t(lang, 'footer.search')}</a></li>
+          <li><a href="/how-we-research/">{t(lang, 'footer.research')}</a></li>
+          <li><a href="/how-we-score/">{t(lang, 'footer.score')}</a></li>
+          <li><a href="/editorial-policy/">{t(lang, 'footer.editorial')}</a></li>
+          <li><a href="/affiliate-disclosure/">{t(lang, 'footer.disclosure')}</a></li>
+          <li><a href={`/authors/${SITE.authors[0].slug}/`}>{t(lang, 'footer.authors')}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>{t(lang, 'footer.company')}</h3>
+        <ul>
+          <li><a href="/about/">{t(lang, 'footer.about')}</a></li>
+          <li><a href="/contact/">{t(lang, 'footer.contact')}</a></li>
+          <li><a href="/privacy-policy/">{t(lang, 'footer.privacy')}</a></li>
+          <li><a href="/terms/">{t(lang, 'footer.terms')}</a></li>
+          <li><a href="/rss.xml">{t(lang, 'footer.rss')}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-legal">
+      <p>{t(lang, 'footer.associate')}</p>
+      <p>&copy; {year} {SITE.name}. {t(lang, 'footer.safety')}</p>
+    </div>
+  </div>
+</footer>

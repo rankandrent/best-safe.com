@@ -1,0 +1,37 @@
+---
+import { categoryName } from '../lib/site';
+import { t, tOr, formatDate } from '../lib/i18n';
+import { postLang, postUrl } from '../lib/posts';
+import type { CollectionEntry } from 'astro:content';
+interface Props { post: CollectionEntry<'blog'>; lead?: boolean }
+const { post, lead = false } = Astro.props;
+const d = post.data;
+const lang = postLang(post);
+const href = postUrl(post);
+// Category pages exist in English only; other languages show the category as a label.
+const catLabel = tOr(lang, `cat.${d.category}`, categoryName(d.category));
+const catHref = lang === 'en' ? `/category/${d.category}/` : undefined;
+const photo = d.products.find((p) => p.image?.url)?.image;
+---
+{lead ? (
+  <article class="post-item lead-item">
+    <div>
+      {photo ? <a class="thumb product-thumb" href={href} tabindex="-1" aria-hidden="true"><img src={photo.url} alt="" width={photo.width ?? 500} height={photo.height ?? 500} loading="lazy" decoding="async" /></a> : d.heroImage && <a class="thumb" href={href} tabindex="-1" aria-hidden="true"><img src={d.heroImage} alt="" width="1200" height="630" loading="lazy" decoding="async" /></a>}
+      {catHref ? <a class="cat" href={catHref}>{catLabel}</a> : <span class="cat">{catLabel}</span>}
+      <h3><a href={href}>{d.title}</a></h3>
+    </div>
+    <div class="side">
+      <p>{d.description}</p>
+      <span class="when">{t(lang, 'post.updated')}{' '}<time datetime={(d.updatedDate ?? d.pubDate).toISOString()}>{formatDate(d.updatedDate ?? d.pubDate, lang)}</time></span>
+      <a class="btn btn-quiet btn-sm" style="align-self:flex-start" href={href}>{t(lang, 'item.readGuide')}</a>
+    </div>
+  </article>
+) : (
+  <article class="post-item">
+    {photo ? <a class="thumb product-thumb" href={href} tabindex="-1" aria-hidden="true"><img src={photo.url} alt="" width={photo.width ?? 500} height={photo.height ?? 500} loading="lazy" decoding="async" /></a> : d.heroImage && <a class="thumb" href={href} tabindex="-1" aria-hidden="true"><img src={d.heroImage} alt="" width="1200" height="630" loading="lazy" decoding="async" /></a>}
+    {catHref ? <a class="cat" href={catHref}>{catLabel}</a> : <span class="cat">{catLabel}</span>}
+    <h3><a href={href}>{d.title}</a></h3>
+    <p>{d.description}</p>
+    <span class="when">{t(lang, 'post.updated')}{' '}<time datetime={(d.updatedDate ?? d.pubDate).toISOString()}>{formatDate(d.updatedDate ?? d.pubDate, lang)}</time></span>
+  </article>
+)}

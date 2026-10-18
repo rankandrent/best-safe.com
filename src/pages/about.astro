@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="About Best Safe" description="Best Safe publishes honest, research-based buying guides for handgun safes, gun safes, fireproof and document safes, home safes, wall and floor safes and lock boxes.">
+  <p>{SITE.name} exists because safe spec sheets are hard to read and easy to misread. "Fireproof" usually means fire-resistant for a rated time and temperature, and not every rating comes from an independent lab. A "heavy-duty" safe can be built from thin steel, a fingerprint reader can be slower than a keypad when you need it most, and a small safe that isn't bolted down can simply be carried away. Buy on the box claims and you can end up with a safe that doesn't protect what you put in it.</p>
+  <h2>What we cover</h2>
+  <p>We research handgun and bedside safes, gun safes and cabinets, fireproof and document safes, home safes, car and vehicle safes, wall and floor safes, lock boxes and safe accessories through one lens: <strong>will this keep what you store secure, protected and reachable when you need it?</strong> Every guide looks at the lock and its backup entry, the steel and bolt work, who certified any fire rating, access speed, interior capacity and how the safe anchors down.</p>
+  <h2>How we work</h2>
+  <p>Our guides are research-based. We do not run a test lab and we do not claim hands-on testing. We read the top-ranking guides for each question, check every spec against manufacturer pages, manuals and certification listings, and read what real owners report on retailer sites, forums and communities. Every guide lists its sources. Read our <a href="/how-we-research/">research process</a>.</p>
+  <h2>How we stay independent</h2>
+  <p>We are reader-supported. When you buy through our links we may earn an affiliate commission, which never changes the price you pay. Brands cannot pay for placement, and recommendations are based on published specifications, independent ratings, owner feedback and our own scoring criteria. See our <a href="/affiliate-disclosure/">affiliate disclosure</a> and <a href="/editorial-policy/">editorial policy</a>.</p>
+  <h2>Get in touch</h2>
+  <p>Questions, corrections or product suggestions are welcome at <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>.</p>
+</Page>

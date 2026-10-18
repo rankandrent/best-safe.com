@@ -1,0 +1,336 @@
+---
+// One article page in any site language: /blog/<id>/ (English) and
+// /<lang>/blog/<slug>/ (translations) both render through this component.
+import { unsplashCredit } from '../lib/remark-photos.mjs';
+import { render, type CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ProductPicks from './ProductPicks.astro';
+import PostItem from './PostItem.astro';
+import { postUrl, translationsOf } from '../lib/posts';
+import { categoryName, absUrl, getAuthor, authorSchema, initials } from '../lib/site';
+import { t, tOr, formatDate, formatNumber, LOCALES, langHome, normLang } from '../lib/i18n';
+import { amazonUrl, AFFILIATE_REL } from '../lib/affiliate.mjs';
+import { imageSource } from '../lib/remark-product-figures.mjs';
+import { productScore } from '../lib/score.mjs';
+import { brandsIn } from '../lib/brands.mjs';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+
+interface Props { post: CollectionEntry<'blog'>; all: CollectionEntry<'blog'>[]; lang?: string }
+const { post, all } = Astro.props;
+const lang = normLang(Astro.props.lang);
+const en = lang === 'en';
+const d = post.data;
+const fmtDate = (x: Date) => formatDate(x, lang);
+const num = (n: number) => formatNumber(n, lang);
+const catName = tOr(lang, `cat.${d.category}`, categoryName(d.category));
+// Language versions of this article (published only) for hreflang and the switcher.
+const englishId = en ? post.id : d.translationOf;
+const versions = englishId ? await translationsOf(englishId) : {};
+if (!versions[lang]) (versions as Record<string, typeof post>)[lang] = post;
+const translations = Object.fromEntries(Object.entries(versions).map(([l, p]) => [l, postUrl(p!)]));
+const alternates = Object.keys(translations).length > 1
+  ? [
+      ...Object.entries(translations).map(([l, href]) => ({ hreflang: LOCALES[l as keyof typeof LOCALES].hreflang, href })),
+      ...(translations.en ? [{ hreflang: 'x-default', href: translations.en }] : []),
+    ]
+  : [];
+const { Content, headings, remarkPluginFrontmatter } = await render(post);
+const inBody: string[] = remarkPluginFrontmatter?.productsInBody ?? [];
+const toc = headings.filter((h) => h.depth === 2);
+const url = absUrl(postUrl(post));
+const modified = d.updatedDate ?? d.pubDate;
+// Owner research totals for the "How we picked" box and the sources list.
+const ownerReads = d.products.reduce((n, p) => n + (p.owners?.read ?? 0), 0);
+const ownerSources = [...new Map(d.products.flatMap((p) => p.owners?.sources ?? []).map((s) => [s.url, s])).values()];
+const reviewPool = ownerSources.reduce((n, s) => n + (s.reviews ?? 0), 0);
+const researchNote = [
+  reviewPool > 0 ? t(lang, 'post.notePool', { n: num(reviewPool) }) : '',
+  ownerReads > 0 ? t(lang, 'post.noteReads', { reads: ownerReads, sources: ownerSources.length }) : '',
+  t(lang, 'post.noteSpecs', { n: d.sources.length }),
+].filter(Boolean).join(' ');
+const reviewed = d.reviewedDate ?? modified;
+const baseAuthor = getAuthor(d.author);
+const author = {
+  ...baseAuthor,
+  name: tOr(lang, `author.${baseAuthor.slug}.name`, baseAuthor.name),
+  role: tOr(lang, `author.${baseAuthor.slug}.role`, baseAuthor.role),
+  bio: tOr(lang, `author.${baseAuthor.slug}.bio`, baseAuthor.bio),
+};
+const authorUrl = `/authors/${author.slug}/`;
+const heroPhoto = d.photos.find((p) => p.placement === 'hero');
+const hero = d.heroImage ?? heroPhoto?.url;
+const heroPick = d.products.find((p) => p.image?.url);
+const brands = brandsIn(d.products);
+// Version the header graphic by its content so browsers never show a stale copy.
+// Translations reuse the English post's header graphic.
+const heroId = en ? post.id : (d.translationOf ?? post.id);
+const heroBaseFile = new URL(`public/images/hero/${heroId}.png`, `file://${process.cwd()}/`);
+const heroBaseVer = fs.existsSync(heroBaseFile) ? crypto.createHash('md5').update(fs.readFileSync(heroBaseFile)).digest('hex').slice(0, 8) : '0';
+
+const byId = new Map(all.map((p) => [p.id, p]));
+const seen = new Set([post.id]);
+const related = [
+  ...d.related.map((id) => byId.get(id)),
+  ...all.filter((p) => p.data.category === d.category),
+  ...all,
+].filter((p) => p && !seen.has(p.id) && seen.add(p.id)).slice(0, 4);
+// The closest guide becomes the 'Read next' card; the rest fill 'Related guides'.
+const [readNext, ...relatedRest] = related;
+
+const jsonLd: object[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${url}#article`,
+    headline: d.title,
+    description: d.description,
+    url,
+    mainEntityOfPage: url,
+    datePublished: d.pubDate.toISOString(),
+    dateModified: modified.toISOString(),
+    articleSection: catName,
+    inLanguage: LOCALES[lang].hreflang,
+    isPartOf: { '@id': absUrl('/#website') },
+    wordCount: post.body?.split(/\s+/).length,
+    ...(d.reviewedDate ? { lastReviewed: d.reviewedDate.toISOString() } : {}),
+    keywords: [d.keyword, ...d.secondaryKeywords].join(', '),
+    about: d.entities.slice(0, 8).map((name) => ({ '@type': 'Thing', name })),
+    image: { '@type': 'ImageObject', url: absUrl(hero ?? '/og-default.png'), width: 1200, height: 630 },
+    author: authorSchema(author),
+    publisher: { '@id': absUrl('/#organization') },
+    ...(ownerReads > 0 || reviewPool > 0 ? { backstory: researchNote } : {}),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t(lang, 'post.home'), item: absUrl(langHome(lang)) },
+      en
+        ? { '@type': 'ListItem', position: 2, name: categoryName(d.category), item: absUrl(`/category/${d.category}/`) }
+        : { '@type': 'ListItem', position: 2, name: t(lang, 'post.guides'), item: absUrl(`${langHome(lang)}blog/`) },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    ],
+  },
+];
+if (d.faqs.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: d.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
+if (d.products.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: d.title,
+    itemListElement: d.products.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${url}#pick-${p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
+      // Factual product facts only: no Review/Rating markup, because the picks are researched, not tested.
+      item: {
+        '@type': 'Product',
+        name: p.name,
+        ...(p.brand ? { brand: { '@type': 'Brand', name: p.brand } } : {}),
+        ...(p.image?.url ? { image: p.image.url } : {}),
+        description: p.summary,
+      },
+    })),
+  });
+}
+---
+<Base lang={lang} alternates={alternates} translations={translations} title={d.seoTitle ?? d.title} description={d.description} image={hero} imageAlt={d.heroAlt ?? d.title} keywords={[d.keyword, ...d.secondaryKeywords]} section={catName} tags={d.tags} authorUrl={absUrl(authorUrl)} type="article" jsonLd={jsonLd} publishedTime={d.pubDate.toISOString()} modifiedTime={modified.toISOString()}>
+  <div class="wrap">
+    <header class="article-head">
+      <nav class="crumbs" aria-label={t(lang, 'post.breadcrumb')}>
+        {en
+          ? <Fragment><a href="/">Home</a><span aria-hidden="true">/</span><a href={`/category/${d.category}/`}>{categoryName(d.category)}</a></Fragment>
+          : <Fragment><a href={langHome(lang)}>{t(lang, 'post.home')}</a><span aria-hidden="true">/</span><a href={`${langHome(lang)}blog/`}>{t(lang, 'post.guides')}</a></Fragment>}
+      </nav>
+      <h1>{d.title}</h1>
+      <p class="dek">{d.description}</p>
+      <div class="byline">
+        <div class="who">
+          <span class="avatar">{(author.image || author.type !== 'Person') ? <img src={author.image ?? '/favicon.svg'} alt="" width="40" height="40" /> : initials(author.name)}</span>
+          <span>{t(lang, 'post.by')} <a href={authorUrl} rel="author">{author.name}</a></span>
+        </div>
+        <div class="facts">
+          <span>{t(lang, 'post.updated')} <time datetime={modified.toISOString()}>{fmtDate(modified)}</time></span>
+          {d.readingTime && <span>{t(lang, 'post.readingTime', { n: d.readingTime })}</span>}
+        </div>
+      </div>
+      {heroPick ? (
+        <figure class="hero-composite">
+          <div class="hc-frame">
+            <img class="hc-base" src={heroPhoto ? heroPhoto.url : `/images/hero/${heroId}.png?v=${heroBaseVer}`} alt={heroPhoto?.alt ?? d.heroAlt ?? d.title} width="1200" height="630" fetchpriority="high" decoding="async" />
+            <a class="hc-product" href={amazonUrl({ asin: heroPick.asin, query: heroPick.query })} rel={AFFILIATE_REL} target="_blank" tabindex="-1">
+              <img src={heroPick.image!.url} alt={heroPick.name} width={heroPick.image!.width ?? 500} height={heroPick.image!.height ?? 500} decoding="async" />
+            </a>
+          </div>
+          <figcaption>{heroPick.name}. <span class="credit">{t(lang, 'post.productPhoto', { src: imageSource(heroPick, lang) })}</span>{heroPhoto && <span class="credit"> {t(lang, 'post.background')} <Fragment set:html={unsplashCredit(heroPhoto, lang)} /></span>}</figcaption>
+        </figure>
+      ) : hero && (
+        <figure class="hero-fig">
+          <img class="hero-img" src={hero} alt={heroPhoto?.alt ?? d.heroAlt ?? d.title} width="1200" height="630" fetchpriority="high" decoding="async" />
+          {heroPhoto && !d.heroImage && <figcaption class="credit"><Fragment set:html={unsplashCredit(heroPhoto, lang)} /></figcaption>}
+        </figure>
+      )}
+    </header>
+
+    <div class="article-layout">
+      <article>
+        {toc.length > 1 && (
+          <details class="toc-mobile">
+            <summary>{t(lang, 'post.tocSummary', { n: toc.length + (d.products.length > 0 ? 1 : 0) + (d.faqs.length > 0 ? 1 : 0) })}</summary>
+            <ol>
+              {d.products.length > 0 && <li><a href="#top-picks">{t(lang, 'post.topPicks')}</a></li>}
+              {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+              {d.faqs.length > 0 && <li><a href="#faq">{t(lang, 'post.faq')}</a></li>}
+            </ol>
+          </details>
+        )}
+        <p class="disclosure" set:html={t(lang, 'post.disclosure', { link: `<a href="/affiliate-disclosure/">${t(lang, 'post.disclosureLink')}</a>` })} />
+        {ownerReads > 0 && (
+          <section class="research-box" aria-labelledby="how-picked">
+            <h2 id="how-picked">{t(lang, 'post.howPicked')}</h2>
+            <ul>
+              {reviewPool > 0 && <li set:html={t(lang, 'post.pickedPool', { n: `<b>${num(reviewPool)}</b>` })} />}
+              <li set:html={t(lang, 'post.pickedReads', { reads: `<b>${ownerReads}</b>`, sources: `<b>${ownerSources.length}</b>` })} />
+              <li set:html={t(lang, 'post.pickedSpecs', { n: `<b>${d.sources.length}</b>` })} />
+              <li>{t(lang, 'post.pickedNotTested')}</li>
+            </ul>
+          </section>
+        )}
+        <ProductPicks products={d.products} inBody={inBody} style={d.productStyle} lang={lang} />
+        {brands.length > 0 && (
+          <nav class="brand-chips" aria-label={t(lang, 'post.brandsAria')}>
+            <span>{t(lang, 'post.brandsLabel')}</span>
+            {brands.map((b) => <a href={`/brand/${b.slug}/`}>{b.name}</a>)}
+          </nav>
+        )}
+        {d.tldr.length > 0 && (
+          <div class="answer">
+            <h2>{t(lang, 'post.shortAnswer')}</h2>
+            <ul>{d.tldr.map((t) => <li>{t}</li>)}</ul>
+          </div>
+        )}
+        <div class="prose">
+          <Content />
+        </div>
+
+        {d.faqs.length > 0 && (
+          <section class="faq" aria-labelledby="faq">
+            <h2 id="faq">{t(lang, 'post.faq')}</h2>
+            {d.faqs.map((f) => (
+              <details>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </section>
+        )}
+
+        <section class="trust-box" aria-labelledby="trust">
+          <h2 id="trust">{t(lang, 'post.trust')}</h2>
+          <ul>
+            <li>{t(lang, 'post.trust1')}</li>
+            <li>{t(lang, 'post.trust2')}</li>
+            <li>{t(lang, 'post.trust3')}</li>
+          </ul>
+          <p set:html={t(lang, 'post.reviewed', {
+            date: `<time datetime="${reviewed.toISOString()}">${fmtDate(reviewed)}</time>`,
+            research: `<a href="/how-we-research/">${t(lang, 'post.researchLink')}</a>`,
+            policy: `<a href="/editorial-policy/">${t(lang, 'post.policyLink')}</a>`,
+            report: `<a href="/contact/">${t(lang, 'post.reportLink')}</a>`,
+          })} />
+        </section>
+
+        <aside class="brand-cta" aria-labelledby="brand-cta">
+          <h2 id="brand-cta">{t(lang, 'post.ctaTitle')}</h2>
+          <p>{t(lang, 'post.ctaText')}</p>
+          <a class="btn btn-primary btn-sm" href="/safe-buying-checklist/">{t(lang, 'post.ctaButton')}</a>
+        </aside>
+
+        {(d.sources.length > 0 || ownerSources.length > 0) && (
+          <section class="sources" aria-labelledby="sources">
+            <h2 id="sources">{t(lang, 'post.sources')}</h2>
+            {d.sources.length > 0 && <ol>{d.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title}</a></li>)}</ol>}
+            {ownerSources.length > 0 && (
+              <>
+                <h3>{t(lang, 'post.sourcesRead')}</h3>
+                <ol>{ownerSources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.title}</a>{s.reviews ? ` ${t(lang, 'post.reviewsCount', { n: num(s.reviews) })}` : ''}</li>)}</ol>
+              </>
+            )}
+          </section>
+        )}
+
+        <div class="share" aria-label={t(lang, 'post.shareAria')}>
+          <span>{t(lang, 'post.shareText')}</span>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`} target="_blank" rel="noopener">Facebook</a>
+          <a href={`https://x.com/intent/post?url=${encodeURIComponent(url)}&text=${encodeURIComponent(d.title)}`} target="_blank" rel="noopener">X</a>
+          <a href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&media=${encodeURIComponent(absUrl(hero ?? '/images/og/home.png'))}&description=${encodeURIComponent(d.title)}`} target="_blank" rel="noopener">Pinterest</a>
+          <a href={`mailto:?subject=${encodeURIComponent(d.title)}&body=${encodeURIComponent(url)}`}>{t(lang, 'post.email')}</a>
+          <button type="button" class="copy-link" data-url={url} data-copied={en ? undefined : t(lang, 'post.linkCopied')}>{t(lang, 'post.copyLink')}</button>
+        </div>
+
+        {readNext && (
+          <a class="read-next" href={postUrl(readNext)}>
+            <span class="kicker">{t(lang, 'post.readNext')}</span>
+            <strong>{readNext.data.title}</strong>
+            <span>{readNext.data.description}</span>
+          </a>
+        )}
+
+        <div class="author-box">
+          <span class="avatar">{(author.image || author.type !== 'Person') ? <img src={author.image ?? '/favicon.svg'} alt="" width="56" height="56" /> : initials(author.name)}</span>
+          <div>
+            <h2><a href={authorUrl} style="color:inherit">{author.name}</a></h2>
+            <p class="role">{author.role}</p>
+            <p>{author.bio}</p>
+          </div>
+        </div>
+      </article>
+
+      <aside>
+        {toc.length > 1 && (
+          <nav class="toc" aria-label={t(lang, 'post.tocAria')}>
+            <h2>{t(lang, 'post.inThisGuide')}</h2>
+            <ol>
+              {d.products.length > 0 && <li><a href="#top-picks">{t(lang, 'post.topPicks')}</a></li>}
+              {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+              {d.faqs.length > 0 && <li><a href="#faq">{t(lang, 'post.faq')}</a></li>}
+            </ol>
+          </nav>
+        )}
+      </aside>
+    </div>
+
+    {relatedRest.length > 0 && (
+      <section class="section">
+        <div class="section-head"><h2>{t(lang, 'post.related')}</h2></div>
+        <div class="posts">{relatedRest.map((p) => <PostItem post={p!} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>
+
+<script>
+  // Copy-link share button.
+  document.querySelectorAll<HTMLButtonElement>('.copy-link').forEach((b) =>
+    b.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(b.dataset.url!); b.textContent = b.dataset.copied ?? 'Link copied'; } catch { b.textContent = b.dataset.url!; }
+    }),
+  );
+  // Product galleries: clicking a thumbnail swaps the main photo.
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.pg-thumb');
+    if (!btn) return;
+    const fig = btn.closest('.pgallery');
+    const img = fig?.querySelector<HTMLImageElement>('.pg-main img');
+    if (!img || !btn.dataset.src) return;
+    img.src = btn.dataset.src;
+    fig!.querySelectorAll('.pg-thumb').forEach((b) => b.classList.toggle('is-on', b === btn));
+  });
+</script>

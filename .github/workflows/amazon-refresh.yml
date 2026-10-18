@@ -1,0 +1,67 @@
+name: Amazon product refresh
+
+# Daily: refresh product images/ASINs from the Amazon Creators API.
+# Amazon requires product content shown on the site to be refreshed every 24 hours.
+on:
+  schedule:
+    - cron: '41 9 * * *'
+  workflow_dispatch:
+  # New posts get their ASINs and product photos right after they are pushed.
+  push:
+    paths:
+      - 'src/content/blog/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Refresh Amazon data
+        env:
+          AMAZON_TAG: ${{ vars.AMAZON_TAG }}
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_CREATORS_VERSION: ${{ vars.AMAZON_CREATORS_VERSION }}
+        run: npm run amazon:refresh
+      - name: QA agent (all posts, with online checks)
+        env:
+          AMAZON_TAG: ${{ vars.AMAZON_TAG }}
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_CREATORS_VERSION: ${{ vars.AMAZON_CREATORS_VERSION }}
+        run: node scripts/qa.mjs --all --online
+      - name: Validate and build
+        run: |
+          npm run check:content
+          npm run build
+      - name: Commit and push
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "No changes."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git config user.name "best-safe-agents"
+          git config user.email "agents@users.noreply.github.com"
+          git add src/content data/qa data/amazon-unmatched.json
+          git commit -m "content: daily Amazon product refresh"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

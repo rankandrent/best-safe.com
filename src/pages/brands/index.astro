@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getPublishedPosts } from '../../lib/posts';
+import { SITE, absUrl } from '../../lib/site';
+import { BRANDS, brandsIn } from '../../lib/brands.mjs';
+
+const posts = await getPublishedPosts();
+const guideCount = new Map<string, number>();
+for (const post of posts) for (const b of brandsIn(post.data.products)) guideCount.set(b.slug, (guideCount.get(b.slug) ?? 0) + 1);
+const live = BRANDS.filter((b) => guideCount.get(b.slug));
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Safe Brands',
+  description: `The safe brands ${SITE.name} covers, with every guide that features each one.`,
+  url: absUrl('/brands/'),
+  isPartOf: { '@id': absUrl('/#website') },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: live.map((b, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(`/brand/${b.slug}/`), name: `${b.name} Safes` })),
+  },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: absUrl('/') },
+    { '@type': 'ListItem', position: 2, name: 'Brands', item: absUrl('/brands/') },
+  ],
+}];
+---
+<Base title="Safe Brands: Picks and Buying Guides by Brand" description={`Home safes, gun safes and fireproof safes by brand, from SentrySafe and Vaultek to Liberty, Fort Knox and Stack-On, with every ${SITE.name} guide that features each one.`} jsonLd={jsonLd} noindex={live.length === 0} image="/images/og/brands.png" imageAlt={`Safe brands: ${SITE.name}`} keywords={['safe brands', 'best safe brands', ...live.slice(0, 4).map((b) => `${b.name.toLowerCase()} safe`)]}>
+  <div class="wrap">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Brands</span></nav>
+      <h1>Safe Brands</h1>
+      <p class="dek">The safe, lock box and accessory makers we cover, and the guides where their products appear.</p>
+    </header>
+    {live.length ? (
+      <div class="rooms brand-list">
+        {live.map((b) => {
+          const n = guideCount.get(b.slug) ?? 0;
+          return (
+            <a class="room" href={`/brand/${b.slug}/`}>
+              <span><strong>{b.name}</strong><span class="blurb">{b.blurb}</span></span>
+              <span class="count">{`${n} ${n === 1 ? 'guide' : 'guides'}`}</span>
+            </a>
+          );
+        })}
+      </div>
+    ) : <p class="empty">Brand pages appear here as soon as a published guide features that brand. Browse <a href="/blog/">every guide</a> or the <a href="/safe-buying-checklist/">safe buying checklist</a> in the meantime.</p>}
+  </div>
+</Base>

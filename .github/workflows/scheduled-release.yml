@@ -1,0 +1,34 @@
+name: Scheduled release
+
+# Posts are written with a random go-live time (pubDate) later in the day.
+# The static site hides posts until their pubDate, so every hour this checks
+# whether a post came due and, if so, rebuilds and deploys (which also pings
+# IndexNow for the new URL).
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.due.outputs.due }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: due
+        run: node scripts/due-posts.mjs 90 >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: check
+    if: needs.check.outputs.due == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

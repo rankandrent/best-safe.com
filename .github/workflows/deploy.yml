@@ -1,0 +1,142 @@
+name: Deploy to Cloudflare Pages
+
+# Builds the site and deploys it to Cloudflare Pages (project "best-safe"),
+# then attaches the custom domain. Runs on every push to the default branch, on
+# demand, and after each agent publish / Amazon refresh (pushes made by the
+# workflow token don't trigger other workflows, so those call this one directly).
+on:
+  push:
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'push' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RAW_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      # The account ID is an identifier, not a secret; the API token is the secret.
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '62f912a0c185f2042615da812a6e62e6' }}
+      # Zone of DOMAIN. Optional repo variable; when unset it is looked up by name below.
+      CLOUDFLARE_ZONE_ID: ${{ vars.CLOUDFLARE_ZONE_ID }}
+      PROJECT: best-safe
+      DOMAIN: best-safe.com
+    steps:
+      - name: Check Cloudflare credentials
+        id: creds
+        run: |
+          # Tolerate tokens pasted as "CLOUDFLARE_API_TOKEN=...", with quotes, spaces or newlines.
+          TOKEN=$(printf '%s' "$RAW_CF_TOKEN" | tr -d '[:space:]"'"'" | sed 's/^CLOUDFLARE_API_TOKEN=//')
+          if [ -n "$TOKEN" ]; then
+            echo "::add-mask::$TOKEN"
+            echo "CLOUDFLARE_API_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+            echo "Token length after cleanup: ${#TOKEN}"
+          fi
+          if [ -z "$TOKEN" ]; then
+            echo "CLOUDFLARE_API_TOKEN secret not set; skipping deploy."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+            if [ -z "$CLOUDFLARE_ZONE_ID" ]; then
+              ZONE=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=$DOMAIN" -H "Authorization: Bearer $TOKEN" \
+                | python3 -c 'import json,sys; r=(json.load(sys.stdin).get("result") or []); print(r[0]["id"] if r else "")' || true)
+              if [ -n "$ZONE" ]; then echo "CLOUDFLARE_ZONE_ID=$ZONE" >> "$GITHUB_ENV"; echo "Zone for $DOMAIN: $ZONE"; else echo "::warning::No Cloudflare zone found for $DOMAIN (add the site to Cloudflare, or set the CLOUDFLARE_ZONE_ID variable)."; fi
+            fi
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.creds.outputs.ok == 'true'
+
+      - name: Check out the latest default branch
+        if: steps.creds.outputs.ok == 'true'
+        run: |
+          BRANCH=$(git ls-remote --symref origin HEAD | awk '/^ref:/ {sub("refs/heads/", "", $2); print $2}')
+          git fetch --depth=1 origin "$BRANCH"
+          git checkout -q FETCH_HEAD
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          echo "Deploying $BRANCH @ $(git rev-parse --short HEAD)"
+
+      - uses: actions/setup-node@v4
+        if: steps.creds.outputs.ok == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Build
+        if: steps.creds.outputs.ok == 'true'
+        env:
+          AMAZON_TAG: ${{ vars.AMAZON_TAG }}
+        run: |
+          npm ci
+          npm run build
+
+      - name: Create Pages project (first run only)
+        if: steps.creds.outputs.ok == 'true'
+        run: npx --yes wrangler@4.150.0 pages project create "$PROJECT" --production-branch="$BRANCH" || echo "Project create skipped (it may already exist; see the error above if not)."
+
+      - name: Deploy
+        if: steps.creds.outputs.ok == 'true'
+        run: npx --yes wrangler@4.150.0 pages deploy dist --project-name="$PROJECT" --branch="$BRANCH" --commit-dirty=true
+
+      - name: Point DNS at Pages (apex + www)
+        if: steps.creds.outputs.ok == 'true'
+        continue-on-error: true
+        run: |
+          # Replace any leftover A/AAAA/CNAME records for the apex and www with a
+          # proxied CNAME to the Pages project. Removed records are printed so
+          # they can be restored by hand if ever needed.
+          api="https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/dns_records"
+          auth="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          target="$PROJECT.pages.dev"
+          for name in "$DOMAIN" "www.$DOMAIN"; do
+            existing=$(curl -s "$api?name=$name" -H "$auth")
+            if echo "$existing" | grep -q '"success":false'; then
+              echo "::warning::Token cannot read DNS for $name (needs Zone > DNS > Edit): $(echo "$existing" | head -c 300)"; continue
+            fi
+            if echo "$existing" | python3 -c "import json,sys; r=json.load(sys.stdin)['result']; sys.exit(0 if any(x['type']=='CNAME' and x['content']=='$target' for x in r) else 1)"; then
+              echo "$name already points to $target"; continue
+            fi
+            for row in $(echo "$existing" | python3 -c "import json,sys; [print(x['id']+'|'+x['type']+'|'+x['content']) for x in json.load(sys.stdin)['result'] if x['type'] in ('A','AAAA','CNAME')]"); do
+              id=${row%%|*}; rest=${row#*|}
+              echo "Removing old record for $name: ${rest/|/ -> }"
+              curl -s -X DELETE "$api/$id" -H "$auth" | head -c 200; echo
+            done
+            echo "Creating CNAME $name -> $target (proxied)"
+            curl -s -X POST "$api" -H "$auth" -H "Content-Type: application/json" \
+              --data "{\"type\":\"CNAME\",\"name\":\"$name\",\"content\":\"$target\",\"proxied\":true}" | head -c 300; echo
+          done
+
+      - name: Attach custom domains
+        if: steps.creds.outputs.ok == 'true'
+        run: |
+          for d in "$DOMAIN" "www.$DOMAIN"; do
+            curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT/domains" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+              --data "{\"name\":\"$d\"}" | head -c 400; echo
+          done
+          echo "Site: https://$PROJECT.pages.dev"
+          # Ask Cloudflare to re-check any domain that is still pending.
+          for d in "$DOMAIN" "www.$DOMAIN"; do
+            curl -s -X PATCH "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT/domains/$d" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | python3 -c 'import json,sys; d=json.load(sys.stdin); r=d.get("result") or {}; print("retry", r.get("name"), r.get("status"), d.get("errors") or "")' || true
+          done
+          echo "Zone SSL/edge certificate status:"
+          curl -s "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/ssl/certificate_packs?status=all" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | python3 -c 'import json,sys; d=json.load(sys.stdin); [print("  ", c.get("type"), c.get("status"), c.get("hosts")) for c in (d.get("result") or [])] if d.get("success") else print("  (token cannot read SSL:", d.get("errors"), ")")'
+          curl -s "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | python3 -c 'import json,sys; d=json.load(sys.stdin); r=d.get("result") or {}; print("Zone status:", r.get("status"), "| nameservers:", r.get("name_servers"))'
+          echo "Custom domain status:"
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT/domains" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | python3 -c 'import json,sys; d=json.load(sys.stdin); [print("  ", x["name"], "status:", x.get("status"), "| validation:", (x.get("validation_data") or {}).get("status"), (x.get("validation_data") or {}).get("error_message") or "", "| verification:", (x.get("verification_data") or {}).get("status")) for x in d.get("result") or []] if d.get("success") else print(d)'
+
+      - name: Notify search engines (IndexNow + Search Console sitemap)
+        if: steps.creds.outputs.ok == 'true'
+        continue-on-error: true
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/notify-search-engines.mjs

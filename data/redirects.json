@@ -1,0 +1,4 @@
+{
+  "_note": "Old-site URLs that Google indexed. 'to' is used until 'pendingSlug' is published (302); once that post is live the URL 301s to it. scripts/redirects.mjs writes public/_redirects at build time.",
+  "redirects": []
+}

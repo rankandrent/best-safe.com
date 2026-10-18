@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostItem from '../../components/PostItem.astro';
+import { getPublishedPosts } from '../../lib/posts';
+import { SITE, absUrl } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return SITE.categories.map((c) => ({
+    params: { cat: c.slug },
+    props: { category: c, posts: posts.filter((p) => p.data.category === c.slug) },
+  }));
+}
+const { category, posts } = Astro.props;
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: category.name,
+  description: category.blurb,
+  url: absUrl(`/category/${category.slug}/`),
+  isPartOf: { '@id': absUrl('/#website') },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: posts.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(`/blog/${p.id}/`), name: p.data.title })),
+  },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: absUrl('/') },
+    { '@type': 'ListItem', position: 2, name: category.name, item: absUrl(`/category/${category.slug}/`) },
+  ],
+}];
+---
+<Base title={`${category.name}: Buying Guides and Picks`} description={`${category.blurb} Honest ${category.name.toLowerCase()} buying guides, picks and how-tos.`} jsonLd={jsonLd} noindex={posts.length === 0} image={`/images/og/category-${category.slug}.png`} imageAlt={`${category.name} buying guides: ${SITE.name}`} keywords={[`best ${category.name.toLowerCase()}`, ...posts.slice(0, 4).map((p) => p.data.keyword)]}>
+  <div class="wrap">
+    <header class="page-head">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>{category.name}</span></nav>
+      <h1>{category.name}</h1>
+      <p class="dek">{category.blurb}</p>
+    </header>
+    {posts.length ? <div class="posts">{posts.map((p) => <PostItem post={p} />)}</div> : <p class="empty">Guides for this category are being researched right now.</p>}
+  </div>
+</Base>

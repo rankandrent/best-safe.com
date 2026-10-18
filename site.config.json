@@ -1,0 +1,235 @@
+{
+  "name": "Best Safe",
+  "domain": "best-safe.com",
+  "url": "https://best-safe.com",
+  "tagline": "Honest safe buying guides: the right home safe, gun safe or fireproof safe for what you need to protect.",
+  "description": "Honest buying guides for home safes, gun safes and fireproof safes: handgun, document, wall, floor and vehicle safes and lock boxes, compared on lock type, steel, independent fire ratings, access speed and bolt-down options.",
+  "contactEmail": "hello@best-safe.com",
+  "affiliate": {
+    "amazonTag": "mikahtech-20",
+    "amazonDomain": "www.amazon.com"
+  },
+  "locales": {
+    "en": {
+      "path": "",
+      "hreflang": "en-US",
+      "ogLocale": "en_US",
+      "flag": "🇺🇸",
+      "label": "English"
+    },
+    "de": {
+      "path": "de",
+      "hreflang": "de-DE",
+      "ogLocale": "de_DE",
+      "flag": "🇩🇪",
+      "label": "Deutsch"
+    },
+    "es": {
+      "path": "es",
+      "hreflang": "es-ES",
+      "ogLocale": "es_ES",
+      "flag": "🇪🇸",
+      "label": "Español"
+    },
+    "nl": {
+      "path": "nl",
+      "hreflang": "nl-NL",
+      "ogLocale": "nl_NL",
+      "flag": "🇳🇱",
+      "label": "Nederlands"
+    }
+  },
+  "defaultLocale": "en",
+  "oneLinkScript": "",
+  "translations": {
+    "backlogPerDay": 2,
+    "note": "Daily backlog: translate up to backlogPerDay older English posts per language (scripts/routine.mjs translate-queue). New English posts are translated right after they pass QA."
+  },
+  "categories": [
+    {
+      "slug": "handgun-safes",
+      "name": "Handgun & Bedside Safes",
+      "blurb": "Quick-access pistol safes for the nightstand, bedside and closet: biometric, keypad and mechanical locks."
+    },
+    {
+      "slug": "gun-safes",
+      "name": "Gun Safes",
+      "blurb": "Long-gun and rifle safes and cabinets: steel, bolt work, fire ratings, capacity and anchoring."
+    },
+    {
+      "slug": "fireproof-safes",
+      "name": "Fireproof & Document Safes",
+      "blurb": "Fire-resistant safes, chests and document bags for papers, passports, cash and drives, judged on independent fire ratings."
+    },
+    {
+      "slug": "home-safes",
+      "name": "Home Safes",
+      "blurb": "Home and small safes for cash, jewelry and valuables: lock types, bolt-down kits and fire protection."
+    },
+    {
+      "slug": "vehicle-safes",
+      "name": "Car & Vehicle Safes",
+      "blurb": "Console, under-seat and portable gun safes for cars and trucks, with cable or bolt-down mounting."
+    },
+    {
+      "slug": "wall-floor-safes",
+      "name": "Wall & Floor Safes",
+      "blurb": "In-wall, floor and hidden safes: sizes, installation, concealment and what they can and can't protect."
+    },
+    {
+      "slug": "lock-boxes",
+      "name": "Lock Boxes",
+      "blurb": "Key lock boxes, portable lock boxes and cash boxes for keys, medication, phones and small valuables."
+    },
+    {
+      "slug": "safe-accessories",
+      "name": "Safe Accessories & Ammo Storage",
+      "blurb": "Dehumidifiers, lights, organizers, ammo cans and storage that keep a safe and its contents in shape."
+    },
+    {
+      "slug": "safe-guides",
+      "name": "Safe How-Tos",
+      "blurb": "Moving, bolting down, opening and resetting safes, fire ratings explained and safe storage laws."
+    }
+  ],
+  "brands": [
+    {
+      "slug": "sentrysafe",
+      "name": "SentrySafe",
+      "blurb": "Rochester, New York maker of fire-resistant and water-resistant home safes, chests and document boxes."
+    },
+    {
+      "slug": "vaultek",
+      "name": "Vaultek",
+      "blurb": "Maker of quick-access biometric and smart handgun safes, including the LifePod and bedside safe lines."
+    },
+    {
+      "slug": "liberty",
+      "name": "Liberty",
+      "blurb": "Utah gun safe and home safe maker, known for large fire-rated long-gun safes sold through dealers."
+    },
+    {
+      "slug": "fort-knox",
+      "name": "Fort Knox",
+      "blurb": "Utah maker of heavy gun safes, vault doors and handgun safes with mechanical and electronic locks."
+    },
+    {
+      "slug": "cannon",
+      "name": "Cannon",
+      "blurb": "Gun safe brand offering fire-rated long-gun and home safes widely sold at big-box and farm stores."
+    },
+    {
+      "slug": "stack-on",
+      "name": "Stack-On",
+      "blurb": "Maker of steel gun cabinets, gun safes, handgun safes and storage, aimed at budget-minded buyers."
+    },
+    {
+      "slug": "hornady",
+      "name": "Hornady",
+      "blurb": "Nebraska ammunition maker whose security line includes RAPiD quick-access handgun safes and vehicle safes."
+    },
+    {
+      "slug": "first-alert",
+      "name": "First Alert",
+      "blurb": "Home safety brand selling fire-resistant safes, document chests and waterproof boxes."
+    },
+    {
+      "slug": "honeywell",
+      "name": "Honeywell",
+      "blurb": "Brand name on a range of licensed fire-resistant and waterproof home safes and security chests."
+    },
+    {
+      "slug": "barska",
+      "name": "Barska",
+      "blurb": "California brand selling biometric safes, keypad safes, rifle cabinets and wall safes."
+    },
+    {
+      "slug": "gunvault",
+      "name": "GunVault",
+      "blurb": "Handgun safe maker known for its MicroVault and SpeedVault quick-access pistol safes."
+    },
+    {
+      "slug": "rpnb",
+      "name": "RPNB",
+      "blurb": "Budget brand selling biometric handgun safes and fingerprint lock boxes."
+    }
+  ],
+  "schedule": {
+    "startDate": null,
+    "timezone": "America/New_York",
+    "weeklyPostsPerDay": [],
+    "randomPhase": {
+      "min": 4,
+      "max": 5,
+      "weights": [
+        1,
+        1
+      ]
+    },
+    "maxPostsPerRun": 5,
+    "publishHoursLocal": [
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21
+    ],
+    "releaseWindowLocal": {
+      "startHour": 9.5,
+      "endHour": 21.5,
+      "minGapMinutes": 90
+    }
+  },
+  "organization": {
+    "legalName": "Best Safe",
+    "foundingDate": "2026",
+    "sameAs": [],
+    "editorialPolicyUrl": "/editorial-policy/"
+  },
+  "authors": [
+    {
+      "slug": "editorial-team",
+      "type": "Organization",
+      "name": "Best Safe Editorial Team",
+      "role": "Research & editorial",
+      "bio": "We research home safes, gun safes and fireproof safes for people protecting firearms, documents and valuables: lock types (mechanical dial, electronic keypad, biometric, key), steel gauge, bolt work and pry resistance, independent fire ratings from UL or Intertek (ETL), how fast you can get in under stress, bolt-down options and legal storage rules. Every guide follows our published research process and editorial policy.",
+      "expertise": [
+        "Gun safes and handgun safes",
+        "Fireproof and document safes",
+        "Safe locks and fire ratings",
+        "Home security storage"
+      ],
+      "image": null,
+      "sameAs": []
+    }
+  ],
+  "indexing": {
+    "indexNowKey": "f9a181f907b18fa2d2a8d7fae15daa93",
+    "gscSiteUrl": "sc-domain:best-safe.com",
+    "recentDays": 2
+  },
+  "funnel": {
+    "targetMix": {
+      "tofu": 0.3,
+      "mofu": 0.3,
+      "bofu": 0.4
+    },
+    "window": 10
+  },
+  "keywordRules": {
+    "maxVolume": 2500,
+    "minWords": 3,
+    "maxKd": 10,
+    "minOwnerVolume": 10
+  },
+  "qa": {
+    "requiredFrom": "2026-10-18T00:00:00Z",
+    "note": "Every post on this site must pass full QA (structure, facts and voice) before it goes live.",
+    "voiceRequiredFrom": "2026-10-18T00:00:00Z",
+    "ownersRequiredFrom": "2026-10-18T00:00:00Z",
+    "styleRequiredFrom": "2026-10-18T00:00:00Z"
+  }
+}

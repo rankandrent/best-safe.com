@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostItem from '../../components/PostItem.astro';
+import { getPublishedPosts } from '../../lib/posts';
+import { SITE, absUrl, authorSchema, initials } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return SITE.authors.map((a) => ({ params: { slug: a.slug }, props: { author: a, posts: posts.filter((p) => p.data.author === a.slug) } }));
+}
+const { author, posts } = Astro.props;
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  url: absUrl(`/authors/${author.slug}/`),
+  mainEntity: authorSchema(author),
+}];
+---
+<Base title={`${author.name}: ${author.role}`} description={author.bio.slice(0, 158)} jsonLd={jsonLd}>
+  <div class="wrap">
+    <header class="page-head">
+      <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px">
+        <span class="avatar" style="width:72px;height:72px;font-size:1.2rem">{(author.image || author.type !== 'Person') ? <img src={author.image ?? '/favicon.svg'} alt={author.name} width="72" height="72" /> : initials(author.name)}</span>
+        <div><h1 style="margin:0;font-size:var(--s4)">{author.name}</h1><p class="muted" style="margin:4px 0 0">{author.role}</p></div>
+      </div>
+      <p class="dek">{author.bio}</p>
+      {author.expertise.length > 0 && <p><strong>Covers:</strong> {author.expertise.join(', ')}.</p>}
+      {author.sameAs.length > 0 && <p>Find us on: {author.sameAs.map((u, i) => <>{i > 0 && ', '}<a href={u} rel="me noopener" target="_blank">{new URL(u).hostname.replace('www.', '')}</a></>)}</p>}
+      <p>Every guide follows our <a href="/how-we-research/">research process</a> and <a href="/editorial-policy/">editorial policy</a>.</p>
+    </header>
+    <section class="section">
+      <div class="section-head"><h2>Guides by {author.name}</h2></div>
+      {posts.length ? <div class="posts">{posts.map((p) => <PostItem post={p} />)}</div> : <p class="empty">No guides yet.</p>}
+    </section>
+  </div>
+</Base>

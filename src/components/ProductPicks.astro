@@ -1,0 +1,52 @@
+---
+// "Our top picks" summary (magazine buying-guide style) plus full product
+// blocks for any product the article body doesn't already cover with a
+// "### Product name" section (those get their block from remark-product-figures).
+import { amazonUrl, AFFILIATE_REL } from '../lib/affiliate.mjs';
+import { productBlockHtml } from '../lib/remark-product-figures.mjs';
+import { productScore } from '../lib/score.mjs';
+import { t, localeTag } from '../lib/i18n';
+interface Img { url: string; width?: number; height?: number }
+interface Product {
+  name: string; brand?: string; query: string; asin?: string; badge: string;
+  summary: string; renterNote: string; pros: string[]; cons: string[];
+  image?: Img; gallery?: Img[]; specs?: Record<string, string>; scores?: Record<string, number>; scoreNote?: string;
+}
+interface Props { products: Product[]; inBody?: string[]; style?: 'pros-cons' | 'paragraph' | 'specs'; lang?: string }
+const { products, inBody = [], style = 'pros-cons', lang = 'en' } = Astro.props;
+const fmtScore = (n: number) => n.toLocaleString(localeTag(lang), { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const rest = products.filter((p) => !inBody.includes(p.name));
+const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+---
+{products.length > 0 && (
+  <section class="toppicks" aria-labelledby="top-picks">
+    <h2 id="top-picks">{t(lang, products.length > 1 ? 'post.topPicks' : 'post.topPick')}</h2>
+    <ol>
+      {products.map((p) => (
+        <li>
+          {p.image ? <img src={p.image.url} alt="" width="64" height="64" loading="eager" decoding="async" /> : <span class="tp-ph" aria-hidden="true">{(p.brand ?? p.name).trim().charAt(0).toUpperCase()}</span>}
+          <div class="tp-text">
+            <span class="tp-badge">{p.badge}{productScore(p.scores) != null && <span class="tp-score"> · {fmtScore(productScore(p.scores)!)}/5</span>}</span>
+            <a class="tp-name" href={amazonUrl({ asin: p.asin, query: p.query })} rel={AFFILIATE_REL} target="_blank">{p.name}</a>
+          </div>
+          <div class="tp-actions">
+            {inBody.includes(p.name) && <a class="btn btn-quiet btn-sm tp-go" href={`#pick-${slug(p.name)}`}>{t(lang, 'picks.jump')}</a>}
+            <a class="btn btn-buy btn-sm tp-buy" href={amazonUrl({ asin: p.asin, query: p.query })} rel={AFFILIATE_REL} target="_blank">{t(lang, 'picks.checkPrice')}</a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+{rest.length > 0 && (
+  <section class="picks-rest">
+    {rest.map((p) => (
+      <div class="pick-card">
+        <p class="pblock-badge">{p.badge}</p>
+        <h3>{p.name}</h3>
+        <p class="pick-summary">{p.summary}</p>
+        <Fragment set:html={productBlockHtml(p, { style, lang })} />
+      </div>
+    ))}
+  </section>
+)}

@@ -1,0 +1,67 @@
+name: Unsplash photos
+
+# Adds a related Unsplash hero photo and up to two inline photos to every post
+# that has none yet (agents/unsplash-images.mjs). Needs the
+# UNSPLASH_ACCESS_KEY repository secret; skips quietly without it.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Replace photos on every post (true/false)'
+        required: false
+        default: 'false'
+  push:
+    paths:
+      - 'src/content/blog/**'
+  schedule:
+    - cron: '23 10 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    timeout-minutes: 15
+    env:
+      UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      UNSPLASH_APP_NAME: ${{ vars.UNSPLASH_APP_NAME || github.event.repository.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check key
+        id: key
+        run: if [ -n "$UNSPLASH_ACCESS_KEY" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "UNSPLASH_ACCESS_KEY secret not set; skipping."; fi
+      - uses: actions/setup-node@v4
+        if: steps.key.outputs.ok == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - if: steps.key.outputs.ok == 'true'
+        run: npm ci
+      - name: Add photos
+        if: steps.key.outputs.ok == 'true'
+        run: node agents/unsplash-images.mjs ${{ inputs.force == 'true' && '--force' || '' }}
+      - name: Validate and build
+        if: steps.key.outputs.ok == 'true'
+        run: |
+          npm run check:content
+          npm run build
+      - name: Commit and push
+        id: commit
+        if: steps.key.outputs.ok == 'true'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "No changes."; exit 0; fi
+          git config user.name "${{ github.event.repository.name }}-agents"
+          git config user.email "agents@users.noreply.github.com"
+          git add src/content data/unsplash-used.json
+          git commit -m "content: add Unsplash photos"
+          git pull --rebase
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+

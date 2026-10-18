@@ -1,0 +1,68 @@
+---
+import Logo from './Logo.astro';
+import { SITE } from '../lib/site';
+import { getPublishedPosts } from '../lib/posts';
+import { t, tOr, LANGS, LOCALES, langHome, normLang } from '../lib/i18n';
+interface Props {
+  lang?: string;
+  /** On an article: its published language versions (lang -> path). Elsewhere the switcher links to each language home. */
+  translations?: Partial<Record<string, string>>;
+}
+const lang = normLang(Astro.props.lang);
+const { translations } = Astro.props;
+// Category menu entries follow the English guides (category pages are English-only).
+const used = new Set((await getPublishedPosts()).map((p) => p.data.category));
+// Categories that are not in the main nav show up in the menu once they have a guide.
+const extra = SITE.categories.filter((c) => ['lock-boxes', 'safe-accessories', 'safe-guides'].includes(c.slug) && used.has(c.slug));
+const path = Astro.url.pathname;
+const links = [
+  { href: '/category/handgun-safes/', label: t(lang, 'nav.handgun') },
+  { href: '/category/gun-safes/', label: t(lang, 'nav.gun') },
+  { href: '/category/fireproof-safes/', label: t(lang, 'nav.fireproof') },
+  { href: '/category/home-safes/', label: t(lang, 'nav.home') },
+  { href: '/category/vehicle-safes/', label: t(lang, 'nav.vehicle') },
+  { href: '/category/wall-floor-safes/', label: t(lang, 'nav.wallFloor') },
+  { href: '/brands/', label: t(lang, 'nav.brands') },
+];
+const home = langHome(lang);
+// On an article: the languages that have this article. Elsewhere: the current language plus every
+// language with at least one published post (a language without posts has an empty home page).
+const withPosts = new Set<string>();
+if (!translations) for (const l of LANGS) if (l === lang || (await getPublishedPosts(l)).length) withPosts.add(l);
+const switcher = LANGS.filter((l) => (translations ? translations[l] : withPosts.has(l))).map((l) => ({
+  lang: l,
+  href: translations ? translations[l]! : langHome(l),
+  ...LOCALES[l],
+}));
+const current = LOCALES[lang];
+---
+<header class="site-header">
+  <div class="wrap">
+    <Logo href={home} label={t(lang, 'logo.aria')} />
+    <nav class="nav" aria-label={t(lang, 'nav.main')}>
+      {links.map((l) => <a href={l.href} aria-current={path.startsWith(l.href) || (l.href === '/brands/' && path.startsWith('/brand/')) ? 'page' : undefined}>{l.label}</a>)}
+      <a href="/search/" class="nav-search" aria-label={t(lang, 'nav.searchAria')}>{t(lang, 'nav.search')}</a>
+    </nav>
+    {switcher.length > 1 && (
+      <details class="lang-switch">
+        <summary aria-label={`${t(lang, 'lang.label')}: ${current.label}`}><span class="flag" aria-hidden="true">{current.flag}</span><span class="lang-code">{lang.toUpperCase()}</span></summary>
+        <ul class="lang-panel" role="list">
+          {switcher.map((s) => (
+            <li><a href={s.href} hreflang={s.hreflang} lang={s.hreflang} aria-current={s.lang === lang ? 'true' : undefined}><span class="flag" aria-hidden="true">{s.flag}</span>{s.label}</a></li>
+          ))}
+        </ul>
+      </details>
+    )}
+    <details class="menu">
+      <summary>{t(lang, 'nav.menu')}</summary>
+      <div class="menu-panel">
+        {links.map((l) => <a href={l.href}>{l.label}</a>)}
+        {extra.map((c) => <a href={`/category/${c.slug}/`}>{tOr(lang, `cat.${c.slug}`, c.name)}</a>)}
+        <a href={`${home}blog/`}>{t(lang, 'nav.allGuides')}</a>
+        <a href="/safe-buying-checklist/">{t(lang, 'nav.checklist')}</a>
+        <a href="/search/">{t(lang, 'nav.search')}</a>
+        <a href="/about/">{t(lang, 'nav.about')}</a>
+      </div>
+    </details>
+  </div>
+</header>

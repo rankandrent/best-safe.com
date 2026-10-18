@@ -1,0 +1,137 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, absUrl } from '../lib/site';
+
+// The Best Safe buying checklist: a branded, reusable tool buyers come back to
+// before choosing a home safe, gun safe, fireproof safe or lock box. Progress is
+// kept in the visitor's own browser.
+const sections = [
+  {
+    id: 'needs',
+    title: 'Start with what you store',
+    items: [
+      ['List exactly what goes inside: handguns, long guns with optics, documents and passports, cash, jewelry, hard drives or keys.', ''],
+      ['Decide what you need protection from most: kids and visitors, burglary, fire, water, or all of them. One safe rarely does everything equally well.', ''],
+      ['Need a handgun reachable fast at night? Look at quick-access bedside safes first.', '/category/handgun-safes/', 'Handgun & bedside safes'],
+      ['Storing papers and drives? Put the fire rating ahead of everything else.', '/category/fireproof-safes/', 'Fireproof & document safes'],
+    ],
+  },
+  {
+    id: 'lock',
+    title: 'Lock and access',
+    items: [
+      ['Pick a lock type: mechanical dial (no batteries, slower), electronic keypad (fast, needs batteries), biometric (fast when it reads, check owner reports) or key.', ''],
+      ['Check the backup entry: a key, an override code or external battery terminals, and plan where the backup key lives (never inside the safe).', ''],
+      ['For quick access, check keypad backlighting, whether the door springs open, and how owners rate the fingerprint reader.', ''],
+    ],
+  },
+  {
+    id: 'build',
+    title: 'Steel and build',
+    items: [
+      ['Check the steel gauge or wall thickness: the lower the gauge number, the thicker the steel (12-gauge is thicker than 16-gauge).', ''],
+      ['Look at the door: number and diameter of locking bolts, hinge design, and whether there are obvious pry points at the edges.', ''],
+      ['Look for independent burglary ratings or listings (such as UL RSC or the California DOJ firearm safety device roster) rather than marketing words like "heavy-duty".', '/category/gun-safes/', 'Gun safes'],
+    ],
+  },
+  {
+    id: 'fire',
+    title: 'Fire and water protection',
+    items: [
+      ['Check who rated the fire protection: UL or Intertek (ETL) certification, or only the maker\'s own claim.', ''],
+      ['Read the rating fully: the duration (30 minutes, 1 hour, 2 hours), the temperature, and whether it protects paper or digital media.', ''],
+      ['Need water protection too? Check whether it is independently verified and for what depth or time.', ''],
+    ],
+  },
+  {
+    id: 'size',
+    title: 'Size, placement and anchoring',
+    items: [
+      ['Measure the spot (closet floor, nightstand, wall cavity, vehicle console) and compare with exterior dimensions and door swing.', '/category/wall-floor-safes/', 'Wall & floor safes'],
+      ['Compare interior dimensions with your largest item, and leave room for what you add later.', ''],
+      ['Plan the anchoring: pre-drilled holes, included bolts, and a floor or wall that can take them. A small safe that isn\'t bolted down can be carried away.', '/category/home-safes/', 'Home safes'],
+      ['For a car or truck, check the mounting bracket or security cable and where it fits in your vehicle.', '/category/vehicle-safes/', 'Car & vehicle safes'],
+    ],
+  },
+  {
+    id: 'care',
+    title: 'Law and everyday care',
+    items: [
+      ['Check your state and local firearm storage laws, including rules for storing guns in vehicles.', '/category/safe-guides/', 'Safe how-tos'],
+      ['Plan for humidity: a dehumidifier or desiccant protects guns and papers inside a sealed safe.', '/category/safe-accessories/', 'Safe accessories'],
+      ['Write down the code, serial number and support contact, and keep them somewhere secure outside the safe.', ''],
+    ],
+  },
+];
+const total = sections.reduce((n, s) => n + s.items.length, 0);
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: `The ${SITE.name} Buying Checklist`,
+  url: absUrl('/safe-buying-checklist/'),
+  description: 'A free safe buying checklist: what you store, lock type and backup entry, steel gauge, bolt work, independent fire ratings, size, anchoring and storage laws.',
+  publisher: { '@id': absUrl('/#organization') },
+  isPartOf: { '@id': absUrl('/#website') },
+}];
+---
+<Base title="Safe Buying Checklist: 20 Things to Check Before You Buy" description="The free Best Safe buying checklist: lock type and backup entry, steel gauge, bolt work, independent fire ratings, size, bolt-down anchoring and storage laws." jsonLd={jsonLd} image="/images/og/safe-buying-checklist.png" imageAlt="The Best Safe buying checklist" keywords={["safe buying checklist", "how to choose a safe", "what to look for in a gun safe", "safe buying guide"]}>
+  <div class="wrap checklist">
+    <header class="page-head">
+      <p class="kicker">Free buyer's tool</p>
+      <h1 style="font-size:var(--s4)">The {SITE.name} Buying Checklist</h1>
+      <p class="lead">Everything we check before recommending a safe, from the lock and the steel to the fire rating and the bolts that hold it down. Tick items off as you compare models; your progress stays in this browser.</p>
+      <div class="checklist-bar">
+        <div class="meter" aria-hidden="true"><span id="meter-fill"></span></div>
+        <p id="progress" aria-live="polite">0 of {total} done</p>
+        <button class="btn btn-quiet btn-sm" type="button" id="print">Print</button>
+        <button class="btn btn-quiet btn-sm" type="button" id="reset">Reset</button>
+      </div>
+    </header>
+
+    {sections.map((s) => (
+      <section class="check-group" aria-labelledby={s.id}>
+        <h2 id={s.id}>{s.title}</h2>
+        <ul>
+          {s.items.map(([text, href, label], i) => (
+            <li>
+              <label>
+                <input type="checkbox" data-key={`${s.id}-${i}`} />
+                <span>{text}{href && <> <a href={href}>{label ? `See ${label.toLowerCase()}` : 'Read the guide'}</a></>}</span>
+              </label>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="muted" style="padding-bottom:40px">Bookmark this page or search "{SITE.name} checklist" to find it again before your next upgrade. Want to know how we weigh these? See <a href="/how-we-score/">how we score</a>.</p>
+  </div>
+</Base>
+
+<script define:vars={{ total }}>
+  const KEY = 'bs-checklist-v1';
+  let done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch {}
+  const boxes = [...document.querySelectorAll('.checklist input[type=checkbox]')];
+  const update = () => {
+    const n = boxes.filter((b) => b.checked).length;
+    document.getElementById('progress').textContent = `${n} of ${total} done`;
+    document.getElementById('meter-fill').style.width = `${(n / total) * 100}%`;
+  };
+  boxes.forEach((b) => {
+    b.checked = !!done[b.dataset.key];
+    b.addEventListener('change', () => {
+      done[b.dataset.key] = b.checked;
+      try { localStorage.setItem(KEY, JSON.stringify(done)); } catch {}
+      update();
+    });
+  });
+  document.getElementById('print').addEventListener('click', () => window.print());
+  document.getElementById('reset').addEventListener('click', () => {
+    boxes.forEach((b) => (b.checked = false));
+    done = {};
+    try { localStorage.removeItem(KEY); } catch {}
+    update();
+  });
+  update();
+</script>

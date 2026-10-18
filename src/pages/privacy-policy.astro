@@ -1,0 +1,17 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Privacy policy" description="Best Safe privacy policy: what data we collect, cookies, affiliate tracking and your choices." updated="October 18, 2026">
+  <p>This policy explains how {SITE.name} ("we", "us") handles information when you visit {SITE.domain}.</p>
+  <h2>Information we collect</h2>
+  <p>We do not require accounts and do not sell personal information. Our hosting provider (Cloudflare) may process standard server logs such as IP address, browser type and pages visited for security and performance. We may use privacy-friendly, aggregate analytics to understand which guides are useful.</p>
+  <h2>Cookies and affiliate links</h2>
+  <p>When you click an affiliate link (for example, to Amazon), the retailer may set cookies to attribute your purchase to us. Those cookies are governed by the retailer's own privacy policy. Third-party fonts are loaded from Google Fonts, which may receive your IP address.</p>
+  <h2>Your choices</h2>
+  <p>You can block or delete cookies in your browser settings. California, Virginia, Colorado and other U.S. state residents may request information about data we hold by emailing <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>; in practice we hold no personal profile about visitors.</p>
+  <h2>Children</h2>
+  <p>This site is not directed to children under 13 and we do not knowingly collect their information.</p>
+  <h2>Changes</h2>
+  <p>We may update this policy; the date above shows the latest revision.</p>
+</Page>

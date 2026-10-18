@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../lib/site';
+---
+<Page title="Contact us" description="Contact the Best Safe editorial team with questions, corrections or product suggestions about our safe buying guides.">
+  <p>We read every message. For questions about a guide, corrections, or product suggestions, email <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>.</p>
+  <p>We can't help open a safe that is locked, recover lost combinations or give legal advice on firearm storage. For a locked safe, contact the manufacturer's support team or a licensed locksmith with proof of ownership; for storage law, check your state and local rules.</p>
+  <p>We do not accept payment for reviews or placement. Brands may send product information, but inclusion is never guaranteed.</p>
+</Page>
