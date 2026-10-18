@@ -235,8 +235,10 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
 
   // --- SEO
   const briefFile = path.join(BRIEFS, `${post.slug}.json`);
-  if (fs.existsSync(briefFile)) {
-    const brief = JSON.parse(fs.readFileSync(briefFile, 'utf8'));
+  const briefData = fs.existsSync(briefFile) ? JSON.parse(fs.readFileSync(briefFile, 'utf8')) : null;
+  // Older posts may have a brief holding only serpTitles/titlePattern; the audit needs a full semantic brief.
+  if (briefData?.entities) {
+    const brief = briefData;
     const r = audit({
       item: { keyword: d.keyword, secondaryKeywords: d.secondaryKeywords ?? [], articleType: d.articleType },
       brief,

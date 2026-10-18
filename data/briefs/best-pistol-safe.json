@@ -53,5 +53,18 @@
     "usesComparisonTable": true,
     "usesFaq": true,
     "usesBuyingGuide": true
-  }
+  },
+  "serpTitles": [
+    {"position":1,"url":"https://www.topfirearmreviews.com/post/best-handgun-safes","title":"Best Pistol Safes In 2026: Biometric & Keypad Bedside Models"},
+    {"position":2,"url":"https://www.reddit.com/r/CCW/comments/1hheao0/recommend_me_a_quality_handgun_safe/","title":"Recommend me a quality handgun safe. : r/CCW - Reddit"},
+    {"position":3,"url":"https://www.pewpewtactical.com/best-gun-safes/","title":"15 Best Gun Safes 2026: Every Type & Budget Tested"},
+    {"position":4,"url":"https://gununiversity.com/best-biometric-gun-safes/","title":"Best Biometric Gun Safe 2026: [Hands-On Tested]"},
+    {"position":5,"url":"https://community.usconcealedcarry.com/t/best-gun-safe-for-quick-access-daily-use-need-honest-advice/125955","title":"Best Gun Safe for Quick Access & Daily Use? Need Honest Advice"},
+    {"position":6,"url":"https://www.americanfirearms.org/best-pistol-safes/","title":"Top Handgun Safes: Portable, Multi Gun & Quick Access Picks"},
+    {"position":7,"url":"https://deansafe.com/collections/handgun-safes?srsltid=AU7gw4V0ujXs2xnrYZI_uH8OqfJFvnpe9boNl59XuQ8jYSVEmHcXFavA","title":"Handgun Safes and Pistol Safes - Dean Safe"},
+    {"position":8,"url":"https://armedinmichigan.com/7-best-bedside-handgun-safes-for-quick-access-tested/","title":"7 Best Bedside Handgun Safes for Quick Access [Tested]"},
+    {"position":9,"url":"https://www.safeandvaultstore.com/collections/handgun-and-pistol-safes?srsltid=AU7gw4WBrAmaULAe9X_3Gvgq0KiGlVg6KBxrIe-Kf_NL46iTDnzj4IKH","title":"Handgun & Pistol Safes: Biometric & Quick-Access"},
+    {"position":10,"url":"https://www.youtube.com/watch?v=0rOUGTfJTMg&vl=en","title":"Fort Knox Pistol Safe, Voted Best Handgun Safe for 2026 - YouTube"}
+  ],
+  "titlePattern": {"keywordAtStart":1,"withYear":4,"withNumber":2,"commonModifiers":["handgun safes","quick access","biometric & keypad","bedside","2026"],"gap":"Reliable backup entry and anchoring the safe for home and travel"}
 }

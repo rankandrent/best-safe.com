@@ -150,5 +150,18 @@
     { "name": "ONNAIS Iron SE Biometric Gun Safe", "pages": ["https://www.talkofthehouse.com/best-biometric-gun-safes/", "https://progressiveradionetwork.com/best-biometric-gun-safes/"] },
     { "name": "Vaultek LifePod 20 Biometric", "pages": ["https://fieldandstream.com/gear/best-biometric-gun-safes", "https://www.talkofthehouse.com/best-biometric-gun-safes/", "https://www.colsontaskforce.org/best-biometric-gun-safes/"] },
     { "name": "Barska Biometric Rifle Safe (AX11652)", "pages": ["https://fieldandstream.com/stories/guns/best-biometric-gun-safes-2", "https://gununiversity.com/best-biometric-gun-safes/"] }
-  ]
+  ],
+  "serpTitles": [
+    {"position":1,"url":"https://www.topfirearmreviews.com/post/best-handgun-safes","title":"Best Pistol Safes In 2026: Biometric & Keypad Bedside Models"},
+    {"position":2,"url":"https://gununiversity.com/best-biometric-gun-safes/","title":"Best Biometric Gun Safe 2026: [Hands-On Tested]"},
+    {"position":3,"url":"https://www.reddit.com/r/guns/comments/1jkivh1/biometric_gun_safes/","title":"Biometric gun safes? - Reddit"},
+    {"position":4,"url":"https://www.sentrysafe.com/product/QAP1BLX","title":"SentrySafe - Quick Access Biometric Pistol Safe with Digital Keypad and ..."},
+    {"position":5,"url":"https://rpnbsafe.us/?srsltid=AU7gw4VXE599TlX0AyE4fWA3KTs4grOnsBtWX8bZ5h89sTAEh2PYc2n7","title":"RPNB Safe: Biometric Handgun & Pistol Safe, Home Safe, Rifle Safe"},
+    {"position":6,"url":"https://onnaisafe.com/blogs/gun-safes/best-biometric-gun-safes-2025-fingerprint-quick-access?srsltid=AU7gw4WD8C541pkM7XjGaIxWOQbBpXrTBF1XkPRYBjsP7OwLSb-KFMH5","title":"Best Biometric Gun Safes 2025 | Fingerprint Quick Access - ONNAIS"},
+    {"position":7,"url":"https://www.youtube.com/watch?v=ks4FN-adrfg&vl=en-US","title":"Best Biometric Gun Safe for Handguns? | BE-TECH Review & Demo"},
+    {"position":8,"url":"https://www.colsontaskforce.org/best-biometric-gun-safes/","title":"6 Best Biometric Gun Safes: (Finger Tested & Approved 2026)"},
+    {"position":9,"url":"https://www.amazon.com/Biometric-Fingerprint-Cloakroom-Nightstand-BILLCONCH/dp/B0B6HYSFBF","title":"BILLCONCH Gun Safe,Biometric Fingerprint Gun Safe for Handgun ..."},
+    {"position":10,"url":"https://fieldandstream.com/stories/guns/best-biometric-gun-safes-2","title":"The Best Biometric Gun Safes Worth Buying - FieldandStream.com"}
+  ],
+  "titlePattern": {"keywordAtStart":3,"withYear":4,"withNumber":1,"commonModifiers":["fingerprint","2026","quick access","hands-on tested (claim we can't make)"],"gap":"The biometric safe recall to check and what happens when the battery dies (backup entry)"}
 }

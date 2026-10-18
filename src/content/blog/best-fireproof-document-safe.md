@@ -1,5 +1,5 @@
 ---
-title: 'Best Fireproof Document Safe for Papers, Files and Passports (2026)'
+title: 'Best Fireproof Document Safe (2026) – 3 Picks for Letter and Legal'
 seoTitle: 'Best Fireproof Document Safe (2026) – 3 UL Fire-Rated Picks'
 description: >-
   The best fireproof document safe for deeds, passports and file folders: 3

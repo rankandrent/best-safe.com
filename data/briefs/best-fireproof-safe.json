@@ -317,5 +317,18 @@
         "https://markus-hagner-photography.com/best-fireproof-safes/"
       ]
     }
-  ]
+  ],
+  "serpTitles": [
+    {"position":1,"url":"https://store.sentrysafe.com/collections/water-fire-safes?srsltid=AU7gw4Umy5Q62pv4RMOfeRNyRV5ysrg5o3c1MnNRh_Stqbyz0eQLoeol","title":"Water & Fireproof Safes - SentrySafe Store"},
+    {"position":2,"url":"https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/","title":"The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter"},
+    {"position":3,"url":"https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/","title":"Advice on buying a small fireproof safe, please. - Reddit"},
+    {"position":4,"url":"https://www.businessinsider.com/guides/home/best-home-safe","title":"The Best Home Safes for Flood, Fire, and Theft Protection"},
+    {"position":5,"url":"https://deansafe.com/collections/fire-safes-for-the-home?srsltid=AU7gw4WA0iIPuxyspbqKx5gWrqbTracNaecONz5R9XEGZ18MKKXo3G-R","title":"Fire Safes - Dean Safe"},
+    {"position":6,"url":"https://www.topfirearmreviews.com/post/best-home-safes","title":"Best Home Safes [Hands-On]: All Sizes & Budgets"},
+    {"position":7,"url":"https://mammothsafes.com/collections/fireproof-safes?srsltid=AU7gw4WffgKNCWYXIKSZR6ORONvIqCzSOI8hoGSkiSuwLGX51gucVa_s","title":"Best Fireproof Safe Prices - Mammoth Safes"},
+    {"position":8,"url":"https://www.elitefourum.com/t/fireproof-safes-which-brand/18648","title":"Fireproof safes, which brand? - General - Elite Fourum"},
+    {"position":9,"url":"https://www.safeandvaultstore.com/collections/portable-fireproof-lock-boxes?srsltid=AU7gw4W2Me0_2wWVwSxxtwcbd4WqA2xncOiu0MDGFlLTxzDylb_SNjVj","title":"Best Rated Portable Fireproof Safes, Chests & Lock Boxes for Documents"},
+    {"position":10,"url":"https://www.thesafekeeper.com/collections/fireproof-safes?srsltid=AU7gw4Uu2dFkQa4pBtFrjaQpYZAemxR3JsVOp7KD2lBfH8HE2hQRx2Lr","title":"Large & Small Fireproof Safes for Home Use - The Safe Keeper"}
+  ],
+  "titlePattern": {"keywordAtStart":1,"withYear":1,"withNumber":1,"commonModifiers":["water & fireproof","home safes","fire safes for the home"],"gap":"What a UL fire rating really means for home use"}
 }

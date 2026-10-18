@@ -301,5 +301,18 @@
         "https://www.safeandvaultstore.com/collections/sentry/products/sentry-1170-fire-safe-security-file"
       ]
     }
-  ]
+  ],
+  "serpTitles": [
+    {"position":1,"url":"https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/","title":"The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter"},
+    {"position":2,"url":"https://www.reddit.com/r/Safes/comments/1hgiwn3/in_search_of_a_reasonably_priced_nonsucky/","title":"In search of a reasonably priced, non-sucky fire-resistant safe mainly ..."},
+    {"position":3,"url":"https://www.sentrysafe.com/products/products?bestOfBest=true","title":"Find The Safe That's Right For You | SentrySafe"},
+    {"position":4,"url":"https://www.amazon.com/clp/B00GE57DFK","title":"SentrySafe Black Fireproof and Waterproof Safe, File ... - Amazon.com"},
+    {"position":5,"url":"https://www.thespruce.com/best-fireproof-safes-4120066","title":"The 6 Best Fireproof Safes of 2026, Tested and Reviewed - The Spruce"},
+    {"position":6,"url":"https://filing.com/fireproof-safes/?srsltid=AU7gw4WJqG4DSwHP3QZ4DOYXyycFpfv6Oop6LB3nZEBZ3CMuO96oo-Ds","title":"Fireproof Safes | FireKing & Phoenix - Advanced Filing Concepts"},
+    {"position":7,"url":"https://www.chicagotribune.com/2025/04/30/fireproof-safes-and-document-storage-are-essential-for-emergency-preparedness/","title":"Fireproof safes and document storage are essential for emergency ..."},
+    {"position":8,"url":"https://www.youtube.com/watch?v=ZEaBLZ6m1Fg","title":"Best Fireproof Safes 2026 [watch before you buy] - YouTube"},
+    {"position":9,"url":"https://www.safeandvaultstore.com/collections/portable-fireproof-lock-boxes?srsltid=AU7gw4WB4VrM5voT1-XGGrklQZoqtfgCd3nYfuBCYi4ZhnFHh0MCs3vH","title":"Best Rated Portable Fireproof Safes, Chests & Lock Boxes for Documents"},
+    {"position":10,"url":"https://www.homedepot.com/b/Tools-Safety-Security-Safes-Home-Safes/Highly-Rated/Fireproof/N-5yc1vZc29nZbwo5oZ1z1bs3k","title":"Fireproof - Highly Rated - Home Safes - The Home Depot"}
+  ],
+  "titlePattern": {"keywordAtStart":0,"withYear":3,"withNumber":2,"commonModifiers":["fireproof and waterproof","documents","tested and reviewed","2026"],"gap":"Whether letter, legal and hanging file folders actually fit inside"}
 }
