@@ -1,7 +1,7 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-18T10:25:15.480Z",
+  "checkedAt": "2026-10-18T10:59:42.589Z",
   "errors": [],
   "warnings": [
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -9,8 +9,7 @@
     "product \"SentrySafe SFW205CWB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"First Alert 2087F\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe HD4100\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "keyword overlaps /blog/best-fireproof-document-safe/ (\"best fireproof safe\" overlaps \"best fireproof document safe\" (100%))"
+    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,

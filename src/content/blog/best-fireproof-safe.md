@@ -18,6 +18,8 @@ secondaryKeywords:
   - best fire proof safe
   - best home safes fireproof
   - best large fireproof safe for home
+  - best small fireproof safe
+  - small fireproof safe
 entities:
   - fireproof safe
   - UL 72

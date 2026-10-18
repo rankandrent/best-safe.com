@@ -15,6 +15,11 @@ secondaryKeywords:
   - best pistol safe for home
   - best mechanical pistol safe
   - best pistol vault
+  - best handgun safe
+  - handgun safe
+  - best bedside gun safe
+  - best nightstand gun safe
+  - best small gun safe
 entities:
   - pistol safe
   - Fort Knox PB1

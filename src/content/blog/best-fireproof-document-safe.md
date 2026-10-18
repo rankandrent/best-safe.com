@@ -17,6 +17,8 @@ secondaryKeywords:
   - fireproof safe for legal size documents
   - small fireproof document safe
   - fireproof document box with lock
+  - best document safe
+  - document safe
 entities:
   - fireproof document safe
   - SentrySafe

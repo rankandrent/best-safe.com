@@ -108,7 +108,7 @@
     "publishedAt": "2026-10-18T10:23:36.789Z"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -135,7 +135,19 @@
       "parentTopic": "handgun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 69,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-pistol-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
     "status": "published",
@@ -175,7 +187,7 @@
     "publishedAt": "2026-10-18T10:22:13.039Z"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -201,7 +213,19 @@
       "parentTopic": "best pistol safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 92,
+      "weakArticles": 7,
+      "bigSites": 0,
+      "stores": 1,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-pistol-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
     "status": "pending",
@@ -214,7 +238,7 @@
       "best handgun safe for car"
     ],
     "questions": [],
-    "priority": 340,
+    "priority": 570,
     "keyword": "best car gun safe",
     "category": "vehicle-safes",
     "articleType": "roundup",
@@ -232,10 +256,20 @@
       "parentTopic": "best console safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 49,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -260,10 +294,22 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 70,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-pistol-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -288,10 +334,21 @@
       "parentTopic": "jewelry safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 4,
+      "weakArticles": 1,
+      "bigSites": 1,
+      "stores": 6,
+      "forums": 1,
+      "videos": 0
+    },
+    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -316,7 +373,19 @@
       "parentTopic": "pistol safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 62,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-pistol-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
     "status": "pending",
@@ -344,10 +413,20 @@
       "parentTopic": "fireproof money bag",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 19,
+      "weakArticles": 2,
+      "bigSites": 2,
+      "stores": 3,
+      "forums": 2,
+      "videos": 0
     }
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -372,17 +451,29 @@
       "parentTopic": "fireproof safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 9,
+      "weakArticles": 1,
+      "bigSites": 2,
+      "stores": 4,
+      "forums": 2,
+      "videos": 0
+    },
+    "mergedInto": "best-fireproof-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-fireproof-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "quick access gun safe"
     ],
     "questions": [],
-    "priority": 280,
+    "priority": 580,
     "keyword": "best quick access gun safe",
     "category": "handgun-safes",
     "articleType": "roundup",
@@ -400,7 +491,19 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 69,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-pistol-safe",
+    "lastError": "cannibalization: 4 of the top-10 Google results are shared with \"best pistol safe\" (same intent)"
   },
   {
     "status": "pending",
@@ -408,7 +511,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 170,
+    "priority": 450,
     "keyword": "are gun safes fireproof",
     "category": "safe-guides",
     "articleType": "guide",
@@ -426,6 +529,16 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 48,
+      "weakArticles": 1,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 3,
+      "videos": 1
     }
   },
   {
@@ -439,7 +552,7 @@
       "gun safe humidity control"
     ],
     "questions": [],
-    "priority": 260,
+    "priority": 540,
     "keyword": "best dehumidifier for gun safe",
     "category": "safe-accessories",
     "articleType": "roundup",
@@ -457,10 +570,20 @@
       "parentTopic": "gun safe dehumidifier",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 46,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -489,10 +612,22 @@
       "parentTopic": "best home safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 0,
+      "weakArticles": 1,
+      "bigSites": 2,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best home safe",
+    "lastError": "SERP: same top-10 as \"best home safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -518,7 +653,19 @@
       "parentTopic": "best home safes",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 5,
+      "weakArticles": 0,
+      "bigSites": 2,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best-fireproof-document-safe",
+    "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-fireproof-document-safe/ (same intent); covered there as a secondary keyword"
   },
   {
     "status": "pending",
@@ -530,7 +677,7 @@
       "best gun safe under 500"
     ],
     "questions": [],
-    "priority": 230,
+    "priority": 600,
     "keyword": "best budget gun safe",
     "category": "gun-safes",
     "articleType": "roundup",
@@ -548,7 +695,18 @@
       "parentTopic": "best budget safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 69,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 2,
+      "videos": 1
+    },
+    "productCount": 11
   },
   {
     "status": "pending",
@@ -556,7 +714,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 220,
+    "priority": 550,
     "keyword": "best safe brands",
     "category": "home-safes",
     "articleType": "comparison",
@@ -574,10 +732,20 @@
       "parentTopic": "best safe brands",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 42,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 2,
+      "videos": 0
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -604,7 +772,18 @@
       "parentTopic": "best wall safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 7,
+      "weakArticles": 0,
+      "bigSites": 2,
+      "stores": 5,
+      "forums": 1,
+      "videos": 2
+    },
+    "lastError": "SERP 2026-10-18: 5 store pages plus Bob Vila and CNET; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -615,7 +794,7 @@
       "lock box for keys"
     ],
     "questions": [],
-    "priority": 200,
+    "priority": 430,
     "keyword": "best key lock box",
     "category": "lock-boxes",
     "articleType": "roundup",
@@ -633,10 +812,20 @@
       "parentTopic": "key lock box",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 27,
+      "weakArticles": 2,
+      "bigSites": 2,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -659,10 +848,22 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 31,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best gun safe",
+    "lastError": "SERP: same top-10 as \"best gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -688,10 +889,22 @@
       "parentTopic": "best gun safe under 1000",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 27,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best budget gun safe",
+    "lastError": "SERP: same top-10 as \"best budget gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -719,7 +932,19 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 35,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best gun safe",
+    "lastError": "SERP: same top-10 as \"best gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
     "status": "pending",
@@ -730,7 +955,7 @@
       "best way to move a safe"
     ],
     "questions": [],
-    "priority": 160,
+    "priority": 560,
     "keyword": "how to move a gun safe",
     "category": "safe-guides",
     "articleType": "how-to",
@@ -748,6 +973,16 @@
       "parentTopic": "how to move a gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 84,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 1,
+      "forums": 1,
+      "videos": 3
     }
   },
   {
@@ -758,7 +993,7 @@
       "fireproof gun safe"
     ],
     "questions": [],
-    "priority": 150,
+    "priority": 490,
     "keyword": "best fire rated gun safe",
     "category": "gun-safes",
     "articleType": "roundup",
@@ -776,6 +1011,16 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 38,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
@@ -786,7 +1031,7 @@
       "under bed gun safe"
     ],
     "questions": [],
-    "priority": 148,
+    "priority": 520,
     "keyword": "best under bed gun safe",
     "category": "handgun-safes",
     "articleType": "roundup",
@@ -804,10 +1049,20 @@
       "parentTopic": "best under bed gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 53,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 2
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -832,7 +1087,18 @@
       "parentTopic": "ul rated safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 0,
+      "weakArticles": 1,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: store pages, no article intent; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -843,7 +1109,7 @@
       "gun safe sizes"
     ],
     "questions": [],
-    "priority": 144,
+    "priority": 530,
     "keyword": "how much does a gun safe weigh",
     "category": "safe-guides",
     "articleType": "guide",
@@ -861,10 +1127,20 @@
       "parentTopic": "gun safe weight",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 70,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 2,
+      "forums": 3,
+      "videos": 0
     }
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -890,10 +1166,22 @@
       "parentTopic": "gun cabinet for sale",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 35,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "mergedInto": "best gun safe",
+    "lastError": "SERP: same top-10 as \"best gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -922,7 +1210,18 @@
       "parentTopic": "hayman floor safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 13,
+      "weakArticles": 1,
+      "bigSites": 1,
+      "stores": 6,
+      "forums": 1,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -930,7 +1229,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 138,
+    "priority": 590,
     "keyword": "best gun safe for apartment",
     "category": "gun-safes",
     "articleType": "roundup",
@@ -948,6 +1247,16 @@
       "parentTopic": "gun safe for apartment",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 73,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 2,
+      "forums": 2,
+      "videos": 1
     }
   },
   {
@@ -959,7 +1268,7 @@
       "hidden gun safe furniture"
     ],
     "questions": [],
-    "priority": 136,
+    "priority": 480,
     "keyword": "best hidden gun safe",
     "category": "gun-safes",
     "articleType": "roundup",
@@ -977,10 +1286,20 @@
       "parentTopic": "liberty home concealment",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 40,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1003,10 +1322,21 @@
       "parentTopic": "stop box",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 0,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 0,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: store and brand product pages hold the SERP; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1033,7 +1363,18 @@
       "parentTopic": "best safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 20,
+      "weakArticles": 2,
+      "bigSites": 2,
+      "stores": 4,
+      "forums": 1,
+      "videos": 0
+    },
+    "lastError": "SERP 2026-10-18: stores plus Business Insider and CNET; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -1044,7 +1385,7 @@
       "ammo storage cabinet"
     ],
     "questions": [],
-    "priority": 130,
+    "priority": 510,
     "keyword": "best ammo storage",
     "category": "safe-accessories",
     "articleType": "roundup",
@@ -1062,6 +1403,16 @@
       "parentTopic": "home ammo storage ideas",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 55,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 3,
+      "forums": 2,
+      "videos": 1
     }
   },
   {
@@ -1072,7 +1423,7 @@
       "ammo can"
     ],
     "questions": [],
-    "priority": 128,
+    "priority": 470,
     "keyword": "best ammo can",
     "category": "safe-accessories",
     "articleType": "roundup",
@@ -1090,10 +1441,20 @@
       "parentTopic": "best ammo cans",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 41,
+      "weakArticles": 2,
+      "bigSites": 1,
+      "stores": 2,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1119,10 +1480,21 @@
       "parentTopic": "gun safe accessories",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 0,
+      "weakArticles": 1,
+      "bigSites": 0,
+      "stores": 6,
+      "forums": 0,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: store category pages hold the SERP; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1145,10 +1517,21 @@
       "parentTopic": "phone lock box",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 16,
+      "weakArticles": 1,
+      "bigSites": 1,
+      "stores": 5,
+      "forums": 1,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: stores (Amazon, Target, Walmart) hold the SERP; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1173,7 +1556,18 @@
       "parentTopic": "hidden safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 26,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 2,
+      "videos": 0
+    },
+    "lastError": "SERP 2026-10-18: 5 store pages; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -1187,7 +1581,7 @@
       "how to open a safe without combination"
     ],
     "questions": [],
-    "priority": 120,
+    "priority": 500,
     "keyword": "how to open a safe",
     "category": "safe-guides",
     "articleType": "how-to",
@@ -1205,10 +1599,20 @@
       "parentTopic": "how to open a safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 81,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 0,
+      "forums": 1,
+      "videos": 3
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1235,7 +1639,18 @@
       "parentTopic": "sentry safe manual",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 32,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 1,
+      "videos": 2
+    },
+    "lastError": "SERP 2026-10-18: SentrySafe support pages hold 5 of 10; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -1243,7 +1658,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 116,
+    "priority": 460,
     "keyword": "sentry safe battery replacement",
     "category": "safe-guides",
     "articleType": "how-to",
@@ -1261,10 +1676,20 @@
       "parentTopic": "sentry safe battery dead",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 56,
+      "weakArticles": 4,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 0,
+      "videos": 2
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1289,10 +1714,21 @@
       "parentTopic": "sentry safe key",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 0,
+      "weakArticles": 0,
+      "bigSites": 0,
+      "stores": 7,
+      "forums": 1,
+      "videos": 1
+    },
+    "lastError": "SERP 2026-10-18: brand/key-store pages hold 7 of 10; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1315,7 +1751,18 @@
       "parentTopic": "safe storage laws",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 13,
+      "weakArticles": 0,
+      "bigSites": 0,
+      "stores": 0,
+      "forums": 0,
+      "videos": 0
+    },
+    "lastError": "SERP 2026-10-18: government and advocacy pages only (legal YMYL); a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -1323,7 +1770,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 110,
+    "priority": 440,
     "keyword": "where to put a gun safe",
     "category": "safe-guides",
     "articleType": "guide",
@@ -1341,10 +1788,20 @@
       "parentTopic": "where to put a gun safe in your house",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 85,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 0,
+      "forums": 5,
+      "videos": 1
     }
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1367,10 +1824,21 @@
       "parentTopic": "best gun safe for the money",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 1,
+      "weakArticles": 2,
+      "bigSites": 0,
+      "stores": 5,
+      "forums": 0,
+      "videos": 0
+    },
+    "lastError": "SERP 2026-10-18: store/brand pages, no roundup intent; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "parked",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1393,7 +1861,18 @@
       "parentTopic": "liberty safe reviews",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 12,
+      "weakArticles": 0,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 2,
+      "videos": 3
+    },
+    "lastError": "SERP 2026-10-18: Reddit, YouTube and Liberty pages, no review articles; a new affiliate roundup is unlikely to rank"
   },
   {
     "status": "pending",
@@ -1401,7 +1880,7 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
     "questions": [],
-    "priority": 104,
+    "priority": 420,
     "keyword": "vaultek review",
     "category": "handgun-safes",
     "articleType": "review",
@@ -1419,6 +1898,16 @@
       "parentTopic": "vaultek gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 87,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 1,
+      "forums": 2,
+      "videos": 2
     }
   },
   {
@@ -1431,7 +1920,7 @@
       "home safe deposit box"
     ],
     "questions": [],
-    "priority": -100,
+    "priority": 400,
     "keyword": "best home safe",
     "category": "home-safes",
     "articleType": "roundup",
@@ -1449,6 +1938,16 @@
       "parentTopic": "best home safes",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 1,
+      "weakArticles": 1,
+      "bigSites": 3,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
     }
   },
   {
@@ -1462,7 +1961,7 @@
       "how much does a gun safe cost"
     ],
     "questions": [],
-    "priority": -110,
+    "priority": 410,
     "keyword": "best gun safe",
     "category": "gun-safes",
     "articleType": "roundup",
@@ -1480,6 +1979,16 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 17,
+      "weakArticles": 3,
+      "bigSites": 0,
+      "stores": 4,
+      "forums": 1,
+      "videos": 1
     }
   }
 ]
