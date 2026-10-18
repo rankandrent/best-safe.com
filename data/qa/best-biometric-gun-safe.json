@@ -1,0 +1,19 @@
+{
+  "slug": "best-biometric-gun-safe",
+  "pass": true,
+  "checkedAt": "2026-10-18T10:23:36.447Z",
+  "errors": [],
+  "warnings": [
+    "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek LifePod 20 Biometric\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"BILLCONCH Biometric Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"ONNAIS Iron SE Biometric Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"awesafe Biometric Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Barska Biometric Rifle Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified via web search (direct page fetches blocked): Vaultek DS2i - AC adapter + 2 AAA backup, 20 prints Bluetooth model, 12.125x8.25x3 ext / 9x7.5x1.5 int, 9.6 lb (vaulteksafe.com product + support-ds2i, maximumsecurity.com), 18-gauge steel (Vaultek DS2i vs DS5i blog), drawer fits pistols up to 9in (athlonoutdoors/sigsauer listings). LifePod 20 Biometric - 20 prints, backlit keypad, 2 keys, 9V up to 1 yr, micro-USB backup, 12.25x8.5x2.875 ext, 9.625x7.25x2.125 int, fits up to 9.25in, 3.3 lb, water resistant/airtight/floats as maker claim, no IP rating found (vaulteksafe.com/lifepod-20, kygunco, doublealpha). BILLCONCH B0B6HYSFBF - fingerprint/PIN/key, interior light, silent mode (Amazon title, acfc roundup), micro-USB emergency port + key (BILLCONCH manual summary), ~5 min pry result (ShopSavvy review summary). ONNAIS Iron SE - 3 access methods, security cable, one handgun, not water resistant (pwice/talkofthehouse roundups, Amazon title); Firearms Insider review is of an earlier ONNAIS model, stated as such. awesafe - fingerprint/keypad/key, gas strut (roundups, Amazon title); CPSC recall Feb 2024 ~60,000 units sold Aug 2019-Dec 7 2022, 71 incidents, remove batteries/use key/free replacement; four-brand 120k wave incl. Bulldog, Machir, BBRKIN (cpsc.gov recall page + Commissioner statement). Barska AX11652 - 120 prints, 4 AA, 2 keys + plug-in battery pack, 3-point deadbolt, up to 4 rifles, 52.17x9.8x8.6 ext, 51.75x9.7x6.3 int (katom, deansafe, B&H). California DOJ roster URL confirmed (oag.ca.gov/firearms/fsdcertlist). No fire ratings claimed for any pick. ASINs from Amazon Creators API search (amazon-search.yml run 39118585977).",
+    "at": "2026-10-18T10:23:11.734Z"
+  }
+}
