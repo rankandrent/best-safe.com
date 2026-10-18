@@ -205,7 +205,7 @@ h3 { font-size: var(--s1); letter-spacing: -.01em; }
 
 .article-layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 56px; align-items: start; padding: 28px 0 40px; }
 .article-layout aside { position: sticky; top: 24px; }
-@media (max-width: 1000px) { .article-layout { grid-template-columns: 1fr; gap: 24px; } .article-layout aside { position: static; order: -1; } }
+@media (max-width: 1000px) { .article-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; } .article-layout aside { position: static; order: -1; } }
 
 .disclosure { font-family: var(--text); font-size: .95rem; color: var(--slate); margin: 0 0 26px; padding-left: 14px; border-left: 3px solid var(--rule); max-width: var(--measure); }
 
