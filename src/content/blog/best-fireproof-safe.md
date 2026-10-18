@@ -20,6 +20,7 @@ secondaryKeywords:
   - best large fireproof safe for home
   - best small fireproof safe
   - small fireproof safe
+  - fireproof lock box
 entities:
   - fireproof safe
   - UL 72

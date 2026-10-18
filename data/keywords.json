@@ -1990,5 +1990,73 @@
       "forums": 1,
       "videos": 1
     }
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-18T00:00:00.000Z",
+    "secondaryKeywords": [
+      "how to bolt down a safe to concrete",
+      "bolt down safe",
+      "how to bolt a safe to the floor",
+      "bolt safe to floor"
+    ],
+    "questions": [
+      "Should I bolt my safe to the floor?",
+      "Does bolting down a fireproof safe void the fire rating?"
+    ],
+    "priority": 555,
+    "keyword": "how to bolt down a safe",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "How to Bolt Down a Safe (Concrete and Wood Floors)",
+    "cluster": "safe how-tos",
+    "source": "user",
+    "rationale": "owner's topical map CSV (row 'how to bolt down a safe to concrete'); Ahrefs: 'how to bolt down a safe' 100/KD 0/TP 200, 'bolt down safe' 150/KD 0; the concrete phrase is not in Ahrefs. SERP: Reddit, YouTube, Northwest Safe, Winchester and Master Lock guides, no big publishers",
+    "slug": "how-to-bolt-down-a-safe",
+    "ahrefs": {
+      "volume": 100,
+      "kd": 0,
+      "trafficPotential": 200,
+      "parentTopic": "bolt safe to floor",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 85,
+      "weakArticles": 5,
+      "bigSites": 0,
+      "stores": 0,
+      "forums": 2,
+      "videos": 3
+    }
+  },
+  {
+    "status": "parked",
+    "attempts": 0,
+    "addedAt": "2026-10-18T00:00:00.000Z",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 0,
+    "keyword": "best biometric wall safe",
+    "category": "wall-floor-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "source": "user",
+    "rationale": "owner's topical map CSV (claimed 880/mo)",
+    "ahrefs": {
+      "volume": 200,
+      "kd": 0,
+      "trafficPotential": 20,
+      "parentTopic": "biometric wall safe",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-18"
+    },
+    "lastError": "SERP 2026-10-18: Amazon search page, maker product pages and store collections hold 8 of 10; a roundup is unlikely to rank"
   }
 ]
