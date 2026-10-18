@@ -1,0 +1,17 @@
+{
+  "slug": "best-fireproof-document-safe",
+  "pass": true,
+  "checkedAt": "2026-10-18T10:22:02.424Z",
+  "errors": [],
+  "warnings": [
+    "product \"SentrySafe SFW123DSB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"SentrySafe HD4100\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"SentrySafe 1170\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "only 1 internal links (aim for 3-5)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified via web search against maker and retailer pages: SFW123DSB UL Classified 1 hr 1700F/927C and ETL 8 in water 24 h (sentrysafe.com/product/SFW123DSB), ETL 15-ft fall, four live-locking bolts, pry-resistant hinge bar, bolt-down hardware (Lowe's listing), interior 13.8x12.6x11.9 in and 1.23 cu ft (SentrySafe SFW123FSC/DTB spec sheets, same body; Walmart SFW123GDC listing), weight ~86 lb (Master Lock listing 86.3 lb), exterior 17.8x16.3x19.3 in; SentrySafe reply on Home Depot SFW123CS page that bolting down voids water warranty. HD4100 UL Classified 1/2 hr 1550F, ETL 72 h submersion, exterior 14.3x15.5x13.5 in, interior 11.5x12x8.1 in, 0.65 cu ft, 38.85 lb, key lock (Walmart/Staples listings, masterlock.eu HD4100 page); ASIN B00GE57DFK matched by its 14.3x15.5x13.5 title dimensions. 1170 UL Classified 1/2 hr 1550F/843C, ETL 30 min media (CDs/DVDs/USB) per sell sheet, interior 10.4x12x8.5 in, 0.61 cu ft, exterior 13.6x15.3x12.1, 27.99 lb, privacy key lock, no water rating, hanging files not included (sentrysafe.com/product/1170, Grainger sell sheet). UL 72 Class 350/125 definitions (UL 72 datasheet, safeandvaultstore fire ratings). Washington State Archives advice sheet on no truly fire-proof safe. Legal paper 14 in vs max interior 13.8 in computed from specs. Owner claims from Walmart/Home Depot/Best Buy/ConsumerAffairs/ShopSavvy summaries; single reports labeled as single. First Alert 2037F dropped (conflicting UL claims); Honeywell 1108 dropped (no Amazon US listing found). ASINs from amazon-search workflow run 39118610509.",
+    "at": "2026-10-18T10:22:02.060Z"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "centralEntity": "fireproof document safe",
+  "entityVariants": [
+    "fireproof document box",
+    "document safe",
+    "fire-resistant file box",
+    "fireproof safe for documents",
+    "fire chest",
+    "fireproof box"
+  ],
+  "entities": [
+    {
+      "name": "SentrySafe",
+      "type": "brand",
+      "relation": "maker of all three picks and most document safes in the top results"
+    },
+    {
+      "name": "UL 72",
+      "type": "standard",
+      "relation": "the fire-endurance standard behind UL Classified fire ratings for record protection equipment"
+    },
+    {
+      "name": "Class 350",
+      "type": "fire rating class",
+      "relation": "UL class for paper records: interior stays at or below 350°F"
+    },
+    {
+      "name": "Class 125",
+      "type": "fire rating class",
+      "relation": "UL class for digital media: interior stays at or below 125°F and 80% humidity"
+    },
+    {
+      "name": "ETL",
+      "type": "certification mark",
+      "relation": "Intertek mark used to verify water, drop and media claims on document safes"
+    },
+    {
+      "name": "Intertek",
+      "type": "testing lab",
+      "relation": "independent lab behind ETL verification"
+    },
+    {
+      "name": "water seal",
+      "type": "component",
+      "relation": "gasket that keeps fire-hose water and flood water off papers"
+    },
+    {
+      "name": "hanging file folders",
+      "type": "use case",
+      "relation": "what file boxes are sized around"
+    },
+    {
+      "name": "letter-size paper",
+      "type": "use case",
+      "relation": "8.5 x 11 in sheets the interior must fit flat"
+    },
+    {
+      "name": "legal-size paper",
+      "type": "use case",
+      "relation": "8.5 x 14 in sheets that many small boxes cannot fit unfolded"
+    },
+    {
+      "name": "passports",
+      "type": "stored item",
+      "relation": "typical contents of a document safe"
+    },
+    {
+      "name": "birth certificates",
+      "type": "stored item",
+      "relation": "typical contents of a document safe"
+    },
+    {
+      "name": "USB drives",
+      "type": "stored item",
+      "relation": "digital media that needs a lower interior temperature than paper"
+    },
+    {
+      "name": "key lock",
+      "type": "lock type",
+      "relation": "privacy lock on file boxes and chests"
+    },
+    {
+      "name": "dial combination",
+      "type": "lock type",
+      "relation": "battery-free lock on the larger document safe"
+    },
+    {
+      "name": "bolt-down hardware",
+      "type": "accessory",
+      "relation": "anchors a safe so it cannot be carried off"
+    },
+    {
+      "name": "desiccant",
+      "type": "accessory",
+      "relation": "controls condensation inside sealed fire safes"
+    },
+    {
+      "name": "fire insulation",
+      "type": "material",
+      "relation": "moisture-bearing fill that protects contents and causes interior dampness"
+    },
+    {
+      "name": "safe deposit box",
+      "type": "alternative",
+      "relation": "off-site option for irreplaceable originals"
+    }
+  ],
+  "attributes": [
+    "fire rating duration",
+    "fire test temperature",
+    "certifying body",
+    "paper vs digital media rating",
+    "water rating depth and hours",
+    "interior dimensions",
+    "letter vs legal fit",
+    "hanging file rails",
+    "capacity in cubic feet",
+    "lock type",
+    "backup entry",
+    "weight",
+    "handles",
+    "bolt-down option",
+    "drop rating",
+    "burglary protection"
+  ],
+  "ngrams": [
+    "fireproof document safe",
+    "fire rating",
+    "UL Classified",
+    "1/2 hour",
+    "1 hour",
+    "hanging file folders",
+    "letter-size",
+    "legal-size",
+    "water resistance",
+    "ETL Verified",
+    "cubic feet",
+    "key lock",
+    "important documents",
+    "digital media",
+    "fire protection",
+    "interior dimensions",
+    "file box"
+  ],
+  "skipgrams": [
+    "fire…rating",
+    "UL…Classified",
+    "hanging…folders",
+    "water…seal",
+    "interior…dimensions",
+    "key…lock",
+    "ETL…verified",
+    "paper…media"
+  ],
+  "nlpTerms": [
+    "fireproof",
+    "waterproof",
+    "fire-resistant",
+    "certified",
+    "insulation",
+    "temperature",
+    "condensation",
+    "humidity",
+    "passport",
+    "deed",
+    "will",
+    "folders",
+    "chest",
+    "gasket",
+    "flood",
+    "burglary",
+    "anchor",
+    "capacity",
+    "dial",
+    "combination",
+    "spare key",
+    "warranty",
+    "replacement"
+  ],
+  "questions": [
+    "What is the best fireproof document safe?",
+    "Do fireproof document boxes really work?",
+    "Can a fireproof safe survive a house fire?",
+    "What fire rating do I need for paper documents?",
+    "Will legal-size documents fit in a fireproof box?",
+    "Are fireproof document boxes waterproof?"
+  ],
+  "contentGaps": [
+    "Who certified each fire rating (UL vs ETL vs maker-only)",
+    "Paper vs digital media ratings and what Class 350 and Class 125 mean",
+    "Letter vs legal paper fit against real interior dimensions",
+    "Water rating depth and hours in context of fire-hose water",
+    "Condensation inside sealed fire safes and how to manage it",
+    "Why a fire box is not burglary protection and how bolting down affects the water warranty"
+  ],
+  "outline": [
+    {
+      "h2": "Our quick verdict on the best fireproof document safe",
+      "intent": "short answer and picks",
+      "h3": []
+    },
+    {
+      "h2": "The best fireproof document safes, reviewed",
+      "intent": "product picks",
+      "h3": [
+        "SentrySafe SFW123DSB: Best overall",
+        "SentrySafe HD4100: Best waterproof file box",
+        "SentrySafe 1170: Best budget file box"
+      ]
+    },
+    {
+      "h2": "Fireproof document safe comparison",
+      "intent": "compare picks",
+      "h3": []
+    },
+    {
+      "h2": "How we picked these document safes",
+      "intent": "method and trust",
+      "h3": []
+    },
+    {
+      "h2": "What fire rating a fireproof document safe needs",
+      "intent": "explain ratings",
+      "h3": [
+        "Paper vs digital media ratings",
+        "UL, ETL or the maker's word"
+      ]
+    },
+    {
+      "h2": "Will your papers fit? Letter, legal and file folders",
+      "intent": "fit and capacity",
+      "h3": []
+    },
+    {
+      "h2": "Small chest or file box or full safe",
+      "intent": "choose a format",
+      "h3": []
+    },
+    {
+      "h2": "Setting up and caring for a document safe",
+      "intent": "setup and maintenance",
+      "h3": []
+    },
+    {
+      "h2": "Our final pick for documents",
+      "intent": "verdict",
+      "h3": []
+    }
+  ],
+  "targetWords": 1900,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/",
+      "https://www.reddit.com/r/Safes/comments/1hgiwn3/in_search_of_a_reasonably_priced_nonsucky/",
+      "https://www.chicagotribune.com/2025/04/30/fireproof-safes-and-document-storage-are-essential-for-emergency-preparedness/",
+      "https://www.thespruce.com/best-fireproof-safes-4120066",
+      "https://www.dcnewsnow.com/news/life/best-fireproof-safes-and-document-storage-to-have-in-your-home-2/?nxsparam=3",
+      "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+      "https://www.bobvila.com/reviews/best-fireproof-safes-2026/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "The editorial roundups in the top results (The Spruce, BestReviews syndication, Reviewed, Bob Vila) present each product with a short write-up plus pros and cons lists.",
+    "avgWords": 1650,
+    "avgProducts": 5,
+    "commonSections": [
+      "top picks",
+      "product reviews",
+      "comparison",
+      "how we chose",
+      "fire ratings explained",
+      "buying guide",
+      "FAQ"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpProducts": [
+    {
+      "name": "SentrySafe SFW123DSB (SFW123 1.23 cu ft fire/water safe family)",
+      "pages": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.yourbestdigs.com/reviews/best-fireproof-safe/",
+        "https://www.dcnewsnow.com/news/life/best-fireproof-safes-and-document-storage-to-have-in-your-home-2/?nxsparam=3",
+        "https://www.peggyomara.com/best-fireproof-document-safes/"
+      ]
+    },
+    {
+      "name": "SentrySafe HD4100",
+      "pages": [
+        "https://www.dcnewsnow.com/news/life/best-fireproof-safes-and-document-storage-to-have-in-your-home-2/?nxsparam=3",
+        "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+        "https://www.amazon.com/clp/B00GE57DFK"
+      ]
+    },
+    {
+      "name": "SentrySafe 1170",
+      "pages": [
+        "https://www.talkofthehouse.com/?p=61864",
+        "https://www.peggyomara.com/best-fireproof-document-safes/",
+        "https://www.safeandvaultstore.com/collections/sentry/products/sentry-1170-fire-safe-security-file"
+      ]
+    }
+  ]
+}
