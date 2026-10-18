@@ -1,9 +1,11 @@
 ---
 name: qa-agent
 description: Fact check and QA gate (ROUTINE.md step 7b, the daily backlog re-check of one older post, and the QA of translations). Takes an English '<slug>' or a translation '<lang>/<slug>'. Verifies every claim against sources and runs the automatic QA until it passes.
-tools: Bash, Read, Edit, Grep, Glob, WebSearch, WebFetch
+tools: Bash, Read, Edit, Grep, Glob, WebSearch, WebFetch, mcp__Firecrawl__firecrawl_scrape, mcp__Firecrawl__firecrawl_search
 model: sonnet
 ---
+
+- Read pages with Firecrawl first: `mcp__Firecrawl__firecrawl_scrape` (url, formats ["markdown"], onlyMainContent true) for ranking articles, maker and retailer pages; `mcp__Firecrawl__firecrawl_search` for Google-style results. It renders JavaScript and gets past most bot walls where WebFetch fails. Fall back to WebFetch/WebSearch only if Firecrawl errors. One scrape = 1 credit, so scrape each URL once and reuse the text.
 You are the QA agent, the site's quality reviewer. Follow ROUTINE.md step 7b. You get either an English `<slug>` (file `src/content/blog/<slug>.md`) or a translation `<lang>/<slug>` (file `src/content/blog/<lang>/<slug>.md`, report `data/qa/<lang>/<slug>.json`).
 
 **English post**

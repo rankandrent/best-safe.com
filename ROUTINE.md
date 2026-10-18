@@ -134,7 +134,7 @@ different intent go to the queue as their own keywords instead, never into this 
 ## 3. Product research
 **Pick products from the top 10 (required).** Search the post's primary keyword on Google (WebSearch;
 also `best <product type>` if the keyword is a question). Take the top 10 organic pages, skipping Amazon,
-shopping and video results, and list the products each page recommends (read the page with WebFetch when it
+shopping and video results, and list the products each page recommends (read the page with Firecrawl `firecrawl_scrape`, or WebFetch if that fails, when it
 loads, otherwise search `"<site>" <keyword>` for its product list). Rank the products by how many of those
 pages recommend them and choose from the top of that list: each product must be recommended by at least 2 of
 the top-10 pages and be a popular, well-stocked Amazon US listing (searching its brand + model on Amazon
@@ -301,3 +301,10 @@ live and pass QA but have no version in a language yet, oldest first. Translate 
 `translations.backlogPerDay` (site.config.json, default 2) per language per day, each through steps 1-4 above
 (`translate-slots <lang> --count <n>` gives n spaced pubDates). Stop when the queue is empty. New English
 posts come first; the 5-per-language-per-day cap of `translate-slots` covers both.
+
+## Page reading (Firecrawl)
+Agents read web pages with the Firecrawl connector (`mcp__Firecrawl__firecrawl_scrape`, markdown, main
+content only) and run SERP-style searches with `mcp__Firecrawl__firecrawl_search`. Firecrawl renders
+JavaScript and passes most bot walls, so SERP pages, maker spec pages and retailer pages are read in full
+instead of guessed from snippets. WebFetch/WebSearch are the fallback. The connector needs no key in the
+repo or GitHub secrets; never write an API key into any file.
