@@ -1,6 +1,6 @@
 ---
-title: 'Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared'
-seoTitle: 'Best Fireproof Safe (2026) – 6 UL-Rated Picks for Home'
+title: Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared
+seoTitle: Best Fireproof Safe (2026) – 6 UL-Rated Picks for Home
 description: >-
   The best fireproof safe for most homes is the SentrySafe SFW123GDC. We compare
   6 UL-rated safes on fire and water ratings, lock backup and real capacity.
@@ -522,7 +522,7 @@ products:
           url: 'https://pickstead.com/guides/sentrysafe-chw20221-fire-chest-review/'
 heroImage: /images/featured/best-fireproof-safe.png
 heroAlt: >-
-  Best Fireproof Safe for Home (2026): 6 UL-Rated Picks Compared: Best Safe
+  Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared – Best Safe
   buying guide
 ---
 

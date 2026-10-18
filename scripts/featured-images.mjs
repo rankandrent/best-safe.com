@@ -145,7 +145,7 @@ export async function ensureFeatured({ slug, file, data, content }, { force = fa
   if (force || !fs.existsSync(path.join(HERO_DIR, `${slug}.png`))) await renderFeatured(base, { dir: HERO_DIR, urlBase: '/images/hero' });
   if (!force && fs.existsSync(target) && data.heroImage) return false;
   const url = await renderFeatured({ slug, title: data.title, category: data.category, articleType: data.articleType });
-  writePost(slug, { ...data, heroImage: url, heroAlt: `${data.title}: ${SITE.name} ${TYPE_LABEL[data.articleType]?.toLowerCase() ?? 'guide'}` }, content);
+  writePost(slug, { ...data, heroImage: url, heroAlt: `${data.title} – ${SITE.name} ${TYPE_LABEL[data.articleType]?.toLowerCase() ?? 'guide'}` }, content);
   return true;
 }
 
