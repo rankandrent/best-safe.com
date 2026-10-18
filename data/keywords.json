@@ -235,7 +235,10 @@
       "car gun safe",
       "gun safe for car",
       "best vehicle gun safe",
-      "best handgun safe for car"
+      "best handgun safe for car",
+      "car safe",
+      "best car safe",
+      "vehicle gun safe"
     ],
     "questions": [],
     "priority": 570,
@@ -392,7 +395,9 @@
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
-      "fireproof document bag"
+      "fireproof document bag",
+      "fireproof money bag",
+      "fireproof bag for cash and passport"
     ],
     "questions": [],
     "priority": 200,
@@ -2058,5 +2063,49 @@
       "date": "2026-10-18"
     },
     "lastError": "SERP 2026-10-18: Amazon search page, maker product pages and store collections hold 8 of 10; a roundup is unlikely to rank"
+  },
+  {
+    "status": "parked",
+    "attempts": 0,
+    "addedAt": "2026-10-18T00:00:00.000Z",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 0,
+    "keyword": "portable safe",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "source": "user",
+    "rationale": "owner's AI Overview keyword list (head term behind its long phrases, which Ahrefs doesn't have)",
+    "ahrefs": {
+      "volume": 900,
+      "kd": 0,
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-18"
+    },
+    "lastError": "SERP 2026-10-18: maker and store collection pages hold 8 of 10 (one travel article, two videos)"
+  },
+  {
+    "status": "parked",
+    "attempts": 0,
+    "addedAt": "2026-10-18T00:00:00.000Z",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 0,
+    "keyword": "concealment shelf",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "source": "user",
+    "rationale": "owner's AI Overview keyword list (head term behind its long phrases, which Ahrefs doesn't have)",
+    "ahrefs": {
+      "volume": 300,
+      "kd": 1,
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-18"
+    },
+    "lastError": "SERP 2026-10-18: maker product pages and DIY videos only, no roundups"
   }
 ]
