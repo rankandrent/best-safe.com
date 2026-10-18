@@ -34,8 +34,8 @@ Never commit secrets to the repository.
 
 ## Setup checklist
 
-1. Check `site.config.json` → `affiliate.amazonTag` (currently `mikahtech-20`;
-   change it when this site gets its own tracking ID).
+1. Check `site.config.json` → `affiliate.amazonTag` (currently `trsese34-20`; the Creators API uses `affiliate.apiTag`),
+   which must be a tag the API credential is linked to.
 2. Add the secrets above, push to the default branch (`main`) and point
    best-safe.com's nameservers to Cloudflare. The deploy creates the
    `best-safe` Pages project and attaches `best-safe.com` + `www`.

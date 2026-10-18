@@ -7,6 +7,12 @@ export function amazonTag() {
   return process.env.AMAZON_TAG || siteConfig.affiliate.amazonTag;
 }
 
+// Tag sent to the Creators API. It must be one the API credential is linked to,
+// which can differ from the tag the site's links carry.
+export function amazonApiTag() {
+  return process.env.AMAZON_API_TAG || siteConfig.affiliate.apiTag || amazonTag();
+}
+
 /**
  * Build an Amazon affiliate URL.
  * - A verified ASIN links straight to the product page.

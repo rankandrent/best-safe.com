@@ -3,9 +3,9 @@
 //   AMAZON_CREATORS_CREDENTIAL_ID      (amzn1.application-oa2-client....)
 //   AMAZON_CREATORS_CREDENTIAL_SECRET  (amzn1.oa2-cs.v1....)
 //   AMAZON_CREATORS_VERSION            (default 3.1 = Login with Amazon, North America)
-// Partner tag = your Associates tracking ID (AMAZON_TAG / site.config.json).
+// Partner tag = the Associates tracking ID the credential is linked to (AMAZON_API_TAG / affiliate.apiTag, else the link tag).
 import { log } from './config.mjs';
-import { amazonTag } from '../../src/lib/affiliate.mjs';
+import { amazonApiTag as amazonTag } from '../../src/lib/affiliate.mjs';
 import { productMatches } from './product-match.mjs';
 
 const API = 'https://creatorsapi.amazon/catalog/v1';
