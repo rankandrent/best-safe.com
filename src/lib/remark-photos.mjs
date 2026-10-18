@@ -30,7 +30,7 @@ export function remarkPhotos() {
     let h2 = 0;
     for (let i = 0; i < tree.children.length; i++) {
       const n = tree.children[i];
-      if (n.type !== 'heading' || n.depth !== 2) continue;
+      if (n.type !== 'heading' || n.depth !== 2 || n.data?.pick) continue; // product headings (promoted to h2) don't count
       h2++;
       const here = photos.filter((p) => p.afterHeading === h2);
       if (!here.length) continue;

@@ -37,7 +37,7 @@ const alternates = Object.keys(translations).length > 1
   : [];
 const { Content, headings, remarkPluginFrontmatter } = await render(post);
 const inBody: string[] = remarkPluginFrontmatter?.productsInBody ?? [];
-const toc = headings.filter((h) => h.depth === 2);
+const toc = headings.filter((h) => h.depth === 2 && !h.slug.startsWith('pick-'));
 const url = absUrl(postUrl(post));
 const modified = d.updatedDate ?? d.pubDate;
 // Owner research totals for the "How we picked" box and the sources list.

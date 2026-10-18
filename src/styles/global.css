@@ -217,6 +217,8 @@ h3 { font-size: var(--s1); letter-spacing: -.01em; }
 .prose { max-width: var(--measure); font-family: var(--text); font-size: 1.12rem; line-height: 1.75; }
 .prose h2 { margin: 2em 0 .55em; font-size: var(--s3); scroll-margin-top: 20px; }
 .prose h3 { margin: 1.7em 0 .45em; font-size: var(--s1); scroll-margin-top: 20px; }
+/* Product names are h2 for the outline but keep the product-heading size. */
+.prose h2.pick-h { margin: 1.7em 0 .45em; font-size: var(--s1); letter-spacing: -.01em; scroll-margin-top: 20px; }
 .prose p, .prose ul, .prose ol { margin: 0 0 1.1em; }
 .prose li { margin: .35em 0; }
 .prose li::marker { color: var(--tape-ink); }

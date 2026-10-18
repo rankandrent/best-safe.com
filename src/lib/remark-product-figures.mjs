@@ -116,7 +116,9 @@ export function remarkProductFigures() {
       const p = products.find((x) => !used.has(x.name) && matches(heading, x.name));
       if (!p) continue;
       used.add(p.name);
-      node.data = { ...node.data, hProperties: { ...(node.data?.hProperties ?? {}), id: `pick-${p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}` } };
+      // Each reviewed product is a top-level section: written as ### in markdown, rendered as <h2>.
+      node.depth = 2;
+      node.data = { ...node.data, pick: true, hProperties: { ...(node.data?.hProperties ?? {}), className: ['pick-h'], id: `pick-${p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}` } };
       tree.children.splice(i + 1, 0, { type: 'html', value: productBlockHtml(p, { style: fm?.productStyle ?? 'pros-cons', lang }) });
       i++;
     }
