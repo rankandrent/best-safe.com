@@ -130,7 +130,8 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
   {
     const strict = pub >= Date.parse(SITE.qa?.styleRequiredFrom ?? '2100-01-01');
     const flag = strict ? err : warn;
-    const singular = (body.match(/\b(I|I'd|I'm|I've|I'll|my|me)\b/g) ?? []).length;
+    const quotedOut = body.replace(/“[^”]*”|"[^"\n]*"/g, ' '); // a real person's quoted words may say I/my/me
+    const singular = (quotedOut.match(/\b(I|I'd|I'm|I've|I'll|my|me)\b/g) ?? []).length;
     if (singular) flag(`${singular} first-person singular words (I, my, me): the byline is the editorial team, write "we/our/us"`);
     const words = body.split(/\s+/).filter(Boolean).length;
     const cap = Math.max(10, Math.round((words / 3000) * 10));

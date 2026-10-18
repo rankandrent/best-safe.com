@@ -312,3 +312,6 @@ content only) and run SERP-style searches with `mcp__Firecrawl__firecrawl_search
 JavaScript and passes most bot walls, so SERP pages, maker spec pages and retailer pages are read in full
 instead of guessed from snippets. WebFetch/WebSearch are the fallback. The connector needs no key in the
 repo or GitHub secrets; never write an API key into any file.
+
+## Story-led posts (owner rule)
+Every post reads as one true story: an opening scene the reader recognizes (from the brief's questions and owner complaints), attributed owner moments in each product section, and a verdict that closes the opening scene. The narrator voice is "we/our/us". "I/my/me" appears only inside a quoted, named story from `data/stories.json` told by the person who lived it (the owner, a reviewer such as Damian, or a real owner who agreed to be quoted). Never invent a first-hand experience: fake "I tested / I bought" claims break Google's reviews guidance, the FTC rule on fake reviews and testimonials, and Amazon Associates policy. To add a real story, the owner sends it (voice note or text) and it goes into `data/stories.json` with who, what product, and when.
