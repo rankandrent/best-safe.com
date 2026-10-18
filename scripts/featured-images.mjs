@@ -105,8 +105,8 @@ export async function renderFeatured(post, { dir = OUT_DIR, urlBase = '/images/f
 /** Share images for the brand index and each brand page (/brands/, /brand/<slug>/). */
 export function brandPages() {
   return [
-    { slug: 'brands', title: 'Safe brands: picks and buying guides by brand', kicker: 'Safe brands', label: 'Brands', iconName: 'safe' },
-    ...(SITE.brands ?? []).map((b) => ({ slug: `brand-${b.slug}`, title: `${b.name} safes: picks and buying guides`, kicker: 'Safe brands', label: 'Brand', iconName: 'safe' })),
+    { slug: 'brands', title: 'Safe brands – picks and buying guides by brand', kicker: 'Safe brands', label: 'Brands', iconName: 'safe' },
+    ...(SITE.brands ?? []).map((b) => ({ slug: `brand-${b.slug}`, title: `${b.name} safes – picks and buying guides`, kicker: 'Safe brands', label: 'Brand', iconName: 'safe' })),
   ];
 }
 
@@ -115,9 +115,9 @@ export async function renderPageImages() {
   const dir = path.join(ROOT, 'public/images/og');
   const pages = [
     { slug: 'home', title: 'The right safe for what you need to protect', kicker: 'Honest safe buying guides', label: 'Spec-checked', iconName: 'safe' },
-    { slug: 'safe-buying-checklist', title: `The ${SITE.name} Buying Checklist: 20 things to check`, kicker: "Free buyer's tool", label: 'Checklist', iconName: 'check' },
+    { slug: 'safe-buying-checklist', title: `The ${SITE.name} Buying Checklist – 20 things to check`, kicker: "Free buyer's tool", label: 'Checklist', iconName: 'check' },
     { slug: 'blog', title: 'Every home safe, gun safe and fireproof safe guide', kicker: 'All guides', label: 'Guides', iconName: 'safe' },
-    ...SITE.categories.map((c) => ({ slug: `category-${c.slug}`, title: `${c.name}: buying guides and picks`, kicker: c.name, category: c.slug, label: 'Category' })),
+    ...SITE.categories.map((c) => ({ slug: `category-${c.slug}`, title: `${c.name} – buying guides and picks`, kicker: c.name, category: c.slug, label: 'Category' })),
     ...brandPages(),
   ];
   for (const p of pages) await renderFeatured(p, { dir, urlBase: '/images/og' });

@@ -16,7 +16,7 @@ const jsonLd = [{
   mainEntity: authorSchema(author),
 }];
 ---
-<Base title={`${author.name}: ${author.role}`} description={author.bio.slice(0, 158)} jsonLd={jsonLd}>
+<Base title={`${author.name} – ${author.role}`} description={author.bio.slice(0, 158)} jsonLd={jsonLd}>
   <div class="wrap">
     <header class="page-head">
       <div style="display:flex;gap:18px;align-items:center;margin-bottom:12px">

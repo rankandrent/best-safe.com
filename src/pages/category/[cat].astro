@@ -32,7 +32,7 @@ const jsonLd = [{
   ],
 }];
 ---
-<Base title={`${category.name}: Buying Guides and Picks`} description={`${category.blurb} Honest ${category.name.toLowerCase()} buying guides, picks and how-tos.`} jsonLd={jsonLd} noindex={posts.length === 0} image={`/images/og/category-${category.slug}.png`} imageAlt={`${category.name} buying guides: ${SITE.name}`} keywords={[`best ${category.name.toLowerCase()}`, ...posts.slice(0, 4).map((p) => p.data.keyword)]}>
+<Base title={`${category.name} – Buying Guides and Picks`} description={`${category.blurb} Honest ${category.name.toLowerCase()} buying guides, picks and how-tos.`} jsonLd={jsonLd} noindex={posts.length === 0} image={`/images/og/category-${category.slug}.png`} imageAlt={`${category.name} buying guides: ${SITE.name}`} keywords={[`best ${category.name.toLowerCase()}`, ...posts.slice(0, 4).map((p) => p.data.keyword)]}>
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>{category.name}</span></nav>

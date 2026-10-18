@@ -52,7 +52,7 @@ const jsonLd = [{
   ],
 }];
 ---
-<Base title={`${brand.name} Safes: Picks and Buying Guides`} description={`${brand.blurb} Every ${brand.name} safe and accessory we cover, with our score and the guide it appears in.`} jsonLd={jsonLd} noindex={products.length === 0} image={`/images/og/brand-${brand.slug}.png`} imageAlt={`${brand.name} safes: ${SITE.name}`} keywords={[`${brand.name.toLowerCase()} safe`, `best ${brand.name.toLowerCase()} safe`, ...guides.slice(0, 4).map((p) => p.data.keyword)]}>
+<Base title={`${brand.name} Safes – Picks and Buying Guides`} description={`${brand.blurb} Every ${brand.name} safe and accessory we cover, with our score and the guide it appears in.`} jsonLd={jsonLd} noindex={products.length === 0} image={`/images/og/brand-${brand.slug}.png`} imageAlt={`${brand.name} safes: ${SITE.name}`} keywords={[`${brand.name.toLowerCase()} safe`, `best ${brand.name.toLowerCase()} safe`, ...guides.slice(0, 4).map((p) => p.data.keyword)]}>
   <div class="wrap">
     <header class="page-head">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/brands/">Brands</a><span>/</span><span>{brand.name}</span></nav>

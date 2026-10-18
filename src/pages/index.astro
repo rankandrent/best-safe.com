@@ -21,7 +21,7 @@ const jsonLd: object[] = [{
   itemListElement: posts.slice(0, 10).map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(`/blog/${p.id}/`), name: p.data.title })),
 }];
 ---
-<Base title={`${SITE.name}: Honest Safe Buying Guides`} description={SITE.description} jsonLd={jsonLd} image="/images/og/home.png" imageAlt={`${SITE.name}: honest safe buying guides`} keywords={['best safe', 'safe buying guide', 'best gun safe', 'best fireproof safe', 'best-safe.com']}>
+<Base title={`${SITE.name} – Honest Safe Buying Guides`} description={SITE.description} jsonLd={jsonLd} image="/images/og/home.png" imageAlt={`${SITE.name}: honest safe buying guides`} keywords={['best safe', 'safe buying guide', 'best gun safe', 'best fireproof safe', 'best-safe.com']}>
   <section class="hero">
     <div class="wrap hero-grid">
       <div>

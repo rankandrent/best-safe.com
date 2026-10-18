@@ -193,3 +193,13 @@ test('titles have no colon and contain the exact keyword', async () => {
   }
   assert.deepEqual(bad, []);
 });
+
+test('no built page title has a colon', { skip: !fs.existsSync(path.join(ROOT, 'dist')) && 'dist/ not built' }, () => {
+  const bad = [];
+  for (const f of fs.readdirSync(path.join(ROOT, 'dist'), { recursive: true })) {
+    if (!String(f).endsWith('index.html')) continue;
+    const t = fs.readFileSync(path.join(ROOT, 'dist', String(f)), 'utf8').match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
+    if (t.includes(':')) bad.push(`${f}: ${t}`);
+  }
+  assert.deepEqual(bad, []);
+});
