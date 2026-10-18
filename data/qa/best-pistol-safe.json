@@ -1,0 +1,18 @@
+{
+  "slug": "best-pistol-safe",
+  "pass": true,
+  "checkedAt": "2026-10-18T10:23:09.019Z",
+  "errors": [],
+  "warnings": [
+    "product \"Fort Knox PB1 Original Pistol Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady RAPiD Safe 2700KP\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek LifePod 20\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "only 1 internal links (aim for 3-5)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified via web search snippets of maker and retailer pages (WebFetch blocked): Fort Knox PB1 10-gauge body, 3/16in wraparound door, Simplex mechanical lock, gas strut, ~12.5x10.375x4.25in, 22-24 lb (listings vary), lifetime warranty, sold as CA DOJ certified (gunsafes.com, goldenlocks, securitycentersinc, Amazon title, safewise). Vaultek DS2i: fingerprint/keypad/Bluetooth app/2 keys, auto-open twin-rail drawer, one handgun up to 9in plus magazine, ~12.125x8.25x3in, 9.6 lb, AC adapter + 2 AAA backup, wireless charger + USB/USB-C, fingerprint count conflict 20 (Vaultek news) vs 80 (retailers) stated as such; steel gauge conflicting so not stated (vaulteksafe.com, cabelas, westcoastsafes, thesafehouse). Hornady RAPiD 2700KP: 14-gauge, 2 hardened lugs, 12.7x8.7x2.9 ext / 9x7.7x2.2 int, RFID up to 5 tags, 4-6 digit keypad, 2 barrel keys, 4 AA or AC, cable and TSA per retailer (shop.hornady.com, presleys, yeagers, tlooutdoors, americanrifleman). Vaultek LifePod 20 (2.0): 12.25x8.5x2.875 ext, 9.625x7.25x2.125 int, handgun to 9.25in, 3.3 lb, backlit keypad, 2 keys, disable-able keyway, 9V up to 1 yr, micro-USB, weather resistant/TSA compliant per maker, steel cable per Amazon title (vaulteksafe.com, kygunco, safeandvaultstore). No product claims a fire rating. ASINs from Amazon Creators API search (workflow run 39118562929): B072NFNDZB, B0BMB66WLS, B01N11X17R, B08PPQYWS1. Owner praise/complaints summarized from Walmart, Gunsafes.com, USCCA, Dean Safe, Scheels, review blogs, OpticsPlanet and Northwest Firearms forum. Legal storage: general pointers to CA DOJ roster, TSA page, Project ChildSafe; no legal advice.",
+    "at": "2026-10-18T10:22:59.495Z"
+  }
+}

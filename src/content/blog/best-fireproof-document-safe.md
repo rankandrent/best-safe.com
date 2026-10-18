@@ -323,6 +323,9 @@ heroImage: /images/featured/best-fireproof-document-safe.png
 heroAlt: >-
   Best Fireproof Document Safe for Papers, Files and Passports (2026): Best Safe
   buying guide
+related:
+  - best-biometric-gun-safe
+  - best-pistol-safe
 ---
 
 The best fireproof document safe is the one whose fire rating, water seal and interior size match the papers you actually keep. For most homes we land on the [SentrySafe SFW123DSB](amzn:SentrySafe+SFW123DSB+Fireproof+Waterproof+Safe+Dial+Combination), a 1.23 cubic foot safe that UL classifies for one hour at 1700°F. If your records live in hanging folders and flood risk worries you more than theft, a file box like the SentrySafe HD4100 does the job for less. We compared three document safes on who certified each rating, what paper sizes fit inside, and what owners report after living with them.

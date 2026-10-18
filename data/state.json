@@ -1,5 +1,27 @@
 {
-  "startDate": null,
-  "published": [],
+  "startDate": "2026-10-18",
+  "published": [
+    {
+      "date": "2026-10-18",
+      "slug": "best-fireproof-document-safe",
+      "keyword": "best fireproof document safe",
+      "category": "fireproof-safes",
+      "funnel": "bofu"
+    },
+    {
+      "date": "2026-10-18",
+      "slug": "best-biometric-gun-safe",
+      "keyword": "best biometric gun safe",
+      "category": "handgun-safes",
+      "funnel": "bofu"
+    },
+    {
+      "date": "2026-10-18",
+      "slug": "best-pistol-safe",
+      "keyword": "best pistol safe",
+      "category": "handgun-safes",
+      "funnel": "bofu"
+    }
+  ],
   "translated": []
 }

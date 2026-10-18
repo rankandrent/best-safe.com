@@ -1,0 +1,270 @@
+{
+  "keyword": "best pistol safe",
+  "createdAt": "2026-10-18T10:23:21.538Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "pistol safe",
+    "entityVariants": [
+      "pistol safes",
+      "handgun safe",
+      "pistol gun safe",
+      "pistol box",
+      "quick-access pistol safe",
+      "pistol vault"
+    ],
+    "entities": [
+      {
+        "name": "Fort Knox",
+        "type": "brand",
+        "relation": "maker of the PB1 mechanical pistol box"
+      },
+      {
+        "name": "Vaultek",
+        "type": "brand",
+        "relation": "maker of the DS2i Smart Station and LifePod 2.0"
+      },
+      {
+        "name": "Hornady",
+        "type": "brand",
+        "relation": "maker of the RAPiD Safe 2700KP RFID pistol safe"
+      },
+      {
+        "name": "Simplex lock",
+        "type": "lock type",
+        "relation": "mechanical push-button lock with no batteries, used on the Fort Knox PB1"
+      },
+      {
+        "name": "biometric",
+        "type": "lock type",
+        "relation": "fingerprint reader entry on smart pistol safes"
+      },
+      {
+        "name": "keypad",
+        "type": "lock type",
+        "relation": "electronic code entry and common backup on pistol safes"
+      },
+      {
+        "name": "RFID",
+        "type": "lock type",
+        "relation": "tag, fob or wristband entry on the Hornady RAPiD Safe"
+      },
+      {
+        "name": "backup key",
+        "type": "feature",
+        "relation": "manual override when batteries or electronics fail"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "wall thickness; a lower number means thicker steel"
+      },
+      {
+        "name": "California DOJ",
+        "type": "standard",
+        "relation": "roster of approved firearm safety devices"
+      },
+      {
+        "name": "TSA",
+        "type": "standard",
+        "relation": "rules for flying with a handgun in a locked hard-sided container"
+      },
+      {
+        "name": "bolt-down",
+        "type": "feature",
+        "relation": "anchoring the pistol safe to furniture, a stud or the floor"
+      },
+      {
+        "name": "security cable",
+        "type": "accessory",
+        "relation": "tethers portable pistol safes in a car or hotel"
+      },
+      {
+        "name": "nightstand",
+        "type": "use case",
+        "relation": "most common place a quick-access pistol safe lives"
+      },
+      {
+        "name": "full-size handgun",
+        "type": "object",
+        "relation": "what the interior must fit"
+      },
+      {
+        "name": "fire rating",
+        "type": "standard",
+        "relation": "none of these pistol safes carries one; documents need a separate fire safe"
+      },
+      {
+        "name": "Project ChildSafe",
+        "type": "organization",
+        "relation": "safe firearm storage education"
+      }
+    ],
+    "attributes": [
+      "lock type and backup entry",
+      "steel gauge",
+      "exterior and interior dimensions",
+      "weight",
+      "number of handguns",
+      "access speed in the dark",
+      "power source and battery life",
+      "bolt-down holes",
+      "security cable",
+      "California DOJ listing",
+      "TSA compliance",
+      "fire rating (none)"
+    ],
+    "ngrams": [
+      "pistol safe",
+      "best pistol safe",
+      "quick access",
+      "mechanical lock",
+      "backup key",
+      "biometric scanner",
+      "steel construction",
+      "full-size handgun",
+      "bolt down",
+      "security cable",
+      "California DOJ",
+      "fingerprint reader",
+      "battery life",
+      "pistol gun safe"
+    ],
+    "skipgrams": [
+      "steel…gauge",
+      "backup…key",
+      "fingerprint…reader",
+      "bolt…down",
+      "full-size…pistol",
+      "battery…dies",
+      "security…cable"
+    ],
+    "nlpTerms": [
+      "handgun",
+      "nightstand",
+      "bedside",
+      "biometric",
+      "keypad",
+      "RFID",
+      "Simplex",
+      "steel",
+      "gauge",
+      "pry",
+      "bolt",
+      "mounting",
+      "battery",
+      "override",
+      "drawer",
+      "lid",
+      "foam",
+      "interior",
+      "TSA",
+      "DOJ",
+      "children",
+      "storage",
+      "magazine",
+      "vehicle",
+      "travel"
+    ],
+    "questions": [
+      "What is the best pistol safe for home?",
+      "Are biometric pistol safes reliable?",
+      "Is a mechanical pistol safe better than biometric?",
+      "Should a pistol safe be bolted down?",
+      "Are pistol safes fireproof?",
+      "What gauge steel should a pistol safe have?"
+    ],
+    "contentGaps": [
+      "None of the picks carries a fire rating; say so plainly",
+      "Backup entry when batteries die or a fingerprint misreads",
+      "Steel gauge explained (lower number = thicker)",
+      "Interior dimensions against a full-size pistol",
+      "Bolt-down versus cable tether",
+      "California DOJ roster and local storage rules without legal advice",
+      "Owner-reported failure modes (strut, charger pad, RFID tags)"
+    ],
+    "outline": [
+      {
+        "h2": "Our quick verdict on the best pistol safe",
+        "intent": "short answer and picks",
+        "h3": []
+      },
+      {
+        "h2": "The best pistol safes, reviewed",
+        "intent": "product reviews",
+        "h3": [
+          "Fort Knox PB1",
+          "Vaultek DS2i",
+          "Hornady RAPiD Safe 2700KP",
+          "Vaultek LifePod 2.0"
+        ]
+      },
+      {
+        "h2": "Pistol safe comparison table",
+        "intent": "compare specs",
+        "h3": []
+      },
+      {
+        "h2": "How to choose a pistol safe",
+        "intent": "buying guide",
+        "h3": [
+          "Lock type and backup entry",
+          "Steel gauge and pry resistance",
+          "Interior size and handgun fit",
+          "Fire protection"
+        ]
+      },
+      {
+        "h2": "Setting up and anchoring a pistol safe",
+        "intent": "installation",
+        "h3": []
+      },
+      {
+        "h2": "Pistol safe care and legal storage",
+        "intent": "maintenance and legal context",
+        "h3": []
+      },
+      {
+        "h2": "Which pistol safe should you buy?",
+        "intent": "verdict",
+        "h3": []
+      }
+    ],
+    "targetWords": 2200,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.topfirearmreviews.com/post/best-handgun-safes",
+        "https://www.pewpewtactical.com/best-gun-safes/",
+        "https://gununiversity.com/best-biometric-gun-safes/",
+        "https://www.americanfirearms.org/best-pistol-safes/",
+        "https://armedinmichigan.com/7-best-bedside-handgun-safes-for-quick-access-tested/",
+        "https://www.rifleconfigurator.com/guides/best-handgun-safes"
+      ],
+      "productStyle": "pros-cons",
+      "productStyleReason": "Most ranking roundups (Pew Pew Tactical, Gun University, American Firearms, Rifle Configurator) present each safe with a short review plus pros and cons lists; WebFetch was blocked, so structure was read from search snippets and word counts are approximate.",
+      "avgWords": 2000,
+      "avgProducts": 8,
+      "commonSections": [
+        "quick picks",
+        "product reviews with pros and cons",
+        "comparison table",
+        "how we chose",
+        "buying guide (lock type, steel, size)",
+        "FAQ"
+      ],
+      "usesComparisonTable": true,
+      "usesFaq": true,
+      "usesBuyingGuide": true
+    }
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-biometric-gun-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-fireproof-document-safe",
+      "mode": "related-box"
+    }
+  ]
+}

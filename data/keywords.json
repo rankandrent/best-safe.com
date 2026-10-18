@@ -1,11 +1,15 @@
 [
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "pistol safe",
-      "pistol gun safe"
+      "pistol gun safe",
+      "best pistol gun safe",
+      "best pistol safe for home",
+      "best mechanical pistol safe",
+      "best pistol vault"
     ],
     "questions": [],
     "priority": 400,
@@ -26,7 +30,9 @@
       "parentTopic": "gun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "productCount": 4,
+    "publishedAt": "2026-10-18T10:23:21.537Z"
   },
   {
     "status": "pending",
@@ -39,7 +45,10 @@
       "best fireproof safe for home",
       "best fireproof home safe",
       "best home fireproof safe",
-      "best waterproof safe"
+      "best waterproof safe",
+      "best fire proof safe",
+      "best home safes fireproof",
+      "best large fireproof safe for home"
     ],
     "questions": [],
     "priority": 390,
@@ -60,10 +69,11 @@
       "parentTopic": "fireproof safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "productCount": 7
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -93,7 +103,8 @@
       "parentTopic": "handgun safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "publishedAt": "2026-10-18T10:23:36.789Z"
   },
   {
     "status": "pending",
@@ -126,13 +137,18 @@
     }
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "fireproof document safe",
       "fireproof box",
-      "best fireproof safe for documents"
+      "best fireproof safe for documents",
+      "fireproof safe for home documents",
+      "fireproof waterproof document safe",
+      "fireproof safe for legal size documents",
+      "small fireproof document safe",
+      "fireproof document box with lock"
     ],
     "questions": [],
     "priority": 260,
@@ -153,7 +169,9 @@
       "parentTopic": "best safe",
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
-    }
+    },
+    "productCount": 3,
+    "publishedAt": "2026-10-18T10:22:13.039Z"
   },
   {
     "status": "pending",
