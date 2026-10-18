@@ -55,7 +55,7 @@ jobs:
           if [ -z "$(git status --porcelain)" ]; then echo "No changes."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git config user.name "best-safe-agents"
           git config user.email "agents@users.noreply.github.com"
-          git add src/content data/qa data/amazon-unmatched.json
+          git add src/content data/qa && { [ ! -f data/amazon-unmatched.json ] || git add data/amazon-unmatched.json; }
           git commit -m "content: daily Amazon product refresh"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
