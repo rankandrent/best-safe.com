@@ -35,7 +35,7 @@
     "publishedAt": "2026-10-18T10:23:21.537Z"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -70,7 +70,8 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-18"
     },
-    "productCount": 7
+    "productCount": 6,
+    "publishedAt": "2026-10-18T10:25:28.000Z"
   },
   {
     "status": "published",

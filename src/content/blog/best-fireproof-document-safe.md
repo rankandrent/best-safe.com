@@ -324,6 +324,7 @@ heroAlt: >-
   Best Fireproof Document Safe for Papers, Files and Passports (2026): Best Safe
   buying guide
 related:
+  - best-fireproof-safe
   - best-biometric-gun-safe
   - best-pistol-safe
 ---

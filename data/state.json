@@ -21,6 +21,13 @@
       "keyword": "best pistol safe",
       "category": "handgun-safes",
       "funnel": "bofu"
+    },
+    {
+      "date": "2026-10-18",
+      "slug": "best-fireproof-safe",
+      "keyword": "best fireproof safe",
+      "category": "fireproof-safes",
+      "funnel": "bofu"
     }
   ],
   "translated": []

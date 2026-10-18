@@ -1,0 +1,341 @@
+{
+  "keyword": "best fireproof safe",
+  "createdAt": "2026-10-18T10:25:28.001Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "fireproof safe",
+    "entityVariants": [
+      "fireproof safes",
+      "fire-resistant safe",
+      "fire safe",
+      "fireproof home safe",
+      "fire and water safe",
+      "fire chest"
+    ],
+    "entities": [
+      {
+        "name": "UL 72",
+        "type": "standard",
+        "relation": "the UL fire-endurance test standard behind UL Classified fire ratings"
+      },
+      {
+        "name": "UL Class 350",
+        "type": "rating class",
+        "relation": "keeps the interior below 350°F, the rating class for paper documents"
+      },
+      {
+        "name": "Intertek",
+        "type": "testing lab",
+        "relation": "independent lab (ETL mark) that verifies water, drop and some fire claims"
+      },
+      {
+        "name": "ETL Verified",
+        "type": "certification mark",
+        "relation": "Intertek verification used for water resistance and drop tests on fire safes"
+      },
+      {
+        "name": "SentrySafe",
+        "type": "brand",
+        "relation": "the most-recommended fire safe maker in top results"
+      },
+      {
+        "name": "First Alert",
+        "type": "brand",
+        "relation": "maker of UL-classified fire and water safes"
+      },
+      {
+        "name": "digital keypad",
+        "type": "lock type",
+        "relation": "fast electronic entry that needs batteries and a backup key"
+      },
+      {
+        "name": "dial combination",
+        "type": "lock type",
+        "relation": "battery-free mechanical lock, slower to open"
+      },
+      {
+        "name": "override key",
+        "type": "backup entry",
+        "relation": "backup entry when a code or battery fails"
+      },
+      {
+        "name": "live-locking bolts",
+        "type": "hardware",
+        "relation": "steel bolts that engage when the door shuts and resist prying"
+      },
+      {
+        "name": "pry-resistant hinge bar",
+        "type": "hardware",
+        "relation": "protects the hinge side of the door from pry attacks"
+      },
+      {
+        "name": "bolt-down hardware",
+        "type": "accessory",
+        "relation": "anchors a safe to the floor so it can't be carried off"
+      },
+      {
+        "name": "fire chest",
+        "type": "safe type",
+        "relation": "small top-opening fire-rated box for papers and passports"
+      },
+      {
+        "name": "hanging file folders",
+        "type": "use case",
+        "relation": "a common storage need that dictates interior size"
+      },
+      {
+        "name": "digital media",
+        "type": "use case",
+        "relation": "USB drives and discs need lower interior temperatures than paper"
+      },
+      {
+        "name": "desiccant",
+        "type": "accessory",
+        "relation": "controls humidity inside a sealed fire safe"
+      },
+      {
+        "name": "burglary rating",
+        "type": "standard",
+        "relation": "theft protection, separate from a fire rating"
+      }
+    ],
+    "attributes": [
+      "fire rating duration",
+      "fire rating temperature",
+      "who certified the fire rating",
+      "water resistance rating",
+      "drop test",
+      "lock type",
+      "backup entry",
+      "interior capacity",
+      "interior dimensions",
+      "exterior dimensions",
+      "weight",
+      "locking bolts",
+      "pry resistance",
+      "bolt-down option",
+      "humidity control",
+      "warranty and after-fire replacement"
+    ],
+    "ngrams": [
+      "fireproof safe",
+      "fire rating",
+      "UL Classified",
+      "1 hour",
+      "1700°F",
+      "water resistance",
+      "digital keypad",
+      "dial combination",
+      "override key",
+      "interior capacity",
+      "cubic feet",
+      "bolt-down hardware",
+      "live-locking bolts",
+      "important documents",
+      "fire and water",
+      "fire chest",
+      "hanging file folders",
+      "ETL Verified"
+    ],
+    "skipgrams": [
+      "fire…rating",
+      "UL…Classified",
+      "water…resistance",
+      "override…key",
+      "bolt…down",
+      "interior…capacity",
+      "fire…safe",
+      "digital…media"
+    ],
+    "nlpTerms": [
+      "fireproof",
+      "fire-resistant",
+      "waterproof",
+      "UL",
+      "Intertek",
+      "ETL",
+      "certified",
+      "temperature",
+      "insulation",
+      "documents",
+      "passports",
+      "cash",
+      "jewelry",
+      "keypad",
+      "combination",
+      "batteries",
+      "bolts",
+      "pry",
+      "hinge",
+      "capacity",
+      "cubic",
+      "weight",
+      "anchor",
+      "floor",
+      "humidity",
+      "desiccant",
+      "flood",
+      "burglary",
+      "warranty",
+      "steel"
+    ],
+    "questions": [
+      "What is the best fireproof safe for home use?",
+      "Can a fireproof safe survive a house fire?",
+      "Will money survive in a fireproof safe?",
+      "What does UL Classified 1 hour at 1700°F mean?",
+      "Is a fireproof safe also waterproof?",
+      "Should you bolt down a fireproof safe?",
+      "Can you store USB drives in a fireproof safe?"
+    ],
+    "contentGaps": [
+      "who certified each fire rating (UL vs Intertek vs the maker) and what temperature and duration it covers",
+      "UL Class 350 protects paper but not digital media or photos",
+      "a modified UL 72 test is not the same as a UL Classified rating",
+      "bolting down can affect the waterproof seal on some models",
+      "backup entry when the keypad battery dies",
+      "interior dimensions against letter-size folders and passports",
+      "humidity and desiccant care inside sealed fire safes",
+      "fire safes are not burglary-rated safes"
+    ],
+    "outline": [
+      {
+        "h2": "The best fireproof safes at a glance",
+        "intent": "quick answer and comparison table",
+        "h3": []
+      },
+      {
+        "h2": "Our picks for the best fireproof safe",
+        "intent": "product reviews",
+        "h3": [
+          "SentrySafe SFW123GDC",
+          "SentrySafe SFW123DSB",
+          "SentrySafe SFW205CWB",
+          "First Alert 2087F",
+          "SentrySafe HD4100",
+          "SentrySafe CHW20221"
+        ]
+      },
+      {
+        "h2": "How we chose these fireproof safes",
+        "intent": "methodology and trust",
+        "h3": []
+      },
+      {
+        "h2": "What a fireproof safe fire rating really means",
+        "intent": "explain UL 72, Class 350, Intertek, maker claims",
+        "h3": [
+          "UL Classified vs ETL Verified vs maker claims",
+          "Paper vs digital media"
+        ]
+      },
+      {
+        "h2": "How to choose a fireproof safe for your home",
+        "intent": "buying guide",
+        "h3": [
+          "Size it to what you store",
+          "Lock type and backup entry",
+          "Water resistance",
+          "Bolt-down and theft"
+        ]
+      },
+      {
+        "h2": "Setting up and caring for a fireproof safe",
+        "intent": "installation and maintenance",
+        "h3": []
+      },
+      {
+        "h2": "Which fireproof safe should you buy?",
+        "intent": "verdict",
+        "h3": []
+      }
+    ],
+    "targetWords": 3300,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/",
+        "https://www.businessinsider.com/guides/home/best-home-safe",
+        "https://www.popsci.com/gear/best-fireproof-safes/",
+        "https://www.outdoorlife.com/gear/best-fireproof-safes/",
+        "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+        "https://www.yourbestdigs.com/reviews/best-fireproof-safe/",
+        "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/"
+      ],
+      "productStyle": "pros-cons",
+      "productStyleReason": "Bob Vila, Business Insider, PopSci and Reviewed each give every pick a pros and cons list under a short write-up.",
+      "avgWords": 2900,
+      "avgProducts": 6,
+      "commonSections": [
+        "top picks summary",
+        "product reviews with pros and cons",
+        "how we chose / tested",
+        "what to consider: fire rating, water rating, lock type, size",
+        "FAQ"
+      ],
+      "usesComparisonTable": true,
+      "usesFaq": true,
+      "usesBuyingGuide": true
+    },
+    "serpProducts": [
+      {
+        "name": "SentrySafe SFW123GDC",
+        "pages": [
+          "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+          "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+          "https://thetestedhub.com/guides/best-fireproof-safes/"
+        ]
+      },
+      {
+        "name": "SentrySafe SFW123DSB / SFW123CS (dial combination)",
+        "pages": [
+          "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+          "https://www.yourbestdigs.com/reviews/best-fireproof-safe/"
+        ]
+      },
+      {
+        "name": "SentrySafe SFW205CWB",
+        "pages": [
+          "https://www.popsci.com/gear/best-fireproof-safes/",
+          "https://www.talkofthehouse.com/?p=16901"
+        ]
+      },
+      {
+        "name": "First Alert 2087F",
+        "pages": [
+          "https://www.yourbestdigs.com/reviews/best-fireproof-safe/",
+          "https://thetestedhub.com/guides/best-fireproof-safes/"
+        ]
+      },
+      {
+        "name": "SentrySafe HD4100 Fire/Water File",
+        "pages": [
+          "https://www.outdoorlife.com/gear/best-fireproof-safes/",
+          "https://www.talkofthehouse.com/?p=55453"
+        ]
+      },
+      {
+        "name": "SentrySafe CHW20221",
+        "pages": [
+          "https://www.bobvila.com/articles/best-home-safes",
+          "https://markus-hagner-photography.com/best-fireproof-safes/"
+        ]
+      }
+    ]
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-fireproof-document-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-pistol-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-biometric-gun-safe",
+      "mode": "related-box"
+    }
+  ]
+}

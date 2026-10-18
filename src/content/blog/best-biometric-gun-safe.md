@@ -436,6 +436,7 @@ heroAlt: >-
   Best Biometric Gun Safe (2026): 6 Fingerprint Safes Compared: Best Safe buying
   guide
 related:
+  - best-fireproof-safe
   - best-pistol-safe
 ---
 

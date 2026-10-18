@@ -354,6 +354,7 @@ faqs:
       electronic boxes.
 author: editorial-team
 related:
+  - best-fireproof-safe
   - best-biometric-gun-safe
   - best-fireproof-document-safe
 heroImage: /images/featured/best-pistol-safe.png
