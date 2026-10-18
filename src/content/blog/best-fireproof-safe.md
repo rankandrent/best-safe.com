@@ -21,6 +21,7 @@ secondaryKeywords:
   - best small fireproof safe
   - small fireproof safe
   - fireproof lock box
+  - best fireproof box
 entities:
   - fireproof safe
   - UL 72

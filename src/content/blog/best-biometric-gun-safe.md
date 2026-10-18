@@ -20,6 +20,7 @@ secondaryKeywords:
   - best biometric gun safe bedside
   - best fingerprint gun safe bedside
   - biometric vs keypad gun safe
+  - best biometric safe
 entities:
   - biometric gun safe
   - fingerprint reader

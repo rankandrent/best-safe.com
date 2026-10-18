@@ -397,7 +397,9 @@
     "secondaryKeywords": [
       "fireproof document bag",
       "fireproof money bag",
-      "fireproof bag for cash and passport"
+      "fireproof bag for cash and passport",
+      "best fireproof bag",
+      "best fireproof money bag"
     ],
     "questions": [],
     "priority": 200,
@@ -796,7 +798,8 @@
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "key lock box",
-      "lock box for keys"
+      "lock box for keys",
+      "best lock box"
     ],
     "questions": [],
     "priority": 430,
@@ -2107,5 +2110,50 @@
       "date": "2026-10-18"
     },
     "lastError": "SERP 2026-10-18: maker product pages and DIY videos only, no roundups"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-18T00:00:00.000Z",
+    "secondaryKeywords": [
+      "best portable safe",
+      "portable travel safe",
+      "travel safe",
+      "best portable safe for travel",
+      "hotel room safe portable"
+    ],
+    "questions": [
+      "Are portable travel safes worth it?",
+      "Can a travel safe be cut open?"
+    ],
+    "priority": 475,
+    "keyword": "best travel safe",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Travel Safes (Portable Safes for Hotels, Beaches and Cars)",
+    "cluster": "portable safes",
+    "source": "user",
+    "rationale": "head term behind the owner's AI Overview list ('portable safe box with steel security cable tether'). Ahrefs: best travel safe 50/KD 1/TP 4,300; best portable safe 50/KD 0/TP 450. SERP: no dedicated roundup in the top 10 (Pacsafe and SentrySafe pages, Reddit, Quora, YouTube, one general T+L list)",
+    "slug": "best-travel-safe",
+    "ahrefs": {
+      "volume": 50,
+      "kd": 1,
+      "trafficPotential": 4300,
+      "parentTopic": "pacsafe backpack",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-18"
+    },
+    "serp": {
+      "date": "2026-10-18",
+      "source": "firecrawl",
+      "win": 70,
+      "weakArticles": 2,
+      "bigSites": 1,
+      "stores": 4,
+      "forums": 2,
+      "videos": 2
+    }
   }
 ]

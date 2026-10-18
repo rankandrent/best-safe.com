@@ -20,6 +20,7 @@ secondaryKeywords:
   - best bedside gun safe
   - best nightstand gun safe
   - best small gun safe
+  - best quick access gun safe
 entities:
   - pistol safe
   - Fort Knox PB1
