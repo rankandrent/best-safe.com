@@ -349,3 +349,19 @@ Linked agents: brief-agent puts 3-6 matching pain points into the brief (`painPo
 writer-agent answers each one with a real fix and links the thread once (exact quotes only); qa-agent checks every pain
 point is answered and every quote is verbatim at its URL; keyword-agent and competitor-gap-agent tag matching queue
 entries with `painPoints`.
+
+## URL changes and redirects (owner rule, permanent)
+
+A URL that has gone live must never 404. `data/published-urls.json` records every blog URL (English and
+translations) that has been live; `scripts/redirects.mjs` (runs before every build) adds new ones and stops the
+build when a recorded URL has no post file and no redirect.
+- Merging two published posts: keep the stronger URL (more traffic/links, the higher-volume keyword), move the
+  other post's useful sections and its keyword into secondaryKeywords, delete the weaker file, and add
+  `{ "from": "/blog/<old-slug>/", "to": "/blog/<kept-slug>/" }` to data/redirects.json (301). Do the same for each
+  translation (`/<lang>/blog/<old>/` → `/<lang>/blog/<kept>/`, or the English post if that language has no kept post).
+- Renaming a slug or deleting a post: same rule; point it to the closest live post or category, never the home page
+  unless nothing fits.
+- Update internal links that pointed to the old URL (grep src/content for `/blog/<old-slug>/`), so no internal link
+  goes through a redirect, and set `updatedDate` on the kept post.
+- Merging queued keywords (no post yet) needs no redirect: mark the entry `merged` with `mergedInto`.
+- The script collapses redirect chains (A → B → C becomes A → C) and warns about redirects to a missing post.
