@@ -269,7 +269,15 @@
       "stores": 3,
       "forums": 1,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "vehicle-safes-lockbox-cable-not-enough",
+      "vehicle-safes-wont-open-battery-heat-age",
+      "vehicle-safes-slides-around-needs-mounting",
+      "vehicle-safes-visible-from-outside",
+      "vehicle-safes-cheap-lockbox-flimsy",
+      "vehicle-safes-unsure-of-state-rules-when-mounting"
+    ]
   },
   {
     "status": "merged",
@@ -768,7 +776,10 @@
       "videos": 0
     },
     "painPoints": [
-      "gun-safes-electronic-lock-fails-no-backup"
+      "gun-safes-electronic-lock-fails-no-backup",
+      "home-safes-brand-warranty-and-support-poor",
+      "home-safes-thin-steel-overpriced-brand",
+      "home-safes-fire-and-security-ratings-hard-to-compare"
     ]
   },
   {
@@ -1653,7 +1664,8 @@
       "safe-guides-battery-dies-locks-owner-out",
       "safe-guides-new-batteries-still-wont-work",
       "safe-guides-lost-combination-or-key"
-    ]
+    ],
+    "productCount": 4
   },
   {
     "status": "parked",
@@ -2541,5 +2553,40 @@
     "slug": "gun-safe-in-basement",
     "mergedInto": "gun-safe-in-garage",
     "lastError": "merged into \"gun safe in garage\" on owner request (one post for garage and basement)"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T13:45:48.508Z",
+    "secondaryKeywords": [
+      "liberty safe warranty"
+    ],
+    "questions": [
+      "Is the warranty real?",
+      "Is the steel too thin?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe brands to avoid",
+    "category": "home-safes",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "Gun Safe Brands to Avoid (and What to Check Before You Buy)",
+    "cluster": "safe brands",
+    "source": "pain-point",
+    "painPoints": [
+      "home-safes-brand-warranty-and-support-poor",
+      "home-safes-thin-steel-overpriced-brand"
+    ],
+    "rationale": "3 threads report poor support or thin steel (reddit r/Safes, r/guns, r/GarandThumb)",
+    "ahrefs": {
+      "volume": 300,
+      "kd": 0,
+      "trafficPotential": 150,
+      "parentTopic": "gun safe brands to avoid",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-brands-to-avoid"
   }
 ]

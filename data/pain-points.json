@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:04:12Z",
+  "updatedAt": "2026-10-19T14:00:00Z",
   "categories": {
     "gun-safes": [
       {
@@ -936,6 +936,431 @@
         ],
         "coveredBy": [],
         "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-brand-warranty-and-support-poor",
+        "pain": "Brand warranty and customer support are hard to get when the safe has a problem",
+        "details": "Owners of a popular brand report keypad parts breaking and little help from support; others point lockout problems to dealers or warranty service.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+            "platform": "reddit",
+            "title": "Don't buy a liberty safe - rant",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/",
+            "platform": "reddit",
+            "title": "Don't buy Liberty safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Locksmith/comments/1egz5b5/liberty_gun_safe_help/",
+            "platform": "reddit",
+            "title": "Liberty Gun Safe Help",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "there is no customer support and your warranty is about as real as pixie dust.",
+            "url": "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "the wiring pins on the keypad snapped like toothpicks.",
+            "url": "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "gun safe brands to avoid",
+          "liberty safe warranty",
+          "safe brand with good customer service"
+        ],
+        "keywords": [
+          "best safe brands"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-thin-steel-overpriced-brand",
+        "pain": "Safe felt thin and overpriced for the brand name",
+        "details": "Buyers say a big-name safe turned out to have thin steel and was not worth the price compared with budget store safes or heavier makers.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/GarandThumb/comments/18cdt7o/liberty_safes_buyer_beware/",
+            "platform": "reddit",
+            "title": "Liberty Safes: Buyer Beware",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/",
+            "platform": "reddit",
+            "title": "Why do Liberty Safes get such a bad rap?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/",
+            "platform": "reddit",
+            "title": "Is Liberty safe a good brand?",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "the steel used was quite thin and felt as if I just purchased a really expensive filing cabinet with a glorified lock.",
+            "url": "https://www.reddit.com/r/GarandThumb/comments/18cdt7o/liberty_safes_buyer_beware/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "They aren't the worst just not worth the price.",
+            "url": "https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "best safe brands",
+          "is liberty safe worth it",
+          "gun safe steel thickness by brand"
+        ],
+        "keywords": [
+          "best safe brands"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+        "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)",
+        "details": "Shoppers compare store-brand safes on fire minutes and temperature, then ask what UL and TL ratings actually mean.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/",
+            "platform": "reddit",
+            "title": "whats the general consensus on the union 24 gun safe?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/",
+            "platform": "reddit",
+            "title": "Top BRANDS for safe (documents, gun, precious metals)",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/",
+            "platform": "reddit",
+            "title": "Is Liberty safe a good brand?",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.",
+            "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Liberty Safes won't survive a fire.",
+            "url": "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "what does UL rating on a safe mean",
+          "safe fire rating minutes 1400 degrees",
+          "best safe brands"
+        ],
+        "keywords": [
+          "best safe brands"
+        ],
+        "coveredBy": [
+          "best-fireproof-safe"
+        ],
+        "foundAt": "2026-10-19"
+      }
+    ],
+    "vehicle-safes": [
+      {
+        "id": "vehicle-safes-lockbox-cable-not-enough",
+        "pain": "A cable-tethered lockbox in the car feels like it only slows a thief, not stops one",
+        "details": "CCW carriers who must leave a pistol in the car worry about vehicle break-ins and ask whether a cable box is enough versus a safe bolted to the car. Many end up looking at console safes or bolted-down options.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/",
+            "platform": "reddit",
+            "title": "Center console safe, yay or nay?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/1u3w6fr/securing_carry_gun_in_car/",
+            "platform": "reddit",
+            "title": "Securing Carry Gun in Car",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Firearms/comments/ccjka0/good_reminder_to_not_get_your_gun_stolen_outta/",
+            "platform": "reddit",
+            "title": "Good reminder to not get your gun stolen outta your car",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/concealedcarry/comments/1aqw3ms/keeping_a_weapon_in_the_car_is_it_safe/",
+            "platform": "reddit",
+            "title": "Keeping a weapon in the car? Is it safe?",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "A console safe that is attached to the vehicle is quite a bit better than a lock box with a cable.",
+            "url": "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Best would be an actual safe, bolted to the vehicle somewhere out of plain view.",
+            "url": "https://www.reddit.com/r/Firearms/comments/ccjka0/good_reminder_to_not_get_your_gun_stolen_outta/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "It absolutely is not safe to keep an unlocked weapon in a car, 70% of stolen firearms are from vehicles.",
+            "url": "https://www.reddit.com/r/concealedcarry/comments/1aqw3ms/keeping_a_weapon_in_the_car_is_it_safe/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "is a car lockbox with a cable secure enough",
+          "console safe vs cable lockbox",
+          "best way to secure a gun in a car"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "vehicle-safes-wont-open-battery-heat-age",
+        "pain": "Vehicle safe will not open when needed: dead battery, or keypad and RFID stop working after heat and age",
+        "details": "Owners who leave the safe in a hot or cold car report keypads and locks failing, even after fresh batteries, and some find warranty help thin. Others say USB power as a backup saved them.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/",
+            "platform": "reddit",
+            "title": "Hornady rapid vehicle safe just shit the bed. They told me I was SOL.",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/m1bjh8/gun_vault_failure_details_in_comments/",
+            "platform": "reddit",
+            "title": "Gun Vault Failure, details in comments",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/1cgr613/carrying_as_much_as_possible_means_having_to/",
+            "platform": "reddit",
+            "title": "Carrying as much as possible means having to leave gun in car",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Went to go open it one day recently and the lock won't open. RFID doesn't work, code doesn't work.",
+            "url": "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "If the battery goes dead you can plug it into USB to use the keypad.",
+            "url": "https://www.reddit.com/r/CCW/comments/1cgr613/carrying_as_much_as_possible_means_having_to/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "They are meant for the use case OP had (short term locking away of a gun in a hidden spot)",
+            "url": "https://www.reddit.com/r/CCW/comments/m1bjh8/gun_vault_failure_details_in_comments/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "car gun safe won't open",
+          "vehicle safe battery dead usb backup",
+          "do car safes fail in summer heat"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [
+          "best-biometric-gun-safe"
+        ],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "vehicle-safes-slides-around-needs-mounting",
+        "pain": "Car safe slides around or is loose; owners want a bracket, bolt pattern or console fit that actually mounts",
+        "details": "Owners ask how to anchor a safe in a car without drilling randomly. They recommend floor brackets, console vaults that use the console's bolt pattern, or models with predrilled holes.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/13sncob/recommendation_for_vehicle_gun_safe/",
+            "platform": "reddit",
+            "title": "Recommendation for vehicle Gun Safe",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/1itlc06/vehicle_gun_safe_recommendations/",
+            "platform": "reddit",
+            "title": "Vehicle Gun Safe Recommendations",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/t1ykhz/looking_for_recommendations_on_vehicle_safes/",
+            "platform": "reddit",
+            "title": "Looking for recommendations on vehicle safes",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "The bracket for the safe mounts to the floor and keeps the safe from sliding around.",
+            "url": "https://www.reddit.com/r/CCW/comments/13sncob/recommendation_for_vehicle_gun_safe/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Console vaults that mount inside your center console are great if one exists for your vehicle, look at the bolt pattern in the bottom.",
+            "url": "https://www.reddit.com/r/CCW/comments/1itlc06/vehicle_gun_safe_recommendations/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "how to mount a car gun safe",
+          "console vault fits my vehicle",
+          "car safe sliding around"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "vehicle-safes-visible-from-outside",
+        "pain": "Worry that the safe is visible through the window and advertises a gun in the car",
+        "details": "Owners ask whether a given vehicle safe sticks out when someone looks in, and recommend concealed spots such as under the seat or inside the console.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/n4k1mw/hornady_rapid_safe_or_similar_for_vehicles/",
+            "platform": "reddit",
+            "title": "Hornady Rapid Safe or similar for vehicles?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/11o3sdm/whats_the_best_way_to_secure_my_gun_in_a_vehicle/",
+            "platform": "reddit",
+            "title": "Whats the best way to secure my gun in a vehicle",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/1kbuz5r/gun_storage_during_work_hours/",
+            "platform": "reddit",
+            "title": "Gun storage during work hours",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Does the Rapid Safe stick out like a sore thumb looking in the window?",
+            "url": "https://www.reddit.com/r/CCW/comments/n4k1mw/hornady_rapid_safe_or_similar_for_vehicles/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "a pistol sale chained to your frame or seat would work too as long as it's not visible.",
+            "url": "https://www.reddit.com/r/CCW/comments/11o3sdm/whats_the_best_way_to_secure_my_gun_in_a_vehicle/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "hide gun safe in car",
+          "under seat car safe",
+          "does a car safe look obvious"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "vehicle-safes-cheap-lockbox-flimsy",
+        "pain": "Low-end pistol lockboxes feel flimsy and limited in protection for the price",
+        "details": "Buyers compare cheap lockboxes with real safes and find the cheap ones thin; they ask what a budget vehicle box can realistically do.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/",
+            "platform": "reddit",
+            "title": "I genuinely don't understand why the lowest-end pistol lockboxes run ...",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CCW/comments/11o3sdm/whats_the_best_way_to_secure_my_gun_in_a_vehicle/",
+            "platform": "reddit",
+            "title": "Whats the best way to secure my gun in a vehicle",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Compared to their actual safes, they're still incredibly cheap and very limited in terms of protection.",
+            "url": "https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "are cheap car lockboxes worth it",
+          "budget vehicle gun safe"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "vehicle-safes-unsure-of-state-rules-when-mounting",
+        "pain": "Unsure whether permanently attaching a safe in the car changes how a firearm may be stored or carried there",
+        "details": "Owners ask how rules treat a mounted car safe or a locked glove box. The content should only point readers to check their own state's rules.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CAguns/comments/69g862/how_does_the_law_around_car_safes_work_its_legal/",
+            "platform": "reddit",
+            "title": "How does the law around car safes work?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CTguns/comments/w79iko/safe_storage_of_a_handgun_in_a_vehicle/",
+            "platform": "reddit",
+            "title": "Safe storage of a handgun in a vehicle?",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [],
+        "searches": [
+          "are car gun safes legal in my state",
+          "check state rules car gun storage"
+        ],
+        "keywords": [
+          "best car gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19",
+        "note": "Do not give legal advice; say check your state's rules."
       }
     ]
   }
