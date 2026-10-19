@@ -228,8 +228,8 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "pending",
-    "attempts": 0,
+    "status": "deferred",
+    "attempts": 1,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "car gun safe",
@@ -277,7 +277,8 @@
       "vehicle-safes-visible-from-outside",
       "vehicle-safes-cheap-lockbox-flimsy",
       "vehicle-safes-unsure-of-state-rules-when-mounting"
-    ]
+    ],
+    "note": "2026-10-19: only Vaultek LifePod on 2+ top-10 pages; 2 editorial pages in top 10."
   },
   {
     "status": "merged",
@@ -696,8 +697,8 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-fireproof-document-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "pending",
-    "attempts": 0,
+    "status": "deferred",
+    "attempts": 1,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
       "cheap gun safe",
@@ -738,7 +739,8 @@
     "painPoints": [
       "gun-safes-capacity-overstated",
       "gun-safes-electronic-lock-fails-no-backup"
-    ]
+    ],
+    "note": "2026-10-19: only Barska and KAER on 2+ top-10 pages."
   },
   {
     "status": "pending",
