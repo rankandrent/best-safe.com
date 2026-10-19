@@ -2395,7 +2395,10 @@
     "addedAt": "2026-10-19T07:04:32.626Z",
     "secondaryKeywords": [
       "gun safe on concrete floor",
-      "bolt gun safe to garage floor"
+      "bolt gun safe to garage floor",
+      "gun safe in basement",
+      "basement gun safe humidity",
+      "move gun safe to basement"
     ],
     "questions": [
       "Will a gun safe rust in a garage?",
@@ -2407,15 +2410,17 @@
     "articleType": "how-to",
     "intent": "informational",
     "funnel": "tofu",
-    "workingTitle": "Gun Safe in a Garage: Rust, Slab and Bolt-Down Tips",
+    "workingTitle": "Gun Safe in the Garage or Basement (Humidity, Bolting and Floor Load)",
     "cluster": "safe placement",
     "source": "pain-point",
     "painPoints": [
-      "gun-safes-cold-wall-condensation",
       "gun-safes-bolting-slab-or-wood-floor",
-      "gun-safes-rust-despite-dehumidifier"
+      "gun-safes-cold-wall-condensation",
+      "gun-safes-rust-despite-dehumidifier",
+      "safe-guides-floor-and-stair-load",
+      "safe-guides-moving-up-stairs"
     ],
-    "rationale": "3 owners report damp-slab rust and bolt-down trouble in garages (thehighroad, ar15.com)",
+    "rationale": "3 owners report damp-slab rust and bolt-down trouble in garages (thehighroad, ar15.com); merged with \"gun safe in basement\" (40/mo, KD 0) on owner request: one post covers garage and basement placement",
     "ahrefs": {
       "volume": 250,
       "kd": 0,
@@ -2499,7 +2504,7 @@
     "slug": "gun-safe-on-second-floor"
   },
   {
-    "status": "pending",
+    "status": "merged",
     "attempts": 0,
     "addedAt": "2026-10-19T07:04:32.626Z",
     "secondaryKeywords": [
@@ -2533,6 +2538,8 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-19"
     },
-    "slug": "gun-safe-in-basement"
+    "slug": "gun-safe-in-basement",
+    "mergedInto": "gun-safe-in-garage",
+    "lastError": "merged into \"gun safe in garage\" on owner request (one post for garage and basement)"
   }
 ]
