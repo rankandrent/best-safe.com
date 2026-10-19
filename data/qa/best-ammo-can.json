@@ -1,0 +1,16 @@
+{
+  "slug": "best-ammo-can",
+  "pass": false,
+  "checkedAt": "2026-10-19T14:13:38.947Z",
+  "errors": [
+    "facts not verified yet: check every product spec and claim against the sources, then run `node scripts/routine.mjs factcheck <slug> \"<notes>\"`"
+  ],
+  "warnings": [
+    "product \"MTM ACR8-72 Ammo Crate Utility Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Plano Field Ammo Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Solid Tactical Metal Ammo Can\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": false
+  }
+}
