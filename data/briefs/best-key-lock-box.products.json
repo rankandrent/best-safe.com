@@ -1,0 +1,169 @@
+{
+  "keyword": "best key lock box",
+  "slug": "best-key-lock-box",
+  "productCount": 3,
+  "serpProducts": [
+    {"name": "Kidde AccessPoint KeySafe", "pages": ["https://www.nytimes.com/wirecutter/reviews/best-lock-box/", "https://swiftlane.com/blog/best-key-lockboxes-guide/", "https://butterflymx.com/blog/spare-key-storage/", "https://www.bobvila.com/articles/best-key-lock-box/"]},
+    {"name": "igloohome Smart Keybox 3", "pages": ["https://swiftlane.com/blog/best-key-lockboxes-guide/", "https://butterflymx.com/blog/spare-key-storage/", "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes"]},
+    {"name": "Master Lock 5400D", "pages": ["https://swiftlane.com/blog/best-key-lockboxes-guide/", "https://www.bobvila.com/articles/best-key-lock-box/"]}
+  ],
+  "products": [
+    {
+      "name": "Kidde AccessPoint 001166 KeySafe",
+      "brand": "Kidde",
+      "query": "Kidde AccessPoint 001166 KeySafe 3-Key Portable Push Button Key Safe",
+      "asin": "B000CEMQLK",
+      "asinVerified": true,
+      "asinCheck": "Amazon US dp title read by hand: 'Kidde AccessPoint 001166 KeySafe 3-Key Portable Push Button Key Safe Box, Titanium Gray'; model number 001166; in stock when checked 2026-10-19",
+      "badge": "Best for a spare key",
+      "summary": "A hang-on-the-doorknob push-button key safe from the brand Wirecutter calls its lockbox pick. It holds a few house keys and the code can be changed whenever a cleaner, sitter or contractor no longer needs access.",
+      "renterNote": "For a homeowner or renter who wants a low-cost spare key for family, a pet sitter or a cleaner; the push-button code is a set of buttons rather than an ordered PIN, so it suits low-risk spare-key use, not valuables.",
+      "pros": ["Hangs on a doorknob, fence, railing or pipe with no tools", "Code can be changed as often as needed, with no batteries", "Compact 3-key size that Wirecutter, Swiftlane, ButterflyMX and Bob Vila all name in the KeySafe line"],
+      "cons": ["Owners report the code is confusing to set (turn screw slots on the back) and that you must re-enter it to relock", "Owners report the same buttons open it in any order, so the effective code space is small"],
+      "specs": {
+        "Code type": "Push-button combination, you choose which buttons are part of the code; over 1,000 combinations (Kidde)",
+        "Resettable code": "Yes, change any time (Kidde); set with screw slots on the back (Kidde support reply to owner)",
+        "Mounting": "Portable shackle: hangs on doorknob, fence, railing or pipe; no tools",
+        "Capacity": "Up to 3 standard house keys (kidde.com); shopkidde page also lists 'up to five keys' in its bullets, so treat 3 as safe",
+        "Dimensions": "4.44 x 5.75 x 1.8 in including shackle (kidde.com); body 3.75 x 2.5 x 1.75 in (shopkidde.com)",
+        "Weight": "1.6 lb (shopkidde.com)",
+        "Build": "Sturdy powder-coated metal with protective rubber shell; interlocking faceplate (shopkidde.com)",
+        "Weather": "Maker says guaranteed never to rust and resistant to water, humidity and UV; no IP rating published",
+        "Power": "None (mechanical)",
+        "Smart features": "None",
+        "Warranty": "1-year limited"
+      },
+      "scores": {"security": 5, "access": 7, "capacity": 5, "value": 8},
+      "scoreNote": "No burglary rating and a button-set code owners say opens in any order keep security modest; no batteries and a changeable code help access, but the 3-key space is tight and setup confuses some owners.",
+      "owners": {
+        "read": 7,
+        "praise": ["Compact and sturdy feel for the money", "Code is changeable and works for a spare key once programmed"],
+        "complaints": ["Instructions and programming (screw slots on the back) confuse many first-time owners", "Must re-enter the combination to relock, and the code opens in any button order"],
+        "sources": [
+          {"title": "Shop Kidde: AccessPoint 001166 KeySafe Original 3-Key Portable (owner reviews)", "url": "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable", "reviews": 8}
+        ]
+      },
+      "ownerQuotes": [
+        {"quote": "I am very happy with the quality of this key safe. I had no trouble programming the code for the safe and locking it and then unlocking it to get the key.", "url": "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable"},
+        {"quote": "The KeySafe will also open by reversing or any change in order of the same digits regardless of my original numbers.", "url": "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable"},
+        {"quote": "The quality is fine. The instructions could be improved. The pictures didn't help me and the written instructions have too many gaps.", "url": "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable"},
+        {"quote": "once unlocked, you must re-enter the combo in order to relock the lockbox", "url": "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable"}
+      ],
+      "sources": [
+        "https://www.kidde.com/products/key-security/keysafe-portable-3-key-pushbutton-titanium",
+        "https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable",
+        "https://www.nytimes.com/wirecutter/reviews/best-lock-box/",
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://butterflymx.com/blog/spare-key-storage/",
+        "https://www.bobvila.com/articles/best-key-lock-box/"
+      ],
+      "caveat": "SERP pages name 'Kidde AccessPoint KeySafe' generically (Bob Vila names the wall-mount Slimline 001414; Swiftlane links the portable 3-key pushbutton 001166). I could not read Wirecutter's body (Firecrawl does not support nytimes.com), so its exact Kidde model is unconfirmed; 001166 is the model Swiftlane links and ButterflyMX describes (shackle, doorknob/fence/railing/pipe)."
+    },
+    {
+      "name": "Master Lock 5400D Portable Lock Box",
+      "matchName": "Master Lock Portable Key Lock Box 5400EC",
+      "brand": "Master Lock",
+      "query": "Master Lock 5400D Portable Key Lock Box Set Your Own Combination",
+      "asin": "B0002YP1VC",
+      "asinVerified": true,
+      "asinCheck": "Amazon US dp title read by hand: 'Master Lock Portable Key Lock Box, Combination Lock Box Holds 5 Keys 5400EC ...'; item spec table says Model Number 5400D, Manufacturer Part Number 5400EC (same 5400D product, e-commerce packaging); same ASIN Bob Vila links. Checked 2026-10-19. Amazon title does not contain '5400D', so keep matchName.",
+      "badge": "Best classic doorknob box",
+      "summary": "The set-your-own-combination Master Lock 5400D is the over-the-knob lock box real estate agents use: a 4-digit dial code you choose, a weather cover over the dials and a vinyl-coated shackle that will not scratch the knob.",
+      "renterNote": "For a homeowner or renter who wants a portable, no-battery spare key for family or a house sitter that can come along in a move; owners report thin casing, so keep it to a spare key, not master keys.",
+      "pros": ["Set-your-own 4-digit combination and no batteries", "Sliding weather cover protects the dials; large cavity avoids jamming with several keys", "Portable shackle fits behind most doorknobs and is easy to take when you move"],
+      "cons": ["Some owners report the casing can be smashed open and that it is not fully weatherproof long term", "One owner reports the box opened with two of four digits wrong"],
+      "specs": {
+        "Code type": "Set-your-own 4-digit dial combination (Master Lock)",
+        "Resettable code": "Yes, owner-set 4-digit combination",
+        "Mounting": "Portable over-the-knob vinyl-coated shackle only; no wall mount (Bob Vila). Wall-mount sibling is the 5401D",
+        "Capacity": "Large internal cavity for multiple keys (Master Lock); an owner fit about 5 standard house keys and access cards",
+        "Dimensions": "6-1/4 x 3-1/4 x 1-1/2 in exterior, H x W x D (Master Lock)",
+        "Weight": "1.16 lb without packaging (Master Lock)",
+        "Shackle": "1-13/32 in long, 1-7/8 in wide, 13/32 in diameter (Master Lock)",
+        "Weather": "Maker lists 'Weather Resistant' with a cover over the dials; no IP rating published; one owner says it is not waterproof or rust-resistant long term",
+        "Power": "None (mechanical)",
+        "Smart features": "None",
+        "Warranty": "Master Lock limited lifetime warranty"
+      },
+      "scores": {"security": 6, "access": 8, "capacity": 7, "value": 8},
+      "scoreNote": "A reliable, battery-free dial that is quick to use and easy to reset, but a few owners report thin casing and weather wear, so security is middling; large cavity for a key ring and a low price.",
+      "owners": {
+        "read": 8,
+        "praise": ["Easy to open and easy to change to a code the family remembers", "Sturdy metal feel and generous key space for a spare key or house sitter"],
+        "complaints": ["Thin casing that a burglar smashed open (owner reports)", "Not waterproof long term and the vinyl coating can go tacky", "One owner says it opened with two of four digits wrong"],
+        "sources": [
+          {"title": "Master Lock: 5400D product page owner reviews", "url": "https://www.masterlock.com/products/product/5400D", "reviews": 28}
+        ]
+      },
+      "ownerQuotes": [
+        {"quote": "The interior compartment is sized generously enough to fit 5 (possibly more) standard-sized house keys and/or a few access cards, depending on your use case.", "url": "https://www.masterlock.com/products/product/5400D"},
+        {"quote": "Realistically, the lockbox only serves as a theft deterrent and a convenience for those that know the combination.", "url": "https://www.masterlock.com/products/product/5400D"},
+        {"quote": "It was so disappointing to see how easily and quickly the thin and brittle aluminium casing was breached by the burglar", "url": "https://www.masterlock.com/products/product/5400D"},
+        {"quote": "Works well, easy to open and change the code to one your family will remember.", "url": "https://www.masterlock.com/products/product/5400D"},
+        {"quote": "this lock will open even if you miss two of the four digits on the combination", "url": "https://www.masterlock.com/products/product/5400D"}
+      ],
+      "sources": [
+        "https://www.masterlock.com/products/product/5400D",
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://www.bobvila.com/articles/best-key-lock-box/"
+      ]
+    },
+    {
+      "name": "igloohome Smart Keybox 3",
+      "matchName": "igloohome Keybox 3 Smart Lock Box",
+      "brand": "igloohome",
+      "query": "igloohome Keybox 3 Smart Lock Box",
+      "asin": "B07G8CVQNK",
+      "asinVerified": true,
+      "asinCheck": "Amazon US dp title read by hand: 'igloohome Keybox 3 Smart Lock Box, Large Key Safe w/Airbnb Sync (iOS/Android) - Remotely Generate Bluetooth-Keys & Pin Codes Without Internet'; model number IGK3; keybox only (not the WiFi Bridge bundle B0DTZRWFS1 or the Keybox 3E B0BTMMGR51). Checked 2026-10-19.",
+      "badge": "Best smart lock box",
+      "summary": "A Bluetooth smart key box that issues PIN codes from an app, including one-time and time-limited codes that work offline. It is the pick for owners who hand keys to guests, contractors or cleaners and want codes that expire on their own.",
+      "renterNote": "For an owner or host who shares keys with guests and contractors and wants expiring PINs without Wi-Fi; it needs batteries and a phone, and real-time logs need the separate Bridge.",
+      "pros": ["One-time, duration, recurring and permanent PIN codes from an app, working offline", "IP66 rated, zinc and aluminum alloy body with a hardened-steel shackle", "Roomy interior (4.3 x 3.4 x 1.1 in) with a USB-C jump-start if the batteries die"],
+      "cons": ["Real-time activity logs need the separate Bridge (sold separately); owners can only verify unlocks in Bluetooth range without it", "Runs on 4 AAA batteries and needs an app, so it adds upkeep that a mechanical box does not"],
+      "specs": {
+        "Code type": "App-generated PINs (permanent, duration, one-time, recurring) plus Bluetooth key; backlit keypad",
+        "Resettable code": "Yes, create and delete PINs in the app",
+        "Smart features": "Bluetooth Low Energy 4.2 app; PINs work offline (algorithm-based); Airbnb sync; activity logs through the igloohome Bridge (not included); keypad lockout after repeated wrong attempts",
+        "Mounting": "Two shackle sizes (door knobs, handles, gates) or screw mount on a wall; car mount sold separately",
+        "Capacity": "Interior 4.3 x 3.4 x 1.1 in (W x H x T); fits house keys, access cards and car key fobs",
+        "Dimensions": "Body 4.5 x 6.5 x 2.1 in (W x H x T)",
+        "Weight": "2.205 lb net",
+        "Weather": "IP66 (water and dust resistant); operating temperature -4 F to 122 F",
+        "Build": "Body zinc alloy and aluminum alloy; shackle hardened steel and rubber",
+        "Power": "4 AAA alkaline batteries, up to 12 months; USB-C jump-start for emergency power",
+        "Warranty": "1-year manufacturer warranty",
+        "Certifications": "CE, FCC, Giteki, IP66"
+      },
+      "scores": {"security": 7, "access": 7, "capacity": 8, "value": 5},
+      "scoreNote": "Hardened-steel shackle, alloy body, keypad lockout and expiring PINs help security but there is no independent burglary rating; access is quick once set up but depends on batteries and an app, and it is a premium-priced box.",
+      "owners": {
+        "read": 13,
+        "praise": ["Sturdy build and roomy interior that holds several keys and a fob", "Remote and one-time PIN codes make contractor and guest access easy"],
+        "complaints": ["Higher price for what is a key box", "Wi-Fi Bridge can drop offline until set to a dedicated 2.4 GHz network; one owner reported batteries draining fast and got a replacement"],
+        "sources": [
+          {"title": "Walmart: customer reviews for igloohome Smart Keybox 3", "url": "https://www.walmart.com/reviews/product/150494583", "reviews": 8},
+          {"title": "igloohome US store: Smart Keybox 3 customer reviews and technical specs", "url": "https://store-us.igloohome.co/products/keybox-3", "reviews": 165}
+        ]
+      },
+      "ownerQuotes": [
+        {"quote": "The lockbox seems very sturdy, the wifi and Bluetooth functions are as advertised, and the internal storage area is more than enough to hold several keys including a fob.", "url": "https://store-us.igloohome.co/products/keybox-3"},
+        {"quote": "Can't get logs or verify who has unlocked the device unless I'm within bluetooth range, but being able to generate an access code from anywhere to give to someone is pretty handy!", "url": "https://store-us.igloohome.co/products/keybox-3"},
+        {"quote": "works perfectly. love having multiple one time use codes already programmed in for our venue so I can let contractors and clients in easily.", "url": "https://www.walmart.com/reviews/product/150494583"},
+        {"quote": "At first we had trouble with the Wi-Fi bridge staying connected to the internet but then we created a dedicated 2.4 GHZ Wi-Fi channel for it and it's working perfectly now.", "url": "https://www.walmart.com/reviews/product/150494583"},
+        {"quote": "It is big, it is for keys, it doesn't need to be big, and it costs too much!", "url": "https://www.walmart.com/reviews/product/150494583"}
+      ],
+      "sources": [
+        "https://www.igloohome.co/products/keybox-3",
+        "https://store-us.igloohome.co/products/keybox-3",
+        "https://support.igloohome.co/support/solutions/35000138139",
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://butterflymx.com/blog/spare-key-storage/",
+        "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes"
+      ]
+    }
+  ],
+  "rejected": [
+    {"name": "Supra C500 Pro", "pages": ["https://swiftlane.com/blog/best-key-lockboxes-guide/", "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes"], "reason": "Named on 2 top-10 pages, but it is a UK-market product (LPS 1175 / Secured by Design); the only Amazon US listing I found (B09JKFYWQ6) is a third-party 'KeySafe' brand import whose own spec table says 'Not Water Resistant', so no clear popular US listing and maker specs not verified. Caller can decide to add it as a 4th pick."}
+  ]
+}
