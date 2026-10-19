@@ -1448,6 +1448,190 @@
           "ammo storage"
         ]
       }
+    ],
+    "lock-boxes": [
+      {
+        "id": "lock-boxes-box-stolen-or-pried-off-wall",
+        "pain": "The key lock box itself gets pried off or stolen from the wall, taking the spare key with it",
+        "details": "Owners and building tenants learn that a box is only as strong as its mounting. Boxes bolted to exterior walls have been taken overnight, and replies point out that a certified box is stronger than the screws holding it up, so the fasteners and mounting spot matter.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/melbourne/comments/1cby8ij/psa_lockboxes_are_not_secure/",
+            "platform": "reddit",
+            "title": "PSA: lockboxes are not secure. : r/melbourne",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/AskUK/comments/11gv8x6/how_safe_are_key_safes/",
+            "platform": "reddit",
+            "title": "How safe are key safes? : r/AskUK",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/homesecurity/comments/1p1qj2w/key_lockbox_thats_actually_secure_is_there_one/",
+            "platform": "reddit",
+            "title": "Key Lockbox That's Actually Secure.... Is there one? : r/homesecurity",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Recently had two key lockboxes that were bolted into the external walls of our apartment building stolen in the middle of the night.",
+            "url": "https://www.reddit.com/r/melbourne/comments/1cby8ij/psa_lockboxes_are_not_secure/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "The key safe itself if you bought a certified one is a lot stronger than the screws holding it into the wall.",
+            "url": "https://www.reddit.com/r/AskUK/comments/11gv8x6/how_safe_are_key_safes/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "I'm looking for a lockbox to keep a spare home key in. A mechanical, non-battery unit. And one that won't necessarily easily smash open with",
+            "url": "https://www.reddit.com/r/homesecurity/comments/1p1qj2w/key_lockbox_thats_actually_secure_is_there_one/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "key lock box security reddit are lock boxes secure burglars thieves"
+        ],
+        "keywords": [
+          "best key lock box",
+          "key lock box"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "lock-boxes-advertises-key-inside",
+        "pain": "A visible lock box on the door tells a thief there is a key inside, so owners wonder if it beats a hide-a-key",
+        "details": "Homeowners who need to let a relative, sitter or cleaner in weigh a hidden key against a lock box. Replies say a lock box is more secure than a hidden key but is obvious, and that a cheap box is fine against casual thieves but not a determined one. Placement and a code changed after each visitor are the practical levers.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/homeowners/comments/1k5fmjo/thoughts_on_hiding_front_door_keys_for_a_family/",
+            "platform": "reddit",
+            "title": "Thoughts on hiding front door keys for a family member to enter? : r/homeowners",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/",
+            "platform": "reddit",
+            "title": "Key lock box advice : r/homesecurity",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/homesecurity/comments/1rouwcb/key_lockbox/",
+            "platform": "reddit",
+            "title": "Key Lockbox : r/homesecurity",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "A thief is going to spot a hide a key, the lockbox is more secure but still makes it obvious that there is a key inside- but should be perfectly",
+            "url": "https://www.reddit.com/r/homeowners/comments/1k5fmjo/thoughts_on_hiding_front_door_keys_for_a_family/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Most people won't have the finesse to pick locks or the patience, so your cheap lockbox should be fine 99% of the time.",
+            "url": "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "key lock box security reddit are lock boxes secure burglars thieves"
+        ],
+        "keywords": [
+          "best key lock box",
+          "key lock box"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "lock-boxes-forgot-or-changed-own-code",
+        "pain": "The owner forgets the code, or someone in the household changes it, and the box will not close or open",
+        "details": "Resettable boxes are easy to change by accident: a partner removes the spare key, closes the box and resets the combination, or the owner forgets the code and the box will not latch. The safe path for your own box is to write the code down somewhere secure and use the maker's reset steps or code-recovery service with proof of ownership.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/",
+            "platform": "reddit",
+            "title": "Any tips for opening one of these? : r/DIYUK",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/lockpicking/comments/4xj4g9/forgot_code_to_my_master_lock_and_now_it_wont/",
+            "platform": "reddit",
+            "title": "Forgot code to my Master Lock and now it wont close : r/lockpicking",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/",
+            "platform": "reddit",
+            "title": "Anyone been successful at opening this Master lockbox without ... : r/maintenance",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "My partner managed to take the spare key out, close the box and somehow change the combination.",
+            "url": "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "First hit the reset on the bottom, then punch in the code.",
+            "url": "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "site:reddit.com key lock box code reset forgot combination locked out of my own lockbox"
+        ],
+        "keywords": [
+          "best key lock box",
+          "key lock box code reset"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "lock-boxes-sticks-or-jams",
+        "pain": "The shackle, latch or cover sticks so the owner's own box will not open on the right code",
+        "details": "Owners with a box that has the right code still report a stiff latch or cover; replies say to hold the cover firmly closed while entering the code and pulling the lever. Dirt, rain and age make it worse, so a sealed, weather-rated box and a yearly check of the latch are the prevention.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/lockpicking/comments/51d8ui/jammed_masterlock_key_box_any_advice/",
+            "platform": "reddit",
+            "title": "Jammed MasterLock Key Box - Any advice? : r/lockpicking",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/",
+            "platform": "reddit",
+            "title": "Anyone been successful at opening this Master lockbox without ... : r/maintenance",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "just to be clear, hold the cover very very tightly closed and then do the combination again and pull the lever down.",
+            "url": "https://www.reddit.com/r/lockpicking/comments/51d8ui/jammed_masterlock_key_box_any_advice/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "site:reddit.com key lock box code reset forgot combination locked out of my own lockbox"
+        ],
+        "keywords": [
+          "best key lock box",
+          "key lock box not opening"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      }
     ]
   }
 }

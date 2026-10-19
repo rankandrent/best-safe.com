@@ -873,7 +873,14 @@
       "forums": 1,
       "videos": 1
     },
-    "productCount": 3
+    "productCount": 3,
+    "painPoints": [
+      "lock-boxes-box-stolen-or-pried-off-wall",
+      "lock-boxes-advertises-key-inside",
+      "lock-boxes-forgot-or-changed-own-code",
+      "lock-boxes-sticks-or-jams",
+      "safe-guides-battery-dies-locks-owner-out"
+    ]
   },
   {
     "status": "merged",

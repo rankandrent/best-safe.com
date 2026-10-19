@@ -1,0 +1,500 @@
+{
+  "centralEntity": "key lock box",
+  "entityVariants": [
+    "key lock boxes",
+    "lock box for keys",
+    "key safe",
+    "lockbox",
+    "spare key lock box",
+    "key storage box",
+    "combination lock box",
+    "realtor lockbox"
+  ],
+  "entities": [
+    {
+      "name": "Kidde AccessPoint KeySafe",
+      "type": "product",
+      "relation": "Wirecutter's lockbox pick; 3-key push-button box that hangs on a doorknob"
+    },
+    {
+      "name": "Master Lock 5400D",
+      "type": "product",
+      "relation": "set-your-own-combination portable box with a vinyl-coated shackle; Bob Vila's best overall"
+    },
+    {
+      "name": "igloohome Smart Keybox 3",
+      "type": "product",
+      "relation": "Bluetooth smart box issuing one-time and time-limited PINs offline"
+    },
+    {
+      "name": "Wirecutter",
+      "type": "publication",
+      "relation": "names the Kidde KeySafe its best lockbox"
+    },
+    {
+      "name": "push-button lock",
+      "type": "lock type",
+      "relation": "mechanical code entry with no battery, used on the Kidde KeySafe"
+    },
+    {
+      "name": "set-your-own combination",
+      "type": "lock type",
+      "relation": "resettable dial or wheel code, used on the Master Lock 5400D"
+    },
+    {
+      "name": "smart lock box",
+      "type": "lock type",
+      "relation": "Bluetooth/app box with expiring PIN codes and optional access logs"
+    },
+    {
+      "name": "shackle",
+      "type": "feature",
+      "relation": "loop that hangs a portable box on a doorknob, gate or railing"
+    },
+    {
+      "name": "wall-mount lock box",
+      "type": "product type",
+      "relation": "screws into brick, concrete or wood; harder to remove than a shackle box"
+    },
+    {
+      "name": "weather resistance",
+      "type": "attribute",
+      "relation": "sealed cover or IP rating so rain, sun and frost do not jam the box"
+    },
+    {
+      "name": "UK key safe (Sold Secure, LPS 1175)",
+      "type": "standard",
+      "relation": "certified key-safe ratings abroad; US boxes have no equivalent common rating"
+    },
+    {
+      "name": "landlord and property manager",
+      "type": "use case",
+      "relation": "share keys with vendors, cleaners and tenants"
+    },
+    {
+      "name": "Airbnb host",
+      "type": "use case",
+      "relation": "self check-in with one-time codes"
+    },
+    {
+      "name": "pet sitter and caregiver",
+      "type": "use case",
+      "relation": "family or helper access to the owner's own home"
+    },
+    {
+      "name": "audit trail",
+      "type": "feature",
+      "relation": "log of who opened the box; smart boxes only"
+    },
+    {
+      "name": "Supra",
+      "type": "brand",
+      "relation": "realtor-grade electronic and mechanical lockboxes"
+    },
+    {
+      "name": "Kingsley",
+      "type": "brand",
+      "relation": "maker of the Guard-a-Key and higher-capacity KL313 boxes"
+    }
+  ],
+  "attributes": [
+    "lock type (push-button, dial, smart)",
+    "resettable code",
+    "number of keys it holds",
+    "interior dimensions for fobs and bulky keys",
+    "mounting (shackle vs wall)",
+    "weather resistance and winter performance",
+    "body and shackle material",
+    "battery or no battery",
+    "backup entry",
+    "audit log and expiring codes",
+    "visibility from the street",
+    "price"
+  ],
+  "ngrams": [
+    "key lock box",
+    "best key lock box",
+    "lock box for keys",
+    "spare key",
+    "combination lock box",
+    "set your own combination",
+    "portable lock box",
+    "wall mount",
+    "wall-mounted lock box",
+    "weather resistant",
+    "holds up to",
+    "resettable code",
+    "smart lock box",
+    "key safe",
+    "property managers",
+    "hide a key"
+  ],
+  "skipgrams": [
+    "lock…box",
+    "key…safe",
+    "spare…key",
+    "code…reset",
+    "weather…resistant",
+    "wall…mounted",
+    "shackle…doorknob",
+    "set…combination",
+    "hide…key",
+    "change…code",
+    "keys…inside",
+    "holds…keys"
+  ],
+  "nlpTerms": [
+    "shackle",
+    "doorknob",
+    "combination",
+    "push-button",
+    "resettable",
+    "zinc alloy",
+    "hardened steel",
+    "IP66",
+    "Bluetooth",
+    "PIN",
+    "one-time code",
+    "wall mount",
+    "masonry anchor",
+    "vinyl-coated",
+    "weatherproof",
+    "tamper",
+    "landlord",
+    "realtor",
+    "pet sitter",
+    "keypad",
+    "backup key",
+    "audit trail",
+    "key fob",
+    "rust",
+    "rubber cover"
+  ],
+  "questions": [
+    "What is the best key lock box?",
+    "Are key lock boxes safe?",
+    "Where should I put a key lock box?",
+    "How do I change the code on my key lock box?",
+    "Can a key lock box be stolen or pried off?",
+    "Is a lock box safer than hiding a key?",
+    "Which key lock box is weatherproof?",
+    "Wall-mount or shackle lock box, which is better?",
+    "How many keys fit in a key lock box?",
+    "How often should I change the code?",
+    "What do I do if I forget the code on my own lock box?",
+    "Do smart key lock boxes need Wi-Fi?"
+  ],
+  "contentGaps": [
+    "Mounting is the weak point: what to bolt or anchor into (masonry vs wood) and why a shackle box is easier to carry off than a wall-mount box",
+    "Placement: out of street view, not at the main door; owner reports say a visible box advertises a key inside",
+    "Code hygiene for the owner's own box: pick a non-obvious code, write it somewhere safe, change it after each helper, and use the maker's reset or code-recovery steps with proof of ownership",
+    "Weather and winter: sealed cover, IP rating, yearly latch check, so the owner's box still opens in frost or after rain",
+    "Push-button codes are a set of buttons, not an ordered PIN, so effective code space is small; where each type fits (low-risk spare key vs vendors)",
+    "When to skip a lock box (valuables, firearms) and use a small safe or a smart lock instead",
+    "Maker claims versus independent certification: most US key boxes carry no independent burglary rating"
+  ],
+  "outline": [
+    {
+      "h2": "Best key lock box at a glance",
+      "intent": "quick answer and top picks",
+      "h3": [
+        "Our three picks in one table",
+        "Which one to choose in 10 seconds"
+      ]
+    },
+    {
+      "h2": "The best key lock boxes, reviewed",
+      "intent": "product picks, one per role",
+      "h3": [
+        "Kidde AccessPoint 001166 KeySafe: best for a spare key",
+        "Master Lock 5400D Portable Lock Box: best weather-resistant combination box",
+        "igloohome Smart Keybox 3: best smart lock box"
+      ]
+    },
+    {
+      "h2": "How we chose these key lock boxes",
+      "intent": "methodology and trust",
+      "h3": [
+        "What we compared",
+        "What we could not verify"
+      ]
+    },
+    {
+      "h2": "How to choose a key lock box",
+      "intent": "buying guide",
+      "h3": [
+        "Push-button, dial or smart lock",
+        "Shackle or wall mount",
+        "Capacity and key size",
+        "Weather resistance",
+        "Resettable code and who knows it"
+      ]
+    },
+    {
+      "h2": "Where to put a key lock box and how to mount it",
+      "intent": "setup and placement for the owner's own box",
+      "h3": [
+        "Placement out of street view",
+        "Anchoring a wall-mount box",
+        "Setting and changing the code"
+      ]
+    },
+    {
+      "h2": "Problems owners run into, and the fix",
+      "intent": "answers the stored pain points",
+      "h3": [
+        "The box gets pried off or stolen",
+        "A visible box tells a thief a key is inside",
+        "Forgot the code or someone changed it",
+        "Stiff or jammed latch",
+        "Dead batteries on a smart box"
+      ]
+    },
+    {
+      "h2": "Key lock box or hide-a-key, smart lock or small safe?",
+      "intent": "alternatives and limits",
+      "h3": [
+        "When a lock box is enough",
+        "When to step up to a smart lock or small safe"
+      ]
+    },
+    {
+      "h2": "Key lock box FAQ",
+      "intent": "People Also Ask coverage",
+      "h3": []
+    },
+    {
+      "h2": "Our verdict",
+      "intent": "close the opening scene and give a decisive pick",
+      "h3": []
+    }
+  ],
+  "targetWords": 2300,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.nytimes.com/wirecutter/reviews/best-lock-box/",
+      "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+      "https://www.bobvila.com/articles/best-key-lock-box/",
+      "https://butterflymx.com/blog/spare-key-storage/",
+      "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes",
+      "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Swiftlane gives each pick a Pros and Cons list, Bob Vila and Wirecutter pair a short blurb with strengths and drawbacks, and ButterflyMX lists each box with pros and cons; none use spec tables per product.",
+    "avgWords": 1900,
+    "avgProducts": 6,
+    "commonSections": [
+      "quick picks / top picks table",
+      "product reviews with pros and cons",
+      "how we chose",
+      "buying guide (lock type, mounting, capacity, weather resistance)",
+      "FAQ"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://store.masterlock.com/collections/lock-boxes",
+      "title": "Lock Boxes | Master Lock Store"
+    },
+    {
+      "position": 2,
+      "url": "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/",
+      "title": "Key lock box advice : r/homesecurity - Reddit"
+    },
+    {
+      "position": 3,
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-lock-box/",
+      "title": "The Best Lockbox | Reviews by Wirecutter - The New York Times"
+    },
+    {
+      "position": 4,
+      "url": "https://www.amazon.com/Best-Sellers-Security-Lock-Boxes/zgbs/office-products/705336011",
+      "title": "Best Security Lock Boxes - Amazon.com"
+    },
+    {
+      "position": 5,
+      "url": "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+      "title": "Best Key Lock Boxes Guide for Property Managers (2026) - Swiftlane"
+    },
+    {
+      "position": 6,
+      "url": "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes",
+      "title": "The £22 home security gadget burglars hate – this common safety mistake is leaving your home exposed"
+    },
+    {
+      "position": 7,
+      "url": "https://www.youtube.com/watch?v=Pf9Oc-I9EeE",
+      "title": "The Best Lock Box I've Used as a Landlord - YouTube"
+    },
+    {
+      "position": 8,
+      "url": "https://www.homedepot.com/b/Tools-Safety-Security-Safes-Lock-Boxes/Best-Rated/Key-Lock-Boxes/N-5yc1vZ2fkonyyZbwo5qZ1z24wm9",
+      "title": "Key Lock Boxes - Best Rated - The Home Depot"
+    },
+    {
+      "position": 9,
+      "url": "https://www.bobvila.com/articles/best-key-lock-box/",
+      "title": "The Best Key Lock Box for Securely Storing Spares - Bob Vila"
+    },
+    {
+      "position": 10,
+      "url": "https://butterflymx.com/blog/spare-key-storage/",
+      "title": "Spare Key Storage: 5 Best Lock Boxes & A Better Alternative - ButterflyMX"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 1,
+    "withNumber": 1,
+    "commonModifiers": [
+      "best",
+      "lock boxes",
+      "for property managers / landlords",
+      "spare key",
+      "reviews"
+    ],
+    "gap": "Owner-side security: how to mount it, pick a code and keep a spare-key box from being pried off or advertising the key"
+  },
+  "painPoints": [
+    {
+      "id": "lock-boxes-box-stolen-or-pried-off-wall",
+      "pain": "The key lock box itself gets pried off or stolen from the wall, taking the spare key with it",
+      "details": "Owners and building tenants learn that a box is only as strong as its mounting. Boxes bolted to exterior walls have been taken overnight, and replies point out that a certified box is stronger than the screws holding it up, so the fasteners and mounting spot matter.",
+      "sources": [
+        "https://www.reddit.com/r/melbourne/comments/1cby8ij/psa_lockboxes_are_not_secure/",
+        "https://www.reddit.com/r/AskUK/comments/11gv8x6/how_safe_are_key_safes/",
+        "https://www.reddit.com/r/homesecurity/comments/1p1qj2w/key_lockbox_thats_actually_secure_is_there_one/"
+      ],
+      "quotes": [
+        {
+          "text": "Recently had two key lockboxes that were bolted into the external walls of our apartment building stolen in the middle of the night.",
+          "url": "https://www.reddit.com/r/melbourne/comments/1cby8ij/psa_lockboxes_are_not_secure/"
+        },
+        {
+          "text": "The key safe itself if you bought a certified one is a lot stronger than the screws holding it into the wall.",
+          "url": "https://www.reddit.com/r/AskUK/comments/11gv8x6/how_safe_are_key_safes/"
+        },
+        {
+          "text": "I'm looking for a lockbox to keep a spare home key in. A mechanical, non-battery unit. And one that won't necessarily easily smash open with",
+          "url": "https://www.reddit.com/r/homesecurity/comments/1p1qj2w/key_lockbox_thats_actually_secure_is_there_one/"
+        }
+      ]
+    },
+    {
+      "id": "lock-boxes-advertises-key-inside",
+      "pain": "A visible lock box on the door tells a thief there is a key inside, so owners wonder if it beats a hide-a-key",
+      "details": "Homeowners who need to let a relative, sitter or cleaner in weigh a hidden key against a lock box. Replies say a lock box is more secure than a hidden key but is obvious, and that a cheap box is fine against casual thieves but not a determined one. Placement and a code changed after each visitor are the practical levers.",
+      "sources": [
+        "https://www.reddit.com/r/homeowners/comments/1k5fmjo/thoughts_on_hiding_front_door_keys_for_a_family/",
+        "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/",
+        "https://www.reddit.com/r/homesecurity/comments/1rouwcb/key_lockbox/"
+      ],
+      "quotes": [
+        {
+          "text": "A thief is going to spot a hide a key, the lockbox is more secure but still makes it obvious that there is a key inside- but should be perfectly",
+          "url": "https://www.reddit.com/r/homeowners/comments/1k5fmjo/thoughts_on_hiding_front_door_keys_for_a_family/"
+        },
+        {
+          "text": "Most people won't have the finesse to pick locks or the patience, so your cheap lockbox should be fine 99% of the time.",
+          "url": "https://www.reddit.com/r/homesecurity/comments/vi33e0/key_lock_box_advice/"
+        }
+      ]
+    },
+    {
+      "id": "lock-boxes-forgot-or-changed-own-code",
+      "pain": "The owner forgets the code, or someone in the household changes it, and the box will not close or open",
+      "details": "Resettable boxes are easy to change by accident: a partner removes the spare key, closes the box and resets the combination, or the owner forgets the code and the box will not latch. The safe path for your own box is to write the code down somewhere secure and use the maker's reset steps or code-recovery service with proof of ownership.",
+      "sources": [
+        "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/",
+        "https://www.reddit.com/r/lockpicking/comments/4xj4g9/forgot_code_to_my_master_lock_and_now_it_wont/",
+        "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/"
+      ],
+      "quotes": [
+        {
+          "text": "My partner managed to take the spare key out, close the box and somehow change the combination.",
+          "url": "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/"
+        },
+        {
+          "text": "First hit the reset on the bottom, then punch in the code.",
+          "url": "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/"
+        }
+      ]
+    },
+    {
+      "id": "lock-boxes-sticks-or-jams",
+      "pain": "The shackle, latch or cover sticks so the owner's own box will not open on the right code",
+      "details": "Owners with a box that has the right code still report a stiff latch or cover; replies say to hold the cover firmly closed while entering the code and pulling the lever. Dirt, rain and age make it worse, so a sealed, weather-rated box and a yearly check of the latch are the prevention.",
+      "sources": [
+        "https://www.reddit.com/r/lockpicking/comments/51d8ui/jammed_masterlock_key_box_any_advice/",
+        "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/"
+      ],
+      "quotes": [
+        {
+          "text": "just to be clear, hold the cover very very tightly closed and then do the combination again and pull the lever down.",
+          "url": "https://www.reddit.com/r/lockpicking/comments/51d8ui/jammed_masterlock_key_box_any_advice/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-battery-dies-locks-owner-out",
+      "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+      "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+        "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+        "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+        "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+        "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+      ],
+      "quotes": [
+        {
+          "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+          "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+        },
+        {
+          "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        },
+        {
+          "text": "Safe batteries dead and key not unlocking.",
+          "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/"
+        },
+        {
+          "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+          "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+        }
+      ]
+    }
+  ],
+  "serpProducts": [
+    {
+      "name": "Kidde AccessPoint KeySafe",
+      "pages": [
+        "https://www.nytimes.com/wirecutter/reviews/best-lock-box/",
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://butterflymx.com/blog/spare-key-storage/",
+        "https://www.bobvila.com/articles/best-key-lock-box/"
+      ]
+    },
+    {
+      "name": "igloohome Smart Keybox 3",
+      "pages": [
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://butterflymx.com/blog/spare-key-storage/",
+        "https://www.yourhomeandstyle.com/household-hacks/home-security/best-keysafes"
+      ]
+    },
+    {
+      "name": "Master Lock 5400D",
+      "pages": [
+        "https://swiftlane.com/blog/best-key-lockboxes-guide/",
+        "https://www.bobvila.com/articles/best-key-lock-box/"
+      ]
+    }
+  ]
+}
