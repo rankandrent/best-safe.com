@@ -521,7 +521,7 @@ products:
           url: 'https://pickstead.com/guides/sentrysafe-chw20221-fire-chest-review/'
 heroImage: /images/featured/best-fireproof-safe.png
 heroAlt: >-
-  Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared – Best Safe
+  Best Fireproof Safe for Home – 6 UL-Rated Picks Compared – Best Safe
   buying guide
 related:
   - best-key-lock-box

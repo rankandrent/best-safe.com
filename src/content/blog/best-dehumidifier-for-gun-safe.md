@@ -336,7 +336,7 @@ related:
   - best-pistol-safe
 heroImage: /images/featured/best-dehumidifier-for-gun-safe.png
 heroAlt: >-
-  Best Dehumidifier for Gun Safe (2026) – 3 Picks Sized by Cubic Feet – Best
+  Best Dehumidifier for Gun Safe – 3 Picks Sized by Cubic Feet – Best
   Safe buying guide
 ---
 

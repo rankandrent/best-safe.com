@@ -344,7 +344,7 @@ related:
   - best-pistol-safe
 heroImage: /images/featured/best-ammo-can.png
 heroAlt: >-
-  Best Ammo Can (2026) – 3 Picks for Bulk, Budget and Steel Storage – Best Safe
+  Best Ammo Can – 3 Picks for Bulk, Budget and Steel Storage – Best Safe
   buying guide
 ---
 

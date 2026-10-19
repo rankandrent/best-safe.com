@@ -323,7 +323,7 @@ faqs:
 author: editorial-team
 heroImage: /images/featured/best-fireproof-document-safe.png
 heroAlt: >-
-  Best Fireproof Document Safe (2026) – 3 Picks for Letter and Legal – Best Safe
+  Best Fireproof Document Safe – 3 Picks for Letter and Legal – Best Safe
   buying guide
 related:
   - best-key-lock-box
