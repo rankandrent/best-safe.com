@@ -111,6 +111,10 @@ Trim backlog (owner rule: concise and new): tighten **one** older post a day, AF
 4. `qa-agent <slug>` (it must still pass), then set `updatedDate` to now and `reviewedDate` to today,
    `node scripts/routine.mjs trimmed <slug> "<words before> -> <words after>"`, build, commit and push.
    Translations stay as they are; they are re-done only if a fact changed.
+Tracking: rentersmarthome.us takes a daily Search Console snapshot of all three sites (gsc-snapshot.yml,
+data/gsc/<domain>/ in that repo). `node /home/user/rentersmarthome.us/scripts/trim-report.mjs <this repo> <domain>`
+compares each trimmed post 4+ weeks after the trim with the untrimmed posts. Every Monday run it and put the result
+in the summary; if trimmed posts do worse than the control group, stop trimming and tell the owner.
 If `remainingToday` is 0, stop here (no commit). Otherwise publish that many posts
 (steps 2–8 per post).
 
