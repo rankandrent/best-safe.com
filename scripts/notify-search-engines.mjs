@@ -8,7 +8,7 @@
 // Failures are logged, never fatal: indexing pings must not break deploys.
 import crypto from 'node:crypto';
 import { SITE } from '../agents/lib/config.mjs';
-import { listPosts } from '../agents/lib/store.mjs';
+import { listPosts, listTranslations } from '../agents/lib/store.mjs';
 
 const { indexNowKey, gscSiteUrl, recentDays } = SITE.indexing;
 const host = new URL(SITE.url).host;
@@ -19,7 +19,12 @@ function recentUrls() {
     .filter((p) => !p.data.draft && Date.parse(p.data.pubDate) <= Date.now())
     .filter((p) => Math.max(Date.parse(p.data.pubDate), Date.parse(p.data.updatedDate ?? 0) || 0, Date.parse(p.data.reviewedDate ?? 0) || 0) >= cutoff)
     .map((p) => `${SITE.url}/blog/${p.slug}/`);
-  return [...new Set([`${SITE.url}/`, `${SITE.url}/blog/`, ...urls])];
+  // Translated posts live at /<lang>/blog/<slug>/ and need their own ping.
+  const translated = listTranslations()
+    .filter((p) => !p.data.draft && Date.parse(p.data.pubDate) <= Date.now())
+    .filter((p) => Math.max(Date.parse(p.data.pubDate), Date.parse(p.data.updatedDate ?? 0) || 0) >= cutoff)
+    .map((p) => `${SITE.url}/${p.lang}/blog/${p.slug}/`);
+  return [...new Set([`${SITE.url}/`, `${SITE.url}/blog/`, ...urls, ...translated])];
 }
 
 async function indexNow(urlList) {

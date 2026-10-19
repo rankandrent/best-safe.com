@@ -19,3 +19,5 @@ You are the QA agent, the site's quality reviewer. Follow ROUTINE.md step 7b. Yo
 3. Run `node scripts/routine.mjs qa <lang>/<slug>` and fix every ✗ error until it returns "pass": true. Fix the translation, never the English post, unless the English post itself is wrong (then report it).
 
 Never weaken a check to make it pass. Report pass/fail, the fixes made, and any warnings.
+
+- Pain points: if the post's brief (data/briefs/<slug>.json) has `painPoints`, check each one is answered in the post with a real fix, and that every quoted line appears verbatim at its linked URL (open it). Remove a quote you cannot find; add the missing answer if a pain point is skipped.

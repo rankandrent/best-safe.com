@@ -49,6 +49,7 @@ productCount and slot time it needs, and act on what it returns:
 |---|---|---|
 | 1, 2b keywords | `keyword-agent` | sonnet |
 | 1a competitor gap keywords | `competitor-gap-agent` | sonnet |
+| 1p reader pain points | `pain-point-agent` | sonnet |
 | 3 products | `product-agent` | sonnet |
 | 4 brief + serpStructure | `brief-agent` | sonnet |
 | 6-7 write + audit | `writer-agent` | opus |
@@ -336,3 +337,15 @@ top 10 (Ahrefs site-explorer-organic-keywords, US, KD ≤ maxKd, 3+ words, volum
 niche to the queue with `source: "competitor-gap"`. Budget: at most 3,000 Ahrefs units per run, and nothing when
 fewer than 10,000 API units remain. Findings are kept in data/competitors.json so a domain or seed is not
 re-checked within 30 days. Only keywords are taken from competitors, never their text.
+
+## Pain points (owner rule)
+
+Google and Bing reward pages that solve the problems readers describe in their own words. `pain-point-agent` reads
+Reddit, Quora and niche forums, stores repeated problems per category in `data/pain-points.json` (with source URLs and
+verbatim quotes), marks which posts already answer them, and queues new topics for uncovered pain points that have a
+measured Ahrefs volume (`source: "pain-point"`, `painPoints: [ids]`). Run it at the start of each daily run (2-4
+categories: today's keywords first), and before a brief whenever the post's category has fewer than 5 stored pain points.
+Linked agents: brief-agent puts 3-6 matching pain points into the brief (`painPoints`) with an outline section for them;
+writer-agent answers each one with a real fix and links the thread once (exact quotes only); qa-agent checks every pain
+point is answered and every quote is verbatim at its URL; keyword-agent and competitor-gap-agent tag matching queue
+entries with `painPoints`.

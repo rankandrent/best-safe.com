@@ -57,3 +57,5 @@ Work in the site repo you were given (its `site.config.json`, `data/seeds.json`,
 
 Never copy a competitor's text, structure or images; the keyword is the only thing we take. Never write secrets
 into files.
+
+- Pain points: when a kept keyword matches a pain point in `data/pain-points.json`, add its ids as `painPoints` on the queue entry.
