@@ -12,6 +12,8 @@
 //   node scripts/routine.mjs qa <slug>              QA agent review (must PASS before the post can go live)
 //   node scripts/routine.mjs factcheck <slug> "notes"  record that every claim was verified against sources
 //   node scripts/routine.mjs finalize <slug>        featured image, backlinks, queue/state, report
+//   node scripts/routine.mjs trim-queue             live posts longer than their SERP limit, most padded first
+//   node scripts/routine.mjs trimmed <slug> [note]  record that a post was tightened (skipped by trim-queue for 90 days)
 //
 // Translations (src/content/blog/<lang>/<slug>.md): audit, qa, factcheck and finalize also take
 // '<lang>/<slug>' (e.g. `qa de/bester-pistolentresor` writes data/qa/de/<slug>.json).
@@ -29,10 +31,12 @@ import { nextKeyword, collectSources } from '../agents/orchestrator.mjs';
 import { ensureFeatured } from './featured-images.mjs';
 import { funnelOf } from '../agents/lib/funnel.mjs';
 import { findCannibal } from '../agents/lib/cannibal.mjs';
-import { qaPost, qaTranslation, recordFactCheck, readQa } from '../agents/qa-agent.mjs';
+import { qaPost, qaTranslation, recordFactCheck, readQa, lengthLimit } from '../agents/qa-agent.mjs';
 import { productCountFor } from '../agents/lib/product-count.mjs';
 
 const BRIEFS = path.join(DATA_DIR, 'briefs');
+const TRIMMED = path.join(DATA_DIR, 'trimmed.json');
+const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return fallback; } };
 const [cmd, arg] = process.argv.slice(2);
 const out = (o) => console.log(JSON.stringify(o, null, 2));
 const ref = parseRef(arg);
@@ -219,6 +223,24 @@ if (cmd === 'status') {
   saveState(state);
   saveReport(ref.id, { lang: ref.lang, translationOf: post.data.translationOf, keyword: post.data.keyword, createdAt: new Date().toISOString(), via: 'claude-routine', sources: (post.data.sources ?? []).map((x) => x.url) });
   out({ finalized: ref.id, translationOf: post.data.translationOf, pubDate: post.data.pubDate });
+} else if (cmd === 'trim-queue') {
+  // Owner rule (concise and new): older posts the QA flags as longer than the top results, most padded first.
+  const done = readJson(TRIMMED, {});
+  const now = Date.now();
+  const queue = listPosts()
+    .filter((p) => !p.data.draft && Date.parse(p.data.pubDate) <= now && readQa(p.slug)?.pass)
+    .filter((p) => !(done[p.slug] && now - Date.parse(done[p.slug].at) < 90 * 86400000))
+    .map((p) => ({ slug: p.slug, ...lengthLimit(p), brief: undefined }))
+    .filter((x) => x.words > x.limit)
+    .map(({ slug, words, limit }) => ({ slug, words, limit, over: Math.round((words / limit - 1) * 100) + '%' }))
+    .sort((a, b) => b.words / b.limit - a.words / a.limit);
+  out({ perDay: 1, pending: queue.length, queue });
+} else if (cmd === 'trimmed') {
+  if (!listPosts().some((p) => p.slug === arg)) throw new Error(`no such post: ${arg}`);
+  const done = readJson(TRIMMED, {});
+  done[arg] = { at: new Date().toISOString(), note: process.argv.slice(4).join(' ') };
+  fs.writeFileSync(TRIMMED, JSON.stringify(done, null, 2) + '\n');
+  out({ trimmed: arg });
 } else if (cmd === 'translate-queue') {
   // English posts that are live and pass QA but have no version (any status) in a language yet.
   const langs = arg ? [arg] : TRANSLATION_LANGS;

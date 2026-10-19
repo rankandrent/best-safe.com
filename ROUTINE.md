@@ -99,6 +99,17 @@ node scripts/qa.mjs --failing
 If `--failing` lists posts, fix them first (they are blocked from going live). Then, as
 QA backlog work, fact-check **one** older post whose QA report has a `LIVE POST, FIX` or
 `facts not verified` warning: verify it against its sources, fix it, and run `factcheck` and `qa` for it.
+Then, as trim backlog work (owner rule: concise and new), tighten **one** older post a day:
+1. `node scripts/routine.mjs trim-queue` and take the first entry (skip this if the queue is empty).
+2. If `data/briefs/<slug>.json` has no `commonPoints`/`ourGain`, have `brief-agent` add just those two fields (and
+   `serpStructure.avgWords` if missing) from the SERP, without rewriting the rest of the brief.
+3. `writer-agent` in **tighten mode** on `<slug>`: keep the URL, slug, keyword, title, products, sources, pubDate and
+   every fact a reader needs; open with the direct answer; shorten the brief's `commonPoints` to a sentence or two;
+   add any missing `ourGain` points with their source; cut filler, repeated points and padding toward the QA word
+   limit (never cut a product, a pain-point answer or a safety note just to hit the number).
+4. `qa-agent <slug>` (it must still pass), then set `updatedDate` to now and `reviewedDate` to today,
+   `node scripts/routine.mjs trimmed <slug> "<words before> -> <words after>"`, build, commit and push.
+   Translations stay as they are; they are re-done only if a fact changed.
 If `remainingToday` is 0, stop here (no commit). Otherwise publish that many posts
 (steps 2–8 per post).
 
