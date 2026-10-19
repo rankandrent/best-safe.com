@@ -1362,6 +1362,92 @@
         "foundAt": "2026-10-19",
         "note": "Do not give legal advice; say check your state's rules."
       }
+    ],
+    "safe-accessories": [
+      {
+        "id": "safe-accessories-ammo-humid-garage-storage",
+        "pain": "Unsure whether ammo cans alone keep ammo dry in a humid climate or an unconditioned garage",
+        "details": "Owners on the Gulf Coast or in Florida ask if a sealed can is enough, how much desiccant to add, and whether metal cans sweat from condensation when temperatures swing. Replies say a gasket can plus a small desiccant packet is the common answer, and that most trouble is moisture, not time.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Firearms/comments/16g1n9y/storing_ammo_at_home_living_in_florida_is/",
+            "platform": "reddit",
+            "title": "Storing ammo at home, living in Florida. Is humidity a problem?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/reloading/comments/1h4m9gb/long_term_storage_of_loaded_ammunition_moisture/",
+            "platform": "reddit",
+            "title": "Long term storage of loaded ammunition - moisture desiccant or ...",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/TexasGuns/comments/1m3k5o9/new_to_tx_ammo_storage_tips/",
+            "platform": "reddit",
+            "title": "New to TX ammo storage tips",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Moisture in metal containers is only a problem if the air can flow and the metal can sweat from condensation.",
+            "url": "https://www.reddit.com/r/Firearms/comments/16g1n9y/storing_ammo_at_home_living_in_florida_is/"
+          },
+          {
+            "text": "any ammo can / box with a rubber gasket plus a small silica packet should be A Ok for garage storage.",
+            "url": "https://www.reddit.com/r/TexasGuns/comments/1m3k5o9/new_to_tx_ammo_storage_tips/"
+          }
+        ],
+        "keywords": [
+          "best ammo can",
+          "ammo storage"
+        ]
+      },
+      {
+        "id": "safe-accessories-ammo-steel-case-rust-cardboard",
+        "pain": "Steel-cased ammo and cardboard boxes pick up moisture, and owners are unsure how to store them long term",
+        "details": "Owners worry that loose or boxed ammo in cardboard rusts or tarnishes in storage, and ask whether to keep the factory boxes, dump rounds loose in a can, or add desiccant and how much.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/",
+            "platform": "reddit",
+            "title": "Along term Ammo Storage? How can one keep it dry",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/uhj403/do_factory_ammo_boxes_really_damage_your_ammo/",
+            "platform": "reddit",
+            "title": "Do factory ammo boxes really damage your ammo long-term?",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/ar15/comments/10n1fjs/how_do_yall_store_ammo_i_want_this_to_last_awhile/",
+            "platform": "reddit",
+            "title": "How do y'all store ammo? I want this to last awhile without humidity issues.",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "A little moisture getting into your ammo stash, steel cased ammunition can absolutely rust.",
+            "url": "https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/"
+          },
+          {
+            "text": "Cardboard can absorb moisture and degrade over time tarnishing your ammo. Just keep it somewhere cool, dry, and dark and you should be okay.",
+            "url": "https://www.reddit.com/r/guns/comments/uhj403/do_factory_ammo_boxes_really_damage_your_ammo/"
+          },
+          {
+            "text": "Dump loose in ammo cans that have the rubber gasket seal. Put a couple desiccant packets in.",
+            "url": "https://www.reddit.com/r/ar15/comments/10n1fjs/how_do_yall_store_ammo_i_want_this_to_last_awhile/"
+          }
+        ],
+        "keywords": [
+          "best ammo can",
+          "ammo storage"
+        ]
+      }
     ]
   }
 }

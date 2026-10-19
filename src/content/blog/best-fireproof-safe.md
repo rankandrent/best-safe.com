@@ -523,6 +523,8 @@ heroImage: /images/featured/best-fireproof-safe.png
 heroAlt: >-
   Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared – Best Safe
   buying guide
+related:
+  - best-dehumidifier-for-gun-safe
 ---
 
 The best fireproof safe for most homes is the [SentrySafe SFW123GDC](amzn:SentrySafe+SFW123GDC+Fireproof+Waterproof+Safe+Digital+Keypad): a fireproof safe UL Classified for 1 hour at up to 1,700°F, verified by Intertek for 24 hours in 8 inches of water, with a keypad you can open fast. We compared six fire-rated safes from SentrySafe and First Alert on the details most roundups skip: who certified each fire rating, what that rating covers, how you get in when a battery dies, and whether the interior fits what you actually store. Every pick below carries a UL Classified fire rating, and we say plainly where a water or security claim is the maker's own.

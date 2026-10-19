@@ -1,0 +1,494 @@
+{
+  "centralEntity": "ammo can",
+  "entityVariants": [
+    "ammo cans",
+    "ammo storage container",
+    "ammo box",
+    "ammo crate",
+    "ammo storage can",
+    "metal ammo can",
+    "50 cal ammo can",
+    "30 cal ammo can",
+    "ammo case"
+  ],
+  "entities": [
+    {
+      "name": "MTM ACR8-72 Ammo Crate Utility Box",
+      "type": "product",
+      "relation": "large stackable polypropylene crate, pick for bulk boxed ammo"
+    },
+    {
+      "name": "Plano Field Ammo Box",
+      "type": "product",
+      "relation": "small light .30-cal-size plastic box, budget range-trip pick"
+    },
+    {
+      "name": "Solid Tactical Metal Ammo Can",
+      "type": "product",
+      "relation": "new steel M2A1-style can with gasket and desiccant pack, long-term pick"
+    },
+    {
+      "name": "M2A1 .50 cal can",
+      "type": "standard",
+      "relation": "the military-spec steel can shape most metal picks copy"
+    },
+    {
+      "name": "M19A1 .30 cal can",
+      "type": "standard",
+      "relation": "smaller steel can, lighter to carry"
+    },
+    {
+      "name": "military surplus ammo can",
+      "type": "category",
+      "relation": "graded used steel cans, the cheap alternative named in forum threads"
+    },
+    {
+      "name": "MTM Case-Gard",
+      "type": "brand",
+      "relation": "maker of the ACR8-72 and most polymer ammo crates"
+    },
+    {
+      "name": "Plano",
+      "type": "brand",
+      "relation": "maker of the Field Box"
+    },
+    {
+      "name": "rubber gasket / O-ring seal",
+      "type": "component",
+      "relation": "what makes a can water-resistant or airtight"
+    },
+    {
+      "name": "desiccant packet",
+      "type": "accessory",
+      "relation": "silica pack that absorbs moisture inside a sealed can"
+    },
+    {
+      "name": "relative humidity",
+      "type": "concept",
+      "relation": "stored ammo does best at moderate humidity, checked with a hygrometer"
+    },
+    {
+      "name": "condensation",
+      "type": "problem",
+      "relation": "metal cans can sweat when temperatures swing in a garage"
+    },
+    {
+      "name": "steel-cased ammo",
+      "type": "material",
+      "relation": "the ammo type that can rust if moisture gets in"
+    },
+    {
+      "name": "padlock tab / welded lock loop",
+      "type": "feature",
+      "relation": "deters casual access, not a substitute for a gun safe"
+    },
+    {
+      "name": "gun safe",
+      "type": "related product",
+      "relation": "where locked firearms and ammo can live together"
+    },
+    {
+      "name": "garage ammo storage",
+      "type": "use case",
+      "relation": "most-discussed placement, highest moisture risk"
+    }
+  ],
+  "attributes": [
+    "material (steel vs polymer)",
+    "capacity in boxes or rounds",
+    "interior dimensions",
+    "seal type (gasket, O-ring)",
+    "water-resistant vs airtight",
+    "stackable",
+    "lockable (padlock tab or loop)",
+    "weight empty and full",
+    "portability and handle",
+    "new vs surplus",
+    "includes desiccant",
+    "price"
+  ],
+  "ngrams": [
+    "ammo can",
+    "ammo cans",
+    "ammo storage",
+    "best ammo cans",
+    "50 cal ammo can",
+    "30 cal ammo can",
+    "rubber gasket",
+    "metal ammo can",
+    "ammo storage container",
+    "long-term storage",
+    "water resistant",
+    "desiccant packet",
+    "stackable",
+    "padlock tab",
+    "military surplus"
+  ],
+  "skipgrams": [
+    "ammo…moisture",
+    "can…gasket",
+    "seal…watertight",
+    "desiccant…packet",
+    "ammo…rust",
+    "steel…waterproof",
+    "stack…cans",
+    "ammo…garage",
+    "humidity…ammo",
+    "lid…latch"
+  ],
+  "nlpTerms": [
+    "gasket",
+    "O-ring",
+    "desiccant",
+    "silica",
+    "humidity",
+    "moisture",
+    "condensation",
+    "rust",
+    "corrosion",
+    "watertight",
+    "airtight",
+    "stackable",
+    "polypropylene",
+    "steel",
+    "surplus",
+    "M2A1",
+    "M19A1",
+    "padlock",
+    "latch",
+    "range trip",
+    "long-term storage",
+    "garage",
+    "caliber",
+    "rounds",
+    "boxes"
+  ],
+  "questions": [
+    "What is the best ammo can?",
+    "Are plastic or metal ammo cans better?",
+    "Are ammo cans waterproof?",
+    "Do I need desiccant in an ammo can?",
+    "Will ammo rust in an ammo can?",
+    "Is it safe to store ammo in a garage?",
+    "What size ammo can do I need (.30 cal vs .50 cal)?",
+    "How many rounds fit in a 50 cal ammo can?",
+    "Should I store ammo loose or in the factory boxes?",
+    "Are surplus ammo cans worth buying?",
+    "Can I lock an ammo can?",
+    "How do I check that an ammo can seal still works?"
+  ],
+  "contentGaps": [
+    "Almost no page ties the can choice to where it lives (closet, humid garage, range bag) and what moisture control to add",
+    "Capacity in boxes vs loose rounds is rarely stated per pick; give interior size and what it holds",
+    "Plastic vs steel trade-off (water-resistant vs airtight, weight, cut-through security) spelled out in one place",
+    "Forum-reported moisture issues (steel-cased ammo rust, sweating metal cans, saturated silica) with a simple fix list",
+    "Padlock tabs and lock loops deter casual access only; say what a locked can does and does not do, and point to a safe for real security",
+    "State rules for storing or moving ammo vary, so say to check your state's rules without giving legal advice"
+  ],
+  "outline": [
+    {
+      "h2": "Best ammo can: quick answer and top picks",
+      "intent": "direct answer and quick picks",
+      "h3": [
+        "Our top 3 at a glance (comparison table)"
+      ]
+    },
+    {
+      "h2": "How we chose these ammo cans",
+      "intent": "trust and method: picks named by at least two top-10 roundups plus owner reports, no hands-on testing claimed",
+      "h3": []
+    },
+    {
+      "h2": "1. MTM ACR8-72 Ammo Crate Utility Box: best for bulk storage",
+      "intent": "product review with pros and cons",
+      "h3": [
+        "Pros and cons",
+        "Who it suits"
+      ]
+    },
+    {
+      "h2": "2. Plano Field Ammo Box: best budget",
+      "intent": "product review with pros and cons",
+      "h3": [
+        "Pros and cons",
+        "Who it suits"
+      ]
+    },
+    {
+      "h2": "3. Solid Tactical Metal Ammo Can: best steel for long-term storage",
+      "intent": "product review with pros and cons",
+      "h3": [
+        "Pros and cons",
+        "Who it suits"
+      ]
+    },
+    {
+      "h2": "How to choose an ammo can",
+      "intent": "buying guide",
+      "h3": [
+        "Plastic vs steel",
+        "Seal: water-resistant vs airtight",
+        "Size and capacity (.30 cal vs .50 cal)",
+        "Locks and security limits",
+        "New vs military surplus"
+      ]
+    },
+    {
+      "h2": "Keeping ammo dry: problems owners run into, and the fix",
+      "intent": "answer the owner pain points (humidity, rust, condensation, saturated desiccant)",
+      "h3": [
+        "Humid climates and garages",
+        "Steel-cased ammo, cardboard boxes and loose rounds",
+        "Desiccant that stops working",
+        "Sweating metal cans and cold slab or wall",
+        "If you also store ammo in a gun safe"
+      ]
+    },
+    {
+      "h2": "Ammo can FAQ",
+      "intent": "PAA questions",
+      "h3": []
+    },
+    {
+      "h2": "Bottom line",
+      "intent": "conclusion with pick by situation and a reminder to check your state's rules for storing and transporting ammo",
+      "h3": []
+    }
+  ],
+  "targetWords": 1800,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://gununiversity.com/best-ammo-storage-containers/",
+      "https://www.rifleconfigurator.com/guides/best-ammo-cans",
+      "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans",
+      "https://www.reddit.com/r/Firearms/comments/1pl8isl/where_is_the_best_place_ammo_cans_and_which_one/",
+      "https://blog.cheaperthandirt.com/5-best-ammo-cans/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Gun University and Field & Stream give each pick a short review with pros and cons plus best-for badges; Rifle Configurator uses spec lines. The rest of the top 10 is Amazon, stores, a forum thread and a video. Gun University and F&S read from excerpts, so word counts are estimated.",
+    "avgWords": 1600,
+    "avgProducts": 5,
+    "commonSections": [
+      "quick picks table with best-for badges",
+      "product reviews with pros and cons",
+      "plastic vs metal",
+      "buying guide (size, seal, lock)",
+      "FAQ"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.reddit.com/r/Firearms/comments/1pl8isl/where_is_the_best_place_ammo_cans_and_which_one/",
+      "title": "where is the best place ammo cans and which one is better ..."
+    },
+    {
+      "position": 2,
+      "url": "https://us.amazon.com/Best-Sellers-Ammunition-Magazine-Boxes,-Cans-Cases/zgbs/sporting-goods/19624078011",
+      "title": "Best Ammunition & Magazine Boxes, Cans & Cases"
+    },
+    {
+      "position": 3,
+      "url": "https://gununiversity.com/best-ammo-storage-containers/",
+      "title": "6 Best Ammo Storage Container: With Buyers Guide"
+    },
+    {
+      "position": 4,
+      "url": "https://ammocanman.com/",
+      "title": "Ammo Can Man: Ammo Cans, MRES & Military Army Surplus"
+    },
+    {
+      "position": 5,
+      "url": "https://www.rifleconfigurator.com/guides/best-ammo-cans",
+      "title": "Best Ammo Cans 2026: Steel, MTM Polymer & Dry Storage"
+    },
+    {
+      "position": 6,
+      "url": "https://www.youtube.com/watch?v=x3rJIfrwiTk",
+      "title": "Top 5 Durable Ammo Boxes for Storage & Security"
+    },
+    {
+      "position": 7,
+      "url": "https://www.ammunitiondepot.com/bulk-ammo/can-combos/",
+      "title": "Shop Bundled Ammo Cans | Ammo Storage Containers"
+    },
+    {
+      "position": 8,
+      "url": "https://evergreencases.com/collections/ammo-cases",
+      "title": "USA Made Ammo Cases"
+    },
+    {
+      "position": 9,
+      "url": "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans",
+      "title": "The Best Ammo Cans of 2024"
+    },
+    {
+      "position": 10,
+      "url": "https://cleanammocans.com/",
+      "title": "Clean Ammo Cans: Surplus & New Ammo Cans + Stripper Clips"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 2,
+    "withYear": 2,
+    "withNumber": 2,
+    "commonModifiers": [
+      "best",
+      "ammo cans (plural)",
+      "storage",
+      "steel/metal",
+      "buyers guide"
+    ],
+    "gap": "The roundup titles are plural, dated or numbered; none ties the pick to dry storage or a garage. Use exact keyword 'Best Ammo Can' at the start, no colon, with a year and number, and promise a pick by use (bulk, budget, steel)."
+  },
+  "painPoints": [
+    {
+      "id": "safe-accessories-ammo-humid-garage-storage",
+      "pain": "Unsure whether ammo cans alone keep ammo dry in a humid climate or an unconditioned garage",
+      "details": "Owners on the Gulf Coast or in Florida ask if a sealed can is enough, how much desiccant to add, and whether metal cans sweat from condensation when temperatures swing. Replies say a gasket can plus a small desiccant packet is the common answer, and that most trouble is moisture, not time.",
+      "sources": [
+        "https://www.reddit.com/r/Firearms/comments/16g1n9y/storing_ammo_at_home_living_in_florida_is/",
+        "https://www.reddit.com/r/reloading/comments/1h4m9gb/long_term_storage_of_loaded_ammunition_moisture/",
+        "https://www.reddit.com/r/TexasGuns/comments/1m3k5o9/new_to_tx_ammo_storage_tips/"
+      ],
+      "quotes": [
+        {
+          "text": "Moisture in metal containers is only a problem if the air can flow and the metal can sweat from condensation.",
+          "url": "https://www.reddit.com/r/Firearms/comments/16g1n9y/storing_ammo_at_home_living_in_florida_is/"
+        },
+        {
+          "text": "any ammo can / box with a rubber gasket plus a small silica packet should be A Ok for garage storage.",
+          "url": "https://www.reddit.com/r/TexasGuns/comments/1m3k5o9/new_to_tx_ammo_storage_tips/"
+        }
+      ]
+    },
+    {
+      "id": "safe-accessories-ammo-steel-case-rust-cardboard",
+      "pain": "Steel-cased ammo and cardboard boxes pick up moisture, and owners are unsure how to store them long term",
+      "details": "Owners worry that loose or boxed ammo in cardboard rusts or tarnishes in storage, and ask whether to keep the factory boxes, dump rounds loose in a can, or add desiccant and how much.",
+      "sources": [
+        "https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/",
+        "https://www.reddit.com/r/guns/comments/uhj403/do_factory_ammo_boxes_really_damage_your_ammo/",
+        "https://www.reddit.com/r/ar15/comments/10n1fjs/how_do_yall_store_ammo_i_want_this_to_last_awhile/"
+      ],
+      "quotes": [
+        {
+          "text": "A little moisture getting into your ammo stash, steel cased ammunition can absolutely rust.",
+          "url": "https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/"
+        },
+        {
+          "text": "Cardboard can absorb moisture and degrade over time tarnishing your ammo. Just keep it somewhere cool, dry, and dark and you should be okay.",
+          "url": "https://www.reddit.com/r/guns/comments/uhj403/do_factory_ammo_boxes_really_damage_your_ammo/"
+        },
+        {
+          "text": "Dump loose in ammo cans that have the rubber gasket seal. Put a couple desiccant packets in.",
+          "url": "https://www.reddit.com/r/ar15/comments/10n1fjs/how_do_yall_store_ammo_i_want_this_to_last_awhile/"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-desiccant-saturates-fast",
+      "pain": "Silica packs saturate within weeks and the owner is unsure how to keep them working",
+      "details": "Owners recharge silica again and again, or read that desiccant in a leaky fire safe only pulls moisture from the walls. Rechargeable canisters and dryer rods are the usual answers.",
+      "sources": [
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+      ],
+      "quotes": [
+        {
+          "text": "Dessicant is not going to help unless the area it is protecting is air-tight.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "dessicants will need frequent recharging",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "But they turn from Orange to blue within a week or two everytime.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-cold-wall-condensation",
+      "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp or moldy",
+      "details": "Humidity inside the safe stays high even with a room dehumidifier because the steel is colder than the room air. Owners are told to warm the safe, add a dryer rod or bulb, insulate the back or lift the safe off the slab.",
+      "sources": [
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+      ],
+      "quotes": [
+        {
+          "text": "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "I do not want to set it directly on the concrete as the concrete sweats and will cause rust.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+        },
+        {
+          "text": "You can only get moisture condensing on the guns when the guns are colder than the air, not the other way around.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-rust-despite-dehumidifier",
+      "pain": "Guns rust inside the safe even with silica packs and a dehumidifier",
+      "details": "Owners in humid regions or unconditioned rooms find rust specks on barrels and mags within weeks. Silica saturates fast, felt barrel rests and gun socks hold moisture, and people are unsure what humidity level to hold.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+      ],
+      "quotes": [
+        {
+          "text": "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        },
+        {
+          "text": "Ditch the gel and dri packs, they just hold moisture.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "it's just surface rust. Should just wipe off.",
+          "url": "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+        }
+      ]
+    }
+  ],
+  "internalLinks": [
+    "best-dehumidifier-for-gun-safe",
+    "best-fireproof-safe"
+  ],
+  "distinctness": "Roundup of 3 ammo containers. Gun safe moisture control stays in the dehumidifier post (link /blog/best-dehumidifier-for-gun-safe/ in the pain-point section); do not repeat its rod explainer. No legal advice: for storing or transporting ammo, tell readers to check their state's rules.",
+  "serpProducts": [
+    {
+      "name": "MTM ACR8-72 Ammo Crate Utility Box",
+      "pages": [
+        "https://www.rifleconfigurator.com/guides/best-ammo-cans",
+        "https://gununiversity.com/best-ammo-storage-containers/"
+      ]
+    },
+    {
+      "name": "Plano Field Box",
+      "pages": [
+        "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans",
+        "https://gununiversity.com/best-ammo-storage-containers/"
+      ]
+    },
+    {
+      "name": "Solid Tactical Metal Ammo Can",
+      "pages": [
+        "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans",
+        "https://gununiversity.com/best-ammo-storage-containers/"
+      ]
+    }
+  ]
+}

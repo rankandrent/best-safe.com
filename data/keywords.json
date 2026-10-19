@@ -565,7 +565,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -617,7 +617,8 @@
       "gun-safes-dehumidifier-fails-or-freezes",
       "home-safes-desiccant-saturates-fast"
     ],
-    "productCount": 3
+    "productCount": 3,
+    "publishedAt": "2026-10-19T14:09:28.241Z"
   },
   {
     "status": "merged",
@@ -1482,7 +1483,16 @@
     "secondaryKeywords": [
       "ammo can"
     ],
-    "questions": [],
+    "questions": [
+      "What is the best ammo can?",
+      "Are plastic or metal ammo cans better?",
+      "Are ammo cans waterproof?",
+      "Do I need desiccant in an ammo can?",
+      "Will ammo rust in an ammo can?",
+      "Is it safe to store ammo in a garage?",
+      "What size ammo can do I need (.30 cal vs .50 cal)?",
+      "How many rounds fit in a 50 cal ammo can?"
+    ],
     "priority": 470,
     "keyword": "best ammo can",
     "category": "safe-accessories",

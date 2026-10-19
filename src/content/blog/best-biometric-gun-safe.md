@@ -438,6 +438,7 @@ heroAlt: >-
   Best Biometric Gun Safe 2026 – 6 Fingerprint Picks and a Recall Check – Best
   Safe buying guide
 related:
+  - best-dehumidifier-for-gun-safe
   - best-fireproof-safe
   - best-pistol-safe
 ---

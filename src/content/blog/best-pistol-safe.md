@@ -360,6 +360,7 @@ faqs:
       electronic boxes.
 author: editorial-team
 related:
+  - best-dehumidifier-for-gun-safe
   - best-fireproof-safe
   - best-biometric-gun-safe
   - best-fireproof-document-safe
