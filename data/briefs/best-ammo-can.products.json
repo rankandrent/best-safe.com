@@ -1,0 +1,145 @@
+{
+  "slug": "best-ammo-can",
+  "keyword": "best ammo can",
+  "productCount": 3,
+  "serpProducts": [
+    {"name": "MTM ACR8-72 Ammo Crate Utility Box", "pages": ["https://www.rifleconfigurator.com/guides/best-ammo-cans", "https://gununiversity.com/best-ammo-storage-containers/"]},
+    {"name": "Plano Field Box", "pages": ["https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans", "https://gununiversity.com/best-ammo-storage-containers/"]},
+    {"name": "Solid Tactical Metal Ammo Can", "pages": ["https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans", "https://gununiversity.com/best-ammo-storage-containers/"]}
+  ],
+  "borderlineNotIncluded": [
+    {"name": "Plano Field Box (3rd page)", "pages": ["https://blog.cheaperthandirt.com/5-best-ammo-cans/"], "note": "sits outside the organic top 10 once Amazon/YouTube are skipped"},
+    {"name": "Pelican V250 Vault", "pages": ["https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans", "https://blog.cheaperthandirt.com/5-best-ammo-cans/"], "note": "2nd page is outside top 10"},
+    {"name": "MTM AC4C 4-Can Ammo Crate", "pages": ["https://gununiversity.com/best-ammo-storage-containers/", "https://blog.cheaperthandirt.com/5-best-ammo-cans/"], "note": "F&S lists the MTM Ammo Crate system (AC5C link); 2nd exact-model page is outside top 10"},
+    {"name": "MTM AC50C 50 Caliber Ammo Can", "pages": ["https://www.rifleconfigurator.com/guides/best-ammo-cans", "https://blog.gritrsports.com/ammo-storage-cans-boxes-lockers/"], "note": "Gritr page is outside top 10 and lists the AC50C11 color"}
+  ],
+  "products": [
+    {
+      "name": "MTM ACR8-72 Ammo Crate Utility Box",
+      "matchName": "MTM ACR8-72 Ammo Crate Utility Box",
+      "brand": "MTM Case-Gard",
+      "query": "MTM ACR8-72 Ammo Crate Utility Box",
+      "asin": "B00T4XL4HM",
+      "asinVerified": true,
+      "asinTitleChecked": "MTM ACR8-72 Ammo Crate Utility Box, Ammo, Survival or Hunting Gear Storage, O-Ring Seal for Water Resistant Dry Storage, Double Padlock Tabbed for Security, Carries 85lbs, Dark Earth (Model ACR8-72, ASIN B00T4XL4HM, hand-checked on the Amazon product page)",
+      "badge": "Best for bulk storage",
+      "summary": "A large stackable polypropylene crate that swallows boxed ammo for several calibers in one liftable unit. It uses MTM's tongue-and-groove O-ring seal and has double padlock tabs, so it suits a closet or garage shelf better than a range trip.",
+      "renterNote": "For someone keeping a few hundred to a couple thousand rounds of boxed rifle or pistol ammo organized in a closet or garage; the padlock tabs are plastic, so it deters casual access rather than theft, and a full crate is heavy to lift.",
+      "pros": ["Interior 14 x 13.5 x 7.25 in holds many boxes in one stack-ready unit", "O-ring seal, two latches, double padlock tabs and four tie-down points", "Made in the USA from high-impact polypropylene"],
+      "cons": ["Water-resistant, not submersible; some owners say the lid is too flexible to seal tightly", "Handles and plastic latches can crack if a heavily loaded crate is dropped or carried hard"],
+      "specs": {
+        "material": "High-impact polypropylene, made in the USA (maker)",
+        "seal": "Tongue-and-groove O-ring seal, water-resistant, non-submersible (maker, Amazon listing)",
+        "exteriorDimensions": "19 x 15.75 x 8 in (maker)",
+        "interiorDimensions": "14 x 13.5 x 7.25 in (maker)",
+        "capacity": "Carries up to 85 lb of gear on two side handles (maker)",
+        "lock": "Double padlock tabs plus two latches; padlock not included; no built-in lock",
+        "stackable": "Yes, molded-in stacking ridges; four hook points for ATV attachment",
+        "fireRating": "None claimed",
+        "warranty": "Amazon listing shows a 5 year manufacturer warranty"
+      },
+      "scores": {"security": 4, "access": 7, "capacity": 9, "value": 8},
+      "scoreNote": "No fire claim, so fire is omitted. Security is limited to plastic padlock tabs (Gun University found only one side needs unlocking); capacity is the largest of the three; access is two side latches.",
+      "sources": [
+        {"title": "MTM Case-Gard ACR8-72 product page", "url": "https://mtmcase-gard.com/products/acr8-72-ammo-crate-utility-box"},
+        {"title": "Rifle Configurator, Best Ammo Cans 2026", "url": "https://www.rifleconfigurator.com/guides/best-ammo-cans"},
+        {"title": "Gun University, 6 Best Ammo Storage Containers", "url": "https://gununiversity.com/best-ammo-storage-containers/"}
+      ],
+      "owners": {
+        "read": 17,
+        "praise": ["Sturdy and well made for the price, stacks well for home storage", "Surprisingly large capacity; owners keep thousands of rounds or range gear in them", "O-ring seal plus desiccant works for closet storage"],
+        "complaints": ["Plastic handles, latches and body can crack or give way when dropped or carried heavily loaded", "Heavy and awkward to lift when full; some switched to storing mags or lighter gear", "Not fully airtight or submersible"],
+        "sources": [
+          {"title": "The High Road, MTM ammo crate? (12 owners posting)", "url": "https://www.thehighroad.org/index.php?threads/mtm-ammo-crate.850647/"},
+          {"title": "MTM Case-Gard ACR8-72 customer reviews (5 read of 11)", "url": "https://mtmcase-gard.com/products/acr8-72-ammo-crate-utility-box", "reviews": 11},
+          {"title": "Gun University ACR8-72 hands-on review", "url": "https://gununiversity.com/best-ammo-storage-containers/"}
+        ]
+      }
+    },
+    {
+      "name": "Plano Field Ammo Box",
+      "matchName": "Plano Field Ammo Box",
+      "brand": "Plano",
+      "query": "Plano Field Ammo Box 1312 OD Green",
+      "asin": "B005IURN5M",
+      "asinVerified": true,
+      "asinTitleChecked": "Plano Field Ammo Box, OD Green, Lockable Ammunition Storage Box with Heavy-Duty Carry Handle, Small Plastic Ammo Storage, Water-Resistant Protection, Holds 6-8 Boxes of Ammo (Manufacturer part number 131200, ASIN B005IURN5M; the F&S link ASIN B004W3WC84 redirected to this listing)",
+      "badge": "Best budget",
+      "summary": "The small .30-caliber-size Plano Element-Proof Field/Ammo Box (131200, sold as the 1312) holds six to eight boxes of ammo in a light plastic shell with an O-ring seal and a brass-bailed latch. It is the cheapest way here to get ammo off a shelf and to the range.",
+      "renterNote": "For a new shooter or someone moving a few boxes of ammo to the range or a truck; it is plastic with a single padlock tab, so it is organization and moisture protection, not security, and it is small for bulk storage.",
+      "pros": ["Interior about 9.5 x 4.25 x 6.5 in holds 6 to 8 boxes of .30-caliber-size ammo", "Water-resistant O-ring seal, brass-bailed snap latch and a padlock tab", "Very light and stackable with a comfortable handle"],
+      "cons": ["Plastic lid and walls can flex, so the seal is only water-resistant", "Small capacity and one padlock tab; it can be pried open"],
+      "specs": {
+        "material": "Plastic (Amazon listing); Plano does not name the resin on its page",
+        "seal": "Water-resistant O-ring seal, brass-bailed latch (maker)",
+        "exteriorDimensions": "11.63 x 5.13 x 7.13 in (maker)",
+        "interiorDimensions": "9.5 x 4.25 x 6.5 in (Walmart listing)",
+        "capacity": "6 to 8 boxes of .30 caliber ammo (Amazon and Walmart listings)",
+        "lock": "Snap-down brass-bailed latch with a padlock tab; padlock not included",
+        "stackable": "Yes",
+        "fireRating": "None claimed",
+        "warranty": "Plano lists a 1-year warranty"
+      },
+      "scores": {"security": 3, "access": 8, "capacity": 4, "value": 9},
+      "scoreNote": "No fire claim, so fire is omitted. Cheap and quick to open, with one padlock tab on plastic; capacity is the smallest of the three.",
+      "sources": [
+        {"title": "Plano Element-Proof Field/Ammo Box", "url": "https://www.planooutdoors.com/products/element-proof-fieldammo-box-1592550"},
+        {"title": "Field & Stream, Best Ammo Cans", "url": "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans"},
+        {"title": "Gun University, 6 Best Ammo Storage Containers", "url": "https://gununiversity.com/best-ammo-storage-containers/"},
+        {"title": "Walmart, Plano Field Ammo Box 1312 listing (interior dimensions)", "url": "https://www.walmart.com/ip/Plano-Sports-Outdoors-Gun-Storage-1312-Ammo-Can/23247620"}
+      ],
+      "owners": {
+        "read": 9,
+        "praise": ["Great value; holds far more loose pistol rounds than it looks like it should", "Compact, stackable and light for range trips", "Rubber gasket and snap latch keep ammo dry in light rain"],
+        "complaints": ["Feels thin and flexible, with parts that range from solid to flimsy", "Not a long-term waterproof or security option"],
+        "sources": [
+          {"title": "Walmart, Plano Field Ammo Box reviews (3 read; page shows 329 reviews)", "url": "https://www.walmart.com/ip/Plano-Sports-Outdoors-Gun-Storage-1312-Ammo-Can/23247620", "reviews": 329},
+          {"title": "Plano site reviews, Element-Proof Field/Ammo Box (5 read of 13)", "url": "https://www.planooutdoors.com/products/element-proof-fieldammo-box-1592550", "reviews": 13},
+          {"title": "Nosler Reloading Forum, Plano 1312 Field Boxes (1 owner)", "url": "https://forum.nosler.com/threads/plano-1312-field-boxes.23470/"},
+          {"title": "Home Depot, Plano 131200 (138 reviews shown, text not read)", "url": "https://www.homedepot.com/p/Plano-4-Qt-Field-Ammunition-Storage-Box-in-OD-Green-131200/205542281", "reviews": 138}
+        ]
+      }
+    },
+    {
+      "name": "Solid Tactical Metal Ammo Can",
+      "matchName": "Solid Tactical Metal Ammo Can",
+      "brand": "Solid Tactical",
+      "query": "Solid Tactical Lockable 50 Cal Metal Ammo Storage Box",
+      "asin": "B000J4HXUC",
+      "asinVerified": true,
+      "asinTitleChecked": "Solid Tactical Lockable 50 Cal Metal Ammo Storage Box Green - Military & Army Steel Ammo Can for Ammunition Storage - Waterproof Ammo Crate Utility Box (ASIN B000J4HXUC, Style Without Foam; this exact ASIN is the one Field & Stream links)",
+      "badge": "Best steel / long-term storage",
+      "summary": "A new, unused M2A1-style .50-cal steel can with a rubber lid gasket, a powder-coat finish and a desiccant pack. The Amazon listing is the green 50 cal version with a welded lock loop for a padlock.",
+      "renterNote": "For someone storing sealed ammo or other valuables long term in a damp garage or basement; it has a welded padlock loop but a thin one that bolt cutters can cut, and the can is heavy.",
+      "pros": ["Steel body with a rubber gasket; maker says every can is tested for air and water tightness", "Welded loop takes a padlock with a shank up to 3/8 in", "Ships with a desiccant pack, brand new rather than surplus"],
+      "cons": ["Padlock is not included and the welded loop can be cut with bolt cutters", "Heavy even when empty, and the lid takes effort to close"],
+      "specs": {
+        "material": "Alloy steel with powder-coat finish (Amazon listing, Gun University)",
+        "seal": "Rubber gasket; maker says each can is tested air and water tight",
+        "dimensionsAndWeight": "Amazon lists 11 x 8.75 x 5.5 in and 5.6 lb; the maker page gives no dimensions, so confirm before quoting",
+        "capacity": "Amazon lists a 30 lb maximum weight recommendation; owners report about 500 rounds of 7.62x39 loose",
+        "lock": "Welded lock loop for a padlock with a shank up to 3/8 in, padlock not included",
+        "stackable": "Yes, per Field & Stream and Gun University",
+        "fireRating": "None claimed",
+        "included": "1 desiccant pack (Amazon listing)"
+      },
+      "scores": {"security": 6, "access": 6, "capacity": 6, "value": 6},
+      "scoreNote": "No fire claim, so fire is omitted. Steel and a welded loop beat plastic tabs, but the loop is cuttable and the lid is slow; the price is higher than other steel cans.",
+      "sources": [
+        {"title": "Solid Tactical ammo cans", "url": "https://solidtactical.com/solid-tactical-ammo-cans/"},
+        {"title": "Solid Tactical 50 Cal Matte Black product page", "url": "https://solidtactical.com/product/50-cal-black/"},
+        {"title": "Field & Stream, Best Ammo Cans", "url": "https://fieldandstream.com/outdoor-gear/guns-gear/ammo-gear/best-ammo-cans"},
+        {"title": "Gun University, 6 Best Ammo Storage Containers", "url": "https://gununiversity.com/best-ammo-storage-containers/"}
+      ],
+      "owners": {
+        "read": 83,
+        "praise": ["Seals well and feels sturdy; arrives brand new with a good powder-coat finish", "Desiccant pack and rubber gasket are a plus for storage", "Owners buy several and stack them"],
+        "complaints": ["Not pre-drilled for a lock on the plain version, and the welded loop is cuttable", "Price is higher than surplus or Harbor Freight cans", "Some got the wrong color or finish, paint wear or an undersized desiccant pack"],
+        "sources": [
+          {"title": "Solid Tactical product page customer reviews (92 shown, 83 read after skipping entries labeled Amazon Customer)", "url": "https://solidtactical.com/product/50-cal-black/", "reviews": 92},
+          {"title": "Gun University Solid Tactical hands-on review", "url": "https://gununiversity.com/best-ammo-storage-containers/"}
+        ]
+      }
+    }
+  ]
+}
