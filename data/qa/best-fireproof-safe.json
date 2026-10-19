@@ -1,7 +1,7 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-18T10:59:42.589Z",
+  "checkedAt": "2026-10-19T14:10:13.067Z",
   "errors": [],
   "warnings": [
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -9,7 +9,10 @@
     "product \"SentrySafe SFW205CWB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"First Alert 2087F\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe HD4100\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (no response): https://sentrysafe.com/product/SFW205CWB",
+    "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-1-23-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960599",
+    "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-2-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960587"
   ],
   "factCheck": {
     "verified": true,
