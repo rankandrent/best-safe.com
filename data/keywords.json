@@ -2159,5 +2159,98 @@
       "forums": 2,
       "videos": 2
     }
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T06:44:22.831Z",
+    "secondaryKeywords": [
+      "drop down gun safe",
+      "wall mount gun safe"
+    ],
+    "questions": [],
+    "priority": 6,
+    "keyword": "wall mounted gun safe",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Wall Mounted Gun Safes",
+    "cluster": "wall mounted gun safes",
+    "source": "competitor-gap",
+    "rationale": "topfirearmreviews.com (DR 22) ranks #6 with https://www.topfirearmreviews.com/post/drop-down-gun-safes",
+    "competitor": {
+      "domain": "topfirearmreviews.com",
+      "dr": 22,
+      "url": "https://www.topfirearmreviews.com/post/drop-down-gun-safes",
+      "position": 6
+    },
+    "ahrefs": {
+      "volume": 400,
+      "kd": 0,
+      "source": "ahrefs site-explorer-organic-keywords us",
+      "date": "2026-10-19"
+    },
+    "slug": "wall-mounted-gun-safe"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T06:44:22.832Z",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 6,
+    "keyword": "floor safe installation",
+    "category": "wall-floor-safes",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "How to Install a Floor Safe in Concrete",
+    "cluster": "floor safes",
+    "source": "competitor-gap",
+    "rationale": "boswellsafeandvault.com (DR 2.5) ranks #7 with https://boswellsafeandvault.com/Services",
+    "competitor": {
+      "domain": "boswellsafeandvault.com",
+      "dr": 2.5,
+      "url": "https://boswellsafeandvault.com/Services",
+      "position": 7
+    },
+    "ahrefs": {
+      "volume": 100,
+      "kd": 0,
+      "source": "ahrefs site-explorer-organic-keywords us",
+      "date": "2026-10-19"
+    },
+    "slug": "floor-safe-installation"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T06:44:22.832Z",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 6,
+    "keyword": "gun safe hygrometer",
+    "category": "safe-accessories",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "mofu",
+    "workingTitle": "Best Hygrometers for a Gun Safe",
+    "cluster": "safe humidity",
+    "source": "competitor-gap",
+    "rationale": "howardenvironmental.com (DR 20) ranks #9 with https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/",
+    "competitor": {
+      "domain": "howardenvironmental.com",
+      "dr": 20,
+      "url": "https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/",
+      "position": 9
+    },
+    "ahrefs": {
+      "volume": 70,
+      "kd": 0,
+      "source": "ahrefs site-explorer-organic-keywords us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-hygrometer"
   }
 ]
