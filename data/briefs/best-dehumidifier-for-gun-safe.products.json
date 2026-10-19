@@ -1,0 +1,160 @@
+{
+  "slug": "best-dehumidifier-for-gun-safe",
+  "keyword": "best dehumidifier for gun safe",
+  "articleType": "roundup",
+  "productCount": 3,
+  "productCountNote": "Lowered to 3 (roundup minimum): only these three are recommended by at least 2 of the top-10 pages. Related queued keyword 'gun safe dehumidifier rod' (how-to) stays a separate post.",
+  "serpDate": "2026-10-19",
+  "serpProducts": [
+    {"name": "Lockdown Dehumidifier Rod (12 in / 18 in)", "pages": ["https://gununiversity.com/best-gun-safe-dehumidifiers/", "https://www.americanfirearms.org/gun-safe-dehumidifiers/"]},
+    {"name": "Lockdown Silica Gel Canister (750 g)", "pages": ["https://gununiversity.com/best-gun-safe-dehumidifiers/", "https://www.americanfirearms.org/gun-safe-dehumidifiers/"]},
+    {"name": "Lockdown Golden Rod Original Dehumidifier Rod (12/18/24/36 in)", "pages": ["https://gununiversity.com/best-gun-safe-dehumidifiers/", "https://www.reddit.com/r/CompetitionShooting/comments/107d3wx/gun_safe_dehumidifier/", "https://www.sigtalk.com/threads/dehumidifier-for-gun-safe-worth-it.453753/"]}
+  ],
+  "serpEvidenceNotes": [
+    "Goldenrod: gununiversity ranks 'Goldenrod Original Dehumidifier' #2 and lists 12, 18, 24, 36 in sizes (its Amazon link is the 12-36 in listing). americanfirearms names it only in passing ('other Lockdown models such as the GoldenRod Original'), not as a pick. Reddit r/CompetitionShooting (SERP result, not scrapeable by Firecrawl, read via search excerpt only: 'Get a goldenrod') and SIG Talk post #25 ('Best product to use is Goldenrod') recommend it by name without a size. So the model is confirmed; no page recommends one specific length, so the post should tell readers to size by safe volume (maker: 12 in = 100 cu ft).",
+    "texasguntalk.com (named in the gate) is not in the 2026-10-18 top-10 list in data/serps.json and I did not open it.",
+    "Rejected, only one top-10 recommending page each: Afloia Mini, Browning Ever Dry rod, Hornady rechargeable and canister (gununiversity only); Liberty Dry Rod 9913, Ezpur renewable mini, Stack-On SPAD (americanfirearms only). Liberty/Dean Safe/Liberty Henderson are store collection pages, not recommendation lists. Dean Safe lists a 'Goldenrod Lockdown Gun Saver 18-inch' which is a different model."
+  ],
+  "products": [
+    {
+      "name": "Lockdown Golden Rod Dehumidifier",
+      "matchName": "Lockdown Golden Rod Dehumidifier",
+      "brand": "Lockdown",
+      "query": "Lockdown Golden Rod Dehumidifier",
+      "asin": "B00CYBDFWI",
+      "asinVerified": true,
+      "asinNote": "Amazon US title hand-checked 2026-10-19: 'Lockdown Golden Rod Dehumidifier, 12\"-36\" For Moisuture Removal Made in USA' (size selector 12 in to 36 in, brand Lockdown). Separate 12 in listing exists: B00D1WYXR0 'Lockdown Golden Rod 12\" Dehumidifier Rod ... Made in USA'.",
+      "badge": "Best overall rod",
+      "summary": "The Golden Rod is a plug-in heated rod that sits low in the safe and warms the air slightly so it circulates and stays above the dew point. The maker says it is made in the USA, vermiculite filled and covered by a lifetime warranty, and sells it in 12, 18, 24 and 36 inch lengths. It is the model owners name most when asked what they run 24/7.",
+      "renterNote": "For a long-gun or full-size safe that has a pass-through for a power cord and sits somewhere damp, like a garage or basement; it adds heat rather than pulling water out, so pair it with a desiccant in very humid climates, and it will not work in a safe with no way to plug in.",
+      "pros": ["Run-and-forget heated rod, several owners report 10 to 20 years of 24/7 use", "Four lengths (12 to 36 in) so it can be sized to the safe", "Maker states made in the USA with a lifetime warranty"],
+      "cons": ["Needs a power outlet or cord pass-through, and a bare rod gets hot to the touch so keep polymer and ammo off it", "Warms the air rather than removing moisture, so owners in very humid garages add desiccant"],
+      "specs": {
+        "Type": "Heated rod (low-wattage electric resistive element), no moisture collected",
+        "Coverage": "Protects up to 100 cu ft (12 in, maker); gununiversity lists the line as 100-500 cu ft across sizes",
+        "Lengths": "12, 18, 24, 36 in",
+        "Power": "110-120 V AC plug; removable quick-plug connector to run the cord through a small hole (maker)",
+        "Recharge / upkeep": "None, runs continuously",
+        "Mounting": "Mounting brackets / attachable legs and quick-plug attachment included (maker)",
+        "Warranty": "Lifetime, Made in the USA (maker)"
+      },
+      "scores": {"security": 7, "access": 9, "capacity": 8, "value": 8},
+      "scoreNote": "No fire claim, so fire is omitted. 'Security' here is build and safe use (USA-made, lifetime warranty, no consumables) with a deduction for surface heat; access is 9 because there is nothing to recharge; capacity 8 because four lengths cover small to large safes but needs a power route.",
+      "sources": [
+        "https://www.lockdown.com/products/moisture-control/golden-rod-dehumidifier-rod/725721.html",
+        "https://gununiversity.com/best-gun-safe-dehumidifiers/",
+        "https://www.reddit.com/r/CompetitionShooting/comments/107d3wx/gun_safe_dehumidifier/",
+        "https://www.sigtalk.com/threads/dehumidifier-for-gun-safe-worth-it.453753/"
+      ],
+      "owners": {
+        "read": 18,
+        "praise": ["Left plugged in for 10 to 20 years with no reported rust", "Set-and-forget, nothing to recharge", "Warm enough to stay above dew point without drying out stocks in an unheated garage"],
+        "complaints": ["It raises temperature rather than removing moisture, and one owner with a humid unconditioned garage had mildew until adding other measures", "Gets hot to the touch, and one Reddit poster said theirs quit after a year"],
+        "sources": [
+          {"title": "Rokslide: Goldenrod gun safe dehumidifier questions (5 owner replies)", "url": "https://rokslide.com/forums/threads/goldenrod-gun-safe-dehumidifier-questions.263741/"},
+          {"title": "Rokslide: How do you keep moisture out of safe (7 posts naming Golden Rod)", "url": "https://rokslide.com/forums/threads/how-do-you-keep-moisture-out-of-safe.295674/"},
+          {"title": "AR15.com: Best In-Safe Dehumidifier? (6 owner posts)", "url": "https://ar15.com/forums/armory/Best-In-Safe-Dehumidifier-/46-549152/"},
+          {"title": "SIG Talk: Dehumidifier for Gun Safe Worth it? (post #25)", "url": "https://www.sigtalk.com/threads/dehumidifier-for-gun-safe-worth-it.453753/"}
+        ]
+      },
+      "ownerQuotes": [
+        {"quote": "mine has been plugged in for 16+ years. Still kicking. Leave it and forget it.", "who": "Theringworm, Rokslide", "url": "https://rokslide.com/forums/threads/goldenrod-gun-safe-dehumidifier-questions.263741/"},
+        {"quote": "My safe is in an unheated garage. Going on 15 years, plugged in and left alone.", "who": "Tmac, Rokslide", "url": "https://rokslide.com/forums/threads/goldenrod-gun-safe-dehumidifier-questions.263741/"},
+        {"quote": "In a truly humid environment, a Golden Rod alone is not going to cut it. I had a safe in an unconditioned garage in central NC, with only a Golden Rod and had big issues when the weather turned warm and humid in the summer. There was mildew all over everything.", "who": "EnablerNo1, AR15.com", "url": "https://ar15.com/forums/armory/Best-In-Safe-Dehumidifier-/46-549152/"},
+        {"quote": "It does get a bit hot to the touch so I wouldn't put it where any polymer will be touching.", "who": "IPMan, AR15.com", "url": "https://ar15.com/forums/armory/Best-In-Safe-Dehumidifier-/46-549152/"}
+      ]
+    },
+    {
+      "name": "Lockdown 12' Dehumidifier Rod",
+      "matchName": "Lockdown Dehumidifier Rod",
+      "brand": "Lockdown",
+      "query": "Lockdown Dehumidifier Rod 12 inch",
+      "asin": "B004QUDTZI",
+      "asinVerified": true,
+      "asinNote": "Amazon US title hand-checked 2026-10-19: \"Lockdown 12' Dehumidifier Rod with Low Profile Design and Easy Installation for Gun Vault Humidity Control and Rust Prevention\" (brand Lockdown, 110/120 V; bullets: 12 in, 100 cu ft, 12/18/24/36 in versions). Amazon title says 12' but it is 12 inches. gununiversity's own link B004QUIW1E not opened.",
+      "badge": "Best budget rod",
+      "summary": "Lockdown's own-name heated rod is the lower-priced sibling of the Golden Rod: a plug-in element that gently warms the air in the safe. The maker lists 12 and 18 inch lengths (about 100 and 200 cu ft) with mounting brackets and an easy plug attachment, and the Amazon listing also offers 24 and 36 inch versions.",
+      "renterNote": "For a mid-size gun safe or cabinet with a way to run a cord, where the buyer wants electric humidity control at the lowest price; it has no lifetime warranty and the reviewer found it slower than the Golden Rod, so heavy-humidity garages should look at the Golden Rod.",
+      "pros": ["Lower price than the Golden Rod for the same heated-rod approach", "Mounting brackets and quick-plug attachment included", "12 in and 18 in sizes cover roughly 100 and 200 cu ft per the maker"],
+      "cons": ["Gets hot to the touch, and it needs a power outlet or cord pass-through", "No lifetime warranty (gununiversity ranks it below the Golden Rod for that reason), and the reviewer found it slower to pull humidity down"],
+      "specs": {
+        "Type": "Heated rod (electric), no moisture collected",
+        "Coverage": "About 100 cu ft (12 in) or 200 cu ft (18 in) (maker)",
+        "Lengths": "12 in and 18 in on lockdown.com; 12, 18, 24, 36 in on the Amazon listing",
+        "Power": "110/120 V AC; gununiversity lists 12 W",
+        "Recharge / upkeep": "None, runs continuously",
+        "Mounting": "Mounting brackets included; installs horizontally at the lowest point (maker); attachable legs",
+        "Warranty": "No lifetime warranty (gununiversity); not stated on maker page"
+      },
+      "scores": {"security": 6, "access": 9, "capacity": 7, "value": 9},
+      "scoreNote": "No fire claim, so fire is omitted. 'Security' means build and safe use (no consumables, but hot surface and a thin-plug complaint, no lifetime warranty). Value 9 for the low price (do not state it); capacity 7 as the 12/18 in sizes cover small to mid safes.",
+      "sources": [
+        "https://www.lockdown.com/products/moisture-control/dehumidifier-rod-12/1071006.html",
+        "https://gununiversity.com/best-gun-safe-dehumidifiers/",
+        "https://gununiversity.com/lockdown-dehumidifier-rod-review/",
+        "https://www.americanfirearms.org/gun-safe-dehumidifiers/"
+      ],
+      "owners": {
+        "read": 1,
+        "praise": ["Does the job in a safe that is not opened often or in a low-humidity area", "Easy install, cord plug can be detached to feed through a small hole"],
+        "complaints": ["Hot to the touch", "Reviewer found it slower at bringing humidity down than the Golden Rod; americanfirearms also notes a low-quality plug and a thin bracket"],
+        "sources": [
+          {"title": "Gun University: Lockdown Dehumidifier Rod Review (hands-on reviewer)", "url": "https://gununiversity.com/lockdown-dehumidifier-rod-review/"},
+          {"title": "American Firearms: Gun Safe Dehumidifiers (editorial pros/cons)", "url": "https://www.americanfirearms.org/gun-safe-dehumidifiers/"}
+        ]
+      },
+      "ownerQuotes": [
+        {"quote": "I don't feel that it's as good at bringing down the relative humidity as effectively or quickly as the Golden Rod dehumidifier.", "who": "Tom Moore, Gun University", "url": "https://gununiversity.com/lockdown-dehumidifier-rod-review/"},
+        {"quote": "I had to drill a hole in the back of the safe and run the cable into the safe.", "who": "Tom Moore, Gun University", "url": "https://gununiversity.com/lockdown-dehumidifier-rod-review/"}
+      ],
+      "ownerEvidenceWarning": "Only one product-specific hands-on owner source found for this exact model (plus editorial pros/cons). Not enough for a strong 'what owners say' block; owners.read set honestly to 1. Note SIG Talk/AR15 posters who say 'goldenrod/rod' are not attributed to this model."
+    },
+    {
+      "name": "Lockdown Silica Gel Canister 750g",
+      "matchName": "Lockdown Silica Desiccant 750 Grams",
+      "brand": "Lockdown",
+      "query": "Lockdown Silica Gel Can 750 grams",
+      "asin": "B004QUIWAA",
+      "asinVerified": true,
+      "asinNote": "Amazon US title hand-checked 2026-10-19: 'Lockdown Silica Desiccant 750 Grams OM=4' (brand Lockdown, oven rechargeable, 0.5 kg, 2x2x6 in). The Amazon title does not contain the words 'Gel Canister', so keep matchName.",
+      "badge": "Best no-power option",
+      "summary": "A vented can of color-changing silica gel that actually absorbs moisture and needs no electricity. When the beads change color you dry them in a kitchen oven (gununiversity quotes 225-250 F for 3-5 hours) and reuse the can. Lockdown makes the 750 g can and smaller sizes, and sources give about 50-57 cu ft of coverage.",
+      "renterNote": "For a bedside box, small cabinet or any safe with no power inside, or as a second layer alongside a heated rod in a damp garage; plan on baking it every few weeks because 50-57 cu ft is a small area, so large safes need several.",
+      "pros": ["No power or drilling needed, works silently anywhere in the safe", "Actually removes moisture, unlike a heated rod", "Reusable by oven recharge, color-change indicator"],
+      "cons": ["Recharge by oven is tedious and time-consuming", "Small coverage (about 50-57 cu ft) and the indicator color is less obvious than other canisters (gununiversity)"],
+      "specs": {
+        "Type": "Silica gel desiccant canister, passive, color-change indicator",
+        "Coverage": "About 50 cu ft (gununiversity, americanfirearms) to 57 cu ft (Theisen's, GunSafesNow); Lockdown's own page does not state it",
+        "Size / weight": "750 g of silica; about 2 x 2 x 6 in, 0.5 kg per Amazon listing (gununiversity lists 1.5 x 6 x 2 in, 2 lb)",
+        "Power": "None",
+        "Recharge / upkeep": "Oven: 225-250 F for 3-5 hours per gununiversity; follow included instructions. Beads change color when saturated",
+        "Warranty": "One year (americanfirearms)"
+      },
+      "scores": {"security": 6, "access": 7, "capacity": 6, "value": 8},
+      "scoreNote": "No fire claim, so fire is omitted. 'Security' means build and safe use (no heat or cord, but a hot can when baking). Access 7 and capacity 6 because recharging by oven every few weeks is chore work and 50-57 cu ft is small.",
+      "sources": [
+        "https://www.lockdown.com/products/moisture-control/gel/silica-gel-750g/222178.html",
+        "https://gununiversity.com/best-gun-safe-dehumidifiers/",
+        "https://gununiversity.com/lockdown-canister-dehumidifier-review/",
+        "https://www.americanfirearms.org/gun-safe-dehumidifiers/",
+        "https://www.opticsplanet.com/reviews/reviews-lock-down-moisture-absorbing-silica-gel-can-750g/172b8dfc-cae5-11ef-9406-0a0ef068c53e.html"
+      ],
+      "owners": {
+        "read": 2,
+        "praise": ["Keeps a 16-gun-plus safe around 55 percent humidity per one verified owner", "Simple, silent, reusable by oven"],
+        "complaints": ["Oven recharge is tedious and the hot can is awkward to handle", "Too small for a large cabinet"],
+        "sources": [
+          {"title": "OpticsPlanet verified-owner review, Jan 4 2025", "url": "https://www.opticsplanet.com/reviews/reviews-lock-down-moisture-absorbing-silica-gel-can-750g/172b8dfc-cae5-11ef-9406-0a0ef068c53e.html"},
+          {"title": "Gun University: Lockdown Silica Gel Canister Review", "url": "https://gununiversity.com/lockdown-canister-dehumidifier-review/"},
+          {"title": "Rokslide: How do you keep moisture out of safe (generic oven-recharge canister posts, not Lockdown-specific, not counted)", "url": "https://rokslide.com/forums/threads/how-do-you-keep-moisture-out-of-safe.295674/"}
+        ],
+        "reviews_lockdown_com": "lockdown.com page shows 18 reviews (seen on page; star score not recorded). OpticsPlanet/eBay/Brownells pages exist but only OpticsPlanet was opened."
+      },
+      "ownerQuotes": [
+        {"quote": "Keeps the inside of my safe around 55Percent. And being able to recharge it in the oven is a plus .", "who": "Kyle, verified owner, OpticsPlanet", "url": "https://www.opticsplanet.com/reviews/reviews-lock-down-moisture-absorbing-silica-gel-can-750g/172b8dfc-cae5-11ef-9406-0a0ef068c53e.html"},
+        {"quote": "I'm not a fan of these types of gun-safe accessories, as I feel that the resetting/recharging process is tedious and time-consuming, not to mention handling a hot canister at the end of the process isn't fun.", "who": "Tom Moore, Gun University", "url": "https://gununiversity.com/lockdown-canister-dehumidifier-review/"}
+      ]
+    }
+  ],
+  "totalOwnerPostsRead": 21
+}

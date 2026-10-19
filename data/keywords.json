@@ -609,7 +609,8 @@
       "gun-safes-cold-wall-condensation",
       "gun-safes-dehumidifier-fails-or-freezes",
       "home-safes-desiccant-saturates-fast"
-    ]
+    ],
+    "productCount": 3
   },
   {
     "status": "merged",
