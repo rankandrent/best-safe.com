@@ -87,6 +87,15 @@ test('keywords with proven demand are picked before unmeasured ones', () => {
   assert.equal(nextKeyword(queue, { published: [] }).keyword, 'zz measured owner keyword');
 });
 
+test('low KD, long-tail, high-volume keywords come first (owner rule)', () => {
+  const queue = [
+    { keyword: 'zz short head', status: 'pending', priority: 9, category: 'a', ahrefs: { volume: 900, kd: 9 } },
+    { keyword: 'zz long tail easy keyword', status: 'pending', priority: 1, category: 'b', ahrefs: { volume: 400, kd: 1 } },
+    { keyword: 'zz no data owner keyword', status: 'pending', source: 'user', priority: 9, category: 'c' },
+  ];
+  assert.equal(nextKeyword(queue, { published: [] }).keyword, 'zz long tail easy keyword');
+});
+
 test('the safe Score uses the five safe criteria, with fire optional', async () => {
   const { CRITERIA, REQUIRED_CRITERIA, productScore, criterionLabel } = await import('../src/lib/score.mjs');
   assert.deepEqual(CRITERIA.map((c) => c.key), ['security', 'fire', 'access', 'capacity', 'value']);

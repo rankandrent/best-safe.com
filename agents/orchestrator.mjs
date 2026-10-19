@@ -93,19 +93,25 @@ export function nextKeyword(queue, state) {
   }
   const pending = queue.filter((q) => q.status === 'pending');
   const want = neededStage(recentStages);
-  // Proven demand first: measured Ahrefs volume, then a measured proxy, then unmeasured keywords.
+  // Owner rule: low KD, long-tail, high search volume first.
+  // Tier: measured Ahrefs volume, then a measured proxy (closest broader keyword), then no data.
+  // Inside a tier: more searches up, every KD point down, a 3+ word (long-tail) phrase up.
+  // Category/funnel balance and the queue priority only break near-ties.
   const demand = (k) => {
     const a = k.ahrefs ?? {};
-    if (typeof a.volume === 'number') return 300 + Math.log10(a.volume + 1) * 5 - (a.kd ?? 20) / 10;
-    if (typeof a.proxy?.volume === 'number') return 200 + Math.log10(a.proxy.volume + 1) * 2;
-    return 0;
+    const words = String(k.keyword).trim().split(/\s+/).length;
+    const longTail = words >= 3 ? 8 : 0;
+    if (typeof a.volume === 'number') return 2000 + Math.log10(a.volume + 1) * 12 - (a.kd ?? 15) * 1.2 + longTail;
+    if (typeof a.proxy?.volume === 'number') return 1000 + Math.log10(a.proxy.volume + 1) * 8 - (a.proxy.kd ?? a.kd ?? 15) * 1.2 + longTail;
+    return longTail;
   };
+  const tieBreak = (k) => Math.min(Number(k.priority) || 0, k.priority >= 100 ? 600 : 10) / (k.priority >= 100 ? 300 : 5);
   const score = (k) =>
     demand(k) +
-    k.priority -
+    tieBreak(k) -
     recent.filter((c) => c === k.category).length * 1.5 +
-    (funnelOf(k) === want ? 4 : 0) +
-    (k.source === 'user' ? 100 : 0);
+    (funnelOf(k) === want ? 2 : 0) +
+    (k.source === 'user' ? 1 : 0);
   pending.sort((a, b) => score(b) - score(a));
   return pending[0];
 }
