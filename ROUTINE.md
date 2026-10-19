@@ -99,7 +99,8 @@ node scripts/qa.mjs --failing
 If `--failing` lists posts, fix them first (they are blocked from going live). Then, as
 QA backlog work, fact-check **one** older post whose QA report has a `LIVE POST, FIX` or
 `facts not verified` warning: verify it against its sources, fix it, and run `factcheck` and `qa` for it.
-Then, as trim backlog work (owner rule: concise and new), tighten **one** older post a day:
+Trim backlog (owner rule: concise and new): tighten **one** older post a day, AFTER today's English posts are pushed
+(new posts always come first; do it before translation work):
 1. `node scripts/routine.mjs trim-queue` and take the first entry (skip this if the queue is empty).
 2. If `data/briefs/<slug>.json` has no `commonPoints`/`ourGain`, have `brief-agent` add just those two fields (and
    `serpStructure.avgWords` if missing) from the SERP, without rewriting the rest of the brief.
