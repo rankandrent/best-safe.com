@@ -1,14 +1,16 @@
 {
   "slug": "best-pistol-safe",
   "pass": true,
-  "checkedAt": "2026-10-19T15:21:19.867Z",
+  "checkedAt": "2026-10-19T15:22:51.149Z",
   "errors": [],
   "warnings": [
     "product \"Fort Knox PB1 Original Pistol Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Hornady RAPiD Safe 2700KP\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek LifePod 20\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "only 1 internal links (aim for 3-5)"
+    "only 1 internal links (aim for 3-5)",
+    "source didn't respond normally (no response): https://shop.hornady.com/rapid-safe-2700kp-xl",
+    "source didn't respond normally (403): https://gunsafes.com/product/fort-knox-pb1-original-pistol-safe-ftk-pb/"
   ],
   "factCheck": {
     "verified": true,
