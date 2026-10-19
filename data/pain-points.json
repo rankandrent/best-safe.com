@@ -1,0 +1,942 @@
+{
+  "updatedAt": "2026-10-19T07:04:12Z",
+  "categories": {
+    "gun-safes": [
+      {
+        "id": "gun-safes-rust-despite-dehumidifier",
+        "pain": "Guns rust inside the safe even with silica packs and a dehumidifier",
+        "details": "Owners in humid regions or unconditioned rooms find rust specks on barrels and mags within weeks. Silica saturates fast, felt barrel rests and gun socks hold moisture, and people are unsure what humidity level to hold.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+            "platform": "forum",
+            "title": "Rust issues | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+            "platform": "forum",
+            "title": "humidity problems in the gunsafe, help needed | AR15.com",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/",
+            "platform": "reddit",
+            "title": "WTH happening to my gun safe. I was gone for 3 days and came back to ... | r/Firearms",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture.",
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+          },
+          {
+            "text": "Ditch the gel and dri packs, they just hold moisture.",
+            "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+          },
+          {
+            "text": "it's just surface rust. Should just wipe off.",
+            "url": "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+          }
+        ],
+        "searches": [
+          "why is my gun safe rusting guns",
+          "how to stop rust in a gun safe",
+          "gun safe rust prevention",
+          "gun safe humidity level"
+        ],
+        "keywords": [
+          "best dehumidifier for gun safe",
+          "gun safe hygrometer",
+          "gun safe rust prevention"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-cold-wall-condensation",
+        "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp or moldy",
+        "details": "Humidity inside the safe stays high even with a room dehumidifier because the steel is colder than the room air. Owners are told to warm the safe, add a dryer rod or bulb, insulate the back or lift the safe off the slab.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+            "platform": "forum",
+            "title": "humidity problems in the gunsafe, help needed | AR15.com",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+            "platform": "forum",
+            "title": "Rust issues | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl.",
+            "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+          },
+          {
+            "text": "I do not want to set it directly on the concrete as the concrete sweats and will cause rust.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+          },
+          {
+            "text": "You can only get moisture condensing on the guns when the guns are colder than the air, not the other way around.",
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+          }
+        ],
+        "searches": [
+          "gun safe condensation",
+          "gun safe on concrete floor",
+          "gun safe in garage humidity",
+          "gun safe against exterior wall"
+        ],
+        "keywords": [
+          "best dehumidifier for gun safe",
+          "gun safe dehumidifier rod",
+          "gun safe in garage",
+          "where to put a gun safe",
+          "gun safe in basement"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-dehumidifier-fails-or-freezes",
+        "pain": "In-safe and room dehumidifiers die, freeze up or turn out to be only heaters",
+        "details": "Owners spend about $200 on a safe dehumidifier that errors out within a year or two, or run a room unit whose coils freeze in cool garages. Many \"dehumidifiers\" for safes are really low-power heaters, which confuses buyers.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+            "platform": "forum",
+            "title": "Rust issues | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+            "platform": "forum",
+            "title": "Any risks of humidity in a safe? | Collectors Universe",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "the dehumidifier I had been using crapped out earlier in the year.",
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+          },
+          {
+            "text": "my more powerful de-humidifier would freeze up, even though it had a defrost feature.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+          },
+          {
+            "text": "the majority of the in-safe electronic dehumidifiers are just electric heaters with the aim being to prevent condensation.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          }
+        ],
+        "searches": [
+          "gun safe dehumidifier rod",
+          "goldenrod dehumidifier",
+          "gun safe dehumidifier not working",
+          "best dehumidifier for gun safe"
+        ],
+        "keywords": [
+          "best dehumidifier for gun safe",
+          "gun safe dehumidifier rod"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-capacity-overstated",
+        "pain": "The gun count on the box is far higher than what really fits, so the safe is full on day one",
+        "details": "Owners with scoped rifles, ARs and pistol grips fit about half the advertised number and then struggle to get one gun out. Repeated advice: halve the rating and buy bigger than you think you need.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/safe-capacity-numbers-what-do-they-mean.494046/",
+            "platform": "forum",
+            "title": "Safe capacity numbers...what do they mean? | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-interior.526300/",
+            "platform": "forum",
+            "title": "Gun safe interior | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "BUY A BIGGER SAFE THAN YOU THINK YOU NEED.",
+            "url": "https://www.thehighroad.org/index.php?threads/safe-capacity-numbers-what-do-they-mean.494046/"
+          },
+          {
+            "text": "always take the max number of long guns they say the safe will hold and cut it by at least 1/3.",
+            "url": "https://www.thehighroad.org/index.php?threads/safe-capacity-numbers-what-do-they-mean.494046/"
+          },
+          {
+            "text": "Just be advised that gun capacity ratings on safes is a myth",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          }
+        ],
+        "searches": [
+          "how many guns fit in a gun safe",
+          "gun safe capacity real",
+          "what size gun safe do i need",
+          "gun safe capacity rating"
+        ],
+        "keywords": [
+          "best budget gun safe",
+          "best gun safe",
+          "large gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-electronic-lock-fails-no-backup",
+        "pain": "Electronic keypad fails and the safe has no backup key",
+        "details": "Owners report keypads dying within a week to a year, safes sold without an override key, and a locked-out collection while the maker is closed. Many switch to dial locks or fit a keyed or dual-mode lock. Recovery is through the maker, not tricks.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+            "platform": "forum",
+            "title": "Gun safe problem | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/cannon-firearm-safe-disappointment.819739/",
+            "platform": "forum",
+            "title": "Cannon Firearm Safe Disappointment. | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/CAguns/comments/1gibfn5/winchester_safe_died_on_me_cant_open_with_key/",
+            "platform": "reddit",
+            "title": "Winchester Safe died on me, can't open with key | r/CAguns",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Electronic locks fail. Mechanical locks keep working.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "Winchester is closed for the rest of the week. This safe has no back up key.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "Winchester Safe died on me, can't open with key",
+            "url": "https://www.reddit.com/r/CAguns/comments/1gibfn5/winchester_safe_died_on_me_cant_open_with_key/"
+          }
+        ],
+        "searches": [
+          "gun safe keypad failed",
+          "gun safe no backup key",
+          "electronic vs dial gun safe lock",
+          "gun safe keypad replacement"
+        ],
+        "keywords": [
+          "best budget gun safe",
+          "best safe brands",
+          "best gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-bolting-slab-or-wood-floor",
+        "pain": "Not sure how to bolt a safe down on a post-tension slab, thin slab or wood floor",
+        "details": "Buyers in post-tension slab regions (Las Vegas, Texas) are told not to drill blind, and others find the garage slab is thin. Common routes: scan the slab, bolt to wall studs, or use a pad or wood base. Fear of tip-over and of cracking the slab.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/",
+            "platform": "forum",
+            "title": "Bolting down a safe post tension slab? | AR15.com",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/bolting-down-the-safe.556037/",
+            "platform": "forum",
+            "title": "Bolting down the safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "OP you're not going to get anyone who recommends drilling into a PT slab.",
+            "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+          },
+          {
+            "text": "the number one issue you need to check first, is how thick a slab the garage has.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+          },
+          {
+            "text": "drilling in to a post tension slab is a very bad idea",
+            "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+          }
+        ],
+        "searches": [
+          "how to bolt a safe to concrete floor",
+          "bolt gun safe post tension slab",
+          "bolt gun safe to wood floor",
+          "anchor gun safe to wall studs"
+        ],
+        "keywords": [
+          "how to bolt down a safe",
+          "gun safe in garage"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      }
+    ],
+    "safe-guides": [
+      {
+        "id": "safe-guides-moving-up-stairs",
+        "pain": "A 500 lb+ safe cannot be carried up stairs by the owner without risk of injury or damage",
+        "details": "Owners ask how to get a 500 to 900 lb safe up or down a flight and are told to hire safe movers, check the stairs and use door removal or modular safes. DIY with stair dollies is described as dangerous.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+            "platform": "forum",
+            "title": "transporting a safe up a flight of stairs | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-moving-suggestions.936791/",
+            "platform": "forum",
+            "title": "Gun safe moving suggestions | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/",
+            "platform": "reddit",
+            "title": "Moving a 600lb safe upstairs to its final location: Movers or friends? | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Hire a professional. Don't rent a stair climbing dolly.",
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+          },
+          {
+            "text": "You should use safe movers and nobody else, and be sure your stairs can handle the weight",
+            "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+          },
+          {
+            "text": "Occasionally safes need to be moved.",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          }
+        ],
+        "searches": [
+          "how to move a safe upstairs",
+          "moving a gun safe up stairs",
+          "how much to hire safe movers",
+          "move gun safe basement stairs"
+        ],
+        "keywords": [
+          "how to move a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-floor-and-stair-load",
+        "pain": "Worry that the floor or stairs cannot take the weight of a loaded safe",
+        "details": "Owners wanting the safe upstairs or in a basement room ask about floor load ratings, bracing basement stairs and the combined weight of safe plus contents.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+            "platform": "forum",
+            "title": "transporting a safe up a flight of stairs | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/",
+            "platform": "reddit",
+            "title": "Moving a 600lb safe upstairs to its final location: Movers or friends? | r/Safes",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Most residential floors are only rated for about 40 lb per sq ft.",
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+          },
+          {
+            "text": "Consider what the full of stuff weight will be, and plan accordingly.",
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+          },
+          {
+            "text": "be sure your stairs can handle the weight",
+            "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+          }
+        ],
+        "searches": [
+          "gun safe on second floor",
+          "how much weight can a floor hold gun safe",
+          "gun safe weight upstairs floor",
+          "gun safe in basement"
+        ],
+        "keywords": [
+          "how to move a gun safe",
+          "how much does a gun safe weigh",
+          "gun safe on second floor",
+          "gun safe in basement",
+          "where to put a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-tight-turns-and-dolly-limits",
+        "pain": "Safe will not make the turn or doorway, and the dolly is rated below the safe weight",
+        "details": "Owners hit tight stair turns, narrow doors and dollies rated to 600 or 800 lb. Tips: remove the door where hinges allow, buy a modular safe, or keep the safe to appliance-dolly size.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+            "platform": "forum",
+            "title": "transporting a safe up a flight of stairs | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "the turn at the top won't allow any one-piece safe, even a medium size one, to be taken up or down.",
+            "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+          },
+          {
+            "text": "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          }
+        ],
+        "searches": [
+          "gun safe door removal to move",
+          "modular gun safe",
+          "appliance dolly weight limit safe",
+          "will a gun safe fit through a door"
+        ],
+        "keywords": [
+          "how to move a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-battery-dies-locks-owner-out",
+        "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+        "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+        "mentions": 6,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+            "platform": "forum",
+            "title": "Gun safe problem | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+            "platform": "reddit",
+            "title": "Battery dying- can't get it open. Any advice? | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+            "platform": "reddit",
+            "title": "My Safe Batteries died , keypad doesn't respond and no key option | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+            "platform": "reddit",
+            "title": "Safe batteries dead and key not unlocking. | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+            "platform": "quora",
+            "title": "Why won't my SentrySafe Security Safe T6-331 lock? | Quora",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          },
+          {
+            "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "Safe batteries dead and key not unlocking.",
+            "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/"
+          },
+          {
+            "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+            "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+          }
+        ],
+        "searches": [
+          "safe battery died locked out",
+          "how often to change safe batteries",
+          "sentry safe battery replacement",
+          "safe battery replacement"
+        ],
+        "keywords": [
+          "sentry safe battery replacement",
+          "how to open a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-new-batteries-still-wont-work",
+        "pain": "Fresh batteries are in and the keypad still will not open or lock the safe",
+        "details": "After a battery swap the code is rejected, the keypad lights but the bolt does not move, or the lever will not reach the locked position. Causes owners found: non-alkaline cells, battery alignment, a screw catching the bolt work, a failed keypad or solenoid.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+            "platform": "forum",
+            "title": "Gun safe problem | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+            "platform": "quora",
+            "title": "Why won't my SentrySafe Security Safe T6-331 lock? | Quora",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1hhzj3o/cannon_director_safe_code_does_not_work_after/",
+            "platform": "reddit",
+            "title": "Cannon Director Safe - code does not work after changing battery | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1glr8c3/sentry_safe_issue/",
+            "platform": "reddit",
+            "title": "Sentry safe issue | r/Safes",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I have tried 4 new name brand batteries.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "I changed the batteries, but when I close it, the lever will not go all the way to the right into the locked position.",
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+          },
+          {
+            "text": "Cannon Director Safe - code does not work after changing battery",
+            "url": "https://www.reddit.com/r/Safes/comments/1hhzj3o/cannon_director_safe_code_does_not_work_after/"
+          }
+        ],
+        "searches": [
+          "safe keypad not working after changing batteries",
+          "sentry safe keypad not working",
+          "safe will not lock after new batteries",
+          "safe keypad beeps three times"
+        ],
+        "keywords": [
+          "sentry safe battery replacement",
+          "sentry safe keypad not working",
+          "how to open a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-lost-combination-or-key",
+        "pain": "Owner forgets the combination or loses the key and does not know the official recovery route",
+        "details": "Makers such as Winchester and Sentry keep records for registered owners and sell replacement keypads or keys. Owners are told to store the combination outside the safe and to use the manufacturer or a locksmith.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+            "platform": "forum",
+            "title": "Gun safe problem | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+            "platform": "quora",
+            "title": "Why won't my SentrySafe Security Safe T6-331 lock? | Quora",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+            "platform": "reddit",
+            "title": "Battery dying- can't get it open. Any advice? | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "If you lose or forget your combination, you can request a copy for a nominal fee.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "If you are the legitimate owner of the safe, you can try contacting Sentry:",
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+          },
+          {
+            "text": "If you lost the override key it's a problem.",
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+          }
+        ],
+        "searches": [
+          "lost safe combination",
+          "how to get a replacement safe key",
+          "safe manufacturer combination request",
+          "forgot safe combination"
+        ],
+        "keywords": [
+          "how to open a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      }
+    ],
+    "home-safes": [
+      {
+        "id": "home-safes-mold-and-moisture-in-fire-safe",
+        "pain": "Papers, passports and coins grow mold inside a fire-rated home safe",
+        "details": "Fire-resistant safes hold moisture in their walls and seal closed, so documents mold within weeks in humid homes. Owners are told to air the safe out, use a monitor and a rechargeable desiccant or dryer rod.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+            "platform": "forum",
+            "title": "Any risks of humidity in a safe? | Collectors Universe",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/",
+            "platform": "reddit",
+            "title": "Opened up my fireproof safe to find my passport growing mold on ... | r/Wellthatsucks",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://physics.stackexchange.com/questions/616943/why-do-fireproof-safes-capture-and-hold-in-moisture",
+            "platform": "forum",
+            "title": "Why do fireproof safes \"capture and hold in moisture\"? | Physics Stack Exchange",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Fireproof safes are notorious for holding moisture.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          },
+          {
+            "text": "In the time frame of a couple of weeks, the paper work started to mold.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          },
+          {
+            "text": "Opened up my fireproof safe to find my passport growing mold on",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/"
+          }
+        ],
+        "searches": [
+          "mold in fireproof safe",
+          "fireproof safe moisture",
+          "how to keep documents dry in a fireproof safe",
+          "fireproof safe humidity"
+        ],
+        "keywords": [
+          "best fireproof document bag",
+          "are gun safes fireproof"
+        ],
+        "coveredBy": [
+          "best-fireproof-document-safe"
+        ],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-desiccant-saturates-fast",
+        "pain": "Silica packs saturate within weeks and the owner is unsure how to keep them working",
+        "details": "Owners recharge silica again and again, or read that desiccant in a leaky fire safe only pulls moisture from the walls. Rechargeable canisters and dryer rods are the usual answers.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+            "platform": "forum",
+            "title": "Any risks of humidity in a safe? | Collectors Universe",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+            "platform": "forum",
+            "title": "Rust issues | The High Road",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+            "platform": "forum",
+            "title": "Gun Safe Mounting in Garage - Rust, Pedestal & Bolt Down | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Dessicant is not going to help unless the area it is protecting is air-tight.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          },
+          {
+            "text": "dessicants will need frequent recharging",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          },
+          {
+            "text": "But they turn from Orange to blue within a week or two everytime.",
+            "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+          }
+        ],
+        "searches": [
+          "do fireproof safes need silica gel",
+          "how often recharge safe desiccant",
+          "rechargeable desiccant for safe",
+          "safe dehumidifier for small safe"
+        ],
+        "keywords": [
+          "best dehumidifier for gun safe",
+          "gun safe dehumidifier rod"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-not-really-fireproof",
+        "pain": "Owners do not trust that a \"fireproof\" safe will really protect papers or plastic media",
+        "details": "People ask whether fire boxes are fireproof at all, or learn the rating is time-limited and that moisture inside can wet the contents. They want clear ratings and what to wrap in plastic.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/",
+            "platform": "reddit",
+            "title": "How do you store your important documents? | r/homeowners",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/",
+            "platform": "reddit",
+            "title": "Looking for recommendation on a safe | r/homedefense",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+            "platform": "forum",
+            "title": "Any risks of humidity in a safe? | Collectors Universe",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Nothing is really fireproof",
+            "url": "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/"
+          },
+          {
+            "text": "The contents might get very moist in that scenario, so protect wrap them in plastic.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          }
+        ],
+        "searches": [
+          "are fireproof safes really fireproof",
+          "what does fire rating on a safe mean",
+          "fireproof safe 30 minutes enough",
+          "fire safe for documents rating"
+        ],
+        "keywords": [
+          "are gun safes fireproof",
+          "best fire rated gun safe"
+        ],
+        "coveredBy": [
+          "best-fireproof-safe"
+        ],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-lightweight-needs-bolting",
+        "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them",
+        "details": "Buyers of lighter or 12-gun-class safes debate bolting for theft versus tip-over, with concerns about slab damage, warranty and fire seal. Many bolt in a corner or to studs and add cameras.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/",
+            "platform": "forum",
+            "title": "Bolting down a safe post tension slab? | AR15.com",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/",
+            "platform": "reddit",
+            "title": "Looking for recommendation on a safe | r/homedefense",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+            "platform": "forum",
+            "title": "Winchester Safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts.",
+            "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"
+          },
+          {
+            "text": "I have it bolted to my floor and it is tucked in a corner with a full freezer.",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          },
+          {
+            "text": "I think over 150 lbs it's not technically a tip over hazard",
+            "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+          }
+        ],
+        "searches": [
+          "how to bolt down a small safe",
+          "should i bolt down my safe",
+          "bolt down safe apartment",
+          "safe tip over hazard"
+        ],
+        "keywords": [
+          "how to bolt down a safe"
+        ],
+        "coveredBy": [
+          "best-fireproof-safe",
+          "best-biometric-gun-safe"
+        ],
+        "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-lost-or-jammed-key",
+        "pain": "Backup key is lost, never supplied or jams in the lock",
+        "details": "Owners find the override key is missing, or that a wrong key jams a round Sentry lock. Advice: keep the key code and spare key away from the safe and register the safe with the maker.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+            "platform": "quora",
+            "title": "Why won't my SentrySafe Security Safe T6-331 lock? | Quora",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+            "platform": "reddit",
+            "title": "Battery dying- can't get it open. Any advice? | r/Safes",
+            "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/back-up-key-for-a-winchester-safe.941530/",
+            "platform": "forum",
+            "title": "Back up key for a Winchester safe | The High Road",
+            "seen": "2026-10-19"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Usually there is a backup key for use when the batteries die.",
+            "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+          },
+          {
+            "text": "If you lost the override key it's a problem.",
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+          }
+        ],
+        "searches": [
+          "sentry safe replacement key",
+          "lost safe key",
+          "safe backup key location",
+          "safe key jammed"
+        ],
+        "keywords": [
+          "sentry safe key",
+          "sentry safe battery replacement"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-19"
+      }
+    ]
+  }
+}

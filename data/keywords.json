@@ -430,7 +430,10 @@
       "stores": 3,
       "forums": 2,
       "videos": 0
-    }
+    },
+    "painPoints": [
+      "home-safes-mold-and-moisture-in-fire-safe"
+    ]
   },
   {
     "status": "merged",
@@ -546,7 +549,11 @@
       "stores": 3,
       "forums": 3,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "home-safes-not-really-fireproof",
+      "home-safes-mold-and-moisture-in-fire-safe"
+    ]
   },
   {
     "status": "pending",
@@ -587,7 +594,13 @@
       "stores": 4,
       "forums": 1,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "gun-safes-rust-despite-dehumidifier",
+      "gun-safes-cold-wall-condensation",
+      "gun-safes-dehumidifier-fails-or-freezes",
+      "home-safes-desiccant-saturates-fast"
+    ]
   },
   {
     "status": "merged",
@@ -713,7 +726,11 @@
       "forums": 2,
       "videos": 1
     },
-    "productCount": 11
+    "productCount": 11,
+    "painPoints": [
+      "gun-safes-capacity-overstated",
+      "gun-safes-electronic-lock-fails-no-backup"
+    ]
   },
   {
     "status": "pending",
@@ -749,7 +766,10 @@
       "stores": 4,
       "forums": 2,
       "videos": 0
-    }
+    },
+    "painPoints": [
+      "gun-safes-electronic-lock-fails-no-backup"
+    ]
   },
   {
     "status": "parked",
@@ -991,7 +1011,12 @@
       "stores": 1,
       "forums": 1,
       "videos": 3
-    }
+    },
+    "painPoints": [
+      "safe-guides-moving-up-stairs",
+      "safe-guides-floor-and-stair-load",
+      "safe-guides-tight-turns-and-dolly-limits"
+    ]
   },
   {
     "status": "pending",
@@ -1029,7 +1054,10 @@
       "stores": 4,
       "forums": 1,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "home-safes-not-really-fireproof"
+    ]
   },
   {
     "status": "pending",
@@ -1145,7 +1173,10 @@
       "stores": 2,
       "forums": 3,
       "videos": 0
-    }
+    },
+    "painPoints": [
+      "safe-guides-floor-and-stair-load"
+    ]
   },
   {
     "status": "merged",
@@ -1617,7 +1648,12 @@
       "stores": 0,
       "forums": 1,
       "videos": 3
-    }
+    },
+    "painPoints": [
+      "safe-guides-battery-dies-locks-owner-out",
+      "safe-guides-new-batteries-still-wont-work",
+      "safe-guides-lost-combination-or-key"
+    ]
   },
   {
     "status": "parked",
@@ -1694,7 +1730,12 @@
       "stores": 4,
       "forums": 0,
       "videos": 2
-    }
+    },
+    "painPoints": [
+      "safe-guides-battery-dies-locks-owner-out",
+      "safe-guides-new-batteries-still-wont-work",
+      "home-safes-lost-or-jammed-key"
+    ]
   },
   {
     "status": "parked",
@@ -1733,7 +1774,10 @@
       "forums": 1,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: brand/key-store pages hold 7 of 10; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: brand/key-store pages hold 7 of 10; a new affiliate roundup is unlikely to rank",
+    "painPoints": [
+      "home-safes-lost-or-jammed-key"
+    ]
   },
   {
     "status": "parked",
@@ -1806,7 +1850,11 @@
       "stores": 0,
       "forums": 5,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "gun-safes-cold-wall-condensation",
+      "safe-guides-floor-and-stair-load"
+    ]
   },
   {
     "status": "parked",
@@ -1843,7 +1891,10 @@
       "forums": 0,
       "videos": 0
     },
-    "lastError": "SERP 2026-10-18: store/brand pages, no roundup intent; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: store/brand pages, no roundup intent; a new affiliate roundup is unlikely to rank",
+    "painPoints": [
+      "gun-safes-capacity-overstated"
+    ]
   },
   {
     "status": "parked",
@@ -1997,7 +2048,11 @@
       "stores": 4,
       "forums": 1,
       "videos": 1
-    }
+    },
+    "painPoints": [
+      "gun-safes-capacity-overstated",
+      "gun-safes-electronic-lock-fails-no-backup"
+    ]
   },
   {
     "status": "pending",
@@ -2042,7 +2097,11 @@
       "forums": 2,
       "videos": 3
     },
-    "productCount": 4
+    "productCount": 4,
+    "painPoints": [
+      "gun-safes-bolting-slab-or-wood-floor",
+      "home-safes-lightweight-needs-bolting"
+    ]
   },
   {
     "status": "parked",
@@ -2251,6 +2310,229 @@
       "source": "ahrefs site-explorer-organic-keywords us",
       "date": "2026-10-19"
     },
-    "slug": "gun-safe-hygrometer"
+    "slug": "gun-safe-hygrometer",
+    "painPoints": [
+      "gun-safes-rust-despite-dehumidifier"
+    ]
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.625Z",
+    "secondaryKeywords": [
+      "goldenrod dehumidifier",
+      "gun safe heater rod",
+      "dehumidifier rod for gun safe"
+    ],
+    "questions": [
+      "Does a dryer rod really dehumidify?",
+      "How long can a rod run?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe dehumidifier rod",
+    "category": "safe-accessories",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe Dehumidifier Rod: Do You Need One?",
+    "cluster": "safe humidity",
+    "source": "pain-point",
+    "painPoints": [
+      "gun-safes-cold-wall-condensation",
+      "gun-safes-dehumidifier-fails-or-freezes",
+      "home-safes-desiccant-saturates-fast"
+    ],
+    "rationale": "3 owners report in-safe dehumidifiers failing, freezing or only heating, and cold-wall condensation (thehighroad, ar15.com, collectors forum)",
+    "ahrefs": {
+      "volume": 300,
+      "kd": 0,
+      "trafficPotential": 350,
+      "parentTopic": "goldenrod dehumidifier",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-dehumidifier-rod"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.626Z",
+    "secondaryKeywords": [
+      "safe keypad not working after changing batteries",
+      "safe will not lock after new batteries"
+    ],
+    "questions": [
+      "Why does the keypad light up but the bolt will not move?",
+      "Do I need alkaline batteries?"
+    ],
+    "priority": 6,
+    "keyword": "sentry safe keypad not working",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "SentrySafe Keypad Not Working: Fixes That Work",
+    "cluster": "safe locks and batteries",
+    "source": "pain-point",
+    "painPoints": [
+      "safe-guides-new-batteries-still-wont-work",
+      "safe-guides-battery-dies-locks-owner-out"
+    ],
+    "rationale": "4 owners report a dead or unresponsive keypad after fresh batteries (thehighroad, quora, reddit r/Safes)",
+    "ahrefs": {
+      "volume": 200,
+      "kd": 1,
+      "trafficPotential": 1000,
+      "parentTopic": "sentry safe reset code",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "sentry-safe-keypad-not-working"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.626Z",
+    "secondaryKeywords": [
+      "gun safe on concrete floor",
+      "bolt gun safe to garage floor"
+    ],
+    "questions": [
+      "Will a gun safe rust in a garage?",
+      "Can you bolt a safe to a thin slab?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe in garage",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe in a Garage: Rust, Slab and Bolt-Down Tips",
+    "cluster": "safe placement",
+    "source": "pain-point",
+    "painPoints": [
+      "gun-safes-cold-wall-condensation",
+      "gun-safes-bolting-slab-or-wood-floor",
+      "gun-safes-rust-despite-dehumidifier"
+    ],
+    "rationale": "3 owners report damp-slab rust and bolt-down trouble in garages (thehighroad, ar15.com)",
+    "ahrefs": {
+      "volume": 250,
+      "kd": 0,
+      "trafficPotential": 250,
+      "parentTopic": "gun safe in garage",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-in-garage"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.626Z",
+    "secondaryKeywords": [
+      "how to prevent rust in a gun safe",
+      "gun safe humidity level"
+    ],
+    "questions": [
+      "What humidity should a gun safe stay at?",
+      "Do gun socks cause rust?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe rust prevention",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe Rust Prevention: What Actually Works",
+    "cluster": "safe humidity",
+    "source": "pain-point",
+    "painPoints": [
+      "gun-safes-rust-despite-dehumidifier",
+      "gun-safes-cold-wall-condensation"
+    ],
+    "rationale": "4 owners report rust despite silica and dehumidifiers (thehighroad, ar15.com, reddit r/Firearms)",
+    "ahrefs": {
+      "volume": 30,
+      "kd": 0,
+      "trafficPotential": 50,
+      "parentTopic": "why is my gun rusting",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-rust-prevention"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.626Z",
+    "secondaryKeywords": [
+      "gun safe weight floor load",
+      "can a floor hold a gun safe"
+    ],
+    "questions": [
+      "How much weight can a floor hold?",
+      "How do you get a safe upstairs?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe on second floor",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe on a Second Floor: Weight and Floor Load",
+    "cluster": "safe placement",
+    "source": "pain-point",
+    "painPoints": [
+      "safe-guides-floor-and-stair-load",
+      "safe-guides-moving-up-stairs"
+    ],
+    "rationale": "2 owner threads worry about floor and stair load for a heavy safe (thehighroad, reddit r/Safes)",
+    "ahrefs": {
+      "volume": 30,
+      "kd": 0,
+      "trafficPotential": 30,
+      "parentTopic": "gun safe on second floor",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-on-second-floor"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-19T07:04:32.626Z",
+    "secondaryKeywords": [
+      "basement gun safe humidity",
+      "move gun safe to basement"
+    ],
+    "questions": [
+      "Is a basement too damp for a gun safe?",
+      "How do you move a safe downstairs?"
+    ],
+    "priority": 6,
+    "keyword": "gun safe in basement",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe in a Basement: Moisture, Stairs and Floors",
+    "cluster": "safe placement",
+    "source": "pain-point",
+    "painPoints": [
+      "gun-safes-cold-wall-condensation",
+      "safe-guides-moving-up-stairs",
+      "safe-guides-floor-and-stair-load"
+    ],
+    "rationale": "3 owners describe basement damp and stair moves (thehighroad, ar15.com)",
+    "ahrefs": {
+      "volume": 40,
+      "kd": 0,
+      "trafficPotential": 20,
+      "parentTopic": "gun safe in basement",
+      "source": "ahrefs keywords-explorer-overview us",
+      "date": "2026-10-19"
+    },
+    "slug": "gun-safe-in-basement"
   }
 ]
