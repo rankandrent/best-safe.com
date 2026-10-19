@@ -48,6 +48,7 @@ productCount and slot time it needs, and act on what it returns:
 | Step | Agent | Model |
 |---|---|---|
 | 1, 2b keywords | `keyword-agent` | sonnet |
+| 1a competitor gap keywords | `competitor-gap-agent` | sonnet |
 | 3 products | `product-agent` | sonnet |
 | 4 brief + serpStructure | `brief-agent` | sonnet |
 | 6-7 write + audit | `writer-agent` | opus |
@@ -325,3 +326,13 @@ Category and funnel balance and the queue `priority` only break near-ties; owner
 Keep at least 25 pending keywords with measured Ahrefs data (volume + KD, US) in the queue: when fewer remain,
 run keyword-agent first (Ahrefs keywords-explorer-overview, live SERP check, cannibalization check) and add them
 with `routine.mjs add-keywords` before writing the day's posts.
+
+## Competitor gap keywords (owner rule)
+
+Before keyword-agent, when fewer than 25 pending keywords have measured Ahrefs data, run `competitor-gap-agent`:
+it searches the seed keyword variations (data/seeds.json) on Google, checks the ranking domains' Domain Rating
+(free Ahrefs call), takes weak sites (DR ≤ 30) that rank in the top 10, pulls the keywords they rank for in the
+top 10 (Ahrefs site-explorer-organic-keywords, US, KD ≤ maxKd, 3+ words, volume ≥ 50) and adds the ones in our
+niche to the queue with `source: "competitor-gap"`. Budget: at most 3,000 Ahrefs units per run, and nothing when
+fewer than 10,000 API units remain. Findings are kept in data/competitors.json so a domain or seed is not
+re-checked within 30 days. Only keywords are taken from competitors, never their text.
