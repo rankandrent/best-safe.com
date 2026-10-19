@@ -574,7 +574,14 @@
       "best safe dehumidifier",
       "gun safe humidity control"
     ],
-    "questions": [],
+    "questions": [
+      "What is the best dehumidifier for a gun safe?",
+      "Do I need a dehumidifier in a gun safe?",
+      "Does a dehumidifier rod really remove moisture?",
+      "How big a rod do I need for my safe (cubic feet)?",
+      "Can I leave a Golden Rod plugged in 24/7?",
+      "Is silica gel enough for a gun safe?"
+    ],
     "priority": 540,
     "keyword": "best dehumidifier for gun safe",
     "category": "safe-accessories",

@@ -1,0 +1,443 @@
+{
+  "centralEntity": "gun safe dehumidifier",
+  "entityVariants": [
+    "dehumidifier for gun safe",
+    "gun safe dehumidifiers",
+    "safe dehumidifier",
+    "gun safe humidity control",
+    "gun safe moisture absorber",
+    "dehumidifier rod",
+    "goldenrod dehumidifier"
+  ],
+  "entities": [
+    {
+      "name": "Lockdown Golden Rod",
+      "type": "product",
+      "relation": "heated rod, the model owners name most for a plug-in safe"
+    },
+    {
+      "name": "Lockdown Dehumidifier Rod",
+      "type": "product",
+      "relation": "lower-priced heated rod, same approach as the Golden Rod"
+    },
+    {
+      "name": "Lockdown Silica Gel Canister",
+      "type": "product",
+      "relation": "no-power rechargeable desiccant for small safes"
+    },
+    {
+      "name": "Lockdown",
+      "type": "brand",
+      "relation": "maker of all three picks"
+    },
+    {
+      "name": "heated dehumidifier rod",
+      "type": "device type",
+      "relation": "low-wattage element that warms the air so it stays above the dew point; does not collect water"
+    },
+    {
+      "name": "silica gel desiccant",
+      "type": "material",
+      "relation": "absorbs moisture, saturates, recharges in an oven or on a heater base"
+    },
+    {
+      "name": "rechargeable desiccant canister",
+      "type": "device type",
+      "relation": "cordless option for safes with no outlet"
+    },
+    {
+      "name": "dew point",
+      "type": "concept",
+      "relation": "why a warmed safe does not sweat"
+    },
+    {
+      "name": "relative humidity",
+      "type": "concept",
+      "relation": "target around 40-50 percent, measured with a hygrometer"
+    },
+    {
+      "name": "hygrometer",
+      "type": "accessory",
+      "relation": "tells whether the dehumidifier is working"
+    },
+    {
+      "name": "cubic feet of safe volume",
+      "type": "attribute",
+      "relation": "sizing basis (12 in rod = about 100 cu ft per maker)"
+    },
+    {
+      "name": "cord pass-through",
+      "type": "feature",
+      "relation": "small hole or channel that lets a rod plug in from inside a closed safe"
+    },
+    {
+      "name": "garage and basement gun safe",
+      "type": "use case",
+      "relation": "highest-risk placement for condensation and rust"
+    },
+    {
+      "name": "fireproof safe door seal",
+      "type": "component",
+      "relation": "intumescent seal and fire board hold moisture"
+    },
+    {
+      "name": "gun socks and foam barrel rests",
+      "type": "accessory",
+      "relation": "hold moisture against steel"
+    },
+    {
+      "name": "surface rust",
+      "type": "problem",
+      "relation": "what a dehumidifier is meant to prevent"
+    }
+  ],
+  "attributes": [
+    "type (heated rod vs desiccant)",
+    "coverage in cubic feet",
+    "length in inches",
+    "needs power or cord pass-through",
+    "recharge or upkeep",
+    "surface heat",
+    "warranty and country of origin",
+    "mounting brackets or legs",
+    "price",
+    "works in a humid garage or basement"
+  ],
+  "ngrams": [
+    "gun safe dehumidifier",
+    "dehumidifier for gun safe",
+    "dehumidifier rod",
+    "cubic feet",
+    "silica gel",
+    "gun safe",
+    "heated rod",
+    "moisture control",
+    "prevent rust",
+    "relative humidity",
+    "golden rod",
+    "lifetime warranty",
+    "electric dehumidifier",
+    "rechargeable desiccant",
+    "humidity level"
+  ],
+  "skipgrams": [
+    "dehumidifier\u2026rust",
+    "safe\u2026humidity",
+    "rod\u2026warms",
+    "silica\u2026recharge",
+    "gun\u2026moisture",
+    "cubic\u2026feet",
+    "plug\u2026outlet",
+    "safe\u2026condensation",
+    "desiccant\u2026saturated",
+    "garage\u2026humid"
+  ],
+  "nlpTerms": [
+    "humidity",
+    "moisture",
+    "rust",
+    "mildew",
+    "corrosion",
+    "desiccant",
+    "silica gel",
+    "heated rod",
+    "condensation",
+    "dew point",
+    "hygrometer",
+    "cubic feet",
+    "wattage",
+    "outlet",
+    "cord",
+    "recharge",
+    "oven",
+    "relative humidity",
+    "firearms",
+    "barrel",
+    "unconditioned garage",
+    "basement",
+    "climate",
+    "warranty",
+    "bracket"
+  ],
+  "questions": [
+    "What is the best dehumidifier for a gun safe?",
+    "Do I need a dehumidifier in a gun safe?",
+    "Does a dehumidifier rod really remove moisture?",
+    "How big a rod do I need for my safe (cubic feet)?",
+    "Can I leave a Golden Rod plugged in 24/7?",
+    "Is silica gel enough for a gun safe?",
+    "What humidity should a gun safe be kept at?",
+    "Will a rod damage guns or stocks?",
+    "How do I run the cord out of a closed safe?",
+    "Rod or canister, which is better for a gun safe in a garage?",
+    "How often do I recharge a silica canister?"
+  ],
+  "contentGaps": [
+    "Explaining that rods warm the air rather than pulling water out, and which situations need a desiccant as well (humid unconditioned garage, per owner reports)",
+    "Sizing by safe volume (maker: 12 in = 100 cu ft) and what to do with a small safe so the rod does not overheat contents; keep polymer and ammo off the hot rod",
+    "Cord pass-through: how owners run a plug into a closed safe without compromising the door seal or fire rating",
+    "Cold-wall and slab condensation fixes beyond buying a device (lift off the slab, move off exterior wall, hygrometer)",
+    "Why gun socks, foam and saturated silica packs make rust worse",
+    "Fire-rated safes: seals and fire board hold moisture, so humidity control matters more, with no claim about rating impact",
+    "Realistic lifespan and failure reports (owners report 10 to 20 years on rods; electronic units dying within 1-2 years)",
+    "Hygrometer target and how to tell the device is working",
+    "Honest limits: no device replaces oil on steel in a humid climate; 3 picks only, products recommended by 2+ top pages"
+  ],
+  "outline": [
+    {
+      "h2": "Best dehumidifier for gun safe: quick answer and top picks",
+      "intent": "direct answer and quick picks",
+      "h3": [
+        "Our top 3 at a glance (comparison table)"
+      ]
+    },
+    {
+      "h2": "How we chose these gun safe dehumidifiers",
+      "intent": "trust and method (picks recommended by at least two top-10 pages plus owner reports)",
+      "h3": []
+    },
+    {
+      "h2": "Lockdown Golden Rod, Lockdown Dehumidifier Rod and Lockdown Silica Gel Canister reviewed",
+      "intent": "product reviews, one H3 per exact product with pros/cons",
+      "h3": [
+        "Lockdown Golden Rod Dehumidifier: best overall rod",
+        "Lockdown 12' Dehumidifier Rod: best budget rod",
+        "Lockdown Silica Gel Canister: best no-power option"
+      ]
+    },
+    {
+      "h2": "Rod or desiccant: which type fits your gun safe",
+      "intent": "how each type works and which to pick",
+      "h3": [
+        "What a heated rod does and does not do",
+        "When silica or a rechargeable canister is the better call"
+      ]
+    },
+    {
+      "h2": "How to size a dehumidifier to your safe",
+      "intent": "buying guide: cubic feet, length, power route, placement",
+      "h3": [
+        "Match rod length to cubic feet",
+        "Running the cord out of a closed safe",
+        "Where to place it and what to keep off it"
+      ]
+    },
+    {
+      "h2": "Problems owners run into, and the fix",
+      "intent": "pain points: rust despite a dehumidifier, cold-wall condensation, failures, desiccant saturating",
+      "h3": [
+        "Rust even with a dehumidifier running",
+        "Cold walls, slabs and garage condensation (see our gun safe in garage guide)",
+        "Units that fail, freeze or only heat",
+        "Silica that turns color within weeks"
+      ]
+    },
+    {
+      "h2": "Keeping humidity in check long term",
+      "intent": "use and maintenance: hygrometer, recharge schedule, oil, ventilation",
+      "h3": [
+        "Hygrometer target and checks",
+        "Recharging desiccant"
+      ]
+    },
+    {
+      "h2": "Verdict: which one should you buy",
+      "intent": "decisive recommendation by situation",
+      "h3": []
+    }
+  ],
+  "targetWords": 2000,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://gununiversity.com/best-gun-safe-dehumidifiers/",
+      "https://www.americanfirearms.org/gun-safe-dehumidifiers/",
+      "https://deansafe.com/collections/dehumidifiers",
+      "https://libertysafe.com/collections/dehumidifiers",
+      "https://www.sigtalk.com/threads/dehumidifier-for-gun-safe-worth-it.453753/",
+      "https://www.texasguntalk.com/threads/best-dehumidifier-for-gun-safe.129338/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "The two real roundups (Gun University, American Firearms) give each product a short review with pros and cons lists; the rest of the SERP is store collections and forums. Gun University: ~2,300 words, 7 products (read in full); American Firearms: short, 4 products (excerpt).",
+    "avgWords": 1800,
+    "avgProducts": 5,
+    "commonSections": [
+      "how they work (desiccant vs electric)",
+      "how we tested/chose",
+      "quick picks table",
+      "product reviews with pros and cons",
+      "FAQ",
+      "conclusion"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://gununiversity.com/best-gun-safe-dehumidifiers/",
+      "title": "7 Best Gun Safe Dehumidifiers of 2026 [UPDATED!] - Gun University"
+    },
+    {
+      "position": 2,
+      "url": "https://deansafe.com/collections/dehumidifiers",
+      "title": "Dehumidifiers - Dean Safe"
+    },
+    {
+      "position": 3,
+      "url": "https://www.reddit.com/r/CompetitionShooting/comments/107d3wx/gun_safe_dehumidifier/",
+      "title": "Gun Safe Dehumidifier : r/CompetitionShooting - Reddit"
+    },
+    {
+      "position": 4,
+      "url": "https://www.americanfirearms.org/gun-safe-dehumidifiers/",
+      "title": "Best Gun Safe Dehumidifiers: Keep Your Firearms Rust-Free"
+    },
+    {
+      "position": 5,
+      "url": "https://www.youtube.com/watch?v=p8FJxB2FSjc",
+      "title": "5 Best Dehumidifiers for Gun Safes - Keep Your Firearms Dry! - YouTube"
+    },
+    {
+      "position": 6,
+      "url": "https://www.sigtalk.com/threads/dehumidifier-for-gun-safe-worth-it.453753/",
+      "title": "Dehumidifier for Gun Safe Worth it? - SIG Talk"
+    },
+    {
+      "position": 7,
+      "url": "https://libertysafe.com/collections/dehumidifiers",
+      "title": "Gun Safe Dehumidifiers | Moisture Absorbers for Safes - Liberty Safe"
+    },
+    {
+      "position": 8,
+      "url": "https://www.justanswer.com/general/s4tpo-cannon-gun-safes-55x-35-i-m-starting-rust.html",
+      "title": "Best Dehumidifiers for Cannon Gun Safes to Prevent Rust - JustAnswer"
+    },
+    {
+      "position": 9,
+      "url": "https://libertygunsafeshenderson.com/collections/accessory-moisture-control",
+      "title": "Best Gun Safe Dehumidifiers And Humidity Control For Sale"
+    },
+    {
+      "position": 10,
+      "url": "https://www.texasguntalk.com/threads/best-dehumidifier-for-gun-safe.129338/",
+      "title": "Best dehumidifier for gun safe? | Texas Gun Talk"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 1,
+    "withNumber": 2,
+    "commonModifiers": [
+      "gun safe",
+      "best",
+      "dehumidifiers (plural)",
+      "keep firearms rust-free/dry"
+    ],
+    "gap": "None says which type fits a garage or basement safe or how to size by cubic feet; promise a rod vs desiccant pick by safe size and humidity, without claiming testing"
+  },
+  "painPoints": [
+    {
+      "id": "gun-safes-rust-despite-dehumidifier",
+      "pain": "Guns rust inside the safe even with silica packs and a dehumidifier",
+      "details": "Owners in humid regions or unconditioned rooms find rust specks on barrels and mags within weeks. Silica saturates fast, felt barrel rests and gun socks hold moisture, and people are unsure what humidity level to hold.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+      ],
+      "quotes": [
+        {
+          "text": "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        },
+        {
+          "text": "Ditch the gel and dri packs, they just hold moisture.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "it's just surface rust. Should just wipe off.",
+          "url": "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-cold-wall-condensation",
+      "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp or moldy",
+      "details": "Humidity inside the safe stays high even with a room dehumidifier because the steel is colder than the room air. Owners are told to warm the safe, add a dryer rod or bulb, insulate the back or lift the safe off the slab.",
+      "sources": [
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+      ],
+      "quotes": [
+        {
+          "text": "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "I do not want to set it directly on the concrete as the concrete sweats and will cause rust.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+        },
+        {
+          "text": "You can only get moisture condensing on the guns when the guns are colder than the air, not the other way around.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-dehumidifier-fails-or-freezes",
+      "pain": "In-safe and room dehumidifiers die, freeze up or turn out to be only heaters",
+      "details": "Owners spend about $200 on a safe dehumidifier that errors out within a year or two, or run a room unit whose coils freeze in cool garages. Many \"dehumidifiers\" for safes are really low-power heaters, which confuses buyers.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+      ],
+      "quotes": [
+        {
+          "text": "the dehumidifier I had been using crapped out earlier in the year.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        },
+        {
+          "text": "my more powerful de-humidifier would freeze up, even though it had a defrost feature.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+        },
+        {
+          "text": "the majority of the in-safe electronic dehumidifiers are just electric heaters with the aim being to prevent condensation.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-desiccant-saturates-fast",
+      "pain": "Silica packs saturate within weeks and the owner is unsure how to keep them working",
+      "details": "Owners recharge silica again and again, or read that desiccant in a leaky fire safe only pulls moisture from the walls. Rechargeable canisters and dryer rods are the usual answers.",
+      "sources": [
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+      ],
+      "quotes": [
+        {
+          "text": "Dessicant is not going to help unless the area it is protecting is air-tight.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "dessicants will need frequent recharging",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "But they turn from Orange to blue within a week or two everytime.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    }
+  ],
+  "internalLinks": [
+    "gun-safe-in-garage",
+    "gun-safe-dehumidifier-rod"
+  ],
+  "distinctness": "Roundup of 3 picks and buying guidance. The how-to 'gun safe dehumidifier rod' (do you need one, how long can it run) stays separate; link to it rather than repeating the rod explainer. Link /blog/gun-safe-in-garage/ in the garage/condensation H3 (queue status was pending when the brief was written)."
+}
