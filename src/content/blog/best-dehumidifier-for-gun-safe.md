@@ -1,6 +1,6 @@
 ---
-title: Best Dehumidifier for Gun Safe (2026) – 3 Picks Sized by Cubic Feet
-seoTitle: Best Dehumidifier for Gun Safe (2026) – Sizing for Garages
+title: Best Dehumidifier for Gun Safe – 3 Picks Sized by Cubic Feet
+seoTitle: Best Dehumidifier for Gun Safe
 description: >-
   The best dehumidifier for gun safe owners: 3 Lockdown picks (two heated rods,
   one silica can) sized by cubic feet, with garage condensation fixes.

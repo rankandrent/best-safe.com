@@ -55,6 +55,8 @@ export function titleRules(d) {
     if (d[k].includes(':')) problems.push(`${k} contains a colon; use " – " or parentheses instead`);
     if (d.keyword && !normTitle(d[k]).includes(normTitle(d.keyword))) problems.push(`${k} doesn't contain the exact keyword "${d.keyword}"`);
   }
+  // Owner rule (best-safe.com): the meta title is the keyword and nothing else.
+  if (d.seoTitle && d.keyword && normTitle(d.seoTitle) !== normTitle(d.keyword)) problems.push(`seoTitle must be exactly the keyword "${d.keyword}" (title case), nothing else`);
   return problems;
 }
 
@@ -100,8 +102,6 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
 
   // --- Content and required fields
   if (!d.title) err('missing title');
-  // Click-worthy titles: new posts carry a year or a number (picks, tips, steps) and fit in the SERP.
-  if (pub >= Date.parse(SITE.qa?.voiceRequiredFrom ?? '2100-01-01') && !/\b(20\d\d|\d+)\b/.test(d.seoTitle ?? d.title ?? '')) err('seoTitle needs a year or a number (e.g. "(2026)", "7 Picks", "12 Tips") to earn the click');
   if ((d.seoTitle ?? d.title ?? '').length > 65) err(`seoTitle is ${(d.seoTitle ?? d.title).length} characters (max 65)`);
   const desc = (d.description ?? '').trim();
   if (desc.length < 110 || desc.length > 170) err(`description is ${desc.length} characters (aim for 140-160)`);
@@ -399,7 +399,6 @@ export async function qaTranslation(post, { posts = listPosts(), translations = 
 
   // --- Content and required fields (same limits as English)
   if (!d.title) err('missing title');
-  if (!/\b(20\d\d|\d+)\b/.test(d.seoTitle ?? d.title ?? '')) err('seoTitle needs a year or a number (e.g. "(2026)", "7 ...") to earn the click');
   if ((d.seoTitle ?? d.title ?? '').length > 65) err(`seoTitle is ${(d.seoTitle ?? d.title).length} characters (max 65)`);
   const desc = (d.description ?? '').trim();
   if (desc.length < 110 || desc.length > 170) err(`description is ${desc.length} characters (aim for 140-160)`);

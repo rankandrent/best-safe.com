@@ -1,6 +1,6 @@
 ---
-title: Best Biometric Gun Safe 2026 – 6 Fingerprint Picks and a Recall Check
-seoTitle: Best Biometric Gun Safe (2026) – 6 Picks and a Recall Check
+title: Best Biometric Gun Safe – 6 Fingerprint Picks and a Recall Check
+seoTitle: Best Biometric Gun Safe
 description: >-
   The best biometric gun safe for your nightstand, car or rifles: 6 fingerprint
   safes compared on reader reliability, backup entry, power and owner

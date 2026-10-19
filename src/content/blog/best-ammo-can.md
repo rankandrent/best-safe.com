@@ -1,6 +1,6 @@
 ---
-title: 'Best Ammo Can (2026) – 3 Picks for Bulk, Budget and Steel Storage'
-seoTitle: Best Ammo Can (2026) – 3 Picks for Dry Garage Storage
+title: 'Best Ammo Can – 3 Picks for Bulk, Budget and Steel Storage'
+seoTitle: Best Ammo Can
 description: >-
   The best ammo can for your setup: 3 picks (an MTM bulk crate, a Plano budget
   box, a Solid Tactical steel can) plus seal, size and garage moisture fixes.

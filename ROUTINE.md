@@ -5,8 +5,8 @@ the four agents in `agents/` itself (no Anthropic API key needed), then pushes,
 which triggers the Cloudflare deploy and the Amazon image refresh.
 
 **Clicks and long visits (Google's click-validated quality):** titles must earn the click and the page must keep
-the visit. seoTitle (max 60 characters) = exact keyword + year and/or a number + a buyer benefit ("UL Fire-Rated",
-"Fast Biometric Access", "Bolt-Down Ready"); the description
+the visit. seoTitle = the exact keyword in title case and nothing else (owner rule, 2026-10-19: no year, number, benefit or
+site name; the page `<title>` is exactly that). The H1 `title` starts with the keyword; a year is not required; the description
 answers the query; the first screen delivers the promise (short answer, top picks). Never buy links or ask for paid
 links: links that searchers don't confirm with clicks are discounted, and spam-prone queries lean on clicks.
 
@@ -211,7 +211,7 @@ The product count stays the random `productCount`.
 
 ## 6. Write the post
 
-**Titles come from the SERP (owner rule):** before writing any title, search the keyword (Firecrawl search, US) and record the top-10 titles in the brief as `serpTitles` plus `titlePattern` (how many start with the keyword, carry a year or a number, the shared modifiers, and one angle none of them offer). Build the seoTitle from that pattern: exact keyword first, the elements most top results share, plus that one differentiator; never copy a top title or borrow a claim we can't make ("Tested"). Meta titles are Google's main on-page relevance signal and the biggest lever on click-through, and Google rewrites titles that don't match the page, so keep the H1 (`title`) consistent with the seoTitle.
+**Titles come from the SERP (owner rule):** before writing any title, search the keyword (Firecrawl search, US) and record the top-10 titles in the brief as `serpTitles` plus `titlePattern` (how many start with the keyword, carry a year or a number, the shared modifiers, and one angle none of them offer). The seoTitle is always just the keyword (see above). Build the H1 `title` from that pattern: exact keyword first, plus at most one differentiator (no year needed); never copy a top title or borrow a claim we can't make ("Tested"). Meta titles are Google's main on-page relevance signal and the biggest lever on click-through, and Google rewrites titles that don't match the page, so keep the H1 (`title`) consistent with the seoTitle.
 
 **Title rule (owner, permanent, every site and language):** `title` and `seoTitle` never contain a colon (":"); use " – " or parentheses instead. Both must contain the post's exact `keyword` as one unbroken phrase (no plural, no inserted words; case and punctuation don't matter). `routine.mjs qa` fails any post or translation that breaks this, and `npm test` checks every post.
 Follow **every** rule in `WRITE_SYSTEM` in `agents/writer-agent.mjs` (semantic SEO,

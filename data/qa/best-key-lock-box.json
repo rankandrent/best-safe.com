@@ -1,13 +1,12 @@
 {
   "slug": "best-key-lock-box",
   "pass": true,
-  "checkedAt": "2026-10-19T14:20:14.257Z",
+  "checkedAt": "2026-10-19T15:21:18.728Z",
   "errors": [],
   "warnings": [
     "product \"Kidde AccessPoint 001166 KeySafe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Master Lock 5400D Portable Lock Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"igloohome Smart Keybox 3\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (403): https://www.nytimes.com/wirecutter/reviews/best-lock-box/"
+    "product \"igloohome Smart Keybox 3\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,

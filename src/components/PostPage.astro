@@ -141,7 +141,7 @@ if (d.products.length) {
   });
 }
 ---
-<Base lang={lang} alternates={alternates} translations={translations} title={d.seoTitle ?? d.title} description={d.description} image={hero} imageAlt={d.heroAlt ?? d.title} keywords={[d.keyword, ...d.secondaryKeywords]} section={catName} tags={d.tags} authorUrl={absUrl(authorUrl)} type="article" jsonLd={jsonLd} publishedTime={d.pubDate.toISOString()} modifiedTime={modified.toISOString()}>
+<Base lang={lang} alternates={alternates} translations={translations} title={d.seoTitle ?? d.title} exactTitle={!!d.seoTitle} description={d.description} image={hero} imageAlt={d.heroAlt ?? d.title} keywords={[d.keyword, ...d.secondaryKeywords]} section={catName} tags={d.tags} authorUrl={absUrl(authorUrl)} type="article" jsonLd={jsonLd} publishedTime={d.pubDate.toISOString()} modifiedTime={modified.toISOString()}>
   <div class="wrap">
     <header class="article-head">
       <nav class="crumbs" aria-label={t(lang, 'post.breadcrumb')}>

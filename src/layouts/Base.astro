@@ -33,14 +33,15 @@ interface Props {
   /** Published language versions of this page (lang -> path) for the header's language switcher. */
   translations?: Partial<Record<string, string>>;
 }
-const { title, description, type = 'website', jsonLd = [], noindex = false, publishedTime, modifiedTime, image, imageAlt, keywords = [], section, tags = [], authorUrl, alternates = [], translations } = Astro.props;
+const { title, description, type = 'website', jsonLd = [], noindex = false, publishedTime, modifiedTime, image, imageAlt, keywords = [], section, tags = [], authorUrl, alternates = [], translations, exactTitle = false } = Astro.props;
 const lang = normLang(Astro.props.lang);
 const locale = LOCALES[lang];
 // A handful of the page's real target phrases (no stuffing).
 const keywordList = [...new Set(keywords.map((k) => k.trim().toLowerCase()).filter(Boolean))].slice(0, 6).join(', ');
 const ogAlt = imageAlt ?? title;
 const canonical = absUrl(Astro.url.pathname);
-const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+// Owner rule: a post's meta title is its keyword alone, without the site name.
+const fullTitle = exactTitle || title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 const ogImage = absUrl(image ?? '/images/og/home.png');
 const graph = [{ '@context': 'https://schema.org', ...organizationSchema() }, { '@context': 'https://schema.org', ...websiteSchema() }, ...jsonLd];
 ---

@@ -88,7 +88,7 @@ LAYOUT-AWARE RULES (how search systems read a page as blocks: headers, paragraph
 - Mix block types: at least one bulleted or numbered list, and for roundups/comparisons at least one comparison table.
 - Every table is introduced by a sentence directly above it that says what the table compares; every list follows a lead-in sentence.
 - For roundups, give each product its own "### <exact product name>: <role>" heading using the exact product name from the research (the site places the product photo under that heading), followed by text that describes that product only.
-- Titles earn the click: seoTitle (max 60 characters) leads with the exact keyword and adds the year and/or a number ("(2026)", "9 Picks", "12 Tips") plus a buyer benefit ("UL Fire-Rated Picks", "Fast Biometric Access", "Bolt-Down Ready"). The description (140-160 characters) answers the query and says what the reader gets. The page must deliver exactly what the title promises in the first screen (short answer and top picks), so searchers stay instead of bouncing back. Never put a colon (":") in title or seoTitle (use " – " or parentheses), and both must contain the exact keyword as one unbroken phrase (no plural, no inserted words). Build the seoTitle from the brief's serpTitles/titlePattern: the exact keyword first, then the elements most top-10 titles share (year, number of picks, the audience modifier) so it matches what Google rewards for this query, plus the brief's gap as the one differentiator; never copy a top-10 title, and never borrow a claim we can't make (e.g. "Tested", "Hands-On").
+- Titles (owner rule): seoTitle is the exact keyword in title case and nothing else (no year, number, benefit or site name). The H1 title starts with the exact keyword; a year is not required, add a number or buyer benefit only when it helps ("3 Picks for Spare Keys"). The description (140-160 characters) answers the query and says what the reader gets. The page must deliver exactly what the title promises in the first screen (short answer and top picks), so searchers stay instead of bouncing back. Never put a colon (":") in title or seoTitle (use " – " or parentheses), and both must contain the exact keyword as one unbroken phrase (no plural, no inserted words). Build the seoTitle from the brief's serpTitles/titlePattern: the exact keyword first, then the elements most top-10 titles share (year, number of picks, the audience modifier) so it matches what Google rewards for this query, plus the brief's gap as the one differentiator; never copy a top-10 title, and never borrow a claim we can't make (e.g. "Tested", "Hands-On").
 - Match the brief's serpStructure.productStyle and set productStyle in the frontmatter to the same value: "pros-cons" = the site shows What we like / What we don't like lists, so the text adds context; "paragraph" = no lists are shown, so write a full review paragraph (120-200 words) per product that covers its strengths and drawbacks in prose; "specs" = the site shows a spec table from each product's specs, so fill specs (4-8 verified rows) and keep the text focused on who it suits.
 - Keep each paragraph about one idea (3-4 sentences max) so blocks stay coherent.
 
@@ -135,7 +135,7 @@ Return ONLY a \`\`\`json block with: centralEntity, entityVariants[], entities[{
 
 const MetaSchema = z.object({
   title: z.string().min(20).max(70),
-  seoTitle: z.string().min(20).max(65),
+  seoTitle: z.string().min(3).max(65),
   description: z.string().min(120).max(165),
   tldr: z.array(z.string()).min(2).max(5),
   faqs: z.array(z.object({ q: z.string(), a: z.string() })).min(3).max(8),
@@ -157,7 +157,7 @@ export async function writeDraft({ item, brief, products, linkTargets, year }) {
 TARGET KEYWORD: ${item.keyword}
 ARTICLE TYPE: ${item.articleType} · FUNNEL STAGE: ${item.funnel ?? 'derive from intent'} · WORKING TITLE: ${item.workingTitle}
 SECONDARY KEYWORDS: ${item.secondaryKeywords.join(', ')}
-CURRENT YEAR: ${year} (use it in the title only if it is a "best"/roundup article)
+CURRENT YEAR: ${year} (do not put it in the seoTitle; the H1 title does not need it)
 
 SEMANTIC BRIEF:
 ${JSON.stringify(brief, null, 1)}
@@ -170,7 +170,7 @@ ${linkTargets.map((t) => `- /blog/${t.slug}/ : ${t.title} (keyword: ${t.keyword}
 
 LENGTH: about ${brief.targetWords} words in the body.
 
-METADATA JSON fields: title (≤70 chars, contains the exact keyword as one phrase, no colon), seoTitle (≤60 chars, exact keyword near the start, no colon), description (140-160 chars, keyword + benefit + the buyer it is for), tldr (2-4 one-line takeaways that directly answer the query), faqs (4-6 PAA-style Q&As, answers 2-3 sentences, entity-rich, no links), tags (3-6), entities (the 8-12 most important entities incl. the central entity).`;
+METADATA JSON fields: title (≤70 chars, contains the exact keyword as one phrase, no colon), seoTitle (exactly the keyword in title case, nothing else), description (140-160 chars, keyword + benefit + the buyer it is for), tldr (2-4 one-line takeaways that directly answer the query), faqs (4-6 PAA-style Q&As, answers 2-3 sentences, entity-rich, no links), tags (3-6), entities (the 8-12 most important entities incl. the central entity).`;
 
   let lastErr;
   for (let attempt = 0; attempt < 2; attempt++) {
