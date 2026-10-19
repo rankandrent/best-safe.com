@@ -26,7 +26,10 @@ export const BriefSchema = z.object({
   questions: z.array(z.string()).max(12),
   contentGaps: z.array(z.string()).max(10),
   outline: z.array(z.object({ h2: z.string(), intent: z.string(), h3: z.array(z.string()).max(8) })).min(4).max(14),
-  targetWords: z.number().min(900).max(4500),
+  // What every top result already says (covered briefly) and what this post adds (covered in depth).
+  commonPoints: z.array(z.string()).max(12).optional(),
+  ourGain: z.array(z.object({ point: z.string(), source: z.string() })).max(8).optional(),
+  targetWords: z.number().min(600).max(4500),
   // How the current top results present the topic; the post mirrors it, then adds the gaps.
   serpStructure: z
     .object({
@@ -66,9 +69,10 @@ Method:
 7. nlpTerms: single words and short terms an NLP model expects in a complete document on this topic.
 8. contentGaps: things top pages miss that a SAFE BUYER needs: who actually certified a fire rating (UL or Intertek/ETL vs an in-house claim) and what temperature and duration it covers, real steel gauge and how pry-resistant the door is, the backup entry when batteries or biometrics fail, how fast the safe opens in the dark, whether it bolts down and how, interior dimensions against what the reader stores (a full-size pistol, letter-size folders, long guns with optics), and the legal storage context (point to official state and local rules, never give legal advice).
 9. outline: H2s that each satisfy a distinct sub-intent, ordered by search-journey logic; H3s beneath.
-10. targetWords: 10-20% more than the average top result, capped by usefulness (roundups 2000-3500, how-tos 1300-2200).
+10. targetWords: about the average word count of the top results (serpStructure.avgWords), never more than 10% above it; shorter is fine when the query is fully answered. Length never wins on its own: no padding.
 11. serpStructure: open the top 5-10 organic results and record how they are built: the URLs you read; productStyle = how most of them present each product ("pros-cons" = a pros and cons list per product, "paragraph" = a written review paragraph per product, "specs" = a spec table per product) with a one-line reason; their average word count and number of products; the sections most of them share (e.g. "how we chose", "buying guide", "FAQ"); and whether most use a comparison table, an FAQ and a buying guide. The outline must cover those common sections in a similar order, then add the content gaps.
-12. serpTitles + titlePattern: record the live top-10 organic titles for the keyword exactly as Google shows them ({position, url, title}). Then count how many start with the keyword (keywordAtStart), carry a year (withYear) or a number of picks/tips (withNumber), list the modifiers several of them share (commonModifiers, e.g. "for renters", "no drill", "under $50", "tested"), and name one useful angle none of them promise (gap). The seoTitle is built from this.`;
+12. serpTitles + titlePattern: record the live top-10 organic titles for the keyword exactly as Google shows them ({position, url, title}). Then count how many start with the keyword (keywordAtStart), carry a year (withYear) or a number of picks/tips (withNumber), list the modifiers several of them share (commonModifiers, e.g. "for renters", "no drill", "under $50", "tested"), and name one useful angle none of them promise (gap). The seoTitle is built from this.
+13. commonPoints + ourGain (information gain): list the 3-8 points that nearly every top result already makes (commonPoints; the post covers these briefly). Then list 3-5 things this post adds that the top results lack (ourGain: {point, source}), each backed by a real source: an owner pain point or quote, a situation-specific angle, a comparison nobody made, a spec that matters but is buried. Never invent a gain; source = the URL or data file it comes from.`;
 
 const WRITE_SYSTEM = `You are the senior writer for ${SITE.domain}. Voice: a knowledgeable friend who has spent years reading safe spec sheets, fire-test standards and owner reports, and who cares about safe, legal storage. Practical, specific, confident, never fluffy. US English.
 
@@ -80,6 +84,7 @@ SEMANTIC SEO RULES (follow all):
 - Use the brief's n-grams and skip-grams naturally (never stuffed; vary word order only where grammar requires). Weave in the nlpTerms.
 - Each H2 answers one sub-intent. Start each H2 section with a direct 1-2 sentence answer (featured-snippet style), then expand.
 - Information gain: include safe-buyer details others miss: who certified the fire rating (UL or Intertek/ETL vs an unverified in-house claim) and what it covers (temperature, duration, paper vs digital media), steel gauge and door construction, bolt count and pry points, the backup entry when the battery or fingerprint reader fails, access speed in the dark, interior dimensions against what the reader stores, and how it bolts down.
+- Concise and new (owner rule): give the reader exactly what they need, no more. The first 2-3 sentences of the body answer the query directly (the top pick and why, or the fix). Cover each brief.commonPoints item in a sentence or two; spend the depth on each brief.ourGain item (all of them must appear, with their source). No filler: no definitions of basic terms, no history, no "in this article we will", no "without further ado", no generic conclusion that repeats the intro, and never say the same thing twice in different words. End the last section with 1-2 contextual links to the post that answers the reader's likely next question.
 - Use a short comparison table where it helps. Use numbered steps for processes.
 
 LAYOUT-AWARE RULES (how search systems read a page as blocks: headers, paragraphs, lists, tables, images, and how neighbouring blocks relate):
@@ -129,7 +134,7 @@ Article type: ${item.articleType} · Intent: ${item.intent}
 Secondary keywords: ${item.secondaryKeywords.join(', ')}
 Seed questions: ${item.questions.join(' | ')}
 
-Return ONLY a \`\`\`json block with: centralEntity, entityVariants[], entities[{name,type,relation}], attributes[], ngrams[], skipgrams[], nlpTerms[], questions[], contentGaps[], outline[{h2,intent,h3[]}], targetWords (number), serpStructure{analyzedUrls[], productStyle, productStyleReason, avgWords, avgProducts, commonSections[], usesComparisonTable, usesFaq, usesBuyingGuide}, serpTitles[{position,url,title}], titlePattern{keywordAtStart, withYear, withNumber, commonModifiers[], gap}.`,
+Return ONLY a \`\`\`json block with: centralEntity, entityVariants[], entities[{name,type,relation}], attributes[], ngrams[], skipgrams[], nlpTerms[], questions[], contentGaps[], outline[{h2,intent,h3[]}], targetWords (number), serpStructure{analyzedUrls[], productStyle, productStyleReason, avgWords, avgProducts, commonSections[], usesComparisonTable, usesFaq, usesBuyingGuide}, serpTitles[{position,url,title}], titlePattern{keywordAtStart, withYear, withNumber, commonModifiers[], gap}, commonPoints[], ourGain[{point,source}].`,
   });
 }
 
@@ -168,7 +173,7 @@ ${JSON.stringify(products.map(({ sources, ...p }) => p), null, 1)}
 INTERNAL LINK CANDIDATES (pick 3-5 that genuinely fit):
 ${linkTargets.map((t) => `- /blog/${t.slug}/ : ${t.title} (keyword: ${t.keyword})`).join('\n') || '(none yet: skip internal links)'}
 
-LENGTH: about ${brief.targetWords} words in the body.
+LENGTH: about ${brief.targetWords} words in the body, at most 10% more. Shorter is fine once every point is covered; never pad.
 
 METADATA JSON fields: title (≤70 chars, contains the exact keyword as one phrase, no colon), seoTitle (exactly the keyword in title case, nothing else), description (140-160 chars, keyword + benefit + the buyer it is for), tldr (2-4 one-line takeaways that directly answer the query), faqs (4-6 PAA-style Q&As, answers 2-3 sentences, entity-rich, no links), tags (3-6), entities (the 8-12 most important entities incl. the central entity).`;
 

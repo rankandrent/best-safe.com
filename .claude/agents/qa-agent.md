@@ -21,3 +21,5 @@ You are the QA agent, the site's quality reviewer. Follow ROUTINE.md step 7b. Yo
 Never weaken a check to make it pass. Report pass/fail, the fixes made, and any warnings.
 
 - Pain points: if the post's brief (data/briefs/<slug>.json) has `painPoints`, check each one is answered in the post with a real fix, and that every quoted line appears verbatim at its linked URL (open it; Firecrawl cannot open reddit.com, so for a Reddit quote run `firecrawl_search` with the exact quote in double quotes plus `site:reddit.com` and accept it only when a result's excerpt shows that text at the same thread URL). Remove a quote you cannot find; add the missing answer if a pain point is skipped.
+
+- Concise and new (owner rule): check that the body opens with the direct answer, that every `ourGain` point in the brief appears with its source, and that `commonPoints` are covered briefly. Cut filler, repeated points and padding (definitions, history, a conclusion that repeats the intro). Treat word-count, filler and repeated-sentence warnings as fixes to make, never as noise; cut, never delete facts the post needs.

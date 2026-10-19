@@ -232,6 +232,7 @@
     "voiceRequiredFrom": "2026-10-18T00:00:00Z",
     "ownersRequiredFrom": "2026-10-18T00:00:00Z",
     "styleRequiredFrom": "2026-10-18T00:00:00Z",
-    "serpTitlesRequiredFrom": "2026-10-19T00:00:00Z"
+    "serpTitlesRequiredFrom": "2026-10-19T00:00:00Z",
+    "conciseRequiredFrom": "2026-10-20T06:00:00Z"
   }
 }

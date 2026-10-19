@@ -33,6 +33,25 @@ const overlap = (a, b) => {
 /** Link text like "SentrySafe SFW123GDC" matches the query "SentrySafe SFW123GDC Fireproof Waterproof Safe". */
 const linkMatches = (q, p) => Math.max(overlap(q, p.query), overlap(p.query, q), overlap(q, p.name), overlap(p.name, q)) >= 0.5;
 
+// Filler that adds words but no information (owner rule: concise, to-the-point posts).
+const FILLER = /\b(in this (article|guide|post|review),? (we|you)('ll| will)|without further ado|let's (dive|jump) (in|into)|in today's (world|fast-paced)|it goes without saying|at the end of the day|look no further|in conclusion|whether you're a (beginner|seasoned)|when it comes to choosing the (best|right))\b/i;
+const STOP = new Set('the and for with that this from your you are was were have has its it\'s but not can will into than then they them their there what when which while also more most some such only just very each other about over under after before these those our out'.split(' '));
+/** First pair of prose sentences (10+ words) that say almost the same thing, or null. */
+export function repeatedSentence(md) {
+  const prose = String(md).split('\n').filter((l) => l.trim() && !/^\s*(\||#|>|!\[|<)/.test(l)).join(' ').replace(/\]\([^)]*\)/g, ']');
+  const sents = prose.split(/(?<=[.!?])\s+/).map((t) => {
+    const w = new Set(t.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter((x) => x.length > 2 && !STOP.has(x)));
+    return { t, w };
+  }).filter((x) => x.t.split(/\s+/).length >= 10 && x.w.size >= 6);
+  for (let i = 0; i < sents.length; i++)
+    for (let j = i + 1; j < sents.length; j++) {
+      const A = sents[i].w, B = sents[j].w;
+      const inter = [...A].filter((x) => B.has(x)).length;
+      if (inter / (A.size + B.size - inter) >= 0.7) return sents[j].t;
+    }
+  return null;
+}
+
 const BANNED = [
   // A budget band from the keyword ("under $1,000") is not a product price.
   [/(?<!\b(?:under|below|less than)\s)\$\s?\d/i, 'mentions a price (prices change; never state them)'],
@@ -163,6 +182,24 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
       if (d.productStyle === 'paragraph' && sec && sec.split(/\s+/).length < 110) err(`paragraph style: the review of "${p.name}" is under ~100 words`);
       if (d.productStyle === 'specs' && Object.keys(p.specs ?? {}).length < 4) err(`specs style: "${p.name}" needs at least 4 spec rows`);
     }
+  }
+
+  // --- Concise and new (owner rule): no padding past the top results, no filler, no repeats; new posts
+  // also need the brief's commonPoints/ourGain. Errors from conciseRequiredFrom, warnings for older posts.
+  {
+    const strict = pub >= Date.parse(SITE.qa?.conciseRequiredFrom ?? '2100-01-01');
+    const flag = strict ? err : warn;
+    let brief = null;
+    try { brief = JSON.parse(fs.readFileSync(path.join(BRIEFS, `${post.slug}.json`), 'utf8')); } catch {}
+    const n = wordCount(body);
+    const avg = brief?.serpStructure?.avgWords;
+    const limit = avg ? Math.round(avg * 1.15) : brief?.targetWords ? Math.round(brief.targetWords * 1.15) : d.articleType === 'roundup' ? 3000 : 2200;
+    if (n > limit) flag(`body has ${n} words, over the ${limit} limit (${avg ? `top results average ${avg}` : 'no SERP average in the brief'}): cut repetition and filler`);
+    if (strict && ((brief?.commonPoints ?? []).length < 3 || (brief?.ourGain ?? []).length < 3)) err('brief needs commonPoints (3+) and ourGain (3+): what the top results all say, and what this post adds (ROUTINE.md step 4)');
+    const filler = body.match(FILLER);
+    if (filler) flag(`filler phrase "${filler[0]}": say it directly or cut it`);
+    const twice = repeatedSentence(body);
+    if (twice) flag(`a sentence repeats an earlier one almost word for word: "${twice.slice(0, 90)}"`);
   }
 
   // --- Facts and claims

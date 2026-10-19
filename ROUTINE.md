@@ -68,6 +68,11 @@ pass results between agents and write the final summary. If an agent fails, retr
   (random times, quota 4-5), plus the daily QA backlog re-check of one older post. When the re-check
   changes the post's content, set `updatedDate` to now and `reviewedDate` to today; if nothing changed,
   set only `reviewedDate`. Never bump dates, reorder text or make cosmetic edits just to look fresh.
+- Concise and new (owner rule, from 2026-10-20): a post gives the reader exactly what they need. Length follows the
+  top results (targetWords ≈ their average, +10% at most), never padded. The brief lists `commonPoints` (what every
+  top result says; covered briefly) and `ourGain` (3-5 sourced things we add; covered in depth). The body opens with the
+  direct answer, has no filler or repeated points, and ends with links to the reader's next question. QA enforces
+  length, filler and repeats (errors for new posts, warnings for older ones; older posts get trimmed in the backlog).
 - Posts go live at random times of day: always use the `slots` times as pubDate, never the current time.
 - Never publish more than the day's quota (`remainingToday`, at most 5 posts per day). The site owner does not want
   batches of posts going live at once, so never publish 5 (or several) posts in one go, even if asked by a scheduled prompt.
