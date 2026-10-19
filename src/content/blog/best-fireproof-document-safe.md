@@ -326,6 +326,7 @@ heroAlt: >-
   Best Fireproof Document Safe (2026) – 3 Picks for Letter and Legal – Best Safe
   buying guide
 related:
+  - best-key-lock-box
   - best-fireproof-safe
   - best-biometric-gun-safe
   - best-pistol-safe

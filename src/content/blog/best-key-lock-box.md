@@ -54,7 +54,7 @@ tldr:
     and time-limited PINs that work offline, IP66 sealing and a wall-mount
     option.
   - >-
-    None of the three carries an independent burglary rating, so placement,
+    None of the three lists an independent burglary rating, so placement,
     mounting and a code you change after each helper matter as much as the box.
 products:
   - name: Kidde AccessPoint 001166 KeySafe
@@ -121,8 +121,11 @@ products:
           Must re-enter the combination to relock, and the code opens in any
           button order
       sources:
-        - title: 'Shop Kidde: AccessPoint 001166 KeySafe Original 3-Key Portable (owner reviews)'
-          url: 'https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable'
+        - title: >-
+            Shop Kidde: AccessPoint 001166 KeySafe Original 3-Key Portable
+            (owner reviews)
+          url: >-
+            https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable
           reviews: 8
   - name: Master Lock 5400D Portable Lock Box
     matchName: Master Lock Portable Key Lock Box 5400EC
@@ -150,7 +153,6 @@ products:
       - >-
         Some owners report the casing can be smashed open and that it is not
         fully weatherproof long term
-      - One owner reports the box opened with two of four digits wrong
     specs:
       Code type: Set-your-own 4-digit dial combination (Master Lock)
       Resettable code: 'Yes, owner-set 4-digit combination'
@@ -181,11 +183,12 @@ products:
       read: 8
       praise:
         - Easy to open and easy to change to a code the family remembers
-        - Sturdy metal feel and generous key space for a spare key or house sitter
+        - >-
+          Sturdy metal feel and generous key space for a spare key or house
+          sitter
       complaints:
         - Thin casing that a burglar smashed open (owner report)
         - Not waterproof long term and the vinyl coating can go tacky
-        - One owner says it opened with two of four digits wrong
       sources:
         - title: 'Master Lock: 5400D product page owner reviews'
           url: 'https://www.masterlock.com/products/product/5400D'
@@ -209,8 +212,7 @@ products:
       - >-
         One-time, duration, recurring and permanent PIN codes from an app,
         working offline
-      - >-
-        IP66 rated, zinc and aluminum alloy body with a hardened-steel shackle
+      - 'IP66 rated, zinc and aluminum alloy body with a hardened-steel shackle'
       - >-
         Roomy interior (4.3 x 3.4 x 1.1 in) with a USB-C jump-start if the
         batteries die
@@ -238,7 +240,7 @@ products:
         and car key fobs
       Dimensions: Body 4.5 x 6.5 x 2.1 in (W x H x T)
       Weight: 2.205 lb net
-      Weather: 'IP66 (water and dust resistant); operating range -4°F to 122°F'
+      Weather: IP66 (water and dust resistant); operating range -4°F to 122°F
       Build: Zinc alloy and aluminum alloy body; hardened steel and rubber shackle
       Power: '4 AAA alkaline batteries, up to 12 months; USB-C jump-start'
       Warranty: 1-year manufacturer warranty
@@ -249,8 +251,8 @@ products:
       value: 5
     scoreNote: >-
       Hardened-steel shackle, alloy body, keypad lockout and expiring PINs help
-      security but there is no independent burglary rating; access is quick
-      once set up but depends on batteries and an app, and it costs more than a
+      security but there is no independent burglary rating; access is quick once
+      set up but depends on batteries and an app, and it costs more than a
       mechanical box.
     owners:
       read: 13
@@ -260,20 +262,25 @@ products:
       complaints:
         - Higher cost for what is a key box
         - >-
-          Wi-Fi Bridge can drop offline until set to a dedicated 2.4 GHz network;
-          one owner reported batteries draining fast and got a replacement
+          Wi-Fi Bridge can drop offline until set to a dedicated 2.4 GHz
+          network; one owner reported batteries draining fast and got a
+          replacement
       sources:
         - title: 'Walmart: customer reviews for igloohome Smart Keybox 3'
           url: 'https://www.walmart.com/reviews/product/150494583'
           reviews: 8
-        - title: 'igloohome US store: Smart Keybox 3 customer reviews and technical specs'
+        - title: >-
+            igloohome US store: Smart Keybox 3 customer reviews and technical
+            specs
           url: 'https://store-us.igloohome.co/products/keybox-3'
           reviews: 165
 sources:
   - title: 'Kidde: KeySafe portable 3-key pushbutton (titanium)'
-    url: 'https://www.kidde.com/products/key-security/keysafe-portable-3-key-pushbutton-titanium'
+    url: >-
+      https://www.kidde.com/products/key-security/keysafe-portable-3-key-pushbutton-titanium
   - title: 'Shop Kidde: AccessPoint 001166 KeySafe Original 3-Key Portable'
-    url: 'https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable'
+    url: >-
+      https://shopkidde.com/kidde-accesspoint-001166-keysafe-original-3-key-portable
   - title: 'Master Lock: 5400D portable lock box'
     url: 'https://www.masterlock.com/products/product/5400D'
   - title: 'igloohome: Smart Keybox 3'
@@ -294,15 +301,15 @@ reviewedDate: '2026-10-19T00:00:00.000Z'
 faqs:
   - q: What is the best key lock box?
     a: >-
-      For a simple spare house key we pick the Kidde AccessPoint 001166
-      KeySafe, a battery-free push-button box that hangs on a doorknob and holds
-      up to 3 keys. If you hand out keys to guests or contractors, the
-      igloohome Smart Keybox 3 issues one-time and time-limited PINs from an
-      app, and the Master Lock 5400D is the classic set-your-own dial box.
+      For a simple spare house key we pick the Kidde AccessPoint 001166 KeySafe,
+      a battery-free push-button box that hangs on a doorknob and holds up to 3
+      keys. If you hand out keys to guests or contractors, the igloohome Smart
+      Keybox 3 issues one-time and time-limited PINs from an app, and the Master
+      Lock 5400D is the classic set-your-own dial box.
   - q: Are key lock boxes safe?
     a: >-
       A key lock box keeps a spare key away from casual snooping, but none of
-      our three picks carries an independent burglary rating. The box is usually
+      our three picks lists an independent burglary rating. The box is usually
       stronger than whatever holds it up, so mounting, placement out of street
       view and a code you change after each helper do most of the work.
   - q: What should I do if I forget the code on my own lock box?
@@ -311,7 +318,7 @@ faqs:
       customer support and ask what proof of ownership it needs to help you
       reset or recover the code. On a smart box like the igloohome Smart Keybox
       3, the code lives in the app, so log in there first.
-  - q: Wall-mount or shackle lock box, which is better?
+  - q: 'Wall-mount or shackle lock box, which is better?'
     a: >-
       A shackle box like the Master Lock 5400D moves with you and needs no
       drilling, which suits renters, but it can be lifted off with the knob or
@@ -321,9 +328,9 @@ faqs:
   - q: How many keys fit in a key lock box?
     a: >-
       Kidde lists the 001166 KeySafe for up to 3 standard house keys. One owner
-      fit about 5 house keys and some access cards in the Master Lock 5400D,
-      and igloohome says the Keybox 3 interior (4.3 x 3.4 x 1.1 in) takes
-      house keys, access cards and a car key fob.
+      fit about 5 house keys and some access cards in the Master Lock 5400D, and
+      igloohome says the Keybox 3 interior (4.3 x 3.4 x 1.1 in) takes house
+      keys, access cards and a car key fob.
   - q: Do smart key lock boxes need Wi-Fi?
     a: >-
       The igloohome Smart Keybox 3 does not: its PINs are generated by an
@@ -331,6 +338,10 @@ faqs:
       You only need Wi-Fi and the separate igloohome Bridge for remote,
       real-time activity logs.
 author: editorial-team
+heroImage: /images/featured/best-key-lock-box.png
+heroAlt: >-
+  Best Key Lock Box (2026) – 3 Picks for Spare Keys and Guest Codes – Best Safe
+  buying guide
 ---
 
 A sitter is due at seven, you are three states away, and the only spare key is under a flowerpot every neighbor has seen you lift. That is the moment most people go looking for the best key lock box, and it is the moment the Reddit threads we read keep coming back to. Our short answer: a battery-free push-button box like the [Kidde AccessPoint 001166 KeySafe](amzn:Kidde+AccessPoint+001166+KeySafe+3-Key+Portable+Push+Button+Key+Safe) covers a single spare key, the Master Lock 5400D is the classic dial box, and the igloohome Smart Keybox 3 is the pick when keys go to guests and contractors on a schedule. We compared all three on lock type, mounting, weather sealing and capacity, and on what owners say goes wrong.
@@ -373,7 +384,7 @@ This is the over-the-knob box many people picture when they hear realtor lockbox
 
 That cavity is the quiet advantage. One owner on Master Lock's own review page fit about five house keys plus a few access cards, which beats the Kidde for a full key ring. It is portable only; the wall-mount sibling is the 5401D.
 
-Owners praise how easy it is to change to a code the family remembers. The complaints are sharper than for the Kidde: one owner says a burglar breached the thin casing, others say it is weather resistant rather than weatherproof over years, and one reports it opened with two digits wrong. Keep it to a spare key, never master keys.
+Owners praise how easy it is to change to a code the family remembers. The complaints are sharper than for the Kidde: one owner says a burglar breached the thin casing, others say it is weather resistant rather than weatherproof over years. Keep it to a spare key, never master keys.
 
 ### igloohome Smart Keybox 3: Best smart lock box
 
@@ -456,7 +467,7 @@ A resettable code is easy to change by accident. In one r/DIYUK thread, an owner
 
 ### Stiff or jammed latch
 
-Owners with the right code still report a cover that sticks, mostly on older dial boxes left in the rain. A reply in r/lockpicking advises: "hold the cover very very tightly closed and then do the combination again and pull the lever down" ([r/lockpicking](https://www.reddit.com/r/lockpicking/comments/51d8ui/jammed_masterlock_key_box_any_advice/)). Prevention is a sealed box such as the IP66 igloohome, plus a yearly check that the latch moves freely. If it still sticks, contact the maker.
+Owners report covers and tabs that stick, mostly on boxes left out in the rain and sun. One Kidde owner on the Shop Kidde page says the clear tab often sticks on a box kept outside in the weather, and Master Lock's 5400D owners note the vinyl coating can go tacky over the years. Prevention is a sealed box such as the IP66 igloohome, a spot under an awning or behind a storm door, and a yearly check that the latch moves freely. If your own box still sticks with the right code, contact the maker's support and ask what they advise for your model.
 
 ### Dead batteries on a smart box
 

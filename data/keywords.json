@@ -835,7 +835,7 @@
     "lastError": "SERP 2026-10-18: 5 store pages plus Bob Vila and CNET; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -880,7 +880,8 @@
       "lock-boxes-forgot-or-changed-own-code",
       "lock-boxes-sticks-or-jams",
       "safe-guides-battery-dies-locks-owner-out"
-    ]
+    ],
+    "publishedAt": "2026-10-19T14:19:06.490Z"
   },
   {
     "status": "merged",

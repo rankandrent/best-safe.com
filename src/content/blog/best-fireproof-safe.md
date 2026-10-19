@@ -524,6 +524,7 @@ heroAlt: >-
   Best Fireproof Safe for Home (2026) – 6 UL-Rated Picks Compared – Best Safe
   buying guide
 related:
+  - best-key-lock-box
   - best-ammo-can
   - best-dehumidifier-for-gun-safe
 ---

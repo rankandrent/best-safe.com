@@ -1,16 +1,16 @@
 {
   "slug": "best-key-lock-box",
-  "pass": false,
-  "checkedAt": "2026-10-19T14:16:45.065Z",
-  "errors": [
-    "facts not verified yet: check every product spec and claim against the sources, then run `node scripts/routine.mjs factcheck <slug> \"<notes>\"`"
-  ],
+  "pass": true,
+  "checkedAt": "2026-10-19T14:18:37.655Z",
+  "errors": [],
   "warnings": [
     "product \"Kidde AccessPoint 001166 KeySafe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Master Lock 5400D Portable Lock Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"igloohome Smart Keybox 3\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
-    "verified": false
+    "verified": true,
+    "notes": "Opened and compared: swiftlane.com best-key-lockboxes-guide (Kidde AccessPoint KeySafe linked to kidde.com 001166 page, Master Lock 5400D, igloohome Smart Keybox 3), butterflymx.com spare-key-storage (igloohome, Kidde KeySafe), bobvila.com best-key-lock-box (Master Lock 5400D best overall; Kidde AccessPoint KeySafe Slimline listed), yourhomeandstyle.com best-keysafes (igloohome Smart Keybox 3, IP66, lockout), Wirecutter (Kidde AccessPoint KeySafe best lockbox, via search excerpt; page not scrapeable). Specs checked vs kidde.com (001166, 3 keys, 4.44x5.75x1.8 in), shopkidde.com (1.6 lb, 1-yr warranty, 1,000+ combos, never-rust, owner reviews), masterlock.com 5400D (dims, 1.16 lb, shackle, weather cover, 28 reviews, owner quotes), store-us.igloohome.co (IP66, -4 to 122F, 4 AAA, USB-C, interior 4.3x3.4x1.1, 2.205 lb, 1-yr warranty, 165 reviews), Walmart reviews (2.4 GHz Bridge, cost). Reddit quotes verified by exact-phrase site:reddit.com search (melbourne, homeowners, homesecurity vi33e0, DIYUK); High Road battery quote verified by search. Removed r/lockpicking jam-opening quote and the 'opens with two of four digits wrong' report (bypass-adjacent); softened burglary-rating wording to 'lists'. All 5 pain points answered. No fire/legal claims.",
+    "at": "2026-10-19T14:18:37.037Z"
   }
 }
