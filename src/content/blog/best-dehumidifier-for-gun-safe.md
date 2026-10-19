@@ -330,6 +330,7 @@ faqs:
       the safe.
 author: editorial-team
 related:
+  - best-ammo-can
   - best-fireproof-safe
   - best-biometric-gun-safe
   - best-pistol-safe

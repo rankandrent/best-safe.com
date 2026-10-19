@@ -1,5 +1,5 @@
 ---
-title: Best Ammo Can (2026) – 3 Picks for Bulk, Budget and Steel Storage
+title: 'Best Ammo Can (2026) – 3 Picks for Bulk, Budget and Steel Storage'
 seoTitle: Best Ammo Can (2026) – 3 Picks for Dry Garage Storage
 description: >-
   The best ammo can for your setup: 3 picks (an MTM bulk crate, a Plano budget
@@ -99,7 +99,6 @@ products:
         Double padlock tabs plus two latches; padlock not included; no built-in
         lock
       Stackable: 'Yes, molded-in stacking ridges; four hook points for ATV attachment'
-      Warranty: Amazon listing shows a 5 year manufacturer warranty
     scores:
       security: 4
       access: 7
@@ -168,7 +167,7 @@ products:
       Exterior: 11.63 x 5.13 x 7.13 in (maker)
       Interior: 9.5 x 4.25 x 6.5 in (Walmart listing)
       Capacity: 6 to 8 boxes of .30 caliber ammo (Amazon and Walmart listings)
-      Lock: 'Snap-down brass-bailed latch with a padlock tab; padlock not included'
+      Lock: Snap-down brass-bailed latch with a padlock tab; padlock not included
       Stackable: 'Yes'
       Warranty: Plano lists a 1-year warranty
     scores:
@@ -233,9 +232,7 @@ products:
       - Welded loop takes a padlock with a shank up to 3/8 in
       - 'Ships with a desiccant pack, brand new rather than surplus'
     cons:
-      - >-
-        Padlock is not included and the welded loop can be cut with bolt
-        cutters
+      - Padlock is not included and the welded loop can be cut with bolt cutters
       - 'Heavy even when empty, and the lid takes effort to close'
     specs:
       Material: 'Alloy steel with powder-coat finish (Amazon listing, Gun University)'
@@ -267,8 +264,8 @@ products:
         - Owners buy several and stack them
       complaints:
         - >-
-          Not pre-drilled for a lock on the plain version, and the welded loop
-          is cuttable
+          Reviewers of the plain, non-locking version say it is not pre-drilled
+          for a lock; the locking version's welded loop is cuttable
         - Price is higher than surplus or Harbor Freight cans
         - >-
           Some got the wrong color or finish, paint wear or an undersized
@@ -286,7 +283,7 @@ sources:
     url: 'https://mtmcase-gard.com/products/acr8-72-ammo-crate-utility-box'
   - title: Plano Element-Proof Field/Ammo Box
     url: 'https://www.planooutdoors.com/products/element-proof-fieldammo-box-1592550'
-  - title: Walmart, Plano Field Ammo Box 1312 listing (interior dimensions)
+  - title: 'Walmart, Plano Field Ammo Box 1312 listing (interior dimensions)'
     url: >-
       https://www.walmart.com/ip/Plano-Sports-Outdoors-Gun-Storage-1312-Ammo-Can/23247620
   - title: Solid Tactical ammo cans
@@ -329,22 +326,26 @@ faqs:
       can, so a full can gets heavy fast.
   - q: Can I lock an ammo can?
     a: >-
-      Yes, most have a padlock tab or welded lock loop. The Solid Tactical
-      loop takes a padlock with a shank up to 3/8 inch, and the MTM and Plano
-      boxes have plastic tabs. A locked can deters curious hands, but it can be
-      cut or carried away, so it is not a substitute for a gun safe.
+      Yes, most have a padlock tab or welded lock loop. The Solid Tactical loop
+      takes a padlock with a shank up to 3/8 inch, and the MTM and Plano boxes
+      have plastic tabs. A locked can deters curious hands, but it can be cut or
+      carried away, so it is not a substitute for a gun safe.
   - q: Is it safe to store ammo in a garage?
     a: >-
-      Owners store ammo in garages all the time, and the main enemy they
-      report is moisture, so use a gasketed can, fresh desiccant and keep it
-      off bare concrete and away from cold exterior walls. Rules on where and
-      how ammunition must be stored vary by state and city, so check your
-      state's rules and your local ordinances.
+      Owners store ammo in garages all the time, and the main enemy they report
+      is moisture, so use a gasketed can, fresh desiccant and keep it off bare
+      concrete and away from cold exterior walls. Rules on where and how
+      ammunition must be stored vary by state and city, so check your state's
+      rules and your local ordinances.
 author: editorial-team
 related:
   - best-dehumidifier-for-gun-safe
   - best-fireproof-safe
   - best-pistol-safe
+heroImage: /images/featured/best-ammo-can.png
+heroAlt: >-
+  Best Ammo Can (2026) – 3 Picks for Bulk, Budget and Steel Storage – Best Safe
+  buying guide
 ---
 
 It is August on the Gulf Coast, the garage reads like a sauna, and the cardboard ammo boxes on the shelf have gone soft at the corners. That is the moment most people start searching for the best ammo can. The question in the Florida and Texas threads we read is always the same. Is a sealed ammo can enough to keep ammo dry, or does it need more help? We compared the three cans the top-ranking guides keep naming. Then we checked each against its maker's page and read what owners report after months and years of use. The short version: a big MTM crate for bulk boxes, a cheap Plano box for range trips, and a gasketed steel can for long-term storage in a damp space.
@@ -393,7 +394,7 @@ Reviewers on Walmart and Plano's own site praise the value and say it holds far 
 
 Steel and a real gasket set this one apart. It is a new, unused copy of the M2A1 .50 cal can, the military-spec steel shape most metal picks follow. It has a powder-coat finish, a rubber lid gasket and a desiccant pack in the box. Solid Tactical says on its [ammo can page](https://solidtactical.com/solid-tactical-ammo-cans/) that every can is tested for air and water tightness. Its welded lock loop takes a padlock with a shank up to 3/8 inch. Amazon lists a 30 lb maximum weight recommendation. We left out exterior dimensions because the maker does not publish them and the retail numbers did not add up.
 
-Owners reviewing it on Solid Tactical's product page say it seals well, arrives brand new and stacks neatly, and many bought several. Owners report fitting about 500 rounds of 7.62x39 loose. The complaints are a price above surplus and Harbor Freight cans, a few wrong colors, some paint wear and an undersized desiccant pack. The lid also takes effort to close, the plain version is not pre-drilled for a lock, and the welded loop is thin enough for bolt cutters.
+Owners reviewing the plain Matte Black version on Solid Tactical's product page say it seals well, arrives brand new and stacks neatly, and many bought several. Owners report fitting about 500 rounds of 7.62x39 loose. The complaints are a price above surplus and Harbor Freight cans, a few wrong colors, some paint wear and an undersized desiccant pack. The lid also takes effort to close. The plain version those owners reviewed is not pre-drilled for a lock; the locking version we link adds the maker's welded loop, which reviewers say is thin enough for bolt cutters.
 
 ## How to choose an ammo can
 
@@ -401,7 +402,7 @@ Owners reviewing it on Solid Tactical's product page say it seals well, arrives 
 
 ### Plastic vs steel
 
-A polypropylene ammo box is light, stackable and never rusts, but its walls and lid can flex, which is why MTM and Plano call their seals water-resistant. A metal ammo can is heavier and can dent or rust at a chip in the paint, but a steel lid clamped onto a rubber gasket seals tighter. That makes steel the closer thing to waterproof. In a closet, plastic is plenty. In a humid garage, we would pick steel.
+A polypropylene ammo box is light, stackable and never rusts, but its walls and lid can flex, which is why MTM and Plano call their seals water-resistant. A metal ammo can is heavier and can dent or rust at a chip in the paint, but a steel lid clamped onto a rubber gasket seals tighter. That is why steel is the better bet for a tight seal, though none of these makers publishes a submersion or waterproof rating. In a closet, plastic is plenty. In a humid garage, we would pick steel.
 
 ### Water-resistant vs airtight seals
 
@@ -435,7 +436,7 @@ Whether a can alone keeps ammo dry in a humid climate or an unconditioned garage
 
 ### Steel-cased ammo, cardboard boxes and loose rounds
 
-Fear that stored ammo will rust is a recurring worry in r/NoobGunOwners and r/guns threads. One [r/NoobGunOwners reply](https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/) warns: "A little moisture getting into your ammo stash, steel cased ammunition can absolutely rust." Cardboard is the other weak link, since it soaks up humidity and holds it against the brass or steel. The fix most owners give:
+Fear that stored ammo will rust is a recurring worry in r/NoobGunOwners and r/guns threads. One [r/NoobGunOwners reply](https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/) warns that "steel cased ammunition can absolutely rust." Cardboard is the other weak link, since it soaks up humidity and holds it against the brass or steel. The fix most owners give:
 
 - Keep factory boxes only if the can stays sealed and dry; otherwise move rounds into plastic boxes or dump them loose.
 - Label loose rounds by caliber and lot so nothing gets mixed up.

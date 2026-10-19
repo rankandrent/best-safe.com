@@ -1485,7 +1485,7 @@
     }
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1530,7 +1530,8 @@
       "forums": 1,
       "videos": 1
     },
-    "productCount": 3
+    "productCount": 3,
+    "publishedAt": "2026-10-19T14:16:41.736Z"
   },
   {
     "status": "parked",
