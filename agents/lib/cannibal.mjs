@@ -23,6 +23,10 @@ export function overlap(a, b) {
   if (!A.size || !B.size) return 0;
   const inter = [...A].filter((t) => B.has(t)).length;
   if (Math.min(A.size, B.size) === 1 && A.size !== B.size) return 0;
+  // A broad keyword fully inside a longer one that adds 2+ qualifiers ("tripod for photography" vs
+  // "monopod vs tripod for sports photography") is a different, narrower intent: compare on the longer side.
+  const extraA = A.size - inter, extraB = B.size - inter;
+  if ((extraA === 0 && extraB >= 2) || (extraB === 0 && extraA >= 2)) return inter / Math.max(A.size, B.size);
   return inter / Math.min(A.size, B.size);
 }
 

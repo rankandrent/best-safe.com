@@ -212,3 +212,8 @@ test('no built page title has a colon', { skip: !fs.existsSync(path.join(ROOT, '
   }
   assert.deepEqual(bad, []);
 });
+
+test('a broad keyword is not a duplicate of a longer post keyword with 2+ extra qualifiers', () => {
+  assert.equal(overlap('best tripod for photography', 'monopod vs tripod for sports photography') < 0.75, true);
+  assert.equal(overlap('smart lock for apartment', 'smart lock for apartment renters') >= 0.75, true);
+});
