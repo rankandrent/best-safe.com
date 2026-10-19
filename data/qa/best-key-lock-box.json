@@ -1,0 +1,16 @@
+{
+  "slug": "best-key-lock-box",
+  "pass": false,
+  "checkedAt": "2026-10-19T14:16:45.065Z",
+  "errors": [
+    "facts not verified yet: check every product spec and claim against the sources, then run `node scripts/routine.mjs factcheck <slug> \"<notes>\"`"
+  ],
+  "warnings": [
+    "product \"Kidde AccessPoint 001166 KeySafe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Master Lock 5400D Portable Lock Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"igloohome Smart Keybox 3\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": false
+  }
+}
