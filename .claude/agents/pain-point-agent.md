@@ -33,6 +33,8 @@ other agents. Work in the site repo you were given (site.config.json, data/seeds
    Merge with what is there (same pain → add sources, raise mentions); never delete entries other runs added.
    `coveredBy`: grep the posts (src/content/blog/*.md) for the problem; list the slugs that answer it.
    Quotes must be copied exactly from the scraped page, with its URL. Never invent or reword a quote.
+   Firecrawl cannot scrape reddit.com: take Reddit quotes only from a `firecrawl_search` result excerpt for that thread
+   URL and mark them `"via": "search-excerpt"`; quotes from a full scrape get `"via": "page"`.
 4. Topics from pain points: for pain points that no post covers, write 1-3 search phrases a person would type
    ("how to stop tripod slipping on tile", "will command strips damage rental walls"). Check them in ONE
    `keywords-explorer-overview` call per run (US, select keyword,volume,difficulty,traffic_potential,parent_topic; at most
