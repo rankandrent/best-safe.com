@@ -99,6 +99,7 @@ author: editorial-team
 heroImage: /images/featured/how-to-open-a-safe.png
 heroAlt: How to Open a Safe You Own When You Are Locked Out – Best Safe how-to
 related:
+  - how-to-bolt-down-a-safe
   - sentry-safe-battery-replacement
 ---
 

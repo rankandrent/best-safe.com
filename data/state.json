@@ -84,6 +84,13 @@
       "keyword": "sentry safe battery replacement",
       "category": "safe-guides",
       "funnel": "tofu"
+    },
+    {
+      "date": "2026-10-20",
+      "slug": "how-to-bolt-down-a-safe",
+      "keyword": "how to bolt down a safe",
+      "category": "safe-guides",
+      "funnel": "tofu"
     }
   ],
   "translated": []

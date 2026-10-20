@@ -1,0 +1,107 @@
+{
+  "centralEntity": "safe",
+  "entityVariants": ["bolt down a safe", "bolting a safe", "gun safe", "anchored safe", "bolt-down"],
+  "entities": [
+    {"name": "anchor bolts", "type": "hardware", "relation": "hold the safe to a concrete slab"},
+    {"name": "lag bolts", "type": "hardware", "relation": "hold the safe to wood subfloor and joists"},
+    {"name": "hammer drill", "type": "tool", "relation": "drills the concrete anchor holes"},
+    {"name": "concrete slab", "type": "floor type", "relation": "the strongest anchoring base"},
+    {"name": "post-tension slab", "type": "floor type", "relation": "has tensioned cables that must not be drilled blind"},
+    {"name": "floor joists", "type": "structure", "relation": "where wood-floor lag bolts should bite"},
+    {"name": "wall studs", "type": "structure", "relation": "an anchoring point against tip-over"},
+    {"name": "pre-drilled holes", "type": "safe feature", "relation": "the maker's approved anchoring path"},
+    {"name": "fire rating", "type": "certification", "relation": "can be weakened by drilling outside the approved holes"},
+    {"name": "UL", "type": "certifier", "relation": "independent lab behind UL 72 fire classes"},
+    {"name": "landlord", "type": "person", "relation": "decides whether renters may drill"},
+    {"name": "steel plate", "type": "alternative", "relation": "no-drill base wider than the door frame"}
+  ],
+  "attributes": ["bolt diameter and length", "drill bit size", "pre-drilled hole count", "floor type", "slab thickness", "safe weight and tip-over risk", "fire seal around the holes", "removability at move-out"],
+  "ngrams": ["bolt down a safe", "anchor bolts", "concrete floor", "wood floor", "pre-drilled holes", "post-tension slab", "lag bolts", "hammer drill", "pry bar", "wall studs"],
+  "skipgrams": ["bolt…floor", "drill…holes", "anchor…concrete", "fire…rating", "lag…joist"],
+  "nlpTerms": ["anchor", "slab", "concrete", "joist", "subfloor", "lag", "drill", "level", "shim", "tip", "pry", "landlord", "lease", "deposit", "fire", "tile", "scanner", "studs", "kit", "manual"],
+  "questions": [
+    "Should I bolt my safe to the floor?",
+    "Does bolting down a fireproof safe void the fire rating?",
+    "How do you bolt a safe to a wood floor?",
+    "Can you bolt a safe to a post-tension slab?",
+    "How do renters secure a safe without drilling?"
+  ],
+  "contentGaps": [
+    "Makers specify different bits and sockets, so the kit and manual decide the hardware, not a generic guide",
+    "Post-tension slab, radiant heat and tile: when not to drill and what owners do instead",
+    "Renters: what to ask the landlord, patching holes, and no-drill options that really slow a thief",
+    "Fire rating: drill only through the maker's holes, never the back or sides of a fire safe"
+  ],
+  "outline": [
+    {"h2": "How to bolt down a safe, step by step", "intent": "the procedure", "h3": []},
+    {"h2": "Concrete vs wood floor hardware", "intent": "hardware by floor type", "h3": []},
+    {"h2": "When not to drill the slab", "intent": "post-tension, radiant heat, tile", "h3": []},
+    {"h2": "Renters who can't drill", "intent": "no-drill options and deposit worries", "h3": []},
+    {"h2": "Does bolting a safe hurt its fire rating", "intent": "fire seal and certification", "h3": []},
+    {"h2": "Is a light safe worth bolting", "intent": "theft vs tip-over for small safes", "h3": []}
+  ],
+  "commonPoints": [
+    "Bolting stops a thief from carrying the safe off or tipping it on its back to pry the door",
+    "Anchoring prevents tip-over accidents, especially with the door open",
+    "Use the safe's pre-drilled holes and the maker's kit; check the manual first",
+    "Concrete takes expansion anchors and a hammer drill; wood takes lag bolts",
+    "Level the safe and check the door swing before and after tightening"
+  ],
+  "ourGain": [
+    {"point": "Maker instructions disagree on bit and socket sizes (Liberty 3/8 in concrete bit and 1/4 in wood pilot; Winchester names both 1/2 in and 5/8 in bits on one page), so follow your own kit, not a generic guide", "source": "https://libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor and https://winchestersafes.com/support/bolt-down-instructions/"},
+    {"point": "Post-tension slabs: owners scan for cables (rented concrete scanner or a safe company), anchor to wall studs, or bolt to a base instead of drilling blind", "source": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/ and https://nwsafe.com/blogs/tips/how-to-bolt-down-a-safe"},
+    {"point": "Fire safes: drill only through the maker's approved holes or feet, never the back of a fireproof safe; NW Safe says most safes are fire-tested with their floor bolt holes, but wall bolting can compromise fire protection", "source": "https://www.masterlock.com/insights/bolting-down-your-safe-for-an-added-layer-of-protection and https://nwsafe.com/blogs/tips/how-to-bolt-down-a-safe"},
+    {"point": "Renters: ask in writing, use stud anchoring with small patchable holes, or a no-drill steel plate wider than the door frame; a cable only slows casual theft", "source": "data/pain-points.json (gun-safes-rental-cannot-bolt-down, gun-safes-rental-bolt-holes-deposit), https://guardiansafeandvault.com/blog/how-to-secure-a-safe-without-bolting-it-to-the-floor"},
+    {"point": "Tile floors can't take anchors without cracking (Liberty)", "source": "https://libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor"}
+  ],
+  "targetWords": 700,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://nwsafe.com/blogs/tips/how-to-bolt-down-a-safe",
+      "https://winchestersafes.com/support/bolt-down-instructions/",
+      "https://www.masterlock.com/insights/bolting-down-your-safe-for-an-added-layer-of-protection",
+      "https://guardiansafeandvault.com/blog/how-to-secure-a-safe-without-bolting-it-to-the-floor",
+      "https://alocksmithnaples.com/1-way-to-make-your-safe-tougher/",
+      "https://libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "How-to results feature no products; maker pages list hardware specs (bit, socket, bolt size), so specs is the closest style and productCount is 0",
+    "avgWords": 650,
+    "avgProducts": 0,
+    "commonSections": ["why bolt down", "step-by-step instructions", "concrete vs wood", "when not to bolt", "alternatives to bolting", "fire and water questions"],
+    "usesComparisonTable": false,
+    "usesFaq": true,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {"position": 1, "url": "https://www.reddit.com/r/liberalgunowners/comments/wvswua/finally_got_a_safe_should_i_bolt_it_to_the_floor/", "title": "Finally got a safe. Should I bolt it to the floor? Will that ruin my wood floors ..."},
+    {"position": 2, "url": "https://www.youtube.com/watch?v=97hXkZ-1YTM", "title": "How to Bolt a Safe to the Floor - YouTube"},
+    {"position": 3, "url": "https://nwsafe.com/blogs/tips/how-to-bolt-down-a-safe", "title": "How to Bolt Down a Safe & When Not To - Northwest Safe"},
+    {"position": 4, "url": "https://winchestersafes.com/support/bolt-down-instructions/", "title": "Bolt Down Instructions - Winchester Safes"},
+    {"position": 5, "url": "https://www.youtube.com/watch?v=Th3EH9DV-eM", "title": "The #1 Mistake Safe Owners Make—Not Bolting It Down! - YouTube"},
+    {"position": 6, "url": "https://www.masterlock.com/insights/bolting-down-your-safe-for-an-added-layer-of-protection", "title": "Do's and Don'ts of Bolting Down a Safe - Master Lock"},
+    {"position": 7, "url": "https://guardiansafeandvault.com/blog/how-to-secure-a-safe-without-bolting-it-to-the-floor", "title": "How to Secure a Safe Without Bolting it to the Floor"},
+    {"position": 8, "url": "https://www.youtube.com/watch?v=f2smp54HAd4", "title": "HOW TO: Bolt Down Your Safe with Anchors - YouTube"},
+    {"position": 9, "url": "https://alocksmithnaples.com/1-way-to-make-your-safe-tougher/", "title": "Why Bolting Down Your Safe Is a Must for Home Security"},
+    {"position": 10, "url": "https://www.snipershide.com/shooting/threads/to-bolt-or-not-to-bolt-a-1700lb-safe.7010605/", "title": "To bolt or not to bolt a 1700lb safe? | Sniper's Hide Forum"}
+  ],
+  "titlePattern": {
+    "keywordAtStart": 1,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": ["to the floor", "when not to", "do's and don'ts", "without bolting", "with anchors"],
+    "gap": "none covers concrete, wood and the renter who can't drill in one page; we add floor type and renters as the differentiator"
+  },
+  "painPoints": [
+    {"id": "gun-safes-bolting-slab-or-wood-floor", "pain": "Not sure how to bolt a safe down on a post-tension slab, thin slab or wood floor", "details": "Post-tension slab owners are told not to drill blind; others have thin garage slabs or wood floors.", "sources": ["https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/", "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"], "quotes": [{"text": "OP you're not going to get anyone who recommends drilling into a PT slab.", "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"}]},
+    {"id": "home-safes-lightweight-needs-bolting", "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them", "details": "Owners of lighter safes weigh theft against tip-over and worry about slab damage and the fire seal.", "sources": ["https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/", "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"], "quotes": []},
+    {"id": "gun-safes-rental-cannot-bolt-down", "pain": "Renters are told to bolt a safe down but cannot drill the floor or wall of an apartment", "details": "Renters want a safe that stays put without bolting into a lease-protected floor.", "sources": ["https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/", "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"], "quotes": []},
+    {"id": "gun-safes-rental-bolt-holes-deposit", "pain": "Renters worry bolt holes will cost them the security deposit when they move out", "details": "Renters skip anchoring or bolt into a closet and patch the holes on departure.", "sources": ["https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/", "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"], "quotes": []}
+  ],
+  "linkPlan": [
+    {"to": "/blog/best-gun-safe-for-apartment/", "where": "renters who can't drill"},
+    {"to": "/blog/how-to-move-a-gun-safe/", "where": "unbolting before a move, closing link"},
+    {"to": "/blog/best-fireproof-safe/", "where": "fire rating section"},
+    {"to": "/safe-buying-checklist/", "where": "light safe section"}
+  ]
+}

@@ -101,6 +101,8 @@ heroImage: /images/featured/sentry-safe-battery-replacement.png
 heroAlt: >-
   Sentry Safe Battery Replacement – Steps for Each Model Family – Best Safe
   how-to
+related:
+  - how-to-bolt-down-a-safe
 ---
 
 The keypad flashes, you swap the cells, and the door still won't budge. Here is the short answer for Sentry safe battery replacement on your own safe: find the model prefix, open the battery compartment SentrySafe documents for it, and fit a fresh set of one name brand in the marked direction. Door shut and keypad dead? Use the override key or, on two families, the 9V auxiliary override. Every step comes from SentrySafe's support pages.

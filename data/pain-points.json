@@ -329,7 +329,9 @@
           "how to bolt down a safe",
           "gun safe in garage"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "how-to-bolt-down-a-safe"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -378,7 +380,9 @@
           "best gun safe for apartment",
           "how to bolt down a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "how-to-bolt-down-a-safe"
+        ],
         "foundAt": "2026-10-20"
       },
       {
@@ -420,7 +424,9 @@
           "best gun safe for apartment",
           "how to bolt down a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "how-to-bolt-down-a-safe"
+        ],
         "foundAt": "2026-10-20"
       },
       {
@@ -1387,7 +1393,8 @@
         ],
         "coveredBy": [
           "best-fireproof-safe",
-          "best-biometric-gun-safe"
+          "best-biometric-gun-safe",
+          "how-to-bolt-down-a-safe"
         ],
         "foundAt": "2026-10-19"
       },

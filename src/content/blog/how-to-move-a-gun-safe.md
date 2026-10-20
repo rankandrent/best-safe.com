@@ -115,6 +115,7 @@ heroAlt: >-
   How to Move a Gun Safe (Without Wrecking Stairs, Floors or Backs) – Best Safe
   how-to
 related:
+  - how-to-bolt-down-a-safe
   - sentry-safe-battery-replacement
   - best-gun-safe-for-apartment
   - how-to-open-a-safe
