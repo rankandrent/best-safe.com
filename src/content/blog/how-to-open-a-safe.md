@@ -98,6 +98,8 @@ faqs:
 author: editorial-team
 heroImage: /images/featured/how-to-open-a-safe.png
 heroAlt: How to Open a Safe You Own When You Are Locked Out – Best Safe how-to
+related:
+  - sentry-safe-battery-replacement
 ---
 
 The keypad beeps once, then goes dark, and the override key is somewhere you can't remember. If that is your safe, here is how to open a safe you own: identify the lock type, fit fresh batteries, try the override key, then contact the maker with your serial number and proof of ownership, and only then call a licensed locksmith or safe technician. We wrote this guide for owners only. Someone else's safe is a matter for its owner, the maker or the police, and we never explain how to defeat a lock.

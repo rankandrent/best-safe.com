@@ -1,0 +1,13 @@
+{
+  "slug": "sentry-safe-battery-replacement",
+  "pass": true,
+  "checkedAt": "2026-10-20T20:03:05.004Z",
+  "errors": [],
+  "warnings": [],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified every step against SentrySafe's battery FAQ (sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe, read 2026-10-20): model-prefix families and battery locations (A/J/S/SB/SBW/SC/SW/L/V cover under keypad with paper clip slide right; CS/CSW/DA/DS/KS/KSW/MS/MSW/OA/OS shipping screw + twist lock clockwise; SFW082/123/205 B,E,F,G and STW123G/205G side drawer right; DH twist counterclockwise off mounting plate, no pinched wires; SFW123T/U, SFW205T/U and FP/FPW compartment inside door; ESB, PL, QAP, CA, HL, X, T override key first), battery rules (no rechargeable/non-alkaline, name brand, expiry near 10 years out, no mixing brands or old/new, 4 cells; FP/FPW 2 CR123 lithium), 9V Battery Auxiliary Override steps (silicone cap, FP/FPW jumper wire, 3 chirps, SFW T/U touch centre to wake, 5-digit code, turn/pull handle, replace jumper and verify lock) and the 'should not be used as a primary means of gaining entry' quote. Model label locations against sentrysafe.com/support/find-your-model-or-serial-number; key and combo replacement route against sentrysafe.com/support/lost-key-combo; manuals by model number against support/product-manuals; green light + single beep attributed to Lowe's how-to. Owner quotes verified verbatim: High Road gun-safe-problem thread (Winchester owner '4 new name brand batteries'; 'tape a date' reply) by scrape; Reddit thread titles 1ndf1gh and 1jw2ura and Quora T6-331 title by Firecrawl search excerpts. Removed an unverifiable Reddit reply quote. No prices, no products (productCount 0), no bypass instructions, no legal advice.",
+    "at": "2026-10-20T20:03:04.313Z",
+    "hash": "1b26d16cc3a11450"
+  }
+}

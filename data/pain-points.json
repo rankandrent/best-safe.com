@@ -785,14 +785,16 @@
           "sentry safe battery replacement",
           "how to open a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "sentry-safe-battery-replacement"
+        ],
         "foundAt": "2026-10-19"
       },
       {
         "id": "safe-guides-new-batteries-still-wont-work",
         "pain": "Fresh batteries are in and the keypad still will not open or lock the safe",
         "details": "After a battery swap the code is rejected, the keypad lights but the bolt does not move, or the lever will not reach the locked position. Causes owners found: non-alkaline cells, battery alignment, a screw catching the bolt work, a failed keypad or solenoid.",
-        "mentions": 4,
+        "mentions": 5,
         "sources": [
           {
             "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
@@ -817,6 +819,12 @@
             "platform": "reddit",
             "title": "Sentry safe issue | r/Safes",
             "seen": "2026-10-19"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1pmtaa4/sentry_safe_no_power_to_keypad_fresh_batteries/",
+            "platform": "reddit",
+            "title": "Sentry safe no power to keypad fresh batteries | r/Safes",
+            "seen": "2026-10-20"
           }
         ],
         "quotes": [
@@ -844,7 +852,9 @@
           "sentry safe keypad not working",
           "how to open a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "sentry-safe-battery-replacement"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -1426,7 +1436,9 @@
           "sentry safe key",
           "sentry safe battery replacement"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "sentry-safe-battery-replacement"
+        ],
         "foundAt": "2026-10-19"
       },
       {
