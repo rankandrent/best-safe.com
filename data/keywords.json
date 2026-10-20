@@ -1006,7 +1006,7 @@
     "lastError": "SERP: same top-10 as \"best gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1050,7 +1050,8 @@
       "safe-guides-diy-move-injury-and-dropped-safe",
       "safe-guides-mover-cost-quotes-and-limits",
       "safe-guides-doorframes-floors-deposit-damage"
-    ]
+    ],
+    "publishedAt": "2026-10-20T13:54:30.640Z"
   },
   {
     "status": "pending",
