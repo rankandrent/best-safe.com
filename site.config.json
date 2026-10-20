@@ -43,7 +43,9 @@
   "defaultLocale": "en",
   "oneLinkScript": "",
   "translations": {
-    "backlogPerDay": 2,
+    "backlogPerDay": 0,
+    "categories": [],
+    "paused": "Owner decision 2026-10-20: English only for now. Later, once posts are indexed and earning, localize only non-gun topics (fireproof document safes, key lock boxes) with EU certifications (EN 1143-1, EN 14450, EN 15659, VdS) and EU-sold products. Gun-safe and ammo topics stay English-only (EU weapons storage law).",
     "note": "Daily backlog: translate up to backlogPerDay older English posts per language (scripts/routine.mjs translate-queue). New English posts are translated right after they pass QA."
   },
   "categories": [

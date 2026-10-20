@@ -292,6 +292,11 @@ Finish with a short summary: posts published (title + URL
 (`https://best-safe.com/<lang>/blog/<slug>/`), anything skipped and why.
 
 ## Translations (de, es, nl)
+**PAUSED (owner decision 2026-10-20): English only.** Write no de/es/nl versions (`translations.backlogPerDay: 0`,
+`categories: []`). Later, once the posts are indexed and earning, only non-gun topics (fireproof document safes, key
+lock boxes) get localized versions, with EU certifications (EN 1143-1, EN 14450, EN 15659, VdS) and EU-sold products.
+Gun-safe and ammo topics stay English-only: EU weapons storage law differs by country.
+
 Every English post also gets a localized version per locale in `site.config.json` (`locales`, minus `en`):
 `src/content/blog/<lang>/<localized-slug>.md` with `lang` and `translationOf: <english-slug>`, live at
 `/<lang>/blog/<localized-slug>/`. Translations go through the same gate: a translation only goes live with a

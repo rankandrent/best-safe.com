@@ -247,7 +247,7 @@ if (cmd === 'status') {
   if (arg && !TRANSLATION_LANGS.includes(arg)) throw new Error(`"${arg}" is not a translation locale (${TRANSLATION_LANGS.join(', ')})`);
   const now = Date.now();
   const ready = listPosts()
-    .filter((p) => !p.data.draft && Date.parse(p.data.pubDate) <= now && readQa(p.slug)?.pass)
+    .filter((p) => !p.data.draft && Date.parse(p.data.pubDate) <= now && readQa(p.slug)?.pass && (SITE.translations?.categories ?? []).includes(p.data.category))
     .sort((a, b) => Date.parse(a.data.pubDate) - Date.parse(b.data.pubDate));
   const translations = listTranslations();
   const queue = {};
