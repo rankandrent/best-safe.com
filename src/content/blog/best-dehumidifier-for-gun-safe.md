@@ -330,10 +330,10 @@ faqs:
       the safe.
 author: editorial-team
 related:
+  - how-much-does-a-gun-safe-weigh
   - best-gun-safe-for-apartment
   - how-to-move-a-gun-safe
   - best-handgun-safe-for-nightstand
-  - best-ammo-can
 heroImage: /images/featured/best-dehumidifier-for-gun-safe.png
 heroAlt: >-
   Best Dehumidifier for Gun Safe – 3 Picks Sized by Cubic Feet – Best Safe

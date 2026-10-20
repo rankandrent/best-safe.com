@@ -1,0 +1,199 @@
+{
+  "centralEntity": "gun safe weight",
+  "entityVariants": [
+    "how much a gun safe weighs",
+    "gun safe weighs",
+    "safe weight",
+    "weight of a gun safe",
+    "gun safe sizes",
+    "loaded weight"
+  ],
+  "entities": [
+    { "name": "Liberty Safe", "type": "brand", "relation": "publishes weight classes (entry 200-600 lb, mid 600-1,000, high-end 1,000-1,600, commercial 2,000-5,000) and per-model spec tables" },
+    { "name": "Cannon Safe", "type": "brand", "relation": "lists a 24-gun model at 280 lb and the American Eagle 59-gun at 552 lb" },
+    { "name": "American Security", "type": "brand", "relation": "AMSEC BFII6636 at 1,716 lb with ETL 120-minute fire rating and UL RSC Level II" },
+    { "name": "Centurion", "type": "product line", "relation": "Liberty entry series, 245-411 lb, 14-gauge body" },
+    { "name": "handgun vault", "type": "safe type", "relation": "pistol class; Liberty HDV-150X weighs 9.05 lb" },
+    { "name": "steel gauge", "type": "attribute", "relation": "lower number = thicker, heavier steel" },
+    { "name": "fireboard", "type": "material", "relation": "insulation layers that add weight with fire protection" },
+    { "name": "ETL", "type": "certifier", "relation": "Intertek ETL fire rating on AMSEC BF series" },
+    { "name": "UL RSC", "type": "standard", "relation": "UL residential security container burglary rating" },
+    { "name": "floor load", "type": "attribute", "relation": "IRC design live load 40 psf (30 psf sleeping rooms) vs a safe's concentrated footprint" },
+    { "name": "loaded weight", "type": "attribute", "relation": "empty weight plus guns, ammo and contents" },
+    { "name": "minimum doorway", "type": "attribute", "relation": "Liberty lists the narrowest door each model fits through" }
+  ],
+  "attributes": [
+    "empty weight",
+    "loaded weight",
+    "exterior dimensions",
+    "footprint",
+    "steel gauge",
+    "fire rating and certifier",
+    "gun capacity",
+    "minimum doorway",
+    "bolt-down"
+  ],
+  "ngrams": [
+    "gun safe weight",
+    "how much does a gun safe weigh",
+    "steel gauge",
+    "fire rating",
+    "floor load",
+    "pounds per square foot",
+    "empty weight",
+    "loaded weight",
+    "gun safe sizes",
+    "second floor",
+    "bolt it down"
+  ],
+  "skipgrams": [
+    "safe…weight",
+    "steel…gauge",
+    "floor…load",
+    "fire…rating",
+    "square…foot",
+    "bolt…down",
+    "empty…weight"
+  ],
+  "nlpTerms": [
+    "pounds",
+    "lb",
+    "steel",
+    "fireboard",
+    "capacity",
+    "long guns",
+    "handgun",
+    "footprint",
+    "joists",
+    "concrete",
+    "stairs",
+    "dolly",
+    "doorway",
+    "anchor",
+    "ammo"
+  ],
+  "questions": [
+    "How much does a gun safe weigh?",
+    "How much does a 24-gun safe weigh?",
+    "Can my floor hold a gun safe?",
+    "Can I put a gun safe on the second floor?",
+    "How much do guns and ammo add to a safe's weight?",
+    "Is a heavier gun safe more secure?"
+  ],
+  "contentGaps": [
+    "Weight per square foot of footprint compared with the residential design live load",
+    "Same gun count, very different weight (24-gun Centurion vs 24-gun BFII)",
+    "Who certified the fire rating on heavy vs light safes",
+    "Minimum doorway width alongside weight",
+    "Light safes still need anchoring"
+  ],
+  "outline": [
+    { "h2": "Gun safe weight by class", "intent": "direct answer with ranges by size class and maker", "h3": [] },
+    { "h2": "Why two 24-gun safes can differ by 1,300 lb", "intent": "what drives gun safe weight: steel, fire insulation, door", "h3": [] },
+    { "h2": "Loaded weight and your floor", "intent": "floor load, second floor, footprint math", "h3": ["Upstairs and apartments"] },
+    { "h2": "Weight on moving day: stairs, doorways and dollies", "intent": "moving pain points", "h3": [] },
+    { "h2": "Heavy is not the same as secure", "intent": "bolt it down; light safes", "h3": [] }
+  ],
+  "commonPoints": [
+    "Gun safe weight ranges from a few pounds (handgun boxes) to well over 1,000 lb",
+    "Size, steel gauge and fire insulation drive weight",
+    "Heavier usually means harder to steal, but weight alone is not security",
+    "Check the floor before placing a heavy safe upstairs",
+    "Do not move a heavy safe alone; professional delivery is common",
+    "Guns and contents add weight on top of the empty figure"
+  ],
+  "ourGain": [
+    { "point": "Same capacity, very different weight: Liberty Centurion 24 (375 lb) vs AMSEC BFII6636 (24 long guns, 1,716 lb), so gun count alone predicts little", "source": "https://libertysafe.com/products/centurion ; https://americansecuritysafes.com/product/bfii6636-configurator/" },
+    { "point": "Footprint math: empty weight divided by footprint in square feet, set against the IRC design live load (40 psf, 30 psf in sleeping rooms) as context for an engineer, not a pass/fail test", "source": "https://pasadenatx.gov/DocumentCenter/View/879/Residential-Building-Application-PDF ; https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/" },
+    { "point": "Who certified the fire rating differs by weight class: AMSEC states an ETL 120-minute rating at 1200F on the 1,716 lb BFII6636, while Liberty's Centurion 30-40 minute ratings are stated by Liberty without a named lab", "source": "https://americansecuritysafes.com/product/bfii6636-configurator/ ; https://libertysafe.com/products/centurion" },
+    { "point": "Weight comes with a minimum doorway: Liberty lists 18 in for the Centurion 12 and 25.75 in for the Centurion 32", "source": "https://libertysafe.com/products/centurion" },
+    { "point": "Plan on loaded weight, not empty weight, as owners on FirearmsTalk and The High Road advise", "source": "data/pain-points.json (gun-safes-apartment-floor-load-second-story, safe-guides-floor-and-stair-load)" }
+  ],
+  "painPoints": [
+    {
+      "id": "safe-guides-floor-and-stair-load",
+      "pain": "Worry that the floor or stairs cannot take the weight of a loaded safe",
+      "details": "Owners wanting the safe upstairs or in a basement room ask about floor load ratings, bracing basement stairs and the combined weight of safe plus contents.",
+      "sources": ["https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/", "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"],
+      "quotes": [
+        { "text": "Most residential floors are only rated for about 40 lb per sq ft.", "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/" },
+        { "text": "Consider what the full of stuff weight will be, and plan accordingly.", "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/" }
+      ]
+    },
+    {
+      "id": "gun-safes-apartment-floor-load-second-story",
+      "pain": "Unsure whether an upstairs apartment floor can hold a loaded 400-700 lb gun safe",
+      "details": "Second-floor renters ask how heavy a safe they can get away with. Replies say it is usually fine near a load-bearing wall or on plywood, and to add the weight of the guns and ammo.",
+      "sources": ["https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"],
+      "quotes": [
+        { "text": "weigh each of your firearms, accessories, and ammo that will be going in there, and add it to the weight of your safe.", "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/" }
+      ]
+    },
+    {
+      "id": "safe-guides-moving-up-stairs",
+      "pain": "A 500 lb+ safe cannot be carried up stairs by the owner without risk of injury or damage",
+      "details": "Owners are told to hire safe movers, check the stairs and use door removal or modular safes.",
+      "sources": ["https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"],
+      "quotes": []
+    },
+    {
+      "id": "safe-guides-tight-turns-and-dolly-limits",
+      "pain": "Safe will not make the turn or doorway, and the dolly is rated below the safe weight",
+      "details": "Owners hit tight stair turns, narrow doors and dollies rated to 600 or 800 lb.",
+      "sources": ["https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"],
+      "quotes": []
+    },
+    {
+      "id": "home-safes-lightweight-needs-bolting",
+      "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them",
+      "details": "Buyers of lighter safes debate bolting for theft versus tip-over.",
+      "sources": ["https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"],
+      "quotes": []
+    }
+  ],
+  "linkPlan": [
+    { "slug": "how-to-move-a-gun-safe", "where": "moving day section (stairs, dolly ratings)" },
+    { "slug": "best-gun-safe-for-apartment", "where": "upstairs/apartment floor load section" },
+    { "slug": "best-pistol-safe", "where": "handgun class row discussion" },
+    { "slug": "best-fireproof-safe", "where": "fire insulation and certifier section" },
+    { "slug": "how-to-bolt-down-a-safe", "where": "not linked: queued, not live yet (QA rejects links to unpublished posts)" }
+  ],
+  "targetWords": 780,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://libertysafe.com/blogs/the-vault/how-much-do-gun-safes-weigh",
+      "https://cannonsafe.com/whats-the-average-cannon-safe-weight/",
+      "https://www.sportsmans.com/gun-safe-size-chart",
+      "https://libertygunsafeshenderson.com/blogs/news/how-much-does-a-liberty-safe-weigh",
+      "https://americansecuritysafes.com/gun-safe-weight-guide/",
+      "https://www.bellewooddesigns.com/blogs/articles/how-much-does-a-gun-safe-weigh"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "Informational guide with no product picks; pages present weight ranges and size charts (Sportsman's table) rather than product reviews, so specs style matches the site's guide posts.",
+    "avgWords": 760,
+    "avgProducts": 0,
+    "commonSections": ["weight ranges", "factors that affect weight", "where to place it / floor", "moving and installation", "conclusion"],
+    "usesComparisonTable": true,
+    "usesFaq": false,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    { "position": 1, "url": "https://www.reddit.com/r/guns/comments/1ncigwz/gun_safe_weight/", "title": "Gun safe weight : r/guns - Reddit" },
+    { "position": 2, "url": "https://libertysafe.com/blogs/the-vault/how-much-do-gun-safes-weigh", "title": "How Much Does a Gun Safe Weigh? | What Goes Into the Weight of a Gun ..." },
+    { "position": 3, "url": "https://cannonsafe.com/whats-the-average-cannon-safe-weight/", "title": "What's The Average Cannon Safe Weight?" },
+    { "position": 4, "url": "https://www.sportsmans.com/gun-safe-size-chart", "title": "Gun safe size chart - Sportsman's Warehouse" },
+    { "position": 5, "url": "https://libertygunsafeshenderson.com/blogs/news/how-much-does-a-liberty-safe-weigh", "title": "How much does a Liberty safe weigh?" },
+    { "position": 6, "url": "https://americansecuritysafes.com/gun-safe-weight-guide/", "title": "Gun Safe Weights Explained | American Security (AMSEC)" },
+    { "position": 7, "url": "https://www.bellewooddesigns.com/blogs/articles/how-much-does-a-gun-safe-weigh", "title": "How Much Does a Gun Safe Weigh? ..." },
+    { "position": 8, "url": "https://www.facebook.com/cannonsafe/posts/whats-the-average-cannon-safe-weightthere-is-no-average-weight-for-cannon-safe-b/1527347702758897/", "title": "What's The Average Cannon Safe Weight? There is no ... - Facebook" },
+    { "position": 9, "url": "https://deansafe.com/products/liberty-usa-48-gun-safe", "title": "Liberty USA 48 Gun Safe | Secure & Fireproof Storage - Dean Safe" },
+    { "position": 10, "url": "https://www.facebook.com/NWSafe/videos/how-much-weight-can-the-shelves-in-your-safe-really-holdwell-we-decided-to-find-/1246862847526684/", "title": "How much weight can the shelves in your safe REALLY hold? Well… we ..." }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 2,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": ["what goes into the weight", "average", "size chart", "explained"],
+    "gap": "No title covers weight by class from several makers together with what the floor can take"
+  }
+}
