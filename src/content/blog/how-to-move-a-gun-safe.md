@@ -114,6 +114,8 @@ heroImage: /images/featured/how-to-move-a-gun-safe.png
 heroAlt: >-
   How to Move a Gun Safe (Without Wrecking Stairs, Floors or Backs) – Best Safe
   how-to
+related:
+  - how-to-open-a-safe
 ---
 
 To move a gun safe, empty it, unbolt it, wrap it, and roll it upright on an appliance dolly rated above its weight, strapped tight, with at least three people. If the route has stairs or the safe weighs more than 500 lb (Kirby's Moving's cutoff), the best way to move a gun safe is to hire a safe mover with a stair climber.

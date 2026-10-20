@@ -1663,7 +1663,7 @@
     "lastError": "SERP 2026-10-18: 5 store pages; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1710,7 +1710,8 @@
       "safe-guides-locksmith-drill-cost-and-damage",
       "safe-guides-manufacturer-reset-needs-proof-of-ownership"
     ],
-    "productCount": 4
+    "productCount": 0,
+    "publishedAt": "2026-10-20T13:55:53.505Z"
   },
   {
     "status": "parked",
