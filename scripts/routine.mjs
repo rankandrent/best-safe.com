@@ -31,7 +31,7 @@ import { nextKeyword, collectSources } from '../agents/orchestrator.mjs';
 import { ensureFeatured } from './featured-images.mjs';
 import { funnelOf } from '../agents/lib/funnel.mjs';
 import { findCannibal } from '../agents/lib/cannibal.mjs';
-import { qaPost, qaTranslation, recordFactCheck, readQa, lengthLimit } from '../agents/qa-agent.mjs';
+import { qaPost, qaTranslation, recordFactCheck, readQa, lengthLimit, bodyHash } from '../agents/qa-agent.mjs';
 import { productCountFor } from '../agents/lib/product-count.mjs';
 
 const BRIEFS = path.join(DATA_DIR, 'briefs');
@@ -207,9 +207,9 @@ if (cmd === 'status') {
 } else if (cmd === 'factcheck') {
   const notes = process.argv.slice(4).join(' ').trim();
   if (notes.length < 20) throw new Error('Describe what you verified (which specs, against which sources).');
-  if (isTranslation) translationFor(ref);
-  else if (!listPosts().some((p) => p.slug === arg)) throw new Error(`No post src/content/blog/${arg}.md`);
-  out(recordFactCheck(ref.id, notes));
+  const target = isTranslation ? translationFor(ref) : listPosts().find((p) => p.slug === arg);
+  if (!target) throw new Error(`No post src/content/blog/${arg}.md`);
+  out(recordFactCheck(ref.id, notes, bodyHash(target.content)));
 } else if (cmd === 'finalize' && isTranslation) {
   // Translations reuse the English header graphic and add no backlinks to English posts;
   // finalize records them in data/state.json (translated) and writes data/reports/<lang>/<slug>.json.

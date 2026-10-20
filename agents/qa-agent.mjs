@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 // QA agent: reviews a post the way a human QA editor would, before it may go
 // live. Every post needs a passing report in data/qa/<slug>.json; the site
 // build hides posts without one (see src/lib/posts.ts).
@@ -310,7 +311,8 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
 
   const prev = readQa(post.slug);
   const factCheck = prev?.factCheck ?? { verified: false };
-  if (!factCheck.verified) err('facts not verified yet: check every product spec and claim against the sources, then run `node scripts/routine.mjs factcheck <slug> "<notes>"`');
+  if (factCheck.verified && factCheck.hash && factCheck.hash !== bodyHash(body)) err('the text changed after the fact check: verify the new text and run `node scripts/routine.mjs factcheck <slug> "<notes>"` again');
+  else if (!factCheck.verified) err('facts not verified yet: check every product spec and claim against the sources, then run `node scripts/routine.mjs factcheck <slug> "<notes>"`');
 
   // A post that is already live stays up when a later check finds a problem
   // (removing it would 404); the problem is reported as a warning to fix.
@@ -324,9 +326,12 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
 }
 
 /** Record the manual fact check (done by the routine's writer with web research). */
-export function recordFactCheck(slug, notes) {
+/** Hash of a post's body: a fact check covers exactly the text it read (frontmatter refreshes don't void it). */
+export const bodyHash = (md) => crypto.createHash('sha256').update(String(md).trim()).digest('hex').slice(0, 16);
+
+export function recordFactCheck(slug, notes, hash) {
   const prev = readQa(slug) ?? { slug, pass: false, errors: [], warnings: [] };
-  prev.factCheck = { verified: true, notes, at: new Date().toISOString() };
+  prev.factCheck = { verified: true, notes, at: new Date().toISOString(), ...(hash ? { hash } : {}) };
   fs.mkdirSync(path.dirname(path.join(QA_DIR, `${slug}.json`)), { recursive: true });
   fs.writeFileSync(path.join(QA_DIR, `${slug}.json`), JSON.stringify(prev, null, 2) + '\n');
   return prev.factCheck;
@@ -557,7 +562,8 @@ export async function qaTranslation(post, { posts = listPosts(), translations = 
 
   const prev = readQa(id);
   const factCheck = prev?.factCheck ?? { verified: false };
-  if (!factCheck.verified) err(`facts not verified yet: compare every claim with the English post and its sources, then run \`node scripts/routine.mjs factcheck ${id} "<notes>"\``);
+  if (factCheck.verified && factCheck.hash && factCheck.hash !== bodyHash(body)) err(`the text changed after the fact check: verify the new text and run \`node scripts/routine.mjs factcheck ${id} "<notes>"\` again`);
+  else if (!factCheck.verified) err(`facts not verified yet: compare every claim with the English post and its sources, then run \`node scripts/routine.mjs factcheck ${id} "<notes>"\``);
 
   const isLive = pub <= now - 24 * 3600000 && prev?.pass;
   const blocking = isLive ? [] : errors;
