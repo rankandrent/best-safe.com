@@ -17,8 +17,6 @@ secondaryKeywords:
   - best pistol vault
   - best handgun safe
   - handgun safe
-  - best bedside gun safe
-  - best nightstand gun safe
   - best small gun safe
   - best quick access gun safe
 entities:
