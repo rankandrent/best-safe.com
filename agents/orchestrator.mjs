@@ -71,7 +71,10 @@ export function keywordGate(q, posts = listPosts()) {
   // Many long-tail phrases are not in Ahrefs' database (not the same as zero searches). Those
   // need a recorded proxy: the closest broader keyword with real Ahrefs volume, checked on its SERP.
   const proxied = a.notInDatabase === true && typeof a.proxy?.volume === 'number' && a.proxy.volume > 0;
-  if (rules.requireAhrefs !== false && !measured && !proxied)
+  // While the Ahrefs key sits below its unit floor, SERP-checked keywords (source "no-ahrefs") may be written
+  // until rules.allowNoAhrefsUntil; measure them once units are back.
+  const noAhrefsOk = q.source === 'no-ahrefs' && Date.now() < Date.parse(rules.allowNoAhrefsUntil ?? '1970-01-01');
+  if (rules.requireAhrefs !== false && !measured && !proxied && !noAhrefsOk)
     return a.notInDatabase === true
       ? { status: 'needs-data', lastError: 'not in Ahrefs database: record a proxy (closest broader keyword with real volume and a matching SERP) via set-ahrefs, or drop it' }
       : { status: 'needs-data', lastError: 'no Ahrefs data recorded (run keywords-explorer-overview, US) — not selectable until checked' };

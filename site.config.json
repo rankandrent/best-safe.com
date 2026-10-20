@@ -15,28 +15,28 @@
       "path": "",
       "hreflang": "en-US",
       "ogLocale": "en_US",
-      "flag": "🇺🇸",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "label": "English"
     },
     "de": {
       "path": "de",
       "hreflang": "de-DE",
       "ogLocale": "de_DE",
-      "flag": "🇩🇪",
+      "flag": "\ud83c\udde9\ud83c\uddea",
       "label": "Deutsch"
     },
     "es": {
       "path": "es",
       "hreflang": "es-ES",
       "ogLocale": "es_ES",
-      "flag": "🇪🇸",
-      "label": "Español"
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "label": "Espa\u00f1ol"
     },
     "nl": {
       "path": "nl",
       "hreflang": "nl-NL",
       "ogLocale": "nl_NL",
-      "flag": "🇳🇱",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
       "label": "Nederlands"
     }
   },
@@ -162,14 +162,13 @@
     "timezone": "America/New_York",
     "weeklyPostsPerDay": [],
     "randomPhase": {
-      "min": 4,
-      "max": 5,
+      "min": 10,
+      "max": 10,
       "weights": [
-        1,
         1
       ]
     },
-    "maxPostsPerRun": 5,
+    "maxPostsPerRun": 10,
     "publishHoursLocal": [
       7,
       9,
@@ -183,8 +182,9 @@
     "releaseWindowLocal": {
       "startHour": 9.5,
       "endHour": 21.5,
-      "minGapMinutes": 90
-    }
+      "minGapMinutes": 60
+    },
+    "note": "Owner rule 2026-10-20: 10 new English posts per day per site (was 4-5)."
   },
   "organization": {
     "legalName": "Best Safe",
@@ -226,7 +226,8 @@
     "maxVolume": 2500,
     "minWords": 3,
     "maxKd": 10,
-    "minOwnerVolume": 10
+    "minOwnerVolume": 10,
+    "allowNoAhrefsUntil": "2026-11-09T00:00:00Z"
   },
   "qa": {
     "requiredFrom": "2026-10-18T00:00:00Z",
