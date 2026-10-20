@@ -1172,7 +1172,7 @@
     "lastError": "SERP 2026-10-18: store pages, no article intent; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1211,7 +1211,8 @@
     },
     "painPoints": [
       "safe-guides-floor-and-stair-load"
-    ]
+    ],
+    "publishedAt": "2026-10-20T20:08:36.950Z"
   },
   {
     "status": "merged",
@@ -1756,7 +1757,7 @@
     "lastError": "SERP 2026-10-18: SentrySafe support pages hold 5 of 10; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1794,7 +1795,8 @@
       "safe-guides-battery-dies-locks-owner-out",
       "safe-guides-new-batteries-still-wont-work",
       "home-safes-lost-or-jammed-key"
-    ]
+    ],
+    "publishedAt": "2026-10-20T20:03:41.777Z"
   },
   {
     "status": "parked",
@@ -2114,7 +2116,7 @@
     ]
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -2162,7 +2164,8 @@
       "home-safes-lightweight-needs-bolting",
       "gun-safes-rental-cannot-bolt-down",
       "gun-safes-rental-bolt-holes-deposit"
-    ]
+    ],
+    "publishedAt": "2026-10-20T20:05:04.108Z"
   },
   {
     "status": "parked",
@@ -2691,5 +2694,309 @@
     "rationale": "owner request 2026-10-20: add to the queue and publish in its normal turn (not now). Volume/KD not measured yet (Ahrefs API key below the 10,000-unit floor until 2026-11-09); measure before writing if units allow. Secondary variants are unmeasured candidates; drop any the SERP shows as a different intent (e.g. winder-only products).",
     "slug": "luxury-watch-safe",
     "lastError": "no Ahrefs data recorded (run keywords-explorer-overview, US) — not selectable until checked"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.983Z",
+    "secondaryKeywords": [
+      "best garage gun safe",
+      "gun safe for garage storage",
+      "garage gun safe humid"
+    ],
+    "questions": [
+      "Is a garage a good place for a gun safe?",
+      "How do I stop rust in a garage gun safe?"
+    ],
+    "priority": 600,
+    "keyword": "best gun safe for a garage",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Gun Safe for a Garage",
+    "cluster": "garage and humidity",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/TexasGuns thread #1, a Facebook video #3, an off-niche investigative blog #10 and two dealer blogs; 4 store/collection pages. No dedicated roundup on a big publisher. Autocomplete: 'best gun safe for a garage'. Pain points: cold-wall condensation, concrete floor. Keep distinct from pending how-to 'gun safe in garage'.",
+    "slug": "best-gun-safe-for-a-garage"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "gun safe for storage unit",
+      "storage unit gun safe"
+    ],
+    "questions": [
+      "Can you keep guns in a storage unit?",
+      "What safe is best for a storage unit?"
+    ],
+    "priority": 600,
+    "keyword": "best gun safe for a storage unit",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Gun Safe for a Storage Unit",
+    "cluster": "storage and off-site",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is generic: no page targets the phrase; r/Firearms thread, usconcealedcarry forum, YouTube and generic gun-safe roundups plus Home Depot and Bass Pro. Autocomplete suggestion. Do not give legal advice on facility rules; only point the reader to check the facility lease.",
+    "slug": "best-gun-safe-for-a-storage-unit"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "gun safe for hunting lodge",
+      "cabin gun safe",
+      "lightweight gun safe for cabin"
+    ],
+    "questions": [
+      "Do I need a fireproof safe in a hunting cabin?"
+    ],
+    "priority": 600,
+    "keyword": "best gun safe for hunting cabin",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Gun Safe for a Hunting Cabin",
+    "cluster": "remote and secondary homes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: two hunting forums (Ultimate Pheasant, Long Range Hunting), Reddit, YouTube; maker blogs (SecureIt, Blacksmith) rank but no independent roundup. 5 of 10 are stores/makers, so only medium-weak.",
+    "slug": "best-gun-safe-for-hunting-cabin"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "child proof handgun safe",
+      "best gun safe for toddlers",
+      "kid proof pistol safe",
+      "handgun safe with children in house"
+    ],
+    "questions": [
+      "What is the safest way to store a handgun with kids at home?",
+      "Are biometric safes child safe?"
+    ],
+    "priority": 600,
+    "keyword": "best handgun safe for homes with kids",
+    "category": "handgun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Handgun Safe for Homes with Kids",
+    "cluster": "child-safe quick access",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Reddit r/guns #1, Quora #6, Smith and Wesson Forum #8, YouTube #5, plus Pew Pew/TFR roundups aimed at bedside safes (not child-focused) and Liberty/Vault Pro/Safe and Vault Store pages. Safe-storage angle only; no legal advice.",
+    "slug": "best-handgun-safe-for-homes-with-kids"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "fireproof safe for trading cards",
+      "fireproof box for graded cards",
+      "fireproof case for sports cards"
+    ],
+    "questions": [
+      "Does a fireproof safe protect cards from heat and humidity?",
+      "What fire class do paper cards need?"
+    ],
+    "priority": 600,
+    "keyword": "best fireproof safe for sports cards",
+    "category": "fireproof-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Fireproof Safe for Sports Cards",
+    "cluster": "collectibles",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Reddit r/basketballcards #1, Facebook group #3, Blowout Cards forum #4, YouTube #6, plus Zion Cases/Fire Box maker pages and Spruce/Wirecutter generic. Collector forums dominate, no dedicated roundup.",
+    "slug": "best-fireproof-safe-for-sports-cards"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "fireproof safe for hard drives",
+      "fireproof safe for usb drives",
+      "fireproof safe for backups",
+      "UL class 125 safe"
+    ],
+    "questions": [
+      "Do regular fireproof safes protect hard drives?",
+      "What is a media-rated fireproof safe?"
+    ],
+    "priority": 600,
+    "keyword": "best fireproof safe for digital media",
+    "category": "fireproof-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Fireproof Safe for Digital Media",
+    "cluster": "data and media protection",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Reddit r/Safes #2 and r/DataHoarder #6, Dangerous Things forum #7, AnandTech forum #8; two retailer collections and Wirecutter/Spruce/BI generic. Hard-drive variants merged here to avoid cannibalization. Autocomplete suggestion.",
+    "slug": "best-fireproof-safe-for-digital-media"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "fireproof safe for photos and negatives",
+      "fireproof box for photographs",
+      "will a fireproof safe protect photos"
+    ],
+    "questions": [
+      "Do photos melt in a fireproof safe?",
+      "What UL class protects photographs?"
+    ],
+    "priority": 600,
+    "keyword": "best fireproof safe for family photos",
+    "category": "fireproof-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Fireproof Safe for Family Photos",
+    "cluster": "data and media protection",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/preppers #1, YouTube #4, Facebook group #5, Scrapbook.com forum #7, an Amazon listing; no retailer category pages. Related to digital media post: keep photos (class 150/125 temperature limits) as the angle.",
+    "slug": "best-fireproof-safe-for-family-photos"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "safe for passports and documents",
+      "passport safe at home",
+      "best safe for birth certificates"
+    ],
+    "questions": [
+      "Where should I keep my passport at home?",
+      "Do passports need a fireproof safe?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for passports",
+    "category": "fireproof-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for Passports",
+    "cluster": "document safes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/Safes #1, Overland Bound forum #5, Facebook group #7, Quora #10, Brinks article; Wirecutter/Spruce generic, two stores. Different angle from 'best fireproof document safe' (passport-size, travel and home use); do not repeat that post's picks wholesale.",
+    "slug": "best-safe-for-passports"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "safe for camera equipment",
+      "safe for photography gear",
+      "camera storage safe",
+      "best safe for lenses"
+    ],
+    "questions": [
+      "Is a gun safe good for camera gear?",
+      "Does camera gear need humidity control?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for camera gear",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for Camera Gear",
+    "cluster": "specialty valuables",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is very weak: DPReview forum #1, r/photography #2, three photography blogs, B&H explainer #4, YouTube; no safe retailer in the top 10. Include humidity and desiccant notes (links to dehumidifier post).",
+    "slug": "best-safe-for-camera-gear"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "rv safe",
+      "best safe for a camper",
+      "best safe for motorhome",
+      "rv floor safe"
+    ],
+    "questions": [
+      "Where should I put a safe in an RV?",
+      "Can you bolt a safe to an RV floor?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for rv",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for an RV",
+    "cluster": "mobile and secondary homes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/RVLiving #1, Grand Design and iRV2 forums, Facebook group, YouTube, rv.com archive; 4 store pages (Bomb City, Mycubesafe, Amazon, RecPro). No independent roundup. Camper variant merged.",
+    "slug": "best-safe-for-rv"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "boat safe",
+      "marine safe",
+      "safe for boats",
+      "best safe for yacht"
+    ],
+    "questions": [
+      "How do you secure a safe on a boat?",
+      "Do boat safes need to be waterproof?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for a boat",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for a Boat",
+    "cluster": "mobile and secondary homes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is very weak: Trawler Forum threads #2 and #7, off-topic SAFE Boats and boating-safety pages, two Australian sites, YouTube, Vitrifrigo and Defender product pages. Keep to US-sold products only.",
+    "slug": "best-safe-for-a-boat"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T20:11:17.984Z",
+    "secondaryKeywords": [
+      "medication safe",
+      "medicine safe",
+      "safe for prescription medication",
+      "locking medicine safe"
+    ],
+    "questions": [
+      "How do I lock up medications from kids and visitors?",
+      "Is a lock box or a safe better for medication?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for medications",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for Medications",
+    "cluster": "specialty valuables",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Wirecutter #5, GoodRx #3, Locks Save Lives nonprofit #2, r/Safes #4, Facebook group #9; 4 retailers (Amazon x2, Walmart, DisposeRx) and a niche seller. Safe-storage angle only; no medical or legal advice. Overlaps 'best key lock box' only slightly (cannibal check ok).",
+    "slug": "best-safe-for-medications"
   }
 ]
