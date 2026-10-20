@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:47:08.761749Z",
+  "updatedAt": "2026-10-20T20:17:32.247Z",
   "categories": {
     "gun-safes": [
       {
@@ -2197,7 +2197,9 @@
           "best handgun safe for nightstand",
           "best bedside gun safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "best-under-bed-gun-safe"
+        ],
         "foundAt": "2026-10-20"
       },
       {
@@ -2242,7 +2244,9 @@
           "best handgun safe for nightstand",
           "best bedside gun safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "best-under-bed-gun-safe"
+        ],
         "foundAt": "2026-10-20"
       },
       {
@@ -2291,7 +2295,103 @@
           "best handgun safe for nightstand",
           "nightstand gun safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "best-under-bed-gun-safe"
+        ],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "handgun-safes-under-bed-clearance-fit",
+        "pain": "The gap under the bed is lower than the safe, or the bed frame's center supports block it",
+        "details": "Owners measure only after buying and find the safe taller than the clearance under the frame, or the middle legs and rails of the bed stop a long safe. Many frames leave 4-5 in, while long-gun under-bed safes run about 6-7 in tall; the drawer or door also needs room to open.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/homedefense/comments/1fnwlo8/shallow_sub5_underbed_shotgun_safes/",
+            "platform": "reddit",
+            "title": "Shallow (sub-5\") under-bed shotgun safes? | r/homedefense",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://gununiversity.com/best-under-bed-safes/",
+            "platform": "article",
+            "title": "Best Under Bed Safes | Gun University",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "We have a bed frame that has 4.25\" of clearance underneath. it doesn't leave a lot of room for a gun safe.",
+            "url": "https://www.reddit.com/r/homedefense/comments/1fnwlo8/shallow_sub5_underbed_shotgun_safes/"
+          },
+          {
+            "text": "My main mistake was not factoring in the middle of the bed frame poles.",
+            "url": "https://gununiversity.com/best-under-bed-safes/"
+          }
+        ],
+        "searches": [
+          "site:reddit.com under bed gun safe bed frame clearance doesn't fit too tall"
+        ],
+        "keywords": [
+          "best under bed gun safe",
+          "under bed gun safe",
+          "under bed rifle safe"
+        ],
+        "coveredBy": [
+          "best-under-bed-gun-safe"
+        ],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "handgun-safes-under-bed-carried-off",
+        "pain": "An under-bed safe held only by a cable or a bed frame can still be dragged out and carried off",
+        "details": "Renters and apartment owners who cannot drill cable the box to the bed frame and wonder if that is enough. Replies point out that a light box can be snatched and opened later, so bolt it down where allowed or tie it to something heavy and hard to cut, and keep it out of sight.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/rlieht/how_do_you_store_firearms_in_a_small_space/",
+            "platform": "reddit",
+            "title": "How do you store firearms in a small space? | r/liberalgunowners",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.sigtalk.com/threads/under-bed-safe-options.417030/",
+            "platform": "forum",
+            "title": "Under Bed Safe Options | SIG Talk",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://gununiversity.com/best-under-bed-safes/",
+            "platform": "article",
+            "title": "Best Under Bed Safes | Gun University",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "A pelican case locked to bed frame or radiator isn't good enough.",
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/rlieht/how_do_you_store_firearms_in_a_small_space/"
+          },
+          {
+            "text": "I'm in an apartment, so I can't exactly anchor a real safe to anything.",
+            "url": "https://www.sigtalk.com/threads/under-bed-safe-options.417030/"
+          },
+          {
+            "text": "It takes time to break open a safe, but it doesn’t take much time to snatch a safe, throw it in a van, and drive away.",
+            "url": "https://gununiversity.com/best-under-bed-safes/"
+          }
+        ],
+        "searches": [
+          "site:reddit.com best under bed gun safe",
+          "under bed safe options forum"
+        ],
+        "keywords": [
+          "best under bed gun safe",
+          "under bed gun safe"
+        ],
+        "coveredBy": [
+          "best-under-bed-gun-safe"
+        ],
         "foundAt": "2026-10-20"
       }
     ]

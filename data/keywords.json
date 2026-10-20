@@ -1096,7 +1096,7 @@
     "publishedAt": "2026-10-20T20:16:38.157Z"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1131,7 +1131,8 @@
       "stores": 3,
       "forums": 1,
       "videos": 2
-    }
+    },
+    "publishedAt": "2026-10-20T20:24:18.639Z"
   },
   {
     "status": "parked",

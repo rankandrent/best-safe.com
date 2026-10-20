@@ -1,0 +1,471 @@
+{
+  "keyword": "best under bed gun safe",
+  "createdAt": "2026-10-20T20:24:18.642Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "under bed gun safe",
+    "entityVariants": [
+      "under-bed gun safe",
+      "under bed safe",
+      "underbed gun safe",
+      "under bed rifle safe",
+      "under-bed safe",
+      "bed safe"
+    ],
+    "entities": [
+      {
+        "name": "SnapSafe",
+        "type": "brand",
+        "relation": "Hornady-owned maker of the slide-out Under Bed Safe drawer (Medium and Large)"
+      },
+      {
+        "name": "Hornady",
+        "type": "brand",
+        "relation": "maker of the RAPiD Safe AR Gunlocker and owner of SnapSafe"
+      },
+      {
+        "name": "SecureIt",
+        "type": "brand",
+        "relation": "maker of the Fast Box Model 47 slim long-gun box"
+      },
+      {
+        "name": "RFID",
+        "type": "lock type",
+        "relation": "touch-free tag entry (wristband, fob, decal) on the Hornady pick"
+      },
+      {
+        "name": "keypad",
+        "type": "lock type",
+        "relation": "push-button code entry on all three picks; backlighting and beeps matter at night"
+      },
+      {
+        "name": "fingerprint scanner",
+        "type": "lock type",
+        "relation": "capacitive biometric reader on the current Fast Box 47"
+      },
+      {
+        "name": "override key",
+        "type": "backup entry",
+        "relation": "the way in when batteries or electronics fail; keep it outside the safe"
+      },
+      {
+        "name": "bed frame",
+        "type": "installation",
+        "relation": "clearance under it limits safe height; center supports block long safes; anchor point for a cable"
+      },
+      {
+        "name": "security cable",
+        "type": "accessory",
+        "relation": "tethers an under-bed safe to the bed frame where drilling is not allowed; can be cut"
+      },
+      {
+        "name": "slide-out drawer",
+        "type": "design",
+        "relation": "drawer-style under-bed safes need floor space in front to open"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "lower number = thicker steel; 14-gauge vs 16-gauge in these picks"
+      },
+      {
+        "name": "California DOJ",
+        "type": "listing",
+        "relation": "roster of approved firearm safety devices; Fast Box Model 47 is listed"
+      },
+      {
+        "name": "UL 72",
+        "type": "standard",
+        "relation": "independent fire test; none of the under-bed picks carries one"
+      },
+      {
+        "name": "AR-15",
+        "type": "firearm",
+        "relation": "the home-defense long gun most under-bed safes are sized around"
+      },
+      {
+        "name": "shotgun",
+        "type": "firearm",
+        "relation": "the other common home-defense long gun stored under a bed"
+      },
+      {
+        "name": "bolt-down",
+        "type": "installation",
+        "relation": "pre-drilled holes let the safe be anchored to the floor so it cannot be carried off"
+      }
+    ],
+    "attributes": [
+      "exterior height vs bed clearance",
+      "interior height and usable drawer length",
+      "lock type and backup entry",
+      "keypad backlight and beeps",
+      "steel gauge",
+      "locking lugs and pry resistance",
+      "weight",
+      "long-gun length capacity",
+      "bolt-down holes and cable",
+      "power source and battery life",
+      "fire rating (none)",
+      "California DOJ listing"
+    ],
+    "ngrams": [
+      "under bed gun safe",
+      "under bed safe",
+      "bed frame",
+      "slide-out drawer",
+      "long gun",
+      "home defense",
+      "override key",
+      "security cable",
+      "pre-drilled holes",
+      "14-gauge steel",
+      "fire rating",
+      "under the bed"
+    ],
+    "skipgrams": [
+      "bed…clearance",
+      "bolt…floor",
+      "cable…frame",
+      "steel…gauge",
+      "backup…key",
+      "fire…rating",
+      "keypad…backlit"
+    ],
+    "nlpTerms": [
+      "clearance",
+      "drawer",
+      "keypad",
+      "RFID",
+      "fingerprint",
+      "battery",
+      "cable",
+      "anchor",
+      "rifle",
+      "shotgun",
+      "handgun",
+      "steel",
+      "gauge",
+      "pry",
+      "lock",
+      "key",
+      "measure",
+      "renters",
+      "kids",
+      "humidity",
+      "fire",
+      "approved",
+      "optic"
+    ],
+    "questions": [
+      "How much clearance do you need for an under bed gun safe?",
+      "Will an AR-15 fit in an under bed gun safe?",
+      "How do you secure an under bed safe without drilling?",
+      "Are under bed gun safes fireproof?",
+      "Is an under bed safe enough to keep kids away from a gun?",
+      "Which under bed safe opens fastest in the dark?"
+    ],
+    "contentGaps": [
+      "Exterior height of every pick against typical bed clearance, plus the bed frame's center supports and the room a drawer or door needs to open",
+      "Usable interior vs outside size (SnapSafe Large drawer is about 4.25-4.5 in tall and 19 in usable length per an owner)",
+      "What happens at night: backlit or not, beeps or silent, battery-mode wake-up press, where the override key lives",
+      "Anchoring for renters: bolt-down vs cable to the bed frame, and why a cable only slows a thief",
+      "No under-bed pick has a fire rating; Hornady says its locker isn't meant to protect against fire, water or humidity",
+      "Legal storage context: California DOJ safety device listing for the Fast Box, point to state and local rules without legal advice"
+    ],
+    "outline": [
+      {
+        "h2": "Our under bed gun safe picks",
+        "intent": "direct answer and the three picks, each with owner notes",
+        "h3": [
+          "SnapSafe Under Bed Safe Large: Best drawer for several guns",
+          "Hornady RAPiD Safe AR Gun Locker: Fastest no-touch entry",
+          "SecureIt Fast Box Model 47: Best slim box for one long gun"
+        ]
+      },
+      {
+        "h2": "Under bed gun safe comparison",
+        "intent": "table: height vs clearance, lock and backup, steel, weight, what fits, anchoring",
+        "h3": []
+      },
+      {
+        "h2": "Measure the bed before you buy an under bed safe",
+        "intent": "pain point: clearance, center supports, opening room",
+        "h3": []
+      },
+      {
+        "h2": "Anchoring an under bed gun safe when you can't drill",
+        "intent": "pain point: carried off; bolt-down vs cable; renters",
+        "h3": []
+      },
+      {
+        "h2": "Opening it in the dark, and keeping kids out",
+        "intent": "pain points: battery or reader fails, beeps, kids; backup key habits",
+        "h3": []
+      },
+      {
+        "h2": "What an under bed gun safe won't do",
+        "intent": "no fire rating, humidity, no burglary rating, legal storage pointers",
+        "h3": []
+      },
+      {
+        "h2": "Our verdict",
+        "intent": "close the opening scene, next-question links",
+        "h3": []
+      }
+    ],
+    "targetWords": 1750,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://gununiversity.com/best-under-bed-safes/",
+        "https://www.americanfirearms.org/under-bed-gun-safes/",
+        "https://nwsafe.com/blogs/tips/under-bed-gun-safe"
+      ],
+      "productStyle": "pros-cons",
+      "productStyleReason": "Gun University gives every pick a pros and cons list, American Firearms uses What we liked / What we didn't lists; NW Safe compares two safes in paragraphs.",
+      "avgWords": 1700,
+      "avgWordsNote": "Approximate main-content counts from the Firecrawl scrapes (2026-10-20): Gun University about 2,400, American Firearms about 1,700 including the author box, NW Safe about 1,000. Cape Fear Investigative (about 7,300 words of generated Amazon listings) was read for products but left out of the average as an outlier outside the top 10.",
+      "avgProducts": 5,
+      "commonSections": [
+        "why under the bed",
+        "picks with pros and cons",
+        "spec or comparison table",
+        "buying guide: locks, size, steel gauge, securing it",
+        "downsides / what it isn't good for"
+      ],
+      "usesComparisonTable": true,
+      "usesFaq": false,
+      "usesBuyingGuide": true
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.secureitgunstorage.com/collections/fast-box-hidden-gun-safes",
+        "title": "Fast Box™ Hidden Gun Safes | Under Bed & Rapid Access | SecureIt"
+      },
+      {
+        "position": 2,
+        "url": "https://nwsafe.com/blogs/tips/under-bed-gun-safe",
+        "title": "Under Bed Gun Safe: Liberty HDV-700X vs. AMSEC UBS648"
+      },
+      {
+        "position": 3,
+        "url": "https://www.reddit.com/r/homedefense/comments/jvc806/best_under_bed_gun_safe/",
+        "title": "Best Under Bed Gun Safe? : r/homedefense - Reddit"
+      },
+      {
+        "position": 4,
+        "url": "https://www.gunsafesnow.com/gun-safes/underbed-safes/",
+        "title": "Underbed Safes - GunSafesNow.com"
+      },
+      {
+        "position": 5,
+        "url": "https://www.amazon.com/Under-Bed-Safe-Drawer-Rifle/dp/B0CCGNDDTR",
+        "title": "Amazon.com: Under Bed Gun Safe Drawer for AR Rifle - Long Storage ..."
+      },
+      {
+        "position": 6,
+        "url": "https://gununiversity.com/best-under-bed-safes/",
+        "title": "Best Under Bed Safes: Safe & Secure - Gun University"
+      },
+      {
+        "position": 7,
+        "url": "https://www.youtube.com/watch?v=khhx28QVJ7Y",
+        "title": "Vaultek NSL200i Review: Best Under-Bed Rifle Safe for ... - YouTube"
+      },
+      {
+        "position": 8,
+        "url": "https://www.topfirearmreviews.com/post/best-handgun-safes",
+        "title": "Best Pistol Safes In 2026: Biometric & Keypad Bedside Models"
+      },
+      {
+        "position": 9,
+        "url": "https://www.americanfirearms.org/under-bed-gun-safes/",
+        "title": "The Best Under Bed Gun Safes | American Firearms"
+      },
+      {
+        "position": 10,
+        "url": "https://www.snapsafe.com/specialty-safes/under-bed-safe",
+        "title": "SnapSafe® Under Bed Safes"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 1,
+      "withYear": 1,
+      "withNumber": 0,
+      "commonModifiers": [
+        "rapid access",
+        "hidden",
+        "for AR rifle",
+        "safe & secure",
+        "vs",
+        "rifle"
+      ],
+      "gap": "No title tells the reader whether the safe fits the gap under their own bed; our H1 promises picks sized against real bed clearance. seoTitle stays exactly the keyword (owner rule)."
+    },
+    "seoTitle": "Best Under Bed Gun Safe",
+    "h1Rule": "H1 starts with the exact keyword, no colon",
+    "commonPoints": [
+      "An under-bed safe keeps a home-defense long gun or handguns close, out of sight and away from kids",
+      "Pick a lock you can work fast in the dark (keypad, RFID or biometric) with a key backup",
+      "Measure the space under the bed before buying",
+      "Bolt it down or cable it, because a small safe can be carried off",
+      "14-16 gauge steel is typical; these are not high-security or fire-rated safes"
+    ],
+    "ourGain": [
+      {
+        "point": "Every pick's exterior height (6, 6.5, 6.75 in) set against real bed clearance, plus usable inside height and drawer length, and the room a drawer or lid needs to open",
+        "source": "pain point handgun-safes-under-bed-clearance-fit (r/homedefense 1fnwlo8: 4.25 in clearance); SnapSafe manual; Hornady manual; SecureIt spec page; The Firearm Blog owner measurements"
+      },
+      {
+        "point": "Night-time access details nobody lists together: SnapSafe keypad beeps and isn't backlit, Hornady needs a button press to wake the RFID reader on batteries, Fast Box keypad is backlit with a fingerprint reader and no clear button",
+        "source": "The Firearm Blog owner review; Hornady AR Gunlocker manual; SecureIt Fast Box 47 page; r/homedefense 17jinth"
+      },
+      {
+        "point": "Anchoring for renters: bolt-down holes vs a 5 ft or 1,500 lb rated cable to the bed frame, and why a cable only slows a thief",
+        "source": "pain point handgun-safes-under-bed-carried-off (r/liberalgunowners rlieht, SIG Talk thread); Gun University; Amazon listing specs"
+      },
+      {
+        "point": "None of the picks is fire rated, and Hornady's manual says its locker isn't meant to protect against fire, water or humidity; Hornady won't send replacement keys",
+        "source": "Hornady RAPiD Safe AR Gunlocker owner's manual (static.hornady.media PDF)"
+      },
+      {
+        "point": "Fast Box Model 47 is on the California DOJ safety device chart; readers should check their own state and local storage rules",
+        "source": "https://oag.ca.gov/firearms/fsd-chart-retail; SecureIt product page"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "handgun-safes-under-bed-clearance-fit",
+        "pain": "The gap under the bed is lower than the safe, or the bed frame's center supports block it",
+        "details": "Many frames leave 4-5 in, while long-gun under-bed safes run about 6-7 in tall; the drawer or door also needs room to open.",
+        "sources": [
+          "https://www.reddit.com/r/homedefense/comments/1fnwlo8/shallow_sub5_underbed_shotgun_safes/",
+          "https://gununiversity.com/best-under-bed-safes/"
+        ],
+        "quotes": [
+          {
+            "text": "We have a bed frame that has 4.25\" of clearance underneath. it doesn't leave a lot of room for a gun safe.",
+            "url": "https://www.reddit.com/r/homedefense/comments/1fnwlo8/shallow_sub5_underbed_shotgun_safes/"
+          },
+          {
+            "text": "My main mistake was not factoring in the middle of the bed frame poles.",
+            "url": "https://gununiversity.com/best-under-bed-safes/"
+          }
+        ]
+      },
+      {
+        "id": "handgun-safes-under-bed-carried-off",
+        "pain": "An under-bed safe held only by a cable or a bed frame can still be dragged out and carried off",
+        "details": "Renters who cannot drill cable the box to the bed frame; a light box can be snatched and opened later, so bolt it where allowed or tie it to something heavy and hard to cut.",
+        "sources": [
+          "https://www.reddit.com/r/liberalgunowners/comments/rlieht/how_do_you_store_firearms_in_a_small_space/",
+          "https://www.sigtalk.com/threads/under-bed-safe-options.417030/",
+          "https://gununiversity.com/best-under-bed-safes/"
+        ],
+        "quotes": [
+          {
+            "text": "A pelican case locked to bed frame or radiator isn't good enough.",
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/rlieht/how_do_you_store_firearms_in_a_small_space/"
+          },
+          {
+            "text": "I'm in an apartment, so I can't exactly anchor a real safe to anything.",
+            "url": "https://www.sigtalk.com/threads/under-bed-safe-options.417030/"
+          }
+        ]
+      },
+      {
+        "id": "handgun-safes-nightstand-fingerprint-battery-fails",
+        "pain": "Cheap bedside safe: the battery runs out or the fingerprint reader fails, so it will not open when needed",
+        "details": "Fix: a backup key stored outside the safe, a spare battery, a low-battery check, and wall power where offered.",
+        "sources": [
+          "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/",
+          "https://www.topfirearmreviews.com/post/best-handgun-safes"
+        ],
+        "quotes": [
+          {
+            "text": "Ive had a single night stand safe from Amazon and had issue where the battery runs out or the finger print doesn't work etc. tossed it after",
+            "url": "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/"
+          }
+        ]
+      },
+      {
+        "id": "handgun-safes-nightstand-kids-in-house",
+        "pain": "Parents do not want an unsecured gun by the bed but need access in seconds",
+        "details": "A quick-access safe with a key backup kept out of reach; RFID tags and keys stay with the adult, not in a drawer.",
+        "sources": [
+          "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/",
+          "https://www.reddit.com/r/Safes/comments/1icg1m2/under_bed_shotgun_safe_with_simplex_lock/"
+        ],
+        "quotes": [
+          {
+            "text": "I also use a liberty quickvault. Keeps kids out, easy to access, and comes with a key if battery dies.",
+            "url": "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/"
+          }
+        ]
+      },
+      {
+        "id": "handgun-safes-nightstand-loud-and-fit",
+        "pain": "The safe is loud (beeps, spring-loaded lid) or too big for the space",
+        "details": "Check for a silent mode and measure the opening space; the SnapSafe keypad beeps with no mute per an owner, Hornady lets you switch tones off.",
+        "sources": [
+          "https://www.thefirearmblog.com/blog/2021/02/17/tfb-review-snapsafe/",
+          "https://www.topfirearmreviews.com/post/best-handgun-safes"
+        ],
+        "quotes": [
+          {
+            "text": "The lock works great, but it makes some beeping noise when I push it, and I can't turn off the noises.",
+            "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+          }
+        ]
+      }
+    ],
+    "linkPlan": [
+      {
+        "to": "/blog/best-handgun-safe-for-nightstand/",
+        "anchor": "handgun safe for a nightstand",
+        "where": "intro or clearance section, for readers whose bed is too low"
+      },
+      {
+        "to": "/blog/best-gun-safe-for-apartment/",
+        "anchor": "gun safe for an apartment",
+        "where": "anchoring section, renters"
+      },
+      {
+        "to": "/blog/how-to-bolt-down-a-safe/",
+        "anchor": "how to bolt down a safe",
+        "where": "anchoring section"
+      },
+      {
+        "to": "/blog/best-dehumidifier-for-gun-safe/",
+        "anchor": "gun safe dehumidifier",
+        "where": "what it won't do, humidity"
+      },
+      {
+        "to": "/safe-buying-checklist/",
+        "anchor": "safe buying checklist",
+        "where": "verdict"
+      },
+      {
+        "to": "/how-we-score/",
+        "anchor": "how we score safes",
+        "where": "comparison table lead-in"
+      }
+    ],
+    "notes": "Products come from data/briefs/best-under-bed-gun-safe.products.json (3 products with hand-verified Amazon US ASINs). No legal advice: point to the California DOJ list and state and local rules only. No prices. SERP 2026-10-20 (Firecrawl): 3 maker pages, 2 stores, 1 Amazon, 1 YouTube, 1 Reddit thread, 3 articles (Gun University, Top Firearm Reviews, American Firearms) plus the NW Safe dealer blog."
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-biometric-gun-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-handgun-safe-for-nightstand",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-pistol-safe",
+      "mode": "related-box"
+    }
+  ]
+}

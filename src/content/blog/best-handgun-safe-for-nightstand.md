@@ -60,7 +60,8 @@ products:
     query: Fort Knox Original Pistol Box PB1
     asin: B072NFNDZB
     amazonTitle: >-
-      Fort Knox Original Pistol Box (PB1), Security for pistols, handgun, California DOJ Certified, Quick-Access Mechanical Lock, Heavy-Duty Steel
+      Fort Knox Original Pistol Box (PB1), Security for pistols, handgun,
+      California DOJ Certified, Quick-Access Mechanical Lock, Heavy-Duty Steel
     asinVerified: true
     badge: Best no-battery nightstand pick
     summary: >-
@@ -146,12 +147,13 @@ products:
     query: Vaultek 20 Series Essential Biometric Handgun Safe
     asin: B0GWMV1C16
     amazonTitle: >-
-      VAULTEK 20 Series Compact Quick Access Biometric Safe, Rugged Construction, Auto-Open, & Anti-Theft Protection (Essential (Biometric)
+      VAULTEK 20 Series Compact Quick Access Biometric Safe, Rugged
+      Construction, Auto-Open, & Anti-Theft Protection (Essential (Biometric)
     asinVerified: true
     badge: Best biometric nightstand pick
     summary: >-
-      A slim 16-gauge biometric and backlit-keypad pistol safe that runs on three
-      AAA batteries, with manual backup keys. The guides reviewed earlier
+      A slim 16-gauge biometric and backlit-keypad pistol safe that runs on
+      three AAA batteries, with manual backup keys. The guides reviewed earlier
       versions of this series: American Firearms names the VT20i, Gun University
       names the keypad-only VT20, and Pew Pew lists the 20 Series as its
       high-tech pick.
@@ -163,10 +165,9 @@ products:
       model on the listing.
     pros:
       - >-
-        Fingerprint (up to 20), 5-digit backlit keypad and manual keys as
-        backup (Vaultek)
-      - >-
-        16 ga steel, anti-pry bars and dual anti-impact latches (Vaultek)
+        Fingerprint (up to 20), 5-digit backlit keypad and manual keys as backup
+        (Vaultek)
+      - '16 ga steel, anti-pry bars and dual anti-impact latches (Vaultek)'
       - >-
         Backlit keypad with proximity sensor and interior LED lights for
         low-light access (Vaultek)
@@ -180,16 +181,16 @@ products:
         VS20i and VT20 listings are earlier versions with different specs
     specs:
       Lock: >-
-        Biometric (up to 20 fingerprints), 5-digit backlit keypad, manual
-        key backup
-      Steel: >-
-        16-gauge carbon steel, anti-pry bars, dual anti-impact latches (Vaultek)
+        Biometric (up to 20 fingerprints), 5-digit backlit keypad, manual key
+        backup
+      Steel: '16-gauge carbon steel, anti-pry bars, dual anti-impact latches (Vaultek)'
       Exterior: 11.5 in W x 9 in D x 2.75 in H (Vaultek)
       Interior: 11 in L x 5.75 in W x 2 in H
       Weight: 7.2 lb
-      Power: >-
-        Three AAA alkaline batteries, not included (Vaultek)
-      Bolt-down: Pre-drilled holes with included hardware, or a steel security cable (Vaultek)
+      Power: 'Three AAA alkaline batteries, not included (Vaultek)'
+      Bolt-down: >-
+        Pre-drilled holes with included hardware, or a steel security cable
+        (Vaultek)
       Fire rating: None published
     scores:
       security: 7
@@ -200,8 +201,8 @@ products:
       No fire claim, so fire is left out. Security 7 for 16 ga steel and
       anti-pry latches with a key backup but no independent burglary rating or
       DOJ listing confirmed; access 8 for three fast entry modes and lighting,
-      held back by battery dependence; capacity 6 for one full-size pistol; value
-      6 for a premium price.
+      held back by battery dependence; capacity 6 for one full-size pistol;
+      value 6 for a premium price.
     owners:
       read: 1
       praise:
@@ -224,7 +225,9 @@ products:
     query: Hornady RAPiD Safe Night Guard 98215
     asin: B081DK7DQH
     amazonTitle: >-
-      Hornady Rapid Safe Night Guard – Nightstand Gun Safe with RFID Reader, Clock, USB Ports – RFID Safe for Fast, Multiple Method Entry – Includes Rapid Safe, 3 Methods of Entry and Security Cable
+      Hornady Rapid Safe Night Guard – Nightstand Gun Safe with RFID Reader,
+      Clock, USB Ports – RFID Safe for Fast, Multiple Method Entry – Includes
+      Rapid Safe, 3 Methods of Entry and Security Cable
     asinVerified: true
     badge: Best RFID bedside pick
     summary: >-
@@ -294,7 +297,8 @@ products:
     query: SentrySafe QAP2EL Quick Access Pistol Safe Digital Keypad
     asin: B072F4Y7M9
     amazonTitle: >-
-      SentrySafe Gun Safe with Interior Light Stores Two Handguns, and a Digital Keypad offers Quick Access to Firearm Storage, Bolt Down Kit, QAP2EL
+      SentrySafe Gun Safe with Interior Light Stores Two Handguns, and a Digital
+      Keypad offers Quick Access to Firearm Storage, Bolt Down Kit, QAP2EL
     asinVerified: true
     badge: Best two-pistol nightstand pick
     summary: >-
@@ -378,7 +382,8 @@ products:
     query: GunVault SpeedVault SV500 Handgun Safe
     asin: B006OGNLKA
     amazonTitle: >-
-      GunVault SpeedVault SV500 Quick Access Handgun Safe with Drop-Down Drawer, Keypad Entry & Tamper Protection – Pistol Lockbox for Home or Business
+      GunVault SpeedVault SV500 Quick Access Handgun Safe with Drop-Down Drawer,
+      Keypad Entry & Tamper Protection – Pistol Lockbox for Home or Business
     asinVerified: true
     badge: Best side-of-nightstand mount
     summary: >-
@@ -519,9 +524,10 @@ faqs:
   - q: Will a handgun safe fit in my nightstand drawer?
     a: >-
       Only if the drawer's inside width, depth and height beat the safe's
-      exterior size, so measure the drawer rather than the gun. The Vaultek
-      20 Series Essential Biometric is 11.5 inches wide and 2.75 inches tall, while the SentrySafe
-      QAP2EL is 16.4 inches wide and suits a wide drawer or the nightstand top.
+      exterior size, so measure the drawer rather than the gun. The Vaultek 20
+      Series Essential Biometric is 11.5 inches wide and 2.75 inches tall, while
+      the SentrySafe QAP2EL is 16.4 inches wide and suits a wide drawer or the
+      nightstand top.
   - q: What happens if the battery dies or the fingerprint reader fails?
     a: >-
       An electronic bedside safe then depends on its backup key, so keep that
@@ -541,6 +547,8 @@ faqs:
 author: editorial-team
 heroImage: /images/featured/best-handgun-safe-for-nightstand.png
 heroAlt: Best Handgun Safe for Nightstand Use – Best Safe buying guide
+related:
+  - best-under-bed-gun-safe
 ---
 
 The best handgun safe for nightstand use, and our pick for a nightstand gun safe, is the Fort Knox Original Pistol Box PB1, because its Simplex mechanical lock opens by feel with no battery to die at 3 a.m. If you want a fingerprint reader, take the Vaultek 20 Series Essential Biometric; for hands-free RFID entry, the Hornady RAPiD Safe Night Guard; for two pistols, the SentrySafe QAP2EL; and for a full drawer, the GunVault SpeedVault SV500 that bolts to the nightstand's side.

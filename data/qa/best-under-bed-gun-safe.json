@@ -1,0 +1,17 @@
+{
+  "slug": "best-under-bed-gun-safe",
+  "pass": true,
+  "checkedAt": "2026-10-20T20:23:11.417Z",
+  "errors": [],
+  "warnings": [
+    "product \"SnapSafe Under Bed Safe Large\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady RAPiD Safe AR Gun Locker\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"SecureIt Fast Box Model 47\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified 2026-10-20 via Firecrawl. SnapSafe Under Bed Safe Large 75401: 40x22x6 in, 105 lb, 14-gauge, pry-resistant door, 3-8 digit code with key backup, pre-drilled holes, 5 ft cable, lifetime warranty, Medium 75402 5x26x20 in (snapsafe.com page); interior 37x20x4.5 in and 4 AA (SnapSafe manual PDF via search excerpt); owner measurements 4.25 in drawer height, 19 in usable length, beeping with no mute, not backlit, two override keys, near-silent key, 16 in AR fits (The Firearm Blog review read in full); SIG Talk owner of two Large safes (thread read in full). Amazon B07831CKL7 scraped: title SnapSafe Under Bed Safe Large 40 x 6 x 22, model 75401. Hornady RAPiD Safe AR Gunlocker 98190: 16-gauge, four hardened locking lugs, 2-gun capacity, 42x15.25x6.75 ext, 40.5x13.5x5.5 int, 50 lb, 4-6 digit keypad, RFID up to 5 tags, CA DOJ approved, ASTM child-resistance (hornady.com page); 55 lb, 12V or 4 AA, battery wake press, tones off, replace batteries yearly, no replacement keys, not for fire/water/humidity (owner's manual PDF read); 1,500 lb cable (Amazon B06XG4YVH2 listing, model 98190). SecureIt Fast Box Model 47 FBX-47-02-BML: 14-gauge welded, 3-point locking, piano hinge, backlit 4-digit keypad, capacitive fingerprint, USB-C port, 2 override keys, 47 lb spec table, ext 47.25x6.5x13 (14 w knob), int 47x6x12, one long gun up to 46.5 in flat or two upright, CA DOJ approved (secureitgunstorage.com page); Amazon B0DSJT7BQJ same model number, in stock, sold by SecureIt; Fast Box Model 47 on CA DOJ fsd chart (oag.ca.gov search excerpt). No fire ratings on any pick. Owner claims and quotes checked against the SIG Talk thread, Gun University page, The Firearm Blog review and Reddit search excerpts at the cited thread URLs (r/homedefense 1fnwlo8, 17jinth; r/liberalgunowners rlieht, xv1yrf; r/CAguns 1bof7uw). NW Safe statement checked on its page. No prices, no star ratings, no legal advice.",
+    "at": "2026-10-20T20:23:10.892Z",
+    "hash": "358a111ee2255261"
+  }
+}
