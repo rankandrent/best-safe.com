@@ -1,0 +1,20 @@
+{
+  "slug": "best-handgun-safe-for-nightstand",
+  "pass": true,
+  "checkedAt": "2026-10-20T10:17:40.030Z",
+  "errors": [],
+  "warnings": [
+    "product \"Fort Knox Original Pistol Box PB1\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek VT20i\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady RAPiD Safe Night Guard\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"SentrySafe QAP2EL\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"GunVault SpeedVault SV500\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "keyword overlaps /blog/best-pistol-safe/ (\"best handgun safe for nightstand\" overlaps \"best handgun safe\" (100%))"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Re-opened and compared against: Dean Safe PB1 page (dims, 10 ga, 3/16 in door, Simplex, 4x3/8 in holes, 22 lb, limited lifetime warranty, CA DOJ approved; ftknox.com page returned no spec text so dropped as a source); Banks Safe VT20i (9x11.5x2.63, 7.2 lb, 16 ga, anti-pry bars, dual latches, backlit keypad, 20 prints, manual key, app, rechargeable per title); Vaultek rugged smart safes page (current 20 Series 14 ga, 3 AAA, 13.5 in handgun) and 20 Series support page (model list incl. VE20); Hornady Night Guard page (dims, 18 lb, RFID/code/key, 4 tags, 12V or 4 AAA, 2 USB-A, 1,500 lb cable, CA DOJ, no loaded firearms warning; no gauge); SentrySafe QAP2EL page (dims, 15.75 lb, 0.115 cu ft, 1-8 digit code, gas strut, LED, bolt-down, CA DOJ certified; no backup key listed); GunVault SV500 page (18 ga, drop-down, lockout), Adorama (18 ga, backup key, DOJ approved), Steve Jenkins review (mute button, 9V, two keys, mount left/right/rear), Athlon Outdoors (6.5x3.5x13 ext). Roundups re-read: Pew Pew (FTK-PB 10 ga, 1,081 combos, 22 lb, VS20i specs, SV500 specs and mute), American Firearms (VT20i, QAP2EL 12 ga, Fort Knox honorable mention, RPNB quote), Gun University (Night Guard #1, VT20 keypad model, SentrySafe XL = same ASIN as AF QAP2EL, backup key), Top Firearm Reviews (Night Guard RFID 14 ga, BILLCONCH front key, quotes), Cape Fear quote, Firing Line and 1911Forum threads, High Road quotes, Reddit quotes via search excerpts (CAguns, guns, homedefense verbatim). Armed in Michigan page is generic placeholder text so not counted or cited. 2-page rule holds: Fort Knox (Pew Pew, AF), VT20i/20 Series (Pew Pew, AF, GU), Night Guard (TFR, GU), QAP2EL (AF, GU), SpeedVault (Pew Pew, Firing Line). CA DOJ roster is a search tool that could not be queried; post attributes DOJ status to makers/retailers only. Removed: unverified r/SigSauer claim, 'SentrySafe won't replace strut free', Home Depot/QAP1E store source, PB1 'sturdier than electronic boxes' claim, 'code not resettable', 10.70 in Amazon length, SV500 sleep mode/low-battery attribution.",
+    "at": "2026-10-20T10:17:39.311Z",
+    "hash": "9c70ee767bc0b6c9"
+  }
+}
