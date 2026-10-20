@@ -18,7 +18,7 @@ secondaryKeywords:
 entities:
   - nightstand handgun safe
   - Fort Knox Original Pistol Box PB1
-  - Vaultek VT20i
+  - Vaultek 20 Series Essential Biometric
   - Hornady RAPiD Safe Night Guard
   - SentrySafe QAP2EL
   - GunVault SpeedVault SV500
@@ -44,8 +44,8 @@ tldr:
     The Fort Knox Original Pistol Box PB1 is our top nightstand pick: 10-gauge
     steel and a Simplex mechanical lock with no battery to die at 3 a.m.
   - >-
-    Want fingerprint entry? The Vaultek VT20i (one of Vaultek's 20 Series
-    models) adds a keypad, app and backup key on a lid under 3 inches tall.
+    Want fingerprint entry? The Vaultek 20 Series Essential Biometric adds a
+    keypad and backup key on a lid under 3 inches tall.
   - >-
     Measure the inside of your nightstand drawer before buying: exteriors here
     run from 9 to 16.4 inches wide, and the SpeedVault SV500 mounts on the side
@@ -58,6 +58,10 @@ products:
     matchName: Fort Knox Original Pistol Box PB1
     brand: Fort Knox
     query: Fort Knox Original Pistol Box PB1
+    asin: B072NFNDZB
+    amazonTitle: >-
+      Fort Knox Original Pistol Box (PB1), Security for pistols, handgun, California DOJ Certified, Quick-Access Mechanical Lock, Heavy-Duty Steel
+    asinVerified: true
     badge: Best no-battery nightstand pick
     summary: >-
       A 10-gauge steel pistol box with a Simplex 5-button mechanical lock and a
@@ -136,54 +140,56 @@ products:
             excerpt only)
           url: >-
             https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/
-  - name: Vaultek VT20i
-    matchName: Vaultek VT20i
+  - name: Vaultek 20 Series Essential Biometric
+    matchName: Vaultek 20 Series Essential Biometric
     brand: Vaultek
-    query: Vaultek VT20i Biometric Handgun Safe
+    query: Vaultek 20 Series Essential Biometric Handgun Safe
+    asin: B0GWMV1C16
+    amazonTitle: >-
+      VAULTEK 20 Series Compact Quick Access Biometric Safe, Rugged Construction, Auto-Open, & Anti-Theft Protection (Essential (Biometric)
+    asinVerified: true
     badge: Best biometric nightstand pick
     summary: >-
-      A slim 16-gauge biometric and backlit-keypad pistol safe with a Bluetooth
-      app, rechargeable battery and a backup key. American Firearms names the
-      VT20i, Gun University names the keypad-only VT20 from the same series, and
-      Pew Pew lists the 20 Series as its high-tech pick.
+      A slim 16-gauge biometric and backlit-keypad pistol safe that runs on three
+      AAA batteries, with manual backup keys. The guides reviewed earlier
+      versions of this series: American Firearms names the VT20i, Gun University
+      names the keypad-only VT20, and Pew Pew lists the 20 Series as its
+      high-tech pick.
     renterNote: >-
       For a nightstand or drawer owner who wants fingerprint, keypad and key
-      entry on a low-profile lid and is happy to keep a rechargeable battery
-      topped up; one full-size pistol with a spare magazine fits, and the 20
-      Series naming (VT20i, VS20i, newer 20 Series) varies by listing, so check
-      the model on the listing.
+      entry on a low-profile lid and is happy to swap AAA batteries; one
+      full-size pistol with a spare magazine fits, and older VT20i, VS20i and
+      VT20 listings are earlier versions with their own specs, so check the
+      model on the listing.
     pros:
       - >-
-        Fingerprint (up to 20), backlit keypad, Bluetooth app and a manual key
-        as backup
+        Fingerprint (up to 20), 5-digit backlit keypad and manual keys as
+        backup (Vaultek)
       - >-
-        16 ga steel, anti-pry bars and dual anti-impact latches (Banks Safe
-        listing of the maker spec)
+        16 ga steel, anti-pry bars and dual anti-impact latches (Vaultek)
       - >-
-        Exterior and interior LED lighting for low-light access, interior
-        brightness adjustable in the app
+        Backlit keypad with proximity sensor and interior LED lights for
+        low-light access (Vaultek)
     cons:
       - >-
         Biometric sensors can need re-registering and are not every owner's
         choice; a keypad or key backup exists, but all three need power or the
         key on hand
       - >-
-        Higher priced than the other electronic picks here, and the 20 Series
-        naming (VT20i, VS20i, 14-gauge newer model) is confusing
+        Higher priced than the other electronic picks here, and older VT20i,
+        VS20i and VT20 listings are earlier versions with different specs
     specs:
       Lock: >-
-        Biometric (up to 20 fingerprints), backlit keypad, Bluetooth app, manual
+        Biometric (up to 20 fingerprints), 5-digit backlit keypad, manual
         key backup
       Steel: >-
-        16-gauge carbon steel, anti-pry bars, dual anti-impact latches (VT20i,
-        Banks Safe); Vaultek's current 20 Series page lists 14-gauge
-      Exterior: 9 in W x 11.5 in D x 2.63 in H
+        16-gauge carbon steel, anti-pry bars, dual anti-impact latches (Vaultek)
+      Exterior: 11.5 in W x 9 in D x 2.75 in H (Vaultek)
       Interior: 11 in L x 5.75 in W x 2 in H
       Weight: 7.2 lb
       Power: >-
-        Rechargeable battery (VT20i, Banks Safe); Vaultek's current 20 Series
-        page lists three AAA batteries, so confirm for your model
-      Bolt-down: Two pre-drilled holes with screws and a cable attachment
+        Three AAA alkaline batteries, not included (Vaultek)
+      Bolt-down: Pre-drilled holes with included hardware, or a steel security cable (Vaultek)
       Fire rating: None published
     scores:
       security: 7
@@ -194,7 +200,7 @@ products:
       No fire claim, so fire is left out. Security 7 for 16 ga steel and
       anti-pry latches with a key backup but no independent burglary rating or
       DOJ listing confirmed; access 8 for three fast entry modes and lighting,
-      held back by power dependence; capacity 6 for one full-size pistol; value
+      held back by battery dependence; capacity 6 for one full-size pistol; value
       6 for a premium price.
     owners:
       read: 1
@@ -216,6 +222,10 @@ products:
     matchName: Hornady Rapid Safe Night Guard
     brand: Hornady
     query: Hornady RAPiD Safe Night Guard 98215
+    asin: B081DK7DQH
+    amazonTitle: >-
+      Hornady Rapid Safe Night Guard – Nightstand Gun Safe with RFID Reader, Clock, USB Ports – RFID Safe for Fast, Multiple Method Entry – Includes Rapid Safe, 3 Methods of Entry and Security Cable
+    asinVerified: true
     badge: Best RFID bedside pick
     summary: >-
       A drawer-style bedside safe shaped like an alarm clock with RFID, keypad
@@ -282,6 +292,10 @@ products:
     matchName: SentrySafe QAP2EL
     brand: SentrySafe
     query: SentrySafe QAP2EL Quick Access Pistol Safe Digital Keypad
+    asin: B072F4Y7M9
+    amazonTitle: >-
+      SentrySafe Gun Safe with Interior Light Stores Two Handguns, and a Digital Keypad offers Quick Access to Firearm Storage, Bolt Down Kit, QAP2EL
+    asinVerified: true
     badge: Best two-pistol nightstand pick
     summary: >-
       A wide, flat quick-access box with an illuminated digital keypad, a silent
@@ -362,6 +376,10 @@ products:
     matchName: GunVault SpeedVault SV500
     brand: GunVault
     query: GunVault SpeedVault SV500 Handgun Safe
+    asin: B006OGNLKA
+    amazonTitle: >-
+      GunVault SpeedVault SV500 Quick Access Handgun Safe with Drop-Down Drawer, Keypad Entry & Tamper Protection – Pistol Lockbox for Home or Business
+    asinVerified: true
     badge: Best side-of-nightstand mount
     summary: >-
       A vertical, gravity-drop 18-gauge pistol safe that bolts to the side of a
@@ -447,7 +465,7 @@ sources:
   - title: 'Dean Safe: Fort Knox Original Pistol Box PB1 (FTK-PB)'
     url: >-
       https://deansafe.com/products/fort-knox-original-handgun-safe-pb1-pistol-box-ftk-pb
-  - title: 'Banks Safe: Vaultek VT20i Biometric Bluetooth Smart Safe'
+  - title: 'Banks Safe: Vaultek VT20i Biometric Bluetooth Smart Safe (earlier VT20i)'
     url: >-
       https://www.bankssafeco.com/product/vaultek-vt20i-biometric-bluetooth-smart-safe-with-auto-open-lid-and-rechargeable-battery/
   - title: 'Vaultek: Rugged Smart Safes (20 Series)'
@@ -490,8 +508,8 @@ faqs:
       For most bedrooms we pick the Fort Knox Original Pistol Box PB1, because
       its Simplex mechanical lock has no battery to die and its 10-gauge steel
       is the thickest in this group. If you want fingerprint entry, the Vaultek
-      VT20i is the low-profile biometric alternative with a keypad and backup
-      key.
+      Vaultek 20 Series Essential Biometric is the low-profile biometric
+      alternative with a keypad and backup keys.
   - q: How fast should a bedside gun safe open?
     a: >-
       The bedside guides we read treat about one to two seconds as the goal. In
@@ -502,7 +520,7 @@ faqs:
     a: >-
       Only if the drawer's inside width, depth and height beat the safe's
       exterior size, so measure the drawer rather than the gun. The Vaultek
-      VT20i is 9 inches wide and under 3 inches tall, while the SentrySafe
+      20 Series Essential Biometric is 11.5 inches wide and 2.75 inches tall, while the SentrySafe
       QAP2EL is 16.4 inches wide and suits a wide drawer or the nightstand top.
   - q: What happens if the battery dies or the fingerprint reader fails?
     a: >-
@@ -525,7 +543,7 @@ heroImage: /images/featured/best-handgun-safe-for-nightstand.png
 heroAlt: Best Handgun Safe for Nightstand Use – Best Safe buying guide
 ---
 
-The best handgun safe for nightstand use, and our pick for a nightstand gun safe, is the Fort Knox Original Pistol Box PB1, because its Simplex mechanical lock opens by feel with no battery to die at 3 a.m. If you want a fingerprint reader, take the Vaultek VT20i; for hands-free RFID entry, the Hornady RAPiD Safe Night Guard; for two pistols, the SentrySafe QAP2EL; and for a full drawer, the GunVault SpeedVault SV500 that bolts to the nightstand's side.
+The best handgun safe for nightstand use, and our pick for a nightstand gun safe, is the Fort Knox Original Pistol Box PB1, because its Simplex mechanical lock opens by feel with no battery to die at 3 a.m. If you want a fingerprint reader, take the Vaultek 20 Series Essential Biometric; for hands-free RFID entry, the Hornady RAPiD Safe Night Guard; for two pistols, the SentrySafe QAP2EL; and for a full drawer, the GunVault SpeedVault SV500 that bolts to the nightstand's side.
 
 Picture the moment owners describe most: a noise in the house, a hand in a dark drawer, and a cheap box that beeps, misreads a finger or has a dead battery. We built this guide around that moment, using maker spec sheets, five bedside buying guides and the forum threads where owners say what failed. We never handled these safes ourselves, so every fit and speed claim below names its source.
 
@@ -538,7 +556,7 @@ This table compares the five picks on lock, backup entry, steel, power and exter
 | Safe | Main lock | Backup entry | Steel | Power | Exterior (W x D x H) |
 |---|---|---|---|---|---|
 | Fort Knox PB1 | Simplex mechanical | None needed | 10-gauge | None | 12.5 x 10.25 x 4.35 in (+1 in knob) |
-| Vaultek VT20i | Fingerprint, keypad, app | Key | 16-gauge (VT20i) | Rechargeable (VT20i) | 9 x 11.5 x 2.63 in |
+| Vaultek 20 Series Essential Biometric | Fingerprint, keypad | Key | 16-gauge | 3 AAA | 11.5 x 9 x 2.75 in |
 | Hornady Night Guard | RFID, keypad | Key | 14-gauge (per Top Firearm Reviews) | AC + 4 AAA backup | 3 x 12 x 10.5 in (per Hornady) |
 | SentrySafe QAP2EL | Lit keypad | Key (per Gun University) | Solid steel (12 ga per American Firearms) | Battery | 16.4 x 9.8 x 3.2 in |
 | GunVault SV500 | Keypad | Key | 18-gauge | 9V battery (owner review) | 6.5 x 3.5 x 13 in (side mount) |
@@ -547,7 +565,7 @@ None of the five carries a published fire rating, and none of the sources we rea
 
 ## How we picked nightstand handgun safes
 
-**We kept only bedside safes that at least two of the top-ranking nightstand guides or forum threads recommend, then checked each spec against the maker or a retailer listing.** That rule put the Fort Knox FTK-PB (Pew Pew Tactical calls the PB1 by that item number), a Vaultek 20 Series model, the Hornady Night Guard, the SentrySafe QAP2EL and the GunVault SpeedVault on the list.
+**We kept only bedside safes that at least two of the top-ranking nightstand guides or forum threads recommend, then checked each spec against the maker or a retailer listing.** That rule put the Fort Knox FTK-PB (Pew Pew Tactical calls the PB1 by that item number), the Vaultek 20 Series (the guides reviewed its earlier VT20i and VT20 versions), the Hornady Night Guard, the SentrySafe QAP2EL and the GunVault SpeedVault on the list.
 
 Some popular bedside pistol safe names missed the cut. The ONNAIS biometric safe and the Steelhead Fast Access Pistol Box each had only one strong recommendation, and RPNB appears under different model names on different pages, so we couldn't confirm one product. If you shop budget biometric brands, check for recalls first: the CPSC recalled certain Awesafe biometric safes in 2024, which our [biometric gun safe guide](/blog/best-biometric-gun-safe/) covers.
 
@@ -567,13 +585,13 @@ On The Firing Line, a Fort Knox owner recommends it for exactly this job, and a 
 
 Pew Pew's reviewer pre-enters the code at bedtime so a turn of the knob opens it. We'd only do that in a house with no children or guests, because anyone can turn that knob. Dean Safe lists a limited lifetime warranty and California DOJ approval.
 
-### Vaultek VT20i: Best biometric pick
+### Vaultek 20 Series Essential Biometric: Best biometric pick
 
-The [Vaultek VT20i](amzn:Vaultek+VT20i+Biometric+Handgun+Safe) suits a shallow drawer: Banks Safe lists it at 9 by 11.5 by 2.63 inches and 7.2 lb. A fingerprint reader stores up to 20 prints, with a backlit keypad, the Vaultek Bluetooth app and a manual key as backups. Exterior and interior LED lights help in the dark, and the app adjusts the inside brightness.
+The [Vaultek 20 Series Essential Biometric](amzn:Vaultek+20+Series+Essential+Biometric+Handgun+Safe) suits a shallow drawer: Vaultek lists it at 11.5 by 9 by 2.75 inches and 7.2 lb. A fingerprint reader stores up to 20 prints, with a 5-digit backlit keypad and manual keys as backups. The keypad has a proximity sensor and the interior LED lights come on when the lid opens.
 
-Naming needs care. The VT20i belongs to Vaultek's 20 Series, and pages call it VT20i, VT20 or VS20i; Vaultek's support page groups NV20i, V20i, VS20i, VS20, VT20i, VT20 and VE20 as one series. The specs we quote are the VT20i's from Banks Safe: 16-gauge carbon steel, anti-pry bars, dual anti-impact latches and a rechargeable battery. Vaultek's current 20 Series page lists 14-gauge steel and three AAA batteries, so check which model and power source your listing shows.
+Naming needs care. The top-10 guides reviewed earlier versions of this series: American Firearms names the VT20i, Gun University the keypad-only VT20, and pages also use VS20i; Vaultek's support page groups NV20i, V20i, VS20i, VS20, VT20i, VT20 and VE20 as one series. Those guides' claims describe the earlier versions, and the specs we quote are from Vaultek's current 20 Series page: 16-gauge carbon steel, anti-pry bars, dual anti-impact latches and three AAA batteries. Banks Safe's VT20i listing instead shows a rechargeable battery and a Bluetooth app, so check which model your listing shows.
 
-The interior is 11 by 5.75 by 2 inches, enough for one full-size pistol and a spare magazine. Pew Pew notes two pre-drilled holes with screws and a cable attachment.
+The interior is 11 by 5.75 by 2 inches, enough for one full-size pistol and a spare magazine. Vaultek lists pre-drilled holes with included hardware, or a steel security cable.
 
 Owner feedback is thin. The doubt comes from 1911Forum posters who distrust fingerprint readers for a bedside gun in general, not from a reported Vaultek failure. Biometric sensors can need re-registering, so we'd learn the keypad code too.
 
@@ -616,13 +634,13 @@ Before you order, measure your drawer this way:
 3. Measure the height from the drawer floor to the underside of the frame above it, since that frame is what stops a tall box.
 4. Compare all three to the exterior sizes in the table above, adding the Fort Knox's 1-inch knob to its depth.
 
-From the listed exteriors, the Vaultek VT20i (9 inches wide, 2.63 inches tall) is the easiest drawer fit. The Fort Knox needs a deep drawer, and the SentrySafe's 16.4-inch width rules out many drawers, so it may live on the nightstand top or a shelf. The Hornady Night Guard is designed as a clock-style unit, and the SpeedVault skips the drawer entirely by mounting to the side.
+From the listed exteriors, the Vaultek 20 Series Essential Biometric (11.5 inches wide, 2.75 inches tall) is the easiest drawer fit. The Fort Knox needs a deep drawer, and the SentrySafe's 16.4-inch width rules out many drawers, so it may live on the nightstand top or a shelf. The Hornady Night Guard is designed as a clock-style unit, and the SpeedVault skips the drawer entirely by mounting to the side.
 
 ### Pistol with a weapon light or red dot
 
 A bedside handgun safe faces a second fit test, the weapon light or optic, and interior height is where it fails. Top Firearm Reviews says a 1911 with a large rail light "did seem to complain a bit" in the RPNB Slide-Away, which is why we only repeat fit claims with a source.
 
-From the sources: Gun University says a full-size handgun and a light fit in the Hornady Night Guard; Pew Pew says some lights won't fit the SpeedVault's 8.5-inch cavity; Pew Pew says the Vaultek 20 Series takes weapon-mounted lights, but the VT20i's interior is only 2 inches tall. The Fort Knox's 3.5-inch interior height is the tallest here. Measure your gun with the light and optic attached, then compare.
+From the sources: Gun University says a full-size handgun and a light fit in the Hornady Night Guard; Pew Pew says some lights won't fit the SpeedVault's 8.5-inch cavity; Pew Pew says the Vaultek 20 Series takes weapon-mounted lights, but the 20 Series interior is only 2 inches tall. The Fort Knox's 3.5-inch interior height is the tallest here. Measure your gun with the light and optic attached, then compare.
 
 ## When a bedside gun safe's battery or fingerprint fails
 
@@ -640,7 +658,7 @@ A bedside gun safe's backup key only helps if you can reach it and the keyhole. 
 
 Dead keypads that lock owners out are a recurring complaint in r/Safes threads ([one example](https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/)), and long-time owners on The High Road change batteries on a schedule instead of waiting for a warning. One writes, "I change the 9v battery on the keypad every 6 months whether it is needed or not." ([thread](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/)). Another suggests you "tape a date when you installed new batteries and just exchange them every year, regardless of use." ([thread](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)).
 
-We'd follow the same habit on the SpeedVault, the SentrySafe keypad and the Hornady's AAA backup, and keep the Vaultek charged.
+We'd follow the same habit on the SpeedVault, the SentrySafe keypad and the Hornady's AAA backup, and keep fresh AAA cells in the Vaultek.
 
 > **From our notes:** Picture someone who keeps a handgun by the bed and wakes to a noise at 3 a.m. When we lined up these five spec sheets against that moment, the steel gauges mattered less than the backup path. The Fort Knox needs no power at all. The Vaultek and Hornady each fall back to a key, and the Hornady also holds four AAA cells behind its AC adapter. The SentrySafe asks for a button press before its keypad wakes. The forum threads we read told the same story: owners rarely blamed the steel; they blamed batteries, readers and struts.
 
@@ -655,7 +673,7 @@ A nightstand gun safe that beeps and wakes a partner is a recurring complaint. O
 - **GunVault SpeedVault SV500:** a mute button for silent entry, per an owner review (Steve Jenkins), and Pew Pew says the key-entry sounds can be turned off.
 - **SentrySafe QAP2EL:** a quiet gas-strut lid, per SentrySafe.
 - **Fort Knox PB1:** a mechanical lock with no electronics to beep, plus a gas-strut door.
-- **Vaultek VT20i and Hornady Night Guard:** the research we have doesn't confirm a mute option, so check the manual.
+- **Vaultek 20 Series Essential Biometric and Hornady Night Guard:** the research we have doesn't confirm a mute option, so check the manual.
 
 ### Keeping kids out without losing speed
 
@@ -667,7 +685,7 @@ With kids at home, we'd lean toward the Vaultek's fingerprint reader or the Horn
 
 A bedside gun safe that isn't anchored can be carried off and opened later. One r/homedefense reply sums up the trade-off: "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts." ([thread](https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/)).
 
-Every pick here has a way to anchor it: four holes on the Fort Knox, two pre-drilled holes and a cable attachment on the Vaultek, holes plus a 1,500 lb-rated cable on the Hornady, included bolt-down hardware on the SentrySafe, and a bracket on the SpeedVault. Bolt through the drawer bottom or nightstand frame rather than a thin back panel, or loop the cable around a bed frame.
+Every pick here has a way to anchor it: four holes on the Fort Knox, pre-drilled holes and a cable attachment on the Vaultek, holes plus a 1,500 lb-rated cable on the Hornady, included bolt-down hardware on the SentrySafe, and a bracket on the SpeedVault. Bolt through the drawer bottom or nightstand frame rather than a thin back panel, or loop the cable around a bed frame.
 
 ## Quick buying checklist for a bedside pistol safe
 
@@ -685,4 +703,4 @@ Every pick here has a way to anchor it: four holes on the Fort Knox, two pre-dri
 
 **A bedside handgun safe is one part of safe storage, and firearm storage and child-access rules vary by state and city, so check your state's rules before you choose where the gun lives.** We don't give legal advice. If you live in California or want a state-approved device, look up the exact model on the [California DOJ roster of firearm safety devices](https://oag.ca.gov/firearms/fsdcertlist) rather than relying on a listing.
 
-So for that noise at 3 a.m., our answer stays the Fort Knox PB1 for a lock that can't run flat, or the Vaultek VT20i if you want fingerprint access in a shallow drawer. If the same handgun also rides in your car or a carry bag, our [best pistol safe guide](/blog/best-pistol-safe/) covers travel and portable boxes, and our [fireproof safe guide](/blog/best-fireproof-safe/) covers the documents a bedside safe can't protect from fire.
+So for that noise at 3 a.m., our answer stays the Fort Knox PB1 for a lock that can't run flat, or the Vaultek 20 Series Essential Biometric if you want fingerprint access in a shallow drawer. If the same handgun also rides in your car or a carry bag, our [best pistol safe guide](/blog/best-pistol-safe/) covers travel and portable boxes, and our [fireproof safe guide](/blog/best-fireproof-safe/) covers the documents a bedside safe can't protect from fire.
