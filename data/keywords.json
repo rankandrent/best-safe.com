@@ -1054,7 +1054,7 @@
     "publishedAt": "2026-10-20T13:54:30.640Z"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1092,7 +1092,8 @@
     },
     "painPoints": [
       "home-safes-not-really-fireproof"
-    ]
+    ],
+    "publishedAt": "2026-10-20T20:16:38.157Z"
   },
   {
     "status": "pending",

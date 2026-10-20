@@ -218,7 +218,9 @@
           "best gun safe",
           "large gun safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "best-fire-rated-gun-safe"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -277,7 +279,9 @@
           "best safe brands",
           "best gun safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "best-fire-rated-gun-safe"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -330,7 +334,8 @@
           "gun safe in garage"
         ],
         "coveredBy": [
-          "how-to-bolt-down-a-safe"
+          "how-to-bolt-down-a-safe",
+          "best-fire-rated-gun-safe"
         ],
         "foundAt": "2026-10-19"
       },
@@ -1347,7 +1352,8 @@
           "best fire rated gun safe"
         ],
         "coveredBy": [
-          "best-fireproof-safe"
+          "best-fireproof-safe",
+          "best-fire-rated-gun-safe"
         ],
         "foundAt": "2026-10-19"
       },
@@ -1599,7 +1605,8 @@
           "best safe brands"
         ],
         "coveredBy": [
-          "best-fireproof-safe"
+          "best-fireproof-safe",
+          "best-fire-rated-gun-safe"
         ],
         "foundAt": "2026-10-19"
       }

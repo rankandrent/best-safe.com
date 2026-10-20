@@ -1,0 +1,265 @@
+{
+  "centralEntity": "fire rated gun safe",
+  "entityVariants": [
+    "fire-rated gun safe",
+    "fireproof gun safe",
+    "fire resistant gun safe",
+    "fire-resistant gun safe",
+    "fire safe for guns"
+  ],
+  "entities": [
+    { "name": "UL 72", "type": "fire standard", "relation": "the Underwriters Laboratories fire-endurance test behind UL Class 350 and Class 125 ratings" },
+    { "name": "Class 350", "type": "fire rating class", "relation": "UL 72 class that keeps the interior under 350°F, the paper threshold" },
+    { "name": "Class 125", "type": "fire rating class", "relation": "UL 72 class for digital media and film, interior kept under 125°F" },
+    { "name": "Intertek", "type": "testing lab", "relation": "independent lab whose ETL mark verifies some safe fire and water claims" },
+    { "name": "maker's own rating", "type": "claim type", "relation": "a fire rating the manufacturer assigns itself with no independent lab named" },
+    { "name": "fireboard", "type": "material", "relation": "gypsum-based insulation layers that give a gun safe its fire rating" },
+    { "name": "intumescent door seal", "type": "component", "relation": "seal that expands in heat to block smoke and flame at the door gap" },
+    { "name": "steel gauge", "type": "attribute", "relation": "lower gauge number means thicker steel and more pry resistance" },
+    { "name": "locking bolts", "type": "component", "relation": "bolt count, diameter and side coverage set how hard the door is to pry" },
+    { "name": "bypass key", "type": "backup entry", "relation": "mechanical override when an electronic keypad fails" },
+    { "name": "UL RSC", "type": "burglary rating", "relation": "Residential Security Container burglary rating, not a fire rating" },
+    { "name": "California DOJ", "type": "state listing", "relation": "roster of approved firearm safety devices; a storage listing, not a fire rating" },
+    { "name": "Steelwater", "type": "brand", "relation": "maker of the 60-minute Heavy Duty 20 Long Gun safe" },
+    { "name": "Kodiak", "type": "brand", "relation": "Rhino Metals import line; KBX5629 has a 30-minute rating" },
+    { "name": "Fortress", "type": "brand", "relation": "budget 24-gun fire safe with a 30-minute, 1200°F rating" },
+    { "name": "Hornady", "type": "brand", "relation": "maker of the 95407 fireproof keypad safe for handguns and papers" },
+    { "name": "post-tension slab", "type": "building hazard", "relation": "concrete floor with tensioned cables that must not be drilled blind" },
+    { "name": "dehumidifier", "type": "accessory", "relation": "controls moisture that fireboard releases inside a sealed fire safe" }
+  ],
+  "attributes": [
+    "fire rating duration",
+    "fire rating temperature",
+    "who certified the fire rating",
+    "steel gauge",
+    "door thickness",
+    "locking bolt count and diameter",
+    "lock type and backup entry",
+    "intumescent door seal",
+    "interior capacity",
+    "exterior size and weight",
+    "bolt-down holes",
+    "California DOJ listing"
+  ],
+  "ngrams": [
+    "fire rated gun safe",
+    "fireproof gun safe",
+    "fire rating",
+    "maker's own rating",
+    "UL 72",
+    "30 minutes at 1400°F",
+    "60 minutes",
+    "steel gauge",
+    "locking bolts",
+    "long guns",
+    "door seal",
+    "bypass key",
+    "bolt down",
+    "house fire",
+    "California DOJ"
+  ],
+  "skipgrams": [
+    "fire…rating",
+    "steel…gauge",
+    "gun…safe",
+    "minutes…°F",
+    "bolt…floor",
+    "backup…key",
+    "door…seal"
+  ],
+  "nlpTerms": [
+    "fireproof",
+    "fire-resistant",
+    "fireboard",
+    "insulation",
+    "temperature",
+    "interior",
+    "paper",
+    "certified",
+    "Intertek",
+    "keypad",
+    "electronic lock",
+    "capacity",
+    "rifles",
+    "handguns",
+    "documents",
+    "anchor",
+    "slab",
+    "humidity",
+    "pry",
+    "warranty"
+  ],
+  "questions": [
+    "What is the best fire rated gun safe?",
+    "Are gun safes really fireproof?",
+    "What fire rating should a gun safe have?",
+    "Is a 30-minute fire rating enough for a gun safe?",
+    "What does UL 72 Class 350 mean?",
+    "Can you store ammo in a fire rated gun safe?"
+  ],
+  "contentGaps": [
+    "Who certified each fire rating: none of the four Amazon-sold picks names UL or Intertek/ETL, so every rating is the maker's own",
+    "Why the outside temperatures (1200, 1400, 1875°F) can't be compared across brands without a shared test curve",
+    "Backup entry when the keypad dies, using owner reports of keypad failures",
+    "Real capacity versus the box count for scoped rifles",
+    "Bolt-down holes and the post-tension slab warning",
+    "Moisture from fireboard inside a sealed fire safe"
+  ],
+  "outline": [
+    { "h2": "The best fire rated gun safe picks", "intent": "direct answer first, then a paragraph review per pick with its fire rating, certifier and owner reports", "h3": ["Steelwater Heavy Duty 20 Long Gun: Best overall fire-rated gun safe", "Kodiak KBX5629: Best for a large collection", "Fortress 24 Gun Fire Safe: Best budget long gun fire safe", "Hornady Fireproof Keypad Safe: Best for handguns and papers"] },
+    { "h2": "Fire rated gun safes compared", "intent": "comparison table: fire rating, who rated it, steel, bolts, lock and backup, weight", "h3": [] },
+    { "h2": "What a gun safe fire rating means (and who certified it)", "intent": "UL 72 vs Intertek/ETL vs maker's own rating, minutes and temperature, paper vs media", "h3": [] },
+    { "h2": "How to choose a fire rated gun safe", "intent": "rating length, capacity versus box count, lock backup, steel and bolts", "h3": [] },
+    { "h2": "Problems owners run into, and the fix", "intent": "pain points: not really fireproof, ratings hard to compare, keypad failure, capacity overstated, bolting on a slab", "h3": [] },
+    { "h2": "Our verdict", "intent": "close the opening scene, next reads", "h3": [] }
+  ],
+  "targetWords": 1950,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://nwsafe.com/blogs/tips/fireproof-gun-safe",
+      "https://tactibeaver.com/blogs/firearms-fundamentals/best-fireproof-gun-safe-guide-for-2026",
+      "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+      "https://gunsafesresource.com/best-fireproof-gun-safe/",
+      "https://everlastingsafes.com/pages/best-fireproof-gun-safes"
+    ],
+    "productStyle": "paragraph",
+    "productStyleReason": "The articles that name products (Top Firearm Reviews, TactiBeaver, Everlasting Safes) review each safe in prose paragraphs with the fire rating woven in; NW Safe groups series by fire rating in prose. A paragraph per pick lets us state who certified each rating. Word counts are estimates from page reads (NW Safe about 1,850, TactiBeaver about 2,050, Gun Safes Resource about 1,380, Everlasting Safes about 3,400; Top Firearm Reviews is a general rifle-safe roundup and was left out of the average).",
+    "avgWords": 2170,
+    "avgProducts": 5,
+    "commonSections": [
+      "fireproof vs fire rated",
+      "how fire ratings work (time and temperature)",
+      "UL vs maker ratings",
+      "product picks",
+      "how to choose",
+      "FAQ"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    { "position": 1, "url": "https://libertysafe.com/collections/gun-safes", "title": "Shop Liberty Gun Safes - Made in USA" },
+    { "position": 2, "url": "https://www.thesafekeeper.com/collections/2-hour-fire-rated-gun-safes", "title": "2 Hour Fire Rated Gun Safes | The Safe Keeper Store" },
+    { "position": 3, "url": "https://www.reddit.com/r/liberalgunowners/comments/1771244/about_to_buy_my_first_gun_safe_is_buying_a/", "title": "About to buy my first gun safe. Is buying a fireproof one ... - Reddit" },
+    { "position": 4, "url": "https://deansafe.com/collections/fire-safes-for-the-home", "title": "Fire Safes - Dean Safe" },
+    { "position": 5, "url": "https://nwsafe.com/blogs/tips/fireproof-gun-safe", "title": "What's the Best Fireproof Gun Safe? - Northwest Safe" },
+    { "position": 6, "url": "https://www.youtube.com/watch?v=zQ9Fnq77Kn0", "title": "Safe Space Episode 20: The Best Fire Resistant Gun Safes - YouTube" },
+    { "position": 7, "url": "https://www.topfirearmreviews.com/post/best-safes-for-long-guns", "title": "Best Safes & Cabinets For Rifles & Shotguns: Tested By A Gunsmith" },
+    { "position": 8, "url": "https://www.ftknox.com/", "title": "Fort Knox gun safe" },
+    { "position": 9, "url": "https://www.pewpewtactical.com/best-gun-safes/", "title": "15 Best Gun Safes 2026: Every Type & Budget Tested" },
+    { "position": 10, "url": "https://www.homedepot.com/b/Tools-Safety-Security-Safes-Gun-Safes/Fireproof/N-5yc1vZc2gzZ1z1bs3k", "title": "Fireproof - Gun Safes - The Home Depot" }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 1,
+    "withNumber": 2,
+    "commonModifiers": [
+      "fireproof",
+      "fire resistant",
+      "2 hour",
+      "tested",
+      "made in USA"
+    ],
+    "gap": "No top-10 title says who certified the fire ratings; ours promises the certifier behind each rating (all four are maker ratings)"
+  },
+  "seoTitle": "Best Fire Rated Gun Safe",
+  "h1Rule": "H1 starts with the exact keyword, no colon",
+  "commonPoints": [
+    "No gun safe is truly fireproof; ratings are a time and temperature",
+    "A fire rating is listed as minutes at an outside temperature, such as 30 minutes at 1400°F",
+    "UL fire ratings are independent; many gun safe ratings are set by the maker",
+    "Fireboard insulation and an expanding door seal make the rating",
+    "Heavier fire protection means a heavier safe, so check the floor and bolt it down",
+    "Fire rating and burglary rating (UL RSC) are separate things"
+  ],
+  "ourGain": [
+    {
+      "point": "Who certified each pick's fire rating: none of the four Amazon-sold picks names UL 72 or Intertek/ETL; every rating is the maker's own, said plainly per product",
+      "source": "steelwatergunsafes.com/products/sw592818, rhinosafe.com KBX5629 page, fortresssafe.com/24ebf.html, store.hornady.com/fireproof-keypad-safe (no lab named on any); NW Safe on unregulated gun safe fire ratings"
+    },
+    {
+      "point": "Why 1200°F, 1400°F and 1875°F ratings can't be compared across brands: makers choose their own furnace curve, while UL 72 uses one standard curve and a 350°F interior limit",
+      "source": "https://nwsafe.com/blogs/tips/fireproof-gun-safe (testing methods, ramp-up, thermocouple placement)"
+    },
+    {
+      "point": "Backup entry when the keypad dies, from owner reports: Steelwater keypads failing after three to six years, a Fortress keypad and override key both failing",
+      "source": "pain point gun-safes-electronic-lock-fails-no-backup; r/Gun_Safes and Yelp Steelwater excerpts; Lowe's Fortress review excerpt"
+    },
+    {
+      "point": "Real capacity versus the box count for each pick, with Steelwater's own 12-16 recommendation for its 20-gun safe",
+      "source": "pain point gun-safes-capacity-overstated (The High Road); Steelwater SW592818 spec page; Top Firearm Reviews on the 22-gun claim being math"
+    },
+    {
+      "point": "Bolt-down per pick and the post-tension slab warning",
+      "source": "pain point gun-safes-bolting-slab-or-wood-floor (AR15.com); Steelwater and Rhino anchor-hole specs; Hornady anchors included"
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "home-safes-not-really-fireproof",
+      "pain": "Owners do not trust that a \"fireproof\" safe will really protect papers or plastic media",
+      "details": "People ask whether fire boxes are fireproof at all, or learn the rating is time-limited and that moisture inside can wet the contents.",
+      "sources": [
+        "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/",
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+      ],
+      "quotes": [
+        { "text": "Nothing is really fireproof", "url": "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/" }
+      ]
+    },
+    {
+      "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+      "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)",
+      "details": "Shoppers compare store-brand safes on fire minutes and temperature, then ask what UL and TL ratings actually mean.",
+      "sources": [
+        "https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/",
+        "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/"
+      ],
+      "quotes": []
+    },
+    {
+      "id": "gun-safes-electronic-lock-fails-no-backup",
+      "pain": "Electronic keypad fails and the safe has no backup key",
+      "details": "Owners report keypads dying and safes sold without an override key; recovery is through the maker.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+      ],
+      "quotes": [
+        { "text": "Electronic locks fail. Mechanical locks keep working.", "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/" }
+      ]
+    },
+    {
+      "id": "gun-safes-capacity-overstated",
+      "pain": "The gun count on the box is far higher than what really fits, so the safe is full on day one",
+      "details": "Owners with scoped rifles fit about half the advertised number. Repeated advice: cut the rating and buy bigger.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/safe-capacity-numbers-what-do-they-mean.494046/"
+      ],
+      "quotes": [
+        { "text": "always take the max number of long guns they say the safe will hold and cut it by at least 1/3.", "url": "https://www.thehighroad.org/index.php?threads/safe-capacity-numbers-what-do-they-mean.494046/" }
+      ]
+    },
+    {
+      "id": "gun-safes-bolting-slab-or-wood-floor",
+      "pain": "Not sure how to bolt a safe down on a post-tension slab, thin slab or wood floor",
+      "details": "Buyers in post-tension slab regions are told not to drill blind; options are scanning the slab, wall studs or a wood base.",
+      "sources": [
+        "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+      ],
+      "quotes": [
+        { "text": "drilling in to a post tension slab is a very bad idea", "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/" }
+      ]
+    }
+  ],
+  "linkPlan": [
+    { "to": "/blog/best-fireproof-safe/", "anchor": "UL-rated fireproof safes for papers", "where": "fire rating section, for documents and media (live since 2026-10-18)" },
+    { "to": "/blog/best-dehumidifier-for-gun-safe/", "anchor": "dehumidifier for a gun safe", "where": "moisture note" },
+    { "to": "/blog/how-to-move-a-gun-safe/", "anchor": "move a heavy gun safe", "where": "weight and placement" },
+    { "to": "/blog/best-biometric-gun-safe/", "anchor": "biometric gun safes", "where": "lock backup / quick access" },
+    { "to": "/blog/best-handgun-safe-for-nightstand/", "anchor": "nightstand handgun safe", "where": "Hornady section, bedside access" },
+    { "to": "/safe-buying-checklist/", "anchor": "safe buying checklist", "where": "verdict" },
+    { "to": "/how-we-score/", "anchor": "how we score safes", "where": "comparison table" }
+  ],
+  "notes": "No 'are gun safes fireproof' post exists (not live), so it is not linked. No legal advice and no prices. Product list from data/briefs/best-fire-rated-gun-safe.products.json. SERP 2026-10-20: stores and maker pages dominate the top 10 (Liberty, The Safe Keeper, Dean Safe, Fort Knox, Home Depot), plus 2 Reddit threads and a YouTube video."
+}

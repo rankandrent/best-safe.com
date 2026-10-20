@@ -369,6 +369,7 @@ faqs:
       certified, rather than the maker's own claim.
 author: editorial-team
 related:
+  - best-fire-rated-gun-safe
   - how-much-does-a-gun-safe-weigh
   - how-to-move-a-gun-safe
 heroImage: /images/featured/best-gun-safe-for-apartment.png

@@ -1,0 +1,297 @@
+{
+  "keyword": "best fire rated gun safe",
+  "slug": "best-fire-rated-gun-safe",
+  "category": "gun-safes",
+  "articleType": "roundup",
+  "productCount": 4,
+  "productCountNote": "Only 4 products qualified: each is recommended by at least 2 independent ranking pages for this keyword or its same-intent variant 'best fireproof gun safe', and each has a hand-verified Amazon US listing (scraped amazon.com/dp/<asin> on 2026-10-20 and matched brand + model number).",
+  "serpDate": "2026-10-20",
+  "secondaryKeywords": [
+    "fireproof gun safe",
+    "best fireproof gun safe",
+    "fire resistant gun safe"
+  ],
+  "serpProducts": [
+    {
+      "name": "Steelwater Heavy Duty 20 Long Gun (SW592818 / AMSW592818)",
+      "pages": [
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+        "https://everlastingsafes.com/pages/best-fireproof-gun-safes",
+        "https://gunnersreview.com/steelwater-20-review/",
+        "https://gunsafesresource.com/best-fireproof-gun-safe/"
+      ]
+    },
+    {
+      "name": "Kodiak KBX5629 by Rhino Metals",
+      "pages": [
+        "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+        "https://capefearinvestigative.com/best-high-end-gun-safes/",
+        "https://deansafe.com/products/rhino-kodiak-kbx5629"
+      ]
+    },
+    {
+      "name": "Fortress 24 Gun Fire Safe (24EBF)",
+      "pages": [
+        "https://gunsafesresource.com/best-fireproof-gun-safe/",
+        "https://capefearinvestigative.com/best-24-gun-safe/"
+      ]
+    },
+    {
+      "name": "Hornady Fireproof Keypad Safe (95407)",
+      "pages": [
+        "https://www.americanfirearms.org/best-gun-safe-under-500/",
+        "https://capefearinvestigative.com/best-fireproof-safe-for-guns-and-documents/"
+      ]
+    }
+  ],
+  "serpEvidenceNotes": [
+    "Firecrawl searches on 2026-10-20 for 'best fire rated gun safe' and the same-intent 'best fireproof gun safe'. The top 10 for the exact keyword is mostly store and maker pages (Liberty, The Safe Keeper, Dean Safe, Fort Knox, Home Depot), a YouTube video and two Reddit threads. Article pages read: nwsafe.com/blogs/tips/fireproof-gun-safe (names Liberty and AMSEC series sold through dealers, not Amazon models), tactibeaver.com (its own house brand only), topfirearmreviews.com (Steelwater as best fireproof gun safe), pewpewtactical.com/best-gun-safes (no fire-rated model). Because so few top-10 articles name purchasable models, product evidence also comes from ranking pages for the variant query.",
+    "Steelwater: Top Firearm Reviews names Steelwater its best fireproof gun safe (60-minute, 12-gauge); the Everlasting Safes search excerpt names the Steelwater Heavy Duty SW592818; Gunner's Review has a Steelwater 20 review; Gun Safes Resource lists a smaller Steelwater. The Amazon listing B005DOE80Q is the AMSW592818 Heavy Duty 20 Long Gun.",
+    "Not included: Liberty Centurion/USA, AMSEC BFX, Hollon, Browning, Fort Knox (dealer-only, no clear Amazon US listing); SentrySafe EF4738E (one page only); Cannon 48-gun (Amazon listing exists but no independent roundup found); SnapSafe Titan (one 2022 page); unbranded Amazon fire safes on capefearinvestigative.com (no second page).",
+    "None of the four picks names an independent fire lab (UL 72 or Intertek/ETL) on the maker or Amazon pages we read; every fire rating below is the maker's own claim."
+  ],
+  "products": [
+    {
+      "name": "Steelwater Heavy Duty 20 Long Gun",
+      "matchName": "Steelwater Heavy Duty 20 Long Gun",
+      "brand": "Steelwater",
+      "query": "Steelwater Heavy Duty 20 Long Gun safe AMSW592818",
+      "asin": "B005DOE80Q",
+      "asinVerified": true,
+      "badge": "Best overall fire-rated gun safe",
+      "summary": "A 453 lb long gun safe in 12-gauge steel with ten 1.5 in locking bolts and a maker-rated 60 minutes at 1875°F. Top Firearm Reviews calls Steelwater its best fireproof gun safe, and the Heavy Duty SW592818 also appears in other fireproof gun safe guides.",
+      "renterNote": "For a homeowner with a dozen or so long guns plus papers who wants the longest fire rating we found on Amazon; the 60-minute rating is Steelwater's own, not a UL or ETL listing, and at 453 lb it needs a ground floor or slab and helpers to move.",
+      "pros": [
+        "Longest fire rating of the four: 60 minutes at 1875°F (maker's rating), 4 7/8 in composite door with two layers of fireboard and an expanding door seal",
+        "12-gauge steel body, ten 1.5 in solid steel bolts covering all four sides",
+        "Four pre-drilled 7/16 in anchor holes reinforced with 1/4 in steel plate"
+      ],
+      "cons": [
+        "Fire rating is Steelwater's own claim; no UL 72 or Intertek/ETL listing named",
+        "Owners report keypads dying after three to six years (Steelwater sent replacements), and the 20-gun maximum is closer to 12-16 in practice"
+      ],
+      "specs": {
+        "Fire rating": "60 minutes at 1875°F, maker's own rating (no lab named by Steelwater or on Amazon)",
+        "Lock": "EMP-proof digital keypad with one high-security double-bitted bypass key",
+        "Steel and bolts": "12-gauge steel body; ten 1.5 in solid steel bolts (7 active, 3 fixed on the hinge side)",
+        "Door": "4 7/8 in composite door with two layers of fireboard; heat-expanding door seal",
+        "Exterior": "59 in H x 28 in W x 18 in D (add 3 in for the handle)",
+        "Interior": "56 1/4 in H x 25 3/8 in W x 14 1/4 in D (11 7/8 in usable depth)",
+        "Weight": "453 lb per Steelwater (Amazon lists 425 lb)",
+        "Capacity": "20 long guns maximum; Steelwater recommends 12-16",
+        "Bolt-down": "Four pre-drilled 7/16 in anchor holes reinforced with 1/4 in steel plate",
+        "State listing": "Steelwater says it exceeds California DOJ regulatory standards"
+      },
+      "scores": {
+        "security": 8,
+        "fire": 6,
+        "access": 7,
+        "capacity": 8,
+        "value": 8
+      },
+      "scoreNote": "Security 8 for 12-gauge steel and ten 1.5 in bolts on four sides; fire 6 because the 60-minute, 1875°F rating is the maker's own with published construction details; access 7 for a keypad with bypass key and owner reports of keypads failing after years; capacity 8 for 12-16 realistic long guns; value 8 for the most fire protection on Amazon in this group.",
+      "owners": {
+        "read": 5,
+        "praise": [
+          "Long-term owners say it works well and feels well made, one after seven years",
+          "Customer service is quick to send parts, including a replacement keypad",
+          "Thick 12-gauge steel and a real fire rating for the money compared with big-box safes"
+        ],
+        "complaints": [
+          "Keypad or lock failures after three to six years",
+          "Minor cosmetic shipping damage and awkward mounting at install"
+        ],
+        "sources": [
+          { "title": "Reddit r/CAguns: Steelwater GunSafes?? (search excerpt only)", "url": "https://www.reddit.com/r/CAguns/comments/187yvmt/steelwater_gunsafes/" },
+          { "title": "Reddit r/Gun_Safes: Anyone have experience with Steelwater safes? (search excerpt only)", "url": "https://www.reddit.com/r/Gun_Safes/comments/1or3cjf/anyone_have_experience_with_steelwater_safes/" },
+          { "title": "Yelp: Steelwater Gun Safes reviews (search excerpt only)", "url": "https://m.yelp.com/biz/steelwater-gun-safes-north-augusta" },
+          { "title": "Reddit r/guns: Steelwater gun safe (search excerpt only)", "url": "https://www.reddit.com/r/guns/comments/88werk/steelwater_gun_safe/" },
+          { "title": "Reddit r/Firearms: What safes are you guys using? (search excerpt only)", "url": "https://www.reddit.com/r/Firearms/comments/ukrcej/what_safes_are_you_guys_using/" }
+        ]
+      },
+      "sources": [
+        "https://steelwatergunsafes.com/products/sw592818",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+        "https://www.topfirearmreviews.com/post/steelwater-gun-safe-review"
+      ]
+    },
+    {
+      "name": "Kodiak KBX5629",
+      "matchName": "Kodiak KBX5629",
+      "brand": "Kodiak",
+      "query": "Kodiak KBX5629 Rhino Metals 42 gun safe",
+      "asin": "B084H5TK53",
+      "asinVerified": true,
+      "badge": "Best for a large collection",
+      "summary": "A Rhino Metals import with a 42 long gun claim, 14-gauge steel, a UL Listed electronic lock and 30 minutes at 1400°F. Reviewed names it its best fireproof gun safe, and Cape Fear Investigative lists it among high-end gun safes.",
+      "renterNote": "For a homeowner with a big long gun collection on a budget who wants a California DOJ listed safe with some fire protection; the 30-minute rating is Rhino's own, the steel is thinner than the Steelwater's, and some owners of Kodiak safes report lock and service trouble.",
+      "pros": [
+        "Largest interior here: 56 x 29 x 22 in outside with a 42 long gun claim",
+        "UL Listed electronic lock, heat-expanding intumescent door seal, pre-drilled to bolt to the floor",
+        "Listed as a California DOJ firearm safety device"
+      ],
+      "cons": [
+        "30 minutes at 1400°F is Rhino's own rating, and 14-gauge steel is thinner than the Steelwater's 12-gauge",
+        "Kodiak owners on Reddit and Northwest Firearms report lock failures, musty smells when a dehumidifier is neglected, and slow customer service"
+      ],
+      "specs": {
+        "Fire rating": "30 minutes at 1400°F, maker's own rating (Rhino names no lab)",
+        "Lock": "UL Listed electronic lock (lock listing, not a fire or burglary rating)",
+        "Steel": "14-gauge steel construction",
+        "Door seal": "Heat-activated intumescent seal that expands up to 8 times",
+        "Exterior": "56 in H x 29 in W x 22 in D (without handle)",
+        "Weight": "333 lb approximate net per Rhino (Amazon lists 390 lb)",
+        "Capacity": "Up to 42 long guns (Amazon adds 9 handguns)",
+        "Bolt-down": "Pre-drilled to bolt to the floor",
+        "State listing": "California DOJ firearm safety device (Rhino and Amazon)"
+      },
+      "scores": {
+        "security": 6,
+        "fire": 5,
+        "access": 7,
+        "capacity": 9,
+        "value": 8
+      },
+      "scoreNote": "Security 6 for 14-gauge steel with a UL Listed lock and DOJ listing but thinner steel than the top pick; fire 5 for a 30-minute maker claim with an intumescent seal; access 7 for a single electronic lock with owner reports of lock trouble on Kodiak safes; capacity 9 for the 42-gun body; value 8 for the space and DOJ listing.",
+      "owners": {
+        "read": 3,
+        "praise": [
+          "Big capacity and a fire lining for the money",
+          "Owners who bought used or on sale felt they got a lot of safe"
+        ],
+        "complaints": [
+          "Locks breaking, rust and slow customer service on Kodiak models",
+          "A musty smell inside when a rechargeable dehumidifier was never recharged"
+        ],
+        "sources": [
+          { "title": "Reddit r/gundeals: Kodiak 57 gun safe (search excerpt only)", "url": "https://www.reddit.com/r/gundeals/comments/18aksfa/other_kodiak_57_gun_safe_699/" },
+          { "title": "Northwest Firearms: Kodiak gun safe smelly (read in full)", "url": "https://www.northwestfirearms.com/threads/kodiak-gun-safe-smelly.352313/" },
+          { "title": "Reddit r/canadaguns: Does anyone have any experience with Kodiak gun safes? (search excerpt only)", "url": "https://www.reddit.com/r/canadaguns/comments/qmdolp/does_anyone_have_any_experience_with_kodiak_gun/" }
+        ]
+      },
+      "sources": [
+        "https://rhinosafe.com/kbx5629-56h-x-29w-x-22d-42-long-gun-safe-30-min/",
+        "https://www.reviewed.com/home-outdoors/best-right-now/best-fireproof-safes",
+        "https://capefearinvestigative.com/best-high-end-gun-safes/"
+      ]
+    },
+    {
+      "name": "Fortress 24 Gun Fire Safe",
+      "matchName": "Fortress 24 Gun Fire Safe",
+      "brand": "Fortress",
+      "query": "Fortress 24 Gun Fire Safe with E-Lock 24EBF",
+      "asin": "B087N97Z56",
+      "asinVerified": true,
+      "badge": "Best budget long gun fire safe",
+      "summary": "A 55 in tall, 24-gun safe in 14-gauge steel with three 1 in active bolts, an electronic lock with a backup key and 30 minutes at 1200°F. Gun Safes Resource ranks it first among fireproof gun safes, and Cape Fear Investigative lists it among 24-gun safes.",
+      "renterNote": "For a first-time buyer with a handful of long guns who wants basic fire protection on a budget; the 30-minute, 1200°F rating is the lowest of the four and the maker's own, and owners report electronic lock failures, so keep the backup key outside the safe.",
+      "pros": [
+        "Electronic lock with Alarm-U function plus a mechanical backup key",
+        "Convertible interior and an external hinge that lets the door open wide",
+        "Lifetime warranty from Fortress"
+      ],
+      "cons": [
+        "Lowest fire rating here: 30 minutes at 1200°F, maker's own claim",
+        "Owners on Lowe's and Facebook report keypads that stopped working, one with an override key that also failed"
+      ],
+      "specs": {
+        "Fire rating": "30 minutes at 1200°F, maker's own rating (Fortress names no lab)",
+        "Lock": "Electronic lock with Alarm-U function and mechanical backup key",
+        "Steel and bolts": "14-gauge steel (Fortress; Amazon says 2 mm); three 1 in active bolts and two dead bolts",
+        "Exterior": "55 in H x 24 in W x 21 in D (Amazon listing)",
+        "Capacity": "24 guns (claimed) with a convertible interior",
+        "Warranty": "Lifetime warranty (Fortress)"
+      },
+      "scores": {
+        "security": 5,
+        "fire": 4,
+        "access": 6,
+        "capacity": 7,
+        "value": 7
+      },
+      "scoreNote": "Security 5 for 14-gauge steel and three 1 in active bolts; fire 4 for a 30-minute, 1200°F maker claim with few published details; access 6 because owners report keypad failures; capacity 7 for a 24-gun claim that fits fewer scoped rifles; value 7 as the cheapest long gun fire safe here.",
+      "owners": {
+        "read": 4,
+        "praise": [
+          "Solid, sturdy safe with a heavy door for the money",
+          "The keypad works well for most owners"
+        ],
+        "complaints": [
+          "Electronic lock failures, including one owner whose override key also failed and who got little help from the maker",
+          "An error light locked one owner out, with batteries not reachable from outside"
+        ],
+        "sources": [
+          { "title": "Walmart: Fortress 24 Gun Fire Safe 24EBF reviews (search excerpt only)", "url": "https://www.walmart.com/reviews/product/890672749" },
+          { "title": "Tennessee Gun Owners: Fortress 24 gun safe from Lowes, any opinions? (search excerpt only)", "url": "https://www.tngunowners.com/forums/topic/76089-fortress-24-gun-safe-from-lowes-any-opinions/" },
+          { "title": "Lowe's: Fortress 24-Gun Fireproof Electronic Keypad Gun Safe reviews (search excerpt only)", "url": "https://www.lowes.com/pd/Fortress-24-Gun-Fireproof-Electronic-Keypad-Gun-Safe/5013819075" },
+          { "title": "Facebook group: Who can unlock a Fortress 24EBF gun safe with error light (search excerpt only)", "url": "https://www.facebook.com/groups/319257396527065/posts/1585497929902999/" }
+        ]
+      },
+      "sources": [
+        "https://www.fortresssafe.com/24ebf.html",
+        "https://gunsafesresource.com/best-fireproof-gun-safe/",
+        "https://capefearinvestigative.com/best-24-gun-safe/"
+      ]
+    },
+    {
+      "name": "Hornady Fireproof Keypad Safe",
+      "matchName": "Hornady Fireproof Safe Keypad",
+      "brand": "Hornady",
+      "query": "Hornady Fireproof Keypad Safe 95407",
+      "asin": "B09TQ2CW9L",
+      "asinVerified": true,
+      "badge": "Best for handguns and papers",
+      "summary": "A 49 lb keypad safe for a few handguns plus documents, with a 16-gauge body, 8-gauge door, concrete anchors included and 30 minutes at 1400°F. American Firearms calls it the only genuinely fire-rated safe worth buying in its budget bracket, and Cape Fear Investigative lists it for guns and documents.",
+      "renterNote": "For someone who keeps a few handguns, passports and cash together in a closet and wants some fire protection; it is a storage safe, not a quick-access bedside safe, and the 30-minute rating is Hornady's own.",
+      "pros": [
+        "16-gauge steel body and 8-gauge door, with concrete anchor bolts included",
+        "Keypad with backup keys, interior light and low-battery warning",
+        "Fits handguns and letter-size papers in one box (15 x 13.2 x 10.2 in inside)"
+      ],
+      "cons": [
+        "30 minutes at 1400°F is Hornady's own rating and is meant for paper, not digital media",
+        "Not a fast-access safe, and a few owners report the opening knob working loose"
+      ],
+      "specs": {
+        "Fire rating": "30 minutes up to 1400°F, maker's own rating (Hornady names no lab)",
+        "Lock": "4-6 digit electronic keypad with backup keys; interior light",
+        "Steel": "16-gauge steel body, 8-gauge steel door",
+        "Exterior": "16.5 x 15 x 12 in (Hornady and retailers list the axes in different order)",
+        "Interior": "15 x 13.2 x 10.2 in, about 1.17 cu ft",
+        "Weight": "49 lb (Hornady)",
+        "Bolt-down": "Concrete anchor bolts included"
+      },
+      "scores": {
+        "security": 5,
+        "fire": 5,
+        "access": 6,
+        "capacity": 5,
+        "value": 8
+      },
+      "scoreNote": "Security 5 for a 16-gauge body and 8-gauge door in a 49 lb box that must be anchored; fire 5 for a 30-minute maker claim; access 6 for a keypad that owners call slow for defense use, with reports of a loose knob; capacity 5 for a few handguns and papers; value 8 for adding fire protection and anchors at a modest cost.",
+      "owners": {
+        "read": 4,
+        "praise": [
+          "Solid and the right size to bolt down out of sight",
+          "Good for one or two handguns plus ammo boxes and papers"
+        ],
+        "complaints": [
+          "Not a fast-access safe",
+          "Opening knob worked loose for one owner, and one arrived dented from shipping"
+        ],
+        "sources": [
+          { "title": "Reddit r/CAguns: Safe similar to this Hornady safe? (search excerpt only)", "url": "https://www.reddit.com/r/CAguns/comments/1hurw6a/safe_similar_to_this_hornady_safe/" },
+          { "title": "Rural King: Hornady Fireproof Keypad Safe 95407 reviews (search excerpt only)", "url": "https://www.ruralking.com/hornady-fireproof-keypad-safe-95407" },
+          { "title": "Mammoth Safes: Hornady 95407 reviews (search excerpt only)", "url": "https://mammothsafes.com/products/hornady-95407-fireproof-keypad-safe-1" },
+          { "title": "Dean Safe: Hornady Fireproof Keypad Safe reviews (search excerpt only)", "url": "https://deansafe.com/products/hornady-fireproof-keypad-safe-95407" }
+        ]
+      },
+      "sources": [
+        "https://store.hornady.com/fireproof-keypad-safe",
+        "https://www.americanfirearms.org/best-gun-safe-under-500/",
+        "https://capefearinvestigative.com/best-fireproof-safe-for-guns-and-documents/"
+      ]
+    }
+  ],
+  "totalOwnerPostsRead": 16
+}

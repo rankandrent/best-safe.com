@@ -1,0 +1,18 @@
+{
+  "slug": "best-fire-rated-gun-safe",
+  "pass": true,
+  "checkedAt": "2026-10-20T20:15:59.761Z",
+  "errors": [],
+  "warnings": [
+    "product \"Steelwater Heavy Duty 20 Long Gun\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Kodiak KBX5629\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Fortress 24 Gun Fire Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady Fireproof Keypad Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified 2026-10-20 with Firecrawl. ASINs hand-checked by scraping amazon.com/dp: B005DOE80Q = Steelwater Heavy Duty 20 Long Gun AMSW592818; B084H5TK53 = Kodiak KBX5629 by Rhino Metals; B087N97Z56 = Fortress 24 Gun Fire Safe 24EBF; B09TQ2CW9L = Hornady Fireproof Keypad Safe 95407. Specs against maker pages: steelwatergunsafes.com/products/sw592818 (60 min at 1875F, no lab named; 12-ga; ten 1.5in bolts 7 active/3 fixed; 4 7/8in door 2 layers fireboard; expanding seal; 59x28x18; 453 lb; 20 max, 12-16 recommended; four 7/16in anchor holes with 1/4in plate; exceeds CA DOJ standards); rhinosafe.com KBX5629 (56x29x22; 333 lb net; 14-ga; UL Listed electronic lock; 30 min at 1400F, no lab named; intumescent seal 8x; 42 long guns; pre-drilled floor; CA DOJ firearm safety device), Amazon adds 390 lb and 9 handguns; fortresssafe.com/24ebf (14-ga; 3x1in active + 2 dead bolts; e-lock with Alarm-U and backup key; 30 min at 1200F, no lab; lifetime warranty), Amazon 55x24x21 and 2mm; store.hornady.com (49 lb; 16-ga body, 8-ga door; e-lock with key backup; 30 min up to 1400F, no lab; anchors included; interior light; 15x13.2x10.2 inside), Amazon 2 backup keys, 4-6 digit code. Fire-rating explainer against nwsafe.com/blogs/tips/fireproof-gun-safe (unregulated ratings, ramp-up and thermocouple placement, UL Class 350 1 hr at 1700F, UL RSC not fire, home in heat almost an hour, ammo OK but inspect after fire). Recommendations: topfirearmreviews (Steelwater best fireproof, 22-gun claim due to math quote), reviewed.com (Kodiak KBX5629 best fireproof gun safe, seal), capefearinvestigative high-end (Kodiak), 24-gun (Fortress), guns-and-documents (Hornady), gunsafesresource (Fortress #1), americanfirearms (Hornady only genuinely fire-rated under its bracket). Owner claims checked against search excerpts (r/CAguns, r/Gun_Safes, Yelp, r/gundeals, Northwest Firearms read in full, Walmart, Lowe's, Facebook, Rural King, r/CAguns Hornady thread, r/liberalgunowners SERP thread). Pain-point quotes verified verbatim on thehighroad.org (2 threads) and ar15.com. Removed an unverified claim that the bypass key got Steelwater owners in. No prices, no legal advice; CA DOJ roster linked as official source.",
+    "at": "2026-10-20T20:15:59.129Z",
+    "hash": "183c5abbd3edd836"
+  }
+}
