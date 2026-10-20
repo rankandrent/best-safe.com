@@ -1,0 +1,512 @@
+{
+  "centralEntity": "gun safe move",
+  "entityVariants": [
+    "move a gun safe",
+    "moving a gun safe",
+    "transport a gun safe",
+    "relocate a gun safe",
+    "safe moving",
+    "best way to move a gun safe"
+  ],
+  "entities": [
+    {
+      "name": "appliance dolly",
+      "type": "equipment",
+      "relation": "rated dolly that carries the safe upright; ordinary ones max out near 600 lb, heavy-duty near 800 lb"
+    },
+    {
+      "name": "stair-climbing dolly",
+      "type": "equipment",
+      "relation": "powered or Ultra Lift style climber used by pros on stairs"
+    },
+    {
+      "name": "furniture sliders",
+      "type": "equipment",
+      "relation": "plastic (carpet) or felt (hard floors) pads for short shifts out of a closet"
+    },
+    {
+      "name": "ratchet straps",
+      "type": "equipment",
+      "relation": "hold the safe to the dolly and to the truck"
+    },
+    {
+      "name": "moving blankets",
+      "type": "equipment",
+      "relation": "pads plus stretch wrap protect finish and door frames"
+    },
+    {
+      "name": "safe handle",
+      "type": "hardware",
+      "relation": "break-away or clutch handle; never lift or lever by it"
+    },
+    {
+      "name": "anchor bolts",
+      "type": "hardware",
+      "relation": "safe may be bolted to slab or framing and must be unbolted first, then re-anchored"
+    },
+    {
+      "name": "floor load",
+      "type": "attribute",
+      "relation": "residential floors and stairs vs loaded safe weight"
+    },
+    {
+      "name": "safe mover",
+      "type": "service",
+      "relation": "insured crew with stair climbers; cost and weight limits vary"
+    }
+  ],
+  "attributes": [
+    "empty weight",
+    "loaded weight",
+    "dimensions with handle",
+    "doorway and turn clearance",
+    "dolly weight rating",
+    "stairs",
+    "floor type",
+    "bolted down",
+    "helpers needed"
+  ],
+  "ngrams": [
+    "gun safe",
+    "move a gun safe",
+    "appliance dolly",
+    "ratchet straps",
+    "furniture sliders",
+    "moving blankets",
+    "stair climber",
+    "empty the safe",
+    "measure doorways",
+    "hire professional movers",
+    "moving truck",
+    "safe moving dolly"
+  ],
+  "skipgrams": [
+    "move…safe",
+    "dolly…straps",
+    "empty…safe",
+    "measure…doorways",
+    "hire…movers",
+    "safe…stairs",
+    "floor…sliders",
+    "bolt…floor"
+  ],
+  "nlpTerms": [
+    "weight",
+    "dolly",
+    "straps",
+    "helpers",
+    "stairs",
+    "professional movers",
+    "furniture pads",
+    "ramp",
+    "doorways",
+    "bolted down",
+    "level",
+    "anchor"
+  ],
+  "questions": [
+    "How many people does it take to move a gun safe?",
+    "Can you move a gun safe with a dolly?",
+    "How do you move a gun safe up stairs?",
+    "How do you move a gun safe without damaging the floor?",
+    "Should I hire movers for a gun safe?",
+    "Can you move a gun safe on its side?",
+    "Do I need to empty the safe first?",
+    "How do you move a gun safe across a room?"
+  ],
+  "contentGaps": [
+    "Almost no top result says a safe should not be laid down or tipped past the angle its door seal, bolts and relockers tolerate, or tells you to check the maker's manual",
+    "Top results lack the doorframe/threshold/rental deposit angle for renters",
+    "None gives a decision rule by weight and route (DIY vs crew) with the dolly rating gap (600 vs 800 lb dollies vs 800+ lb safes)",
+    "Few cover re-anchoring and re-checking the door and lock after the move, or keeping guns stored legally while the safe is empty",
+    "Unbolting from slab/framing before moving only appears in one result",
+    "Pros-only stair guidance but no owner-reported turn/landing failures"
+  ],
+  "outline": [
+    {
+      "h2": "Short answer: how to move a gun safe",
+      "intent": "direct answer",
+      "h3": [
+        "Empty it, rate your dolly, get 3+ helpers, or hire a crew past 500 lb or any stairs"
+      ]
+    },
+    {
+      "h2": "Before you touch it: weight, route and where the guns go",
+      "intent": "prep (common points, brief)",
+      "h3": [
+        "Find the empty weight and measure the route with the handle on",
+        "Temporary legal storage for the firearms while the safe is empty"
+      ]
+    },
+    {
+      "h2": "Gear that matters: dolly rating, sliders, straps and blankets",
+      "intent": "equipment (serpProducts)",
+      "h3": [
+        "Dolly rating vs safe weight",
+        "Sliders by floor type"
+      ]
+    },
+    {
+      "h2": "Step-by-step: from the closet to the truck",
+      "intent": "how-to steps",
+      "h3": [
+        "Slide out, tilt, dolly, strap",
+        "Never use the handle",
+        "Loading and securing in the vehicle"
+      ]
+    },
+    {
+      "h2": "Problems owners run into, and the fix",
+      "intent": "pain points",
+      "h3": [
+        "Stairs and basements",
+        "Turns, doorways and dolly limits",
+        "Floor and stair load",
+        "Injuries, quotes and when to pay a mover",
+        "Frames, thresholds and rental deposits"
+      ]
+    },
+    {
+      "h2": "After the move: level, bolt down and recheck the lock",
+      "intent": "finish",
+      "h3": [
+        "Re-anchor and check the door and lock"
+      ]
+    },
+    {
+      "h2": "FAQ",
+      "intent": "questions",
+      "h3": []
+    }
+  ],
+  "targetWords": 1150,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+      "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+      "https://twomenandatruck.com/how-to/move-a-gun-safe",
+      "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own",
+      "https://www.allied.com/moving-resources/tips/move-gun-safe",
+      "https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "Pure how-to; no buyable products in the post. The only equipment (dollies, straps, sliders, blankets) is generic and covered as a short rated-gear checklist, not product picks.",
+    "avgWords": 1150,
+    "avgProducts": 0,
+    "commonSections": [
+      "equipment list",
+      "measure safe and route",
+      "empty the safe",
+      "dolly and straps",
+      "stairs",
+      "loading the truck",
+      "hire professionals"
+    ],
+    "usesComparisonTable": false,
+    "usesFaq": false,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.youtube.com/watch?v=-lxi5SqJx9Y",
+      "title": "How to Move a Gun Safe | Tractor Supply Co."
+    },
+    {
+      "position": 2,
+      "url": "https://www.reddit.com/r/Hunting/comments/15umpys/best_way_to_move_a_heavy_gun_safe_to_a_new_house/",
+      "title": "Best way to move a heavy gun safe to a new house."
+    },
+    {
+      "position": 3,
+      "url": "https://www.youtube.com/watch?v=VuaSmr1F_pk",
+      "title": "How One Person Can Move VERY HEAVY Items With Ease! ..."
+    },
+    {
+      "position": 4,
+      "url": "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+      "title": "How to Move a Gun Safe"
+    },
+    {
+      "position": 5,
+      "url": "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+      "title": "How to Transport a Gun Safe: A Step-by-Step Guide"
+    },
+    {
+      "position": 6,
+      "url": "https://www.youtube.com/watch?v=5mkPtqh799E&vl=en",
+      "title": "Moving a 1/2 TON SAFE Without Dying..."
+    },
+    {
+      "position": 7,
+      "url": "https://twomenandatruck.com/how-to/move-a-gun-safe",
+      "title": "How to Move a Gun Safe"
+    },
+    {
+      "position": 8,
+      "url": "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own",
+      "title": "Tips for Moving a Gun Safe on Your Own"
+    },
+    {
+      "position": 9,
+      "url": "https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist",
+      "title": "Gun Safe Moving Checklist: What to Do Before the Movers Arrive"
+    },
+    {
+      "position": 10,
+      "url": "https://www.allied.com/moving-resources/tips/move-gun-safe",
+      "title": "How to Move a Gun Safe"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": true,
+    "withYear": false,
+    "withNumber": false,
+    "commonModifiers": [
+      "step-by-step",
+      "tips",
+      "on your own",
+      "checklist"
+    ],
+    "gap": "Most titles are the bare keyword; owner rule fixes seoTitle to exactly 'How to Move a Gun Safe' and the H1 starts with the keyword, no colon."
+  },
+  "commonPoints": [
+    "Empty the safe first: less weight, contents cannot shift",
+    "Know the weight and measure the safe, doorways, halls and turns",
+    "Use a rated appliance dolly with straps, never a standard hand truck",
+    "Wrap in moving blankets and stretch wrap to protect safe and home",
+    "Never move it alone: at least 2 to 4 people, one guiding",
+    "Use sliders to get it out of the closet, ramps for trucks, strap it down in the vehicle",
+    "Stairs are the hard part; hire pros or use a stair climber"
+  ],
+  "ourGain": [
+    {
+      "point": "Dolly rating gap: ordinary appliance dollies max near 600 lb and heavy-duty near 800 lb, while a loaded or large safe is far heavier, so rate the gear to the safe weight, not 'a dolly'",
+      "source": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/ and Liberty Safe (800 lb dolly for Fatboy Jr.)"
+    },
+    {
+      "point": "Doorframe, threshold and rental deposit damage, with protection steps for renters",
+      "source": "https://smith-wessonforum.com/threads/safe-moving.733512/"
+    },
+    {
+      "point": "Owner-reported injuries and a safe dropped from a rental ramp, with a weight/stairs decision rule for DIY vs a mover and real paid prices range",
+      "source": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2"
+    },
+    {
+      "point": "Floor and stair load check (residential floors often rated about 40 lb per sq ft) before choosing the new spot",
+      "source": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+    },
+    {
+      "point": "Safe-buyer finish: unbolt before moving, re-anchor after, recheck door and lock, store firearms legally meanwhile (state rules), link to checklist",
+      "source": "Kirby's Moving (bolted-down mistake) and Liberty Safe (bolt down after)"
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "safe-guides-moving-up-stairs",
+      "pain": "A 500 lb+ safe cannot be carried up stairs by the owner without risk of injury or damage",
+      "details": "Owners ask how to get a 500 to 900 lb safe up or down a flight and are told to hire safe movers, check the stairs and use door removal or modular safes. DIY with stair dollies is described as dangerous.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-moving-suggestions.936791/",
+        "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+      ],
+      "quotes": [
+        {
+          "text": "Hire a professional. Don't rent a stair climbing dolly.",
+          "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+        },
+        {
+          "text": "You should use safe movers and nobody else, and be sure your stairs can handle the weight",
+          "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+        },
+        {
+          "text": "Occasionally safes need to be moved.",
+          "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-floor-and-stair-load",
+      "pain": "Worry that the floor or stairs cannot take the weight of a loaded safe",
+      "details": "Owners wanting the safe upstairs or in a basement room ask about floor load ratings, bracing basement stairs and the combined weight of safe plus contents.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+        "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+      ],
+      "quotes": [
+        {
+          "text": "Most residential floors are only rated for about 40 lb per sq ft.",
+          "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+        },
+        {
+          "text": "Consider what the full of stuff weight will be, and plan accordingly.",
+          "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+        },
+        {
+          "text": "be sure your stairs can handle the weight",
+          "url": "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-tight-turns-and-dolly-limits",
+      "pain": "Safe will not make the turn or doorway, and the dolly is rated below the safe weight",
+      "details": "Owners hit tight stair turns, narrow doors and dollies rated to 600 or 800 lb. Tips: remove the door where hinges allow, buy a modular safe, or keep the safe to appliance-dolly size.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+      ],
+      "quotes": [
+        {
+          "text": "the turn at the top won't allow any one-piece safe, even a medium size one, to be taken up or down.",
+          "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+        },
+        {
+          "text": "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#",
+          "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-diy-move-injury-and-dropped-safe",
+      "pain": "Owners fear a DIY safe move ends in an injury or a dropped safe, but a pro feels expensive",
+      "details": "Owners moving a 400-1,000+ lb safe weigh friends plus a rented dolly against a hired crew. Several report a broken foot, a back injury or a safe dropped off a rental truck ramp, and most advise hiring a pro.",
+      "sources": [
+        "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+        "https://smith-wessonforum.com/threads/safe-moving.733512/",
+        "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+      ],
+      "quotes": [
+        {
+          "text": "One good back injury with a do-it-yourself move and you sure will regret not paying a professional at any cost.",
+          "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2"
+        },
+        {
+          "text": "There are no small mistakes when moving a 1,000+ lb safe.",
+          "url": "https://smith-wessonforum.com/threads/safe-moving.733512/"
+        },
+        {
+          "text": "i dropped my Cannon safe on the way down a rental truck ramp using a refrigerator cart.",
+          "url": "https://smith-wessonforum.com/threads/safe-moving.733512/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-mover-cost-quotes-and-limits",
+      "pain": "Owners cannot get a clear price for a safe mover, and some movers refuse weight, distance or guns inside",
+      "details": "Owners moving house or buying second-hand report sky-high quotes just to load the safe, movers who will not quote without both addresses, weight limits and waitlists. Prices people actually paid range from about 200 to 1,000 dollars.",
+      "sources": [
+        "https://smith-wessonforum.com/threads/safe-moving.733512/",
+        "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+        "https://www.reddit.com/r/NHGuns/comments/182u2os/cost_to_move_400lb_gun_safe/"
+      ],
+      "quotes": [
+        {
+          "text": "I got a couple of sky high quotes from a couple of different outfits just to load (or unload) the safe in my trailer",
+          "url": "https://smith-wessonforum.com/threads/safe-moving.733512/"
+        },
+        {
+          "text": "Price was $400. His full-time business was moving safes.",
+          "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2"
+        },
+        {
+          "text": "I paid $200 to have the movers pick up the safe at Tractor Supply and bring it to the second floor of my house.",
+          "url": "https://www.reddit.com/r/NHGuns/comments/182u2os/cost_to_move_400lb_gun_safe/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-doorframes-floors-deposit-damage",
+      "pain": "Moving a heavy safe tears up door frames, thresholds, steps and floors (and the rental deposit)",
+      "details": "Owners and renters worry a 400+ lb safe will gouge thresholds and flooring on the way in or out. Advice is to use a professional safe mover or protect surfaces, especially when moving out of a rental.",
+      "sources": [
+        "https://smith-wessonforum.com/threads/safe-moving.733512/",
+        "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+      ],
+      "quotes": [
+        {
+          "text": "When they get a lot heavier than that it can get really difficult and a bit dangerous along with possibly tearing up door frames and thresholds.",
+          "url": "https://smith-wessonforum.com/threads/safe-moving.733512/"
+        },
+        {
+          "text": "Might save your thresholds, steps, security deposit, etc.",
+          "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+        }
+      ]
+    }
+  ],
+  "serpProducts": [
+    {
+      "item": "appliance dolly (heavy-duty, strap-equipped)",
+      "urls": [
+        "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+        "https://www.allied.com/moving-resources/tips/move-gun-safe",
+        "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own",
+        "https://twomenandatruck.com/how-to/move-a-gun-safe",
+        "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+        "https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist"
+      ]
+    },
+    {
+      "item": "furniture sliders (plastic for carpet, felt for hard floors)",
+      "urls": [
+        "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+        "https://www.allied.com/moving-resources/tips/move-gun-safe",
+        "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own",
+        "https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist"
+      ]
+    },
+    {
+      "item": "ratchet straps",
+      "urls": [
+        "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+        "https://www.allied.com/moving-resources/tips/move-gun-safe",
+        "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+        "https://twomenandatruck.com/how-to/move-a-gun-safe",
+        "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own"
+      ]
+    },
+    {
+      "item": "moving blankets / furniture pads plus stretch wrap",
+      "urls": [
+        "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/",
+        "https://www.allied.com/moving-resources/tips/move-gun-safe",
+        "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+        "https://twomenandatruck.com/how-to/move-a-gun-safe",
+        "https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own"
+      ]
+    },
+    {
+      "item": "stair-climbing dolly (usually pro equipment)",
+      "urls": [
+        "https://americansecuritysafes.com/how-to-transport-a-gun-safe/",
+        "https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist",
+        "https://www.uhaul.com/Tips/Moving-Help/How-To-Move-A-Gun-Safe-35821/"
+      ]
+    }
+  ],
+  "linkPlan": [
+    {
+      "to": "/safe-buying-checklist/",
+      "where": "after-move section and floor-load / weight points"
+    },
+    {
+      "to": "/blog/best-dehumidifier-for-gun-safe/",
+      "where": "new location, basement damp"
+    },
+    {
+      "to": "/blog/best-fireproof-safe/",
+      "where": "heavy fireproof safes and bolt-down"
+    },
+    {
+      "to": "/blog/best-pistol-safe/",
+      "where": "small safes that avoid the move problem"
+    },
+    {
+      "to": "/blog/best-handgun-safe-for-nightstand/",
+      "where": "smaller bolt-down alternative"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+ "centralEntity": "opening your own locked safe (lockout recovery through the maker or a licensed locksmith)",
+ "entityVariants": [
+  "open a safe",
+  "safe lockout",
+  "locked out of a safe",
+  "unlock my safe",
+  "lost safe combination",
+  "safe override key"
+ ],
+ "entities": [
+  {
+   "name": "safe manufacturer",
+   "type": "Organization",
+   "relation": "holds ownership records and issues combinations, keys or resets after verifying the owner"
+  },
+  {
+   "name": "licensed locksmith or safe technician",
+   "type": "Service",
+   "relation": "opens the owner's safe on site; best contacted after the maker for warranty reasons"
+  },
+  {
+   "name": "override key",
+   "type": "Part",
+   "relation": "backup mechanical entry on many electronic safes, usually behind a small cover near the keypad"
+  },
+  {
+   "name": "9V or AA battery",
+   "type": "Part",
+   "relation": "most common cause of electronic keypad lockouts"
+  },
+  {
+   "name": "serial number",
+   "type": "Identifier",
+   "relation": "required by makers to verify ownership"
+  },
+  {
+   "name": "proof of ownership",
+   "type": "Document",
+   "relation": "receipt, registration, notarized form and ID the maker asks for"
+  },
+  {
+   "name": "combination or duplicate key request form",
+   "type": "Document",
+   "relation": "maker form (some require notarization and payment)"
+  },
+  {
+   "name": "safe registration",
+   "type": "Process",
+   "relation": "creates the ownership record that makes recovery fastest"
+  },
+  {
+   "name": "SentrySafe",
+   "type": "Brand",
+   "relation": "maker with an ownership-verification form for lost codes"
+  },
+  {
+   "name": "Liberty Safe",
+   "type": "Brand",
+   "relation": "maker that gives combinations only to registered or notarized owners"
+  },
+  {
+   "name": "electronic keypad lock",
+   "type": "Lock type",
+   "relation": "fails on dead battery; has override key or external power point on some models"
+  },
+  {
+   "name": "mechanical dial combination lock",
+   "type": "Lock type",
+   "relation": "no battery; dial sequence is in the maker's manual"
+  }
+ ],
+ "attributes": [
+  "lock type (dial, keypad, key, biometric)",
+  "backup entry (override key, external battery contacts)",
+  "battery type and age",
+  "serial number location",
+  "proof of ownership documents",
+  "maker support route and turnaround",
+  "warranty impact of locksmith or drilling",
+  "non-destructive opening vs drilling",
+  "locksmith credentials"
+ ],
+ "ngrams": [
+  "open a safe",
+  "lost combination",
+  "override key",
+  "dead battery",
+  "serial number",
+  "proof of ownership",
+  "licensed locksmith",
+  "contact the manufacturer",
+  "replace the batteries",
+  "combination request form",
+  "safe won't open",
+  "backup key"
+ ],
+ "skipgrams": [
+  "safe\u2026combination",
+  "lost\u2026combination",
+  "battery\u2026dead",
+  "proof\u2026ownership",
+  "serial\u2026number",
+  "contact\u2026manufacturer",
+  "override\u2026key",
+  "locksmith\u2026drill",
+  "register\u2026safe",
+  "replace\u2026batteries"
+ ],
+ "nlpTerms": [
+  "combination",
+  "dial",
+  "keypad",
+  "override key",
+  "battery",
+  "manufacturer",
+  "serial number",
+  "proof of ownership",
+  "notarized",
+  "locksmith",
+  "technician",
+  "warranty",
+  "registration",
+  "lockout",
+  "reset",
+  "duplicate key",
+  "non-destructive",
+  "drilling",
+  "manual",
+  "dealer"
+ ],
+ "questions": [
+  "How do I open my safe if the battery is dead?",
+  "What do I do if I lost my safe combination?",
+  "Can the manufacturer open or reset my safe?",
+  "What proof of ownership do I need?",
+  "Should I call a locksmith or the manufacturer first?",
+  "How much does a locksmith charge to open a safe?",
+  "Will a locksmith have to drill my safe?",
+  "Can I open a safe I inherited or bought with a house?"
+ ],
+ "contentGaps": [
+  "Top pages say 'call a locksmith' without saying to contact the maker first (Liberty Safe says contacting the maker first protects the warranty)",
+  "Few explain the maker route in order: register, serial number, notarized form, wait time",
+  "No page lists what proof of ownership to keep before a lockout",
+  "Battery lockout covered but not the 'new batteries still don't work' case",
+  "Drilling cost surprises owners are not addressed; nobody tells them to ask the maker or dealer about non-destructive options first",
+  "Inherited or house-purchase safes: who to ask and what to show"
+ ],
+ "outline": [
+  {
+   "h2": "How to open a safe you own when you are locked out",
+   "intent": "direct answer: check lock type, battery, override key, then maker, then locksmith",
+   "h3": [
+    "Start with the lock type",
+    "The order to try things"
+   ]
+  },
+  {
+   "h2": "If it is a dial safe, follow the maker's dialing sequence",
+   "intent": "common point: correct dial sequence from the manual",
+   "h3": [
+    "Where to find the manual and sequence for your model"
+   ]
+  },
+  {
+   "h2": "Dead battery and override key on electronic safes",
+   "intent": "common point: replace batteries, use backup key",
+   "h3": [
+    "Fresh batteries that still don't work"
+   ]
+  },
+  {
+   "h2": "Lost combination or key: the maker route",
+   "intent": "gap: maker route with proof of ownership and serial number",
+   "h3": [
+    "Register now so recovery is quick",
+    "What the maker asks for",
+    "A safe that came with a house"
+   ]
+  },
+  {
+   "h2": "When to call a licensed locksmith or safe technician",
+   "intent": "common point plus gap: maker first, warranty, drill cost, non-destructive first",
+   "h3": [
+    "What to ask before they start",
+    "Drilling cost and damage"
+   ]
+  },
+  {
+   "h2": "Proof of ownership to keep before you need it",
+   "intent": "gap: documents checklist",
+   "h3": []
+  },
+  {
+   "h2": "Problems owners run into, and the fix",
+   "intent": "pain points answered",
+   "h3": []
+  },
+  {
+   "h2": "Keep from getting locked out again",
+   "intent": "prevention: battery calendar, code stored off-site",
+   "h3": []
+  }
+ ],
+ "targetWords": 1150,
+ "serpStructure": {
+  "analyzedUrls": [
+   "https://mycubesafe.com/blogs/security/how-to-open-a-safe-if-youve-lost-the-combination",
+   "https://inkassafes.com/how-to-open-a-safe-without-a-key/",
+   "https://islandsafe.co/blogs/how-to/how-to-open-a-safe-with-a-key",
+   "https://hoogerhydesafe.com/resources/combination-lock-dialing-procedures/",
+   "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe"
+  ],
+  "productStyle": "paragraph",
+  "productStyleReason": "How-to guide with no product picks. The pages are step lists and short paragraphs by lock type. productCount is a secondary mention at most.",
+  "avgWords": 1150,
+  "avgProducts": 0,
+  "commonSections": [
+   "identify your safe/lock type",
+   "replace the batteries / use the override key",
+   "dial or keypad sequence from the manual",
+   "contact the manufacturer with model and serial number",
+   "call a locksmith",
+   "prevention (spare key, store code, battery schedule)"
+  ],
+  "usesComparisonTable": false,
+  "usesFaq": false,
+  "usesBuyingGuide": false,
+  "note": "Word counts: Mycube about 900, INKAS about 3100, IslandSafe about 300, Hoogerhyde about 300 (dial charts), averaging about 1150. Video and forum results (YouTube x3, Reddit, JustAnswer) have no comparable word count. Only owner-lockout content is mirrored; lock-defeat techniques in the SERP are deliberately left out."
+ },
+ "serpTitles": [
+  {
+   "position": 1,
+   "url": "https://www.youtube.com/watch?v=oHmUrXH341M",
+   "title": "How to Open Safes With 3 Number Combinations"
+  },
+  {
+   "position": 2,
+   "url": "https://inkassafes.com/how-to-open-a-safe-without-a-key/",
+   "title": "Unlocking Safes Without Keys: Expert Techniques and Tips"
+  },
+  {
+   "position": 3,
+   "url": "https://www.reddit.com/r/lifehacks/comments/udi5u2/how_to_get_a_safe_open/",
+   "title": "How to get a safe open : r/lifehacks"
+  },
+  {
+   "position": 4,
+   "url": "https://hoogerhydesafe.com/resources/combination-lock-dialing-procedures/",
+   "title": "Mechanical Combination Safe Lock Dialing Procedures"
+  },
+  {
+   "position": 5,
+   "url": "https://www.youtube.com/watch?v=83h1ySLI6ws",
+   "title": "How To Open Your Safe with Dial Sequence Lock"
+  },
+  {
+   "position": 6,
+   "url": "https://www.webstaurantstore.com/video-6497/sentry-safe-how-to-open-a-right-left-right-sequence-dial-lock.html",
+   "title": "How to Open Your Sentry Safe: Combination Lock Instructions"
+  },
+  {
+   "position": 7,
+   "url": "https://islandsafe.co/blogs/how-to/how-to-open-a-safe-with-a-key",
+   "title": "How to open a safe with a key"
+  },
+  {
+   "position": 8,
+   "url": "https://mycubesafe.com/blogs/security/how-to-open-a-safe-if-youve-lost-the-combination",
+   "title": "How To Open a Safe if You've Lost the Combination"
+  },
+  {
+   "position": 9,
+   "url": "https://www.justanswer.com/electronics/lxh02-cannot-safe-open-right-left-right-left.html",
+   "title": "How to Open Your Safe: Expert Advice on Right-Left ..."
+  },
+  {
+   "position": 10,
+   "url": "https://www.youtube.com/watch?v=Y6cZrieFw-k",
+   "title": "EEVblog 1494 - FIVE Ways to Open a CHEAP SAFE!"
+  }
+ ],
+ "titlePattern": {
+  "keywordAtStart": 2,
+  "withYear": 0,
+  "withNumber": 2,
+  "commonModifiers": [
+   "Your Safe",
+   "Combination",
+   "Without a Key",
+   "Dial Sequence",
+   "Sentry Safe",
+   "Lost the Combination"
+  ],
+  "gap": "None of the titles frame it as getting back into your own safe the legitimate way (maker with proof of ownership, then a licensed locksmith). Owner decision: seoTitle is exactly 'How to Open a Safe'; H1 starts with the exact keyword; no colon.",
+  "keywordAtStartNote": "2 of 10 start with the exact phrase 'How to open a safe' (7, 8); 6 of 10 start with 'How to Open' (1, 5, 6, 7, 8, 9)"
+ },
+ "seoTitle": "How to Open a Safe",
+ "h1Suggestion": "How to Open a Safe You Own When You Are Locked Out",
+ "commonPoints": [
+  "Identify your lock type (dial, keypad, key, biometric) and read the manual for your model",
+  "Replace dead batteries (fresh alkaline, correct orientation) before anything else on a keypad safe",
+  "Use the override or backup key many electronic safes hide behind a small cover",
+  "Follow the maker's dial sequence exactly for combination locks",
+  "If the combination or key is lost, contact the manufacturer with the model and serial number",
+  "Call a licensed locksmith or safe technician instead of forcing the safe",
+  "Prevent repeats: keep a spare key and the code stored outside the safe, change batteries on a schedule"
+ ],
+ "ourGain": [
+  {
+   "point": "Order of calls: contact the maker first, then the locksmith, because Liberty Safe says a locksmith job without contacting the maker first can void the safe and lock warranties; most top pages just say 'call a locksmith'",
+   "source": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe"
+  },
+  {
+   "point": "The maker route step by step and what it takes: registered owners get fast help, unregistered ones may need a notarized request form, payment and a few business days (Liberty Safe: 3-5 business days); register the safe today",
+   "source": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe"
+  },
+  {
+   "point": "Proof-of-ownership checklist to assemble before a lockout: serial number (photo of it), receipt, registration confirmation, ID, and for a house-purchase safe the closing paperwork; owners report makers ask for proof of purchase and serial number",
+   "source": "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/"
+  },
+  {
+   "point": "Ask about non-destructive options and the cost before a locksmith drills; owners report quotes of roughly 250-600 dollars for drilling and later learning a dealer or maker fix was possible",
+   "source": "https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/"
+  },
+  {
+   "point": "New batteries that still fail: owners report non-alkaline cells, wrong alignment, a lever that won't reach the locked position, or a failed keypad; stop and call the maker rather than keep entering codes (some safes add lockout delays)",
+   "source": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+  }
+ ],
+ "painPoints": [
+  {
+   "id": "safe-guides-battery-dies-locks-owner-out",
+   "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+   "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+   "sources": [
+    "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+    "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+    "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+    "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+    "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+    "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+   ],
+   "quotes": [
+    {
+     "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+     "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+    },
+    {
+     "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+     "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+    },
+    {
+     "text": "Safe batteries dead and key not unlocking.",
+     "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/"
+    },
+    {
+     "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+     "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+    }
+   ]
+  },
+  {
+   "id": "safe-guides-new-batteries-still-wont-work",
+   "pain": "Fresh batteries are in and the keypad still will not open or lock the safe",
+   "details": "After a battery swap the code is rejected, the keypad lights but the bolt does not move, or the lever will not reach the locked position. Causes owners found: non-alkaline cells, battery alignment, a screw catching the bolt work, a failed keypad or solenoid.",
+   "sources": [
+    "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+    "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+    "https://www.reddit.com/r/Safes/comments/1hhzj3o/cannon_director_safe_code_does_not_work_after/",
+    "https://www.reddit.com/r/Safes/comments/1glr8c3/sentry_safe_issue/"
+   ],
+   "quotes": [
+    {
+     "text": "I have tried 4 new name brand batteries.",
+     "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+    },
+    {
+     "text": "I changed the batteries, but when I close it, the lever will not go all the way to the right into the locked position.",
+     "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+    },
+    {
+     "text": "Cannon Director Safe - code does not work after changing battery",
+     "url": "https://www.reddit.com/r/Safes/comments/1hhzj3o/cannon_director_safe_code_does_not_work_after/"
+    }
+   ]
+  },
+  {
+   "id": "safe-guides-lost-combination-or-key",
+   "pain": "Owner forgets the combination or loses the key and does not know the official recovery route",
+   "details": "Makers such as Winchester and Sentry keep records for registered owners and sell replacement keypads or keys. Owners are told to store the combination outside the safe and to use the manufacturer or a locksmith.",
+   "sources": [
+    "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+    "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
+    "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+    "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+   ],
+   "quotes": [
+    {
+     "text": "If you lose or forget your combination, you can request a copy for a nominal fee.",
+     "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+    },
+    {
+     "text": "If you are the legitimate owner of the safe, you can try contacting Sentry:",
+     "url": "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+    },
+    {
+     "text": "If you lost the override key it's a problem.",
+     "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+    }
+   ]
+  },
+  {
+   "id": "safe-guides-locksmith-drill-cost-and-damage",
+   "pain": "Locked out of their own safe, owners are quoted 'a few hundred' to drill it and fear a destroyed lock",
+   "details": "Owners of a locked-out safe call locksmiths and hear that drilling is the only route, at roughly 250-600 dollars, and later learn a non-destructive opening or a dealer fix was possible. They ask what to try first.",
+   "sources": [
+    "https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+    "https://www.reddit.com/r/mildlyinfuriating/comments/1brragw/lesson_learned_never_call_a_locksmith_to_break/",
+    "https://www.reddit.com/r/Locksmith/comments/1kqhozw/first_time_using_locksmith_250_to_drill_out_small/",
+    "https://www.reddit.com/r/safecracking/comments/1heaps5/lost_combination/"
+   ],
+   "quotes": [
+    {
+     "text": "2 have told me they'll basically have to drill it open and it'll cost a few hundred",
+     "url": "https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+     "via": "search-excerpt"
+    },
+    {
+     "text": "locksmith quoted $300 for drilling out the lock.",
+     "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1brragw/lesson_learned_never_call_a_locksmith_to_break/",
+     "via": "search-excerpt"
+    },
+    {
+     "text": "I recently paid $250 to have a small portable safe broken into",
+     "url": "https://www.reddit.com/r/Locksmith/comments/1kqhozw/first_time_using_locksmith_250_to_drill_out_small/",
+     "via": "search-excerpt"
+    }
+   ]
+  },
+  {
+   "id": "safe-guides-manufacturer-reset-needs-proof-of-ownership",
+   "pain": "Owner does not know the manufacturer can reset or open the safe, or what proof of ownership and serial number they need",
+   "details": "Owners who bought a house with a safe or lost the code ask whether the maker can help. Answers: contact the maker or dealer first with the serial number and proof of purchase; factory default codes may still work.",
+   "sources": [
+    "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+    "https://www.justanswer.com/software/w6kuy-gun-safe-lost-combination-reset-code.html",
+    "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe"
+   ],
+   "quotes": [
+    {
+     "text": "You usually have to provide proof of purchase and the serial number of the safe.",
+     "url": "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+     "via": "search-excerpt"
+    },
+    {
+     "text": "first verify the serial number and proof of ownership.",
+     "url": "https://www.justanswer.com/software/w6kuy-gun-safe-lost-combination-reset-code.html",
+     "via": "search-excerpt"
+    },
+    {
+     "text": "you must contact Liberty Safe first",
+     "url": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe",
+     "via": "search-excerpt"
+    }
+   ]
+  }
+ ],
+ "secondaryKeywords": {
+  "keep, framed as the reader's own safe": [
+   "sentry safe how to open (SentrySafe owner: dial or keypad per the manual, override key, SentrySafe's ownership-verification route)",
+   "how to open a combination safe (your own safe: the maker's dial sequence)",
+   "how to open a safe without a key (your own safe: spare or override key, maker replacement key, locksmith)",
+   "how to open a safe without the key (same section as above)",
+   "how to open a safe without combination (your own safe, lost combination: maker with proof of ownership, or locksmith)"
+  ],
+  "dropped": [],
+  "rule": "Use these only inside the owner-lockout sections. No picking, bumping, shimming, bouncing, decoding, drilling-it-yourself, hammering, magnets or lock-defeat steps. If a query implies someone else's safe, the page says to contact the owner, the maker or police instead."
+ },
+ "leftOut": "Deliberately omitted although several top-10 results cover them: picking, bumping, punching out locks, shimming, bouncing, magnet or power-line attacks, decoding, 'five ways to open a cheap safe'. Not in commonPoints.",
+ "linkPlan": {
+  "internal": [
+   {
+    "url": "/blog/best-biometric-gun-safe/",
+    "anchor": "fingerprint safe backup entry",
+    "where": "battery and override key section: biometric safes need a backup entry"
+   },
+   {
+    "url": "/blog/best-handgun-safe-for-nightstand/",
+    "anchor": "bedside handgun safe",
+    "where": "battery section or prevention: quick-access safes and the keypad/key backup"
+   },
+   {
+    "url": "/blog/best-pistol-safe/",
+    "anchor": "pistol safe with a key override",
+    "where": "prevention section"
+   },
+   {
+    "url": "/blog/best-fireproof-document-safe/",
+    "anchor": "fireproof document safe",
+    "where": "proof of ownership: keep copies of paperwork"
+   },
+   {
+    "url": "/blog/best-key-lock-box/",
+    "anchor": "key lock box",
+    "where": "prevention: store the spare override key and notes off-site, not inside the safe"
+   },
+   {
+    "url": "/safe-buying-checklist/",
+    "anchor": "safe buying checklist",
+    "where": "closing: choose a safe with a documented backup entry and registration"
+   }
+  ],
+  "external": [
+   {
+    "url": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe",
+    "anchor": "Liberty Safe's lost-combination policy",
+    "where": "maker route"
+   },
+   {
+    "url": "https://www.sentrysafe.com/",
+    "anchor": "SentrySafe support",
+    "where": "maker route; confirm the exact support page before linking"
+   }
+  ],
+  "note": "Keep to 3-5 internal links in the body; pick the ones that fit. Queued how-to siblings (battery replacement) can be added when live."
+ },
+ "targetWordsNote": "Concise: avgWords about 1150, targetWords 1150."
+}

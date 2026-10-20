@@ -1,0 +1,374 @@
+{
+  "keyword": "best gun safe for apartment",
+  "slug": "best-gun-safe-for-apartment",
+  "category": "gun-safes",
+  "articleType": "roundup",
+  "productCount": 4,
+  "productCountNote": "routine selection seeded 10; only 4 products qualified (2+ independent top-10/SERP pages and a matching Amazon US listing), so lowered per ROUTINE step 3",
+  "serpDate": "2026-10-20",
+  "secondaryKeywords": [
+    "best apartment gun safe",
+    "gun safe for renters",
+    "gun safe for condo"
+  ],
+  "serpProducts": [
+    {
+      "name": "Vaultek RS500i",
+      "pages": [
+        "https://nwsafe.com/blogs/tips/how-to-pick-an-apartment-gun-safe",
+        "https://www.pewpewtactical.com/best-gun-safes/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns"
+      ]
+    },
+    {
+      "name": "KAER Biometric Gun Safe Rifle",
+      "pages": [
+        "https://capefearinvestigative.com/best-apartment-gun-safe/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+        "https://www.americanfirearms.org/best-gun-safe-under-500/"
+      ]
+    },
+    {
+      "name": "Barska Biometric Rifle Safe (AX11652)",
+      "pages": [
+        "https://www.americanfirearms.org/best-gun-safe-under-500/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns"
+      ]
+    },
+    {
+      "name": "Vaultek LifePod 10",
+      "pages": [
+        "https://nwsafe.com/blogs/tips/how-to-pick-an-apartment-gun-safe",
+        "https://www.pewpewtactical.com/best-gun-safes/"
+      ]
+    }
+  ],
+  "serpEvidenceNotes": [
+    "Two Firecrawl searches on 2026-10-20 (keyword and a renter variant). Pages that name specific models: nwsafe.com, pewpewtactical.com/best-gun-safes, topfirearmreviews.com/post/best-safes-for-long-guns, capefearinvestigative.com, americanfirearms.org/best-gun-safe-under-500. Pages read that name no purchasable models: thesafekeeper.com, citysafeandvault.com, championsafe.com (lists Champion safes sold through dealers, not Amazon). Retailer/maker lists: secureitgunstorage.com (Agile), mammothsafes.com (Hollon, Stealth), safeandvaultstore.com (AMSEC, Hollon, RPNB). Reddit and Sniper's Hide threads could not be scraped (bot walls); read only via search excerpts, which name Stealth, Snap Safe, Zanotti and American Securities/AMSEC TF5924.",
+    "Not included: SecureIt Agile Model 52 (Pew Pew plus SecureIt's own pages only, so one independent page); AMSEC TF5924 (Sniper's Hide plus a retailer list, not sold on Amazon as far as checked); Stealth, Zanotti, Hollon (maker/retailer or forum mentions only).",
+    "Model-match caveats: KAER sells many look-alike variants; the ASIN is the 'Holds 14-15 Firearms' 2412C-1447 listing which is the exact listing Cape Fear links as its #8. Top Firearm Reviews and American Firearms describe older KAER variants (8-rifle, 86 lb). Barska: the AX11652 matches American Firearms' specs (62 lb, 9.5 x 8.6 x 52 in); Top Firearm Reviews describes a larger Barska locker with a top lock box, so only the brand overlaps there. LifePod: NW Safe names the original LifePod; Pew Pew names the LifePod 10, which is the ASIN used.",
+    "Vaultek RS500i weight: 93 lb on Vaultek and NW Safe vs 124 lb on the Amazon listing. Amazon title is the newer 'ViSN RS500i' (UPC 850014786830)."
+  ],
+  "products": [
+    {
+      "name": "Vaultek RS500i",
+      "matchName": "Vaultek RS500i",
+      "brand": "Vaultek",
+      "query": "Vaultek RS500i biometric rifle safe",
+      "asin": "B0FDR7JHCG",
+      "asinVerified": true,
+      "badge": "Best long gun safe for apartments",
+      "summary": "A 54 in tall, 93 lb biometric rifle safe in 14-gauge steel with four locking bolts, built narrow (14 x 11.7 in) so it fits a bedroom closet. NW Safe calls it a go-to apartment long gun safe, and Pew Pew Tactical and Top Firearm Reviews also feature it.",
+      "renterNote": "For a renter with one to a few rifles or shotguns plus handguns who wants quick fingerprint access in a closet; it has no fire rating or burglary listing and at 93 lb two people can still carry it, so use the pre-drilled stud/floor holes if the landlord allows or tether it to closet framing.",
+      "pros": [
+        "Narrow 14 x 11.7 in footprint and 93 lb weight, light enough to move up stairs with two people",
+        "14-gauge steel, four solid steel locking bolts, anti-pry bars; fingerprint, 8-digit code, Nano Key and two backup keys",
+        "Pre-drilled holes for wall or floor mounting; modular pegboard interior"
+      ],
+      "cons": [
+        "No fire rating (Vaultek lists it as not fire rated) and no independent burglary rating",
+        "Owners report the Wi-Fi/app side drops connection and has short range, and one owner posted that the locks would not disengage; keep the backup key outside the safe"
+      ],
+      "specs": {
+        "Lock": "Smart Align biometric scanner (80 fingerprints), 8-digit keypad, Nano Key remote, two manual backup keys (Vaultek, Amazon listing)",
+        "Steel": "Progressive-formed 14-gauge steel, 4 solid steel locking bolts, anti-pry bars, ruggedized interior hinges (Vaultek)",
+        "Exterior": "14 in W x 11.7 in D x 54 in H (Vaultek)",
+        "Interior": "13.75 in W x 9.75 in D x 53.25 in H (Vaultek)",
+        "Weight": "93 lb per Vaultek and NW Safe; the Amazon listing shows 124 lb (likely shipping weight, not confirmed)",
+        "Capacity": "Vaultek says 6+ rifles with handguns; the Amazon listing says 6+ rifles; NW Safe and Vaultek's older pages say 5; plan for fewer with scopes",
+        "Bolt-down": "Pre-drilled holes for wall or floor mounting, hardware included (Vaultek)",
+        "Fire rating": "None (Vaultek lists Fire Rated: No)",
+        "Water rating": "None published",
+        "Power": "Rechargeable battery with power cable; 4 AA backup batteries (not included) give about 3 months standby (Amazon listing)",
+        "Connectivity": "ViSN Wi-Fi app with live alerts, 2.4 and 5 GHz",
+        "State listing": "None found on the pages read"
+      },
+      "scores": {
+        "security": 7,
+        "access": 9,
+        "capacity": 8,
+        "value": 7
+      },
+      "scoreNote": "No fire claim, so fire is left out. Security 7 for 14-gauge steel, four bolts and anti-pry bars but no independent burglary rating; access 9 for fingerprint, code, Nano Key and auto-open door; capacity 8 for a 6+ rifle claim in a 14 in wide body; value 7 as a premium smart safe whose Wi-Fi features some owners find flaky.",
+      "sources": [
+        "https://vaulteksafe.com/products/visn-rs500i",
+        "https://nwsafe.com/blogs/tips/how-to-pick-an-apartment-gun-safe",
+        "https://www.pewpewtactical.com/best-gun-safes/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns"
+      ],
+      "owners": {
+        "read": 3,
+        "praise": [
+          "Easy setup; fingerprint plus code both work at the same time",
+          "Solid, heavy-duty build that fits a small footprint",
+          "Modular door and back-wall interior is easy to reconfigure"
+        ],
+        "complaints": [
+          "Wi-Fi/app drops off and has short range",
+          "Lock reported not disengaging on one safe after a year of normal use",
+          "Full-length bolt-action rifles may not fit with the shelf installed"
+        ],
+        "sources": [
+          {
+            "title": "Reddit r/Safes: Vaultek RS500i Wi-Fi Biometric Smart Rifle Safe (search excerpt only)",
+            "url": "https://www.reddit.com/r/Safes/comments/12r8hbq/vaultek_rs500i_wifi_biometric_smart_rifle_safe/"
+          },
+          {
+            "title": "Reddit r/Safes: Vaultek safe not opening? (search excerpt only)",
+            "url": "https://www.reddit.com/r/Safes/comments/1k7uvd6/vaultek_safe_not_opening/"
+          },
+          {
+            "title": "Top Firearm Reviews: Best Rifle Safes (Vaultek RS owner write-up, read in full)",
+            "url": "https://www.topfirearmreviews.com/post/best-safes-for-long-guns"
+          }
+        ]
+      },
+      "renter": {
+        "floorLoad": "93 lb on a 14 x 11.7 in footprint is roughly 82 lb per square foot if you only count the footprint; The Safe Keeper says most safes of this size are fine on a wood-framed upper floor if set against a bearing wall, but check heavier loads with the property manager.",
+        "boltDown": "Pre-drilled back and bottom holes; The Safe Keeper suggests anchoring into wall studs or closet framing because holes there are easy to patch at move-out, and says to ask the landlord in writing.",
+        "moveOut": "Empty it, then two people can carry it down stairs; patch and paint stud holes before the walkthrough."
+      }
+    },
+    {
+      "name": "KAER Biometric Gun Safe Rifle 14-15 (2412C-1447)",
+      "matchName": "KAER Biometric Gun Safe Rifle",
+      "brand": "KAER",
+      "query": "KAER Biometric Gun Safe Rifle 14-15 firearms fingerprint keypad",
+      "asin": "B0FZBWC594",
+      "asinVerified": true,
+      "badge": "Best budget large-capacity cabinet",
+      "summary": "A 78 lb biometric gun cabinet with a fingerprint reader, keypad and key, sold with a 14-15 firearm claim and 15-gauge steel. Cape Fear Investigative, Top Firearm Reviews and American Firearms all list a KAER, but both reviewers call it a locker, not a true safe.",
+      "renterNote": "For a renter on a tight budget who mainly needs to keep kids and casual visitors out of several long guns in a closet; it is a cabinet, not a burglary-resistant safe, has no fire rating, and the fingerprint reader gets mixed owner reports.",
+      "pros": [
+        "Large claimed capacity (14-15 firearms, 45.5 in max height) at a low cost per gun",
+        "Fingerprint, keypad and key entry, so a dead battery or poor read does not lock you out",
+        "Light enough (78 lb) for two people to move out, with an anti-tipping feature listed"
+      ],
+      "cons": [
+        "Reviewers and owners call it a gun cabinet or locker: thin steel, no fire rating, easy to pry with tools",
+        "Owners report the fingerprint reader works only about half the time on the first try, and realistic scoped-rifle capacity is below the claim"
+      ],
+      "specs": {
+        "Lock": "Biometric (30 fingerprints), digital keypad and emergency key (Amazon listing)",
+        "Steel": "15-gauge cold-rolled steel per the Amazon listing; American Firearms lists a KAER at 15-gauge, other KAER variants at 14-gauge",
+        "Exterior": "15.8 in D x 18.5 in W x 57 in H (Amazon listing)",
+        "Interior": "Maximum firearm height 45.5 in (Amazon listing); full interior dimensions not published on the pages read",
+        "Weight": "78 lb (Amazon listing)",
+        "Capacity": "Claimed 14-15 firearms with removable racks; reviewers say full-size and scoped rifles take more than one slot",
+        "Bolt-down": "Anti-tipping listed on Amazon; pre-drilled wall/floor holes not confirmed for this exact variant (reviews of other KAER models mention them)",
+        "Fire rating": "None; Top Firearm Reviews says KAER lockers have no fire rating",
+        "Water rating": "None published",
+        "Power": "AA batteries",
+        "State listing": "None found"
+      },
+      "scores": {
+        "security": 4,
+        "access": 6,
+        "capacity": 8,
+        "value": 8
+      },
+      "scoreNote": "No fire claim, so fire is left out. Security 4 because reviewers call it a cabinet with thin steel; access 6 for three entry methods offset by owner reports of a flaky reader; capacity 8 for the claimed 14-15 slots, less in practice; value 8 for the low cost per gun slot.",
+      "sources": [
+        "https://www.amazon.com/dp/B0FZBWC594",
+        "https://capefearinvestigative.com/best-apartment-gun-safe/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+        "https://www.americanfirearms.org/best-gun-safe-under-500/"
+      ],
+      "owners": {
+        "read": 4,
+        "praise": [
+          "Roomy for the money and easy to fit in a closet",
+          "Most owners get the fingerprint reader working and use the keypad as backup",
+          "Light enough to move alone with a dolly"
+        ],
+        "complaints": [
+          "Fingerprint reader works about half the time on first try for some owners",
+          "Described as a pretty decent cabinet but definitely not a safe",
+          "Small problems and shifting items show up after a few weeks (The Armory Life)"
+        ],
+        "sources": [
+          {
+            "title": "Reddit r/liberalgunowners: Kaer Rifle safe (search excerpt only)",
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/1m8cpjj/kaer_rifle_safe/"
+          },
+          {
+            "title": "Reddit r/liberalgunowners: Finally got some storage (search excerpt only)",
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/1rurgkg/finally_got_some_storage/"
+          },
+          {
+            "title": "Reddit r/CCW: Affordable gun safe (search excerpt only)",
+            "url": "https://www.reddit.com/r/CCW/comments/11fqzau/affordable_gun_safe/"
+          },
+          {
+            "title": "The Armory Life: Review KAER Biometric Rifle & Pistol Safe (search excerpt only)",
+            "url": "https://www.thearmorylife.com/review-kaer-biometric-rifle-pistol-safe/"
+          }
+        ]
+      },
+      "renter": {
+        "floorLoad": "78 lb on an 18.5 x 15.8 in base is light for a floor; the weight is the weakness for theft, not for the building.",
+        "boltDown": "Because it is light, bolt it to closet studs if the lease and landlord allow (ask in writing); Top Firearm Reviews says unsecured lockers can be hauled off with a dolly.",
+        "moveOut": "Easy for two people; patch any stud holes before the walkthrough."
+      }
+    },
+    {
+      "name": "Barska AX11652 Biometric Rifle Safe",
+      "matchName": "Barska Biometric Rifle Gun Safe",
+      "brand": "Barska",
+      "query": "Barska AX11652 Quick Access Biometric Rifle Safe",
+      "asin": "B005FDIUPE",
+      "asinVerified": true,
+      "badge": "Best slim California DOJ-listed pick",
+      "summary": "A 62-63 lb, 9.7 in wide biometric rifle safe that fits a closet corner and is the one Barska rifle model listed as California DOJ approved. American Firearms ranks it its best budget pick and Top Firearm Reviews ranks a Barska as its best compact gun safe.",
+      "renterNote": "For a California or other renter who wants a slim, DOJ-listed biometric rifle safe for two or three rifles in a closet; Top Firearm Reviews and American Firearms both warn it is a lightweight locker-class unit that must be bolted down and offers no fire protection.",
+      "pros": [
+        "Very slim (9.8 in wide, 8.6 in deep) and 63 lb, so it fits a closet corner and is easy to move out",
+        "California DOJ approved per Dean Safe; floor mat, mounting hardware and an external battery pack included",
+        "Biometric (120 fingerprints) with two override keys and 4 AA batteries"
+      ],
+      "cons": [
+        "Realistic capacity is two or three rifles with scopes, not the advertised four",
+        "Owners report the fingerprint reader does not always read first time and is not a replacement for a mechanical backup; no fire rating"
+      ],
+      "specs": {
+        "Lock": "Biometric scanner (120 fingerprints), two emergency override keys (Dean Safe)",
+        "Steel": "American Firearms lists 14-gauge; Dean Safe lists steel construction without a gauge; 3-point deadbolt",
+        "Exterior": "52.17 in H x 9.8 in W x 8.6 in D (Dean Safe); Amazon lists 52.17 x 9.7 x 8.66 in",
+        "Interior": "51.75 in H x 9.7 in W x 6.3 in D (Dean Safe)",
+        "Weight": "62-63 lb (Amazon listing 62 lb; Dean Safe 63 lb)",
+        "Capacity": "4 rifles without scopes or accessories (Dean Safe), 1.83 cu ft; American Firearms says 2-3 scoped rifles in practice",
+        "Bolt-down": "Pre-drilled mounting holes and mounting hardware included (Dean Safe)",
+        "Fire rating": "None",
+        "Water rating": "None published",
+        "Power": "4 AA batteries and an external battery pack included",
+        "State listing": "California DOJ approved (Dean Safe, Amazon listing); verify on the DOJ roster"
+      },
+      "scores": {
+        "security": 5,
+        "access": 6,
+        "capacity": 4,
+        "value": 6
+      },
+      "scoreNote": "No fire claim, so fire is left out. Security 5 for 14-gauge steel (per American Firearms) and a 3-point lock but a light body that needs bolting; access 6 for a biometric reader owners say is hit or miss on first try; capacity 4 as 2-3 scoped rifles; value 6 as a DOJ-listed slim safe.",
+      "sources": [
+        "https://deansafe.com/products/barska-ax11652-tall-biometric-rifle-safe",
+        "https://www.americanfirearms.org/best-gun-safe-under-500/",
+        "https://www.topfirearmreviews.com/post/best-safes-for-long-guns",
+        "https://www.amazon.com/dp/B005FDIUPE"
+      ],
+      "owners": {
+        "read": 4,
+        "praise": [
+          "Biometric lock worked flawlessly in one reviewer's testing",
+          "One long-term user reports daily use for 3+ years with no sensor trouble (American Firearms)",
+          "Slim and light enough to carry down basement stairs alone"
+        ],
+        "complaints": [
+          "Fingerprint reader does not always work first time, so do not rely on it alone",
+          "One forum poster says it is not a real safe and that it is easy to get into",
+          "Depth and rifle capacity are overstated (SecureIt's rival review)"
+        ],
+        "sources": [
+          {
+            "title": "Gun University: Barska Biometric Rifle Cabinet Review (search excerpt only)",
+            "url": "https://gununiversity.com/barska-biometric-rifle-cabinet-review/"
+          },
+          {
+            "title": "The High Road: Barska Biometric safe issues (search excerpt only)",
+            "url": "https://www.thehighroad.org/index.php?threads/barska-biometric-safe-issues.685782/"
+          },
+          {
+            "title": "Reddit r/guns: BARSKA biometric rifle safe or other cheap rifle safe? (search excerpt only)",
+            "url": "https://www.reddit.com/r/guns/comments/1eiy6q/barska_biometric_rifle_safe_or_other_cheap_rifle/"
+          },
+          {
+            "title": "Walmart: Customer reviews for Barska Quick-Access Biometric Safe (search excerpt only)",
+            "url": "https://www.walmart.com/reviews/product/17252421?page=2"
+          }
+        ]
+      },
+      "renter": {
+        "floorLoad": "63 lb over a footprint under 1 sq ft is a small, tall load; set it against a bearing wall or closet corner.",
+        "boltDown": "Ships with mounting holes and hardware; American Firearms says bolting down is essential because of the light build. Champion Safe notes a little spackle or pulled-back carpet fixes mounting marks, but ask the landlord first.",
+        "moveOut": "The lightest safe here to carry out; remove bolts and patch holes."
+      }
+    },
+    {
+      "name": "Vaultek LifePod 10",
+      "matchName": "Vaultek LifePod 10",
+      "brand": "Vaultek",
+      "query": "Vaultek LifePod 10 portable handgun case",
+      "asin": "B07XTLXNJY",
+      "asinVerified": true,
+      "badge": "Best portable handgun case",
+      "summary": "A 2 lb polymer travel case with a built-in electronic keypad, steel security cable and TSA-friendly size for one compact handgun. NW Safe names the LifePod the best portable handgun safe for an apartment, and Pew Pew Tactical lists the LifePod 10 as its best travel/CCW safe.",
+      "renterNote": "For a renter with one handgun who cannot drill anything and wants a case that locks to a bed frame or pipe with its cable and travels with them; it is polymer, not steel, so it stops casual access, not a determined thief.",
+      "pros": [
+        "No drilling at all: the included steel security cable tethers it to furniture or a pipe",
+        "Backlit keypad, manual key backup and a micro-USB port to power the lock if the 9V battery dies",
+        "Weather-resistant, floats and meets TSA guidelines; moves with you at lease end"
+      ],
+      "cons": [
+        "Polymer shell and cable are not burglary-resistant; the cable can be cut",
+        "Fits a handgun up to 7.75 x 6 x 1.75 in only, and some owners get confused about battery installation and an unresponsive keypad without power"
+      ],
+      "specs": {
+        "Lock": "Backlit capacitive keypad (4-8 digit code) with two manual backup keys; micro-USB emergency power (Amazon listing)",
+        "Steel": "None; T3 non-metal polymer body with metal latches and a steel security cable",
+        "Exterior": "7.75 in L x 6 in W x 1.75 in H listed as the product/fitment size (Amazon listing)",
+        "Interior": "Handguns up to 7.75 in long, 6 in wide, 1.75 in tall (Amazon listing)",
+        "Weight": "2 lb (Amazon listing)",
+        "Capacity": "One compact handgun",
+        "Bolt-down": "None; steel security cable included",
+        "Fire rating": "None",
+        "Water rating": "Weather-resistant, dust-proof and floats; no formal IP rating on the pages read",
+        "Power": "9V alkaline, up to about 1 year",
+        "State listing": "None found"
+      },
+      "scores": {
+        "security": 3,
+        "access": 7,
+        "capacity": 2,
+        "value": 7
+      },
+      "scoreNote": "No fire claim, so fire is left out. Security 3 for a polymer shell and cable; access 7 for a backlit keypad with key backup and USB power; capacity 2 for one compact handgun; value 7 as a no-drill, portable option.",
+      "sources": [
+        "https://www.amazon.com/dp/B07XTLXNJY",
+        "https://nwsafe.com/blogs/tips/how-to-pick-an-apartment-gun-safe",
+        "https://www.pewpewtactical.com/best-gun-safes/",
+        "https://vaulteksafe.com/pages/support-lifepod-home"
+      ],
+      "owners": {
+        "read": 3,
+        "praise": [
+          "Rugged, weather-resistant and easy to travel with",
+          "Haptic keypad with a battery check by tapping the lock"
+        ],
+        "complaints": [
+          "Battery installation and an unresponsive keypad without power confuse some users",
+          "Some owners prefer the keypad version over the biometric one"
+        ],
+        "sources": [
+          {
+            "title": "Reddit r/CCW: Is spending more for Vaultek LifePod 2.0 Special Edition worth it (search excerpt only)",
+            "url": "https://www.reddit.com/r/CCW/comments/10fdvvo/is_spending_more_for_vaultek_lifepod_20_special/"
+          },
+          {
+            "title": "AllOutdoor: Review Vaultek LifePod (search excerpt only)",
+            "url": "https://www.alloutdoor.com/2023/10/23/alloutdoor-review-vaultek-lifepod/"
+          },
+          {
+            "title": "JustAnswer: Vaultek LifePod VLP10-CN won't open (search excerpt only)",
+            "url": "https://www.justanswer.com/electronics/v8hrz-vaultek-lifepod-vlp10-cn-battery-location.html"
+          }
+        ]
+      },
+      "renter": {
+        "floorLoad": "2 lb, no floor-load concern.",
+        "boltDown": "No drilling needed; tether with the included cable. The Safe Keeper says cables raise the effort for an opportunistic grab but are not anchoring.",
+        "moveOut": "Carry it out or pack it in luggage."
+      }
+    }
+  ],
+  "totalOwnerPostsRead": 14
+}

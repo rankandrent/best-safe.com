@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T14:00:00Z",
+  "updatedAt": "2026-10-20T13:47:08.761749Z",
   "categories": {
     "gun-safes": [
       {
@@ -331,6 +331,244 @@
         ],
         "coveredBy": [],
         "foundAt": "2026-10-19"
+      },
+      {
+        "id": "gun-safes-rental-cannot-bolt-down",
+        "pain": "Renters are told to bolt a safe down but cannot drill the floor or wall of an apartment",
+        "details": "Renters want a safe that stays secure without bolting into a lease-protected floor. They ask which safes, weights and anchoring options are acceptable without landlord permission.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/",
+            "platform": "reddit",
+            "title": "How are you safely and legally storing your gun if you rent | r/MDGuns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "platform": "forum",
+            "title": "Gun Storage in apartment - Safe Weights | Texas Gun Talk",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+            "platform": "quora",
+            "title": "How common is it for landlords to ban tenants from owning and storing guns",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I can't make any modifications to my apartment like bolting a safe to the floor.",
+            "url": "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "A 300-400 lb safe will hold what he needs and can be lag bolted to the wall/floor.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Since adding suitable gun safes bolted down would constitute a structural change, the tenant would need permission from the landlord",
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "how to secure a gun safe in an apartment without drilling",
+          "can i bolt a gun safe down in a rental",
+          "gun safe renters landlord permission"
+        ],
+        "keywords": [
+          "best gun safe for apartment",
+          "how to bolt down a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "gun-safes-rental-bolt-holes-deposit",
+        "pain": "Renters worry bolt holes will cost them the security deposit when they move out",
+        "details": "Renters either skip anchoring or bolt into a closet and patch the holes on departure. Others lay plywood or choose a closet over a load-bearing wall to protect the deposit.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "platform": "forum",
+            "title": "Gun Storage in apartment - Safe Weights | Texas Gun Talk",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "platform": "forum",
+            "title": "Gun safe on the second floor apartment | Firearms Talk",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "When he leaves he spackles the small holes in the wall.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "I know for a fact that I won't be losing my deposit that way",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "via": "page"
+          }
+        ],
+        "searches": [
+          "patch gun safe bolt holes when moving out",
+          "will bolting a safe lose my deposit"
+        ],
+        "keywords": [
+          "best gun safe for apartment",
+          "how to bolt down a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "gun-safes-apartment-floor-load-second-story",
+        "pain": "Unsure whether an upstairs apartment floor can hold a loaded 400-700 lb gun safe",
+        "details": "Second-floor renters ask how heavy a safe they can get away with. Replies say it is usually fine near a load-bearing wall or on plywood, and to add the weight of the guns and ammo.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "platform": "forum",
+            "title": "Gun safe on the second floor apartment | Firearms Talk",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/2ek8f2/gun_safe_on_the_2nd_floor/",
+            "platform": "reddit",
+            "title": "Gun safe on the 2nd floor? | r/guns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "platform": "forum",
+            "title": "Gun Storage in apartment - Safe Weights | Texas Gun Talk",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "how heavy a safe can I get away with?",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "via": "page"
+          },
+          {
+            "text": "weigh each of your firearms, accessories, and ammo that will be going in there, and add it to the weight of your safe.",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "via": "page"
+          },
+          {
+            "text": "you should reinforce the floor.",
+            "url": "https://www.reddit.com/r/guns/comments/2ek8f2/gun_safe_on_the_2nd_floor/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "can an apartment floor hold a gun safe",
+          "how heavy a gun safe on second floor",
+          "gun safe weight limit upstairs apartment"
+        ],
+        "keywords": [
+          "gun safe on second floor",
+          "how much does a gun safe weigh"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "gun-safes-apartment-size-collection-outgrows",
+        "pain": "Renters need a safe small enough to move later but with room for a growing collection",
+        "details": "Apartment owners pick a 300-450 lb safe because of stairs and floor limits, then worry it fills up before they buy a house and a bigger safe.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "platform": "forum",
+            "title": "Gun safe on the second floor apartment | Firearms Talk",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "platform": "forum",
+            "title": "Gun Storage in apartment - Safe Weights | Texas Gun Talk",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "still have enough room to grow the collection until I can get to a house and get a big safe I can put in a concrete base.",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "via": "page"
+          },
+          {
+            "text": "A 300-400 lb safe will hold what he needs and can be lag bolted to the wall/floor.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "best gun safe size for apartment",
+          "small gun safe for renters that fits rifles"
+        ],
+        "keywords": [
+          "best gun safe for apartment"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "gun-safes-landlord-lease-gun-rules-unclear",
+        "pain": "Renters do not know whether the lease or landlord can restrict a gun safe or gun storage",
+        "details": "Renters ask whether landlords can ban guns or require permission for a safe. Answers vary by state and lease wording, so renters want a plain checklist before signing or installing.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+            "platform": "quora",
+            "title": "How common is it for landlords to ban tenants from owning and storing guns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/",
+            "platform": "reddit",
+            "title": "How are you safely and legally storing your gun if you rent | r/MDGuns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://rentalhousingjournal.com/can-a-landlord-say-no-guns-in-my-apartments/",
+            "platform": "review",
+            "title": "Can a landlord say no guns in my apartments | Rental Housing Journal",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Depends on where you live, and the wording of your lease or rental contract.",
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+            "via": "page"
+          },
+          {
+            "text": "The landlord has the right to forbid pets. In most jurisdictions he can also forbid firearms on private property.",
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+            "via": "page"
+          }
+        ],
+        "searches": [
+          "can my landlord stop me from having a gun safe",
+          "lease gun storage rules apartment"
+        ],
+        "keywords": [
+          "best gun safe for apartment"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
       }
     ],
     "safe-guides": [
@@ -670,6 +908,265 @@
         ],
         "coveredBy": [],
         "foundAt": "2026-10-19"
+      },
+      {
+        "id": "safe-guides-diy-move-injury-and-dropped-safe",
+        "pain": "Owners fear a DIY safe move ends in an injury or a dropped safe, but a pro feels expensive",
+        "details": "Owners moving a 400-1,000+ lb safe weigh friends plus a rented dolly against a hired crew. Several report a broken foot, a back injury or a safe dropped off a rental truck ramp, and most advise hiring a pro.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+            "platform": "forum",
+            "title": "Safe moving cost | Shooters' Forum",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "platform": "forum",
+            "title": "Safe moving | Smith & Wesson Forum",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "platform": "forum",
+            "title": "Gun safe on the second floor apartment | Firearms Talk",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "One good back injury with a do-it-yourself move and you sure will regret not paying a professional at any cost.",
+            "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+            "via": "page"
+          },
+          {
+            "text": "There are no small mistakes when moving a 1,000+ lb safe.",
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "via": "page"
+          },
+          {
+            "text": "i dropped my Cannon safe on the way down a rental truck ramp using a refrigerator cart.",
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "via": "page"
+          }
+        ],
+        "searches": [
+          "is it safe to move a gun safe yourself",
+          "should i hire a gun safe mover",
+          "gun safe fell off dolly"
+        ],
+        "keywords": [
+          "how to move a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "safe-guides-mover-cost-quotes-and-limits",
+        "pain": "Owners cannot get a clear price for a safe mover, and some movers refuse weight, distance or guns inside",
+        "details": "Owners moving house or buying second-hand report sky-high quotes just to load the safe, movers who will not quote without both addresses, weight limits and waitlists. Prices people actually paid range from about 200 to 1,000 dollars.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "platform": "forum",
+            "title": "Safe moving | Smith & Wesson Forum",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+            "platform": "forum",
+            "title": "Safe moving cost | Shooters' Forum",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/NHGuns/comments/182u2os/cost_to_move_400lb_gun_safe/",
+            "platform": "reddit",
+            "title": "Cost to move ~400lb gun safe? | r/NHGuns",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I got a couple of sky high quotes from a couple of different outfits just to load (or unload) the safe in my trailer",
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "via": "page"
+          },
+          {
+            "text": "Price was $400. His full-time business was moving safes.",
+            "url": "https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
+            "via": "page"
+          },
+          {
+            "text": "I paid $200 to have the movers pick up the safe at Tractor Supply and bring it to the second floor of my house.",
+            "url": "https://www.reddit.com/r/NHGuns/comments/182u2os/cost_to_move_400lb_gun_safe/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "how much does it cost to move a gun safe",
+          "gun safe movers near me price",
+          "do movers move gun safes"
+        ],
+        "keywords": [
+          "how to move a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "safe-guides-doorframes-floors-deposit-damage",
+        "pain": "Moving a heavy safe tears up door frames, thresholds, steps and floors (and the rental deposit)",
+        "details": "Owners and renters worry a 400+ lb safe will gouge thresholds and flooring on the way in or out. Advice is to use a professional safe mover or protect surfaces, especially when moving out of a rental.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "platform": "forum",
+            "title": "Safe moving | Smith & Wesson Forum",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "platform": "forum",
+            "title": "Gun safe on the second floor apartment | Firearms Talk",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "When they get a lot heavier than that it can get really difficult and a bit dangerous along with possibly tearing up door frames and thresholds.",
+            "url": "https://smith-wessonforum.com/threads/safe-moving.733512/",
+            "via": "page"
+          },
+          {
+            "text": "Might save your thresholds, steps, security deposit, etc.",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+            "via": "page"
+          }
+        ],
+        "searches": [
+          "how to move a gun safe without damaging floors",
+          "protect stairs when moving heavy safe"
+        ],
+        "keywords": [
+          "how to move a gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "safe-guides-locksmith-drill-cost-and-damage",
+        "pain": "Locked out of their own safe, owners are quoted 'a few hundred' to drill it and fear a destroyed lock",
+        "details": "Owners of a locked-out safe call locksmiths and hear that drilling is the only route, at roughly 250-600 dollars, and later learn a non-destructive opening or a dealer fix was possible. They ask what to try first.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+            "platform": "reddit",
+            "title": "Locked Out of Gun Safe | r/Safes",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1brragw/lesson_learned_never_call_a_locksmith_to_break/",
+            "platform": "reddit",
+            "title": "Lesson learned: Never call a locksmith to break open a safe | r/mildlyinfuriating",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/Locksmith/comments/1kqhozw/first_time_using_locksmith_250_to_drill_out_small/",
+            "platform": "reddit",
+            "title": "First time using locksmith, $250 to drill out small portable safe | r/Locksmith",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/safecracking/comments/1heaps5/lost_combination/",
+            "platform": "reddit",
+            "title": "Lost combination | r/safecracking",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "2 have told me they'll basically have to drill it open and it'll cost a few hundred",
+            "url": "https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "locksmith quoted $300 for drilling out the lock.",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1brragw/lesson_learned_never_call_a_locksmith_to_break/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "I recently paid $250 to have a small portable safe broken into",
+            "url": "https://www.reddit.com/r/Locksmith/comments/1kqhozw/first_time_using_locksmith_250_to_drill_out_small/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "locksmith cost to open gun safe lost combination",
+          "do i have to drill my gun safe if i lose the code",
+          "safe dealer vs locksmith locked out"
+        ],
+        "keywords": [
+          "how to open a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "safe-guides-manufacturer-reset-needs-proof-of-ownership",
+        "pain": "Owner does not know the manufacturer can reset or open the safe, or what proof of ownership and serial number they need",
+        "details": "Owners who bought a house with a safe or lost the code ask whether the maker can help. Answers: contact the maker or dealer first with the serial number and proof of purchase; factory default codes may still work.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+            "platform": "reddit",
+            "title": "Got a locked safe with the house we bought | r/Safes",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.justanswer.com/software/w6kuy-gun-safe-lost-combination-reset-code.html",
+            "platform": "forum",
+            "title": "Lost Combination to Cannon Gun Safe | JustAnswer",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe",
+            "platform": "review",
+            "title": "What can I do if I lose the combination or key to my safe | Liberty Safe",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "You usually have to provide proof of purchase and the serial number of the safe.",
+            "url": "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "first verify the serial number and proof of ownership.",
+            "url": "https://www.justanswer.com/software/w6kuy-gun-safe-lost-combination-reset-code.html",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "you must contact Liberty Safe first",
+            "url": "https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "gun safe manufacturer reset code proof of ownership",
+          "lost gun safe combination serial number",
+          "who can reset my safe code"
+        ],
+        "keywords": [
+          "how to open a safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
       }
     ],
     "home-safes": [

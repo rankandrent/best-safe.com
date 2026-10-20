@@ -184,7 +184,8 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
       const titles = brief?.serpTitles ?? [];
       if (titles.length < 5 || !brief?.titlePattern) err('brief has no serpTitles (top-10 titles, at least 5) and titlePattern: check the keyword SERP before writing the title (ROUTINE.md step 4)');
       const mine = normTitle(d.seoTitle ?? d.title);
-      if (titles.some((t) => normTitle(t.title) === mine)) err('seoTitle copies a top-10 title word for word');
+      // Owner rule 2026-10-19: seoTitle is exactly the keyword, so a top-10 page with the bare keyword as its title is not a copy.
+      if (mine !== normTitle(d.keyword ?? '') && titles.some((t) => normTitle(t.title) === mine)) err('seoTitle copies a top-10 title word for word');
     }
     const sections = body.split(/^### /m).slice(1);
     for (const p of d.products ?? []) {
