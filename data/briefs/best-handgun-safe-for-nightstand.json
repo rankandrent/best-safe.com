@@ -1,0 +1,501 @@
+{
+  "centralEntity": "nightstand handgun safe",
+  "entityVariants": [
+    "bedside gun safe",
+    "bedside pistol safe",
+    "nightstand gun safe",
+    "quick access handgun safe",
+    "bedside handgun safe",
+    "pistol lockbox",
+    "handgun safe for bedroom"
+  ],
+  "entities": [
+    {
+      "name": "Vaultek",
+      "type": "brand",
+      "relation": "maker of the DS2i Smart Station and VS20i/VS10i; top pick in several results"
+    },
+    {
+      "name": "Fort Knox FTK-PB",
+      "type": "product",
+      "relation": "mechanical Simplex-lock pistol box, 10-gauge steel; no battery to fail"
+    },
+    {
+      "name": "SentrySafe",
+      "type": "brand",
+      "relation": "maker of the biometric pistol safe and QAP2EL keypad quick-access safe"
+    },
+    {
+      "name": "Hornady RAPiD Safe",
+      "type": "brand",
+      "relation": "RFID/keypad bedside safes including the Night Guard clock model"
+    },
+    {
+      "name": "GunVault",
+      "type": "brand",
+      "relation": "SpeedVault, MiniVault and MultiVault quick-access slide-out safes"
+    },
+    {
+      "name": "RPNB",
+      "type": "brand",
+      "relation": "budget drop-down and RFID bedside safes"
+    },
+    {
+      "name": "ONNAIS",
+      "type": "brand",
+      "relation": "budget biometric lid-open pistol safe that replaced Awesafe in Pew Pew Tactical's list"
+    },
+    {
+      "name": "Steelhead Fast Access Pistol Box",
+      "type": "product",
+      "relation": "mechanical Simplex-lock alternative"
+    },
+    {
+      "name": "Simplex lock",
+      "type": "lock type",
+      "relation": "mechanical push-button lock, no battery, works in the dark by feel"
+    },
+    {
+      "name": "biometric fingerprint reader",
+      "type": "lock type",
+      "relation": "fastest electronic entry but sensitive to dirt, dryness and finger angle"
+    },
+    {
+      "name": "RFID",
+      "type": "lock type",
+      "relation": "wristband, tag or key fob entry for quick access"
+    },
+    {
+      "name": "backup key",
+      "type": "lock type",
+      "relation": "override when the battery or reader fails"
+    },
+    {
+      "name": "gas strut",
+      "type": "component",
+      "relation": "lifts the lid quickly; can weaken over time per owner reviews"
+    },
+    {
+      "name": "security cable",
+      "type": "accessory",
+      "relation": "tethers a light safe to a bed frame so it cannot be carried off"
+    },
+    {
+      "name": "interior LED light",
+      "type": "feature",
+      "relation": "lets you find the grip in the dark"
+    },
+    {
+      "name": "silent mode",
+      "type": "feature",
+      "relation": "turns off keypad beeps"
+    },
+    {
+      "name": "CPSC",
+      "type": "regulator",
+      "relation": "issued a 2024 recall of certain Awesafe biometric safes"
+    },
+    {
+      "name": "California DOJ",
+      "type": "regulator",
+      "relation": "roster of approved firearm safety devices"
+    },
+    {
+      "name": "steel gauge",
+      "type": "attribute",
+      "relation": "10 to 16 gauge in this class; lower number is thicker"
+    },
+    {
+      "name": "nightstand drawer",
+      "type": "use case",
+      "relation": "interior drawer width/depth decides which safe fits"
+    }
+  ],
+  "attributes": [
+    "access speed (1-2 seconds)",
+    "lock type and backup entry",
+    "battery type and life",
+    "fingerprint capacity and scans per finger",
+    "interior dimensions vs full-size pistol with light/optic",
+    "exterior dimensions vs drawer opening",
+    "steel gauge",
+    "silent mode",
+    "interior light",
+    "lid or drawer opening mechanism",
+    "mounting holes and security cable",
+    "weight",
+    "key location (front vs side)",
+    "number of handguns",
+    "child resistance"
+  ],
+  "ngrams": [
+    "bedside gun safe",
+    "nightstand gun safe",
+    "quick access handgun safe",
+    "fingerprint scanner",
+    "backup key",
+    "full-size pistol",
+    "interior light",
+    "security cable",
+    "pre-drilled holes",
+    "biometric handgun safe",
+    "mechanical simplex lock",
+    "gas strut",
+    "silent mode",
+    "handgun safe for nightstand"
+  ],
+  "skipgrams": [
+    "safe…nightstand",
+    "quick…access",
+    "backup…key",
+    "battery…dies",
+    "fingerprint…reader",
+    "full-size…pistol",
+    "mounting…holes",
+    "opens…second",
+    "lid…opens",
+    "steel…gauge",
+    "drawer…fit"
+  ],
+  "nlpTerms": [
+    "bedside",
+    "nightstand",
+    "pistol",
+    "handgun",
+    "biometric",
+    "fingerprint",
+    "keypad",
+    "RFID",
+    "Simplex",
+    "mechanical lock",
+    "backup key",
+    "battery",
+    "interior light",
+    "gas strut",
+    "drawer",
+    "pre-drilled",
+    "security cable",
+    "bolt down",
+    "mounting",
+    "tamper",
+    "pry",
+    "steel gauge",
+    "foam",
+    "magazine",
+    "holster",
+    "optic",
+    "weapon light",
+    "silent mode",
+    "child-resistant",
+    "quick access",
+    "home defense",
+    "false reject",
+    "Bluetooth",
+    "clock",
+    "tether"
+  ],
+  "questions": [
+    "What is the best handgun safe for a nightstand?",
+    "How fast should a bedside gun safe open?",
+    "Is a biometric or a mechanical Simplex lock better by the bed?",
+    "Will it fit in my nightstand drawer?",
+    "What if the battery dies or the fingerprint reader fails?",
+    "Can I silence the beeps?",
+    "How do I keep kids out of a bedside safe?",
+    "Does a bedside safe need to be bolted down?",
+    "Does a full-size pistol with a weapon light fit?",
+    "Should I keep a loaded gun in a bedside safe?"
+  ],
+  "contentGaps": [
+    "Measure the drawer first: interior width, depth and height vs the safe's exterior size, not the gun",
+    "Pistol with weapon light or red-dot against the interior dimensions, with a source for each fit claim",
+    "Battery-free option (Simplex mechanical) vs electronic: what fails at 3 a.m. and the backup entry",
+    "Where the backup key sits (front of safe vs side) and whether you can reach it once screwed into a drawer",
+    "Noise: beeps, spring-loaded lid slam, and which models offer silent mode",
+    "Mounting a light safe (security cable, pre-drilled holes) and anchoring into drawer vs frame",
+    "Kids in the house: child-resistant access vs speed, with a pointer to official safe-storage guidance and state rules (check your state's rules)",
+    "Recall/CPSC status of budget biometric brands",
+    "Steel gauge and what a 16-gauge lockbox actually stops (deter smash-and-grab, not a determined thief)"
+  ],
+  "outline": [
+    {
+      "h2": "Our Top Picks at a Glance",
+      "intent": "Direct answer: top pick and best by situation, comparison table",
+      "h3": []
+    },
+    {
+      "h2": "How We Picked Nightstand Handgun Safes",
+      "intent": "Criteria: 1-2 second access, reliable in the dark, adequate protection, fit, mountable",
+      "h3": []
+    },
+    {
+      "h2": "Best Handgun Safes for a Nightstand",
+      "intent": "Per-product sections with pros and cons",
+      "h3": [
+        "Best overall",
+        "Best battery-free (Simplex)",
+        "Best biometric",
+        "Best budget",
+        "Best drawer-fit / compact",
+        "Best for two handguns",
+        "Best discreet (clock or hidden)"
+      ]
+    },
+    {
+      "h2": "Will It Fit Your Nightstand Drawer?",
+      "intent": "Measure drawer vs exterior size, pistol with light or optic vs interior",
+      "h3": [
+        "Exterior vs interior size",
+        "Pistol with a weapon light or red dot"
+      ]
+    },
+    {
+      "h2": "When the Battery Dies or the Fingerprint Fails",
+      "intent": "Backup entry, battery habits, Simplex vs electronic",
+      "h3": [
+        "Backup key placement",
+        "Battery schedule"
+      ]
+    },
+    {
+      "h2": "Problems Owners Run Into, and the Fix",
+      "intent": "Answer pain points: loud beeps, fingerprint fails, lid slam, kids, light safe carried off",
+      "h3": [
+        "Loud beeps and lid slam",
+        "Keeping kids out without losing speed",
+        "Anchoring a light safe"
+      ]
+    },
+    {
+      "h2": "Quick Buying Checklist",
+      "intent": "Common points in brief: access speed, lock type, size, mounting, steel",
+      "h3": []
+    },
+    {
+      "h2": "Storage Rules and Next Step",
+      "intent": "Check your state's storage rules; link to next post",
+      "h3": []
+    }
+  ],
+  "targetWords": 3300,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.topfirearmreviews.com/post/best-handgun-safes",
+      "https://www.pewpewtactical.com/best-bedside-gun-safe-quick-access/",
+      "https://www.americanfirearms.org/best-bedside-gun-safes/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Pew Pew Tactical and American Firearms show Pros/Cons (What we liked / didn't) plus specs per product; Top Firearm Reviews uses first-person owner paragraphs, so pros-cons with context is the shared denominator.",
+    "avgWords": 3400,
+    "avgProducts": 7,
+    "commonSections": [
+      "quick list / comparison table",
+      "how we tested or picked",
+      "per-product review with pros and cons",
+      "features to look for (quick access, light, size, mounting)",
+      "how much safe do you need",
+      "final thoughts"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": false,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.topfirearmreviews.com/post/best-handgun-safes",
+      "title": "Best Handgun Safes: Tested By A Firearms Instructor"
+    },
+    {
+      "position": 2,
+      "url": "https://www.reddit.com/r/handguns/comments/12uhji1/looking_for_a_good_safe_bedside_pistol_safe/",
+      "title": "Looking for a good safe bedside pistol safe : r/handguns"
+    },
+    {
+      "position": 3,
+      "url": "https://www.pewpewtactical.com/best-bedside-gun-safe-quick-access/",
+      "title": "7 Best Bedside Handgun Safes for Quick Access [Tested]"
+    },
+    {
+      "position": 4,
+      "url": "https://www.amazon.com/Best-Sellers-Gun-Safes/zgbs/sporting-goods/3225965011",
+      "title": "Best Gun Safes"
+    },
+    {
+      "position": 5,
+      "url": "https://armedinmichigan.com/7-best-bedside-handgun-safes-for-quick-access-tested/",
+      "title": "7 Best Bedside Handgun Safes for Quick Access [Tested]"
+    },
+    {
+      "position": 6,
+      "url": "https://www.americanfirearms.org/best-bedside-gun-safes/",
+      "title": "The Best Bedside Gun Safes"
+    },
+    {
+      "position": 7,
+      "url": "https://www.youtube.com/watch?v=sITVE9FKQ68",
+      "title": "Top Rated Bedside Handgun safes | My Picks"
+    },
+    {
+      "position": 8,
+      "url": "https://langgersafe.com/collections/handgun-safe",
+      "title": "Most Trusted Handgun & Pistol Safes"
+    },
+    {
+      "position": 9,
+      "url": "https://www.tractorsupply.com/a/nightstand-gun-safes",
+      "title": "Nightstand Gun Safes"
+    },
+    {
+      "position": 10,
+      "url": "https://www.1911forum.com/threads/quick-access-bedside-pistol-safe.1052862/",
+      "title": "Quick Access Bedside Pistol Safe"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 0,
+    "withNumber": 2,
+    "commonModifiers": [
+      "bedside",
+      "quick access",
+      "tested",
+      "best"
+    ],
+    "gap": "Fit-the-drawer and what happens when the battery dies; no title promises either (no 'tested' claim for us)"
+  },
+  "commonPoints": [
+    "Quick access (about 1-2 seconds) matters more than heavy security",
+    "A bedside safe deters smash-and-grab and unauthorized hands; it is not a burglar-proof or fire safe",
+    "Biometric, keypad, RFID and key are the common entry methods; a backup key is wise",
+    "Capacity: one full-size pistol plus a magazine or two is enough",
+    "Interior light helps in the dark",
+    "Light safes should be mounted or tethered with a security cable"
+  ],
+  "ourGain": [
+    {
+      "point": "Measure the nightstand drawer, not the gun: compare each pick's exterior size to a standard drawer opening and flag the ones that only fit a bedside table top",
+      "source": "https://www.americanfirearms.org/best-bedside-gun-safes/ (RPNB 'size can make for a difficult fit bedside') and https://capefearinvestigative.com/best-night-stand-pistol-safe/"
+    },
+    {
+      "point": "What fails at 3 a.m.: battery-free Simplex vs electronic, plus where the backup key sits (front-mounted keys can't be reached once screwed into a drawer)",
+      "source": "data/pain-points.json handgun-safes-nightstand-fingerprint-battery-fails; https://www.topfirearmreviews.com/post/best-handgun-safes (BILLCONCH key on front)"
+    },
+    {
+      "point": "Noise check: which picks beep with no mute or slam the lid, for a shared bedroom",
+      "source": "data/pain-points.json handgun-safes-nightstand-loud-and-fit"
+    },
+    {
+      "point": "Kids in the house: how owners balance child-resistance and speed (biometric/key vs cable lock), with a pointer to official safe-storage guidance and 'check your state's rules'",
+      "source": "data/pain-points.json handgun-safes-nightstand-kids-in-house"
+    },
+    {
+      "point": "Pistol plus weapon light or red dot against interior dimensions, each fit claim sourced",
+      "source": "https://www.topfirearmreviews.com/post/best-handgun-safes (1911 with rail light 'complains a bit')"
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "handgun-safes-nightstand-fingerprint-battery-fails",
+      "pain": "Cheap bedside safe: the battery runs out or the fingerprint reader fails, so it will not open when needed",
+      "details": "Owners who bought a budget Amazon nightstand safe report tossing it after dead batteries and unreliable fingerprint reads. Reviewers say readers get fussy with dust, dry or dirty fingers and odd angles; the fix is a backup key or keypad, several scans per finger, and a spare battery.",
+      "sources": [
+        "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/",
+        "https://www.topfirearmreviews.com/post/best-handgun-safes"
+      ],
+      "quotes": [
+        {
+          "text": "Ive had a single night stand safe from Amazon and had issue where the battery runs out or the finger print doesn't work etc. tossed it after",
+          "url": "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/"
+        },
+        {
+          "text": "My old safe was really finicky with the fingerprint log in, and I found that if you had a little dust on your fingers, or if you didn't align it perfectly, it wouldn't open for you.",
+          "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+        }
+      ]
+    },
+    {
+      "id": "handgun-safes-nightstand-kids-in-house",
+      "pain": "Parents do not want an unsecured nightstand gun but need access in seconds",
+      "details": "New and expecting parents ask for a bedside option that keeps small children out yet opens fast. Replies favor a quick-access safe with a key backup, mounted high or inside the drawer, over a trigger or cable lock.",
+      "sources": [
+        "https://www.reddit.com/r/tacticalgear/comments/1104z1e/bedside_gun_with_little_kids_until_now_i_kept_my/",
+        "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/",
+        "https://www.thehighroad.org/index.php?threads/nightstand-gun-with-children-in-the-house.578950/"
+      ],
+      "quotes": [
+        {
+          "text": "I also use a liberty quickvault. Keeps kids out, easy to access, and comes with a key if battery dies.",
+          "url": "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/"
+        },
+        {
+          "text": "I'd recommend a biometric safe. They're much safer and faster to access than a cable lock or a trigger lock. Just jam your thumb into it and go.",
+          "url": "https://www.thehighroad.org/index.php?threads/nightstand-gun-with-children-in-the-house.578950/"
+        }
+      ]
+    },
+    {
+      "id": "handgun-safes-nightstand-loud-and-fit",
+      "pain": "The safe is loud (beeps, spring-loaded lid) or too big for the nightstand drawer",
+      "details": "Reviewers flag safes that beep with no way to mute, lids that slam open, and bodies too wide for a drawer. Check for a silent mode, a gas-strut or damped lid, and exterior dimensions against the drawer opening before buying.",
+      "sources": [
+        "https://www.americanfirearms.org/best-bedside-gun-safes/",
+        "https://www.topfirearmreviews.com/post/best-handgun-safes",
+        "https://capefearinvestigative.com/best-night-stand-pistol-safe/"
+      ],
+      "quotes": [
+        {
+          "text": "The lock works great, but it makes some beeping noise when I push it, and I can't turn off the noises.",
+          "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+        },
+        {
+          "text": "Size can make for a difficult fit bedside",
+          "url": "https://www.americanfirearms.org/best-bedside-gun-safes/"
+        },
+        {
+          "text": "A safe that's too large can waste space and be harder to fit in your night stand.",
+          "url": "https://capefearinvestigative.com/best-night-stand-pistol-safe/"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-lightweight-needs-bolting",
+      "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them",
+      "details": "Buyers of lighter or 12-gun-class safes debate bolting for theft versus tip-over, with concerns about slab damage, warranty and fire seal. Many bolt in a corner or to studs and add cameras.",
+      "sources": [
+        "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/",
+        "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+      ],
+      "quotes": [
+        {
+          "text": "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts.",
+          "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-battery-dies-locks-owner-out",
+      "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+      "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+        "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+        "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+        "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+        "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+      ],
+      "quotes": [
+        {
+          "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+          "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+        },
+        {
+          "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        }
+      ]
+    }
+  ]
+}

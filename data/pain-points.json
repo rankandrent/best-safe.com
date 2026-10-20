@@ -1632,6 +1632,141 @@
         "coveredBy": [],
         "foundAt": "2026-10-19"
       }
+    ],
+    "handgun-safes": [
+      {
+        "id": "handgun-safes-nightstand-fingerprint-battery-fails",
+        "pain": "Cheap bedside safe: the battery runs out or the fingerprint reader fails, so it will not open when needed",
+        "details": "Owners who bought a budget Amazon nightstand safe report tossing it after dead batteries and unreliable fingerprint reads. Reviewers say readers get fussy with dust, dry or dirty fingers and odd angles; the fix is a backup key or keypad, several scans per finger, and a spare battery.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/",
+            "platform": "reddit",
+            "title": "Who, in your opinion, makes the best 'quick access' pistol safe | r/CAguns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.topfirearmreviews.com/post/best-handgun-safes",
+            "platform": "article",
+            "title": "Best Handgun Safes | Top Firearm Reviews",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Ive had a single night stand safe from Amazon and had issue where the battery runs out or the finger print doesn't work etc. tossed it after",
+            "url": "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/"
+          },
+          {
+            "text": "My old safe was really finicky with the fingerprint log in, and I found that if you had a little dust on your fingers, or if you didn't align it perfectly, it wouldn't open for you.",
+            "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+          }
+        ],
+        "searches": [
+          "site:reddit.com bedside pistol safe problem fingerprint won't open beeps loud nightstand"
+        ],
+        "keywords": [
+          "best handgun safe for nightstand",
+          "best bedside gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "handgun-safes-nightstand-kids-in-house",
+        "pain": "Parents do not want an unsecured nightstand gun but need access in seconds",
+        "details": "New and expecting parents ask for a bedside option that keeps small children out yet opens fast. Replies favor a quick-access safe with a key backup, mounted high or inside the drawer, over a trigger or cable lock.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/tacticalgear/comments/1104z1e/bedside_gun_with_little_kids_until_now_i_kept_my/",
+            "platform": "reddit",
+            "title": "Bedside gun with little kids? | r/tacticalgear",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/",
+            "platform": "reddit",
+            "title": "About to become a dad. Looking for advice on bedside... | r/guns",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.thehighroad.org/index.php?threads/nightstand-gun-with-children-in-the-house.578950/",
+            "platform": "forum",
+            "title": "Nightstand gun with children in the house? | The High Road",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I also use a liberty quickvault. Keeps kids out, easy to access, and comes with a key if battery dies.",
+            "url": "https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/"
+          },
+          {
+            "text": "I'd recommend a biometric safe. They're much safer and faster to access than a cable lock or a trigger lock. Just jam your thumb into it and go.",
+            "url": "https://www.thehighroad.org/index.php?threads/nightstand-gun-with-children-in-the-house.578950/"
+          }
+        ],
+        "searches": [
+          "nightstand gun safe kids toddler quick access which is safest"
+        ],
+        "keywords": [
+          "best handgun safe for nightstand",
+          "best bedside gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      },
+      {
+        "id": "handgun-safes-nightstand-loud-and-fit",
+        "pain": "The safe is loud (beeps, spring-loaded lid) or too big for the nightstand drawer",
+        "details": "Reviewers flag safes that beep with no way to mute, lids that slam open, and bodies too wide for a drawer. Check for a silent mode, a gas-strut or damped lid, and exterior dimensions against the drawer opening before buying.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.americanfirearms.org/best-bedside-gun-safes/",
+            "platform": "article",
+            "title": "The Best Bedside Gun Safes | American Firearms",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://www.topfirearmreviews.com/post/best-handgun-safes",
+            "platform": "article",
+            "title": "Best Handgun Safes | Top Firearm Reviews",
+            "seen": "2026-10-20"
+          },
+          {
+            "url": "https://capefearinvestigative.com/best-night-stand-pistol-safe/",
+            "platform": "article",
+            "title": "12 Best Night Stand Pistol Safe | Cape Fear Investigative",
+            "seen": "2026-10-20"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "The lock works great, but it makes some beeping noise when I push it, and I can't turn off the noises.",
+            "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+          },
+          {
+            "text": "Size can make for a difficult fit bedside",
+            "url": "https://www.americanfirearms.org/best-bedside-gun-safes/"
+          },
+          {
+            "text": "A safe that's too large can waste space and be harder to fit in your night stand.",
+            "url": "https://capefearinvestigative.com/best-night-stand-pistol-safe/"
+          }
+        ],
+        "searches": [
+          "bedside gun safe doesn't fit nightstand drawer too big loud pop open wakes spouse"
+        ],
+        "keywords": [
+          "best handgun safe for nightstand",
+          "nightstand gun safe"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-20"
+      }
     ]
   }
 }
