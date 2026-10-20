@@ -1,0 +1,513 @@
+{
+  "keyword": "best gun safe for apartment",
+  "createdAt": "2026-10-20T13:58:17.533Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "gun safe for apartment",
+    "entityVariants": [
+      "apartment gun safe",
+      "gun safe for renters",
+      "condo gun safe",
+      "small gun safe for apartment",
+      "gun safe for rental",
+      "apartment safe",
+      "closet gun safe"
+    ],
+    "entities": [
+      {
+        "name": "wall stud anchoring",
+        "type": "installation",
+        "relation": "renter-friendly way to anchor when the floor is off limits; holes patch at move-out"
+      },
+      {
+        "name": "post-tension slab",
+        "type": "building hazard",
+        "relation": "drilling a tensioned tendon in a concrete floor is dangerous; confirm slab type before drilling"
+      },
+      {
+        "name": "floor load",
+        "type": "attribute",
+        "relation": "upper-floor placement and joist direction matter more than total safe weight"
+      },
+      {
+        "name": "security deposit",
+        "type": "renter concern",
+        "relation": "bolt holes and floor damage are what renters worry about at move-out"
+      },
+      {
+        "name": "lease",
+        "type": "document",
+        "relation": "may restrict drilling or modifications; general information only, not legal advice"
+      },
+      {
+        "name": "landlord",
+        "type": "stakeholder",
+        "relation": "written permission request for anchoring"
+      },
+      {
+        "name": "modular gun safe",
+        "type": "product type",
+        "relation": "lightweight sections carried in by hand; named by Reddit and Sniper's Hide threads"
+      },
+      {
+        "name": "SecureIt Agile",
+        "type": "brand",
+        "relation": "modular lightweight safe line marketed for condos and apartments"
+      },
+      {
+        "name": "Zanotti Armor",
+        "type": "brand",
+        "relation": "modular safe brand renters recommend on Reddit"
+      },
+      {
+        "name": "Champion Safe",
+        "type": "brand",
+        "relation": "small fire-rated gun safes suggested for upstairs units"
+      },
+      {
+        "name": "security cable",
+        "type": "accessory",
+        "relation": "tether for a small bedside box; not a substitute for anchoring"
+      },
+      {
+        "name": "sprinkler system",
+        "type": "building feature",
+        "relation": "water damage risk to fire-lined safes in multi-unit buildings"
+      },
+      {
+        "name": "UL 72",
+        "type": "standard",
+        "relation": "independent fire test class; compare with the maker's own claim"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "lower number = thicker steel and better pry resistance"
+      },
+      {
+        "name": "closet",
+        "type": "placement",
+        "relation": "usual apartment location: stud walls, out of sight, restricted pry angles"
+      },
+      {
+        "name": "elevator and stairs",
+        "type": "delivery constraint",
+        "relation": "decides which safe can physically reach the unit"
+      },
+      {
+        "name": "renters insurance",
+        "type": "coverage",
+        "relation": "firearm sub-limits; confirm with your agent"
+      }
+    ],
+    "attributes": [
+      "weight",
+      "footprint",
+      "anchor method (floor holes, back holes, cable)",
+      "steel gauge",
+      "lock type",
+      "backup entry",
+      "rifle capacity (realistic vs advertised)",
+      "interior depth",
+      "fire rating and certifier",
+      "door swing clearance",
+      "delivery path width",
+      "stair carry"
+    ],
+    "ngrams": [
+      "gun safe for apartment",
+      "apartment gun safe",
+      "gun safe in an apartment",
+      "wall studs",
+      "security deposit",
+      "floor load",
+      "second floor",
+      "bolt down",
+      "modular gun safe",
+      "small gun safe",
+      "fire rating",
+      "rifle safe",
+      "handgun safe",
+      "gun storage",
+      "closet"
+    ],
+    "skipgrams": [
+      "bolt…floor",
+      "anchor…studs",
+      "safe…apartment",
+      "patch…holes",
+      "safe…landlord",
+      "weight…floor",
+      "gun…closet",
+      "drill…lease",
+      "carry…stairs",
+      "lock…backup"
+    ],
+    "nlpTerms": [
+      "apartment",
+      "renter",
+      "landlord",
+      "lease",
+      "deposit",
+      "anchor",
+      "bolt",
+      "stud",
+      "joist",
+      "floor load",
+      "modular",
+      "closet",
+      "elevator",
+      "stairwell",
+      "sprinkler",
+      "post-tension",
+      "move-out",
+      "patch",
+      "spackle",
+      "capacity",
+      "keypad",
+      "biometric",
+      "safe storage laws"
+    ],
+    "questions": [
+      "Can you have a gun safe in an apartment?",
+      "How do you secure a gun safe in an apartment without drilling the floor?",
+      "Will a gun safe be too heavy for an apartment floor?",
+      "Can I bolt a safe into a rental and keep my deposit?",
+      "What size gun safe is best for an apartment?",
+      "Where should I put a gun safe in a small apartment?",
+      "Can a landlord restrict a gun safe or gun storage?",
+      "Do I need a fire-rated safe in an apartment?"
+    ],
+    "contentGaps": [
+      "Anchor method per pick (floor holes, back-wall holes, cable only) instead of generic bolt-down advice",
+      "Move-out plan: weight, stairs, emptying the safe and patching stud holes, so the safe fits the next place too",
+      "Floor load placement: joist direction, bearing wall, concrete vs wood frame, ask the manager before very heavy safes",
+      "Post-tension slab warning before drilling any concrete floor",
+      "Fire in a multi-unit building: neighbor fires, sprinkler water, UL 72 certifier vs maker claim",
+      "Realistic capacity: advertised rifle counts assume thin scope-free guns; plan for roughly half to two thirds",
+      "Lease and landlord checklist with a written request (general information only, check state and local storage rules and your lease)"
+    ],
+    "outline": [
+      {
+        "h2": "Best gun safe for apartment: our picks",
+        "intent": "short answer first, then the picks with apartment-specific notes (weight, anchor method, fits which guns)",
+        "h3": []
+      },
+      {
+        "h2": "Apartment gun safes compared",
+        "intent": "comparison table: weight, footprint, anchor method, lock, backup entry, fire claim",
+        "h3": []
+      },
+      {
+        "h2": "Anchoring a safe you cannot bolt to the floor",
+        "intent": "ourGain: wall studs, closet framing, weight, cable limits, post-tension warning",
+        "h3": []
+      },
+      {
+        "h2": "Floor load, stairs and size",
+        "intent": "ourGain: joists, bearing wall, delivery path, realistic capacity, growing collection and move-out",
+        "h3": []
+      },
+      {
+        "h2": "Fire and sprinkler water in a shared building",
+        "intent": "ourGain: neighbor fires, sprinklers, UL 72 vs maker claim",
+        "h3": []
+      },
+      {
+        "h2": "Problems renters run into, and the fix",
+        "intent": "pain points: no drilling, deposit, collection outgrowing the safe, lease and landlord questions (general information, not legal advice)",
+        "h3": [
+          "Bolt holes and the deposit",
+          "What to ask your landlord in writing",
+          "Check state and local storage rules"
+        ]
+      },
+      {
+        "h2": "Quick answers",
+        "intent": "short FAQ",
+        "h3": []
+      },
+      {
+        "h2": "Our verdict",
+        "intent": "decision by what you store",
+        "h3": []
+      }
+    ],
+    "targetWords": 1400,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.secureitgunstorage.com/pages/gun-safes-for-condos-and-apartments",
+        "https://www.thesafekeeper.com/blogs/news/gun-safe-for-apartment",
+        "https://www.pewpewtactical.com/best-gun-safes/",
+        "https://www.championsafe.com/how-to-store-guns-in-an-apartment",
+        "https://www.citysafeandvault.com/blog/best-gun-safes-for-nyc-apartments/"
+      ],
+      "productStyle": "paragraph",
+      "productStyleReason": "The article-style results (Safe Keeper, Champion Safe, City Safe and Vault) are guides that name few products in prose, and store pages list products without pros/cons. A short paragraph per pick that states weight, anchor method and fit keeps the post concise. Word counts are estimates from page reads (Pew Pew Tactical not fully read).",
+      "avgWords": 1400,
+      "avgProducts": 4,
+      "commonSections": [
+        "why an apartment changes the choice",
+        "compact or modular safe types",
+        "anchoring and weight limits",
+        "sizing and placement",
+        "lock types",
+        "landlord or lease notes"
+      ],
+      "usesComparisonTable": false,
+      "usesFaq": true,
+      "usesBuyingGuide": true
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.secureitgunstorage.com/pages/gun-safes-for-condos-and-apartments",
+        "title": "Gun Safes For Condos and Apartments - SecureIt Gun Storage"
+      },
+      {
+        "position": 2,
+        "url": "https://www.reddit.com/r/CAguns/comments/14hg84r/gun_safe_for_an_apartment/",
+        "title": "Gun safe for an apartment ? : r/CAguns - Reddit"
+      },
+      {
+        "position": 3,
+        "url": "https://www.youtube.com/watch?v=WTz6OWDj7Hw",
+        "title": "Gun Safe Ideas for Renters - Handgun, Rifle & Modular Options - YouTube"
+      },
+      {
+        "position": 4,
+        "url": "https://www.thesafekeeper.com/blogs/news/gun-safe-for-apartment",
+        "title": "Gun Safe for Apartment: How to Choose and Anchor One"
+      },
+      {
+        "position": 5,
+        "url": "https://www.pewpewtactical.com/best-gun-safes/",
+        "title": "15 Best Gun Safes 2026: Every Type & Budget Tested"
+      },
+      {
+        "position": 6,
+        "url": "https://www.championsafe.com/how-to-store-guns-in-an-apartment",
+        "title": "How to Store Guns in an Apartment | Champion Safe Co."
+      },
+      {
+        "position": 7,
+        "url": "https://www.snipershide.com/shooting/threads/best-gun-safe-for-an-apartment.109667/",
+        "title": "Best Gun Safe for an Apartment? | Sniper's Hide Forum"
+      },
+      {
+        "position": 8,
+        "url": "https://mammothsafes.com/collections/apartment-safes",
+        "title": "Apartment Safes - Mammoth Safes"
+      },
+      {
+        "position": 9,
+        "url": "https://www.safeandvaultstore.com/collections/closet-gun-safes",
+        "title": "Closet Gun Safes - Get the Best Rated Small Gun & Rifle Safe"
+      },
+      {
+        "position": 10,
+        "url": "https://www.citysafeandvault.com/blog/best-gun-safes-for-nyc-apartments/",
+        "title": "Best Gun Safes for NYC Apartments"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 0,
+      "withYear": 1,
+      "withNumber": 1,
+      "commonModifiers": [
+        "apartments",
+        "condo",
+        "renters",
+        "how to choose and anchor",
+        "2026"
+      ],
+      "gap": "No title promises a renter's anchoring answer; owner rule fixes seoTitle to exactly Best Gun Safe for Apartment (no year, number or benefit)"
+    },
+    "seoTitle": "Best Gun Safe for Apartment",
+    "h1Rule": "H1 starts with the exact keyword, no colon",
+    "commonPoints": [
+      "Yes, you can usually keep a gun safe in an apartment; leases mostly restrict drilling, not safes",
+      "A safe you cannot anchor can be carried away, so weight or anchoring matters",
+      "Compact or modular safes fit apartments better than 1,000 lb safes",
+      "Heavy safes and upper floors need a floor-load check",
+      "Closet placement away from the front door, with room for the door to swing",
+      "Match capacity and lock type (keypad, biometric with backup) to what you store",
+      "Storage laws vary by state and city; check local rules and your lease"
+    ],
+    "ourGain": [
+      {
+        "point": "Anchor method for every pick (floor holes, back-wall stud holes, cable only) and the stud-and-closet-framing route for renters, with the post-tension slab warning",
+        "source": "pain point gun-safes-rental-cannot-bolt-down (r/MDGuns: \"I can't make any modifications to my apartment like bolting a safe to the floor.\"); The Safe Keeper guide, Sep 2026"
+      },
+      {
+        "point": "Move-out plan: pick a safe you can carry down stairs, empty it first, patch stud holes, and leave room to grow the collection until a house",
+        "source": "pain points gun-safes-rental-bolt-holes-deposit and gun-safes-apartment-size-collection-outgrows (Texas Gun Talk, Firearms Talk threads)"
+      },
+      {
+        "point": "Fire and sprinkler water in a multi-unit building, with UL 72 certifier vs maker claim, which no roundup in the top 10 covers",
+        "source": "The Safe Keeper guide (neighbor fires, sprinkler water, gypsum lining) plus our site's fire-rating angle (UL 72 or Intertek/ETL)"
+      },
+      {
+        "point": "Plain lease and landlord checklist: ask in writing, offer to patch, check state and local rules (general information, not legal advice)",
+        "source": "pain point gun-safes-landlord-lease-gun-rules-unclear (Quora, r/MDGuns, Rental Housing Journal)"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "gun-safes-rental-cannot-bolt-down",
+        "pain": "Renters are told to bolt a safe down but cannot drill the floor or wall of an apartment",
+        "details": "Renters want a safe that stays secure without bolting into a lease-protected floor. They ask which safes, weights and anchoring options are acceptable without landlord permission.",
+        "sources": [
+          "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/",
+          "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+          "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property"
+        ],
+        "quotes": [
+          {
+            "text": "I can't make any modifications to my apartment like bolting a safe to the floor.",
+            "url": "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/"
+          },
+          {
+            "text": "A 300-400 lb safe will hold what he needs and can be lag bolted to the wall/floor.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"
+          }
+        ]
+      },
+      {
+        "id": "gun-safes-rental-bolt-holes-deposit",
+        "pain": "Renters worry bolt holes will cost them the security deposit when they move out",
+        "details": "Renters either skip anchoring or bolt into a closet and patch the holes on departure. Others lay plywood or choose a closet over a load-bearing wall to protect the deposit.",
+        "sources": [
+          "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/",
+          "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+        ],
+        "quotes": [
+          {
+            "text": "When he leaves he spackles the small holes in the wall.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"
+          },
+          {
+            "text": "I know for a fact that I won't be losing my deposit that way",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+          }
+        ]
+      },
+      {
+        "id": "gun-safes-apartment-size-collection-outgrows",
+        "pain": "Renters need a safe small enough to move later but with room for a growing collection",
+        "details": "Apartment owners pick a 300-450 lb safe because of stairs and floor limits, then worry it fills up before they buy a house and a bigger safe.",
+        "sources": [
+          "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+          "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"
+        ],
+        "quotes": [
+          {
+            "text": "still have enough room to grow the collection until I can get to a house and get a big safe I can put in a concrete base.",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+          },
+          {
+            "text": "A 300-400 lb safe will hold what he needs and can be lag bolted to the wall/floor.",
+            "url": "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"
+          }
+        ]
+      },
+      {
+        "id": "gun-safes-landlord-lease-gun-rules-unclear",
+        "pain": "Renters do not know whether the lease or landlord can restrict a gun safe or gun storage",
+        "details": "Renters ask whether landlords can ban guns or require permission for a safe. Answers vary by state and lease wording, so renters want a plain checklist before signing or installing.",
+        "sources": [
+          "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property",
+          "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/",
+          "https://rentalhousingjournal.com/can-a-landlord-say-no-guns-in-my-apartments/"
+        ],
+        "quotes": [
+          {
+            "text": "Depends on where you live, and the wording of your lease or rental contract.",
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property"
+          },
+          {
+            "text": "The landlord has the right to forbid pets. In most jurisdictions he can also forbid firearms on private property.",
+            "url": "https://www.quora.com/How-common-is-it-for-landlords-to-ban-tenants-from-owning-and-storing-guns-on-their-property"
+          }
+        ]
+      },
+      {
+        "id": "gun-safes-apartment-floor-load-second-story",
+        "pain": "Unsure whether an upstairs apartment floor can hold a loaded 400-700 lb gun safe",
+        "details": "Second-floor renters ask how heavy a safe they can get away with. Replies say it is usually fine near a load-bearing wall or on plywood, and to add the weight of the guns and ammo.",
+        "sources": [
+          "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/",
+          "https://www.reddit.com/r/guns/comments/2ek8f2/gun_safe_on_the_2nd_floor/",
+          "https://www.texasguntalk.com/threads/gun-storage-in-apartment-safe-weights.29799/"
+        ],
+        "quotes": [
+          {
+            "text": "how heavy a safe can I get away with?",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+          },
+          {
+            "text": "weigh each of your firearms, accessories, and ammo that will be going in there, and add it to the weight of your safe.",
+            "url": "https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/"
+          },
+          {
+            "text": "you should reinforce the floor.",
+            "url": "https://www.reddit.com/r/guns/comments/2ek8f2/gun_safe_on_the_2nd_floor/"
+          }
+        ]
+      }
+    ],
+    "linkPlan": [
+      {
+        "to": "/blog/best-handgun-safe-for-nightstand/",
+        "anchor": "best handgun safe for nightstand",
+        "where": "picks or verdict, for bedside access"
+      },
+      {
+        "to": "/blog/best-pistol-safe/",
+        "anchor": "quick-access pistol safes",
+        "where": "picks, handgun-only renters"
+      },
+      {
+        "to": "/blog/best-biometric-gun-safe/",
+        "anchor": "biometric gun safes and their backup entry",
+        "where": "lock type note"
+      },
+      {
+        "to": "/blog/best-fireproof-safe/",
+        "anchor": "UL-rated fireproof safes",
+        "where": "fire and sprinkler section"
+      },
+      {
+        "to": "/blog/best-dehumidifier-for-gun-safe/",
+        "anchor": "dehumidifier for a gun safe",
+        "where": "closet humidity note, optional"
+      },
+      {
+        "to": "/safe-buying-checklist/",
+        "anchor": "safe buying checklist",
+        "where": "verdict"
+      },
+      {
+        "to": "/how-we-score/",
+        "anchor": "how we score safes",
+        "where": "compared table"
+      }
+    ],
+    "notes": "Give no legal advice: landlord and lease content is general information only. Product list comes from data/briefs/best-gun-safe-for-apartment.products.json (product-agent). SERP 2026-10-20: 2 forum/Reddit, 1 YouTube, 3 store/collection pages, 4 articles."
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-dehumidifier-for-gun-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-biometric-gun-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "how-to-move-a-gun-safe",
+      "mode": "related-box"
+    }
+  ]
+}

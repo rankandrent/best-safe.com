@@ -1,0 +1,17 @@
+{
+  "slug": "best-gun-safe-for-apartment",
+  "pass": true,
+  "checkedAt": "2026-10-20T13:57:57.338Z",
+  "errors": [],
+  "warnings": [
+    "product \"Vaultek RS500i\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"KAER Biometric Gun Safe Rifle 14-15 (2412C-1447)\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Re-scraped vaulteksafe.com/products/visn-rs500i (93 lb, 14x11.7x54 in, 14-gauge, 4 bolts, pre-drilled wall/floor holes, Fire Rated: No, 80 prints, 2 keys + Nano Key; page says 5+ rifles vs Amazon 6+, post now states both) and Amazon dp pages: B0FDR7JHCG = ViSN RS500i (listing 124 lb, A+ table 93 lbs), B0FZBWC594 = KAER model 2412C-1447 (78 lb, 15.8x18.5x57 in, 45.5 in max gun height, 15-gauge bullet but images say 16 and 18 gauge, floor/wall mount + expansion bolts + anti-tipping; post fixed), B07XTLXNJY = Vaultek LifePod 10 (2 lb, 7.75x6x1.75 interior, 9V, micro-USB, TSA, floats). None lists a fire rating or independent burglary cert. The Safe Keeper (Sep 2026) confirms stud/closet anchoring, bearing wall + property manager, post-tension warning, cable not anchoring, sprinkler/gypsum water point (removed 'hose'). Quotes verified: Firearms Talk (page), Quora 'Depends on where you live' (page), r/MDGuns and r/guns and Texas Gun Talk (search excerpts at exact URLs). Quora 'structural change' quote not findable, removed. No prices; legal content marked general info; From our notes framed as research.",
+    "at": "2026-10-20T13:57:56.753Z",
+    "hash": "c80b032cf5db645c"
+  }
+}

@@ -1298,7 +1298,7 @@
     "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1337,7 +1337,8 @@
       "gun-safes-rental-bolt-holes-deposit",
       "gun-safes-apartment-size-collection-outgrows",
       "gun-safes-landlord-lease-gun-rules-unclear"
-    ]
+    ],
+    "publishedAt": "2026-10-20T13:58:17.530Z"
   },
   {
     "status": "pending",
