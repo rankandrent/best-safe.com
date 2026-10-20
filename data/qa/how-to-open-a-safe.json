@@ -1,9 +1,13 @@
 {
   "slug": "how-to-open-a-safe",
   "pass": true,
-  "checkedAt": "2026-10-20T13:55:35.622Z",
+  "checkedAt": "2026-10-20T13:59:28.272Z",
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+    "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+  ],
   "factCheck": {
     "verified": true,
     "notes": "Re-opened Liberty Safe lost-combination page: contact maker first (and have locksmith contact them) or warranties void; notarized Combination/Duplicate Key Request Form plus payment; combination in three to five business days; registration creates ownership record. Verified verbatim: THR gun-safe-problem 'I have tried 4 new name brand batteries' and Winchester sent new lock; THR winchester-safe '9v every 6 months' quote; Reddit r/Safes 1h60c2i and 1owos4c quotes via search excerpts; Quora quote; Reddit 1ndf1gh title. Removed unverifiable override-key Reddit quote, price amount, Winchester/SentrySafe claims, default-code claim, 'top pages' claim. Owner-only scope kept, no bypass content, no prices, we-voice, From our notes framed as research.",

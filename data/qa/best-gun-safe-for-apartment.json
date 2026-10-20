@@ -1,12 +1,13 @@
 {
   "slug": "best-gun-safe-for-apartment",
   "pass": true,
-  "checkedAt": "2026-10-20T13:57:57.338Z",
+  "checkedAt": "2026-10-20T13:59:10.330Z",
   "errors": [],
   "warnings": [
     "product \"Vaultek RS500i\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"KAER Biometric Gun Safe Rifle 14-15 (2412C-1447)\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://rentalhousingjournal.com/can-a-landlord-say-no-guns-in-my-apartments/"
   ],
   "factCheck": {
     "verified": true,
