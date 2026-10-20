@@ -2650,5 +2650,28 @@
     "slug": "best-handgun-safe-for-nightstand",
     "lastError": "no Ahrefs data recorded (run keywords-explorer-overview, US) — not selectable until checked",
     "publishedAt": "2026-10-20T10:18:05.954Z"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-20T10:23:29.159Z",
+    "secondaryKeywords": [
+      "watch safe",
+      "safe for watches",
+      "watch winder safe",
+      "safe with watch winder"
+    ],
+    "questions": [],
+    "priority": 550,
+    "keyword": "luxury watch safe",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Luxury Watch Safe",
+    "cluster": "watch safes",
+    "source": "owner",
+    "rationale": "owner request 2026-10-20: add to the queue and publish in its normal turn (not now). Volume/KD not measured yet (Ahrefs API key below the 10,000-unit floor until 2026-11-09); measure before writing if units allow. Secondary variants are unmeasured candidates; drop any the SERP shows as a different intent (e.g. winder-only products).",
+    "slug": "luxury-watch-safe"
   }
 ]
