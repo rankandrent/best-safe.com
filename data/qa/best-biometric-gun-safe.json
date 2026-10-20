@@ -1,7 +1,7 @@
 {
   "slug": "best-biometric-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-20T20:17:17.676Z",
+  "checkedAt": "2026-10-20T20:25:08.708Z",
   "errors": [],
   "warnings": [
     "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -11,7 +11,8 @@
     "product \"awesafe Biometric Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Barska Biometric Rifle Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "source didn't respond normally (403): https://www.katom.com/470-AX11652.html",
-    "source didn't respond normally (403): https://www.cpsc.gov/Recalls/2024/Biometric-Gun-Safes-Recalled-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-Imported-by-Awesafe"
+    "source didn't respond normally (403): https://www.cpsc.gov/Recalls/2024/Biometric-Gun-Safes-Recalled-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-Imported-by-Awesafe",
+    "source didn't respond normally (500): https://oag.ca.gov/firearms/fsdcertlist"
   ],
   "factCheck": {
     "verified": true,

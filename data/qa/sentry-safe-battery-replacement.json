@@ -1,11 +1,10 @@
 {
   "slug": "sentry-safe-battery-replacement",
   "pass": true,
-  "checkedAt": "2026-10-20T20:19:03.157Z",
+  "checkedAt": "2026-10-20T20:26:10.919Z",
   "errors": [],
   "warnings": [
     "source didn't respond normally (503): https://www.lowes.com/n/how-to/change-batteries-in-a-safe",
-    "source didn't respond normally (no response): https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
     "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
     "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
   ],

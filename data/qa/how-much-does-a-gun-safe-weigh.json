@@ -1,13 +1,12 @@
 {
   "slug": "how-much-does-a-gun-safe-weigh",
   "pass": false,
-  "checkedAt": "2026-10-20T20:18:14.032Z",
+  "checkedAt": "2026-10-20T20:26:03.676Z",
   "errors": [
     "source returns 404: https://pasadenatx.gov/DocumentCenter/View/879/Residential-Building-Application-PDF"
   ],
   "warnings": [
-    "source didn't respond normally (403): https://americansecuritysafes.com/product/bfii6636-configurator/",
-    "source didn't respond normally (no response): https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"
+    "source didn't respond normally (403): https://americansecuritysafes.com/product/bfii6636-configurator/"
   ],
   "factCheck": {
     "verified": true,
