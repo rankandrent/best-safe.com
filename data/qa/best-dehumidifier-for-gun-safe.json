@@ -1,9 +1,10 @@
 {
   "slug": "best-dehumidifier-for-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-19T14:09:05.243Z",
+  "checkedAt": "2026-10-20T10:00:24.376Z",
   "errors": [],
   "warnings": [
+    "body has 2875 words, over the 2070 limit (top results average 1800): cut repetition and filler",
     "product \"Lockdown Golden Rod Dehumidifier\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Lockdown 12 in Dehumidifier Rod\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Lockdown Silica Gel Canister 750g\" has no Amazon photo yet (the Amazon refresh adds it after push)"

@@ -1,9 +1,10 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-19T16:29:38.681Z",
+  "checkedAt": "2026-10-20T10:00:31.344Z",
   "errors": [],
   "warnings": [
+    "a sentence repeats an earlier one almost word for word: \"SentrySafe lists it as UL Classified for 30 minutes at up to 1,550°F and ETL Verified agai\"",
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe SFW123DSB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe SFW205CWB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
