@@ -1,9 +1,12 @@
 {
   "_note": "Every blog URL that has gone live. scripts/redirects.mjs adds new ones on each build; a URL whose post is gone needs a redirect in data/redirects.json.",
   "urls": [
+    "/blog/best-ammo-can/",
     "/blog/best-biometric-gun-safe/",
+    "/blog/best-dehumidifier-for-gun-safe/",
     "/blog/best-fireproof-document-safe/",
     "/blog/best-fireproof-safe/",
+    "/blog/best-key-lock-box/",
     "/blog/best-pistol-safe/"
   ]
 }
