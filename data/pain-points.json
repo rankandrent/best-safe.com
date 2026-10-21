@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:17:32.247Z",
+  "updatedAt": "2026-10-21T10:50:23.108Z",
   "categories": {
     "gun-safes": [
       {
@@ -577,6 +577,60 @@
         ],
         "coveredBy": [],
         "foundAt": "2026-10-20"
+      },
+      {
+        "id": "gun-safes-garage-theft-exposure",
+        "pain": "A safe in the garage is seen from the street and thieves can work on it unseen behind a closed door",
+        "details": "Owners warn that an open garage door advertises the safe and that burglars can back a vehicle in, close the door and load up. Fixes owners give: keep it out of the door sight line, bolt it to the floor and wall, enclose it in a closet or box, add an alarm.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/",
+            "platform": "forum",
+            "title": "A gun safe in the garage? | Shooters' Forum",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/",
+            "platform": "forum",
+            "title": "gun safe in the garage | Hunt Talk",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/TexasGuns/comments/16jqj8m/gun_safe_in_the_garage/",
+            "platform": "reddit",
+            "title": "Gun safe in the garage. | r/TexasGuns",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "A gun safe in the garage is a burgular's dream.",
+            "url": "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/"
+          },
+          {
+            "text": "Make sure it can't be seen from the street when the door is open.",
+            "url": "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/"
+          },
+          {
+            "text": "heat , humidity , everyone will see your safe when you open your door",
+            "url": "https://www.reddit.com/r/TexasGuns/comments/16jqj8m/gun_safe_in_the_garage/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "gun safe in garage",
+          "gun safe in garage theft",
+          "is a gun safe in the garage safe"
+        ],
+        "keywords": [
+          "gun safe in garage",
+          "best gun safe for a garage"
+        ],
+        "coveredBy": [
+          "gun-safe-in-garage"
+        ],
+        "foundAt": "2026-10-21"
       }
     ],
     "safe-guides": [
@@ -1191,6 +1245,107 @@
         ],
         "coveredBy": [],
         "foundAt": "2026-10-20"
+      },
+      {
+        "id": "safe-guides-fire-rated-safe-total-loss",
+        "pain": "Owners expect a 'fireproof' gun safe to save their guns and papers even when the house burns to the ground",
+        "details": "Gun owners learn after wildfires and total-loss house fires that a fire rating is a time limit, and ask whether any safe survives a long fire or whether the contents are cooked anyway.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
+            "platform": "reddit",
+            "title": "FYI: Your guns will still burn in your fireproof gun safe | r/liberalgunowners",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1hzrg7i/los_angeles_fires_no_safes_survived/",
+            "platform": "reddit",
+            "title": "Los Angeles fires: No safes survived? | r/Safes",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/HomeImprovement/comments/e20qwb/where_to_store_for_safe_ie_what_part_of_a_house/",
+            "platform": "reddit",
+            "title": "Where to store for safe (what part of a house might burn the shortest) | r/HomeImprovement",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "There's no such thing as a fireproof safe. Safes are rated for how long they can withstand a fire.",
+            "url": "https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Even if the safe is found after a fire, the contents are usually baked to flash point",
+            "url": "https://www.reddit.com/r/HomeImprovement/comments/e20qwb/where_to_store_for_safe_ie_what_part_of_a_house/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "are gun safes fireproof",
+          "will a gun safe survive a house fire",
+          "fireproof gun safe worth it"
+        ],
+        "keywords": [
+          "are gun safes fireproof",
+          "best fire rated gun safe"
+        ],
+        "coveredBy": [
+          "are-gun-safes-fireproof"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "safe-guides-opening-own-safe-after-fire",
+        "pain": "After a fire, owners do not know how to get into their own fire-damaged safe or who helps",
+        "details": "Owners ask how a safe is retrieved and opened after a fire when the keypad is dead or the door has warped, and whether the maker helps or replaces the safe.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1i3qiel/after_a_fire_how_do_you_get_into_the_safe/",
+            "platform": "reddit",
+            "title": "After a fire... How do you get into the safe? | r/Safes",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/Firefighting/comments/1jrl5ej/im_thinking_of_getting_a_fireproof_safe_for_my/",
+            "platform": "reddit",
+            "title": "I'm thinking of getting a fireproof safe for my apartment. How does retrieving one after a fire typically work? | r/Firefighting",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/",
+            "platform": "reddit",
+            "title": "Advice on buying a small fireproof safe, please. | r/Safes",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Some makers may offer to replace the safe after a fire and assist in retrieving the contents.",
+            "url": "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "How does retrieving one after a fire typically work?",
+            "url": "https://www.reddit.com/r/Firefighting/comments/1jrl5ej/im_thinking_of_getting_a_fireproof_safe_for_my/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "how to open a safe after a fire",
+          "gun safe after house fire",
+          "safe fire warranty"
+        ],
+        "keywords": [
+          "are gun safes fireproof"
+        ],
+        "coveredBy": [
+          "are-gun-safes-fireproof"
+        ],
+        "foundAt": "2026-10-21"
       }
     ],
     "home-safes": [
@@ -2393,6 +2548,155 @@
           "best-under-bed-gun-safe"
         ],
         "foundAt": "2026-10-20"
+      }
+    ],
+    "wall-floor-safes": [
+      {
+        "id": "wall-floor-safes-slab-cables-heat-utilities",
+        "pain": "Cutting the slab for a floor safe could hit post-tension cables, radiant heat tubing or buried utilities",
+        "details": "Owners and locksmiths worry about what sits inside the slab; a cut tendon or pipe can cost far more than the safe.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/",
+            "platform": "reddit",
+            "title": "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.eichlernetwork.com/content/locating-radiant-heat-tubes-prior-cutting-slab",
+            "platform": "forum",
+            "title": "https://www.eichlernetwork.com/content/locating-radiant-heat-tubes-prior-cutting-slab",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Also, consider the liability of ripping into somebody's concrete slab to install a floor safe.",
+            "url": "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/"
+          }
+        ],
+        "searches": [
+          "floor safe installation post tension slab",
+          "cutting slab for floor safe radiant heat"
+        ],
+        "keywords": [
+          "floor safe installation"
+        ],
+        "coveredBy": [
+          "floor-safe-installation"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "wall-floor-safes-in-floor-moisture-condensation",
+        "pain": "In-floor safes stay damp: condensation, ground water and rust",
+        "details": "A body set in damp ground sweats when opened, can flood from a burst pipe and rust where it touches wet sand.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/",
+            "platform": "forum",
+            "title": "https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/",
+            "platform": "web",
+            "title": "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "The cooler the ground compared to the air temp the more condensation you will get.",
+            "url": "https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/"
+          }
+        ],
+        "searches": [
+          "floor safe moisture",
+          "in-floor safe condensation"
+        ],
+        "keywords": [
+          "floor safe installation"
+        ],
+        "coveredBy": [
+          "floor-safe-installation"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "wall-floor-safes-in-floor-access-tradeoff",
+        "pain": "Owners can't decide between a hidden in-floor safe and an easier-to-reach above-floor safe",
+        "details": "In-floor safes hide well but mean kneeling to a lock below floor level, and the lock collects dirt.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/",
+            "platform": "reddit",
+            "title": "https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/",
+            "platform": "web",
+            "title": "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Better access with the above-floor safe. Better hiding ability with the in-floor safe.",
+            "url": "https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/"
+          }
+        ],
+        "searches": [
+          "in-floor vs above-floor safe"
+        ],
+        "keywords": [
+          "floor safe installation"
+        ],
+        "coveredBy": [
+          "floor-safe-installation"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "wall-floor-safes-diy-install-existing-foundation",
+        "pain": "Owners want to set a floor safe into an existing garage foundation and don't know if they can do it themselves",
+        "details": "Instructions say it can be done by a handy owner, but makers and dealers still recommend a contractor or safe installer.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/",
+            "platform": "reddit",
+            "title": "https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://faqs.safeandvaultstore.com/kb/floor-safes-5a8b11a47f12d21a/q-how-do-you-install-a-floor-safe",
+            "platform": "web",
+            "title": "https://faqs.safeandvaultstore.com/kb/floor-safes-5a8b11a47f12d21a/q-how-do-you-install-a-floor-safe",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I have an old floor safe and would like to see if I can install it into my house foundation in the garage.",
+            "url": "https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/"
+          }
+        ],
+        "searches": [
+          "install floor safe in existing concrete",
+          "diy floor safe installation"
+        ],
+        "keywords": [
+          "floor safe installation"
+        ],
+        "coveredBy": [
+          "floor-safe-installation"
+        ],
+        "foundAt": "2026-10-21"
       }
     ]
   }

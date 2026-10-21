@@ -525,7 +525,7 @@
     "lastError": "cannibalization: 4 of the top-10 Google results are shared with \"best pistol safe\" (same intent)"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -562,7 +562,8 @@
     "painPoints": [
       "home-safes-not-really-fireproof",
       "home-safes-mold-and-moisture-in-fire-safe"
-    ]
+    ],
+    "publishedAt": "2026-10-21T10:51:16.751Z"
   },
   {
     "status": "published",

@@ -98,22 +98,39 @@ faqs:
       which is why they come with a cable or bolt-down holes.
 illustrations:
   - prompt: >-
-      A row of empty steel gun safes of different sizes standing side by side on a concrete showroom floor, from a small handgun vault on a low shelf to a tall long-gun safe, plain unbranded doors, soft even overhead light, wide eye-level shot, realistic photograph.
-    alt: 'Gun safes of different sizes side by side, from a small handgun vault to a tall long-gun safe'
+      A row of empty steel gun safes of different sizes standing side by side on
+      a concrete showroom floor, from a small handgun vault on a low shelf to a
+      tall long-gun safe, plain unbranded doors, soft even overhead light, wide
+      eye-level shot, realistic photograph.
+    alt: >-
+      Gun safes of different sizes side by side, from a small handgun vault to a
+      tall long-gun safe
     afterHeading: 1
   - prompt: >-
-      A tall dark steel gun safe standing on a hardwood floor in an upstairs bedroom closet next to a load-bearing wall, a tape measure and a blank notepad lying on the floor in front of it, warm afternoon window light, eye-level view, realistic photograph.
-    alt: 'Heavy gun safe on an upstairs wood floor beside a load-bearing wall, with a tape measure for checking floor load'
+      A tall dark steel gun safe standing on a hardwood floor in an upstairs
+      bedroom closet next to a load-bearing wall, a tape measure and a blank
+      notepad lying on the floor in front of it, warm afternoon window light,
+      eye-level view, realistic photograph.
+    alt: >-
+      Heavy gun safe on an upstairs wood floor beside a load-bearing wall, with
+      a tape measure for checking floor load
     afterHeading: 3
   - prompt: >-
-      Three movers in plain gray work clothes, faces turned away from the camera, guiding a blanket-wrapped tall safe strapped to a heavy-duty appliance dolly through the front doorway of a suburban house, plywood protecting the threshold, overcast daylight, low side angle, realistic photograph.
-    alt: 'Three movers rolling a blanket-wrapped gun safe on a heavy-duty dolly through a front doorway'
+      Three movers in plain gray work clothes, faces turned away from the
+      camera, guiding a blanket-wrapped tall safe strapped to a heavy-duty
+      appliance dolly through the front doorway of a suburban house, plywood
+      protecting the threshold, overcast daylight, low side angle, realistic
+      photograph.
+    alt: >-
+      Three movers rolling a blanket-wrapped gun safe on a heavy-duty dolly
+      through a front doorway
     afterHeading: 4
 videos:
-  - id: 'pSWI53Xbh5M'
+  - id: pSWI53Xbh5M
     afterHeading: 2
 author: editorial-team
 related:
+  - are-gun-safes-fireproof
   - how-to-move-a-gun-safe
   - best-gun-safe-for-apartment
 heroImage: /images/featured/how-much-does-a-gun-safe-weigh.png

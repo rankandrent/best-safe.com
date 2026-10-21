@@ -1,0 +1,450 @@
+{
+  "centralEntity": "gun safe fire rating",
+  "entityVariants": [
+    "fireproof gun safe",
+    "fire-resistant gun safe",
+    "fire rated gun safe",
+    "gun safe fire protection",
+    "are gun safes fireproof"
+  ],
+  "entities": [
+    {
+      "name": "UL 72",
+      "type": "standard",
+      "relation": "Underwriters Laboratories fire-endurance standard for record protection equipment; Class 350 1 hr = interior under 350°F at 1700°F (1850°F for 2 hr), plus explosion and optional impact tests"
+    },
+    {
+      "name": "Intertek ETL",
+      "type": "certifier",
+      "relation": "independent lab that fire-tests gun safes: furnace to 1200°F within 8 minutes, held 30-120 minutes, interior under 350°F"
+    },
+    {
+      "name": "maker's own test",
+      "type": "certification type",
+      "relation": "factory or manufacturer fire rating with no independent witness; methods vary"
+    },
+    {
+      "name": "UL RSC",
+      "type": "standard",
+      "relation": "burglary rating, not a fire rating"
+    },
+    {
+      "name": "Class 350",
+      "type": "rating class",
+      "relation": "interior temperature limit for paper, non-paper records and digital media"
+    },
+    {
+      "name": "fireboard",
+      "type": "material",
+      "relation": "gypsum board layers that release moisture (steam) in heat"
+    },
+    {
+      "name": "poured composite",
+      "type": "material",
+      "relation": "concrete-like insulation between steel walls, fewer seams than gypsum layers"
+    },
+    {
+      "name": "Palusol",
+      "type": "component",
+      "relation": "intumescent seal that expands in heat to block smoke and hot gas"
+    },
+    {
+      "name": "American Security",
+      "type": "brand",
+      "relation": "publishes UL, ETL and factory fire ratings side by side"
+    },
+    {
+      "name": "house fire",
+      "type": "attribute",
+      "relation": "can pass 1100°F within five minutes (The Zebra)"
+    },
+    {
+      "name": "paper",
+      "type": "attribute",
+      "relation": "paper discolors above 350°F, scorches ~410°F, ignites at 451°F (Dean Safe)"
+    }
+  ],
+  "attributes": [
+    "fire rating duration",
+    "outside test temperature",
+    "interior temperature limit",
+    "certifying body",
+    "furnace ramp time",
+    "sensor placement",
+    "door seal",
+    "insulation type",
+    "impact test",
+    "explosion test"
+  ],
+  "ngrams": [
+    "fire rating",
+    "fireproof gun safe",
+    "fire resistant",
+    "fire rated gun safe",
+    "UL 72",
+    "Class 350",
+    "350 degrees",
+    "house fire",
+    "door seal",
+    "factory tested",
+    "independent lab"
+  ],
+  "skipgrams": [
+    "fire…rating",
+    "safe…fireproof",
+    "rated…minutes",
+    "interior…350",
+    "independent…lab",
+    "door…seal"
+  ],
+  "nlpTerms": [
+    "furnace",
+    "thermocouple",
+    "fireboard",
+    "gypsum",
+    "composite",
+    "intumescent",
+    "Palusol",
+    "Intertek",
+    "Underwriters Laboratories",
+    "wildfire",
+    "steam",
+    "moisture",
+    "insulation",
+    "impact",
+    "explosion"
+  ],
+  "questions": [
+    "Are gun safes fireproof?",
+    "What does a gun safe fire rating mean?",
+    "Is UL RSC a fire rating?",
+    "What is the difference between UL and ETL fire ratings?",
+    "How long does a house fire burn?",
+    "Will guns survive in a fire-rated safe?",
+    "Can you store ammo in a fire-rated gun safe?",
+    "How do you open a safe after a fire?"
+  ],
+  "contentGaps": [
+    "One maker's lineup shows all three rating types (UL, ETL, factory), making 'who certified it' concrete",
+    "How to read '60 minutes at 1200°F' line by line, including the 350°F interior limit",
+    "Real fire timelines (report delay + response time) against rating length",
+    "Opening your own safe after a fire: maker with proof of ownership, then a licensed locksmith",
+    "Fireboard moisture: the same material that protects in a fire makes papers damp day to day"
+  ],
+  "outline": [
+    {
+      "h2": "Fireproof vs fire-resistant – what a gun safe fire rating promises",
+      "intent": "direct answer and how to read minutes and °F",
+      "h3": []
+    },
+    {
+      "h2": "Who certified the gun safe fire rating – UL 72, ETL or the maker",
+      "intent": "certifier differences, with a table",
+      "h3": []
+    },
+    {
+      "h2": "Why two 60-minute gun safe fire ratings aren't equal",
+      "intent": "furnace ramp, sensors, seals, insulation",
+      "h3": []
+    },
+    {
+      "h2": "A real fire vs the rated minutes",
+      "intent": "fire timelines and what to store where",
+      "h3": []
+    },
+    {
+      "h2": "Problems owners run into, and the fix",
+      "intent": "pain points",
+      "h3": [
+        "The house burned to the ground",
+        "Ratings that can't be compared",
+        "Damp papers in a fire-rated safe",
+        "Getting into your own safe after a fire"
+      ]
+    },
+    {
+      "h2": "Where to go next",
+      "intent": "links to picks and checklist",
+      "h3": []
+    }
+  ],
+  "commonPoints": [
+    "No safe is truly fireproof; safes are fire-resistant for a rated time",
+    "A rating is a duration at an outside temperature with the interior kept under about 350°F",
+    "UL is the strictest independent fire test; ETL/Intertek is the common independent gun safe test",
+    "Factory ratings vary and deserve questions",
+    "UL RSC and TL ratings are burglary ratings, not fire ratings",
+    "Construction (insulation, door seal, door fit) drives fire performance"
+  ],
+  "ourGain": [
+    {
+      "point": "One maker, three kinds of rating: AMSEC publishes UL classifications on high-security safes, ETL 30-120 minute ratings on gun safes and a factory 30-minute rating on its TF series, so the certifier is visible on one page",
+      "source": "https://americansecuritysafes.com/fire-ratings-explained/"
+    },
+    {
+      "point": "House fire timeline vs rating: heat can pass 1100°F in under five minutes, and NW Safe describes a fire not called in for 30 minutes plus a 20-minute response",
+      "source": "https://www.thezebra.com/resources/research/house-fire-statistics/ ; https://nwsafe.com/blogs/tips/fireproof-gun-safe"
+    },
+    {
+      "point": "Store papers low: AMSEC says the bottom of a tall safe stays cooler; Dean Safe suggests a fire box inside the safe for fragile items",
+      "source": "https://americansecuritysafes.com/are-safes-fireproof/ ; https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes"
+    },
+    {
+      "point": "After a fire: contact the maker with proof of ownership before anyone drills, since some makers help retrieve contents or replace the safe",
+      "source": "data/pain-points.json (safe-guides-opening-own-safe-after-fire)"
+    },
+    {
+      "point": "Fireboard releases steam in a fire and holds moisture day to day, so bag papers and run a dehumidifier",
+      "source": "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes ; data/pain-points.json (home-safes-mold-and-moisture-in-fire-safe)"
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "safe-guides-fire-rated-safe-total-loss",
+      "pain": "Owners expect a 'fireproof' gun safe to save their guns and papers even when the house burns to the ground",
+      "details": "Gun owners learn after wildfires and total-loss house fires that a fire rating is a time limit, and ask whether any safe survives a long fire or whether the contents are cooked anyway.",
+      "sources": [
+        "https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
+        "https://www.reddit.com/r/Safes/comments/1hzrg7i/los_angeles_fires_no_safes_survived/",
+        "https://www.reddit.com/r/HomeImprovement/comments/e20qwb/where_to_store_for_safe_ie_what_part_of_a_house/"
+      ],
+      "quotes": [
+        {
+          "text": "There's no such thing as a fireproof safe. Safes are rated for how long they can withstand a fire.",
+          "url": "https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/"
+        },
+        {
+          "text": "Even if the safe is found after a fire, the contents are usually baked to flash point",
+          "url": "https://www.reddit.com/r/HomeImprovement/comments/e20qwb/where_to_store_for_safe_ie_what_part_of_a_house/"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-not-really-fireproof",
+      "pain": "Owners do not trust that a \"fireproof\" safe will really protect papers or plastic media",
+      "details": "People ask whether fire boxes are fireproof at all, or learn the rating is time-limited and that moisture inside can wet the contents. They want clear ratings and what to wrap in plastic.",
+      "sources": [
+        "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/",
+        "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/",
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+      ],
+      "quotes": [
+        {
+          "text": "Nothing is really fireproof",
+          "url": "https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/"
+        },
+        {
+          "text": "The contents might get very moist in that scenario, so protect wrap them in plastic.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+      "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)",
+      "details": "Shoppers compare store-brand safes on fire minutes and temperature, then ask what UL and TL ratings actually mean.",
+      "sources": [
+        "https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/",
+        "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/",
+        "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/"
+      ],
+      "quotes": [
+        {
+          "text": "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.",
+          "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"
+        },
+        {
+          "text": "Liberty Safes won't survive a fire.",
+          "url": "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-mold-and-moisture-in-fire-safe",
+      "pain": "Papers, passports and coins grow mold inside a fire-rated home safe",
+      "details": "Fire-resistant safes hold moisture in their walls and seal closed, so documents mold within weeks in humid homes. Owners are told to air the safe out, use a monitor and a rechargeable desiccant or dryer rod.",
+      "sources": [
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+        "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/",
+        "https://physics.stackexchange.com/questions/616943/why-do-fireproof-safes-capture-and-hold-in-moisture",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+      ],
+      "quotes": [
+        {
+          "text": "Fireproof safes are notorious for holding moisture.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "In the time frame of a couple of weeks, the paper work started to mold.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "Opened up my fireproof safe to find my passport growing mold on",
+          "url": "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-opening-own-safe-after-fire",
+      "pain": "After a fire, owners do not know how to get into their own fire-damaged safe or who helps",
+      "details": "Owners ask how a safe is retrieved and opened after a fire when the keypad is dead or the door has warped, and whether the maker helps or replaces the safe.",
+      "sources": [
+        "https://www.reddit.com/r/Safes/comments/1i3qiel/after_a_fire_how_do_you_get_into_the_safe/",
+        "https://www.reddit.com/r/Firefighting/comments/1jrl5ej/im_thinking_of_getting_a_fireproof_safe_for_my/",
+        "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/"
+      ],
+      "quotes": [
+        {
+          "text": "Some makers may offer to replace the safe after a fire and assist in retrieving the contents.",
+          "url": "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/"
+        },
+        {
+          "text": "How does retrieving one after a fire typically work?",
+          "url": "https://www.reddit.com/r/Firefighting/comments/1jrl5ej/im_thinking_of_getting_a_fireproof_safe_for_my/"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "1700°F",
+      "claim": "UL Class 350 one-hour: interior under 350°F at 1700°F for one hour, 1850°F for two",
+      "url": "https://americansecuritysafes.com/fire-ratings-explained/",
+      "quote": "maintain an interior temperature less than 350°F when exposed to fire for a period of one hour at 1700°F or for a period of two hours at 1850°F"
+    },
+    {
+      "number": "30’",
+      "claim": "UL optional fire impact test drops the hot safe 30 feet onto brick",
+      "url": "https://americansecuritysafes.com/fire-ratings-explained/",
+      "quote": "within two minutes is dropped 30’ onto a riprap of brick on a heavy concrete base"
+    },
+    {
+      "number": "8 minutes / 1200° F",
+      "claim": "ETL-Intertek gun safe test reaches 1200°F within 8 minutes and holds it",
+      "url": "https://americansecuritysafes.com/fire-ratings-explained/",
+      "quote": "Within 8 minutes, the furnace temperature was raised to 1200° F, and that temperature was maintained for the remainder of the 120 minute test."
+    },
+    {
+      "number": "1100 degrees",
+      "claim": "house fire heat can exceed 1100°F in under five minutes",
+      "url": "https://www.thezebra.com/resources/research/house-fire-statistics/",
+      "quote": "In less than five minutes, the heat from a house fire can reach over 1100 degrees Fahrenheit."
+    },
+    {
+      "number": "451° F",
+      "claim": "paper discolors above 350°F, scorches near 410°F and ignites at 451°F",
+      "url": "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes",
+      "quote": "Paper begins to discolor at just above 350° F and scorch at approximately 410° F. It will ignite at 451° F"
+    },
+    {
+      "number": "30 minutes + 20",
+      "claim": "a fire not called in for 30 minutes plus a 20-minute response",
+      "url": "https://nwsafe.com/blogs/tips/fireproof-gun-safe",
+      "quote": "the electrical fire that didn’t get called in for 30 minutes and it took an additional 20 minutes to respond and actually get water on fire"
+    }
+  ],
+  "videos": [
+    {
+      "id": "QUQhinqGQj8",
+      "title": "Home and Gun Safe Fire Ratings - What do they really mean?",
+      "channel": "SafeandVaultStore",
+      "url": "https://www.youtube.com/watch?v=QUQhinqGQj8",
+      "section": "Who certified the gun safe fire rating – UL 72, ETL or the maker"
+    }
+  ],
+  "targetWords": 1250,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://nwsafe.com/blogs/tips/fireproof-gun-safe",
+      "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes",
+      "https://americansecuritysafes.com/are-safes-fireproof/",
+      "https://americansecuritysafes.com/fire-ratings-explained/",
+      "https://gunsafereviewsguy.com/articles/myths-about-gun-safe-fire-ratings/"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "Informational question; the ranking guides explain ratings and list maker series rather than reviewing products, so the site's no-pick guide format (specs) fits; picks live in the best-fire-rated-gun-safe roundup.",
+    "avgWords": 1300,
+    "avgProducts": 0,
+    "commonSections": [
+      "fireproof vs fire-resistant",
+      "what a fire rating means",
+      "UL vs ETL vs factory ratings",
+      "construction (insulation, seals)",
+      "how much rating you need"
+    ],
+    "usesComparisonTable": false,
+    "usesFaq": true,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://libertysafe.com/collections/gun-safes",
+      "title": "Liberty Safe | America's #1 Gun Safe - Made in USA - Liberty Safe"
+    },
+    {
+      "position": 2,
+      "url": "https://www.gunsafesnow.com/gun-safes/fire-resistant-safes/",
+      "title": "Fire Resistant Safes - GunSafesNow.com"
+    },
+    {
+      "position": 3,
+      "url": "https://www.secureitgunstorage.com/collections/the-true-fire-safe",
+      "title": "TRUE™ Fire Rated Gun Safes | High Security Storage | SecureIt"
+    },
+    {
+      "position": 4,
+      "url": "https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
+      "title": "FYI: Your guns will still burn in your fireproof gun safe - Reddit"
+    },
+    {
+      "position": 5,
+      "url": "https://nwsafe.com/blogs/tips/fireproof-gun-safe",
+      "title": "What's the Best Fireproof Gun Safe? - Northwest Safe"
+    },
+    {
+      "position": 6,
+      "url": "https://www.facebook.com/groups/5337433675/posts/10162866254143676/",
+      "title": "Question for those that have experienced a home fire. Owners ..."
+    },
+    {
+      "position": 7,
+      "url": "https://www.youtube.com/watch?v=zQ9Fnq77Kn0",
+      "title": "Safe Space Episode 20: The Best Fire Resistant Gun Safes - YouTube"
+    },
+    {
+      "position": 8,
+      "url": "https://www.thesafekeeper.com/collections/2-hour-fire-rated-gun-safes",
+      "title": "2 Hour Fire Rated Gun Safes | The Safe Keeper Store"
+    },
+    {
+      "position": 9,
+      "url": "https://www.quora.com/How-can-someone-fireproof-a-gun-safe",
+      "title": "How can someone fireproof a gun safe? - Quora"
+    },
+    {
+      "position": 10,
+      "url": "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes",
+      "title": "An Explanation of Fire Ratings for Home Safes and Gun Safes"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": [
+      "fire resistant",
+      "fire rated",
+      "explained",
+      "best"
+    ],
+    "gap": "No top-10 title answers the question directly and names who certified the rating (UL, ETL or the maker)"
+  },
+  "linkPlan": [
+    "/blog/best-fire-rated-gun-safe/",
+    "/blog/best-fireproof-safe/",
+    "/blog/best-dehumidifier-for-gun-safe/",
+    "/blog/how-to-open-a-safe/",
+    "/safe-buying-checklist/"
+  ]
+}

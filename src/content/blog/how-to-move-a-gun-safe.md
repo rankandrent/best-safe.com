@@ -111,19 +111,32 @@ faqs:
       and pad door frames and thresholds with moving blankets.
 illustrations:
   - prompt: >-
-      A person measuring the width of an interior basement doorway with a tape measure, face not visible, a tall empty gun safe with its door open and shelves removed and stacked in the background, cool overhead light, wide eye-level shot, realistic photograph.
-    alt: 'Measuring a basement doorway before moving an emptied gun safe'
+      A person measuring the width of an interior basement doorway with a tape
+      measure, face not visible, a tall empty gun safe with its door open and
+      shelves removed and stacked in the background, cool overhead light, wide
+      eye-level shot, realistic photograph.
+    alt: Measuring a basement doorway before moving an emptied gun safe
     afterHeading: 2
   - prompt: >-
-      Moving gear laid out neatly on a garage floor: a heavy-duty appliance dolly with a strap, coiled ratchet straps, folded quilted moving blankets, plastic and felt furniture sliders and a roll of stretch wrap, morning light from an open garage door, top-down angle, realistic photograph.
-    alt: 'Gun safe moving gear: heavy-duty dolly, ratchet straps, moving blankets, sliders and stretch wrap'
+      Moving gear laid out neatly on a garage floor: a heavy-duty appliance
+      dolly with a strap, coiled ratchet straps, folded quilted moving blankets,
+      plastic and felt furniture sliders and a roll of stretch wrap, morning
+      light from an open garage door, top-down angle, realistic photograph.
+    alt: >-
+      Gun safe moving gear: heavy-duty dolly, ratchet straps, moving blankets,
+      sliders and stretch wrap
     afterHeading: 3
   - prompt: >-
-      A tall steel gun safe being leveled with thin wooden shims under its front edge in a finished basement, a spirit level resting on top, a small dehumidifier rod plugged in beside it, warm light, side angle at knee height, realistic photograph, no people.
-    alt: 'Gun safe leveled with shims in a basement after the move, ready to be bolted down'
+      A tall steel gun safe being leveled with thin wooden shims under its front
+      edge in a finished basement, a spirit level resting on top, a small
+      dehumidifier rod plugged in beside it, warm light, side angle at knee
+      height, realistic photograph, no people.
+    alt: >-
+      Gun safe leveled with shims in a basement after the move, ready to be
+      bolted down
     afterHeading: 6
 videos:
-  - id: 'II81lN6oASs'
+  - id: II81lN6oASs
     afterHeading: 6
   - id: '-lxi5SqJx9Y'
     afterHeading: 4
@@ -133,10 +146,10 @@ heroAlt: >-
   How to Move a Gun Safe (Without Wrecking Stairs, Floors or Backs) – Best Safe
   how-to
 related:
+  - are-gun-safes-fireproof
   - how-much-does-a-gun-safe-weigh
   - how-to-bolt-down-a-safe
   - sentry-safe-battery-replacement
-  - best-gun-safe-for-apartment
 ---
 
 To move a gun safe, empty it, unbolt it, wrap it, and roll it upright on an appliance dolly rated above its weight, strapped tight, with at least three people. If the route has stairs or the safe weighs [more than 500 lb](https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist) (Kirby's Moving's cutoff), the best way to move a gun safe is to hire a safe mover with a stair climber.
