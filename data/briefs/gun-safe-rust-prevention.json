@@ -1,0 +1,464 @@
+{
+  "centralEntity": "gun safe rust prevention",
+  "entityVariants": [
+    "how to prevent rust in a gun safe",
+    "gun safe humidity level",
+    "prevent rust in gun safe",
+    "keep guns from rusting in a safe",
+    "guns rusting in safe"
+  ],
+  "entities": [
+    {
+      "name": "relative humidity",
+      "type": "measurement",
+      "relation": "the number to control inside the safe"
+    },
+    {
+      "name": "dew point / condensation",
+      "type": "concept",
+      "relation": "moisture forms on cold steel when warm humid air meets it (cold walls, garage slabs, opening the door)"
+    },
+    {
+      "name": "electric dehumidifier rod (GoldenRod)",
+      "type": "product type",
+      "relation": "warms air so RH drops; needs an outlet"
+    },
+    {
+      "name": "silica gel desiccant",
+      "type": "product type",
+      "relation": "absorbs moisture, saturates and needs recharging"
+    },
+    {
+      "name": "VCI (vapor corrosion inhibitor)",
+      "type": "product type",
+      "relation": "emitters and bags that protect metal directly"
+    },
+    {
+      "name": "gun oil / CLP / rust-inhibiting grease",
+      "type": "product type",
+      "relation": "barrier on the metal surface"
+    },
+    {
+      "name": "hygrometer",
+      "type": "product type",
+      "relation": "tells you whether the controls work"
+    },
+    {
+      "name": "gun socks",
+      "type": "product type",
+      "relation": "silicone-treated sleeves; owners debate whether they trap moisture"
+    },
+    {
+      "name": "NRA National Firearms Museum",
+      "type": "organization",
+      "relation": "70 F and 50-55% RH storage standard"
+    },
+    {
+      "name": "Canadian Conservation Institute",
+      "type": "organization",
+      "relation": "metal corrosion speeds up a lot above 75% RH"
+    },
+    {
+      "name": "EPA",
+      "type": "organization",
+      "relation": "indoor RH below 60%, ideally 30-50%"
+    },
+    {
+      "name": "corrosive primers",
+      "type": "concept",
+      "relation": "salts left by surplus ammo that pull moisture"
+    }
+  ],
+  "attributes": [
+    "target RH range",
+    "safe location (exterior wall, basement, garage slab)",
+    "door seal and how often it is opened",
+    "power for a rod",
+    "desiccant capacity and recharge interval",
+    "direct metal protection (oil, grease, wax, VCI)",
+    "fingerprints and salts",
+    "carpet and foam that hold moisture",
+    "inspection schedule"
+  ],
+  "ngrams": [
+    "gun safe dehumidifier",
+    "relative humidity",
+    "silica gel",
+    "dehumidifier rod",
+    "rust in gun safe",
+    "50 to 55 percent",
+    "exterior wall",
+    "concrete floor",
+    "gun oil",
+    "vapor corrosion inhibitor",
+    "gun socks",
+    "fingerprints"
+  ],
+  "skipgrams": [
+    "humidity…safe",
+    "rust…despite…dehumidifier",
+    "cold…wall…condensation",
+    "silica…recharge",
+    "oil…wipe…fingerprints",
+    "VCI…bag"
+  ],
+  "nlpTerms": [
+    "rust",
+    "corrosion",
+    "oxidation",
+    "humidity",
+    "relative humidity",
+    "RH",
+    "condensation",
+    "dew point",
+    "dehumidifier",
+    "desiccant",
+    "silica",
+    "GoldenRod",
+    "VCI",
+    "gun oil",
+    "CLP",
+    "grease",
+    "wax",
+    "gun socks",
+    "hygrometer",
+    "basement",
+    "garage",
+    "slab",
+    "exterior wall",
+    "fingerprints",
+    "salt",
+    "corrosive ammo",
+    "wood stocks"
+  ],
+  "questions": [
+    "What humidity should a gun safe stay at?",
+    "Do gun socks cause rust?",
+    "Why are my guns rusting in the safe with a dehumidifier?",
+    "Is silica gel enough for a gun safe?",
+    "Can a gun safe be too dry?",
+    "Should a gun safe sit on concrete?",
+    "How often should I check guns in the safe?"
+  ],
+  "contentGaps": [
+    "Diagnosis order: measure first (hygrometer), then fix the source (location, slab, wall) before adding gadgets",
+    "Why rust appears despite a rod or silica: saturated desiccant, rod too small or unplugged, cold-wall condensation, fingerprints and salts on the metal",
+    "Gun socks and foam: when silicone-treated sleeves help and when damp fabric or foam holds moisture against steel",
+    "Too dry is a problem too: wood stocks below about 30% RH",
+    "A simple layered setup: target RH, one air control, one metal barrier, monthly check"
+  ],
+  "outline": [
+    {
+      "h2": "Gun safe rust prevention – the short answer",
+      "intent": "direct answer: hold 40-55% RH, protect the metal, check monthly",
+      "h3": []
+    },
+    {
+      "h2": "What humidity a gun safe should hold – and who says so",
+      "intent": "sourced numbers (NRA museum, EPA, CCI) and too-dry warning",
+      "h3": []
+    },
+    {
+      "h2": "Why guns rust in the safe even with a dehumidifier",
+      "intent": "pain points: rust despite dehumidifier, cold wall condensation, rod fails, desiccant saturates",
+      "h3": [
+        "Cold walls, slabs and garages",
+        "Saturated silica and undersized rods",
+        "Fingerprints, salts and corrosive ammo"
+      ]
+    },
+    {
+      "h2": "Step by step: set up a rust-resistant gun safe",
+      "intent": "how-to, layered: location, air control, metal barrier, monitoring",
+      "h3": [
+        "Move or insulate the safe",
+        "Pick one air control: rod or desiccant",
+        "Protect the metal: oil, grease, wax or VCI",
+        "Check with a hygrometer"
+      ]
+    },
+    {
+      "h2": "Do gun socks cause rust?",
+      "intent": "queue question",
+      "h3": []
+    },
+    {
+      "h2": "Gun safe rust FAQs",
+      "intent": "questions",
+      "h3": []
+    }
+  ],
+  "targetWords": 1300,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://uwk.com/blogs/blog/store-guns-prevent-rust",
+      "https://fieldandstream.com/stories/guns/keep-guns-rust-free",
+      "https://apistoragebags.com/blogs/news/preventing-rust-in-gun-safes"
+    ],
+    "productStyle": "paragraph",
+    "productStyleReason": "How-to intent: the top pages are numbered tip lists in paragraphs (UWK 6 steps, Field & Stream 8 ways, API step list); products are only mentioned inline.",
+    "avgWords": 1200,
+    "avgProducts": 0,
+    "commonSections": [
+      "what causes rust (humidity, water, salts, corrosive ammo)",
+      "control humidity (dehumidifier, silica)",
+      "oil/grease/VCI on the metal",
+      "safe location",
+      "FAQ"
+    ],
+    "usesComparisonTable": false,
+    "usesFaq": true,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.reddit.com/r/guns/comments/d1ebp7/guns_rusting_inside_the_safe/",
+      "title": "Guns rusting inside the safe - Reddit"
+    },
+    {
+      "position": 2,
+      "url": "https://uwk.com/blogs/blog/store-guns-prevent-rust",
+      "title": "The 6 Best Ways to Store Guns to Prevent Rust - Underwater Kinetics"
+    },
+    {
+      "position": 3,
+      "url": "https://www.zerustproducts.com/firearms-rust-protection-ammo-weapons-resources/firearm-storage/",
+      "title": "Zerust® Firearm Storage Bags and Capsules"
+    },
+    {
+      "position": 4,
+      "url": "https://fieldandstream.com/stories/guns/keep-guns-rust-free",
+      "title": "8 Ways to Keep Your Guns From Getting Rusty - FieldandStream.com"
+    },
+    {
+      "position": 5,
+      "url": "https://www.theruststore.com/blogs/articles/firearm-rust-protection-during-storage",
+      "title": "Firearm Rust Protection During Storage - The Rust Store"
+    },
+    {
+      "position": 6,
+      "url": "https://www.youtube.com/watch?v=f5GtVV1XcFk",
+      "title": "Rust Never Sleeps – Protect Your Safe contents Today - YouTube"
+    },
+    {
+      "position": 7,
+      "url": "https://apistoragebags.com/blogs/news/preventing-rust-in-gun-safes",
+      "title": "Fight Moisture Inside Your Gun Safe - Arms Preservation Inc"
+    },
+    {
+      "position": 8,
+      "url": "https://www.facebook.com/groups/417344597719052/posts/621938097259700/",
+      "title": "How can I prevent my gun from rusting inside the safe? - Facebook"
+    },
+    {
+      "position": 9,
+      "url": "https://www.youtube.com/watch?v=0NWy8vIbcsY",
+      "title": "Quick Tip: Rust Prevention - YouTube"
+    },
+    {
+      "position": 10,
+      "url": "https://www.birchwoodcasey.com/products/barricade-rust-protection-10-fl-oz-aerosol.html",
+      "title": "Barricade® Rust Protection, 10 fl. oz. Aerosol - Birchwood Casey"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 0,
+    "withNumber": 2,
+    "commonModifiers": [
+      "ways",
+      "prevent rust",
+      "store guns",
+      "inside your gun safe"
+    ],
+    "gap": "Most ranking pages are sellers of one fix (VCI, cases, oil); none diagnoses why rust happens despite a dehumidifier and in what order to fix it"
+  },
+  "commonPoints": [
+    "Humidity is the main cause; keep it controlled",
+    "Use a dehumidifier rod or silica gel in the safe",
+    "Clean and oil the guns; wipe off fingerprints",
+    "Avoid damp basements, garages and temperature swings",
+    "Corrosive surplus ammo leaves salts that rust guns"
+  ],
+  "ourGain": [
+    {
+      "point": "The sourced target: NRA museum 50-55% at 70 F, EPA below 60% (ideally 30-50%), CCI says corrosion speeds up a lot above 75%; below about 30% wood stocks can split",
+      "source": "https://www.nrafamily.org/content/top-6-expert-tips-to-prevent-gun-rust/, https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home, https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html, https://fieldandstream.com/stories/guns/keep-guns-rust-free"
+    },
+    {
+      "point": "Why owners still find rust with a rod or silica in place (saturated packs, cold exterior wall, slab moisture) and the fix for each",
+      "source": "pain points gun-safes-rust-despite-dehumidifier, gun-safes-cold-wall-condensation, home-safes-desiccant-saturates-fast"
+    },
+    {
+      "point": "Measured metal protection instead of vague 'oil it': Barricade is rated by its maker at 500 hours ASTM humidity / 96 hours salt spray",
+      "source": "https://www.birchwoodcasey.com/products/barricade-rust-protection-10-fl-oz-aerosol.html"
+    },
+    {
+      "point": "Gun socks and foam: the queue question nobody in the top 10 answers; Field & Stream notes case foam is 'a haven for moisture'",
+      "source": "https://fieldandstream.com/stories/guns/keep-guns-rust-free"
+    },
+    {
+      "point": "Fix order: measure, move/insulate, one air control, one metal barrier, monthly check, rather than stacking gadgets",
+      "source": "synthesis of pain points and https://apistoragebags.com/blogs/news/preventing-rust-in-gun-safes (air control alone is not enough)"
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "gun-safes-rust-despite-dehumidifier",
+      "pain": "Guns rust inside the safe even with silica packs and a dehumidifier",
+      "details": "Owners in humid regions or unconditioned rooms find rust specks on barrels and mags within weeks. Silica saturates fast, felt barrel rests and gun socks hold moisture, and people are unsure what humidity level to hold.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+      ],
+      "quotes": [
+        {
+          "text": "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        },
+        {
+          "text": "Ditch the gel and dri packs, they just hold moisture.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "it's just surface rust. Should just wipe off.",
+          "url": "https://www.reddit.com/r/Firearms/comments/1skz9u3/wth_happening_to_my_gun_safe_i_was_gone_for_3/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-cold-wall-condensation",
+      "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp or moldy",
+      "details": "Humidity inside the safe stays high even with a room dehumidifier because the steel is colder than the room air. Owners are told to warm the safe, add a dryer rod or bulb, insulate the back or lift the safe off the slab.",
+      "sources": [
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+      ],
+      "quotes": [
+        {
+          "text": "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        },
+        {
+          "text": "I do not want to set it directly on the concrete as the concrete sweats and will cause rust.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+        },
+        {
+          "text": "You can only get moisture condensing on the guns when the guns are colder than the air, not the other way around.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-dehumidifier-fails-or-freezes",
+      "pain": "In-safe and room dehumidifiers die, freeze up or turn out to be only heaters",
+      "details": "Owners spend about $200 on a safe dehumidifier that errors out within a year or two, or run a room unit whose coils freeze in cool garages. Many \"dehumidifiers\" for safes are really low-power heaters, which confuses buyers.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/",
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+      ],
+      "quotes": [
+        {
+          "text": "the dehumidifier I had been using crapped out earlier in the year.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        },
+        {
+          "text": "my more powerful de-humidifier would freeze up, even though it had a defrost feature.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+        },
+        {
+          "text": "the majority of the in-safe electronic dehumidifiers are just electric heaters with the aim being to prevent condensation.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-desiccant-saturates-fast",
+      "pain": "Silica packs saturate within weeks and the owner is unsure how to keep them working",
+      "details": "Owners recharge silica again and again, or read that desiccant in a leaky fire safe only pulls moisture from the walls. Rechargeable canisters and dryer rods are the usual answers.",
+      "sources": [
+        "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe",
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"
+      ],
+      "quotes": [
+        {
+          "text": "Dessicant is not going to help unless the area it is protecting is air-tight.",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "dessicants will need frequent recharging",
+          "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        },
+        {
+          "text": "But they turn from Orange to blue within a week or two everytime.",
+          "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"
+        }
+      ]
+    },
+    {
+      "id": "safe-accessories-what-humidity-to-hold",
+      "pain": "Owners do not know what humidity number to hold in the safe, and some dry it too far",
+      "details": "Threads ask what percent to keep; answers range from 30 to 55 percent. Owners with wood stocks worry about drying them out, and some in dry climates read 10 percent inside the safe.",
+      "sources": [
+        "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+        "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+        "https://www.reddit.com/r/Locksmith/comments/111nezj/accurate_affordable_hygrometer_for_gun_safe/"
+      ],
+      "quotes": [
+        {
+          "text": "Good info, what % do you keep at?",
+          "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+        },
+        {
+          "text": "Too dry and wood stocks and grips can dry out, and we all know what happens if it's too humid.",
+          "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+        },
+        {
+          "text": "a lot of people think you need it super dry in a safe, which isn't true at all",
+          "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "50 to 55 percent",
+      "claim": "NRA National Firearms Museum curators: 70 degrees and 50 to 55 percent RH",
+      "url": "https://www.nrafamily.org/content/top-6-expert-tips-to-prevent-gun-rust/",
+      "quote": "the ideal temperature for storing healthy, happy firearms is 70 degrees with 50 to 55 percent relative humidity."
+    },
+    {
+      "number": "below 60 percent",
+      "claim": "EPA advises keeping indoor relative humidity below 60 percent, ideally 30-50 percent",
+      "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "quote": "keep indoor humidity below 60 percent (ideally between 30 and 50 percent) relative humidity."
+    },
+    {
+      "number": "75% RH",
+      "claim": "Canadian Conservation Institute: above 75% RH metal corrosion speeds up a lot",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+      "quote": "In general for metals, the lower the RH the better, above 75% RH all corrosion speeds up a lot."
+    },
+    {
+      "number": "500 hours",
+      "claim": "Birchwood Casey Barricade rated by its maker in ASTM humidity and salt spray tests",
+      "url": "https://www.birchwoodcasey.com/products/barricade-rust-protection-10-fl-oz-aerosol.html",
+      "quote": "Withstands 500 hours in ASTM humidity test and 96 hours in ASTM salt spray test."
+    }
+  ],
+  "videos": [
+    {
+      "id": "f5GtVV1XcFk",
+      "title": "Rust Never Sleeps – Protect Your Safe contents Today",
+      "channel": "Dean Safe",
+      "url": "https://www.youtube.com/watch?v=f5GtVV1XcFk",
+      "section": "Step by step: set up a rust-resistant gun safe"
+    }
+  ]
+}

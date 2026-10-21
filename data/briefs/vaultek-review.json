@@ -1,0 +1,490 @@
+{
+  "centralEntity": "Vaultek safes",
+  "entityVariants": [
+    "vaultek review",
+    "vaultek safe review",
+    "vaultek gun safe",
+    "are vaultek safes good",
+    "vaultek safe worth it"
+  ],
+  "entities": [
+    {
+      "name": "Vaultek",
+      "type": "brand",
+      "relation": "maker of smart handgun, rifle and travel safes"
+    },
+    {
+      "name": "Vaultek DS2i Smart Station",
+      "type": "product",
+      "relation": "nightstand drawer safe with wireless charger and clock"
+    },
+    {
+      "name": "Vaultek RS800i",
+      "type": "product",
+      "relation": "WiFi biometric rifle safe, 14-gauge with 4 locking bolts"
+    },
+    {
+      "name": "Vaultek MXi / MX Series",
+      "type": "product",
+      "relation": "high-capacity handgun safe for up to 8 pistols"
+    },
+    {
+      "name": "Vaultek Slider (SE20)",
+      "type": "product",
+      "relation": "vertical quick-access pistol safe that presents the grip"
+    },
+    {
+      "name": "Vaultek LifePod",
+      "type": "product",
+      "relation": "weather-resistant polymer travel case"
+    },
+    {
+      "name": "Vaultek Barikade Series 2",
+      "type": "product",
+      "relation": "budget keypad pistol safe with cable"
+    },
+    {
+      "name": "Nano Key / ViSN app",
+      "type": "feature",
+      "relation": "Bluetooth key fob and WiFi alerts"
+    },
+    {
+      "name": "Smart Sense keypad",
+      "type": "feature",
+      "relation": "capacitive backlit keypad"
+    },
+    {
+      "name": "Trustpilot",
+      "type": "organization",
+      "relation": "customer service reviews of the brand (no star ratings quoted)"
+    }
+  ],
+  "attributes": [
+    "steel gauge per line (18 DS2i, 16 Slider, 14 RS)",
+    "entry methods and backup key",
+    "battery type and charging",
+    "app/WiFi alerts",
+    "capacity vs claimed gun count",
+    "anchoring",
+    "fire rating (none on most models)",
+    "warranty and support"
+  ],
+  "ngrams": [
+    "vaultek safe",
+    "biometric scanner",
+    "smart station",
+    "backup key",
+    "rifle safe",
+    "quick access",
+    "rechargeable battery",
+    "wifi alerts",
+    "14-gauge steel",
+    "auto-open door"
+  ],
+  "skipgrams": [
+    "vaultek…worth",
+    "fingerprint…reliable",
+    "battery…dies",
+    "rifle…capacity…optics",
+    "app…alerts"
+  ],
+  "nlpTerms": [
+    "Vaultek",
+    "biometric",
+    "fingerprint",
+    "keypad",
+    "Nano Key",
+    "Bluetooth",
+    "WiFi",
+    "app",
+    "alerts",
+    "auto-open",
+    "rechargeable",
+    "lithium-ion",
+    "backup key",
+    "18-gauge",
+    "16-gauge",
+    "14-gauge",
+    "locking bolts",
+    "anti-pry",
+    "mounting",
+    "TSA",
+    "LifePod",
+    "Slider",
+    "Smart Station",
+    "RS800i",
+    "MXi",
+    "warranty",
+    "customer service"
+  ],
+  "questions": [
+    "Are Vaultek safes worth the money?",
+    "Are Vaultek safes fireproof?",
+    "What happens if the Vaultek battery dies?",
+    "Which Vaultek safe should I buy?",
+    "Is the Vaultek fingerprint reader reliable?",
+    "Can Vaultek safes be pried open?",
+    "How good is Vaultek customer service?"
+  ],
+  "contentGaps": [
+    "One page that maps every Vaultek line to a job (nightstand, rifles, handgun collection, quick draw, travel, budget) with its steel gauge and backup entry",
+    "What Vaultek does not do: most models carry no fire rating; small safes keep kids out, not a determined adult with tools",
+    "Battery and electronics: how to avoid a lockout (charge schedule, backup key location)",
+    "Capacity reality for the RS rifle safes with shelves and optics"
+  ],
+  "outline": [
+    {
+      "h2": "Vaultek review – the short verdict",
+      "intent": "direct answer: who Vaultek suits and who it does not",
+      "h3": []
+    },
+    {
+      "h2": "How we reviewed Vaultek",
+      "intent": "method: maker specs, independent reviews, owner reports",
+      "h3": []
+    },
+    {
+      "h2": "Which Vaultek safe for which job",
+      "intent": "model reviews",
+      "h3": [
+        "Vaultek DS2i Smart Station",
+        "Vaultek RS800i",
+        "Vaultek MXi",
+        "Vaultek Slider",
+        "Vaultek LifePod 10"
+      ]
+    },
+    {
+      "h2": "Build and security: what the steel gauge really means",
+      "intent": "18/16/14 gauge, bolts, anti-pry; fire rating gap",
+      "h3": []
+    },
+    {
+      "h2": "Problems owners run into, and the fix",
+      "intent": "battery, fingerprint, lockout, support (pain points)",
+      "h3": []
+    },
+    {
+      "h2": "Vaultek FAQs",
+      "intent": "questions",
+      "h3": []
+    }
+  ],
+  "targetWords": 1300,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://gunnersreview.com/vaultek-gun-safes/",
+      "https://www.topfirearmreviews.com/post/vaultek-rs-series-review",
+      "https://www.pewpewtactical.com/vaultek-safe-review-mx-pro/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Pew Pew's MXi review closes with Pros and Cons lists and Gunners' Review gives a 'Best for' line per model; Top Firearm Reviews uses short labeled paragraphs. Pros/cons fits a multi-model brand review best.",
+    "avgWords": 1200,
+    "avgProducts": 3,
+    "commonSections": [
+      "model overview per line",
+      "setup/installation",
+      "entry methods (biometric, keypad, key, app)",
+      "capacity",
+      "drawbacks (price, interior height)",
+      "final thoughts / who it's for"
+    ],
+    "usesComparisonTable": false,
+    "usesFaq": false,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.reddit.com/r/SigSauer/comments/ozj3dc/does_anybody_have_a_vaultek_safe/",
+      "title": "Does anybody have a Vaultek safe? : r/SigSauer - Reddit"
+    },
+    {
+      "position": 2,
+      "url": "https://www.topfirearmreviews.com/post/vaultek-rs-series-review",
+      "title": "Vaultek RS Series Review [2026] - Top Firearm Reviews"
+    },
+    {
+      "position": 3,
+      "url": "https://www.pewpewtactical.com/vaultek-safe-review-mx-pro/",
+      "title": "[Safe Review] Vaultek MXi: Biggest & Baddest Handgun Safe?"
+    },
+    {
+      "position": 4,
+      "url": "https://www.trustpilot.com/review/vaulteksafe.com",
+      "title": "Vaultek Safe Reviews - Trustpilot"
+    },
+    {
+      "position": 5,
+      "url": "https://www.youtube.com/watch?v=L4Y-pi20PI4",
+      "title": "Vaultek LifePod 2.0 (Review) - Pistol Storage - YouTube"
+    },
+    {
+      "position": 6,
+      "url": "https://www.facebook.com/jasonredmanww/videos/vaultek-rs-series-reviewjust-put-my-new-security-safe-through-its-paces-and-this/32330650709883698/",
+      "title": "VAULTEK RS SERIES REVIEW Just put my new security safe through its ..."
+    },
+    {
+      "position": 7,
+      "url": "https://www.sigtalk.com/threads/gun-safe-what-are-your-thoughts-on-the-vaultek-for-3-handguns.441989/",
+      "title": "Gun Safe? What are your thoughts on the vaultek for 3 handguns - SIG Talk"
+    },
+    {
+      "position": 8,
+      "url": "https://vaulteksafe.com/products/vaultek-rugged-smart-safes",
+      "title": "Vaultek 30/20/10 Series Rugged Smart Safes"
+    },
+    {
+      "position": 9,
+      "url": "https://gunnersreview.com/vaultek-gun-safes/",
+      "title": "Vaultek Gun Safe Reviews: 6 Tested Models Compared"
+    },
+    {
+      "position": 10,
+      "url": "https://www.youtube.com/playlist?list=PLLPubkVQ2mRCXVo6O4bowLBf65w21isgy",
+      "title": "Vaultek Safe Reviews - YouTube"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 2,
+    "withYear": 1,
+    "withNumber": 1,
+    "commonModifiers": [
+      "review",
+      "tested",
+      "models compared",
+      "worth it"
+    ],
+    "gap": "Single-model reviews dominate; no page maps the whole Vaultek line to jobs while stating plainly what it does not do (fire, determined attack)"
+  },
+  "commonPoints": [
+    "Vaultek safes are tech-forward: biometric, keypad, Bluetooth/WiFi, backup key",
+    "Quick access is the main selling point",
+    "Pricier than generic Amazon safes",
+    "Mount or cable the safe so it cannot be carried off",
+    "Interior height/capacity limits with optics or shelves"
+  ],
+  "ourGain": [
+    {
+      "point": "Gauge by line from the maker: RS Series is formed 14-gauge steel with four locking bolts and weighs up to 124 lbs; small pistol safes are thinner. Owners on SIG Talk sum up the small ones as keeping 'little hands' out, not determined adults",
+      "source": "https://vaulteksafe.com/pages/vaultek-rs-series-select-model, https://www.sigtalk.com/threads/gun-safe-what-are-your-thoughts-on-the-vaultek-for-3-handguns.441989/"
+    },
+    {
+      "point": "Fire: the same SIG Talk thread notes 'Not the best fire rating either'; we state which Vaultek lines make no fire claim so buyers pair them with a fire-rated safe for papers",
+      "source": "https://www.sigtalk.com/threads/gun-safe-what-are-your-thoughts-on-the-vaultek-for-3-handguns.441989/"
+    },
+    {
+      "point": "Capacity reality: with the RS shelf installed a full-length bolt rifle may not fit (Top Firearm Reviews); DS2i interior height is tight for pistols with optics or lights (Gunners' Review)",
+      "source": "https://www.topfirearmreviews.com/post/vaultek-rs-series-review, https://gunnersreview.com/vaultek-gun-safes/"
+    },
+    {
+      "point": "Lockout prevention for electronic safes: charge schedule, backup key stored away from the safe, enroll several fingerprints",
+      "source": "pain points gun-safes-electronic-lock-fails-no-backup, handgun-safes-nightstand-fingerprint-battery-fails, safe-guides-battery-dies-locks-owner-out"
+    }
+  ],
+  "serpProducts": [
+    {
+      "name": "Vaultek DS2i Smart Station",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/",
+        "https://www.topfirearmreviews.com/post/best-handgun-safes",
+        "https://www.pewpewtactical.com/secret-gun-safes-home/"
+      ],
+      "asinCandidate": "B0BMB66WLS"
+    },
+    {
+      "name": "Vaultek RS800i",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/",
+        "https://www.topfirearmreviews.com/post/vaultek-rs-series-review"
+      ],
+      "asinCandidate": "B09MSR4T7T (found via amazon.com/-/es/ listing; /clp/B0BGMMDF19 and /clp/B0DV5PM6M9 also RS listings, writer to confirm)"
+    },
+    {
+      "name": "Vaultek MXi",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/",
+        "https://www.pewpewtactical.com/vaultek-safe-review-mx-pro/"
+      ],
+      "asinCandidate": "B077XK62F1 (/clp/ page; newer MX WiFi is B0DV5QMMDV)"
+    },
+    {
+      "name": "Vaultek Slider (SE20 / Slider Series)",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/",
+        "https://www.topfirearmreviews.com/post/best-handgun-safes"
+      ],
+      "asinCandidate": "B0DPLJ4SRG (biometric Slider Series; non-biometric Essential B0DWG2MC2K; the older SE20 listing not found)"
+    },
+    {
+      "name": "Vaultek LifePod 10",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/",
+        "https://upgradedpoints.com/travel/best-portable-safes/"
+      ],
+      "asinCandidate": "B07XTLXNJY"
+    },
+    {
+      "name": "Vaultek Barikade Series 2 (one page only)",
+      "pages": [
+        "https://gunnersreview.com/vaultek-gun-safes/"
+      ],
+      "asinCandidate": null
+    }
+  ],
+  "painPoints": [
+    {
+      "id": "gun-safes-electronic-lock-fails-no-backup",
+      "pain": "Electronic keypad fails and the safe has no backup key",
+      "details": "Owners report keypads dying within a week to a year, safes sold without an override key, and a locked-out collection while the maker is closed. Many switch to dial locks or fit a keyed or dual-mode lock. Recovery is through the maker, not tricks.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+        "https://www.thehighroad.org/index.php?threads/cannon-firearm-safe-disappointment.819739/",
+        "https://www.reddit.com/r/CAguns/comments/1gibfn5/winchester_safe_died_on_me_cant_open_with_key/"
+      ],
+      "quotes": [
+        {
+          "text": "Electronic locks fail. Mechanical locks keep working.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        },
+        {
+          "text": "Winchester is closed for the rest of the week. This safe has no back up key.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        },
+        {
+          "text": "Winchester Safe died on me, can't open with key",
+          "url": "https://www.reddit.com/r/CAguns/comments/1gibfn5/winchester_safe_died_on_me_cant_open_with_key/"
+        }
+      ]
+    },
+    {
+      "id": "handgun-safes-nightstand-fingerprint-battery-fails",
+      "pain": "Cheap bedside safe: the battery runs out or the fingerprint reader fails, so it will not open when needed",
+      "details": "Owners who bought a budget Amazon nightstand safe report tossing it after dead batteries and unreliable fingerprint reads. Reviewers say readers get fussy with dust, dry or dirty fingers and odd angles; the fix is a backup key or keypad, several scans per finger, and a spare battery.",
+      "sources": [
+        "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/",
+        "https://www.topfirearmreviews.com/post/best-handgun-safes"
+      ],
+      "quotes": [
+        {
+          "text": "Ive had a single night stand safe from Amazon and had issue where the battery runs out or the finger print doesn't work etc. tossed it after",
+          "url": "https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/"
+        },
+        {
+          "text": "My old safe was really finicky with the fingerprint log in, and I found that if you had a little dust on your fingers, or if you didn't align it perfectly, it wouldn't open for you.",
+          "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
+        }
+      ]
+    },
+    {
+      "id": "safe-guides-battery-dies-locks-owner-out",
+      "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+      "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+        "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+        "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+        "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+        "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+        "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+      ],
+      "quotes": [
+        {
+          "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+          "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+        },
+        {
+          "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+          "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        },
+        {
+          "text": "Safe batteries dead and key not unlocking.",
+          "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/"
+        },
+        {
+          "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+          "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-brand-warranty-and-support-poor",
+      "pain": "Brand warranty and customer support are hard to get when the safe has a problem",
+      "details": "Owners of a popular brand report keypad parts breaking and little help from support; others point lockout problems to dealers or warranty service.",
+      "sources": [
+        "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+        "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/",
+        "https://www.reddit.com/r/Locksmith/comments/1egz5b5/liberty_gun_safe_help/"
+      ],
+      "quotes": [
+        {
+          "text": "there is no customer support and your warranty is about as real as pixie dust.",
+          "url": "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+          "via": "search-excerpt"
+        },
+        {
+          "text": "the wiring pins on the keypad snapped like toothpicks.",
+          "url": "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/",
+          "via": "search-excerpt"
+        }
+      ]
+    },
+    {
+      "id": "vehicle-safes-wont-open-battery-heat-age",
+      "pain": "Vehicle safe will not open when needed: dead battery, or keypad and RFID stop working after heat and age",
+      "details": "Owners who leave the safe in a hot or cold car report keypads and locks failing, even after fresh batteries, and some find warranty help thin. Others say USB power as a backup saved them.",
+      "sources": [
+        "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/",
+        "https://www.reddit.com/r/CCW/comments/m1bjh8/gun_vault_failure_details_in_comments/",
+        "https://www.reddit.com/r/CCW/comments/1cgr613/carrying_as_much_as_possible_means_having_to/"
+      ],
+      "quotes": [
+        {
+          "text": "Went to go open it one day recently and the lock won't open. RFID doesn't work, code doesn't work.",
+          "url": "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/",
+          "via": "search-excerpt"
+        },
+        {
+          "text": "If the battery goes dead you can plug it into USB to use the keypad.",
+          "url": "https://www.reddit.com/r/CCW/comments/1cgr613/carrying_as_much_as_possible_means_having_to/",
+          "via": "search-excerpt"
+        },
+        {
+          "text": "They are meant for the use case OP had (short term locking away of a gun in a hidden spot)",
+          "url": "https://www.reddit.com/r/CCW/comments/m1bjh8/gun_vault_failure_details_in_comments/",
+          "via": "search-excerpt"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "14-Gauge",
+      "claim": "RS Series steel and four locking bolts (Vaultek)",
+      "url": "https://vaulteksafe.com/pages/vaultek-rs-series-select-model",
+      "quote": "Progressive Formed 14-Gauge Steel with (4) solid steel locking bolts, anti-pry bars, + ruggedized interior hinges."
+    },
+    {
+      "number": "124 LBS",
+      "claim": "weight of the largest RS Series rifle safe listed (interior 53.25 in tall)",
+      "url": "https://vaulteksafe.com/pages/vaultek-rs-series-select-model",
+      "quote": "Interior: 53.25″ H x 13.75″ W x 12.6″ L Weight: 124 LBS"
+    },
+    {
+      "number": "45 LBS",
+      "claim": "weight of the smallest RS Series model listed",
+      "url": "https://vaulteksafe.com/pages/vaultek-rs-series-select-model",
+      "quote": "Interior: 48″ H x 5.125″ W x 13.75″ L Weight: 45 LBS"
+    }
+  ],
+  "videos": [
+    {
+      "id": "hJcBDDkTNHY",
+      "title": "Vaultek Safe Buyer's Guide 2026",
+      "channel": "Vaultek Safe",
+      "url": "https://www.youtube.com/watch?v=hJcBDDkTNHY",
+      "section": "Which Vaultek safe for which job"
+    }
+  ]
+}
