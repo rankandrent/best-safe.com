@@ -433,6 +433,8 @@ heroImage: /images/featured/best-fire-rated-gun-safe.png
 heroAlt: >-
   Best Fire Rated Gun Safe – 4 Picks and Who Certified Each Rating – Best Safe
   buying guide
+related:
+  - wall-mounted-gun-safe
 ---
 
 A first-time buyer on [r/liberalgunowners](https://www.reddit.com/r/liberalgunowners/comments/1771244/about_to_buy_my_first_gun_safe_is_buying_a/) asked whether a fireproof gun safe is worth it, and the replies said most gun safes on the market aren't actually fireproof. They are right, and the label hides who made the claim. **The best fire rated gun safe we found on Amazon is the Steelwater Heavy Duty 20 Long Gun: 60 minutes at 1875°F, 12-gauge steel and ten 1.5 in bolts.** Like every rating in this guide, that number is the maker's own. None of our four picks names UL 72 or Intertek/ETL as its fire lab.

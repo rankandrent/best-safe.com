@@ -2288,7 +2288,7 @@
     }
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T06:44:22.831Z",
     "secondaryKeywords": [
@@ -2318,7 +2318,8 @@
       "source": "ahrefs site-explorer-organic-keywords us",
       "date": "2026-10-19"
     },
-    "slug": "wall-mounted-gun-safe"
+    "slug": "wall-mounted-gun-safe",
+    "publishedAt": "2026-10-21T10:58:02.013Z"
   },
   {
     "status": "published",
@@ -3005,5 +3006,80 @@
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Wirecutter #5, GoodRx #3, Locks Save Lives nonprofit #2, r/Safes #4, Facebook group #9; 4 retailers (Amazon x2, Walmart, DisposeRx) and a niche seller. Safe-storage angle only; no medical or legal advice. Overlaps 'best key lock box' only slightly (cannibal check ok).",
     "slug": "best-safe-for-medications"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T10:57:40.073Z",
+    "secondaryKeywords": [
+      "best safe for gold and silver",
+      "coin safe for collectors",
+      "safe for bullion at home"
+    ],
+    "questions": [
+      "What rating should a safe for a coin collection have?",
+      "How do I keep coins from toning or corroding inside a safe?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for coin collection",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for a Coin Collection",
+    "cluster": "valuables",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: r/coins thread #1, Collectors Universe forum #4, Facebook group #6, ANA (money.org) and COINage guides; only 2 store pages (Amazon, NationwideSafes) plus dealer blogs. No big-publisher roundup.",
+    "slug": "best-safe-for-coin-collection"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T10:57:40.073Z",
+    "secondaryKeywords": [
+      "best safe for college student",
+      "dorm safe",
+      "dorm room safe for laptop"
+    ],
+    "questions": [
+      "Are safes allowed in college dorms?",
+      "How do you secure a safe in a dorm without drilling?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for dorm room",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for a Dorm Room",
+    "cluster": "portable and small safes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: small blog (thedormguide.com) #1, Facebook, Reddit, Quora and TikTok results; 4 store/maker pages (Amazon, Mammoth, Safe and Vault Store, Stealth). UGC-heavy. Distinct from pending 'best travel safe'.",
+    "slug": "best-safe-for-dorm-room"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T10:57:40.073Z",
+    "secondaryKeywords": [
+      "closet gun safe",
+      "gun safe that fits in a closet",
+      "small closet rifle safe"
+    ],
+    "questions": [
+      "What size gun safe fits in a closet?",
+      "Can a closet floor hold a gun safe?"
+    ],
+    "priority": 600,
+    "keyword": "best gun safe for closet",
+    "category": "gun-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Gun Safe for a Closet",
+    "cluster": "placement",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: topfirearmreviews (small affiliate) #1, Reddit #5, americanfirearms, pewpewtactical, nwsafe blog; 4 store/maker collection pages, not dominated. Keep distinct from pending how-to 'where to put a gun safe'.",
+    "slug": "best-gun-safe-for-closet"
   }
 ]

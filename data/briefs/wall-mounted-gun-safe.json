@@ -1,0 +1,134 @@
+{
+  "centralEntity": "wall mounted gun safe",
+  "entityVariants": ["wall mount gun safe", "in-wall gun safe", "wall gun safe", "between the studs gun safe", "hidden wall safe for guns", "stud mounted safe"],
+  "entities": [
+    {"name": "SnapSafe", "type": "brand", "relation": "Hornady-owned maker of the In-Wall Safe (75413) and In-Wall Safe Tall (75414)"},
+    {"name": "Barska", "type": "brand", "relation": "maker of the Biometric Wall Safe AX12038 (right opening) and AX13034 (left opening)"},
+    {"name": "Protex", "type": "brand", "relation": "maker of the PWS-1814E electronic wall safe with motorized bolts"},
+    {"name": "wall stud", "type": "building element", "relation": "in-wall safes sit between two studs and are lag-screwed to them; spacing sets the width"},
+    {"name": "16 in on center", "type": "framing standard", "relation": "standard stud spacing that leaves about 14.5 in between studs; every pick is sized for it"},
+    {"name": "2x4 wall", "type": "framing", "relation": "a 3.5 in deep cavity, which caps in-wall safes at about 4 in deep"},
+    {"name": "drywall", "type": "building element", "relation": "cut out to recess the safe; the flange or door frame covers the cut edge"},
+    {"name": "lag screw", "type": "hardware", "relation": "fastens the safe body through its side walls into the studs (5 or 8 on SnapSafe, 6 holes on Protex)"},
+    {"name": "keypad", "type": "lock type", "relation": "4-6 digit electronic code on SnapSafe and Protex"},
+    {"name": "fingerprint scanner", "type": "lock type", "relation": "Barska's optical reader with a 120-print memory"},
+    {"name": "override key", "type": "backup entry", "relation": "the way in when batteries or the reader fail; keep it outside the safe"},
+    {"name": "steel gauge", "type": "attribute", "relation": "lower number = thicker; SnapSafe pairs an 8-gauge door with a 16-gauge body"},
+    {"name": "AR-15 carbine", "type": "firearm", "relation": "the long gun a 44 in tall in-wall safe is sized to hold standing up"},
+    {"name": "UL 72", "type": "standard", "relation": "independent fire test; none of these thin wall safes carries one"},
+    {"name": "California DOJ", "type": "listing", "relation": "roster of approved firearm safety devices; Barska says the AX12038 is DOJ approved"}
+  ],
+  "attributes": ["stud spacing fit (14.5 in between studs)", "cavity depth (about 4 in)", "interior depth vs gun with optic or light", "door steel gauge vs body steel gauge", "locking bolts", "lock type and backup entry", "keypad tones and low-battery warning", "external power override", "left or right door swing", "lag screw count", "weight hanging on the studs", "fire rating (none)", "California DOJ listing", "warranty"],
+  "ngrams": ["wall mounted gun safe", "in wall gun safe", "between the studs", "16 inch on center", "wall safe for guns", "hidden gun safe", "behind a picture", "backup key", "steel door", "interior wall"],
+  "skipgrams": ["wall…studs", "safe…drywall", "door…gauge", "keypad…backup", "fingerprint…key", "rifle…standing", "picture…hide", "lag…screws"],
+  "nlpTerms": ["recessed", "flush", "concealment", "stud finder", "drywall saw", "pry", "deadbolt", "override", "AA batteries", "shelves", "carbine", "handgun", "magazine", "condensation", "interior wall", "renters", "child access"],
+  "questions": [
+    "Are wall mounted gun safes secure?",
+    "How deep is an in-wall gun safe?",
+    "Can a rifle fit in an in-wall safe?",
+    "Can you put a wall safe in an exterior wall?",
+    "Are wall safes fireproof?",
+    "Can renters install a wall safe?",
+    "What if my studs are 24 inches apart?"
+  ],
+  "contentGaps": [
+    "The cavity depth (about 4 in) and 14.5 in stud gap decide what fits; nobody checks a rifle with an optic or a pistol with a light against the inside depth",
+    "Door steel vs body steel: SnapSafe's 8-gauge door sits in a 16-gauge box, and the studs and lag screws are the real anchor",
+    "Backup entry compared: barrel key on all four, plus Protex's external power override and SnapSafe's audio and LED low-battery warning",
+    "Keypad tones can be switched off on SnapSafe (hold 1 for three seconds), which matters for a night-time grab",
+    "Owner install fixes: door hinge washers, stud spacing that is off by an inch, gaps between safe and stud",
+    "None carries a fire rating; fire-rated wall safes run 12-15 in deep with a UL-listed rating and need a deeper wall"
+  ],
+  "outline": [
+    {"h2": "Our wall mounted gun safe picks", "intent": "direct answer and four picks with owner notes", "h3": ["SnapSafe In-Wall Safe Tall 75414: Best for a carbine or shotgun", "SnapSafe In-Wall Safe 75413: Best for handguns and papers", "Barska Biometric Wall Safe AX12038: Best fingerprint entry", "Protex PWS-1814E Wall Safe: Best backup power option"]},
+    {"h2": "Wall mounted gun safe comparison", "intent": "table: outside size, depth, steel, lock, backup, weight, what fits", "h3": []},
+    {"h2": "Will your gun fit a wall mounted gun safe?", "intent": "stud spacing, depth, optics and lights, install steps (pain points: depth, stud spacing)", "h3": []},
+    {"h2": "Can a burglar pry it out of the wall?", "intent": "rip-out and pry worries; what holds it; hiding it (pain point: ripped out)", "h3": []},
+    {"h2": "Fast access in the dark, and keeping kids out", "intent": "one-handed access, tones, fingerprints, mechanical vs electronic, backup keys (pain points: kids/fast access, electronic trust)", "h3": []},
+    {"h2": "Where a wall mounted gun safe should go", "intent": "interior walls, condensation, renters (pain points: condensation, renters)", "h3": []},
+    {"h2": "What a wall safe won't do", "intent": "no fire rating; legal storage pointer", "h3": []},
+    {"h2": "Our verdict", "intent": "close the opening scene, next links", "h3": []}
+  ],
+  "targetWords": 2000,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.usa-gun-shop.com/best-wall-mounted-gun-safe/",
+      "https://rainierballistics.com/gun-safes/best-in-wall-gun-safes/",
+      "https://www.topfirearmreviews.com/post/drop-down-gun-safes",
+      "https://timbervaults.com/blog/wall-mount-gun-safe-discreet-storage-for-modern-homes/",
+      "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "USA Gun Shop gives every pick Pros and Cons lists and Rainier Ballistics gives Highlighted Features lists; Top Firearm Reviews uses paragraph blocks, the TimberVaults guide has no picks.",
+    "avgWords": 2000,
+    "avgWordsNote": "Approximate main-content counts from the Firecrawl scrapes (2026-10-21), excluding price cards and related-post widgets: USA Gun Shop about 3,300, Rainier Ballistics about 2,300, Top Firearm Reviews about 2,000, TimberVaults about 700. The keyword SERP itself is mostly store and maker collection pages (Vara Safety, Langger, Safe and Vault Store, SecureIt), plus an r/CAguns thread.",
+    "avgProducts": 6,
+    "commonSections": ["why a wall safe", "picks with pros and cons or features", "buying guide: lock type, depth and size, materials", "installation and hiding tips", "FAQ"],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {"position": 1, "url": "https://varasafety.com/", "title": "Vara Safety | Quick-access gun safes. Locked, and ready in 0.2 seconds"},
+    {"position": 2, "url": "https://langgersafe.com/collections/wall-gun-safe", "title": "Top Wall Gun Safes for Secure & Discreet Storage - Langger Safe"},
+    {"position": 3, "url": "https://www.safeandvaultstore.com/collections/wall-safes", "title": "Wall Safe | Stud Mounted Safes - Safe and Vault Store.com"},
+    {"position": 4, "url": "https://www.reddit.com/r/CAguns/comments/1nsk1ad/wall_mounted_gun_safe/", "title": "Wall mounted gun safe : r/CAguns - Reddit"},
+    {"position": 5, "url": "https://timbervaults.com/blog/wall-mount-gun-safe-discreet-storage-for-modern-homes/", "title": "Wall Mount Gun Safe: Secure & Discreet Storage for Modern Homes"},
+    {"position": 6, "url": "https://www.topfirearmreviews.com/post/drop-down-gun-safes", "title": "Drop Down Gun Safes [2026 Update] - Top Firearm Reviews"},
+    {"position": 7, "url": "https://www.holdupdisplays.com/gun-wall", "title": "Gun Wall Panels | Wall Gun Rack System - Hold Up Displays"},
+    {"position": 8, "url": "https://www.facebook.com/safeandvaultstore/videos/can-in-wall-gun-safes-be-easily-concealed-the-answer-is-yeswall-safes-are-design/926122280204484/", "title": "Can in-wall gun safes be easily concealed? The answer ... - Facebook"},
+    {"position": 9, "url": "https://libertyhomeconcealment.com/collections/concealment-wall-art", "title": "Concealment Wall Art | American-Made Hidden Gun Safes"},
+    {"position": 10, "url": "https://www.secureitgunstorage.com/collections/gun-rooms-gun-walls", "title": "Gun Rooms & Gun Walls | Modular Gun Wall Kits - SecureIt Gun Storage"}
+  ],
+  "titlePattern": {
+    "keywordAtStart": 1,
+    "withYear": 1,
+    "withNumber": 0,
+    "commonModifiers": ["discreet", "secure", "hidden", "quick-access", "stud mounted"],
+    "gap": "No title tells the reader whether the safe fits a standard stud wall and the gun they own; our H1 promises picks sized for a 16 in on-center stud bay. seoTitle stays exactly the keyword (owner rule)."
+  },
+  "seoTitle": "Wall Mounted Gun Safe",
+  "h1Rule": "Starts with the exact keyword, at most one differentiator, no colon, 70 characters or fewer",
+  "serpProducts": [
+    {"name": "SnapSafe In-Wall Safe Tall 75414", "pages": ["https://www.usa-gun-shop.com/best-wall-mounted-gun-safe/", "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market"]},
+    {"name": "SnapSafe In-Wall Safe 75413", "pages": ["https://www.usa-gun-shop.com/best-wall-mounted-gun-safe/", "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market", "https://rainierballistics.com/gun-safes/best-in-wall-gun-safes/"]},
+    {"name": "Barska Biometric Wall Safe", "pages": ["https://www.usa-gun-shop.com/best-wall-mounted-gun-safe/", "https://rainierballistics.com/gun-safes/best-in-wall-gun-safes/"]},
+    {"name": "Protex PWS-1814E", "pages": ["https://rainierballistics.com/gun-safes/best-in-wall-gun-safes/", "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market"]},
+    {"name": "RPNB RP311F mounted drop-down safe (dropped: a public video shows it opened without the code)", "pages": ["https://fieldandstream.com/outdoor-gear/guns-gear/handguns-gear/best-handgun-safes", "https://www.topfirearmreviews.com/post/drop-down-gun-safes"]},
+    {"name": "Hornady RAPiD Safe AR Gunlocker (one page only)", "pages": ["https://www.usa-gun-shop.com/best-wall-mounted-gun-safe/"]},
+    {"name": "V-Line Closet Vault (one page each for two different models)", "pages": ["https://rainierballistics.com/gun-safes/best-in-wall-gun-safes/"]}
+  ],
+  "commonPoints": [
+    "A wall safe hides a gun between the studs, behind a picture or mirror, and saves floor space",
+    "In-wall safes are shallow (about 4 in), so they suit handguns; a tall model takes a carbine standing up",
+    "Pick a lock you can work fast (keypad or fingerprint) with a backup key",
+    "Find the studs and screw the safe into them; use an interior wall",
+    "Wall safes are not fire rated and only slow a determined thief"
+  ],
+  "ourGain": [
+    {"point": "The fit test nobody spells out: 14.5 in between studs, a 20 or 42 in cut, about 4 in of depth, and checking a pistol with a light or a carbine with an optic against it; what to do when studs sit off 16 in on center", "source": "SnapSafe In-Wall Safes instructions PDF; OpticsPlanet owner review (Chris, studs off by an inch); Garage Journal Protex owner ('not very deep'); pain point gun-safes-wall-safe-depth-what-fits"},
+    {"point": "Door vs body steel and what holds the safe: SnapSafe 8-gauge door on a 16-gauge body with 5 or 8 lag screws, Barska 4 mm door and 2 mm body, Protex two 3/4 in live bolts; why hiding it matters more than the door", "source": "snapsafe.com in-wall page; Barska AX12038 spec table; protexsafe.com PWS-1814E; Garage Journal thread (safe pulled out of the wall)"},
+    {"point": "Backup entry side by side: SnapSafe low-battery tone and LED plus barrel key, Protex external power override plus keys, Barska keys; SnapSafe keypad tones can be switched off for a quiet night-time grab", "source": "SnapSafe instructions PDF; protexsafe.com; Garage Journal Protex owner; Barska spec table"},
+    {"point": "Owner install fixes on the SnapSafe Tall: several owners added washers to the door pivot, one found chipped paint, Pro Tool Reviews pushed the safe against one stud to close a side gap", "source": "OpticsPlanet SnapSafe In Wall Tall owner reviews; Pro Tool Reviews install article"},
+    {"point": "Fire: none of these is rated; fire-rated wall safes run 12-15 in deep with a UL-listed 1-hour rating, so they need a deeper wall", "source": "Safe and Vault Store best-selling wall safes page"}
+  ],
+  "painPoints": [
+    {"id": "gun-safes-wall-safe-depth-what-fits", "pain": "The wall cavity is only about 4 in deep and 14.5 in wide, so guns with optics or lights may not fit, and studs off 16 in on center block the install", "details": "Owners find in-wall safes shallow, have to move a stud, or ask what fits between studs.", "sources": ["https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/", "https://www.opticsplanet.com/hornady-snapsafe-in-wall-tall-safe.html"], "quotes": [{"text": "I can fit about 4 medium framed pistols in there but it's not very deep.", "url": "https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"}]},
+    {"id": "gun-safes-wall-safe-ripped-out-or-pried", "pain": "A thin wall safe can be pried open or pulled out of the wall and carried off", "details": "Forum owners call cheap wall safes thin sheet steel and report a safe pulled out of the wall in a burglary.", "sources": ["https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"], "quotes": [{"text": "My Dad's house was burglarized and they just pulled the safe right out of the wall and took it with them.", "url": "https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"}, {"text": "Thin, weak door on that one. Easily pried open.", "url": "https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"}]},
+    {"id": "gun-safes-wall-safe-kids-fast-access", "pain": "Parents want a home-defense gun on the wall that opens fast, one-handed, but stays out of children's reach", "details": "Owners ask for quick one-handed access and a lock their kids cannot get past.", "sources": ["https://www.reddit.com/r/CAguns/comments/1nsk1ad/wall_mounted_gun_safe/", "https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/"], "quotes": [{"text": "recommendations for wall-mounted safes that allow quicker, one-handed access", "url": "https://www.reddit.com/r/CAguns/comments/1nsk1ad/wall_mounted_gun_safe/"}]},
+    {"id": "gun-safes-wall-safe-electronic-lock-trust", "pain": "Owners do not trust an electronic keypad or fingerprint reader to open a wall safe when it matters", "details": "Some prefer mechanical push-button locks; others want an external battery plug and a key.", "sources": ["https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/", "https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"], "quotes": [{"text": "It had the simplex lock which was super quick and always worked.", "url": "https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/"}, {"text": "It has an external battery back plug in and a key for backup entry options should the internal batteries die.", "url": "https://www.garagejournal.com/forum/threads/small-in-wall-safe-who-has-one-recommendations.317708/"}]},
+    {"id": "gun-safes-cold-wall-condensation", "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp or moldy", "details": "Steel against a cold outside wall collects condensation; installers advise an interior wall.", "sources": ["https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/", "https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/"], "quotes": [{"text": "I suggest doing the installation on an interior wall to help mitigate condensation issues.", "url": "https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/"}]},
+    {"id": "gun-safes-rental-cannot-bolt-down", "pain": "Renters are told to bolt a safe down but cannot drill the floor or wall of an apartment", "details": "Cutting drywall for an in-wall safe is a bigger change than a few bolt holes, so renters need the landlord's written OK or a different safe.", "sources": ["https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/"], "quotes": [{"text": "I can't make any modifications to my apartment like bolting a safe to the floor.", "url": "https://www.reddit.com/r/MDGuns/comments/107kyht/how_are_you_safely_and_legally_storing_your_gun/"}]}
+  ],
+  "stats": [
+    {"number": "14.5 in", "claim": "SnapSafe's install steps say to confirm 14.5 in between the two studs", "url": "https://static.hornady.media/presscenter/docs/1410998004-Snap-Safe-In-Wall-Safes-Instructions1679325642.pdf", "quote": "Use a pencil to mark the inside edge of each stud and confirm there is 14.5\" between each stud."},
+    {"number": "8 gauge", "claim": "SnapSafe in-wall safes use a 16-gauge body and an 8-gauge door", "url": "https://www.snapsafe.com/specialty-safes/in-wall-safes/", "quote": "16 gauge steel body construction and 8 gauge steel door."},
+    {"number": "12 to 15 in", "claim": "fire-rated wall safes run 12-15 in deep and add a UL-listed 1-hour rating", "url": "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market", "quote": "fireproof wall safes tend to run 12\" to 15\" deep and add a UL-listed 1-hour fire rating."},
+    {"number": "0.44 cubic feet", "claim": "Protex PWS-1814E storage space", "url": "https://www.protexsafe.com/wall-safes/pws-1814e-black.html", "quote": "Approximately .44 cubic feet of storage space"}
+  ],
+  "videos": [
+    {"id": "9jGE5gppBiA", "title": "The Easiest Way To Install Your Wall Safe!", "channel": "Pro Tool Reviews", "url": "https://www.youtube.com/watch?v=9jGE5gppBiA", "section": "Will your gun fit a wall mounted gun safe?"}
+  ],
+  "linkPlan": ["/blog/how-to-bolt-down-a-safe/", "/blog/best-gun-safe-for-apartment/", "/blog/best-handgun-safe-for-nightstand/", "/blog/best-fire-rated-gun-safe/", "/blog/best-dehumidifier-for-gun-safe/", "/safe-buying-checklist/"],
+  "notes": "Keyword SERP is mostly store and maker collection pages; the guide angle comes from the r/CAguns thread, the TimberVaults guide and the roundups that rank for 'best wall mounted gun safe'. RPNB RP311F was recommended by two pages but dropped: a Handgun Safe channel video titled 'RPNB RP311F: Opened With a Toothpick (and more)'. Equivalent autocomplete variants (2b, web search, no Ahrefs): wall mount gun safe, in wall gun safe, hidden wall gun safe, wall gun safe for rifles."
+}
