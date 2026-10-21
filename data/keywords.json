@@ -3085,5 +3085,330 @@
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: topfirearmreviews (small affiliate) #1, Reddit #5, americanfirearms, pewpewtactical, nwsafe blog; 4 store/maker collection pages, not dominated. Keep distinct from pending how-to 'where to put a gun safe'.",
     "slug": "best-gun-safe-for-closet"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.552Z",
+    "secondaryKeywords": [
+      "gun safe light kit",
+      "led gun safe lights",
+      "motion sensor gun safe light"
+    ],
+    "questions": [
+      "Should gun safe lights be battery or plug-in?",
+      "How do you run a light cord into a gun safe?"
+    ],
+    "priority": 600,
+    "keyword": "best gun safe lighting",
+    "category": "safe-accessories",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Gun Safe Lighting Kits",
+    "cluster": "safe interior",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: r/ar15 #2, Colt Forum #7, Northwest Firearms forum #10, 2 YouTube installs; 5 store/product pages (Dean Safe, SecureIt, Amazon store, storemoreguns, Torchstar) but no editorial roundup on page 1. Borderline (half stores) — the forum threads show readers want a comparison.",
+    "slug": "best-gun-safe-lighting"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "gun safe door organizer",
+      "gun safe organization ideas",
+      "rifle rods for gun safe"
+    ],
+    "questions": [
+      "How do I fit more guns in my safe?",
+      "Should I store ammo and magazines in the gun safe?"
+    ],
+    "priority": 10,
+    "keyword": "how to organize a gun safe",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "How to Organize a Gun Safe (and Fit More In)",
+    "cluster": "safe interior",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: 3 YouTube videos (#1), r/ar15 thread #2, Bass Pro and dealer blogs (nwsafe, Liberty dealer); 3 store/accessory pages. Matches pain point gun-safes-capacity-overstated.",
+    "slug": "how-to-organize-a-gun-safe"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "how to install a car gun safe",
+      "vehicle gun safe mounting",
+      "car safe without drilling"
+    ],
+    "questions": [
+      "Can you install a car gun safe without drilling?",
+      "Where is the best place to mount a gun safe in a car?"
+    ],
+    "priority": 10,
+    "keyword": "how to mount a gun safe in a car",
+    "category": "vehicle-safes",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "How to Mount a Gun Safe in a Car",
+    "cluster": "vehicle storage",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: r/homedefense #1, YouTube install #2, Facebook group #3, Quora #6, caguns forum #8; 1 store collection (Console Vault) and one maker how-to (Boosted). Pain point vehicle-safes-slides-around-needs-mounting. Distinct from deferred roundup 'best car gun safe'. Install how-to only, no carry-law advice.",
+    "slug": "how-to-mount-a-gun-safe-in-a-car"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "storing ammo in a hot garage",
+      "ammo storage humidity",
+      "is it ok to store ammo in the garage"
+    ],
+    "questions": [
+      "Does heat ruin ammo in a garage?",
+      "How do I keep ammo dry in a humid garage?"
+    ],
+    "priority": 10,
+    "keyword": "how to store ammo in a garage",
+    "category": "safe-accessories",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "How to Store Ammo in a Garage Without Ruining It",
+    "cluster": "garage and humidity",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: r/WA_guns #1, 5 gun forums (S&W, Trapshooters, Carolina, 1911Forum), Facebook, MeatEater, YouTube; no store pages. Uncovered pain point safe-accessories-ammo-humid-garage-storage. Link to best-ammo-can and gun-safe-in-garage.",
+    "slug": "how-to-store-ammo-in-a-garage"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "best place to hide a safe",
+      "how to hide a safe",
+      "where to put a safe in your house"
+    ],
+    "questions": [
+      "Where do burglars look first for a safe?",
+      "Is the master bedroom closet a bad place for a safe?"
+    ],
+    "priority": 10,
+    "keyword": "where to hide a safe in your house",
+    "category": "home-safes",
+    "articleType": "guide",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Where to Hide a Safe in Your House (and Where Not To)",
+    "cluster": "placement",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: all informational — Arcas Gruber, Reolink and Liberty blog posts, YouTube, Reddit, AAA, a moving-company blog, Pinterest, Wirecutter hidden-safes; no catalog pages. Distinct from pending 'where to put a gun safe' (gun-safe placement) and 'best hidden gun safe' (product roundup).",
+    "slug": "where-to-hide-a-safe-in-your-house"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "gun safe shims",
+      "gun safe rocking",
+      "leveling a safe on uneven floor"
+    ],
+    "questions": [
+      "Should a gun safe lean back slightly?",
+      "What shims work under a heavy safe?"
+    ],
+    "priority": 10,
+    "keyword": "how to level a gun safe",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "How to Level a Gun Safe on an Uneven Floor",
+    "cluster": "installation",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: AR15.com forum #1, 2 YouTube videos, a small blog, r/HomeImprovement, Firing Line, Trapshooters and Stalking Directory forums, Rhino blog; no store pages. Complements how-to-bolt-down-a-safe without targeting bolting.",
+    "slug": "how-to-level-a-gun-safe"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "change gun safe keypad code",
+      "change combination on dial safe",
+      "reset safe code with current code"
+    ],
+    "questions": [
+      "Do I need the current code to change my safe combination?",
+      "How do I change a dial safe combination with a change key?"
+    ],
+    "priority": 10,
+    "keyword": "how to change safe combination",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "How to Change Your Safe Combination (Keypad and Dial)",
+    "cluster": "locks and codes",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: YouTube #1 and #3, maker/dealer support pages (Liberty, Champion, TNT Liberty), 2 Quora threads, JustAnswer, Instagram, S&G PDF; no catalog pages. Owner with current code only — never bypassing a lock. Distinct from how-to-open-a-safe (locked out).",
+    "slug": "how-to-change-safe-combination"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "safe door won't lock",
+      "gun safe door sagging",
+      "safe bolts stuck out"
+    ],
+    "questions": [
+      "Why won't my gun safe door latch?",
+      "How do you adjust safe door hinges?"
+    ],
+    "priority": 10,
+    "keyword": "gun safe door won't close",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "mofu",
+    "workingTitle": "Gun Safe Door Won't Close? Causes and Fixes",
+    "cluster": "troubleshooting",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: JustAnswer #1, r/guns #2, YouTube hinge fix, S&G knowledgebase, Facebook, Firing Line forum, Cannon FAQ video; no store pages. Owner troubleshooting of own open safe.",
+    "slug": "gun-safe-door-wont-close"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "flooded gun safe",
+      "drying out a flooded gun safe",
+      "are gun safes waterproof"
+    ],
+    "questions": [
+      "What do I do if my gun safe flooded?",
+      "Does homeowners insurance cover a flooded gun safe?"
+    ],
+    "priority": 10,
+    "keyword": "gun safe flood damage",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "Gun Safe Flood Damage: What to Do Next",
+    "cluster": "garage and humidity",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: Nosler, Rimfire Central and Bayou Shooter forums, r/guns, all4shooters, YouTube; dealer blogs (Dean, SecureIt, Safe Keeper, S&V); no catalog pages. Practical recovery only; insurance mentioned factually, not as advice.",
+    "slug": "gun-safe-flood-damage"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "mold in fireproof safe",
+      "gun safe smells musty",
+      "mold in gun safe"
+    ],
+    "questions": [
+      "Why does my fireproof safe get moldy?",
+      "Can moldy documents from a safe be saved?"
+    ],
+    "priority": 10,
+    "keyword": "how to clean mold out of a safe",
+    "category": "home-safes",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "How to Clean Mold Out of a Safe (and Stop It Coming Back)",
+    "cluster": "garage and humidity",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: Reddit #2, Facebook #3, SASS, LongRangeHunting and Sniper's Hide forums, CDC, Mental Floss, dealer blogs; no catalog pages. Pain point home-safes-mold-and-moisture-in-fire-safe (only touched by best-fireproof-document-safe).",
+    "slug": "how-to-clean-mold-out-of-a-safe"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:17:26.553Z",
+    "secondaryKeywords": [
+      "safe for family heirlooms",
+      "safe for keepsakes",
+      "best home safe for valuables"
+    ],
+    "questions": [
+      "What kind of safe protects heirlooms from fire and humidity?",
+      "Should heirlooms go in a safe or a safe deposit box?"
+    ],
+    "priority": 600,
+    "keyword": "best safe for heirlooms",
+    "category": "home-safes",
+    "articleType": "roundup",
+    "intent": "commercial",
+    "funnel": "bofu",
+    "workingTitle": "Best Safe for Family Heirlooms",
+    "cluster": "valuables",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: thin SERP — 2 Liberty blog posts, r/Safes, YouTube, a storage-company guide, an AU dealer roundup, Brinks, a lifestyle blog; one product page (Traum). No strong US roundup.",
+    "slug": "best-safe-for-heirlooms"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:18:06.535Z",
+    "secondaryKeywords": [
+      "how to get rid of an old gun safe",
+      "safe recycling",
+      "old safe removal"
+    ],
+    "questions": [
+      "Will a scrap yard take an old safe?",
+      "Do old fire safes contain asbestos?"
+    ],
+    "priority": 10,
+    "keyword": "how to dispose of an old safe",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "How to Dispose of an Old Safe (Sell, Scrap or Haul Away)",
+    "cluster": "moving and removal",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: Facebook #1, r/recycling #3, Quora #7, dealer/maker blogs (Liberty, Guardian, Safe Keeper), 2 removal-service pages, 2 UK/Scotland pages; no catalog pages. Owner's own safe only.",
+    "slug": "how-to-dispose-of-an-old-safe"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-21T11:18:06.535Z",
+    "secondaryKeywords": [
+      "gun safe paint",
+      "refinish a gun safe",
+      "gun safe makeover"
+    ],
+    "questions": [
+      "What paint sticks to a gun safe?",
+      "Can you paint a fire-rated safe without hurting the seal?"
+    ],
+    "priority": 10,
+    "keyword": "how to paint a gun safe",
+    "category": "safe-guides",
+    "articleType": "how-to",
+    "intent": "informational",
+    "funnel": "tofu",
+    "workingTitle": "How to Paint a Gun Safe (Prep, Primer and Finish)",
+    "cluster": "maintenance",
+    "source": "no-ahrefs",
+    "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: r/Locksmith #1, 3 YouTube projects, Facebook, AR15.com and GunSite forums, Dean/Liberty paint-care pages, r/clonewars; no catalog pages.",
+    "slug": "how-to-paint-a-gun-safe"
   }
 ]
