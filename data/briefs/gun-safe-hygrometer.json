@@ -1,0 +1,502 @@
+{
+  "centralEntity": "gun safe hygrometer",
+  "entityVariants": [
+    "hygrometer for gun safe",
+    "safe hygrometer",
+    "gun safe humidity gauge",
+    "gun safe hygrometers",
+    "wireless hygrometer for gun safe",
+    "digital hygrometer"
+  ],
+  "entities": [
+    {
+      "name": "relative humidity",
+      "type": "measurement",
+      "relation": "what a gun safe hygrometer reads, in percent RH"
+    },
+    {
+      "name": "dew point",
+      "type": "concept",
+      "relation": "temperature at which moisture condenses on cold steel inside the safe"
+    },
+    {
+      "name": "salt test",
+      "type": "procedure",
+      "relation": "saturated table salt in a sealed bag holds about 75% RH, used to check a hygrometer"
+    },
+    {
+      "name": "digital hygrometer",
+      "type": "product type",
+      "relation": "electronic sensor with display, min/max memory and stated tolerance"
+    },
+    {
+      "name": "analog dial hygrometer",
+      "type": "product type",
+      "relation": "mechanical gauge that needs no batteries but drifts"
+    },
+    {
+      "name": "wireless remote sensor",
+      "type": "feature",
+      "relation": "reads the safe interior from a display outside the door"
+    },
+    {
+      "name": "Hornady Wireless Hygrometer",
+      "type": "product",
+      "relation": "remote sensor plus base display"
+    },
+    {
+      "name": "Hornady Digital Hygrometer",
+      "type": "product",
+      "relation": "single-unit touchscreen hygrometer for inside the safe"
+    },
+    {
+      "name": "Lockdown Vault Hygrometer",
+      "type": "product",
+      "relation": "2 3/4 in mechanical dial, no batteries"
+    },
+    {
+      "name": "TempPro TP49",
+      "type": "product",
+      "relation": "budget digital hygrometer with stated +/-2% RH tolerance"
+    },
+    {
+      "name": "Canadian Conservation Institute",
+      "type": "organization",
+      "relation": "museum guidance on RH and metal corrosion"
+    },
+    {
+      "name": "NRA National Firearms Museum",
+      "type": "organization",
+      "relation": "curators keep firearms at 70 F and 50-55% RH"
+    },
+    {
+      "name": "Library of Congress",
+      "type": "organization",
+      "relation": "30-55% RH guidance for paper and books"
+    },
+    {
+      "name": "gun safe dehumidifier",
+      "type": "product type",
+      "relation": "what the hygrometer tells you is (or is not) working"
+    },
+    {
+      "name": "silica gel desiccant",
+      "type": "product type",
+      "relation": "saturates; the hygrometer shows when to recharge"
+    }
+  ],
+  "attributes": [
+    "stated humidity tolerance (+/- % RH) and the range it applies to",
+    "humidity measuring range",
+    "remote sensor and wireless read distance",
+    "min/max (high/low) memory, 24 h or all-time",
+    "refresh or measurement interval",
+    "power (AAA batteries) and battery access",
+    "mounting: magnet, bracket, stand, hook-and-loop",
+    "calibration or offset adjustment",
+    "display size and backlight",
+    "warranty"
+  ],
+  "ngrams": [
+    "gun safe hygrometer",
+    "humidity in your gun safe",
+    "relative humidity",
+    "digital hygrometer",
+    "wireless hygrometer",
+    "remote sensor",
+    "salt test",
+    "high and low readings",
+    "inside the safe",
+    "without opening the safe",
+    "dehumidifier rod",
+    "30 to 50 percent"
+  ],
+  "skipgrams": [
+    "hygrometer…accuracy",
+    "humidity…safe",
+    "salt…75",
+    "remote…sensor",
+    "sensor…inside",
+    "dehumidifier…hygrometer",
+    "wood…stocks",
+    "rust…humidity"
+  ],
+  "nlpTerms": [
+    "hygrometer",
+    "humidity",
+    "relative humidity",
+    "RH",
+    "calibrate",
+    "calibration",
+    "salt test",
+    "tolerance",
+    "sensor",
+    "remote",
+    "wireless",
+    "dial",
+    "analog",
+    "digital",
+    "touchscreen",
+    "min/max",
+    "dehumidifier",
+    "desiccant",
+    "silica",
+    "rust",
+    "corrosion",
+    "condensation",
+    "dew point",
+    "wood stocks",
+    "gun safe",
+    "vault",
+    "batteries",
+    "magnet"
+  ],
+  "questions": [
+    "What humidity should a gun safe be?",
+    "Where should a hygrometer go in a gun safe?",
+    "How accurate are cheap hygrometers?",
+    "How do I calibrate a gun safe hygrometer with salt?",
+    "Can a wireless hygrometer read through a steel gun safe?",
+    "Do I need a hygrometer if I already have a dehumidifier rod?",
+    "Is an analog dial hygrometer good enough for a gun safe?"
+  ],
+  "contentGaps": [
+    "Which humidity numbers are actually sourced (NRA museum, Library of Congress, Canadian Conservation Institute) and why they differ",
+    "Which hygrometers publish an RH tolerance at all (Hornady does not in its manuals; TempPro states +/-2% from 30-80%)",
+    "How to run a salt test and record an offset on a unit with no calibration adjustment",
+    "Why a wireless display outside a steel box can lose the signal, and what the maker's 100 ft range assumes",
+    "Comfort icons on these units call up to 60% comfortable, above the usual gun target"
+  ],
+  "outline": [
+    {
+      "h2": "Gun safe hygrometer – quick answer and top picks",
+      "intent": "answer + picks",
+      "h3": []
+    },
+    {
+      "h2": "How we picked these hygrometers",
+      "intent": "method and trust",
+      "h3": []
+    },
+    {
+      "h2": "Gun safe hygrometer reviews",
+      "intent": "product detail",
+      "h3": [
+        "Hornady Wireless Hygrometer",
+        "Hornady Digital Hygrometer",
+        "Lockdown Vault Hygrometer",
+        "TempPro TP49 Digital Hygrometer"
+      ]
+    },
+    {
+      "h2": "What humidity should a gun safe be – and who says so",
+      "intent": "target RH with sources (pain point: what number to hold)",
+      "h3": []
+    },
+    {
+      "h2": "Why two hygrometers disagree, and the salt test",
+      "intent": "accuracy (pain point: gauges disagree)",
+      "h3": [
+        "Run a salt test in 12 hours"
+      ]
+    },
+    {
+      "h2": "Where to put the hygrometer in a gun safe",
+      "intent": "placement and reading without opening (pain point: wireless through steel)",
+      "h3": []
+    },
+    {
+      "h2": "What to do when the reading is off",
+      "intent": "act on the number (pain point: rust despite dehumidifier); next steps",
+      "h3": []
+    }
+  ],
+  "commonPoints": [
+    "A hygrometer is the only way to know the humidity inside the safe; guessing does not work",
+    "Keep the safe roughly between 30 and 50 percent relative humidity",
+    "Digital units are easier to read and usually more accurate than analog dials",
+    "A wireless remote sensor lets you read the safe without opening it",
+    "Pair the hygrometer with a dehumidifier rod or desiccant and act when the reading climbs",
+    "Calibrate or check the hygrometer with a salt test once or twice a year"
+  ],
+  "ourGain": [
+    {
+      "point": "The sourced numbers differ: NRA museum curators keep guns at 70 F and 50-55% RH, the Library of Congress says 30-55% for paper, the Canadian Conservation Institute says metal corrosion speeds up a lot above 75%. A target of 40-50% with action above 55% satisfies all three",
+      "source": "https://www.nrafamily.org/content/top-6-expert-tips-to-prevent-gun-rust/, https://guides.loc.gov/preserving-your-books/storing, https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html"
+    },
+    {
+      "point": "Hornady's manuals publish no humidity tolerance for either hygrometer, while TempPro states +/-2% RH from 30-80% for the TP49; the Hornady comfort icon calls up to 60% comfortable",
+      "source": "https://static.hornady.media/presscenter/docs/1410998003-Hornady-Security-Wireless-Hygrometer.pdf, https://buythermopro.com/products/tp49b-indoor-thermometer-hygrometer"
+    },
+    {
+      "point": "Two gauges 5 points apart in one safe is normal for consumer units; the salt test (75% RH, 12 hours per TempPro) tells you which one to trust, and you can record an offset on units with no adjustment",
+      "source": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/, https://temppro.com/blogs/news/how-to-calibrate-a-hygrometer-hygrometer-calibration"
+    },
+    {
+      "point": "Wireless displays: Hornady rates 100 ft unobstructed, but a steel safe is an obstruction; owners report remotes that drop out or quit, so test the link before mounting",
+      "source": "https://static.hornady.media/presscenter/docs/1410998003-Hornady-Security-Wireless-Hygrometer.pdf, https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+    }
+  ],
+  "targetWords": 2400,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/",
+      "https://weapongenetics.com/best-gun-safe-hygrometer/",
+      "https://capefearinvestigative.com/best-gun-safe-hygrometer-2/",
+      "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/",
+      "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+      "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+      "https://www.gunsafesnow.com/accessories/hygrometer/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Both editorial roundups that rank for the keyword family (WeaponGenetics, Cape Fear) give each hygrometer a pros and cons list; the forum threads and retailer pages present no product format of their own.",
+    "avgWords": 3030,
+    "avgProducts": 12,
+    "commonSections": [
+      "ideal humidity range",
+      "digital vs analog",
+      "placement in the safe",
+      "calibration / salt test",
+      "product picks",
+      "buying factors",
+      "FAQ"
+    ],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://deansafe.com/products/lockdown-wireless-digital-hygrometer-wireless-safe-sensor",
+      "title": "Lockdown Wireless Digital Hygrometer Wireless Safe Sensor"
+    },
+    {
+      "position": 2,
+      "url": "https://www.gunsafesnow.com/accessories/hygrometer/",
+      "title": "Hygrometer | Gun and Ammo Safe Humidity Control - GunSafesNow.com"
+    },
+    {
+      "position": 3,
+      "url": "https://libertysafe.com/products/humidity-and-temperature-monitor",
+      "title": "Humidity and Temperature Monitor - Liberty Safe"
+    },
+    {
+      "position": 4,
+      "url": "https://www.reddit.com/r/guns/comments/1jo5qy7/hygrometer_for_gun_safe/",
+      "title": "Hygrometer for gun safe - Reddit"
+    },
+    {
+      "position": 5,
+      "url": "https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/",
+      "title": "Gun Safe Dehumidifier Hygrometer Tips - Howard Environmental"
+    },
+    {
+      "position": 6,
+      "url": "https://www.amazon.com/Hornady-Wireless-Hygrometer-95907-Touchscreen/dp/B09XJKPD9X",
+      "title": "Hornady Wireless Hygrometer, 95907 - Includes a Remote Base & Digital ..."
+    },
+    {
+      "position": 7,
+      "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+      "title": "Inexpensive hygrometer (check humidity level in your safe) - SIG Talk"
+    },
+    {
+      "position": 8,
+      "url": "https://www.youtube.com/watch?v=_GusVwS059o",
+      "title": "Hornady Security Wireless Hygrometer - YouTube"
+    },
+    {
+      "position": 9,
+      "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+      "title": "What are you using to monitor humidity in gun safe? - HideTV"
+    },
+    {
+      "position": 10,
+      "url": "https://store.hornady.com/digital-hygrometer-2",
+      "title": "Hornady Accurate Deadly Dependable. Digital Hygrometer"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": [
+      "wireless",
+      "digital",
+      "humidity control",
+      "monitor",
+      "inexpensive"
+    ],
+    "gap": "No top-10 title says what humidity number to hold or how to check that the gauge is accurate (salt test); none compares picks"
+  },
+  "painPoints": [
+    {
+      "id": "safe-accessories-what-humidity-to-hold",
+      "pain": "Owners do not know what humidity number to hold in the safe, and some dry it too far",
+      "details": "Threads ask what percent to keep; answers range from 30 to 55 percent. Owners with wood stocks worry about drying them out.",
+      "sources": [
+        "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+        "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+        "https://www.reddit.com/r/Locksmith/comments/111nezj/accurate_affordable_hygrometer_for_gun_safe/"
+      ],
+      "quotes": [
+        {
+          "text": "Good info, what % do you keep at?",
+          "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+        },
+        {
+          "text": "Too dry and wood stocks and grips can dry out, and we all know what happens if it's too humid.",
+          "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+        },
+        {
+          "text": "a lot of people think you need it super dry in a safe, which isn't true at all",
+          "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+        }
+      ]
+    },
+    {
+      "id": "safe-accessories-hygrometers-disagree",
+      "pain": "Two hygrometers in the same safe disagree, and cheap dial gauges read wrong",
+      "details": "Owners put two gauges side by side and get readings 5 points apart and ask which to trust.",
+      "sources": [
+        "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/",
+        "https://www.reddit.com/r/guns/comments/1jo5qy7/hygrometer_for_gun_safe/"
+      ],
+      "quotes": [
+        {
+          "text": "They aren't precision instruments.",
+          "url": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/"
+        },
+        {
+          "text": "Obviously both COULD be way off in the case of consumer grade hygrometers it seems.",
+          "url": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/"
+        },
+        {
+          "text": "Stay away from the cheap dial ones. They are inaccurate as hell.",
+          "url": "https://www.reddit.com/r/guns/comments/1jo5qy7/hygrometer_for_gun_safe/"
+        }
+      ]
+    },
+    {
+      "id": "safe-accessories-read-humidity-without-opening",
+      "pain": "Checking the gauge means opening the safe, and wireless sensors lose signal through the steel or quit",
+      "details": "Wireless remote sensors solve the opening problem, but owners report short range through steel and sensors that stop reporting after months.",
+      "sources": [
+        "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+        "https://www.reddit.com/r/homeautomation/comments/13irqol/gun_safe_hygrometer/",
+        "https://deansafe.com/products/lockdown-wireless-digital-hygrometer-wireless-safe-sensor"
+      ],
+      "quotes": [
+        {
+          "text": "they only seem to hold up for about 6mo to a year then they stop working and won't read the inside censer anymore.",
+          "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+        },
+        {
+          "text": "Obviously, getting radio out of a large, metal box is going to be a challenge.",
+          "url": "https://www.reddit.com/r/homeautomation/comments/13irqol/gun_safe_hygrometer/"
+        },
+        {
+          "text": "They have to be very close to each other in order to connect.",
+          "url": "https://deansafe.com/products/lockdown-wireless-digital-hygrometer-wireless-safe-sensor"
+        }
+      ]
+    },
+    {
+      "id": "gun-safes-rust-despite-dehumidifier",
+      "pain": "Guns rust inside the safe even with silica packs and a dehumidifier",
+      "details": "Silica saturates fast and people are unsure what humidity level to hold.",
+      "sources": [
+        "https://www.thehighroad.org/index.php?threads/rust-issues.814079/",
+        "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+      ],
+      "quotes": [
+        {
+          "text": "Ditch the gel and dri packs, they just hold moisture.",
+          "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "75% RH",
+      "claim": "Canadian Conservation Institute: above 75% RH all metal corrosion speeds up a lot",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+      "quote": "In general for metals, the lower the RH the better, above 75% RH all corrosion speeds up a lot."
+    },
+    {
+      "number": "50 to 55 percent",
+      "claim": "NRA National Firearms Museum curators: 70 degrees and 50 to 55 percent RH",
+      "url": "https://www.nrafamily.org/content/top-6-expert-tips-to-prevent-gun-rust/",
+      "quote": "the ideal temperature for storing healthy, happy firearms is 70 degrees with 50 to 55 percent relative humidity."
+    },
+    {
+      "number": "30-55%",
+      "claim": "Library of Congress: 30-55% RH is safe for most books",
+      "url": "https://guides.loc.gov/preserving-your-books/storing",
+      "quote": "A cool (70 degrees Fahrenheit or below) and relatively dry (30-55% relative humidity) environment is safe for most books."
+    },
+    {
+      "number": "75 percent",
+      "claim": "TempPro salt test: after 12 hours a correct hygrometer reads 75 percent",
+      "url": "https://temppro.com/blogs/news/how-to-calibrate-a-hygrometer-hygrometer-calibration",
+      "quote": "After 12 hours, if the hygrometer is correctly calibrated, the reading should be 75 percent humidity."
+    },
+    {
+      "number": "±2%",
+      "claim": "TempPro TP49 humidity tolerance from 30% to 80%",
+      "url": "https://buythermopro.com/products/tp49b-indoor-thermometer-hygrometer",
+      "quote": "Humidity Tolerance: From 30% to 80%: ±2% - Otherwise: ±3%"
+    },
+    {
+      "number": "100 feet",
+      "claim": "Hornady wireless hygrometer maximum read distance, unobstructed",
+      "url": "https://static.hornady.media/presscenter/docs/1410998003-Hornady-Security-Wireless-Hygrometer.pdf",
+      "quote": "Maximum read distance: 100 feet unobstructed"
+    }
+  ],
+  "videos": [
+    {
+      "id": "_GusVwS059o",
+      "title": "Hornady Security Wireless Hygrometer",
+      "channel": "Hornady Manufacturing",
+      "url": "https://www.youtube.com/watch?v=_GusVwS059o",
+      "section": "Gun safe hygrometer reviews"
+    }
+  ],
+  "serpProducts": [
+    {
+      "name": "Lockdown Vault Hygrometer",
+      "pages": [
+        "https://www.gunsafesnow.com/accessories/hygrometer/",
+        "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/",
+        "https://capefearinvestigative.com/best-gun-safe-hygrometer-2/",
+        "https://weapongenetics.com/best-gun-safe-hygrometer/"
+      ]
+    },
+    {
+      "name": "Hornady Wireless Hygrometer 95907",
+      "pages": [
+        "https://www.gunsafesnow.com/accessories/hygrometer/",
+        "https://capefearinvestigative.com/best-gun-safe-hygrometer-2/",
+        "https://weapongenetics.com/best-gun-safe-hygrometer/"
+      ]
+    },
+    {
+      "name": "Hornady Digital Hygrometer 95909",
+      "pages": [
+        "https://www.gunsafesnow.com/accessories/hygrometer/",
+        "https://capefearinvestigative.com/best-gun-safe-hygrometer-2/",
+        "https://weapongenetics.com/best-gun-safe-hygrometer/"
+      ]
+    },
+    {
+      "name": "ThermoPro (TempPro) TP49",
+      "pages": [
+        "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+        "https://capefearinvestigative.com/best-gun-safe-hygrometer-2/"
+      ]
+    }
+  ]
+}

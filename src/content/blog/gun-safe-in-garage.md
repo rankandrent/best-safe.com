@@ -147,6 +147,7 @@ videos:
     afterHeading: 2
 author: editorial-team
 related:
+  - gun-safe-hygrometer
   - gun-safe-brands-to-avoid
   - floor-safe-installation
   - are-gun-safes-fireproof

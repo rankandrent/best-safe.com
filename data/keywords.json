@@ -2355,7 +2355,7 @@
     "publishedAt": "2026-10-21T10:52:24.623Z"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T06:44:22.832Z",
     "secondaryKeywords": [],
@@ -2385,7 +2385,8 @@
     "slug": "gun-safe-hygrometer",
     "painPoints": [
       "gun-safes-rust-despite-dehumidifier"
-    ]
+    ],
+    "publishedAt": "2026-10-21T11:13:09.671Z"
   },
   {
     "status": "merged",

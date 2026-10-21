@@ -1,0 +1,18 @@
+{
+  "slug": "gun-safe-hygrometer",
+  "pass": true,
+  "checkedAt": "2026-10-21T11:12:36.768Z",
+  "errors": [],
+  "warnings": [
+    "product \"Hornady Wireless Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady Digital Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Lockdown Vault Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"TempPro TP49 Digital Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified against sources opened 2026-10-21: Hornady Wireless 95907 (store.hornady.com/wireless-hygrometer + instruction PDF: remote+base, high/low all-time/24h, 10-99% RH, 14-122 F, 100 ft unobstructed read distance, 50 s updates, 4 AAA not included, base 3.0x2.5x0.6 in / remote 2.8x2.8x1.0 in, magnets/bracket/screws/Square-Lok, COMF icon 30-60%, 1-yr electronics warranty, no RH tolerance stated, replace both batteries together); Hornady Digital 95909 (store page + instruction PDF: touchscreen, high/low, 10-99% RH, 10 s interval, 2 AAA not included, bracket/fold-out stand, 1-yr warranty, no RH tolerance); Lockdown Vault Hygrometer 222111 (lockdown.com: 2 3/4 in dial, fastener or hook-and-loop, large numbers; no-battery per listing copy); TempPro/ThermoPro TP49 (buythermopro.com: +/-2% RH 30-80% else +/-3%, 10-99% RH, 10 s refresh, 1 AAA, 55.5x66x15 mm, no backlight, magnet/stand/hang; formerly ThermoPro). ASINs confirmed same model: B09XJKPD9X, B07KCTRZMB, B07WCR5Y4B (Amazon titles read), B0FD9LPK2P (Amazon search result title). Stats checked on page: CCI 75% RH corrosion; NRA museum 70 F and 50-55% RH; LoC 30-55% RH; TempPro salt test 75% after 12 h; Howard Environmental 30-50% and calibrate 1-2x/yr. Owner claims checked: BobIsTheOilGuy (50 vs 45, salt test 74 vs 75, 'They aren't precision instruments'), SIG Talk thread, Sniper's Hide quotes, Dean Safe review (<2 ft), r/guns and AR15.com quotes verified verbatim via search excerpts, r/Firearms and r/ar15 excerpts, Walmart TP49 reviews, retailer reviews for both Hornady units. Video _GusVwS059o is Hornady Manufacturing's channel. No fire/burglary claims; no legal advice.",
+    "at": "2026-10-21T11:12:36.354Z",
+    "hash": "6549443d244664b5"
+  }
+}
