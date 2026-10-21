@@ -1,6 +1,7 @@
 {
   "_note": "Every blog URL that has gone live. scripts/redirects.mjs adds new ones on each build; a URL whose post is gone needs a redirect in data/redirects.json.",
   "urls": [
+    "/blog/are-gun-safes-fireproof/",
     "/blog/best-ammo-can/",
     "/blog/best-biometric-gun-safe/",
     "/blog/best-dehumidifier-for-gun-safe/",
@@ -13,11 +14,14 @@
     "/blog/best-pistol-safe/",
     "/blog/best-safe-brands/",
     "/blog/best-under-bed-gun-safe/",
+    "/blog/floor-safe-installation/",
     "/blog/gun-safe-brands-to-avoid/",
+    "/blog/gun-safe-in-garage/",
     "/blog/how-much-does-a-gun-safe-weigh/",
     "/blog/how-to-bolt-down-a-safe/",
     "/blog/how-to-move-a-gun-safe/",
     "/blog/how-to-open-a-safe/",
-    "/blog/sentry-safe-battery-replacement/"
+    "/blog/sentry-safe-battery-replacement/",
+    "/blog/wall-mounted-gun-safe/"
   ]
 }
