@@ -2616,7 +2616,7 @@
     "lastError": "merged into \"gun safe in garage\" on owner request (one post for garage and basement)"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T13:45:48.508Z",
     "secondaryKeywords": [
@@ -2648,7 +2648,8 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-19"
     },
-    "slug": "gun-safe-brands-to-avoid"
+    "slug": "gun-safe-brands-to-avoid",
+    "publishedAt": "2026-10-21T10:54:10.536Z"
   },
   {
     "status": "published",

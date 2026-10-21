@@ -1,0 +1,416 @@
+{
+  "keyword": "gun safe brands to avoid",
+  "createdAt": "2026-10-21T10:54:10.538Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "gun safe",
+    "entityVariants": [
+      "gun safe brands to avoid",
+      "gun safes to avoid",
+      "worst gun safe brands",
+      "worst gun safes",
+      "recalled gun safes",
+      "cheap gun safe"
+    ],
+    "entities": [
+      {
+        "name": "CPSC",
+        "type": "regulator",
+        "relation": "U.S. Consumer Product Safety Commission; announced three waves of biometric gun safe recalls (Oct 2023, Feb 2024, Jun 2024)"
+      },
+      {
+        "name": "biometric lock",
+        "type": "lock type",
+        "relation": "fingerprint reader; the failure point in every recalled gun safe (opened for unenrolled fingers)"
+      },
+      {
+        "name": "Fortress",
+        "type": "brand",
+        "relation": "about 61,000 biometric safes recalled Oct 2023 (also sold as Cabela's, Gettysburg, Legend Range & Field)"
+      },
+      {
+        "name": "Sports Afield",
+        "type": "brand",
+        "relation": "Home Defense 4-Gun Biometric Safe in the 133,000-unit June 2024 recall"
+      },
+      {
+        "name": "Sanctuary",
+        "type": "brand",
+        "relation": "Quick Access Biometric Home Safe in the 133,000-unit June 2024 recall"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "lower number = thicker steel; California's gun safe standard asks for at least 12-gauge walls"
+      },
+      {
+        "name": "California DOJ gun safe standard",
+        "type": "standard",
+        "relation": "minimum yardstick: 12-gauge walls, three 1/2-inch steel bolts, 10,000-combination lock, protected hinges, or a UL RSC listing"
+      },
+      {
+        "name": "UL RSC",
+        "type": "standard",
+        "relation": "UL 1037 Residential Security Container burglary rating: Level 1 is a five-minute attack by one technician with common hand tools"
+      },
+      {
+        "name": "UL 72",
+        "type": "standard",
+        "relation": "independent fire-endurance test; versus a maker's own fire claim with no named lab"
+      },
+      {
+        "name": "Intertek/ETL",
+        "type": "certifier",
+        "relation": "independent lab that verifies some gun safe fire ratings"
+      },
+      {
+        "name": "relocker",
+        "type": "component",
+        "relation": "spring-loaded backup that locks the bolts if the lock is attacked"
+      },
+      {
+        "name": "hard plate",
+        "type": "component",
+        "relation": "hardened steel plate protecting the lock from drilling"
+      },
+      {
+        "name": "boltwork",
+        "type": "component",
+        "relation": "locking bolts operated by the handle; count, diameter and coverage matter"
+      },
+      {
+        "name": "warranty",
+        "type": "attribute",
+        "relation": "what the maker covers (lock, fire, break-in) and how support is reached"
+      },
+      {
+        "name": "Liberty Safe",
+        "type": "brand",
+        "relation": "gave the FBI a safe's access code in response to a 2023 search warrant; now offers combination-record deletion"
+      }
+    ],
+    "attributes": [
+      "recall status",
+      "steel gauge of body and door",
+      "locking bolt count and thickness",
+      "UL RSC burglary rating",
+      "UL Listed lock",
+      "relocker and hard plate",
+      "fire rating and certifier",
+      "backup entry (key or override)",
+      "warranty terms",
+      "bolt-down holes"
+    ],
+    "ngrams": [
+      "gun safe brands to avoid",
+      "biometric gun safes",
+      "steel gauge",
+      "fire rating",
+      "locking bolts",
+      "UL RSC",
+      "backup key",
+      "free replacement",
+      "unauthorized users",
+      "lifetime warranty"
+    ],
+    "skipgrams": [
+      "steel…gauge",
+      "fire…rating",
+      "locking…bolts",
+      "biometric…recall",
+      "backup…key",
+      "warranty…support"
+    ],
+    "nlpTerms": [
+      "recall",
+      "CPSC",
+      "fingerprint",
+      "biometric",
+      "gauge",
+      "bolts",
+      "relocker",
+      "hinges",
+      "fireboard",
+      "warranty",
+      "keypad",
+      "combination",
+      "serial number",
+      "anchor",
+      "California"
+    ],
+    "questions": [
+      "Which gun safe brands should I avoid?",
+      "Which gun safes have been recalled?",
+      "What steel gauge is too thin for a gun safe?",
+      "Is a fire rating without UL or ETL worth anything?",
+      "Is the warranty real, and what should it cover?",
+      "Can a safe maker give my combination to police?"
+    ],
+    "contentGaps": [
+      "A recall table with the exact brands, units and remedy from CPSC notices (top pages mention recalls loosely or not at all)",
+      "California DOJ's published gun safe minimum (12-gauge, three 1/2-inch bolts, 10,000 combinations) as a free yardstick for thin steel",
+      "What UL RSC actually tests (five minutes, one technician, hand tools) vs Level 2 and 3",
+      "Who certified the fire rating: UL 72 or Intertek/ETL vs the maker's own claim",
+      "Combination-record policies: whether the maker keeps your code and how to have it deleted",
+      "Warranty fine print to read before buying, answering owner complaints about support"
+    ],
+    "outline": [
+      {
+        "h2": "Gun safe brands to avoid – the short answer",
+        "intent": "direct answer: avoid recalled models and the features that make a safe weak, not a logo",
+        "h3": []
+      },
+      {
+        "h2": "Recalled biometric gun safes (CPSC)",
+        "intent": "named brands with sourced recalls, what owners should do",
+        "h3": []
+      },
+      {
+        "h2": "Thin steel and weak doors",
+        "intent": "steel gauge, bolts, hinges; California's minimum as a yardstick; owner pain point on thin steel",
+        "h3": []
+      },
+      {
+        "h2": "Fire ratings with no named lab",
+        "intent": "UL 72, ETL vs maker's own claims; ratings hard to compare",
+        "h3": []
+      },
+      {
+        "h2": "Locks with no backup, and who keeps your code",
+        "intent": "electronic lock failures, backup key, UL Listed lock, relocker; combination records",
+        "h3": []
+      },
+      {
+        "h2": "Warranty and support red flags",
+        "intent": "owner complaints about support; what to read in the warranty",
+        "h3": []
+      },
+      {
+        "h2": "A five-minute check before you buy",
+        "intent": "numbered checklist and next links",
+        "h3": []
+      }
+    ],
+    "targetWords": 1600,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://guardiansafeandvault.com/blog/gun-safe-brands-to-avoid",
+        "https://alocksmithnaples.com/biggest-gun-safe-buying-mistakes/",
+        "https://www.thesafekeeper.com/blogs/news/what-is-the-best-fireproof-gun-safe-for-home-use",
+        "https://www.reddit.com/r/Safes/comments/1kwxbb1/what_brands_should_i_avoid/",
+        "https://ar15.com/forums/armory/What-are-the-WORST-safe-companies-/46-364919/"
+      ],
+      "productStyle": "specs",
+      "productStyleReason": "The only ranking article that names models (The Safe Keeper) gives each one a short spec block (fire rating, steel, capacity); the others are feature guides with no products.",
+      "avgWords": 1700,
+      "avgProducts": 0,
+      "commonSections": [
+        "cheap safes cut corners",
+        "electronic lock failures",
+        "fire ratings",
+        "steel thickness and construction",
+        "warranty",
+        "what to look for instead",
+        "FAQ"
+      ],
+      "usesComparisonTable": false,
+      "usesFaq": true,
+      "usesBuyingGuide": true
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.reddit.com/r/Safes/comments/1kwxbb1/what_brands_should_i_avoid/",
+        "title": "What brands should I avoid? : r/Safes - Reddit"
+      },
+      {
+        "position": 2,
+        "url": "https://guardiansafeandvault.com/blog/gun-safe-brands-to-avoid",
+        "title": "Gun Safe Brands to Avoid: The Cost of Low-Quality Safes"
+      },
+      {
+        "position": 3,
+        "url": "https://www.youtube.com/watch?v=-uRKP7MR9ZE",
+        "title": "Avoid These Gun Safe Buying Mistakes! - YouTube"
+      },
+      {
+        "position": 4,
+        "url": "https://www.thesafekeeper.com/blogs/news/what-is-the-best-fireproof-gun-safe-for-home-use",
+        "title": "Best Gun Safe Brands | Gun Safes Blog - The Safe Keeper"
+      },
+      {
+        "position": 5,
+        "url": "https://gunsafereviewsguy.com/",
+        "title": "Gun Safe Reviews Guy"
+      },
+      {
+        "position": 6,
+        "url": "https://alocksmithnaples.com/biggest-gun-safe-buying-mistakes/",
+        "title": "Avoid These Gun Safe Mistakes | Naples FL Safe Buying Guide"
+      },
+      {
+        "position": 7,
+        "url": "https://www.quora.com/What-should-I-consider-when-choosing-between-different-gun-safe-brands-especially-regarding-warranties-and-build-quality",
+        "title": "What should I consider when choosing between different gun ..."
+      },
+      {
+        "position": 8,
+        "url": "https://ar15.com/forums/armory/What-are-the-WORST-safe-companies-/46-364919/",
+        "title": "What are the WORST safe companies? - AR15.com"
+      },
+      {
+        "position": 9,
+        "url": "https://www.youtube.com/watch?v=b2zGRGSay3w",
+        "title": "5 Gun Safe LIES ROBBING You Blind (And 3 Brands Worth Every Penny)"
+      },
+      {
+        "position": 10,
+        "url": "https://www.pewpewtactical.com/best-gun-safes/",
+        "title": "15 Best Gun Safes 2026: Every Type & Budget Tested"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 1,
+      "withYear": 1,
+      "withNumber": 2,
+      "commonModifiers": [
+        "mistakes",
+        "low-quality",
+        "worst",
+        "what to look for"
+      ],
+      "gap": "No top result lists the actual CPSC recalls by brand or gives a measurable yardstick (California's 12-gauge, three-bolt minimum) for spotting a weak safe."
+    },
+    "commonPoints": [
+      "Cheap, unknown-brand safes often cut corners on steel and locks",
+      "Electronic and biometric locks can fail or lock the owner out",
+      "Lower steel gauge numbers mean thicker steel",
+      "Fire ratings vary and are not all equal",
+      "A good warranty signals a maker that stands behind the safe",
+      "Look for UL ratings, relockers and bolt-down holes instead of a logo"
+    ],
+    "ourGain": [
+      {
+        "point": "Brand names only where a CPSC recall names them: Fortress (and Cabela's, Gettysburg, Legend Range & Field badges), Sports Afield and Sanctuary, plus the four-maker February 2024 wave, with units and remedy",
+        "source": "https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported ; https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Unsecure-Firearms-133000-Sports-Afield-and-Sanctuary-Biometric-Gun-Safes-Recalled-Because-Anyone-Can-Open-the-Biometric-Lock"
+      },
+      {
+        "point": "California DOJ's gun safe standard as a measurable floor: 12-gauge walls, 7-gauge or two-layer 12-gauge door, three 1/2-inch bolts, 10,000-combination lock, protected hinges",
+        "source": "https://oag.ca.gov/firearms/gunsafe"
+      },
+      {
+        "point": "What UL RSC really means: Level 1 is a five-minute attack by one technician with common hand tools; Levels 2 and 3 are ten minutes with two technicians and harsher tools",
+        "source": "https://www.ul.com/news/residential-security-container-standard-revised"
+      },
+      {
+        "point": "Ask who keeps your combination: Liberty answered a 2023 search warrant with a safe's code and now lets owners request deletion of their code record",
+        "source": "https://libertysafe.com/pages/access-code-facts"
+      },
+      {
+        "point": "Owner complaints about thin steel and poor warranty support, answered with the spec and warranty lines to read before paying",
+        "source": "data/pain-points.json (home-safes-thin-steel-overpriced-brand, home-safes-brand-warranty-and-support-poor)"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "home-safes-thin-steel-overpriced-brand",
+        "pain": "Safe felt thin and overpriced for the brand name",
+        "details": "Buyers say a big-name safe turned out to have thin steel and was not worth the price compared with budget store safes or heavier makers.",
+        "sources": [
+          "https://www.reddit.com/r/GarandThumb/comments/18cdt7o/liberty_safes_buyer_beware/",
+          "https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "home-safes-brand-warranty-and-support-poor",
+        "pain": "Brand warranty and customer support are hard to get when the safe has a problem",
+        "details": "Owners of a popular brand report keypad parts breaking and little help from support; others point lockout problems to dealers or warranty service.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+          "https://www.reddit.com/r/Locksmith/comments/1egz5b5/liberty_gun_safe_help/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+        "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)",
+        "details": "Shoppers compare store-brand safes on fire minutes and temperature, then ask what UL and TL ratings actually mean.",
+        "sources": [
+          "https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "gun-safes-electronic-lock-fails-no-backup",
+        "pain": "Electronic keypad fails and the safe has no backup key",
+        "details": "Owners report keypads dying, safes sold without an override key, and a locked-out collection while the maker is closed. Recovery is through the maker, not tricks.",
+        "sources": [
+          "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        ],
+        "quotes": [
+          {
+            "text": "Electronic locks fail. Mechanical locks keep working.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "number": "61,000",
+        "claim": "Fortress biometric gun safes recalled (Oct 2023) because unauthorized users could open them",
+        "url": "https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported",
+        "quote": "are announcing the recall of about 61,000 biometric gun safes due to a serious safety hazard and risk of death"
+      },
+      {
+        "number": "120,000",
+        "claim": "more biometric gun safes recalled in February 2024 from four additional manufacturers",
+        "url": "https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Unsecure-Firearms-133000-Sports-Afield-and-Sanctuary-Biometric-Gun-Safes-Recalled-Because-Anyone-Can-Open-the-Biometric-Lock",
+        "quote": "In February 2024, over 120,000 more biometric gun safes were recalled from four additional manufacturers."
+      },
+      {
+        "number": "133,000",
+        "claim": "Sports Afield and Sanctuary biometric gun safes recalled in June 2024, with 77 reports of unintended users opening them",
+        "url": "https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Unsecure-Firearms-133000-Sports-Afield-and-Sanctuary-Biometric-Gun-Safes-Recalled-Because-Anyone-Can-Open-the-Biometric-Lock",
+        "quote": "133,000 gun safes are recalled today."
+      },
+      {
+        "number": "12-gauge",
+        "claim": "California DOJ minimum wall steel for a single-walled gun safe, with three 1/2-inch bolts",
+        "url": "https://oag.ca.gov/firearms/gunsafe",
+        "quote": "The exterior walls shall be constructed of a minimum 12-gauge thick steel for a single walled safe"
+      },
+      {
+        "number": "five-minute",
+        "claim": "UL RSC attack level one: one technician with common hand tools",
+        "url": "https://www.ul.com/news/residential-security-container-standard-revised",
+        "quote": "Attack level one requires the product to withstand a five-minute attack by one technician using common hand tools such as drills, screwdrivers and hammers."
+      }
+    ],
+    "videos": [
+      {
+        "id": "DBvCt21VK-s",
+        "title": "Gun Safe Buying Guide: 7 terms you must understand.",
+        "channel": "Dean Safe",
+        "url": "https://www.youtube.com/watch?v=DBvCt21VK-s",
+        "section": "Thin steel and weak doors"
+      }
+    ]
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-safe-brands",
+      "mode": "related-box"
+    },
+    {
+      "slug": "how-much-does-a-gun-safe-weigh",
+      "mode": "related-box"
+    },
+    {
+      "slug": "gun-safe-in-garage",
+      "mode": "related-box"
+    }
+  ]
+}

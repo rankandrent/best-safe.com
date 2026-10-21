@@ -157,6 +157,8 @@ heroImage: /images/featured/best-safe-brands.png
 heroAlt: >-
   Best Safe Brands – Who Certifies Each Fire and Burglary Rating – Best Safe
   comparison
+related:
+  - gun-safe-brands-to-avoid
 ---
 
 The best safe brands are the ones that let someone outside the company check the claims. **American Security (AMSEC) is the strongest all-round brand, SentrySafe is the easiest pick for documents, and Fort Knox and Liberty lead for full-size gun safes with lifetime warranties.** Vaultek and Hornady win at the bedside, where speed beats fire minutes.
