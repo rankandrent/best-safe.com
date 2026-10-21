@@ -1,0 +1,209 @@
+{
+  "centralEntity": "fireproof document bag",
+  "entityVariants": [
+    "fireproof document bags",
+    "fire-resistant document bag",
+    "fireproof bag",
+    "fireproof money bag",
+    "document bag"
+  ],
+  "entities": [
+    { "name": "fireproof document bag", "type": "product category", "relation": "central entity" },
+    { "name": "silicone-coated fiberglass", "type": "material", "relation": "outer fabric of every bag in the SERP" },
+    { "name": "aluminum foil", "type": "material", "relation": "heat-reflecting inner layer in the upgraded bags" },
+    { "name": "UL 94", "type": "standard", "relation": "plastics flammability test that bag listings cite instead of a contents fire rating" },
+    { "name": "UL 72", "type": "standard", "relation": "the record-protection fire test fire-rated safes carry and bags do not" },
+    { "name": "Class 350", "type": "rating", "relation": "UL 72 class for paper (interior stays under 350°F)" },
+    { "name": "Class 125", "type": "rating", "relation": "UL 72 class for digital media" },
+    { "name": "SentrySafe", "type": "brand", "relation": "safe maker that sells its own bag and calls it fire resistant" },
+    { "name": "ENGPOW", "type": "brand", "relation": "most-recommended bag in the top results" },
+    { "name": "ROLOWAY", "type": "brand", "relation": "recommended large bag and money pouch" },
+    { "name": "combination lock", "type": "feature", "relation": "zipper lock on organizer bags; privacy only" },
+    { "name": "hook-and-loop", "type": "feature", "relation": "flap closure that backs up the zipper" },
+    { "name": "fire-rated safe", "type": "product category", "relation": "where the bag should live for real protection" },
+    { "name": "passport", "type": "stored item", "relation": "typical bag content" },
+    { "name": "birth certificate", "type": "stored item", "relation": "typical bag content" },
+    { "name": "USB drive", "type": "stored item", "relation": "digital media a paper-rated container does not protect" },
+    { "name": "NFPA", "type": "organization", "relation": "source for US home fire frequency" }
+  ],
+  "attributes": [
+    "who stands behind the heat claim (maker's claim vs independent lab)",
+    "exposure time, not just temperature",
+    "number of layers and aluminum foil lining",
+    "closure: zipper, hook-and-loop flap, combination lock",
+    "water resistance vs waterproof",
+    "exterior and usable size for letter and legal paper",
+    "organizer pockets for passports, cards and USB drives",
+    "weight and grab handle or shoulder strap",
+    "fits inside a home safe"
+  ],
+  "ngrams": [
+    "fireproof document bag",
+    "fire resistant",
+    "silicone coated fiberglass",
+    "fire rated safe",
+    "water resistant",
+    "combination lock",
+    "important documents",
+    "exposure time",
+    "house fire",
+    "maker's claim"
+  ],
+  "skipgrams": [
+    "fire…rating",
+    "document…bag",
+    "water…resistant",
+    "exposure…time",
+    "silicone…fiberglass"
+  ],
+  "nlpTerms": [
+    "fiberglass",
+    "zipper",
+    "heat",
+    "flames",
+    "passport",
+    "cash",
+    "water",
+    "temperature",
+    "lock",
+    "pockets",
+    "safe",
+    "certified",
+    "evacuation",
+    "mold",
+    "desiccant",
+    "layers"
+  ],
+  "questions": [
+    "Are fireproof document bags really fireproof?",
+    "How long does a fireproof document bag protect papers?",
+    "What does UL94 V-0 mean on a fireproof bag?",
+    "Is a fireproof bag better than a fireproof box or safe?",
+    "Are fireproof document bags waterproof?",
+    "Can I keep USB drives or a backup disk in a fireproof bag?"
+  ],
+  "contentGaps": [
+    "No top result says who certified the 2,000°F or 5,200°F claim; none is a UL 72 or Intertek contents rating",
+    "No top result explains that UL 94 V-0 / VTM-0 is a short flame test on the fabric, not a test of the papers inside",
+    "No exposure time is published for any bag, so the temperature number alone means little",
+    "Digital media (USB drives, backup disks) need a Class 125 container, which no bag claims",
+    "Moisture and mold when a bag sits sealed inside a safe"
+  ],
+  "outline": [
+    { "h2": "The best fireproof document bag, in short", "intent": "direct answer and picks", "h3": [] },
+    { "h2": "Fireproof document bags we recommend", "intent": "product reviews", "h3": ["ENGPOW 5200°F Fireproof Document Bag with Lock: Best organizer bag", "ROLOWAY Fireproof Document & Money Bags: Best large bag"] },
+    { "h2": "Fireproof document bag comparison", "intent": "compare specs and who made each claim", "h3": [] },
+    { "h2": "Is a fireproof document bag really fireproof?", "intent": "honest fire-resistance answer: exposure time, UL 94 vs UL 72", "h3": ["What UL94 V-0 and VTM-0 actually test", "Paper vs USB drives"] },
+    { "h2": "How we picked these bags", "intent": "method and story block", "h3": [] },
+    { "h2": "Where a fireproof document bag works best, and the fixes owners use", "intent": "bag inside a safe, water, mold, grab-and-go; pain points", "h3": [] }
+  ],
+  "targetWords": 1300,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.bobvila.com/articles/best-fireproof-document-bag/",
+      "https://www.bobvila.com/articles/engpow-fireproof-file-organizer-bag-review/",
+      "https://trueprepper.com/best-document-bag/",
+      "https://wgntv.com/reviews/br/home-br/storage-organization-br/best-fireproof-safes-and-document-storage-to-have-in-your-home/",
+      "https://www.dailypress.com/2020/02/21/the-best-fireproof-document-bag/",
+      "https://szoneier.com/best-fireproof-document-bag-made-in-usa/"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Bob Vila (What We Like / What We Don't Like) and BestReviews (What we like / What we dislike) both use pros and cons per bag; TruePrepper uses a spec list and the WGN BestReviews list a short paragraph.",
+    "avgWords": 1300,
+    "avgProducts": 4,
+    "commonSections": ["top picks", "per-product review", "how we tested or chose", "what to consider (heat resistance, size, water, closure)", "FAQ"],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    { "position": 1, "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/", "title": "Can anyone recommend a fireproof and waterproof document bag or ..." },
+    { "position": 2, "url": "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/", "title": "The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter" },
+    { "position": 3, "url": "https://www.amazon.com/Waterproof-Fireproof-Document-Bag-Insulated/dp/B0BJQWCKR9", "title": "Amazon.com: Waterproof Fireproof Document Bag - 5200°F with Heat ..." },
+    { "position": 4, "url": "https://www.sentrysafe.com/product/FBWLZ0", "title": "Fiberglass Fire Resistant Bag for Documents, 15.0 in x 11.0 in x 1.5 in" },
+    { "position": 5, "url": "https://www.chicagotribune.com/2025/04/30/fireproof-safes-and-document-storage-are-essential-for-emergency-preparedness/", "title": "Fireproof safes and document storage are essential for emergency ..." },
+    { "position": 6, "url": "https://www.bobvila.com/articles/engpow-fireproof-file-organizer-bag-review/", "title": "Tested and Reviewed: The Engpow Fireproof Document Bag - Bob Vila" },
+    { "position": 7, "url": "https://www.facebook.com/groups/1159437145471278/posts/1742252470523073/", "title": "What are the best fireproof and waterproof document storage ..." },
+    { "position": 8, "url": "https://anhaline78.rssing.com/chan-78656014/article26.html", "title": "2024's Best Fireproof Document Bags to Keep Papers Safe, Tested" },
+    { "position": 9, "url": "https://szoneier.com/best-fireproof-document-bag-made-in-usa/", "title": "10 Best Fireproof Document Bag Made in USA:Recommended Guide" },
+    { "position": 10, "url": "https://www.youtube.com/watch?v=91fOB5V_KDc", "title": "Real Fireproof Comparison Test! Roloway vs The Good ... - YouTube" }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 0,
+    "withYear": 2,
+    "withNumber": 3,
+    "commonModifiers": ["fireproof and waterproof", "tested", "documents", "5200°F"],
+    "gap": "Who actually certified the heat claim, and how long a bag lasts (no top title promises the honest fire-resistant answer)"
+  },
+  "commonPoints": [
+    "Bags are made of silicone-coated fiberglass, often with an aluminum foil layer",
+    "Listings advertise 2,000°F to 5,200°F heat resistance",
+    "Most are sold as water-resistant and close with a zipper plus a flap",
+    "Size ranges from a passport pouch to a briefcase-size organizer",
+    "Store the bag inside a fire-rated safe for better protection"
+  ],
+  "ourGain": [
+    { "point": "Every bag's heat number is the maker's claim: the standard cited is UL 94, a small-flame test on the fabric, not a UL 72 test of the papers inside", "source": "https://www.ul.com/services/combustion-fire-tests-plastics" },
+    { "point": "No bag lists an exposure time; SentrySafe, which sells UL-classified safes, says no document bag will survive a significant structure fire", "source": "https://www.sentrysafe.com/product/FBWLZ0" },
+    { "point": "Paper starts to discolor just above 350°F and ignites at 451°F, which is why the inside temperature and time matter more than the outside number", "source": "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes" },
+    { "point": "Owner fixes for water, mold and backup drives: double-bag in a waterproof pouch, keep the bag inside a fire-rated safe, and keep USB drives in a Class 125-rated container", "source": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/" }
+  ],
+  "painPoints": [
+    {
+      "id": "fireproof-safes-bag-not-really-fireproof",
+      "pain": "\"Fireproof\" document bags list 2,000-5,200°F but no exposure time, and owners doubt they survive a real house fire",
+      "details": "Buyers see huge temperature numbers but no duration or lab name; forum answers say the bags buy minutes and belong inside a fire-rated safe.",
+      "sources": ["https://www.reddit.com/r/preppers/comments/ip2ivq/best_fireproof_document_bag/", "https://www.reddit.com/r/Safes/comments/znpjrd/i_recently_tested_some_fireproof_document_bags_do/"],
+      "quotes": [
+        { "text": "If the bag doesn't list an exposure time, it's not a legitimate product.", "url": "https://www.reddit.com/r/preppers/comments/ip2ivq/best_fireproof_document_bag/" },
+        { "text": "They claim to be rated for up to 5200F it seems too good to be true.", "url": "https://www.reddit.com/r/Safes/comments/znpjrd/i_recently_tested_some_fireproof_document_bags_do/" }
+      ]
+    },
+    {
+      "id": "fireproof-safes-bag-ul94-claim-confusing",
+      "pain": "Bag listings cite UL94 V-0 or VTM-0 and owners cannot tell what that test proves",
+      "details": "Listings quote UL 94 classes as if they were contents fire ratings.",
+      "sources": ["https://www.reddit.com/r/homedefense/comments/dy252q/any_tips_about_fireproof_document_bags/"],
+      "quotes": [{ "text": "They often say \"passes standard UL94 VTM-0\"", "url": "https://www.reddit.com/r/homedefense/comments/dy252q/any_tips_about_fireproof_document_bags/" }]
+    },
+    {
+      "id": "fireproof-safes-bag-backup-drives-digital-media",
+      "pain": "Owners want to keep backup drives and USB sticks in a fire bag and do not know if the heat inside will ruin them",
+      "details": "Paper ratings do not cover digital media, which needs a Class 125 rating.",
+      "sources": ["https://www.reddit.com/r/DataHoarder/comments/dy4esy/any_tips_about_fireproof_document_bags/"],
+      "quotes": [{ "text": "I would want to use one to store a backup disk drive or two", "url": "https://www.reddit.com/r/DataHoarder/comments/dy4esy/any_tips_about_fireproof_document_bags/" }]
+    },
+    {
+      "id": "fireproof-safes-bag-water-hose-not-waterproof",
+      "pain": "Fire-hose water and flooding soak papers in a bag sold as fireproof and water-resistant",
+      "details": "Bags are water-resistant, not waterproof; owners double-bag or keep the bag inside a safe.",
+      "sources": ["https://www.reddit.com/r/LifeProTips/comments/18w21ej/lpt_keep_important_documents_in_a_fireproof_bag/", "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/"],
+      "quotes": [
+        { "text": "If the fireproof bag isn't also waterproof, keep them in a ziplock bag inside that.", "url": "https://www.reddit.com/r/LifeProTips/comments/18w21ej/lpt_keep_important_documents_in_a_fireproof_bag/" },
+        { "text": "Get a waterproof pouch, store documents inside, and put it inside fireproof safe.", "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/" }
+      ]
+    },
+    {
+      "id": "home-safes-mold-and-moisture-in-fire-safe",
+      "pain": "Papers, passports and coins grow mold inside a fire-rated home safe",
+      "details": "Fire-resistant safes hold moisture and seal closed; owners air them out and use desiccant.",
+      "sources": ["https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe", "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/"],
+      "quotes": [{ "text": "Opened up my fireproof safe to find my passport growing mold on", "url": "https://www.reddit.com/r/Wellthatsucks/comments/18cd0yc/opened_up_my_fireproof_safe_to_find_my_passport/" }]
+    }
+  ],
+  "stats": [
+    { "number": "every 96 seconds", "claim": "a US home structure fire was reported on average in 2024 (NFPA)", "url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/fire-loss-in-the-united-states", "quote": "On average, a home structure fire was reported every 96 seconds" },
+    { "number": "12", "claim": "UL 94 has 12 flame classifications for materials, based on small-scale flame tests", "url": "https://www.ul.com/services/combustion-fire-tests-plastics", "quote": "There are 12 UL 94 specified flame classifications assigned to materials based on the results of these small-scale flame tests." },
+    { "number": "3 seconds", "claim": "in the UL 94 VTM thin-material test the flame is applied for only 3 seconds", "url": "https://www.specialchem.com/plastics/guide/flammability-ul94", "quote": "In this test, the flame is applied only for 3 seconds." },
+    { "number": "451° F", "claim": "paper discolors just above 350°F, scorches near 410°F and ignites at 451°F", "url": "https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes", "quote": "It will ignite at 451° F" },
+    { "number": "10 minutes", "claim": "Bob Vila held each bag in front of a 68,000 BTU propane heater for 10 minutes", "url": "https://www.bobvila.com/articles/best-fireproof-document-bag/", "quote": "We kept each bag in front of the heater for 10 minutes." }
+  ],
+  "videos": [
+    { "id": "bAVNWySF7hE", "title": "Best Fireproof Document Bag/Safe! Real Fire Test of 10 Document Bags/Safes", "channel": "Matt's Real Reviews", "url": "https://www.youtube.com/watch?v=bAVNWySF7hE", "section": "Is a fireproof document bag really fireproof?" }
+  ],
+  "serpProducts": [
+    { "name": "ENGPOW 5200°F Fireproof Document Bag with Lock (B0CC1TDZR5)", "pages": ["https://www.bobvila.com/articles/best-fireproof-document-bag/", "https://wgntv.com/reviews/br/home-br/storage-organization-br/best-fireproof-safes-and-document-storage-to-have-in-your-home/"] },
+    { "name": "ROLOWAY Fireproof Document & Money Bags, large (B07GL3479V)", "pages": ["https://www.bobvila.com/articles/best-fireproof-document-bag/", "https://www.dailypress.com/2020/02/21/the-best-fireproof-document-bag/"] },
+    { "name": "DocSafe (three different models, one page each: B09DPKCMHB Bob Vila, B08D6HHHNC TruePrepper, B0CRR524VK BestReviews; no single model on 2 pages, left out)", "pages": ["https://www.bobvila.com/articles/best-fireproof-document-bag/", "https://trueprepper.com/best-document-bag/", "https://wgntv.com/reviews/br/home-br/storage-organization-br/best-fireproof-safes-and-document-storage-to-have-in-your-home/"] }
+  ]
+}

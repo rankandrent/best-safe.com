@@ -400,7 +400,7 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -442,7 +442,8 @@
     },
     "painPoints": [
       "home-safes-mold-and-moisture-in-fire-safe"
-    ]
+    ],
+    "publishedAt": "2026-10-21T11:08:34.465Z"
   },
   {
     "status": "merged",

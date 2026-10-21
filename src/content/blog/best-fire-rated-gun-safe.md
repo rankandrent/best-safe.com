@@ -434,6 +434,7 @@ heroAlt: >-
   Best Fire Rated Gun Safe – 4 Picks and Who Certified Each Rating – Best Safe
   buying guide
 related:
+  - best-fireproof-document-bag
   - wall-mounted-gun-safe
 ---
 

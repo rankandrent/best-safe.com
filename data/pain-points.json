@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:59:02.057Z",
+  "updatedAt": "2026-10-21T11:06:30.808Z",
   "categories": {
     "gun-safes": [
       {
@@ -2385,6 +2385,164 @@
           "best ammo can",
           "ammo storage"
         ]
+      },
+      {
+        "id": "safe-accessories-hygrometers-disagree",
+        "pain": "Two hygrometers in the same safe disagree, and cheap dial gauges read wrong",
+        "details": "Owners put two gauges side by side and get readings 5 points apart, or learn that cheap dial hygrometers drift. They ask which one to trust; replies point to consumer-grade tolerance, the salt test and digital units.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/",
+            "platform": "forum",
+            "title": "Safe hygrometers | BobIsTheOilGuy",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/1jo5qy7/hygrometer_for_gun_safe/",
+            "platform": "reddit",
+            "title": "Hygrometer for gun safe | r/guns",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+            "platform": "forum",
+            "title": "Inexpensive hygrometer (check humidity level in your safe) | SIG Talk",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "They aren't precision instruments.",
+            "url": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/"
+          },
+          {
+            "text": "Obviously both COULD be way off in the case of consumer grade hygrometers it seems.",
+            "url": "https://bobistheoilguy.com/forums/threads/safe-hygrometers.367973/"
+          },
+          {
+            "text": "Stay away from the cheap dial ones. They are inaccurate as hell.",
+            "url": "https://www.reddit.com/r/guns/comments/1jo5qy7/hygrometer_for_gun_safe/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "gun safe hygrometer accurate",
+          "hygrometer salt test",
+          "which hygrometer is accurate"
+        ],
+        "keywords": [
+          "gun safe hygrometer"
+        ],
+        "coveredBy": [
+          "gun-safe-hygrometer"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "safe-accessories-read-humidity-without-opening",
+        "pain": "Checking the gauge means opening the safe, and wireless sensors lose signal through the steel or quit",
+        "details": "Owners want to read the humidity without opening the door. Wireless remote sensors are the answer, but owners report short range through a steel box, weak magnets and sensors that stop reporting after months.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+            "platform": "forum",
+            "title": "What are you using to monitor humidity in gun safe? | Sniper's Hide",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/homeautomation/comments/13irqol/gun_safe_hygrometer/",
+            "platform": "reddit",
+            "title": "Gun Safe Hygrometer? | r/homeautomation",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://deansafe.com/products/lockdown-wireless-digital-hygrometer-wireless-safe-sensor",
+            "platform": "retailer-reviews",
+            "title": "Lockdown Wireless Digital Hygrometer reviews | Dean Safe",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "they only seem to hold up for about 6mo to a year then they stop working and won't read the inside censer anymore.",
+            "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+          },
+          {
+            "text": "Obviously, getting radio out of a large, metal box is going to be a challenge.",
+            "url": "https://www.reddit.com/r/homeautomation/comments/13irqol/gun_safe_hygrometer/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "They have to be very close to each other in order to connect.",
+            "url": "https://deansafe.com/products/lockdown-wireless-digital-hygrometer-wireless-safe-sensor"
+          }
+        ],
+        "searches": [
+          "wireless hygrometer gun safe",
+          "monitor gun safe humidity without opening"
+        ],
+        "keywords": [
+          "gun safe hygrometer",
+          "wireless gun safe hygrometer"
+        ],
+        "coveredBy": [
+          "gun-safe-hygrometer"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "safe-accessories-what-humidity-to-hold",
+        "pain": "Owners do not know what humidity number to hold in the safe, and some dry it too far",
+        "details": "Threads ask what percent to keep; answers range from 30 to 55 percent. Owners with wood stocks worry about drying them out, and some in dry climates read 10 percent inside the safe.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/",
+            "platform": "forum",
+            "title": "Inexpensive hygrometer (check humidity level in your safe) | SIG Talk",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/",
+            "platform": "forum",
+            "title": "What are you using to monitor humidity in gun safe? | Sniper's Hide",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/Locksmith/comments/111nezj/accurate_affordable_hygrometer_for_gun_safe/",
+            "platform": "reddit",
+            "title": "Accurate affordable hygrometer for gun safe? | r/Locksmith",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Good info, what % do you keep at?",
+            "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+          },
+          {
+            "text": "Too dry and wood stocks and grips can dry out, and we all know what happens if it's too humid.",
+            "url": "https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/"
+          },
+          {
+            "text": "a lot of people think you need it super dry in a safe, which isn't true at all",
+            "url": "https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
+          }
+        ],
+        "searches": [
+          "ideal humidity for gun safe",
+          "what humidity should a gun safe be"
+        ],
+        "keywords": [
+          "gun safe hygrometer",
+          "ideal humidity for gun safe"
+        ],
+        "coveredBy": [
+          "gun-safe-hygrometer"
+        ],
+        "foundAt": "2026-10-21"
       }
     ],
     "lock-boxes": [
@@ -2952,6 +3110,199 @@
         "coveredBy": [
           "floor-safe-installation"
         ],
+        "foundAt": "2026-10-21"
+      }
+    ],
+    "fireproof-safes": [
+      {
+        "id": "fireproof-safes-bag-not-really-fireproof",
+        "pain": "\"Fireproof\" document bags list 2,000-5,200°F but no exposure time, and owners doubt they survive a real house fire",
+        "details": "Buyers see huge temperature numbers on soft fiberglass bags but no duration or lab name. Forum answers say the bags are fire-resistant, buy minutes, and belong inside a fire-rated safe.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/preppers/comments/ip2ivq/best_fireproof_document_bag/",
+            "platform": "reddit",
+            "title": "Best fireproof document bag? | r/preppers",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/znpjrd/i_recently_tested_some_fireproof_document_bags_do/",
+            "platform": "reddit",
+            "title": "I recently tested some \"fireproof\" document bags... | r/Safes",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/ebikes/comments/sepu5m/anyone_use_fire_proof_bags_i_cant_tell_if_these/",
+            "platform": "reddit",
+            "title": "Anyone use Fire proof bags | r/ebikes",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.sentrysafe.com/product/FBWLZ0",
+            "platform": "review",
+            "title": "SentrySafe FBWLZ0 fire resistant bag (maker page)",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "If the bag doesn't list an exposure time, it's not a legitimate product.",
+            "url": "https://www.reddit.com/r/preppers/comments/ip2ivq/best_fireproof_document_bag/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "most fireproof bags are fire-resistant and would not survive a 30-minute house fire.",
+            "url": "https://www.reddit.com/r/preppers/comments/ip2ivq/best_fireproof_document_bag/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "They claim to be rated for up to 5200F it seems too good to be true.",
+            "url": "https://www.reddit.com/r/Safes/comments/znpjrd/i_recently_tested_some_fireproof_document_bags_do/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "At best they are fire resistant, not fire proof.",
+            "url": "https://www.reddit.com/r/ebikes/comments/sepu5m/anyone_use_fire_proof_bags_i_cant_tell_if_these/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "are fireproof document bags really fireproof",
+          "how long does a fireproof bag last in a fire",
+          "fireproof bag 5200 degrees real"
+        ],
+        "keywords": [
+          "best fireproof document bag"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "fireproof-safes-bag-ul94-claim-confusing",
+        "pain": "Bag listings cite UL94 V-0 or VTM-0 and owners cannot tell what that test actually proves",
+        "details": "Listings quote UL 94 flammability classes as if they were fire ratings for the contents. Owners in r/homedefense and r/DataHoarder note it is a short flame test on the material itself.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/homedefense/comments/dy252q/any_tips_about_fireproof_document_bags/",
+            "platform": "reddit",
+            "title": "Any tips about \"fireproof\" document bags ? | r/homedefense",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/DataHoarder/comments/dy4esy/any_tips_about_fireproof_document_bags/",
+            "platform": "reddit",
+            "title": "Any tips about \"fireproof\" document bags ? | r/DataHoarder",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "They often say \"passes standard UL94 VTM-0\"",
+            "url": "https://www.reddit.com/r/homedefense/comments/dy252q/any_tips_about_fireproof_document_bags/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "what does UL94 V-0 mean on a fireproof bag",
+          "fireproof bag UL94 VTM-0",
+          "is UL94 a fire rating"
+        ],
+        "keywords": [
+          "best fireproof document bag"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "fireproof-safes-bag-backup-drives-digital-media",
+        "pain": "Owners want to keep backup drives and USB sticks in a fire bag and do not know if the heat inside will ruin them",
+        "details": "Data hoarders and families with photo backups ask whether a bag protects disks. Paper ratings (UL Class 350) do not cover media, which needs a Class 125 rating.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/DataHoarder/comments/dy4esy/any_tips_about_fireproof_document_bags/",
+            "platform": "reddit",
+            "title": "Any tips about \"fireproof\" document bags ? | r/DataHoarder",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/",
+            "platform": "reddit",
+            "title": "Can anyone recommend a fireproof and waterproof document bag | r/BuyItForLife",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I would want to use one to store a backup disk drive or two",
+            "url": "https://www.reddit.com/r/DataHoarder/comments/dy4esy/any_tips_about_fireproof_document_bags/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "a safe with a UL Class 350/150/125 rating",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "fireproof bag for hard drive",
+          "will a usb drive survive in a fireproof bag",
+          "fireproof bag for backup drives"
+        ],
+        "keywords": [
+          "best fireproof document bag"
+        ],
+        "coveredBy": [],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "fireproof-safes-bag-water-hose-not-waterproof",
+        "pain": "Fire-hose water and flooding soak papers in a bag sold as fireproof and water-resistant",
+        "details": "Owners are told bags are water-resistant, not waterproof, and to double up with a zip-top or waterproof pouch, or keep the bag inside a fire-rated safe.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LifeProTips/comments/18w21ej/lpt_keep_important_documents_in_a_fireproof_bag/",
+            "platform": "reddit",
+            "title": "LPT: Keep important documents in a fireproof bag | r/LifeProTips",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/",
+            "platform": "reddit",
+            "title": "Can anyone recommend a fireproof and waterproof document bag | r/BuyItForLife",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.sentrysafe.com/product/FBWLZ0",
+            "platform": "review",
+            "title": "SentrySafe FBWLZ0 fire resistant bag (maker page)",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "If the fireproof bag isn't also waterproof, keep them in a ziplock bag inside that.",
+            "url": "https://www.reddit.com/r/LifeProTips/comments/18w21ej/lpt_keep_important_documents_in_a_fireproof_bag/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Get a waterproof pouch, store documents inside, and put it inside fireproof safe.",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1dc8sa0/can_anyone_recommend_a_fireproof_and_waterproof/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "is a fireproof bag waterproof",
+          "fireproof bag fire hose water",
+          "fireproof and waterproof document bag"
+        ],
+        "keywords": [
+          "best fireproof document bag"
+        ],
+        "coveredBy": [],
         "foundAt": "2026-10-21"
       }
     ]
