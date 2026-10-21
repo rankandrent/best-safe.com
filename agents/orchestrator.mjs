@@ -109,7 +109,11 @@ export function nextKeyword(queue, state) {
     return longTail;
   };
   const tieBreak = (k) => Math.min(Number(k.priority) || 0, k.priority >= 100 ? 600 : 10) / (k.priority >= 100 ? 300 : 5);
+  // Owner rule 2026-10-21: "best ..." buyer keywords (best X for Y) are written first; how-tos and
+  // other informational keywords only fill in when no "best" keyword is left.
+  const bestFirst = (k) => (/^best\b/i.test(String(k.keyword).trim()) ? 5000 : 0);
   const score = (k) =>
+    bestFirst(k) +
     demand(k) +
     tieBreak(k) -
     recent.filter((c) => c === k.category).length * 1.5 +
