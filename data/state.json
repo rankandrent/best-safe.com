@@ -161,6 +161,13 @@
       "keyword": "sentry safe keypad not working",
       "category": "safe-guides",
       "funnel": "tofu"
+    },
+    {
+      "date": "2026-10-21",
+      "slug": "best-home-safe",
+      "keyword": "best home safe",
+      "category": "home-safes",
+      "funnel": "bofu"
     }
   ],
   "translated": []

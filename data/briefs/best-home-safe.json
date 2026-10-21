@@ -1,0 +1,124 @@
+{
+  "centralEntity": "home safe",
+  "entityVariants": ["best home safe", "home safes", "safe for home", "home security safe", "safe box for home", "small safe for home"],
+  "entities": [
+    {"name": "home safe", "type": "product category", "relation": "central entity"},
+    {"name": "UL 72 fire rating", "type": "standard", "relation": "independent fire certification a home safe can carry"},
+    {"name": "UL 1037 Residential Security Container (RSC)", "type": "standard", "relation": "entry-level independent burglary rating (5-minute hand-tool attack)"},
+    {"name": "Intertek ETL Verified", "type": "certification", "relation": "independent water and drop verification on SentrySafe fire safes"},
+    {"name": "SentrySafe SFW123GDC", "type": "product", "relation": "fire, water and entry-level security pick"},
+    {"name": "Amazon Basics Steel Home Security Electronic Safe", "type": "product", "relation": "budget burglary-deterrent pick with no fire claim"},
+    {"name": "Viking Security Safe VS-20BLX", "type": "product", "relation": "small biometric pick with no fire claim"},
+    {"name": "live-locking bolts", "type": "attribute", "relation": "door bolt work"},
+    {"name": "override key", "type": "attribute", "relation": "backup entry when batteries or biometrics fail"},
+    {"name": "bolt-down hardware", "type": "attribute", "relation": "anchoring to stop carry-off"},
+    {"name": "steel gauge", "type": "attribute", "relation": "lower number = thicker steel"},
+    {"name": "B-rate safe", "type": "construction class", "relation": "dealer-sold burglary safe class recommended on r/Safes"}
+  ],
+  "attributes": ["fire rating and certifier", "burglary rating", "water rating", "lock type and backup entry", "steel gauge", "locking bolts", "interior capacity (cu ft)", "weight", "bolt-down hardware", "fingerprint storage", "interior light"],
+  "ngrams": ["best home safe", "home safe", "fire and water", "bolt down", "backup key", "digital keypad", "cubic feet", "burglary rating", "fire rating", "live-locking bolts"],
+  "skipgrams": ["safe…bolted", "fire…burglary", "keypad…backup key", "UL…classified", "home…documents"],
+  "nlpTerms": ["fire-resistant", "pry-resistant hinge bar", "motorized deadbolt", "non-volatile memory", "anchor bolts", "passports", "jewelry", "cash", "USB drives", "desiccant", "relative humidity", "forced entry"],
+  "questions": [
+    "What is the best home safe for most people?",
+    "Is there a home safe that protects against both fire and burglary?",
+    "Do I need to bolt down a home safe?",
+    "What size home safe do I need?",
+    "Are biometric home safes reliable?",
+    "What happens if the batteries die in a home safe?",
+    "Where should I put a safe in my house?"
+  ],
+  "contentGaps": [
+    "Which rating on each pick is independent (UL, Intertek ETL) and which safes carry no fire or burglary rating at all",
+    "What a UL RSC burglary rating actually tests and why none of the popular budget picks carry it",
+    "Matching cubic feet to what you store (binder, passports, a handgun, a laptop)",
+    "Owner-reported delivery dents and lockouts, with the fix",
+    "When to step up to a dealer-sold burglary-and-fire safe"
+  ],
+  "outline": [
+    {"h2": "Best home safe – short answer and top picks", "intent": "direct answer and comparison table", "h3": []},
+    {"h2": "How we picked these home safes", "intent": "method: SERP overlap, maker specs, owner reviews", "h3": []},
+    {"h2": "Our picks for the best home safe", "intent": "product reviews", "h3": ["SentrySafe SFW123GDC: Best overall for fire and theft", "Amazon Basics Steel Home Security Electronic Safe: Best budget theft deterrent", "Viking Security Safe VS-20BLX: Best small biometric safe"]},
+    {"h2": "Fire or burglary – what each rating really proves", "intent": "ourGain: certifier and scope of each rating", "h3": ["Fire ratings", "Burglary ratings", "When to step up to a dealer safe"]},
+    {"h2": "What size home safe do you need?", "intent": "capacity vs contents", "h3": []},
+    {"h2": "Bolting it down and where to put it", "intent": "anchoring and placement", "h3": []},
+    {"h2": "Problems owners run into, and the fix", "intent": "pain points", "h3": ["Locked out by batteries or a lost key", "Dents on delivery", "Mold and moisture inside a fire safe"]},
+    {"h2": "Which home safe should you buy?", "intent": "verdict and next links", "h3": []}
+  ],
+  "targetWords": 2500,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://www.cnn.com/cnn-underscored/home/best-home-safes",
+      "https://www.businessinsider.com/guides/home/best-home-safe",
+      "https://www.bobvila.com/reviews/best-home-safe/",
+      "https://www.topfirearmreviews.com/post/best-home-safes",
+      "https://alfred.camera/blog/best-home-safe/",
+      "https://community.clark.com/t/home-safe-recommendation/9030"
+    ],
+    "productStyle": "pros-cons",
+    "productStyleReason": "Business Insider and Bob Vila show What we like / What we don't like lists per product; CNN and Top Firearm Reviews use paragraphs. Pros-cons lists dominate the strongest pages.",
+    "avgWords": 3000,
+    "avgProducts": 7,
+    "commonSections": ["picks with short reviews", "comparison table", "what to look for (lock type, fire rating, size, bolt-down)", "FAQs", "how we tested or chose"],
+    "usesComparisonTable": true,
+    "usesFaq": true,
+    "usesBuyingGuide": true
+  },
+  "serpTitles": [
+    {"position": 1, "url": "https://www.topfirearmreviews.com/post/best-home-safes", "title": "Best Home Safes [Hands-On]: All Sizes & Budgets"},
+    {"position": 2, "url": "https://www.sentrysafe.com/products/products?bestOfBest=true", "title": "Find The Safe That's Right For You | SentrySafe"},
+    {"position": 3, "url": "https://www.cnn.com/cnn-underscored/home/best-home-safes", "title": "Best home safes, according to security experts | CNN Underscored"},
+    {"position": 4, "url": "https://www.reddit.com/r/Safes/comments/1jnot63/home_safe_recommendations/", "title": "Home Safe Recommendations - Reddit"},
+    {"position": 5, "url": "https://www.businessinsider.com/guides/home/best-home-safe", "title": "The Best Home Safes for Flood, Fire, and Theft Protection"},
+    {"position": 6, "url": "https://mammothsafes.com/collections/home-safes", "title": "Shop Home Safes, Security Safes, We Offer The Best ... - Mammoth Safes"},
+    {"position": 7, "url": "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/", "title": "The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter"},
+    {"position": 8, "url": "https://www.homedepot.com/b/Tools-Safety-Security-Safes-Home-Safes/Best-Rated/N-5yc1vZc29nZbwo5q", "title": "Best Rated - Home Safes - The Home Depot"},
+    {"position": 9, "url": "https://www.amazon.com/Best-Sellers-Home-Safes-Safe-Accessories/zgbs/hi/3180371", "title": "Amazon Best Sellers: Best Home Safes & Safe Accessories"},
+    {"position": 10, "url": "https://community.clark.com/t/home-safe-recommendation/9030", "title": "Home Safe Recommendation - Clark Howard Community"}
+  ],
+  "titlePattern": {
+    "keywordAtStart": 2,
+    "withYear": 1,
+    "withNumber": 1,
+    "commonModifiers": ["home safes", "fire and theft", "all sizes", "according to experts"],
+    "gap": "Which rating on each safe is independent (fire vs burglary) and which size fits what you store"
+  },
+  "commonPoints": [
+    "Bolt the safe down; a light safe can be carried off",
+    "Fireproof means fire-resistant for a rated time and temperature",
+    "Electronic and biometric locks need a backup key",
+    "Pick a size for what you store",
+    "Look for UL or ETL ratings rather than vague claims"
+  ],
+  "ourGain": [
+    {"point": "Which rating on each pick is independent: UL fire and Intertek ETL water on the SFW123GDC, no fire or burglary rating on the two theft-only picks", "source": "https://www.sentrysafe.com/product/SFW123GDC ; https://vikingsecuritysafe.com/product-detail/viking-vs-20blx-biometric-fingerprint-mini-safe/"},
+    {"point": "What the UL RSC burglary rating tests (5-minute hand-tool attack, one technician) and that none of the popular budget picks carry it", "source": "https://www.ul.com/news/residential-security-container-standard-revised"},
+    {"point": "Fire versus burglary trade-off owners ask about, and when a dealer-sold B-rate or UL-rated safe is the answer", "source": "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/ ; https://www.reddit.com/r/Safes/comments/1jnot63/home_safe_recommendations/"},
+    {"point": "Owner-reported delivery dents and lockouts on the SFW123GDC and the maker's position that a dented safe still holds its ratings", "source": "https://www.walmart.com/reviews/product/21395412"},
+    {"point": "Size matched to contents, including an owner whose 3-ring binder only fits standing up in a 1.23 cu ft safe", "source": "https://www.sentrysafe.com/product/SFW123GDC"}
+  ],
+  "serpProducts": [
+    {"name": "SentrySafe SFW123GDC", "pages": ["https://www.businessinsider.com/guides/home/best-home-safe", "https://www.cnn.com/cnn-underscored/home/best-home-safes", "https://www.bobvila.com/reviews/best-home-safe/", "https://alfred.camera/blog/best-home-safe/", "https://www.bhg.com/best-home-safes-7972653", "https://www.thespruce.com/best-fireproof-safes-4120066"]},
+    {"name": "Amazon Basics Steel Home Security Safe", "pages": ["https://www.cnn.com/cnn-underscored/home/best-home-safes", "https://www.businessinsider.com/guides/home/best-home-safe", "https://www.bobvila.com/reviews/best-home-safe/", "https://www.topfirearmreviews.com/post/best-home-safes", "https://www.bhg.com/best-home-safes-7972653"]},
+    {"name": "Viking Security Safe VS-20BLX", "pages": ["https://www.businessinsider.com/guides/home/best-home-safe", "https://www.cnn.com/cnn-underscored/home/best-home-safes"]},
+    {"name": "SentrySafe CHW20221 (single top-10 page for this keyword; covered in best-fireproof-safe)", "pages": ["https://www.bobvila.com/reviews/best-home-safe/"]},
+    {"name": "Honeywell 2605 / Hollon HS-310E / AMSEC BF2116 / Protex PWS-1814E (one page each)", "pages": ["https://www.cnn.com/cnn-underscored/home/best-home-safes"]}
+  ],
+  "painPoints": [
+    {"id": "home-safes-fire-vs-burglary-choose", "pain": "Buyers cannot tell whether one home safe can protect against both fire and burglars, or if they must choose", "details": "First-time buyers ask in r/Safes and r/homesecurity whether a single safe does both well.", "sources": ["https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/", "https://www.reddit.com/r/homesecurity/comments/1s8ym54/fire_vs_burglars_is_there_actually_a_home_safe/", "https://www.reddit.com/r/fatFIRE/comments/18mid1p/any_recommendations_for_top_quality_burglary_and/"], "quotes": [{"text": "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?", "url": "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/"}]},
+    {"id": "home-safes-fire-and-security-ratings-hard-to-compare", "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)", "details": "Shoppers compare store-brand safes on fire minutes and temperature, then ask what UL and TL ratings actually mean.", "sources": ["https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"], "quotes": [{"text": "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.", "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"}]},
+    {"id": "home-safes-lightweight-needs-bolting", "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them", "details": "Owners debate bolting for theft versus fire seal and floor damage.", "sources": ["https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"], "quotes": [{"text": "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts.", "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"}]},
+    {"id": "home-safes-lost-or-jammed-key", "pain": "Backup key is lost, never supplied or jams in the lock", "details": "Advice: keep the key code and spare key away from the safe and register the safe with the maker.", "sources": ["https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"], "quotes": [{"text": "If you lost the override key it's a problem.", "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"}]},
+    {"id": "home-safes-mold-and-moisture-in-fire-safe", "pain": "Papers, passports and coins grow mold inside a fire-rated home safe", "details": "Fire-resistant safes hold moisture and seal closed; owners air them out and use desiccant.", "sources": ["https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"], "quotes": [{"text": "Fireproof safes are notorious for holding moisture.", "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"}]}
+  ],
+  "stats": [
+    {"number": "62.8 percent", "claim": "share of US burglaries that were of residential properties (FBI UCR 2019)", "url": "https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/burglary", "quote": "Burglaries of residential properties accounted for 62.8 percent of all burglary offenses."},
+    {"number": "every 96 seconds", "claim": "a US home structure fire was reported on average in 2024 (NFPA)", "url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/fire-loss-in-the-united-states", "quote": "On average, a home structure fire was reported every 96 seconds"},
+    {"number": "five-minute attack", "claim": "UL 1037 RSC attack level one test by one technician with common hand tools (UL)", "url": "https://www.ul.com/news/residential-security-container-standard-revised", "quote": "Attack level one requires the product to withstand a five-minute attack by one technician using common hand tools such as drills, screwdrivers and hammers."},
+    {"number": "1 hour in up to 1700°F", "claim": "SFW123GDC UL Classified fire rating (SentrySafe)", "url": "https://www.sentrysafe.com/product/SFW123GDC", "quote": "UL Classified to protect your valuables in a fire for 1 hour in up to 1700°F (927°C)"},
+    {"number": "18 lbs", "claim": "VS-20BLX weight (Viking)", "url": "https://vikingsecuritysafe.com/product-detail/viking-vs-20blx-biometric-fingerprint-mini-safe/", "quote": "Weight: 18 lbs. (8 kg)"}
+  ],
+  "videos": [
+    {"id": "GoFP3AgBcVw", "title": "SentrySafe SF Series Fire Protection & Testing Standards", "channel": "SentrySafe", "url": "https://www.youtube.com/watch?v=GoFP3AgBcVw", "section": "Fire or burglary – what each rating really proves"}
+  ]
+}
