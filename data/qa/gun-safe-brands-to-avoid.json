@@ -1,13 +1,19 @@
 {
   "slug": "gun-safe-brands-to-avoid",
   "pass": true,
-  "checkedAt": "2026-10-21T19:51:15.993Z",
+  "checkedAt": "2026-10-21T19:55:15.141Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "keyword overlaps /blog/best-safe-brands/ (\"gun safe brands to avoid\" overlaps \"best gun safe brands\" (100%))"
+    "keyword overlaps /blog/best-safe-brands/ (\"gun safe brands to avoid\" overlaps \"best gun safe brands\" (100%))",
+    "source didn't respond normally (403): https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported",
+    "source didn't respond normally (403): https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Biometric-Gunsafes-Malfunction-Allowing-Anyone-to-Open-CPSC-Widens-Recall-to-120000-More-Safes-Sold-by-4-Manufacturers-at-Walmart-Amazon-and-Bass-Pro-Shops-Serious-Risk-of-Death",
+    "source didn't respond normally (403): https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Unsecure-Firearms-133000-Sports-Afield-and-Sanctuary-Biometric-Gun-Safes-Recalled-Because-Anyone-Can-Open-the-Biometric-Lock",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Locksmith/comments/1egz5b5/liberty_gun_safe_help/",
+    "source didn't respond normally (403): https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/"
   ],
   "factCheck": {
     "verified": true,

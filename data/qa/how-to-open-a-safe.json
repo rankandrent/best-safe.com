@@ -1,12 +1,15 @@
 {
   "slug": "how-to-open-a-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T19:51:18.903Z",
+  "checkedAt": "2026-10-21T19:55:35.738Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
+    "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
   ],
   "factCheck": {
     "verified": true,
