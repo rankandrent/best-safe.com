@@ -98,22 +98,38 @@ faqs:
       to remove, but neither matches real anchor bolts.
 illustrations:
   - prompt: >-
-      Close-up of a gloved hand tightening a floor anchor bolt with a socket wrench inside the open bottom of a steel safe sitting on a concrete garage floor, a small box of anchor bolts and washers beside it, bright work light, low angle, realistic photograph.
-    alt: 'Tightening a floor anchor bolt with a socket wrench inside a safe on a concrete floor'
+      Close-up of a gloved hand tightening a floor anchor bolt with a socket
+      wrench inside the open bottom of a steel safe sitting on a concrete garage
+      floor, a small box of anchor bolts and washers beside it, bright work
+      light, low angle, realistic photograph.
+    alt: >-
+      Tightening a floor anchor bolt with a socket wrench inside a safe on a
+      concrete floor
     afterHeading: 2
   - prompt: >-
-      A compact steel home safe bolted onto a thick flat steel plate on the closet floor of a rented apartment, the plate visibly wider than the closet door frame, neatly folded clothes on a shelf above, soft daylight from the doorway, eye-level view, realistic photograph.
-    alt: 'Small safe bolted to a steel plate wider than the closet door frame in a rented apartment'
+      A compact steel home safe bolted onto a thick flat steel plate on the
+      closet floor of a rented apartment, the plate visibly wider than the
+      closet door frame, neatly folded clothes on a shelf above, soft daylight
+      from the doorway, eye-level view, realistic photograph.
+    alt: >-
+      Small safe bolted to a steel plate wider than the closet door frame in a
+      rented apartment
     afterHeading: 4
   - prompt: >-
-      A small steel home safe anchored to the floor in the corner of a quiet home office, a child's toy truck on the rug nearby, calm evening lamp light, three-quarter view at seated eye level, realistic photograph with a homey, secure feeling.
-    alt: 'Small home safe anchored to the floor in a home office corner, with a child''s toy nearby'
+      A small steel home safe anchored to the floor in the corner of a quiet
+      home office, a child's toy truck on the rug nearby, calm evening lamp
+      light, three-quarter view at seated eye level, realistic photograph with a
+      homey, secure feeling.
+    alt: >-
+      Small home safe anchored to the floor in a home office corner, with a
+      child's toy nearby
     afterHeading: 6
 videos:
-  - id: 'iGJL46vUWJ8'
+  - id: iGJL46vUWJ8
     afterHeading: 1
 author: editorial-team
 related:
+  - floor-safe-installation
   - sentry-safe-battery-replacement
   - best-gun-safe-for-apartment
   - how-to-move-a-gun-safe

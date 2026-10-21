@@ -1,0 +1,17 @@
+{
+  "slug": "floor-safe-installation",
+  "pass": true,
+  "checkedAt": "2026-10-21T10:51:50.507Z",
+  "errors": [],
+  "warnings": [
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "No products (how-to guide, SERP recommends none). Verified 2026-10-21 against the scraped pages: Dean Safe instructions (hole 12 in longer and wider - linked '12 inches longer and wider' - , about 6 in deeper, 1:2:4 mix, tape cover plate, 24 h dry, dial orientation, wire mesh + roofing paper form for wood floors, install after walls/roof, recommends contractor); SafeandVaultStore PDF (work combination at least six times, check for underground electrical/plumbing/heating/phone lines, tar or heavy plastic wrap, most floor safes not watertight, watertight containers, 3 in concrete gives 'untested fire/heat protection' = maker's own claim, no UL/ETL rating stated; hole +4 in, at least 3 in deeper, 48 h - linked '48 hours'; reinforce joists; recommends installer) and its FAQ (handy owners can DIY, else contractor/installer); Capital Lock PDF (3-6 in larger, 3 in deeper - linked '3 inches deeper' (quote: depth 3 inches greater than safe height) -, top 1-2 in above floor unless under carpet, rebar, bolts facing a wall); GPRS article ('PT cables are tensioned at 30,000 psi or more' - linked -, recoil, review plans, GPR scan); Hoogerhyde downsides (rust in damp sand in a few years, dirt in lock below floor, kneeling); Eichler Network thread (heating specialist warmed slab and taped tube routes); Garage Journal thread (quote 'The cooler the ground compared to the air temp the more condensation you will get.' verbatim; replies: seal hole, desiccant). Reddit quotes verified verbatim via Firecrawl search excerpts at r/Locksmith 1jn0ic7 and r/Safes 1vdwgmr. Video OM8G9OVCunc 'Floor Safes Explained: All of Your Questions Answered!' (SafeandVaultStore, Jun 2026) covers hole size, cement, moisture, fire ratings; owner-side only. 3 illustration prompts: radar scan of slab, plastic-wrapped safe body in gravel hole, flush lid in closet; no brands, text, people's faces or forced entry. No legal advice; no ownership/testing claims; links to how-to-bolt-down-a-safe for bolting (no overlap). Re-checked after two wording edits (table lead-in, video sentence); no facts changed.",
+    "at": "2026-10-21T10:51:50.099Z",
+    "hash": "a10f2bdeeef2572a"
+  }
+}

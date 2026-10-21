@@ -1,0 +1,391 @@
+{
+  "centralEntity": "floor safe installation",
+  "entityVariants": [
+    "in-floor safe",
+    "floor safe",
+    "install a floor safe",
+    "in-ground safe",
+    "floor safe set in concrete"
+  ],
+  "entities": [
+    {
+      "name": "concrete slab",
+      "type": "floor type",
+      "relation": "the floor the safe body is cast into"
+    },
+    {
+      "name": "post-tension slab",
+      "type": "floor type",
+      "relation": "holds tensioned steel cables that must be located before any cut"
+    },
+    {
+      "name": "radiant heat",
+      "type": "building system",
+      "relation": "tubing in the slab that a cut can sever"
+    },
+    {
+      "name": "ground-penetrating radar",
+      "type": "service",
+      "relation": "scans the slab for cables, tubing and conduit before cutting"
+    },
+    {
+      "name": "jackhammer",
+      "type": "tool",
+      "relation": "breaks out the opening in an existing slab"
+    },
+    {
+      "name": "concrete mix",
+      "type": "material",
+      "relation": "sets the safe body in the floor"
+    },
+    {
+      "name": "dust cover",
+      "type": "safe part",
+      "relation": "lid taped on during the pour so concrete stays out of the door"
+    },
+    {
+      "name": "moisture barrier",
+      "type": "material",
+      "relation": "tar, heavy plastic or a gravel layer that keeps ground water off the safe body"
+    },
+    {
+      "name": "dial lock",
+      "type": "lock",
+      "relation": "must face the right way and stay clean below floor level"
+    },
+    {
+      "name": "fire rating",
+      "type": "certification",
+      "relation": "most floor safes carry none; concrete gives only untested heat protection"
+    },
+    {
+      "name": "safe installer",
+      "type": "person",
+      "relation": "recommended by makers and dealers for the slab work"
+    },
+    {
+      "name": "wood floor",
+      "type": "floor type",
+      "relation": "needs a form or wire basket hung from the joists instead of a slab cut"
+    }
+  ],
+  "attributes": [
+    "hole size around the safe",
+    "hole depth below the safe",
+    "concrete mix ratio",
+    "cure time before use",
+    "lid flush with the floor",
+    "dial orientation",
+    "moisture protection",
+    "slab type and what is buried in it",
+    "access height and convenience",
+    "fire protection claim and who made it"
+  ],
+  "ngrams": [
+    "floor safe installation",
+    "install a floor safe",
+    "in-floor safe",
+    "concrete floor",
+    "post-tension slab",
+    "radiant heat",
+    "dust cover",
+    "flush with the floor",
+    "concrete mixture",
+    "safe installer"
+  ],
+  "skipgrams": [
+    "safe…concrete",
+    "hole…deeper",
+    "cover…flush",
+    "slab…cables",
+    "safe…moisture"
+  ],
+  "nlpTerms": [
+    "slab",
+    "jackhammer",
+    "concrete",
+    "gravel",
+    "sand",
+    "level",
+    "trowel",
+    "cure",
+    "tendon",
+    "scan",
+    "tubing",
+    "utilities",
+    "moisture",
+    "condensation",
+    "rust",
+    "dial",
+    "lid",
+    "contractor",
+    "basement",
+    "garage"
+  ],
+  "questions": [
+    "Can I install a floor safe myself?",
+    "How big and how deep should the hole for a floor safe be?",
+    "Can you put a floor safe in a post-tension slab?",
+    "How long does concrete need to cure before using a floor safe?",
+    "Are floor safes fireproof or waterproof?",
+    "Can you install a floor safe in a wood floor?"
+  ],
+  "contentGaps": [
+    "Maker and dealer instructions disagree on hole size, depth, mix and cure time, so the safe's own sheet decides",
+    "Who to call before cutting: a GPR scan for post-tension cables, the heating contractor for radiant tubing, utility locates",
+    "Moisture: tar or heavy plastic wrap on the body, a sealed bottom, and contents in watertight containers",
+    "Fire: concrete gives only untested heat protection per the maker sheet; few floor safes carry a UL or ETL fire rating",
+    "Daily use: kneeling to a lock below floor level and dirt in the lock, so place it where you can reach it"
+  ],
+  "outline": [
+    {
+      "h2": "Floor safe installation in an existing concrete slab, step by step",
+      "intent": "the procedure",
+      "h3": []
+    },
+    {
+      "h2": "Hole size, depth and cure time differ by maker",
+      "intent": "the numbers, and why the sheet wins",
+      "h3": []
+    },
+    {
+      "h2": "Get a pro for post-tension slabs and radiant heat",
+      "intent": "safety: what is buried in the slab",
+      "h3": []
+    },
+    {
+      "h2": "Keep water and condensation out",
+      "intent": "moisture and rust",
+      "h3": []
+    },
+    {
+      "h2": "Pick a spot you can use, and know the fire limits",
+      "intent": "location, access, fire claims",
+      "h3": []
+    },
+    {
+      "h2": "Wood floors and new slabs",
+      "intent": "other floor types",
+      "h3": []
+    }
+  ],
+  "commonPoints": [
+    "Plan the location for concealment, access and distance from plumbing and utilities",
+    "Break out the slab with a jackhammer, larger than the safe, and dig below it",
+    "Set the safe on a concrete base, level it, and fill around it with concrete",
+    "Tape the dust cover or lid so concrete cannot get into the door",
+    "Keep the lid flush with the finished floor and let the concrete cure before use",
+    "Makers and dealers recommend a contractor or safe installer for most owners"
+  ],
+  "ourGain": [
+    {
+      "point": "The instruction sheets disagree: Dean Safe says a hole 12 in larger than the safe, 6 in deeper, 24 h cure; the SafeandVaultStore sheet says 4 in larger, 3 in deeper, 48 h; Capital Lock says 3-6 in larger and 3 in deeper. Follow the sheet for your safe",
+      "source": "https://deansafe.com/pages/instructions-for-proper-installation-of-floor-safes, https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf, https://www.capitalock.com/wp-content/uploads/2020/11/Safe-Installations.pdf"
+    },
+    {
+      "point": "What is buried in the slab: post-tension cables are tensioned at 30,000 psi or more and recoil if cut, so scan with GPR; radiant tubing can be traced by heating the slab, and repairs need a heating pro",
+      "source": "https://www.gp-radar.com/article/how-to-safely-saw-or-drill-into-concrete-in-post-tensioned-slabs, https://www.eichlernetwork.com/content/locating-radiant-heat-tubes-prior-cutting-slab, https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/"
+    },
+    {
+      "point": "Moisture: most floor safes are not watertight; wrap the body in tar or heavy plastic, keep a sealed bottom, and store papers in watertight containers; a cold body condenses when opened",
+      "source": "https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf, https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/, https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/"
+    },
+    {
+      "point": "Fire: the maker sheet calls the concrete-encased safe 'untested' fire protection, so no UL or ETL rating applies unless the model lists one",
+      "source": "https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf"
+    },
+    {
+      "point": "Use before you pour: work the combination at least six times, orient the dial, and face the bolt side toward a wall; daily access below floor level is the main owner regret",
+      "source": "https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf, https://www.capitalock.com/wp-content/uploads/2020/11/Safe-Installations.pdf, https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/"
+    }
+  ],
+  "targetWords": 800,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://deansafe.com/pages/instructions-for-proper-installation-of-floor-safes",
+      "https://guardiansafeandvault.com/blog/how-to-install-a-safe-in-the-floor",
+      "https://boswellsafeandvault.com/floor-safe-installation/",
+      "https://faqs.safeandvaultstore.com/kb/floor-safes-5a8b11a47f12d21a/q-how-do-you-install-a-floor-safe",
+      "https://www.capitalock.com/wp-content/uploads/2020/11/Safe-Installations.pdf",
+      "https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "The top results are installation instructions and installer service pages with no product picks; they give measurements (hole size, depth, mix, cure time), so specs is the closest style and productCount is 0",
+    "avgWords": 750,
+    "avgProducts": 0,
+    "commonSections": [
+      "choose the location",
+      "break out the concrete",
+      "set and level the safe",
+      "fill with concrete and cure",
+      "wood floor or new slab",
+      "hire a pro"
+    ],
+    "usesComparisonTable": false,
+    "usesFaq": true,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {
+      "position": 1,
+      "url": "https://www.youtube.com/watch?v=2UP7SP9sTVg",
+      "title": "Floor Safe Installation - YouTube"
+    },
+    {
+      "position": 2,
+      "url": "https://deansafe.com/pages/instructions-for-proper-installation-of-floor-safes",
+      "title": "Instructions for proper installation of floor safes | Dean Safe"
+    },
+    {
+      "position": 3,
+      "url": "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/",
+      "title": "In Floor Safes : r/Locksmith - Reddit"
+    },
+    {
+      "position": 4,
+      "url": "https://www.youtube.com/watch?v=o4op3kaO_HY",
+      "title": "How to install a Underfloor Hidden Safe! Step by step - YouTube"
+    },
+    {
+      "position": 5,
+      "url": "https://guardiansafeandvault.com/blog/how-to-install-a-safe-in-the-floor",
+      "title": "How to Install a Safe in the Floor for Discreet Security"
+    },
+    {
+      "position": 6,
+      "url": "https://boswellsafeandvault.com/floor-safe-installation/",
+      "title": "Floor Safe Installation in Southern California - Boswell Safe & Vault Co."
+    },
+    {
+      "position": 7,
+      "url": "https://www.youtube.com/watch?v=1QvQeAoTIQ4",
+      "title": "How to install a Safe to the Floor - YouTube"
+    },
+    {
+      "position": 8,
+      "url": "https://faqs.safeandvaultstore.com/kb/floor-safes-5a8b11a47f12d21a/q-how-do-you-install-a-floor-safe",
+      "title": "Q: How do you install a floor safe? - Safe and Vault Store.com"
+    },
+    {
+      "position": 9,
+      "url": "https://www.facebook.com/groups/2532877443634731/posts/4042297842692676/",
+      "title": "How to install a floor safe - Facebook"
+    },
+    {
+      "position": 10,
+      "url": "https://www.capitalock.com/wp-content/uploads/2020/11/Safe-Installations.pdf",
+      "title": "[PDF] Suggested Ways of Installing In-Floor Safes - Capital Lock"
+    }
+  ],
+  "titlePattern": {
+    "keywordAtStart": 2,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": [
+      "how to install",
+      "in the floor",
+      "step by step",
+      "instructions",
+      "hidden / discreet"
+    ],
+    "gap": "none tells the owner what to check in the slab first (post-tension cables, radiant heat) or that the maker sheets disagree on hole size and cure time"
+  },
+  "painPoints": [
+    {
+      "id": "wall-floor-safes-slab-cables-heat-utilities",
+      "pain": "Cutting the slab for a floor safe could hit post-tension cables, radiant heat tubing or buried utilities",
+      "details": "Owners and locksmiths worry about what sits inside the slab; a cut tendon or pipe can cost far more than the safe.",
+      "sources": [
+        "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/",
+        "https://www.eichlernetwork.com/content/locating-radiant-heat-tubes-prior-cutting-slab"
+      ],
+      "quotes": [
+        {
+          "text": "Also, consider the liability of ripping into somebody's concrete slab to install a floor safe.",
+          "url": "https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/"
+        }
+      ]
+    },
+    {
+      "id": "wall-floor-safes-in-floor-moisture-condensation",
+      "pain": "In-floor safes stay damp: condensation, ground water and rust",
+      "details": "A body set in damp ground sweats when opened, can flood from a burst pipe and rust where it touches wet sand.",
+      "sources": [
+        "https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/",
+        "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/"
+      ],
+      "quotes": [
+        {
+          "text": "The cooler the ground compared to the air temp the more condensation you will get.",
+          "url": "https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/"
+        }
+      ]
+    },
+    {
+      "id": "wall-floor-safes-in-floor-access-tradeoff",
+      "pain": "Owners can't decide between a hidden in-floor safe and an easier-to-reach above-floor safe",
+      "details": "In-floor safes hide well but mean kneeling to a lock below floor level, and the lock collects dirt.",
+      "sources": [
+        "https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/",
+        "https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/"
+      ],
+      "quotes": [
+        {
+          "text": "Better access with the above-floor safe. Better hiding ability with the in-floor safe.",
+          "url": "https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/"
+        }
+      ]
+    },
+    {
+      "id": "wall-floor-safes-diy-install-existing-foundation",
+      "pain": "Owners want to set a floor safe into an existing garage foundation and don't know if they can do it themselves",
+      "details": "Instructions say it can be done by a handy owner, but makers and dealers still recommend a contractor or safe installer.",
+      "sources": [
+        "https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/",
+        "https://faqs.safeandvaultstore.com/kb/floor-safes-5a8b11a47f12d21a/q-how-do-you-install-a-floor-safe"
+      ],
+      "quotes": [
+        {
+          "text": "I have an old floor safe and would like to see if I can install it into my house foundation in the garage.",
+          "url": "https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "30,000 psi",
+      "claim": "post-tension cables are tensioned to 30,000 psi or more and recoil if cut",
+      "url": "https://www.gp-radar.com/article/how-to-safely-saw-or-drill-into-concrete-in-post-tensioned-slabs",
+      "quote": "PT cables are tensioned at 30,000 psi or more."
+    },
+    {
+      "number": "12 inches",
+      "claim": "Dean Safe: hole 12 in longer and wider than the safe",
+      "url": "https://deansafe.com/pages/instructions-for-proper-installation-of-floor-safes",
+      "quote": "create a hole that is 12\" both longer and wider than the length and width of your floor safe."
+    },
+    {
+      "number": "48 hours",
+      "claim": "SafeandVaultStore sheet: 48 hours of drying before use",
+      "url": "https://cdn.shopify.com/s/files/1/1147/6518/files/Floor-Safe-Installation-Instructions.pdf",
+      "quote": "Forty-eight (48) hours of cement drying time is recommended prior to use."
+    },
+    {
+      "number": "3 inches",
+      "claim": "Capital Lock: dig 3 in deeper than the safe height",
+      "url": "https://www.capitalock.com/wp-content/uploads/2020/11/Safe-Installations.pdf",
+      "quote": "Remove dirt to a depth 3 inches greater than safe height."
+    }
+  ],
+  "videos": [
+    {
+      "id": "OM8G9OVCunc",
+      "title": "Floor Safes Explained: All of Your Questions Answered!",
+      "channel": "SafeandVaultStore",
+      "url": "https://www.youtube.com/watch?v=OM8G9OVCunc",
+      "section": "Hole size, depth and cure time differ by maker"
+    }
+  ],
+  "serpProducts": []
+}

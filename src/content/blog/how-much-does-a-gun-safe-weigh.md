@@ -130,6 +130,7 @@ videos:
     afterHeading: 2
 author: editorial-team
 related:
+  - floor-safe-installation
   - are-gun-safes-fireproof
   - how-to-move-a-gun-safe
   - best-gun-safe-for-apartment

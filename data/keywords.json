@@ -2320,7 +2320,7 @@
     "slug": "wall-mounted-gun-safe"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T06:44:22.832Z",
     "secondaryKeywords": [],
@@ -2347,7 +2347,8 @@
       "source": "ahrefs site-explorer-organic-keywords us",
       "date": "2026-10-19"
     },
-    "slug": "floor-safe-installation"
+    "slug": "floor-safe-installation",
+    "publishedAt": "2026-10-21T10:52:24.623Z"
   },
   {
     "status": "pending",
