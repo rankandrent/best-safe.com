@@ -1,13 +1,12 @@
 {
   "slug": "how-to-move-a-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T11:15:08.083Z",
+  "checkedAt": "2026-10-21T14:41:15.165Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (no response): https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist",
     "source didn't respond normally (403): https://twomenandatruck.com/how-to/move-a-gun-safe",
     "source didn't respond normally (403): https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
     "source didn't respond normally (403): https://smith-wessonforum.com/threads/safe-moving.733512/",
