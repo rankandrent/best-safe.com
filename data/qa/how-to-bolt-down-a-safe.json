@@ -1,12 +1,13 @@
 {
   "slug": "how-to-bolt-down-a-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T06:57:56.286Z",
+  "checkedAt": "2026-10-21T07:00:01.758Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "source didn't respond normally (403): https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
   ],
   "factCheck": {
     "verified": true,

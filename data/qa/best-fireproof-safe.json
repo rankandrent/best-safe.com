@@ -1,7 +1,7 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-20T10:00:31.344Z",
+  "checkedAt": "2026-10-21T06:59:13.046Z",
   "errors": [],
   "warnings": [
     "a sentence repeats an earlier one almost word for word: \"SentrySafe lists it as UL Classified for 30 minutes at up to 1,550°F and ETL Verified agai\"",
@@ -11,6 +11,7 @@
     "product \"First Alert 2087F\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe HD4100\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)",
     "source didn't respond normally (no response): https://sentrysafe.com/product/SFW205CWB",
     "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-1-23-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960599",
     "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-2-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960587"
