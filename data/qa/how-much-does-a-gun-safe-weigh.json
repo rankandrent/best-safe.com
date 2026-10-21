@@ -1,14 +1,14 @@
 {
   "slug": "how-much-does-a-gun-safe-weigh",
   "pass": true,
-  "checkedAt": "2026-10-21T06:59:59.620Z",
+  "checkedAt": "2026-10-21T10:59:49.149Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "source didn't respond normally (403): https://americansecuritysafes.com/product/bfii6636-configurator/",
-    "source didn't respond normally (no response): https://pasadenatx.gov/DocumentCenter/View/879/Residential-Building-Application-PDF"
+    "LIVE POST, FIX: source returns 404: https://pasadenatx.gov/DocumentCenter/View/879/Residential-Building-Application-PDF"
   ],
   "factCheck": {
     "verified": true,

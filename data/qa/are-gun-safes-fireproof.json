@@ -1,13 +1,18 @@
 {
   "slug": "are-gun-safes-fireproof",
   "pass": true,
-  "checkedAt": "2026-10-21T10:50:43.032Z",
+  "checkedAt": "2026-10-21T10:58:34.522Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "keyword overlaps /blog/best-fire-rated-gun-safe/ (\"are gun safes fireproof\" overlaps \"fireproof gun safe\" (100%))"
+    "keyword overlaps /blog/best-fire-rated-gun-safe/ (\"are gun safes fireproof\" overlaps \"fireproof gun safe\" (100%))",
+    "source didn't respond normally (403): https://americansecuritysafes.com/fire-ratings-explained/",
+    "source didn't respond normally (403): https://americansecuritysafes.com/are-safes-fireproof/",
+    "source didn't respond normally (403): https://www.thezebra.com/resources/research/house-fire-statistics/",
+    "source didn't respond normally (403): https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/"
   ],
   "factCheck": {
     "verified": true,
