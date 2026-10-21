@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:50:23.108Z",
+  "updatedAt": "2026-10-21T10:59:02.057Z",
   "categories": {
     "gun-safes": [
       {
@@ -1021,7 +1021,8 @@
           "how to open a safe"
         ],
         "coveredBy": [
-          "sentry-safe-battery-replacement"
+          "sentry-safe-battery-replacement",
+          "sentry-safe-keypad-not-working"
         ],
         "foundAt": "2026-10-19"
       },
@@ -1088,7 +1089,8 @@
           "how to open a safe"
         ],
         "coveredBy": [
-          "sentry-safe-battery-replacement"
+          "sentry-safe-battery-replacement",
+          "sentry-safe-keypad-not-working"
         ],
         "foundAt": "2026-10-19"
       },
@@ -1146,7 +1148,9 @@
         "keywords": [
           "how to open a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "sentry-safe-keypad-not-working"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -1405,7 +1409,9 @@
         "keywords": [
           "how to open a safe"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "sentry-safe-keypad-not-working"
+        ],
         "foundAt": "2026-10-20"
       },
       {
@@ -1506,6 +1512,38 @@
         ],
         "coveredBy": [
           "are-gun-safes-fireproof"
+        ],
+        "foundAt": "2026-10-21"
+      },
+      {
+        "id": "safe-guides-corroded-or-cracked-battery-holder",
+        "pain": "Keypad stays dark because the battery terminals are corroded or the battery holder is cracked",
+        "details": "Owners of older SentrySafe keypads find a green, corroded terminal or a cracked battery holder after years of batteries left inside; fresh batteries cannot fix it and the holder or keypad needs replacing through the maker.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html",
+            "platform": "forum",
+            "title": "Sentry Safe Keypad Not Working | JustAnswer",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "I examined the battery holder using a flashlight and noticed that one of the terminals is green instead of shiny.",
+            "url": "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html"
+          }
+        ],
+        "searches": [
+          "sentry safe keypad not lighting up new batteries",
+          "sentry safe battery terminal corroded",
+          "sentry safe battery holder cracked"
+        ],
+        "keywords": [
+          "sentry safe keypad not working"
+        ],
+        "coveredBy": [
+          "sentry-safe-keypad-not-working"
         ],
         "foundAt": "2026-10-21"
       }
@@ -1931,6 +1969,57 @@
           "gun-safe-brands-to-avoid"
         ],
         "foundAt": "2026-10-19"
+      },
+      {
+        "id": "home-safes-fire-vs-burglary-choose",
+        "pain": "Buyers cannot tell whether one home safe can protect against both fire and burglars, or if they must choose",
+        "details": "First-time buyers ask in r/Safes and r/homesecurity whether a single safe does both well; replies point to fire-rated consumer safes for papers and dealer-sold burglary-rated (B-rate, UL RSC or higher) safes for theft, or a burglary safe with a fire box inside.",
+        "mentions": 4,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/",
+            "platform": "reddit",
+            "title": "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/homesecurity/comments/1s8ym54/fire_vs_burglars_is_there_actually_a_home_safe/",
+            "platform": "reddit",
+            "title": "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose? (r/homesecurity)",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/fatFIRE/comments/18mid1p/any_recommendations_for_top_quality_burglary_and/",
+            "platform": "reddit",
+            "title": "Any recommendations for top quality burglary and fire safes?",
+            "seen": "2026-10-21"
+          },
+          {
+            "url": "https://www.reddit.com/r/lockpicking/comments/2zapm0/tell_me_about_safes_for_fire_and_theft_need_a/",
+            "platform": "reddit",
+            "title": "Tell me about safes for fire and theft. Need a home safe for papers",
+            "seen": "2026-10-21"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?",
+            "url": "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "home safe fire and burglary",
+          "fireproof safe vs burglary safe",
+          "home safe that does both fire and theft"
+        ],
+        "keywords": [
+          "best home safe"
+        ],
+        "coveredBy": [
+          "best-home-safe"
+        ],
+        "foundAt": "2026-10-21"
       }
     ],
     "vehicle-safes": [

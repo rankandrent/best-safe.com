@@ -1,0 +1,17 @@
+{
+  "slug": "sentry-safe-keypad-not-working",
+  "pass": true,
+  "checkedAt": "2026-10-21T11:00:29.977Z",
+  "errors": [],
+  "warnings": [
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Re-verified after voice and trim edits (no new facts). No products. SentrySafe SFW123GDC manual P44621: signal table (3 red blinks = incorrect code/use factory code; 5 blinks = keypad communication error, call customer service; 1 blink = out of sequence or 5 s gap; red blinking = delay mode two minutes; yellow = low or wrong battery), three consecutive invalid entries -> two-minute delay, removing batteries lengthens it (verbatim), 4 seconds to turn handle, handle horizontal, hold handle up on gasket doors, clutch click-back, dual key unlocked, factory code on back of manual always unlocks and cannot be deleted, P + factory code + new 5-digit code within five seconds. Depository manual P55688: five-minute no-response shutdown after three incorrect entries, pinched cables short circuit, master code change with door open (# master # 1 * new # new #). replacements.sentrysafe.com: model + serial or key number, identity verification may be required. SentrySafe contact page, SAVTA Safe Tech Search. Owner quotes verbatim: JustAnswer green-terminal quote and cracked-holder replacement answer; r/Safes titles 1pmtaa4, 1ndf1gh; r/Safes 1jw2ura and 1owos4c quotes from pain-point records. Videos mAxY3FH7saM (SentrySafe channel, opening own electronic/dual-key fire safe) and 9bF32d-6VgI (Guardian Safe & Lock, why a safe keypad stops working). No bypass, prices, legal advice or testing claims.",
+    "at": "2026-10-21T11:00:29.622Z",
+    "hash": "dfb7be09ed45060a"
+  }
+}

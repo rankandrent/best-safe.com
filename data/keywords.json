@@ -2426,7 +2426,7 @@
     "lastError": "cannibalization: \"gun safe dehumidifier rod\" overlaps \"best dehumidifier for gun safe\" (100%)"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T07:04:32.626Z",
     "secondaryKeywords": [
@@ -2459,7 +2459,8 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-19"
     },
-    "slug": "sentry-safe-keypad-not-working"
+    "slug": "sentry-safe-keypad-not-working",
+    "publishedAt": "2026-10-21T11:00:50.840Z"
   },
   {
     "status": "published",

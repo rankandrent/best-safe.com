@@ -98,21 +98,34 @@ faqs:
       ready, and store the new key outside the safe.
 illustrations:
   - prompt: >-
-      Close-up of a person opening the door of their own small fire safe on a kitchen counter to look at a small blank white label along the hinge edge, the label out of focus, soft daylight, shallow depth of field, realistic photograph, no readable writing.
-    alt: 'Owner checking the model label along the hinge edge of their own fire safe'
+      Close-up of a person opening the door of their own small fire safe on a
+      kitchen counter to look at a small blank white label along the hinge edge,
+      the label out of focus, soft daylight, shallow depth of field, realistic
+      photograph, no readable writing.
+    alt: Owner checking the model label along the hinge edge of their own fire safe
     afterHeading: 2
   - prompt: >-
-      Hands sorting a matched set of four new AA alkaline batteries on a wooden table next to an open battery holder from a safe keypad, the old batteries set aside in a small dish, warm desk lamp light, top-down close-up, realistic photograph, no readable labels.
-    alt: 'A matched set of four new AA batteries beside an open safe keypad battery holder'
+      Hands sorting a matched set of four new AA alkaline batteries on a wooden
+      table next to an open battery holder from a safe keypad, the old batteries
+      set aside in a small dish, warm desk lamp light, top-down close-up,
+      realistic photograph, no readable labels.
+    alt: >-
+      A matched set of four new AA batteries beside an open safe keypad battery
+      holder
     afterHeading: 5
   - prompt: >-
-      A key lock box mounted inside a hallway closet with a single small key hanging inside, a compact home fire safe on the shelf below, tidy shelves, soft natural morning light, eye-level view, realistic photograph, calm and organized household.
-    alt: 'Override key kept in a key lock box outside the safe, with the fire safe on the shelf below'
+      A key lock box mounted inside a hallway closet with a single small key
+      hanging inside, a compact home fire safe on the shelf below, tidy shelves,
+      soft natural morning light, eye-level view, realistic photograph, calm and
+      organized household.
+    alt: >-
+      Override key kept in a key lock box outside the safe, with the fire safe
+      on the shelf below
     afterHeading: 7
 videos:
-  - id: '3ENpTK07JtY'
+  - id: 3ENpTK07JtY
     afterHeading: 3
-  - id: 'TvMLBTWJEfE'
+  - id: TvMLBTWJEfE
     afterHeading: 4
 author: editorial-team
 heroImage: /images/featured/sentry-safe-battery-replacement.png
@@ -120,6 +133,7 @@ heroAlt: >-
   Sentry Safe Battery Replacement – Steps for Each Model Family – Best Safe
   how-to
 related:
+  - sentry-safe-keypad-not-working
   - how-to-bolt-down-a-safe
 ---
 

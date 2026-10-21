@@ -154,6 +154,13 @@
       "keyword": "wall mounted gun safe",
       "category": "gun-safes",
       "funnel": "bofu"
+    },
+    {
+      "date": "2026-10-21",
+      "slug": "sentry-safe-keypad-not-working",
+      "keyword": "sentry safe keypad not working",
+      "category": "safe-guides",
+      "funnel": "tofu"
     }
   ],
   "translated": []

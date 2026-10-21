@@ -1,0 +1,451 @@
+{
+  "keyword": "sentry safe keypad not working",
+  "createdAt": "2026-10-21T11:00:50.841Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "SentrySafe keypad not working (an electronic keypad on your own SentrySafe that stays dark, beeps an error or lights green without opening)",
+    "entityVariants": [
+      "Sentry safe keypad",
+      "SentrySafe keypad",
+      "SentrySafe electronic lock",
+      "keypad not responding",
+      "Sentry safe won't open"
+    ],
+    "entities": [
+      {
+        "name": "SentrySafe",
+        "type": "Brand",
+        "relation": "maker whose owner's manuals define every keypad signal, lockout and code step"
+      },
+      {
+        "name": "electronic lock",
+        "type": "Lock type",
+        "relation": "the battery-powered keypad lock that is failing"
+      },
+      {
+        "name": "delay mode",
+        "type": "Feature",
+        "relation": "lockout after 3 wrong codes; the keypad blinks red or goes silent for 2 or 5 minutes depending on the lock"
+      },
+      {
+        "name": "red indicator light",
+        "type": "Signal",
+        "relation": "3 blinks = wrong code, 5 blinks = keypad communication error, steady blinking = delay mode (SFW manual)"
+      },
+      {
+        "name": "yellow indicator light",
+        "type": "Signal",
+        "relation": "low battery or wrong battery type"
+      },
+      {
+        "name": "factory code",
+        "type": "Credential",
+        "relation": "5-digit code on the back of the SFW owner's manual that always opens the safe and cannot be deleted"
+      },
+      {
+        "name": "user code",
+        "type": "Credential",
+        "relation": "programmable code the owner sets with the P key and the factory code"
+      },
+      {
+        "name": "master and manager code",
+        "type": "Credential",
+        "relation": "codes on depository-style locks, changed only with the door open"
+      },
+      {
+        "name": "handle clutch",
+        "type": "Part",
+        "relation": "lets the handle slip without moving the bolts if forced; lift it until it clicks back"
+      },
+      {
+        "name": "water-resistant gasket",
+        "type": "Part",
+        "relation": "makes a new door tight, so the handle must be held up while entering the code"
+      },
+      {
+        "name": "override key",
+        "type": "Part",
+        "relation": "backup entry on many models when the keypad fails"
+      },
+      {
+        "name": "Key & Combo Replacement",
+        "type": "Service",
+        "relation": "SentrySafe's route for owners who lost the code or key; needs model and serial number and may need identity verification"
+      },
+      {
+        "name": "safe technician",
+        "type": "Profession",
+        "relation": "SAVTA lists safe and vault technicians for an owner whose lock has failed"
+      }
+    ],
+    "attributes": [
+      "keypad signal (no response, red blinks, yellow light, green light)",
+      "lockout length (2 or 5 minutes)",
+      "battery type and condition",
+      "battery terminal corrosion",
+      "code type (factory, user, master)",
+      "handle position and clutch",
+      "door gasket pressure",
+      "model and serial number"
+    ],
+    "ngrams": [
+      "keypad not working",
+      "red light",
+      "delay mode",
+      "factory code",
+      "user code",
+      "wrong code",
+      "new batteries",
+      "keypad communication error",
+      "green light",
+      "model and serial number",
+      "override key"
+    ],
+    "skipgrams": [
+      "keypad…working",
+      "red…blinks",
+      "factory…code",
+      "delay…mode",
+      "green…light",
+      "handle…horizontal",
+      "serial…number"
+    ],
+    "nlpTerms": [
+      "keypad",
+      "beeps",
+      "blinks",
+      "lockout",
+      "penalty",
+      "code",
+      "program",
+      "P key",
+      "handle",
+      "bolts",
+      "gasket",
+      "batteries",
+      "alkaline",
+      "corrosion",
+      "terminal",
+      "solenoid",
+      "manual",
+      "serial number",
+      "customer service",
+      "locksmith"
+    ],
+    "questions": [
+      "Why is my Sentry safe keypad not working?",
+      "Why does my Sentry safe beep and blink red?",
+      "Why does my Sentry safe light green but not open?",
+      "How long is the SentrySafe lockout after wrong codes?",
+      "How do I reset the code on my SentrySafe?",
+      "What if my SentrySafe keypad is dead with new batteries?"
+    ],
+    "contentGaps": [
+      "No ranking page decodes the SentrySafe signals (3 red blinks, 5 red blinks, steady red blinking, yellow light) from the maker's own troubleshooting table",
+      "Few pages say a lockout looks like a dead keypad (2 minutes on SFW fire safes, 5 minutes with no response on depository locks) and that pulling the batteries makes the SFW delay longer",
+      "Green light but no opening: the manual's fix (handle fully up, hold it up while entering the code on gasket doors, re-seat a slipped clutch) is missing from most pages",
+      "Code reset is done with the door open and differs by lock (P key + factory code on SFW; # + master code on depository locks)",
+      "The owner route when the keypad is dead for good: SentrySafe with model and serial number (identity check possible), then a safe technician"
+    ],
+    "outline": [
+      {
+        "h2": "Sentry safe keypad not working – read the signal first",
+        "intent": "Direct answer and the signal table from the SentrySafe manual",
+        "h3": []
+      },
+      {
+        "h2": "No lights, no beeps",
+        "intent": "Lockout vs dead power: wait out the delay, then batteries, terminals and pinched wires",
+        "h3": []
+      },
+      {
+        "h2": "Green light, but the door will not open",
+        "intent": "Handle, clutch and gasket fixes from the manual",
+        "h3": []
+      },
+      {
+        "h2": "Code rejected – reset it the SentrySafe way",
+        "intent": "Factory code, user code, master code; always with the door open",
+        "h3": []
+      },
+      {
+        "h2": "Still dead – the owner's route out",
+        "intent": "Override key, SentrySafe with proof of ownership, then a safe technician",
+        "h3": []
+      },
+      {
+        "h2": "Keep it from happening again",
+        "intent": "Prevention and next reads",
+        "h3": []
+      }
+    ],
+    "commonPoints": [
+      "Replace the batteries with fresh alkaline cells, correctly oriented",
+      "Re-enter the code carefully; wrong codes can trigger a lockout",
+      "Use the override key if the safe has one",
+      "Check the manual for code reset steps",
+      "Contact the manufacturer or a locksmith if nothing works"
+    ],
+    "ourGain": [
+      {
+        "point": "Signal decoder from SentrySafe's own troubleshooting table: 3 red blinks = wrong code, 5 red blinks = keypad communication error (call SentrySafe), steady red blinking = delay mode, yellow = low or wrong batteries",
+        "source": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf"
+      },
+      {
+        "point": "A lockout can look like a dead keypad: 3 wrong codes trigger 2 minutes of delay on SFW fire safes (pulling the batteries makes it longer) and 5 minutes of no response on depository locks",
+        "source": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P55688.pdf"
+      },
+      {
+        "point": "Green light but no opening: have the handle fully horizontal, hold it up while entering the code on gasket doors, turn within 4 seconds, and lift a slipped handle until the clutch clicks back",
+        "source": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf"
+      },
+      {
+        "point": "Code reset is a door-open job: P key + 5-digit factory code on SFW locks (the factory code always works and cannot be deleted); # + master code on depository locks",
+        "source": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf"
+      },
+      {
+        "point": "Owner route for a dead keypad: model and serial number to SentrySafe's replacement process (identity verification possible), corroded or cracked battery holders reported by owners, then a SAVTA safe technician",
+        "source": "https://replacements.sentrysafe.com/"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "safe-guides-new-batteries-still-wont-work",
+        "pain": "Fresh batteries are in and the keypad still will not open or lock the safe",
+        "details": "After a battery swap the code is rejected, the keypad lights but the bolt does not move, or there is no power at all. Causes: lockout, non-alkaline cells, corroded terminals, handle or gasket pressure, a failed keypad.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1pmtaa4/sentry_safe_no_power_to_keypad_fresh_batteries/",
+          "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+        ],
+        "quotes": [
+          {
+            "text": "Sentry safe no power to keypad fresh batteries",
+            "url": "https://www.reddit.com/r/Safes/comments/1pmtaa4/sentry_safe_no_power_to_keypad_fresh_batteries/"
+          },
+          {
+            "text": "I have tried 4 new name brand batteries.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          }
+        ]
+      },
+      {
+        "id": "safe-guides-corroded-or-cracked-battery-holder",
+        "pain": "Keypad stays dark because the battery terminals are corroded or the battery holder is cracked",
+        "details": "Owners of older SentrySafe keypads find a green, corroded terminal or a cracked holder after years of batteries left inside; new batteries cannot fix it and the holder or keypad needs replacing.",
+        "sources": [
+          "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html"
+        ],
+        "quotes": [
+          {
+            "text": "I examined the battery holder using a flashlight and noticed that one of the terminals is green instead of shiny.",
+            "url": "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html"
+          }
+        ]
+      },
+      {
+        "id": "safe-guides-battery-dies-locks-owner-out",
+        "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+        "details": "Owners report dead keypads and no key option. Prevention and manufacturer support are the safe path.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+        ],
+        "quotes": [
+          {
+            "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+            "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+          }
+        ]
+      },
+      {
+        "id": "safe-guides-manufacturer-reset-needs-proof-of-ownership",
+        "pain": "Owner does not know the manufacturer can help, or what proof of ownership and serial number they need",
+        "details": "SentrySafe's replacement process asks for the model number plus serial or key number and may require identity verification.",
+        "sources": [
+          "https://replacements.sentrysafe.com/",
+          "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/"
+        ],
+        "quotes": [
+          {
+            "text": "You usually have to provide proof of purchase and the serial number of the safe.",
+            "url": "https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/"
+          }
+        ]
+      },
+      {
+        "id": "safe-guides-lost-combination-or-key",
+        "pain": "Owner forgets the code or loses the key and does not know the official recovery route",
+        "details": "Store the factory code card and override key outside the safe; use the maker's replacement process.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+        ],
+        "quotes": [
+          {
+            "text": "If you lost the override key it's a problem.",
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "number": "three consecutive invalid entries",
+        "claim": "SFW fire safe enters delay mode after 3 wrong codes",
+        "url": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf",
+        "quote": "Delay mode will occur if three consecutive invalid entries have been tried."
+      },
+      {
+        "number": "two minutes",
+        "claim": "SFW delay mode shuts the system down for two minutes; removing batteries lengthens it",
+        "url": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf",
+        "quote": "This will cause the system to shutdown for two minutes."
+      },
+      {
+        "number": "five minutes",
+        "claim": "Depository-safe keypad shuts down for five minutes after three wrong entries",
+        "url": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P55688.pdf",
+        "quote": "If three incorrect entries are entered in a row, the keypad will shut down for a period of five minutes."
+      },
+      {
+        "number": "4 seconds",
+        "claim": "After the green light the owner has 4 seconds to turn the handle",
+        "url": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf",
+        "quote": "You will have 4 seconds to turn the handle to unlock your safe."
+      },
+      {
+        "number": "five times",
+        "claim": "Red light blinking five times with five beeps means a keypad communication error",
+        "url": "https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf",
+        "quote": "Red indicator light blinks five times and there are five beeps."
+      }
+    ],
+    "videos": [
+      {
+        "id": "mAxY3FH7saM",
+        "title": "How to Open a Sentry®Safe Electonic Lock and Dual Key Fire Safe",
+        "channel": "SentrySafe",
+        "url": "https://www.youtube.com/watch?v=mAxY3FH7saM",
+        "section": "Green light, but the door will not open"
+      },
+      {
+        "id": "9bF32d-6VgI",
+        "title": "Why Is My Safe Keypad Not Working? | Guardian Answers #9",
+        "channel": "Guardian Safe & Lock",
+        "url": "https://www.youtube.com/watch?v=9bF32d-6VgI",
+        "section": "No lights, no beeps"
+      }
+    ],
+    "linkPlan": [
+      {
+        "slug": "sentry-safe-battery-replacement",
+        "anchor": "battery steps for each SentrySafe model family"
+      },
+      {
+        "slug": "how-to-open-a-safe",
+        "anchor": "owner lockout guide"
+      },
+      {
+        "slug": "best-key-lock-box",
+        "anchor": "key lock box"
+      }
+    ],
+    "targetWords": 950,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html",
+        "https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe",
+        "https://ipsamart.com/blogs/news/what-do-you-do-when-an-electronic-safe-wont-open",
+        "https://www.reddit.com/r/safecracking/comments/166j0lh/sentry_safe_door_wont_open/"
+      ],
+      "productStyle": "paragraph",
+      "productStyleReason": "Troubleshooting how-to with no product picks: the top pages are Q&A threads, numbered steps and short paragraphs. productCount 0.",
+      "avgWords": 1000,
+      "avgProducts": 0,
+      "commonSections": [
+        "batteries first (fresh alkaline, polarity, contacts)",
+        "wrong code and lockout",
+        "override key",
+        "reset or reprogram the code from the manual",
+        "contact the maker or a locksmith"
+      ],
+      "usesComparisonTable": false,
+      "usesFaq": false,
+      "usesBuyingGuide": false,
+      "note": "Approximate main-content word counts: JustAnswer about 1,250 (Q&A chats plus a short summary), SentrySafe battery FAQ about 1,000 (sibling post's brief), ipsamart about 780; average about 1,000. The Reddit thread, YouTube results and SentrySafe support hub pages have no comparable article length."
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html",
+        "title": "Sentry Safe Keypad Not Working - JustAnswer"
+      },
+      {
+        "position": 2,
+        "url": "https://www.sentrysafe.com/support",
+        "title": "Customer Support | SentrySafe"
+      },
+      {
+        "position": 3,
+        "url": "https://www.reddit.com/r/safecracking/comments/166j0lh/sentry_safe_door_wont_open/",
+        "title": "Sentry safe door won't open : r/safecracking - Reddit"
+      },
+      {
+        "position": 4,
+        "url": "https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe",
+        "title": "How Do I Change the Batteries on My Safe? | SentrySafe"
+      },
+      {
+        "position": 5,
+        "url": "https://www.youtube.com/watch?v=OmG5yFg6lY0",
+        "title": "Sentry Safe keypad beeps 5 times and won't unlock. What's going on?"
+      },
+      {
+        "position": 6,
+        "url": "https://www.sentrysafe.com/support/faqs",
+        "title": "Frequently Asked Questions | SentrySafe"
+      },
+      {
+        "position": 7,
+        "url": "https://www.youtube.com/watch?v=H3wrB0C451U",
+        "title": "(593) How to Open a Sentry Safe without a Code & Recover the ..."
+      },
+      {
+        "position": 8,
+        "url": "https://www.youtube.com/watch?v=czKRUm3Ygy0",
+        "title": "How To Open And Repair A Sentry Safe When The Batteries Explode"
+      },
+      {
+        "position": 9,
+        "url": "https://ipsamart.com/blogs/news/what-do-you-do-when-an-electronic-safe-wont-open",
+        "title": "What do you do when an electronic safe won't open - ipsamart"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 1,
+      "withYear": 0,
+      "withNumber": 0,
+      "commonModifiers": [
+        "Sentry Safe",
+        "keypad",
+        "won't open",
+        "beeps",
+        "batteries"
+      ],
+      "gap": "No title promises to decode the keypad's beeps and lights from SentrySafe's own manual. Owner rule: seoTitle is exactly 'Sentry Safe Keypad Not Working'; H1 starts with the keyword; no colon; owner-only, no bypass content."
+    }
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "sentry-safe-battery-replacement",
+      "mode": "related-box"
+    },
+    {
+      "slug": "how-to-open-a-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "how-much-does-a-gun-safe-weigh",
+      "mode": "related-box"
+    }
+  ]
+}

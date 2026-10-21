@@ -130,10 +130,10 @@ videos:
     afterHeading: 2
 author: editorial-team
 related:
+  - sentry-safe-keypad-not-working
   - gun-safe-brands-to-avoid
   - gun-safe-in-garage
   - floor-safe-installation
-  - are-gun-safes-fireproof
 heroImage: /images/featured/how-much-does-a-gun-safe-weigh.png
 heroAlt: 'How Much Does a Gun Safe Weigh (By Class, With Floor Math) – Best Safe guide'
 ---
