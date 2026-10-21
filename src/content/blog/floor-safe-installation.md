@@ -152,7 +152,7 @@ Picture a garage slab, a new in-floor safe still in its crate, and a rented jack
 5. Tape the dust cover so concrete can't seep into the door, then pour concrete mix around the sides.
 6. Trowel the top so the cover sits flush with the floor, and let it cure.
 
-Can you set an old safe into a garage foundation yourself, as one owner asked on [r/Safes](https://www.reddit.com/r/Safes/comments/1hlnpsv/floor_safe/)? Yes, but Dean Safe and SafeandVaultStore still recommend a contractor or safe installer.
+Can you set an old safe into a garage foundation yourself, as one owner asked on r/Safes? Yes, but Dean Safe and SafeandVaultStore still recommend a contractor or safe installer.
 
 ## Hole size, depth and cure time differ by maker
 
@@ -172,7 +172,7 @@ We picked the SafeandVaultStore video below for sizing and cement questions.
 
 ## Get a pro for post-tension slabs and radiant heat
 
-**If you have a post-tension slab or radiant heat, a professional should scan and mark it before anyone cuts.** GPRS, a concrete-scanning company, says slab cables are tensioned at [30,000 psi or more](https://www.gp-radar.com/article/how-to-safely-saw-or-drill-into-concrete-in-post-tensioned-slabs) and recoil violently when cut. A commenter on [r/Locksmith](https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/) put it plainly: "Also, consider the liability of ripping into somebody's concrete slab to install a floor safe."
+**If you have a post-tension slab or radiant heat, a professional should scan and mark it before anyone cuts.** GPRS, a concrete-scanning company, says slab cables are tensioned at 30,000 psi or more and recoil violently when cut. A commenter on r/Locksmith put it plainly: "Also, consider the liability of ripping into somebody's concrete slab to install a floor safe."
 
 Before cutting, we'd:
 
@@ -184,7 +184,7 @@ Before cutting, we'd:
 
 **Most floor safes aren't watertight, so give the safe a moisture barrier and protect the contents.** The SafeandVaultStore sheet calls for tar or heavy plastic around the body and watertight containers inside. Hoogerhyde Safe & Lock adds that a body touching damp sand can rust through in a few years.
 
-Condensation was the complaint we saw most. In a [Garage Journal thread](https://www.garagejournal.com/forum/threads/in-floor-safe-condensation.401178/), one owner explained: "The cooler the ground compared to the air temp the more condensation you will get." Replies suggested sealing the bottom and adding desiccant; our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/) covers options.
+Condensation was the complaint we saw most. In a Garage Journal thread, one owner explained: "The cooler the ground compared to the air temp the more condensation you will get." Replies suggested sealing the bottom and adding desiccant; our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/) covers options.
 
 ## Pick a spot you can reach, and know the fire limits
 

@@ -446,7 +446,7 @@ A first-time buyer on [r/liberalgunowners](https://www.reddit.com/r/liberalgunow
 
 ### Steelwater Heavy Duty 20 Long Gun: Best overall fire-rated gun safe
 
-This is the one we'd put on a garage slab or a ground floor. Steelwater rates the [Steelwater Heavy Duty 20 Long Gun](amzn:Steelwater+Heavy+Duty+20+Long+Gun+safe+AMSW592818) at 60 minutes at 1875°F, the longest of our four, but its spec page names no testing lab, so treat it as a maker's claim. The door is a 4 7/8 in composite with two layers of fireboard and a seal that swells in heat. The body is 12-gauge steel with ten 1.5 in bolts on all four sides. Steelwater gives 453 lb and four 7/16 in anchor holes backed by 1/4 in steel plate. The box says 20 long guns; Steelwater itself recommends 12-16, and Top Firearm Reviews says a Steelwater 22-gun claim "is due to math, not practical gun storage." Owners in [r/CAguns](https://www.reddit.com/r/CAguns/comments/187yvmt/steelwater_gunsafes/) report years of trouble-free use. The repeated complaint, also on Yelp and r/Gun_Safes, is a keypad that died after three to six years, and Steelwater sent a replacement keypad. Keep the bypass key where you can reach it.
+This is the one we'd put on a garage slab or a ground floor. Steelwater rates the [Steelwater Heavy Duty 20 Long Gun](amzn:Steelwater+Heavy+Duty+20+Long+Gun+safe+AMSW592818) at 60 minutes at 1875°F, the longest of our four, but its spec page names no testing lab, so treat it as a maker's claim. The door is a 4 7/8 in composite with two layers of fireboard and a seal that swells in heat. The body is 12-gauge steel with ten 1.5 in bolts on all four sides. Steelwater gives 453 lb and four 7/16 in anchor holes backed by 1/4 in steel plate. The box says 20 long guns; Steelwater itself recommends 12-16, and Top Firearm Reviews says a Steelwater 22-gun claim "is due to math, not practical gun storage." Owners in r/CAguns report years of trouble-free use. The repeated complaint, also on Yelp and r/Gun_Safes, is a keypad that died after three to six years, and Steelwater sent a replacement keypad. Keep the bypass key where you can reach it.
 
 ### Kodiak KBX5629: Best for a large collection
 
@@ -501,15 +501,15 @@ Storage rules differ by state and city. California keeps a [roster of firearm sa
 
 ### "Fireproof" isn't fireproof
 
-Doubt about fire claims comes up again and again, as in this [r/homeowners thread](https://www.reddit.com/r/homeowners/comments/1gb33yg/how_do_you_store_your_important_documents/) on storing documents. The fix is to buy the longest rating you can and treat it as time, not immunity. Bag papers in plastic, since a sealed safe can trap steam and hose water.
+Doubt about fire claims comes up again and again, as in this r/homeowners thread on storing documents. The fix is to buy the longest rating you can and treat it as time, not immunity. Bag papers in plastic, since a sealed safe can trap steam and hose water.
 
 ### Ratings that can't be compared
 
-Shoppers in [r/Safes](https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/) keep asking how one brand's minutes and degrees compare with another's. Compare the minutes first, then ask the maker who ran the test. If no lab is named, read it as the maker's own rating.
+Shoppers in r/Safes keep asking how one brand's minutes and degrees compare with another's. Compare the minutes first, then ask the maker who ran the test. If no lab is named, read it as the maker's own rating.
 
 ### The keypad dies
 
-A Winchester owner on The High Road was locked out with no backup key, and a reply summed it up: "[Electronic locks fail. Mechanical locks keep working.](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)" All four picks include a key. Change batteries yearly, and if the lock fails, contact the maker with your proof of ownership.
+A Winchester owner on The High Road was locked out with no backup key, and a reply summed it up: "Electronic locks fail. Mechanical locks keep working." All four picks include a key. Change batteries yearly, and if the lock fails, contact the maker with your proof of ownership.
 
 ### The gun count is a fantasy
 
@@ -517,7 +517,7 @@ Owners on The High Road say to "[always take the max number of long guns they sa
 
 ### Bolting down on a slab
 
-A Las Vegas owner on AR15.com learned that "[drilling in to a post tension slab is a very bad idea](https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/)." Look for a stamp in the garage or ask the builder; if it's post-tension, have the slab scanned before drilling or anchor to wall studs instead.
+A Las Vegas owner on AR15.com learned that "drilling in to a post tension slab is a very bad idea." Look for a stamp in the garage or ask the builder; if it's post-tension, have the slab scanned before drilling or anchor to wall studs instead.
 
 > **From our notes:** When we lined up the four fire ratings side by side, the first thing we noticed was that each maker picked a different outside temperature: 1200°F for Fortress, 1400°F for Kodiak and Hornady, 1875°F for Steelwater. The second was that none of the four spec pages named a testing lab. We also found two weights for the Kodiak, 333 lb from Rhino and 390 lb on Amazon, and went with the maker's figure.
 

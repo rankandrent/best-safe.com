@@ -339,7 +339,7 @@ heroAlt: >-
   guide
 ---
 
-The question comes up in nearly the same words on Reddit's safe forums: "[Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?](https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/)" Picture the person asking. Passports, a house deed, some cash and a grandmother's ring are in a desk drawer, and the budget is modest. For that buyer, the best home safe is the SentrySafe SFW123GDC: it carries an independent UL fire rating and enough steel to slow a casual thief, as long as it is bolted down. If theft is the only worry, a budget steel keypad safe does more for the money, and a small biometric box suits a handgun or jewelry you reach for often.
+The question comes up in nearly the same words on Reddit's safe forums: "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?" Picture the person asking. Passports, a house deed, some cash and a grandmother's ring are in a desk drawer, and the budget is modest. For that buyer, the best home safe is the SentrySafe SFW123GDC: it carries an independent UL fire rating and enough steel to slow a casual thief, as long as it is bolted down. If theft is the only worry, a budget steel keypad safe does more for the money, and a small biometric box suits a handgun or jewelry you reach for often.
 
 ## Best home safe – short answer and top picks
 
@@ -387,7 +387,7 @@ Be clear about its limits. It has no fire or water rating, so papers inside need
 
 Some things you want in two seconds, not two minutes. The [Viking Security Safe VS-20BLX](amzn:Viking+Security+Safe+VS-20BLX+Biometric+Fingerprint+Safe) opens by fingerprint, with up to 32 prints stored, or by a 4-8 digit PIN or one of two override keys. CNN's security experts singled out exactly that: a biometric lock backed by a keypad and a key, so a misread or dead battery never locks you out. Viking says prints and the PIN sit in non-volatile memory, so they survive with the batteries removed.
 
-It weighs [18 lbs](https://vikingsecuritysafe.com/product-detail/viking-vs-20blx-biometric-fingerprint-mini-safe/) and measures 8 x 12 x 8 inches outside, per Viking. A motorized deadbolt drives 20 mm steel locking bars, the interior is carpeted with an LED light, and 4 anchor bolts are included. Viking states plainly that it is not fireproof or waterproof. Business Insider puts the capacity at 0.32 cubic feet: room for a handgun, a watch, a passport and some cash.
+It weighs 18 lbs and measures 8 x 12 x 8 inches outside, per Viking. A motorized deadbolt drives 20 mm steel locking bars, the interior is carpeted with an LED light, and 4 anchor bolts are included. Viking states plainly that it is not fireproof or waterproof. Business Insider puts the capacity at 0.32 cubic feet: room for a handgun, a watch, a passport and some cash.
 
 The trade-off is security. A well-known lock-picking YouTube channel showed its lock opened in seconds, and one Walmart reviewer repeats that complaint. Another had bolts that would not fully retract, while two others found the code and fingerprint reliable. One owner also notes it is too narrow to reach two wall studs. Viking itself warns fingerprint accuracy falls with age. Treat it as a quick-access box for a few items, bolted down, not a vault. Our [pistol safe guide](/blog/best-pistol-safe/) covers sturdier quick-access options for a handgun.
 
@@ -403,7 +403,7 @@ The SFW123GDC's 1-hour, 1,700°F UL rating is aimed at paper, and SentrySafe als
 
 ### Burglary ratings
 
-UL 1037 covers Residential Security Containers. Its entry level, per UL, requires a safe to withstand [a five-minute attack by one technician using common hand tools](https://www.ul.com/news/residential-security-container-standard-revised). Higher levels add a second technician, more aggressive tools and a ten-minute window. A Reddit preppers thread sums up the tool-resistance classes above that: "[TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.](https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/)" None of our three picks claims any of these.
+UL 1037 covers Residential Security Containers. Its entry level, per UL, requires a safe to withstand a five-minute attack by one technician using common hand tools. Higher levels add a second technician, more aggressive tools and a ten-minute window. A Reddit preppers thread sums up the tool-resistance classes above that: "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc." None of our three picks claims any of these.
 
 ### When to step up to a dealer safe
 
@@ -425,7 +425,7 @@ If a handgun goes in, check your state's official firearm storage page for what 
 
 **Bolt down any safe one person could carry, because carry-off is the easiest way past every safe on this list.** All three picks ship with anchor bolts or bolt-down hardware, and burglary is mostly a home problem: [62.8 percent of US burglaries](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/burglary) in 2019 were of residential properties, per the FBI.
 
-A thread in r/homedefense puts it plainly: light safes are "[not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts.](https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/)" Bolt into concrete or floor framing, not just subfloor, and put the safe in a corner or closet where a pry bar has no room to swing. On a fire and water safe like the SFW123GDC, an owner on Top Firearm Reviews notes that bolting it down affects the water protection, so follow SentrySafe's instructions. Our [guide to bolting down a safe](/blog/how-to-bolt-down-a-safe/) walks through anchors for slabs and wood floors.
+A thread in r/homedefense puts it plainly: light safes are "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts." Bolt into concrete or floor framing, not just subfloor, and put the safe in a corner or closet where a pry bar has no room to swing. On a fire and water safe like the SFW123GDC, an owner on Top Firearm Reviews notes that bolting it down affects the water protection, so follow SentrySafe's instructions. Our [guide to bolting down a safe](/blog/how-to-bolt-down-a-safe/) walks through anchors for slabs and wood floors.
 
 ## Problems owners run into, and the fix
 
@@ -433,7 +433,7 @@ A thread in r/homedefense puts it plainly: light safes are "[not really fireproo
 
 ### Locked out by batteries or a lost key
 
-A dead keypad battery or a lost override key is the classic lockout, and an r/Safes reply sums up the second case: "[If you lost the override key it's a problem.](https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/)" The fix:
+A dead keypad battery or a lost override key is the classic lockout, and an r/Safes reply sums up the second case: "If you lost the override key it's a problem." The fix:
 
 1. Store the backup key outside the safe, somewhere you will remember.
 2. Change batteries on a set date each year, before they run flat. Our [SentrySafe battery guide](/blog/sentry-safe-battery-replacement/) shows how.
@@ -446,7 +446,7 @@ Several Walmart reviewers of the SFW123GDC received dented or damaged safes. Ope
 
 ### Mold and moisture inside a fire safe
 
-A fire safe seals tight, and a collectors' forum member warns that "[Fireproof safes are notorious for holding moisture.](https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe)" Keep papers in zip bags, add a desiccant pack such as the one SentrySafe sells, and open the door to air it out now and then so relative humidity inside does not build up. Our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/) compares canisters you can recharge.
+A fire safe seals tight, and a collectors' forum member warns that "Fireproof safes are notorious for holding moisture." Keep papers in zip bags, add a desiccant pack such as the one SentrySafe sells, and open the door to air it out now and then so relative humidity inside does not build up. Our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/) compares canisters you can recharge.
 
 ## Which home safe should you buy?
 

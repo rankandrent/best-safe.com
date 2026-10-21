@@ -1,21 +1,17 @@
 {
   "slug": "how-to-move-a-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T14:41:15.165Z",
+  "checkedAt": "2026-10-21T19:51:18.160Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (403): https://twomenandatruck.com/how-to/move-a-gun-safe",
-    "source didn't respond normally (403): https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2",
-    "source didn't respond normally (403): https://smith-wessonforum.com/threads/safe-moving.733512/",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Body changed for the media-and-numbers rule; earlier facts unchanged. Re-opened 2026-10-21: Kirby's Moving checklist (kirbysmovingco.com/blog/gun-safe-moving-checklist) recommends pros if the safe 'Weighs more than 500 pounds' -> linked 'more than 500 lb'; Liberty moving guide (libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own) says Fatboy Jr. Extreme needs a dolly that 'can hold at least 800 pounds' -> linked 'at least 800 lb', and a home-size gun safe with composite/concrete insulation 'may weigh up to 3,100 pounds' -> new sentence linked. Videos II81lN6oASs 'How is my Gun Safe Delivered and Installed?' (Liberty Safe channel, embedded on that page) and -lxi5SqJx9Y 'How to Move a Gun Safe | Tractor Supply Co.'. 3 illustration prompts, no brands or faces. Shortened the intro scene sentence for the word limit; no facts removed.",
-    "at": "2026-10-21T06:57:54.823Z",
-    "hash": "053c13a07fb45ac4"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:17.778Z",
+    "hash": "39a47d9a01ca3e3f"
   }
 }

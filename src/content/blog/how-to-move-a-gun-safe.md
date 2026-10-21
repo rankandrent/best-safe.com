@@ -174,7 +174,7 @@ Empty the safe completely; contents add weight and shift. Meanwhile, the guns st
 
 ## Gear that matters – dolly rating, sliders, straps and blankets
 
-**The single biggest mistake is rating the gear to "a dolly" instead of to the safe's weight.** One owner on The High Road put the [dolly limit](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/) plainly: "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#". Liberty Safe's own moving guide calls for a dolly that can hold [at least 800 lb](https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own) for its Fatboy Jr. Extreme model, and bigger safes can outweigh both.
+**The single biggest mistake is rating the gear to "a dolly" instead of to the safe's weight.** One owner on The High Road put the dolly limit plainly: "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#". Liberty Safe's own moving guide calls for a dolly that can hold [at least 800 lb](https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own) for its Fatboy Jr. Extreme model, and bigger safes can outweigh both.
 
 The checklist we'd assemble:
 
@@ -211,7 +211,7 @@ Use a rated ramp or lift gate with people on both sides, then strap the safe upr
 
 ### Moving a gun safe up stairs and into basements
 
-Stairs come up in nearly every thread. On a [High Road stairs thread](https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/), one owner wrote: "Hire a professional. Don't rent a stair climbing dolly." The fix is an insured safe mover with a powered stair-climbing dolly; for a new purchase, a modular or smaller safe avoids it.
+Stairs come up in nearly every thread. On a High Road stairs thread, one owner wrote: "Hire a professional. Don't rent a stair climbing dolly." The fix is an insured safe mover with a powered stair-climbing dolly; for a new purchase, a modular or smaller safe avoids it.
 
 ### Turns, doorways and dolly limits
 
@@ -219,17 +219,17 @@ The same thread names the failure nobody measures for: "the turn at the top won'
 
 ### Floor load and stair strength
 
-For an upstairs spot, one High Road poster noted, "Most residential floors are only rated for about 40 lb per sq ft." Another poster in that thread called it a design load spread across the whole room, not a limit per spot, and a loaded safe concentrates hundreds of pounds on a few square feet, and an [r/Safes thread](https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/) adds "be sure your stairs can handle the weight". Heavy [fire-rated safes](/blog/best-fireproof-safe/) raise the stakes. Ask a structural engineer or your building department; this is general information, not engineering or legal advice.
+For an upstairs spot, one High Road poster noted, "Most residential floors are only rated for about 40 lb per sq ft." Another poster in that thread called it a design load spread across the whole room, not a limit per spot, and a loaded safe concentrates hundreds of pounds on a few square feet, and an r/Safes thread adds "be sure your stairs can handle the weight". Heavy [fire-rated safes](/blog/best-fireproof-safe/) raise the stakes. Ask a structural engineer or your building department; this is general information, not engineering or legal advice.
 
 ### Injuries, quotes and when to pay a mover
 
-Back injuries, broken feet and dropped safes recur. On [AccurateShooter](https://forum.accurateshooter.com/threads/safe-moving-cost.4155950/page-2) one owner wrote: "One good back injury with a do-it-yourself move and you sure will regret not paying a professional at any cost." Another, on the S&W forum, dropped a safe on the way down a rental truck ramp using a refrigerator cart. Paid prices vary widely with weight, stairs and distance, so get several quotes and give each mover both addresses and the empty weight.
+Back injuries, broken feet and dropped safes recur. On AccurateShooter one owner wrote: "One good back injury with a do-it-yourself move and you sure will regret not paying a professional at any cost." Another, on the S&W forum, dropped a safe on the way down a rental truck ramp using a refrigerator cart. Paid prices vary widely with weight, stairs and distance, so get several quotes and give each mover both addresses and the empty weight.
 
 > **From our notes:** When we sorted the owner threads for this guide by what went wrong, the pattern surprised us. Few of the reports involved trouble on a flat floor. The injuries, the dropped safe and the gouged frames all came at a transition: a truck ramp, the first stair, a landing turn, a threshold strip. So we stopped treating safe moving as one long push and wrote the steps as a handful of risky moments, each needing a spotter.
 
 ### Frames, thresholds and rental deposits
 
-A heavy safe can tear up "door frames and thresholds," as one [S&W forum](https://smith-wessonforum.com/threads/safe-moving.733512/) owner warned. Renters feel it most; a [FirearmsTalk](https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/) poster said a pro "Might save your thresholds, steps, security deposit, etc." Photograph frames and floors first, lay hardboard over finished floors, wrap jambs in blankets, and check your lease or ask the landlord in writing before bolting into a rental floor.
+A heavy safe can tear up "door frames and thresholds," as one S&W forum owner warned. Renters feel it most; a [FirearmsTalk](https://www.firearmstalk.com/threads/gun-safe-on-the-second-floor-apartment.121162/) poster said a pro "Might save your thresholds, steps, security deposit, etc." Photograph frames and floors first, lay hardboard over finished floors, wrap jambs in blankets, and check your lease or ask the landlord in writing before bolting into a rental floor.
 
 ## After the move – level, bolt down and recheck the lock
 

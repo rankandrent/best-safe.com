@@ -183,13 +183,13 @@ For FP/FPW and SFW123T/U, SFW205T/U, SentrySafe's steps are:
 3. Listen for [3 chirps](https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe) (SFW T/U: touch the lock's center to wake it), enter your 5-digit code and turn or pull the handle.
 4. Change the inside batteries; on FP/FPW, put the jumper back and verify the lock before closing.
 
-SentrySafe says this override "should not be used as a primary means of gaining entry". ESB, PL, QAP, CA, HL, X and T models open with the override key. r/Safes threads like "[My Safe Batteries died , keypad doesn't respond and no key option](https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/)" show why that key matters.
+SentrySafe says this override "should not be used as a primary means of gaining entry". ESB, PL, QAP, CA, HL, X and T models open with the override key. r/Safes threads like "My Safe Batteries died , keypad doesn't respond and no key option" show why that key matters.
 
 > **From our notes:** When we read SentrySafe's battery page prefix by prefix, two details surprised us. The 9V jump point is documented only for FP/FPW and SFW123T/U, SFW205T/U. And FP/FPW safes take two CR123 lithium cells, the one family on that page where "alkaline only" advice is wrong. Hence our prefix-first table. This is research from SentrySafe's pages and owner threads, not hands-on work.
 
 ## New batteries in and the keypad still won't work
 
-**When fresh batteries change nothing, re-check the cells and their seating, then call SentrySafe.** A Winchester owner on The High Road wrote, "[I have tried 4 new name brand batteries.](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)" A Quora owner asked "[Why won't my SentrySafe Security Safe T6-331 lock?](https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position)" after a battery swap.
+**When fresh batteries change nothing, re-check the cells and their seating, then call SentrySafe.** A Winchester owner on The High Road wrote, "[I have tried 4 new name brand batteries.](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)" A Quora owner asked "Why won't my SentrySafe Security Safe T6-331 lock?" after a battery swap.
 
 Our check order:
 
@@ -197,11 +197,11 @@ Our check order:
 - every cell facing the marked direction
 - on twist-off keypads (DH), no wires pinched behind the keypad
 
-Still failing? Stop entering codes and contact [SentrySafe support](https://www.sentrysafe.com/support/contact-us) with your model and serial number.
+Still failing? Stop entering codes and contact SentrySafe support with your model and serial number.
 
 ## Lost the override key
 
-**Fresh batteries can't fix a lost override key; SentrySafe's key and combo replacement process is the owner route.** Posts such as "[Battery dying- can't get it open. Any advice?](https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/)" in r/Safes show how fast a missing key becomes a lockout. Start from SentrySafe's [Lost Key or Combo page](https://www.sentrysafe.com/support/lost-key-combo). Still locked out of your own safe? Our [owner lockout guide](/blog/how-to-open-a-safe/) covers proof of ownership and when a licensed locksmith fits.
+**Fresh batteries can't fix a lost override key; SentrySafe's key and combo replacement process is the owner route.** Posts such as "Battery dying- can't get it open. Any advice?" in r/Safes show how fast a missing key becomes a lockout. Start from SentrySafe's Lost Key or Combo page. Still locked out of your own safe? Our [owner lockout guide](/blog/how-to-open-a-safe/) covers proof of ownership and when a licensed locksmith fits.
 
 ## Keep it from happening again
 

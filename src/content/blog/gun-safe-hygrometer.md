@@ -417,13 +417,13 @@ Hornady rates the [read distance at 100 feet](https://static.hornady.media/press
 
 ### Hornady Digital Hygrometer: Best single-unit digital
 
-If you open the safe every day anyway, the [Hornady Digital Hygrometer](amzn:Hornady+Digital+Hygrometer+95909) gives you the same touchscreen and high/low memory in one piece. Its [instruction sheet](https://static.hornady.media/presscenter/docs/1410995571-Hygrometer-Instrutions--10-11-18.pdf) lists a 10 to 99 percent RH range, a 10-second update and two AAA batteries, not included. It clips to the inside of the door with a quick-connect bracket or stands on a shelf.
+If you open the safe every day anyway, the [Hornady Digital Hygrometer](amzn:Hornady+Digital+Hygrometer+95909) gives you the same touchscreen and high/low memory in one piece. Its instruction sheet lists a 10 to 99 percent RH range, a 10-second update and two AAA batteries, not included. It clips to the inside of the door with a quick-connect bracket or stands on a shelf.
 
 A Reddit owner in r/Firearms said he was very happy with his and liked the daily high and low. One retailer reviewer bought two for identical safes and found them 1 percent apart on humidity after a day, and another says his reads close to his other meters but not quite as accurate. On the downside, one buyer reports the humidity sensor failed within a day, and a poster in r/ar15 says a Hornady hygrometer died after about six weeks (he doesn't say which model). Like the wireless version, the manual states no accuracy figure.
 
 ### Lockdown Vault Hygrometer: Best no-battery dial
 
-No batteries, no screen, nothing to fail at 2 a.m. The [Lockdown Vault Hygrometer](amzn:Lockdown+Vault+Hygrometer) is a 2 3/4 inch round dial, per [Lockdown](https://www.lockdown.com/products/moisture-control/hygrometer/222111.html), that mounts with an included fastener or a hook-and-loop pad and shows humidity in large numbers. It reads humidity only: no temperature, no memory.
+No batteries, no screen, nothing to fail at 2 a.m. The [Lockdown Vault Hygrometer](amzn:Lockdown+Vault+Hygrometer) is a 2 3/4 inch round dial, per Lockdown, that mounts with an included fastener or a hook-and-loop pad and shows humidity in large numbers. It reads humidity only: no temperature, no memory.
 
 An analog dial hygrometer like this is where most accuracy complaints start. A BobIsTheOilGuy member running this dial beside a ThermoPro digital saw 50 percent on the Lockdown and 45 on the digital and asked which to believe. Another member's answer: "They aren't precision instruments." A reviewer on Lockdown's site found his close to his electronic unit. We would use it as a cheap second gauge on a top shelf, salt-test it first, and write the offset on a strip of tape.
 
@@ -431,7 +431,7 @@ An analog dial hygrometer like this is where most accuracy complaints start. A B
 
 Sold for years as the ThermoPro TP49 and now under the TempPro name, the [TempPro TP49 Digital Hygrometer](amzn:TempPro+TP49+Digital+Hygrometer) is a palm-size gauge and is the only pick here with a published accuracy: the maker states [±2% RH from 30 to 80 percent](https://buythermopro.com/products/tp49b-indoor-thermometer-hygrometer), ±3 outside that, with a 10-second refresh. It runs on one AAA battery and has a magnetic back, a stand and a hanging hole. There is no backlight and no high/low memory.
 
-On [SIG Talk](https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humidity-level-in-your-safe.449519/), the thread starter bought several for his gun safes and calls them a big step up from color-dot humidity strips, and another member likes the magnets for mounting. Walmart reviewers mostly describe it as accurate and easy to read from across a room. The one recurring gripe is small stuff, like a reviewer who wants the humidity and temperature digits in different sizes. Small enough to put one on each shelf of a big safe.
+On SIG Talk, the thread starter bought several for his gun safes and calls them a big step up from color-dot humidity strips, and another member likes the magnets for mounting. Walmart reviewers mostly describe it as accurate and easy to read from across a room. The one recurring gripe is small stuff, like a reviewer who wants the humidity and temperature digits in different sizes. Small enough to put one on each shelf of a big safe.
 
 ## What humidity should a gun safe be – and who says so
 
@@ -439,10 +439,10 @@ On [SIG Talk](https://www.sigtalk.com/threads/inexpensive-hygrometer-check-humid
 
 Here is what the sources actually say:
 
-- **Firearms:** curators at the NRA National Firearms Museum keep their collection at 70 degrees with [50 to 55 percent relative humidity](https://www.nrafamily.org/content/top-6-expert-tips-to-prevent-gun-rust/), because too little moisture cracks wood stocks and grips.
+- **Firearms:** curators at the NRA National Firearms Museum keep their collection at 70 degrees with 50 to 55 percent relative humidity, because too little moisture cracks wood stocks and grips.
 - **Paper:** the Library of Congress calls a [30-55% relative humidity](https://guides.loc.gov/preserving-your-books/storing) environment safe for most books, at 70 degrees or below.
-- **Metal:** the Canadian Conservation Institute says that for metals, lower is better and [above 75% RH all corrosion speeds up a lot](https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html).
-- **Safe guidance:** [Howard Environmental](https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/), a mold remediation firm, recommends 30 to 50 percent inside safes.
+- **Metal:** the Canadian Conservation Institute says that for metals, lower is better and above 75% RH all corrosion speeds up a lot.
+- **Safe guidance:** Howard Environmental, a mold remediation firm, recommends 30 to 50 percent inside safes.
 
 So drier is not always better. As one Sniper's Hide member put it, "a lot of people think you need it super dry in a safe, which isn't true at all." A safe of all-synthetic rifles can run near 40. A safe with walnut stocks and passports should sit nearer 45 to 50, not at 20. If you keep documents in a fire-rated safe, our [fire rated gun safe guide](/blog/best-fire-rated-gun-safe/) explains why those safes hold moisture.
 
@@ -452,12 +452,12 @@ So drier is not always better. As one Sniper's Hide member put it, "a lot of peo
 
 ### Run a salt test in 12 hours
 
-The salt test works because a damp pile of table salt in a sealed space holds the air at about 75 percent RH. Follow these steps, adapted from [TempPro's instructions](https://temppro.com/blogs/news/how-to-calibrate-a-hygrometer-hygrometer-calibration):
+The salt test works because a damp pile of table salt in a sealed space holds the air at about 75 percent RH. Follow these steps, adapted from TempPro's instructions:
 
 1. Put about two teaspoons of table salt in a bottle cap or small dish.
 2. Add a few drops of distilled water so the salt is damp but not dissolved.
 3. Seal the dish and the hygrometer in a zip bag.
-4. After 12 hours, read the gauge. A correct one shows [75 percent](https://temppro.com/blogs/news/how-to-calibrate-a-hygrometer-hygrometer-calibration).
+4. After 12 hours, read the gauge. A correct one shows 75 percent.
 5. If it reads 71, add 4 to every reading from now on. Write the offset on tape on the back, or turn the adjustment screw if your dial has one.
 
 The BobIsTheOilGuy owner ran this on his ThermoPro and got 74 against 75. Redo it once or twice a year, as Howard Environmental suggests.
@@ -474,7 +474,7 @@ Reading without opening is the other half of the problem. Every time the door op
 
 Work through it in this order:
 
-- **Above 55% for days:** recharge or replace a saturated silica gel desiccant, confirm the gun safe dehumidifier rod is warm, and pull out damp foam cases and gun socks. In an [AR15.com humidity thread](https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/), one reply was blunt: "Ditch the gel and dri packs, they just hold moisture." That is true of packs nobody recharges, and the hygrometer is how you know they are full.
+- **Above 55% for days:** recharge or replace a saturated silica gel desiccant, confirm the gun safe dehumidifier rod is warm, and pull out damp foam cases and gun socks. In an AR15.com humidity thread, one reply was blunt: "Ditch the gel and dri packs, they just hold moisture." That is true of packs nobody recharges, and the hygrometer is how you know they are full.
 - **High only after opening:** normal. Watch the high/low memory; if it falls back within a day, you are fine.
 - **Under 30%:** common in dry climates. Remove some desiccant before wood stocks shrink.
 - **Spikes in summer or winter:** a garage or outside-wall safe is fighting temperature swings, which our [gun safe in garage guide](/blog/gun-safe-in-garage/) covers.

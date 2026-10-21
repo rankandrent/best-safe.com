@@ -463,7 +463,7 @@ Homeowners in r/homeowners and r/homesecurity raise this often. One reply sums i
 
 ### Forgot the code or someone changed it
 
-A resettable code is easy to change by accident. In one r/DIYUK thread, an owner wrote: "My partner managed to take the spare key out, close the box and somehow change the combination" ([r/DIYUK](https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/)). For your own box, the safe path is the maker's support: ask Kidde or Master Lock what proof of ownership they need to help with a reset. The igloohome avoids most of this because codes live in your app account. Write every code change down, and tell the household before you change it.
+A resettable code is easy to change by accident. In one r/DIYUK thread, an owner wrote: "My partner managed to take the spare key out, close the box and somehow change the combination" (r/DIYUK). For your own box, the safe path is the maker's support: ask Kidde or Master Lock what proof of ownership they need to help with a reset. The igloohome avoids most of this because codes live in your app account. Write every code change down, and tell the household before you change it.
 
 ### Stiff or jammed latch
 
@@ -471,7 +471,7 @@ Owners report covers and tabs that stick, mostly on boxes left out in the rain a
 
 ### Dead batteries on a smart box
 
-Being locked out by a dead keypad is a recurring complaint in r/Safes threads, and it applies to any battery lock box. The igloohome runs up to 12 months on 4 AAA cells and has a USB-C jump-start for emergency power. Long-time safe owners on The High Road suggest a schedule: "tape a date when you installed new batteries and just exchange them every year, regardless of use" ([The High Road](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)). Keep a backup key with someone you trust.
+Being locked out by a dead keypad is a recurring complaint in r/Safes threads, and it applies to any battery lock box. The igloohome runs up to 12 months on 4 AAA cells and has a USB-C jump-start for emergency power. Long-time safe owners on The High Road suggest a schedule: "tape a date when you installed new batteries and just exchange them every year, regardless of use" (The High Road). Keep a backup key with someone you trust.
 
 ## Key lock box or hide-a-key, smart lock or small safe?
 

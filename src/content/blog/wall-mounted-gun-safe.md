@@ -489,7 +489,7 @@ That's why door steel and anchoring matter. The SnapSafe's 8-gauge door is much 
 
 ## Fast access in the dark, and keeping kids out
 
-**Pick the entry you can work half asleep, then keep a backup that doesn't share the same battery.** An r/CAguns poster asked for "recommendations for wall-mounted safes that allow quicker, one-handed access" ([thread](https://www.reddit.com/r/CAguns/comments/1nsk1ad/wall_mounted_gun_safe/)), and on Sniper's Hide a parent wanted the home-defense gun reachable for his wife but out of his young children's hands. Here's how each pick handles that:
+**Pick the entry you can work half asleep, then keep a backup that doesn't share the same battery.** An r/CAguns poster asked for "recommendations for wall-mounted safes that allow quicker, one-handed access" (thread), and on Sniper's Hide a parent wanted the home-defense gun reachable for his wife but out of his young children's hands. Here's how each pick handles that:
 
 - **SnapSafe:** a 4-6 digit keypad on four AA batteries. Holding the 1 key for three seconds turns the tones off, and a tone plus LED warn of low batteries.
 - **Barska:** a fingerprint opens it with one hand; we'd enroll at least two fingers in case one is wet or cut.
@@ -505,9 +505,9 @@ Renters have a harder time. An in-wall safe means cutting drywall, which most le
 
 ## What a wall safe won't do
 
-**None of these four carries a fire rating, so treat each as theft and child-access storage, not document protection.** Safe and Vault Store notes that [fire-rated wall safes run 12 to 15 in deep](https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/10-best-selling-wall-safes-on-the-market) with a UL-listed 1-hour rating, far deeper than a 2x4 wall. If papers need an independent UL 72 or Intertek rating, our [fire rated gun safe picks](/blog/best-fire-rated-gun-safe/) name who certified each rating.
+**None of these four carries a fire rating, so treat each as theft and child-access storage, not document protection.** Safe and Vault Store notes that fire-rated wall safes run 12 to 15 in deep with a UL-listed 1-hour rating, far deeper than a 2x4 wall. If papers need an independent UL 72 or Intertek rating, our [fire rated gun safe picks](/blog/best-fire-rated-gun-safe/) name who certified each rating.
 
-Storage laws differ by state and city, so check your state and local firearm storage rules. California publishes a [roster of approved firearm safety devices](https://oag.ca.gov/firearms/fsd-chart-retail). This is general information, not legal advice.
+Storage laws differ by state and city, so check your state and local firearm storage rules. California publishes a roster of approved firearm safety devices. This is general information, not legal advice.
 
 ## Our verdict
 

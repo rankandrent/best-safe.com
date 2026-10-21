@@ -136,7 +136,7 @@ heroImage: /images/featured/are-gun-safes-fireproof.png
 heroAlt: 'Are Gun Safes Fireproof? What UL, ETL and Maker Ratings Mean – Best Safe guide'
 ---
 
-After every big wildfire season, the same thread title shows up in gun owner forums: "[FYI: Your guns will still burn in your fireproof gun safe](https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/)." It stings because the box said fireproof. So, are gun safes fireproof? No. A gun safe is fire-resistant: it keeps the inside below a set temperature for a set number of minutes, and who certified that number decides how much we would trust it.
+After every big wildfire season, the same thread title shows up in gun owner forums: "FYI: Your guns will still burn in your fireproof gun safe." It stings because the box said fireproof. So, are gun safes fireproof? No. A gun safe is fire-resistant: it keeps the inside below a set temperature for a set number of minutes, and who certified that number decides how much we would trust it.
 
 We read the fire-rating pages of makers, dealers and test labs to explain what the minutes and degrees mean. For picks, see our [best fire rated gun safe](/blog/best-fire-rated-gun-safe/) roundup; this guide covers how to read any rating.
 
@@ -148,7 +148,7 @@ Here is how we read a label like "60 minutes at 1200°F":
 
 - **60 minutes** is how long the furnace ran at full heat before the interior hit its limit.
 - **1200°F** is the outside furnace temperature, not the inside.
-- **350°F** is the usual interior limit, because paper discolors above it. Dean Safe puts scorching near 410°F and ignition at [451° F](https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes).
+- **350°F** is the usual interior limit, because paper discolors above it. Dean Safe puts scorching near 410°F and ignition at 451° F.
 
 That interior limit is about paper. Plastics, photos and drives need lower limits, which is why UL also has Class 150 and Class 125 for non-paper records and digital media.
 
@@ -185,7 +185,7 @@ Construction matters as much as the label:
 
 ## A real fire vs the rated minutes
 
-**A gun safe fire rating has to outlast a house fire, which gets hot fast and often burns longer than people expect.** Heat can pass [1100 degrees Fahrenheit in under five minutes](https://www.thezebra.com/resources/research/house-fire-statistics/), per The Zebra's house fire statistics roundup. Northwest Safe describes a fire that went unreported for [30 minutes, plus 20 more for the response](https://nwsafe.com/blogs/tips/fireproof-gun-safe). Wildfires can overwhelm crews entirely.
+**A gun safe fire rating has to outlast a house fire, which gets hot fast and often burns longer than people expect.** Heat can pass [1100 degrees Fahrenheit in under five minutes](https://www.thezebra.com/resources/research/house-fire-statistics/), per The Zebra's house fire statistics roundup. Northwest Safe describes a fire that went unreported for 30 minutes, plus 20 more for the response. Wildfires can overwhelm crews entirely.
 
 So we size the rating to the fire, not the fire department's distance:
 
@@ -199,19 +199,19 @@ So we size the rating to the fire, not the fire department's distance:
 
 ### The house burned to the ground
 
-In a total loss, the fire can outlast any rating. One r/HomeImprovement reply warns: "[Even if the safe is found after a fire, the contents are usually baked to flash point](https://www.reddit.com/r/HomeImprovement/comments/e20qwb/where_to_store_for_safe_ie_what_part_of_a_house/)". Buy the longest independent rating you can, keep copies of key papers off-site, and photograph serial numbers for insurance.
+In a total loss, the fire can outlast any rating. One r/HomeImprovement reply warns: "Even if the safe is found after a fire, the contents are usually baked to flash point". Buy the longest independent rating you can, keep copies of key papers off-site, and photograph serial numbers for insurance.
 
 ### Ratings that can't be compared
 
-Shoppers in [r/Safes](https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/) keep asking how one brand's minutes and degrees stack up against another's. Compare certifier first, then minutes, then temperature. If no lab is named, read it as the maker's own rating.
+Shoppers in r/Safes keep asking how one brand's minutes and degrees stack up against another's. Compare certifier first, then minutes, then temperature. If no lab is named, read it as the maker's own rating.
 
 ### Damp papers in a fire-rated safe
 
-The fireboard that makes steam in a fire also holds moisture day to day. A Collectors Universe member put it bluntly: "[Fireproof safes are notorious for holding moisture.](https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe)" American Security recommends bagging moisture-sensitive papers. We'd add a [gun safe dehumidifier](/blog/best-dehumidifier-for-gun-safe/).
+The fireboard that makes steam in a fire also holds moisture day to day. A Collectors Universe member put it bluntly: "Fireproof safes are notorious for holding moisture." American Security recommends bagging moisture-sensitive papers. We'd add a [gun safe dehumidifier](/blog/best-dehumidifier-for-gun-safe/).
 
 ### Getting into your own safe after a fire
 
-A dead keypad or a warped door can lock owners out of their own safe after a fire. On r/Safes, one reply notes that "[Some makers may offer to replace the safe after a fire and assist in retrieving the contents.](https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/)" Call the maker first with your proof of ownership, check the fire warranty, then a licensed locksmith. Our guide to [opening your own safe](/blog/how-to-open-a-safe/) covers the owner-side steps.
+A dead keypad or a warped door can lock owners out of their own safe after a fire. On r/Safes, one reply notes that "Some makers may offer to replace the safe after a fire and assist in retrieving the contents." Call the maker first with your proof of ownership, check the fire warranty, then a licensed locksmith. Our guide to [opening your own safe](/blog/how-to-open-a-safe/) covers the owner-side steps.
 
 ## Where to go next
 

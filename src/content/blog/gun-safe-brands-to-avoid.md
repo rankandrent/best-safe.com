@@ -170,7 +170,7 @@ We name a brand below only where a federal recall or the maker's own statement b
 
 ## Recalled biometric gun safes (CPSC)
 
-**Every documented gun safe recall since 2023 involves a fingerprint reader that opened for people who were never enrolled.** The CPSC and Fortress announced the first one in October 2023: [about 61,000 biometric gun safes](https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported); the notice cites a lawsuit alleging a 12-year-old boy died from a firearm taken from one. In February 2024, [over 120,000 more](https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Biometric-Gunsafes-Malfunction-Allowing-Anyone-to-Open-CPSC-Widens-Recall-to-120000-More-Safes-Sold-by-4-Manufacturers-at-Walmart-Amazon-and-Bass-Pro-Shops-Serious-Risk-of-Death) from four makers followed. A third wave in June 2024 covered [133,000 Sports Afield and Sanctuary safes](https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Unsecure-Firearms-133000-Sports-Afield-and-Sanctuary-Biometric-Gun-Safes-Recalled-Because-Anyone-Can-Open-the-Biometric-Lock).
+**Every documented gun safe recall since 2023 involves a fingerprint reader that opened for people who were never enrolled.** The CPSC and Fortress announced the first one in October 2023: [about 61,000 biometric gun safes](https://www.cpsc.gov/Recalls/2024/Fortress-Safe-Announces-Recall-of-Biometric-Gun-Safes-Due-to-Serious-Injury-Hazard-and-Risk-of-Death-One-Death-Reported); the notice cites a lawsuit alleging a 12-year-old boy died from a firearm taken from one. In February 2024, [over 120,000 more](https://www.cpsc.gov/About-CPSC/Commissioner/Richard-Trumka/Statement/Biometric-Gunsafes-Malfunction-Allowing-Anyone-to-Open-CPSC-Widens-Recall-to-120000-More-Safes-Sold-by-4-Manufacturers-at-Walmart-Amazon-and-Bass-Pro-Shops-Serious-Risk-of-Death) from four makers followed. A third wave in June 2024 covered 133,000 Sports Afield and Sanctuary safes.
 
 We built this table from the brands named in those CPSC notices and statements, with unit counts as CPSC gives them:
 
@@ -189,13 +189,13 @@ If you own one, CPSC's advice is the same each time: stop using the biometric re
 
 **A gun safe with thin walls and few bolts is a steel cabinet, and California publishes a minimum you can use as a free yardstick.** California's DOJ standard for a gun safe calls for [exterior walls of at least 12-gauge steel](https://oag.ca.gov/firearms/gunsafe) on a single-walled safe. It also asks for a door of 7-gauge plate or two layers of 12-gauge. Boltwork needs at least three steel bolts 1/2 inch thick, run by a separate handle. The lock needs 10,000 or more combinations, behind a hardened drill-resistant plate. Hinges must be protected so the door can't be removed. A UL RSC listing is the other accepted route. That standard is a legal benchmark in California, not a quality seal, and storage laws differ by state, so check your own state's official rules.
 
-Lower gauge numbers mean thicker steel, so a 14- or 16-gauge body sits below California's line. Owners feel this: one r/Safes thread asks why some [big-name safes get a bad rap](https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/), and replies there question whether the price buys enough safe. Our fix is to ignore the brand and read the gauge for the body and the door separately, plus bolt count and diameter.
+Lower gauge numbers mean thicker steel, so a 14- or 16-gauge body sits below California's line. Owners feel this: one r/Safes thread asks why some big-name safes get a bad rap, and replies there question whether the price buys enough safe. Our fix is to ignore the brand and read the gauge for the body and the door separately, plus bolt count and diameter.
 
-The other yardstick is a UL RSC label. Under UL 1037, Level 1 means the safe withstood [a five-minute attack by one technician](https://www.ul.com/news/residential-security-container-standard-revised) with common hand tools such as drills, screwdrivers and hammers. Levels 2 and 3 use two technicians, ten minutes and harsher tools. The Dean Safe video below explains relockers, hard plates, hinges and gauge in plain terms.
+The other yardstick is a UL RSC label. Under UL 1037, Level 1 means the safe withstood a five-minute attack by one technician with common hand tools such as drills, screwdrivers and hammers. Levels 2 and 3 use two technicians, ten minutes and harsher tools. The Dean Safe video below explains relockers, hard plates, hinges and gauge in plain terms.
 
 ## Fire ratings with no named lab
 
-**A fire rating means little until you know who certified it, how long it lasted and at what temperature.** Shoppers comparing store-brand safes in an [r/harborfreight thread](https://www.reddit.com/r/harborfreight/comments/1j1h6hw/whats_the_general_consensus_on_the_union_24_gun/) ran into exactly this: minutes and degrees that don't line up from one box to the next.
+**A fire rating means little until you know who certified it, how long it lasted and at what temperature.** Shoppers comparing store-brand safes in an r/harborfreight thread ran into exactly this: minutes and degrees that don't line up from one box to the next.
 
 We sort fire claims into two groups:
 
@@ -206,15 +206,15 @@ A maker's own rating is not automatically false, but you can't compare it with a
 
 ## Locks with no backup, and who keeps your code
 
-**The most common lock complaint isn't picking; it's a keypad that dies with no backup key.** On The High Road, one owner was locked out while the maker's support line was closed, and one post in the thread summed it up: ["Electronic locks fail. Mechanical locks keep working."](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/) We'd avoid any electronic or biometric gun safe without a key override, and look for a UL Listed lock, a relocker and a hard plate behind it.
+**The most common lock complaint isn't picking; it's a keypad that dies with no backup key.** On The High Road, one owner was locked out while the maker's support line was closed, and one post in the thread summed it up: "Electronic locks fail. Mechanical locks keep working." We'd avoid any electronic or biometric gun safe without a key override, and look for a UL Listed lock, a relocker and a hard plate behind it.
 
 If your own safe won't open, recovery runs through the maker with your proof of ownership and serial number, or a licensed safe technician. Our guide to [replacing safe keypad batteries](/blog/sentry-safe-battery-replacement/) covers the owner-side steps.
 
-There is a second lock question few pages raise: does the maker keep a record of your combination? Liberty Safe says that in August 2023 it [answered a search warrant](https://libertysafe.com/pages/access-code-facts) by giving a customer's access code. It now releases codes only under legal process naming the safe's serial number. Owners can also ask Liberty to delete their code from its records. Before we'd buy, we would ask any brand whether it stores your code and how to opt out.
+There is a second lock question few pages raise: does the maker keep a record of your combination? Liberty Safe says that in August 2023 it answered a search warrant by giving a customer's access code. It now releases codes only under legal process naming the safe's serial number. Owners can also ask Liberty to delete their code from its records. Before we'd buy, we would ask any brand whether it stores your code and how to opt out.
 
 ## Warranty and support red flags
 
-**A long warranty matters only if it covers the parts that fail and you can reach someone when they do.** Owner threads keep circling back to support, from keypad parts breaking to lockouts that end up with a dealer or a [locksmith](https://www.reddit.com/r/Locksmith/comments/1egz5b5/liberty_gun_safe_help/). Those are individual reports, not a verdict on any brand, but they tell you what to read before you pay:
+**A long warranty matters only if it covers the parts that fail and you can reach someone when they do.** Owner threads keep circling back to support, from keypad parts breaking to lockouts that end up with a dealer or a locksmith. Those are individual reports, not a verdict on any brand, but they tell you what to read before you pay:
 
 - Does it cover the lock and electronics, or only the body?
 - Does it cover fire and break-in damage, and does the maker repair or replace?

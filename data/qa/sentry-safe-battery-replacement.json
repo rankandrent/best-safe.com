@@ -1,20 +1,17 @@
 {
   "slug": "sentry-safe-battery-replacement",
   "pass": true,
-  "checkedAt": "2026-10-21T07:00:08.179Z",
+  "checkedAt": "2026-10-21T19:51:19.711Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (503): https://www.lowes.com/n/how-to/change-batteries-in-a-safe",
-    "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Body changed for the media-and-numbers rule; earlier facts unchanged. Re-opened SentrySafe battery FAQ 2026-10-21: 'as close to 10 years out from current year as possible' -> linked; FP/FPW 'Insert 2-batteries ... Non-CR123 Lithium' -> linked 'two CR123 lithium cells'; '3 chirps from electronic lock' -> linked '3 chirps'. Videos 3ENpTK07JtY (SentrySafe: change batteries on basic electronic lock fire safe) and TvMLBTWJEfE (SentrySafe: change or jump batteries on touch screen lock fire safe), both embedded on that FAQ. 3 illustration prompts (own label, matched batteries, key lock box); no brands or readable text. Cut the hook sentence and a repeated expiry bullet for the word limit.",
-    "at": "2026-10-21T06:57:55.251Z",
-    "hash": "0154979781e2c6ac"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:19.243Z",
+    "hash": "ad550539356a52f5"
   }
 }

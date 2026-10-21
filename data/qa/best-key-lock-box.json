@@ -1,19 +1,19 @@
 {
   "slug": "best-key-lock-box",
   "pass": true,
-  "checkedAt": "2026-10-21T06:59:35.771Z",
+  "checkedAt": "2026-10-21T19:51:13.102Z",
   "errors": [],
   "warnings": [
     "body has 2554 words, over the 2185 limit (top results average 1900): cut repetition and filler",
     "product \"Kidde AccessPoint 001166 KeySafe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Master Lock 5400D Portable Lock Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"igloohome Smart Keybox 3\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)",
-    "source didn't respond normally (403): https://www.nytimes.com/wirecutter/reviews/best-lock-box/"
+    "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Opened and compared: swiftlane.com best-key-lockboxes-guide (Kidde AccessPoint KeySafe linked to kidde.com 001166 page, Master Lock 5400D, igloohome Smart Keybox 3), butterflymx.com spare-key-storage (igloohome, Kidde KeySafe), bobvila.com best-key-lock-box (Master Lock 5400D best overall; Kidde AccessPoint KeySafe Slimline listed), yourhomeandstyle.com best-keysafes (igloohome Smart Keybox 3, IP66, lockout), Wirecutter (Kidde AccessPoint KeySafe best lockbox, via search excerpt; page not scrapeable). Specs checked vs kidde.com (001166, 3 keys, 4.44x5.75x1.8 in), shopkidde.com (1.6 lb, 1-yr warranty, 1,000+ combos, never-rust, owner reviews), masterlock.com 5400D (dims, 1.16 lb, shackle, weather cover, 28 reviews, owner quotes), store-us.igloohome.co (IP66, -4 to 122F, 4 AAA, USB-C, interior 4.3x3.4x1.1, 2.205 lb, 1-yr warranty, 165 reviews), Walmart reviews (2.4 GHz Bridge, cost). Reddit quotes verified by exact-phrase site:reddit.com search (melbourne, homeowners, homesecurity vi33e0, DIYUK); High Road battery quote verified by search. Removed r/lockpicking jam-opening quote and the 'opens with two of four digits wrong' report (bypass-adjacent); softened burglary-rating wording to 'lists'. All 5 pain points answered. No fire/legal claims.",
-    "at": "2026-10-19T14:18:37.037Z"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:12.409Z",
+    "hash": "9821a86c4e0fa56b"
   }
 }

@@ -185,7 +185,7 @@ Picture a first-time buyer in a dealer showroom: every door has a sticker that s
 
 **A rating only means something if you know who gave it: UL and ETL-Intertek are independent labs, while many fire numbers come from the maker's own furnace.** That one distinction sorts the brands faster than any logo.
 
-Burglary ratings come from Underwriters Laboratories. The entry rating, UL RSC (Residential Security Container), requires a safe to survive [five minutes](https://libertysafe.com/blogs/the-vault/gun-safe-ratings-explained) of break-in attempts by one person, per Liberty's own explainer. TL-15 means 15 minutes of net working time against the door, and TL-30 doubles it. A r/preppers poster put it plainly: ["TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc."](https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/) An RSC safe is a floor, not a vault.
+Burglary ratings come from Underwriters Laboratories. The entry rating, UL RSC (Residential Security Container), requires a safe to survive five minutes of break-in attempts by one person, per Liberty's own explainer. TL-15 means 15 minutes of net working time against the door, and TL-30 doubles it. A r/preppers poster put it plainly: "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc." An RSC safe is a floor, not a vault.
 
 Fire ratings are where safe brands split. We sorted them into three groups:
 
@@ -207,11 +207,11 @@ AMSEC is the brand both Guardian Safe & Vault and Reddit's r/homedefense thread 
 
 ### Liberty Safe
 
-Liberty sells more gun safes than anyone in the US and backs them with a lifetime transferable warranty. Its fire ratings run from 30 minutes on the Centurion to 2.5 hours on the Presidential and Magnum, all at 1,200°F, and come from Liberty's own furnace test based on NIST house-fire research, per a Liberty dealer. That is a reasonable method, but it is not a lab certificate. On Reddit, one recurring verdict is ["They aren't the worst just not worth the price."](https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/) Our advice: compare steel gauge and door thickness model by model, because the entry lines and the top lines are very different safes.
+Liberty sells more gun safes than anyone in the US and backs them with a lifetime transferable warranty. Its fire ratings run from 30 minutes on the Centurion to 2.5 hours on the Presidential and Magnum, all at 1,200°F, and come from Liberty's own furnace test based on NIST house-fire research, per a Liberty dealer. That is a reasonable method, but it is not a lab certificate. On Reddit, one recurring verdict is "They aren't the worst just not worth the price." Our advice: compare steel gauge and door thickness model by model, because the entry lines and the top lines are very different safes.
 
 ### Fort Knox
 
-Fort Knox appears on The Safe Keeper's and Guardian's lists, and its warranty is the headline: Fort Knox says it [will replace any safe broken into by forced entry](https://www.ftknox.com/fort-knox-difference/lifetime-warranty/) during the original owner's lifetime. Its Titan line is listed by a dealer at 90 minutes at 1,680°F with 3/8-inch body steel, but we found no lab named for the fire rating, so treat it as the maker's figure. For handguns, its mechanical pistol box is our top pick in the [best pistol safe guide](/blog/best-pistol-safe/).
+Fort Knox appears on The Safe Keeper's and Guardian's lists, and its warranty is the headline: Fort Knox says it will replace any safe broken into by forced entry during the original owner's lifetime. Its Titan line is listed by a dealer at 90 minutes at 1,680°F with 3/8-inch body steel, but we found no lab named for the fire rating, so treat it as the maker's figure. For handguns, its mechanical pistol box is our top pick in the [best pistol safe guide](/blog/best-pistol-safe/).
 
 ### Browning
 
@@ -241,8 +241,8 @@ Hornady's RAPiD safes open with an RFID tag, and Hornady lists the Night Guard a
 
 **The most common complaints are a dead keypad with no backup, slow support, thin steel for the price and ratings you cannot compare, and each has a fix you can apply before you buy.**
 
-1. **The lock dies and there is no override.** One owner on The High Road wrote that ["Winchester is closed for the rest of the week. This safe has no back up key."](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/) Another poster in the same thread summed it up: "Electronic locks fail. Mechanical locks keep working." The fix: choose a mechanical dial, or an electronic lock with a keyed override, and store the key outside the safe. If you are locked out of your own safe, call the maker with proof of ownership or a licensed locksmith; our [guide to opening your own safe](/blog/how-to-open-a-safe/) covers the owner-side steps.
-2. **Support is hard to reach.** In r/guns, one Liberty owner reported that ["the wiring pins on the keypad snapped like toothpicks."](https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/) Buy from a local dealer who services what they sell, and read the warranty for parts and labor, not only fire and break-in.
+1. **The lock dies and there is no override.** One owner on The High Road wrote that "Winchester is closed for the rest of the week. This safe has no back up key." Another poster in the same thread summed it up: "Electronic locks fail. Mechanical locks keep working." The fix: choose a mechanical dial, or an electronic lock with a keyed override, and store the key outside the safe. If you are locked out of your own safe, call the maker with proof of ownership or a licensed locksmith; our [guide to opening your own safe](/blog/how-to-open-a-safe/) covers the owner-side steps.
+2. **Support is hard to reach.** In r/guns, one Liberty owner reported that "the wiring pins on the keypad snapped like toothpicks." Buy from a local dealer who services what they sell, and read the warranty for parts and labor, not only fire and break-in.
 3. **Thin steel under a big name.** Compare gauge, not logos: a lower gauge number is thicker steel, and entry lines from premium brands often use thinner steel than you expect.
 4. **Ratings that cannot be compared.** Ask "who ran the test?" If the answer is the maker, compare it only with other makers' own numbers.
 

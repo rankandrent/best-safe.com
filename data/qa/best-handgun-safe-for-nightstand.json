@@ -1,7 +1,7 @@
 {
   "slug": "best-handgun-safe-for-nightstand",
   "pass": true,
-  "checkedAt": "2026-10-21T14:40:16.372Z",
+  "checkedAt": "2026-10-21T19:51:11.426Z",
   "errors": [],
   "warnings": [
     "product \"Fort Knox Original Pistol Box PB1\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -10,15 +10,12 @@
     "product \"SentrySafe QAP2EL\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"GunVault SpeedVault SV500\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)",
-    "keyword overlaps /blog/best-pistol-safe/ (\"best handgun safe for nightstand\" overlaps \"best handgun safe\" (100%))",
-    "source didn't respond normally (403): https://www.hornady.com/security/rapid-safes/rapid-safe-night-guard",
-    "source didn't respond normally (403): https://www.adorama.com/gunvault-sv500-speedvault-gun-safe/p/gvsv500",
-    "source didn't respond normally (no response): https://capefearinvestigative.com/best-night-stand-pistol-safe/"
+    "keyword overlaps /blog/best-pistol-safe/ (\"best handgun safe for nightstand\" overlaps \"best handgun safe\" (100%))"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Re-verified Vaultek 20 Series Essential Biometric (ASIN B0GWMV1C16) against vaulteksafe.com/products/vaultek-rugged-smart-safes?variant=45453680246841 (Firecrawl): 16-gauge steel, 3 AAA, 11.5x9x2.75 in, interior 11x5.75x2 in, 7.2 lb, 20 prints, 5-digit keypad, manual keys, pre-drilled holes/cable. Earlier note of 14 ga was the 30 Series, corrected. VT20i/VT20 claims attributed to guides as earlier versions; Banks Safe kept as VT20i source.",
-    "at": "2026-10-20T10:24:06.372Z",
-    "hash": "b96d0cd93276fdf8"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:11.006Z",
+    "hash": "c0f8c064a6f814ad"
   }
 }

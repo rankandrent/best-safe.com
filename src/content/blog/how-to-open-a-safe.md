@@ -170,7 +170,7 @@ The sequence is in your owner's manual; makers post manuals by model on their su
 
 **On a keypad safe, a dead battery is the most common lockout, and fresh name-brand alkalines plus the override key fix most of them.** The override key is a backup mechanical key, usually behind a small cover near the keypad.
 
-The hard case is the owner with no key. "[My Safe Batteries died , keypad doesn't respond and no key option](https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/)" is a recurring kind of post in r/Safes. If your manual shows external battery contacts, use them; otherwise the maker is your next call. A lost override key is its own trap, so ask the maker whether it supplies replacement keys or keypads to verified owners.
+The hard case is the owner with no key. "My Safe Batteries died , keypad doesn't respond and no key option" is a recurring kind of post in r/Safes. If your manual shows external battery contacts, use them; otherwise the maker is your next call. A lost override key is its own trap, so ask the maker whether it supplies replacement keys or keypads to verified owners.
 
 ### Fresh batteries that still don't work
 
@@ -185,11 +185,11 @@ Re-seat alkalines once; SentrySafe, for one, asks for name-brand cells with expi
 
 ## Lost safe combination or key? Use the maker route
 
-**When the combination or key is lost, the safe manufacturer is the right first call, because it holds the ownership records and can issue a combination, a duplicate key or a reset.** As one Quora answer put it, "[If you are the legitimate owner of the safe, you can try contacting Sentry:](https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position)"
+**When the combination or key is lost, the safe manufacturer is the right first call, because it holds the ownership records and can issue a combination, a duplicate key or a reset.** As one Quora answer put it, "If you are the legitimate owner of the safe, you can try contacting Sentry:"
 
 ### Register now so recovery is quick
 
-Safe registration creates the ownership record that makes recovery fastest. Liberty Safe's lost-combination policy is blunt: "[you must contact Liberty Safe first](https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe)". Registered owners get help quickly; unregistered owners may need a notarized request form and payment, then Liberty sends the combination within [three to five business days](https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe) of receiving them. Register yours today.
+Safe registration creates the ownership record that makes recovery fastest. Liberty Safe's lost-combination policy is blunt: "you must contact Liberty Safe first". Registered owners get help quickly; unregistered owners may need a notarized request form and payment, then Liberty sends the combination within three to five business days of receiving them. Register yours today.
 
 ### What the maker asks for
 
@@ -202,7 +202,7 @@ Expect to send:
 
 ### A safe that came with a house
 
-A safe that came with a house is a common question. Ask the sellers, the agent and the maker. In an r/Safes thread about a house purchase, one reply said, "[You usually have to provide proof of purchase and the serial number of the safe.](https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/)" Your closing paperwork can stand in for the receipt when you ask the maker.
+A safe that came with a house is a common question. Ask the sellers, the agent and the maker. In an r/Safes thread about a house purchase, one reply said, "You usually have to provide proof of purchase and the serial number of the safe." Your closing paperwork can stand in for the receipt when you ask the maker.
 
 > **From our notes:** In our research for this guide (we did not test any safe), one point stood out. Liberty Safe's own page says you must contact it first, and have the locksmith contact it too, or you void the safe and lock warranties. In the r/Safes thread we read, locksmiths quoted drilling before the maker was asked. That is why we put the maker before the locksmith in every step list here.
 
@@ -237,7 +237,7 @@ Store copies in a [fireproof document safe](/blog/best-fireproof-document-safe/)
 
 ## How to avoid getting locked out of a safe again
 
-**Prevention is a battery calendar plus a code and override key stored off-site.** Long-time owners on The High Road swap batteries on a schedule: "[I change the 9v battery on the keypad every 6 months whether it is needed or not.](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/)" Write the install date on the battery.
+**Prevention is a battery calendar plus a code and override key stored off-site.** Long-time owners on The High Road swap batteries on a schedule: "I change the 9v battery on the keypad every 6 months whether it is needed or not." Write the install date on the battery.
 
 Keep the override key in a [key lock box](/blog/best-key-lock-box/) or with someone you trust, never inside the safe. If you're shopping for a quick-access model, a [pistol safe with a key override](/blog/best-pistol-safe/) gives you a second way in.
 

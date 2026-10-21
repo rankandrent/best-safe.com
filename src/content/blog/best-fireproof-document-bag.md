@@ -309,11 +309,11 @@ On r/Safes, one owner describes an office fire with a passport, cash and family 
 
 ### What UL94 V-0 and VTM-0 actually test
 
-UL 94 is UL's flammability standard for plastic materials, with [12 flame classifications](https://www.ul.com/services/combustion-fire-tests-plastics) assigned from small-scale flame tests. In the thin-material VTM version, the flame is applied for [only 3 seconds](https://www.specialchem.com/plastics/guide/flammability-ul94) at a time. A pass shows the fabric stops burning, not how hot it gets inside. That job belongs to UL 72, the record-protection test behind a fire safe's Class 350 label. An r/homedefense poster spotted the same gap: listings "often say" they pass UL94 VTM-0.
+UL 94 is UL's flammability standard for plastic materials, with [12 flame classifications](https://www.ul.com/services/combustion-fire-tests-plastics) assigned from small-scale flame tests. In the thin-material VTM version, the flame is applied for only 3 seconds at a time. A pass shows the fabric stops burning, not how hot it gets inside. That job belongs to UL 72, the record-protection test behind a fire safe's Class 350 label. An r/homedefense poster spotted the same gap: listings "often say" they pass UL94 VTM-0.
 
 ### Paper vs USB drives
 
-Inside temperature is what ruins documents. Dean Safe notes paper discolors just above 350°F and [ignites at 451°F](https://deansafe.com/pages/an-explanation-of-fire-ratings-for-home-safes-and-gun-safes), which is why Class 350 exists. USB drives and backup disks need a Class 125 container, and no bag claims one. If you, like one r/DataHoarder poster, want to store "a backup disk drive or two," use a media-rated safe instead.
+Inside temperature is what ruins documents. Dean Safe notes paper discolors just above 350°F and ignites at 451°F, which is why Class 350 exists. USB drives and backup disks need a Class 125 container, and no bag claims one. If you, like one r/DataHoarder poster, want to store "a backup disk drive or two," use a media-rated safe instead.
 
 The video below from Matt's Real Reviews puts ten document bags and boxes into open flames; by the video's own notes, eight burned up in under five minutes.
 

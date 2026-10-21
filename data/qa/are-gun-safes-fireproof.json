@@ -1,23 +1,18 @@
 {
   "slug": "are-gun-safes-fireproof",
   "pass": true,
-  "checkedAt": "2026-10-21T10:58:34.522Z",
+  "checkedAt": "2026-10-21T19:51:07.180Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "keyword overlaps /blog/best-fire-rated-gun-safe/ (\"are gun safes fireproof\" overlaps \"fireproof gun safe\" (100%))",
-    "source didn't respond normally (403): https://americansecuritysafes.com/fire-ratings-explained/",
-    "source didn't respond normally (403): https://americansecuritysafes.com/are-safes-fireproof/",
-    "source didn't respond normally (403): https://www.thezebra.com/resources/research/house-fire-statistics/",
-    "source didn't respond normally (403): https://www.reddit.com/r/liberalgunowners/comments/13o9di4/fyi_your_guns_will_still_burn_in_your_fireproof/",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/"
+    "keyword overlaps /blog/best-fire-rated-gun-safe/ (\"are gun safes fireproof\" overlaps \"fireproof gun safe\" (100%))"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified against scraped pages 2026-10-21: americansecuritysafes.com/fire-ratings-explained (UL Class 350 1 hr 1700F / 2 hr 1850F, explosion test 2000F, optional 30 ft drop onto brick then reheat, ETL 1200F within 8 min held 30-120 min, BF ETL 120 min, TF factory 30 min, UL classifications on high-security safes); americansecuritysafes.com/are-safes-fireproof (no standard for 'fireproof', fill releases steam, bag papers, bottom of tall BFX cooler); nwsafe.com fireproof-gun-safe (ratings not regulated, furnace ramp and thermocouple placement, UL RSC/TL not fire ratings, sheet-metal doors warp, poured composite vs sheetrock seams, Palusol, 30 min unreported + 20 min response, ammo inspect after fire); deansafe.com fire ratings page (paper 350/410/451F, fireboard moisture, factory tests 40 min ramp and sensors in phone book, fire box inside safe); thezebra.com house fire stats (over 1100F in under five minutes); gunsafereviewsguy (UL Class 150/125, virtually no gun safes UL 72 listed); SafeandVaultStore video QUQhinqGQj8 transcript (rate-of-rise graphs, UL/ETL/factory); Reddit quotes confirmed via Firecrawl search excerpts at the same thread URLs; Collectors Universe quote from pain-points page scrape. No products, no prices, no legal claims.",
-    "at": "2026-10-21T10:50:40.961Z",
-    "hash": "021bfe3e003a77b3"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:06.843Z",
+    "hash": "03126ae60456a6ee"
   }
 }

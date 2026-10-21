@@ -1,19 +1,16 @@
 {
   "slug": "best-fireproof-document-bag",
   "pass": true,
-  "checkedAt": "2026-10-21T11:09:29.798Z",
+  "checkedAt": "2026-10-21T19:51:09.981Z",
   "errors": [],
   "warnings": [
     "product \"ENGPOW 5200°F Fireproof Document Bag with Lock\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"ROLOWAY Fireproof Document & Money Bags\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (403): https://wgntv.com/reviews/br/home-br/storage-organization-br/best-fireproof-safes-and-document-storage-to-have-in-your-home/",
-    "source didn't respond normally (403): https://www.shopabunda.com/products/engpow-5200-f-fireproof-document-bag-with-lock-upgraded-heat-insulated-fireproof-waterproof-box-8-layers-document-organizer-portable-home-travel-safe-storage-for-important-documents-files-laptop",
-    "source didn't respond normally (403): https://www.specialchem.com/plastics/guide/flammability-ul94"
+    "product \"ROLOWAY Fireproof Document & Money Bags\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified against sources opened 2026-10-21: ENGPOW B0CC1TDZR5 name/specs (15.15x11.22x4.33 in, 1.5 lb, 8 layers silicone fiberglass + aluminum foil, 4 passport mesh bags/16 card slots/4 USB pockets/7 folder layers, 3-dial combo lock default 0-0-0, 5200F and UL94-V0/5VA cited with no lab or exposure time = maker's claim) on the listing copy (shopabunda) and Amazon search result title; ROLOWAY B07GL3479V (15x12x5 in, 1.3 lb, silicone + PVC coated fiberglass, zipper + hook-and-loop, handle/strap, 5x8 money bag, 2000F 'in certain times', UL94 VTM-0 in text vs UL94 V-0 in its own table, suggests storing in a fire safe box) on the Amazon listing page, Walmart listing (SGS tested, one review: not large enough for legal docs/redwells on 17-inch version); Bob Vila roundup (Engpow best overall at 2,000F, zipper/seam melted, paper intact; Roloway flap damage, heavy smoke, paper perfect; 68,000 BTU heater 10 minutes; Roloway lock not included); BestReviews WGN (ENGPOW B0CC1TDZR5 listed) and Daily Press (Roloway B07GL3479V, extra-large hard to fit small safe); DocSafe models differ across Bob Vila/TruePrepper/BestReviews. SentrySafe FBWLZ0 page: no document bag will survive a significant structure fire; fire bag not waterproof. UL Solutions: 12 UL 94 classifications from small-scale flame tests; VTM-0 not equivalent to V-0. SpecialChem: VTM flame applied 3 seconds. Dean Safe: paper ignites 451F. Safe and Vault Store: UL Class 350 paper, Class 125 media. UL 72 title via UL Standards page. NFPA: home structure fire every 96 seconds (2024). Video bAVNWySF7hE description: 8 of 10 burned up in under 5 minutes. Reddit quotes taken verbatim from search excerpts at their thread URLs. All fire figures in the post are labeled maker's claims; no UL/ETL rating claimed for any bag. Re-checked after wording fix (Class 350 label sentence), no new facts.",
-    "at": "2026-10-21T11:08:01.484Z",
-    "hash": "ad59415cd21e4843"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:09.668Z",
+    "hash": "67406736c1973e5e"
   }
 }

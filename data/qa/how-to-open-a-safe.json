@@ -1,20 +1,17 @@
 {
   "slug": "how-to-open-a-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T07:00:06.168Z",
+  "checkedAt": "2026-10-21T19:51:18.903Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1h60c2i/locked_out_of_gun_safe/",
-    "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Body changed for the media-and-numbers rule; earlier facts unchanged. Re-opened 2026-10-21: Liberty lost-combination page says after the notarized form and payment the combination comes 'within three to five business days' -> reworded and linked 'three to five business days' (was 'about 3-5'); SentrySafe battery FAQ (sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe) says expiration dates 'as close to 10 years out from current year as possible' -> linked 'as close to 10 years out', URL added to sources. Video gwpJeFzUuwY 'How to Dial Your Mechanical Combination - Liberty Safe' (owner dialing their own combination, no bypass). 3 illustration prompts show an owner with their own safe (batteries, form, document pouch); no forced entry.",
-    "at": "2026-10-21T06:56:45.369Z",
-    "hash": "61cfde8cf8bb4bcc"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:18.537Z",
+    "hash": "6e07a3c2119f52b0"
   }
 }

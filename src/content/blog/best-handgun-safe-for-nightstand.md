@@ -653,7 +653,7 @@ From the sources: Gun University says a full-size handgun and a light fit in the
 
 ## When a bedside gun safe's battery or fingerprint fails
 
-**What fails at 3 a.m. is almost always power or a fingerprint read, so the bedside gun safe you want has a backup you can reach or no electronics at all.** One r/CAguns poster who owned a nightstand safe from Amazon "had issue where the battery runs out or the finger print doesn't work etc. tossed it after" ([thread](https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/)).
+**What fails at 3 a.m. is almost always power or a fingerprint read, so the bedside gun safe you want has a backup you can reach or no electronics at all.** One r/CAguns poster who owned a nightstand safe from Amazon "had issue where the battery runs out or the finger print doesn't work etc. tossed it after" (thread).
 
 A bedside pistol safe with a fingerprint reader gets fussy with dust, dry skin and odd angles. One account on Top Firearm Reviews says of an older safe that "if you had a little dust on your fingers, or if you didn't align it perfectly, it wouldn't open for you." The fix is to enroll the same finger several times at different angles and practice with the keypad as well.
 
@@ -665,7 +665,7 @@ A bedside gun safe's backup key only helps if you can reach it and the keyhole. 
 
 ### Battery schedule
 
-Dead keypads that lock owners out are a recurring complaint in r/Safes threads ([one example](https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/)), and long-time owners on The High Road change batteries on a schedule instead of waiting for a warning. One writes, "I change the 9v battery on the keypad every 6 months whether it is needed or not." ([thread](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/)). Another suggests you "tape a date when you installed new batteries and just exchange them every year, regardless of use." ([thread](https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/)).
+Dead keypads that lock owners out are a recurring complaint in r/Safes threads (one example), and long-time owners on The High Road change batteries on a schedule instead of waiting for a warning. One writes, "I change the 9v battery on the keypad every 6 months whether it is needed or not." (thread). Another suggests you "tape a date when you installed new batteries and just exchange them every year, regardless of use." (thread).
 
 We'd follow the same habit on the SpeedVault, the SentrySafe keypad and the Hornady's AAA backup, and keep fresh AAA cells in the Vaultek.
 
@@ -677,7 +677,7 @@ We'd follow the same habit on the SpeedVault, the SentrySafe keypad and the Horn
 
 ### Loud beeps and lid slam
 
-A nightstand gun safe that beeps and wakes a partner is a recurring complaint. One entry on Top Firearm Reviews reads, "The lock works great, but it makes some beeping noise when I push it, and I can't turn off the noises." ([source](https://www.topfirearmreviews.com/post/best-handgun-safes)). Look for a silent mode and a damped lid:
+A nightstand gun safe that beeps and wakes a partner is a recurring complaint. One entry on Top Firearm Reviews reads, "The lock works great, but it makes some beeping noise when I push it, and I can't turn off the noises." (source). Look for a silent mode and a damped lid:
 
 - **GunVault SpeedVault SV500:** a mute button for silent entry, per an owner review (Steve Jenkins), and Pew Pew says the key-entry sounds can be turned off.
 - **SentrySafe QAP2EL:** a quiet gas-strut lid, per SentrySafe.
@@ -686,13 +686,13 @@ A nightstand gun safe that beeps and wakes a partner is a recurring complaint. O
 
 ### Keeping kids out without losing speed
 
-Parents in r/guns and The High Road threads ask the same thing: how to keep a nightstand gun from small children yet reach it in seconds. Replies favor a quick-access safe with a key backup over a cable or trigger lock. One r/guns parent wrote, "I also use a liberty quickvault. Keeps kids out, easy to access, and comes with a key if battery dies." ([thread](https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/)). A High Road poster added, "I'd recommend a biometric safe. They're much safer and faster to access than a cable lock or a trigger lock." ([thread](https://www.thehighroad.org/index.php?threads/nightstand-gun-with-children-in-the-house.578950/)).
+Parents in r/guns and The High Road threads ask the same thing: how to keep a nightstand gun from small children yet reach it in seconds. Replies favor a quick-access safe with a key backup over a cable or trigger lock. One r/guns parent wrote, "I also use a liberty quickvault. Keeps kids out, easy to access, and comes with a key if battery dies." (thread). A High Road poster added, "I'd recommend a biometric safe. They're much safer and faster to access than a cable lock or a trigger lock." (thread).
 
-With kids at home, we'd lean toward the Vaultek's fingerprint reader or the Hornady with tags worn on you, never left on the nightstand. With the Fort Knox, remember Pew Pew's warning about its roughly 1,081 combinations and never leave the code pre-entered. Store the backup key where children can't reach it. [Project ChildSafe](https://projectchildsafe.org/) has free safe-storage guidance for families.
+With kids at home, we'd lean toward the Vaultek's fingerprint reader or the Hornady with tags worn on you, never left on the nightstand. With the Fort Knox, remember Pew Pew's warning about its roughly 1,081 combinations and never leave the code pre-entered. Store the backup key where children can't reach it. Project ChildSafe has free safe-storage guidance for families.
 
 ### Anchoring a light safe
 
-A bedside gun safe that isn't anchored can be carried off and opened later. One r/homedefense reply sums up the trade-off: "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts." ([thread](https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/)).
+A bedside gun safe that isn't anchored can be carried off and opened later. One r/homedefense reply sums up the trade-off: "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts." (thread).
 
 Every pick here has a way to anchor it: four holes on the Fort Knox, pre-drilled holes and a cable attachment on the Vaultek, holes plus a 1,500 lb-rated cable on the Hornady, included bolt-down hardware on the SentrySafe, and a bracket on the SpeedVault. Bolt through the drawer bottom or nightstand frame rather than a thin back panel, or loop the cable around a bed frame.
 

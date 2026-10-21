@@ -163,7 +163,7 @@ You type your usual code and get nothing, a red blink, or a green light and a ha
 
 ## No lights, no beeps
 
-**A silent SentrySafe keypad is either locked out or getting no power, so wait out a lockout before you change anything.** The SFW manual says [three consecutive invalid entries](https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf) start delay mode for [two minutes](https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf), and that pulling the batteries "will only increase the length of time for the system shutdown." On depository-style locks the keypad shuts down for [five minutes](https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P55688.pdf) and gives "no response" at all, which looks exactly like a dead battery.
+**A silent SentrySafe keypad is either locked out or getting no power, so wait out a lockout before you change anything.** The SFW manual says [three consecutive invalid entries](https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf) start delay mode for [two minutes](https://cdn.masterlock.com/sentrysafe/resources/pdf/manuals/P44621.pdf), and that pulling the batteries "will only increase the length of time for the system shutdown." On depository-style locks the keypad shuts down for five minutes and gives "no response" at all, which looks exactly like a dead battery.
 
 If it's still silent after the wait, we'd work through power in this order:
 
@@ -172,7 +172,7 @@ If it's still silent after the wait, we'd work through power in this order:
 3. Terminals bright, not green or crusted.
 4. On twist-off keypads, no wire pinched behind the housing (SentrySafe warns pinched cables short the lock).
 
-One JustAnswer owner wrote, "[I examined the battery holder using a flashlight and noticed that one of the terminals is green instead of shiny.](https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html)" On the same page another owner's holder was cracked, and the technician's answer was a replacement keypad. Threads titled "[Sentry safe no power to keypad fresh batteries](https://www.reddit.com/r/Safes/comments/1pmtaa4/sentry_safe_no_power_to_keypad_fresh_batteries/)" keep turning up in r/Safes. The Guardian Safe & Lock video below walks through the same power checks from a locksmith's side. Where the batteries sit on your model is covered in our [battery steps for each SentrySafe model family](/blog/sentry-safe-battery-replacement/).
+One JustAnswer owner wrote, "I examined the battery holder using a flashlight and noticed that one of the terminals is green instead of shiny." On the same page another owner's holder was cracked, and the technician's answer was a replacement keypad. Threads titled "Sentry safe no power to keypad fresh batteries" keep turning up in r/Safes. The Guardian Safe & Lock video below walks through the same power checks from a locksmith's side. Where the batteries sit on your model is covered in our [battery steps for each SentrySafe model family](/blog/sentry-safe-battery-replacement/).
 
 ## Green light, but the door will not open
 
@@ -199,13 +199,13 @@ Depository-style locks use a master code instead (`#` master code `#`, then `1 *
 
 ## Still dead – the owner's route out
 
-**When the keypad never responds, use the override key if your model has one, then SentrySafe, then a safe technician.** "[My Safe Batteries died , keypad doesn't respond and no key option](https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/)" is the situation nobody wants, and an r/Safes reply puts it bluntly: "[If you lost the override key it's a problem.](https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/)"
+**When the keypad never responds, use the override key if your model has one, then SentrySafe, then a safe technician.** "My Safe Batteries died , keypad doesn't respond and no key option" is the situation nobody wants, and an r/Safes reply puts it bluntly: "If you lost the override key it's a problem."
 
 In our order of preference:
 
 1. **SentrySafe support.** Use the [contact page](https://www.sentrysafe.com/support/contact-us); a five-blink error is one SentrySafe asks you to call about.
-2. **Lost key or code.** SentrySafe's [Key & Combo Replacement process](https://replacements.sentrysafe.com/) needs the model number plus the serial or key number, and SentrySafe may require identity verification. As one owner put it, "[You usually have to provide proof of purchase and the serial number of the safe.](https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/)"
-3. **A safe technician.** [SAVTA's Safe Tech Search](https://www.savta.org/tech-search.html) lists safe and vault technicians; bring the same proof of ownership.
+2. **Lost key or code.** SentrySafe's [Key & Combo Replacement process](https://replacements.sentrysafe.com/) needs the model number plus the serial or key number, and SentrySafe may require identity verification. As one owner put it, "You usually have to provide proof of purchase and the serial number of the safe."
+3. **A safe technician.** SAVTA's Safe Tech Search lists safe and vault technicians; bring the same proof of ownership.
 
 Our [owner lockout guide](/blog/how-to-open-a-safe/) covers what to ask before anyone drills.
 

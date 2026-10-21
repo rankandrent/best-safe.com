@@ -403,4 +403,4 @@ No text-only posts. Every post that has no product photos (how-tos, guides, comp
 - **Translations:** same illustrations (alt translated), same videos, same number links.
 
 **Owner rule 2026-10-21:** keywords that start with "best" (best X for Y) are always picked first (`bestFirst` in agents/orchestrator.mjs, ahead of Ahrefs demand and funnel balance); how-tos and other informational keywords are written only when no "best" keyword is left.
-- **External links (owner rule 2026-10-21):** keep outbound links modest: at most ~1 per 180 words (min 6), max 2 per outside site, `sources` at most 12. QA warns above that (warning only, so a live post is never blocked).
+- **External links (owner rule 2026-10-21, permanent):** at most 3 outside links in the article text (usually 2), the link on the key statistic's number; quotes, forum threads and other sources are plain text. `routine.mjs qa` errors above 3 before go-live (warning once live). The `sources` frontmatter list is separate.

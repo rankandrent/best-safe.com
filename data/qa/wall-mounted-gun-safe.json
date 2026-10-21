@@ -1,20 +1,18 @@
 {
   "slug": "wall-mounted-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T10:59:59.650Z",
+  "checkedAt": "2026-10-21T19:51:21.002Z",
   "errors": [],
   "warnings": [
     "product \"SnapSafe In-Wall Safe Tall 75414\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SnapSafe In-Wall Safe 75413\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Barska Biometric Wall Safe AX12038\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Protex PWS-1814E Wall Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (403): https://www.snapsafe.com/specialty-safes/in-wall-safes/",
-    "source didn't respond normally (403): https://www.snipershide.com/shooting/threads/between-studs-wall-safe.7014030/"
+    "product \"Protex PWS-1814E Wall Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified 2026-10-21 against maker pages: SnapSafe in-wall page (75413 22x16.25x4 in 35 lb; 75414 44x16.25x4 in 66 lb; 16-gauge body, 8-gauge door; electronic lock with key backup; low-battery audio+LED; reversible door; removable shelves; lifetime warranty) and SnapSafe instructions PDF (14.5 in between studs; 20/42 in cut; 5/8 lag screws; 2/5 shelves; 4-6 digit code; default 1-2-3-4; hold 1 for 3 s toggles tones; picture hook up to 8 lb; 4 AA). Barska AX12038/AX13034 spec page (120-print optical reader, two motorized deadbolts, 2 mm body/4 mm door, 3.73x15.43x20.75 in outside, 3.5x13.75x18.75 in inside, 0.52 cu ft, 28.6 lb, Fireproof No, DOJ approved AX12038 only, 2 backup keys, 1-year warranty). Protex PWS-1814E page (16 in o/c studs, 0.44 cu ft, two 3/4 in motorized live bolts, auto-open door, power override, 2 keys, 5/8 in formed steel door, 14-1/8x18-1/4x3-7/8 in outside, 3 in deep inside, 16x20 in flange, 6 anchor holes, 28 lb). Fire: no pick claims a rating; Safe and Vault Store page states fireproof wall safes run 12-15 in deep with UL-listed 1-hour rating. Owner claims checked: OpticsPlanet 75414 reviews (heavy door, precise cuts, 3 owners added door-pivot washers, chipped paint, stud moved an inch); r/GunPorn 14cl9yu excerpt (75414, Glock 19 + M&P15); Pro Tool Reviews 75413 install (multi-tool, impact driver, gap vs stud, TV comparison); OpticsPlanet Barska review (shallow interior, grip); Home Depot excerpt (out of square, weld gaps); Garage Journal Protex owner (6 years, external battery plug, key, ~4 pistols, not deep) and burglary/pry quotes; Sniper's Hide quotes (simplex, interior wall condensation); r/CAguns excerpt quote. ASINs confirmed on Amazon listing titles: B0B3HSMM1J (75414), B09WJ6XLQZ (75413), B00BCGNYRM (AX12038), B0046THMEI (PWS-1814E). Stat links each checked on page: 14.5 in (PDF), 8-gauge (snapsafe.com), 0.44 cu ft (protexsafe.com), 12-15 in (safeandvaultstore). Legal: points to state/local law and CA DOJ roster, no legal advice. RPNB RP311F dropped after a public video showed it opened without the code.",
-    "at": "2026-10-21T10:57:36.982Z",
-    "hash": "3c8f8b2ebae97b27"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:20.670Z",
+    "hash": "e189964a505bdb60"
   }
 }

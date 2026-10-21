@@ -165,7 +165,7 @@ Picture a new gun safe on the garage slab, the garage door rolling up beside it 
 
 ## Why a gun safe in the garage sweats, and the fix
 
-**A gun safe in the garage sweats when its steel is colder than the air, so the fix is a little heat inside, not more silica.** "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl," one [AR15.com reply](https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/) said. A Hunt Talk owner in cold Idaho noted that cold and dry is fine; the humidity that comes with temperature changes is the problem.
+**A gun safe in the garage sweats when its steel is colder than the air, so the fix is a little heat inside, not more silica.** "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl," one AR15.com reply said. A Hunt Talk owner in cold Idaho noted that cold and dry is fine; the humidity that comes with temperature changes is the problem.
 
 Here is how we'd keep humidity in the safe under control:
 
@@ -190,7 +190,7 @@ A High Road reply says "the number one issue you need to check first, is how thi
 
 ## Garage theft and keeping the safe out of sight
 
-**A gun safe in the garage is easier to spot and to work on than one inside, so hide it and anchor it hard.** "A gun safe in the garage is a burgular's dream," one [Shooters' Forum member](https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/) warned: a thief can pull in, close the door and work unseen. A Hunt Talk owner added: "Make sure it can't be seen from the street when the door is open."
+**A gun safe in the garage is easier to spot and to work on than one inside, so hide it and anchor it hard.** "A gun safe in the garage is a burgular's dream," one Shooters' Forum member warned: a thief can pull in, close the door and work unseen. A Hunt Talk owner added: "Make sure it can't be seen from the street when the door is open."
 
 From those threads, our short list:
 

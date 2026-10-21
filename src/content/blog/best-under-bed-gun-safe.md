@@ -395,7 +395,7 @@ heroAlt: >-
   buying guide
 ---
 
-One r/homedefense poster measured the gap and wrote: “We have a bed frame that has 4.25" of clearance underneath. it doesn't leave a lot of room for a gun safe.” ([thread](https://www.reddit.com/r/homedefense/comments/1fnwlo8/shallow_sub5_underbed_shotgun_safes/)) That is the first test for any under bed gun safe: its height decides whether it fits before the lock or the steel matter. **The best under bed gun safe for most homes is the SnapSafe Under Bed Safe Large, a 6 in tall, 14-gauge steel drawer that holds a carbine or several handguns.** The Hornady RAPiD Safe AR Gun Locker opens fastest with a touch-free RFID tag, and the SecureIt Fast Box Model 47 is the slim welded box for one long gun. None of the three has a fire rating.
+One r/homedefense poster measured the gap and wrote: “We have a bed frame that has 4.25" of clearance underneath. it doesn't leave a lot of room for a gun safe.” (thread) That is the first test for any under bed gun safe: its height decides whether it fits before the lock or the steel matter. **The best under bed gun safe for most homes is the SnapSafe Under Bed Safe Large, a 6 in tall, 14-gauge steel drawer that holds a carbine or several handguns.** The Hornady RAPiD Safe AR Gun Locker opens fastest with a touch-free RFID tag, and the SecureIt Fast Box Model 47 is the slim welded box for one long gun. None of the three has a fire rating.
 
 ## Our under bed gun safe picks
 
@@ -439,7 +439,7 @@ The current version pairs a backlit 4-digit keypad with a capacitive fingerprint
 
 ## Measure the bed before you buy an under bed safe
 
-**Measure from the floor to the lowest rail or slat at the exact spot the safe will sit, then check the frame along its full length.** The picks run 6 to 6.75 in tall, so a 4.25 in gap like that r/homedefense poster's rules out all three; even SnapSafe's 5 in Medium won't clear it. [Gun University's](https://gununiversity.com/best-under-bed-safes/) reviewer learned the second lesson the hard way: “My main mistake was not factoring in the middle of the bed frame poles.”
+**Measure from the floor to the lowest rail or slat at the exact spot the safe will sit, then check the frame along its full length.** The picks run 6 to 6.75 in tall, so a 4.25 in gap like that r/homedefense poster's rules out all three; even SnapSafe's 5 in Medium won't clear it. Gun University's reviewer learned the second lesson the hard way: “My main mistake was not factoring in the middle of the bed frame poles.”
 
 Before ordering, check these four things:
 
@@ -452,13 +452,13 @@ If nothing fits, bed risers add clearance, or a small box on the nightstand may 
 
 ## Anchoring an under bed gun safe when you can't drill
 
-**Bolt the safe down through its pre-drilled holes where you can, because a cable to the bed frame only slows a thief.** Gun University puts it plainly: it doesn't take much time to snatch a safe and open it somewhere else. All three picks have holes, and SnapSafe and Hornady include a cable, which helps renters but can be cut. In an r/liberalgunowners thread on small spaces, one reply warns: "A pelican case locked to bed frame or radiator isn't good enough." The [SIG Talk thread](https://www.sigtalk.com/threads/under-bed-safe-options.417030/) opens with the same bind: "I'm in an apartment, so I can't exactly anchor a real safe to anything."
+**Bolt the safe down through its pre-drilled holes where you can, because a cable to the bed frame only slows a thief.** Gun University puts it plainly: it doesn't take much time to snatch a safe and open it somewhere else. All three picks have holes, and SnapSafe and Hornady include a cable, which helps renters but can be cut. In an r/liberalgunowners thread on small spaces, one reply warns: "A pelican case locked to bed frame or radiator isn't good enough." The SIG Talk thread opens with the same bind: "I'm in an apartment, so I can't exactly anchor a real safe to anything."
 
 Our approach for renters is to ask the landlord in writing about a few small holes, or to cable the safe to a heavy metal frame and keep it out of sight. Our guide on [how to bolt down a safe](/blog/how-to-bolt-down-a-safe/) covers wood floors and slabs, and our [gun safe for an apartment](/blog/best-gun-safe-for-apartment/) picks cover lease-friendly anchoring.
 
 ## Opening it in the dark, and keeping kids out
 
-**Choose the entry you can work half asleep, and keep a backup that doesn't depend on the same battery.** A recurring complaint in bedside-safe threads is a dead battery or a fingerprint reader that won't read; one [r/CAguns owner](https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/) simply "tossed it after". Here is how each pick handles the night:
+**Choose the entry you can work half asleep, and keep a backup that doesn't depend on the same battery.** A recurring complaint in bedside-safe threads is a dead battery or a fingerprint reader that won't read; one r/CAguns owner simply "tossed it after". Here is how each pick handles the night:
 
 - **Hornady:** an RFID tag on your wrist is the fastest way in, and wall power avoids battery surprises. On AA power, press a lid button first, and the manual says to replace batteries every 12 months.
 - **SnapSafe:** code or override key, with a low-battery warning. The keypad beeps and isn't backlit, and the TFB owner notes the override key opens almost silently.

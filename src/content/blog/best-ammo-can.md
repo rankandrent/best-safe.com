@@ -392,7 +392,7 @@ Reviewers on Walmart and Plano's own site praise the value and say it holds far 
 
 ### Solid Tactical Metal Ammo Can: Best steel for long-term storage
 
-Steel and a real gasket set this one apart. It is a new, unused copy of the M2A1 .50 cal can, the military-spec steel shape most metal picks follow. It has a powder-coat finish, a rubber lid gasket and a desiccant pack in the box. Solid Tactical says on its [ammo can page](https://solidtactical.com/solid-tactical-ammo-cans/) that every can is tested for air and water tightness. Its welded lock loop takes a padlock with a shank up to 3/8 inch. Amazon lists a 30 lb maximum weight recommendation. We left out exterior dimensions because the maker does not publish them and the retail numbers did not add up.
+Steel and a real gasket set this one apart. It is a new, unused copy of the M2A1 .50 cal can, the military-spec steel shape most metal picks follow. It has a powder-coat finish, a rubber lid gasket and a desiccant pack in the box. Solid Tactical says on its ammo can page that every can is tested for air and water tightness. Its welded lock loop takes a padlock with a shank up to 3/8 inch. Amazon lists a 30 lb maximum weight recommendation. We left out exterior dimensions because the maker does not publish them and the retail numbers did not add up.
 
 Owners reviewing the plain Matte Black version on Solid Tactical's product page say it seals well, arrives brand new and stacks neatly, and many bought several. Owners report fitting about 500 rounds of 7.62x39 loose. The complaints are a price above surplus and Harbor Freight cans, a few wrong colors, some paint wear and an undersized desiccant pack. The lid also takes effort to close. The plain version those owners reviewed is not pre-drilled for a lock; the locking version we link adds the maker's welded loop, which reviewers say is thin enough for bolt cutters.
 
@@ -432,11 +432,11 @@ A military surplus ammo can is a used, graded steel can, and it is the cheap alt
 
 ### Humid climates and garages
 
-Whether a can alone keeps ammo dry in a humid climate or an unconditioned garage is one of the most common questions in r/Firearms and r/TexasGuns threads. In a [Florida storage thread](https://www.reddit.com/r/Firearms/comments/16g1n9y/storing_ammo_at_home_living_in_florida_is/), one reply put it this way: "Moisture in metal containers is only a problem if the air can flow and the metal can sweat from condensation." In an [r/TexasGuns thread](https://www.reddit.com/r/TexasGuns/comments/1m3k5o9/new_to_tx_ammo_storage_tips/), another owner wrote: "any ammo can / box with a rubber gasket plus a small silica packet should be A Ok for garage storage." For ammo kept in a garage, that is our fix too. Use a gasketed can, add a fresh desiccant packet, and keep the lid shut.
+Whether a can alone keeps ammo dry in a humid climate or an unconditioned garage is one of the most common questions in r/Firearms and r/TexasGuns threads. In a Florida storage thread, one reply put it this way: "Moisture in metal containers is only a problem if the air can flow and the metal can sweat from condensation." In an r/TexasGuns thread, another owner wrote: "any ammo can / box with a rubber gasket plus a small silica packet should be A Ok for garage storage." For ammo kept in a garage, that is our fix too. Use a gasketed can, add a fresh desiccant packet, and keep the lid shut.
 
 ### Steel-cased ammo, cardboard boxes and loose rounds
 
-Fear that stored ammo will rust is a recurring worry in r/NoobGunOwners and r/guns threads. One [r/NoobGunOwners reply](https://www.reddit.com/r/NoobGunOwners/comments/g3hg4b/along_term_ammo_storage_how_can_one_keep_it_dry/) warns that "steel cased ammunition can absolutely rust." Cardboard is the other weak link, since it soaks up humidity and holds it against the brass or steel. The fix most owners give:
+Fear that stored ammo will rust is a recurring worry in r/NoobGunOwners and r/guns threads. One r/NoobGunOwners reply warns that "steel cased ammunition can absolutely rust." Cardboard is the other weak link, since it soaks up humidity and holds it against the brass or steel. The fix most owners give:
 
 - Keep factory boxes only if the can stays sealed and dry; otherwise move rounds into plastic boxes or dump them loose.
 - Label loose rounds by caliber and lot so nothing gets mixed up.
@@ -444,7 +444,7 @@ Fear that stored ammo will rust is a recurring worry in r/NoobGunOwners and r/gu
 
 ### Desiccant that stops working
 
-Silica that saturates within weeks is a recurring complaint on The High Road and collectors' forums. One reply in a [collectors' forum thread](https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe) explains why: "Dessicant is not going to help unless the area it is protecting is air-tight." That is good news for ammo can owners, because a sealed can is exactly that space. Use indicator silica, open the can only when you need to, and recharge or swap the packs when the beads change color.
+Silica that saturates within weeks is a recurring complaint on The High Road and collectors' forums. One reply in a collectors' forum thread explains why: "Dessicant is not going to help unless the area it is protecting is air-tight." That is good news for ammo can owners, because a sealed can is exactly that space. Use indicator silica, open the can only when you need to, and recharge or swap the packs when the beads change color.
 
 ### Sweating metal cans and cold slabs or walls
 
@@ -452,7 +452,7 @@ Steel that is colder than the air around it collects condensation, and owners on
 
 ### If you also store ammo in a gun safe
 
-Guns rusting inside a safe even with silica packs and a dehumidifier is a recurring theme on The High Road, where one member in a [rust thread](https://www.thehighroad.org/index.php?threads/rust-issues.814079/) advised: "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture." For ammo, a sealed can inside the safe is a second barrier that keeps humid air off the rounds. To bring the safe itself under control, see our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/), and if you are shopping for a fire-rated safe, our [fireproof safe guide](/blog/best-fireproof-safe/) explains who certifies those ratings.
+Guns rusting inside a safe even with silica packs and a dehumidifier is a recurring theme on The High Road, where one member in a rust thread advised: "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture." For ammo, a sealed can inside the safe is a second barrier that keeps humid air off the rounds. To bring the safe itself under control, see our [gun safe dehumidifier guide](/blog/best-dehumidifier-for-gun-safe/), and if you are shopping for a fire-rated safe, our [fireproof safe guide](/blog/best-fireproof-safe/) explains who certifies those ratings.
 
 ## Bottom line – which ammo can to buy
 

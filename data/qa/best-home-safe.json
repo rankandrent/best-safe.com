@@ -1,19 +1,17 @@
 {
   "slug": "best-home-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T11:03:47.771Z",
+  "checkedAt": "2026-10-21T19:51:12.151Z",
   "errors": [],
   "warnings": [
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Amazon Basics Steel Home Security Electronic Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Viking Security Safe VS-20BLX\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (403): https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/burglary",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jnot63/home_safe_recommendations/"
+    "product \"Viking Security Safe VS-20BLX\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified SentrySafe SFW123GDC against sentrysafe.com/product/SFW123GDC (UL Classified 1 hr up to 1700F, ETL Verified 24 hr in 8 in water, four 1-inch live-locking bolts, pry-resistant hinge bar, bolt-down hardware, 5-digit keypad + dual key, interior 13.8x12.6x11.9 in, 1.23 cu ft, exterior 17.8x16.3x19.3, 86.69 lb, USB/digital media claim, desiccant accessory) and owner reviews on Walmart (21395412, 10 read) and sentrysafe.com (8 read, 2 duplicates). Amazon Basics Steel Home Security Electronic Safe B078K4W8N9: listing read for title/1.2 cu ft/8-gauge door/14-gauge body/2 live bolts/concealed hinges/13x13x14.2 ext/12.83x10.35x14 int/29.3 lb/1.52 and 1.8 sizes (cited as 'per listing', no Amazon URL in sources); CNN, Business Insider (0.5 cu ft sibling forced in ~3 min), Bob Vila (1.52 version), Top Firearm Reviews owner notes (door rubs, 3 of 4 anchor bolts, quiet mode, bolting voids SFW water protection). Viking VS-20BLX against vikingsecuritysafe.com (32 prints, 4-8 digit PIN, 2 override keys, motorized deadbolt, 20 mm bars, 8x12x8 ext, 7.8x11.9x7.6 int, 18 lb, 4 AA + 2 AA LED, 4 anchor bolts, not fireproof/waterproof, non-volatile memory, accuracy declines with age), BI 0.32 cu ft, Walmart reviews 51106444 (5 read), r/LockPickingLawyer 'Open in 3 Seconds' thread. Stats verified: FBI UCR 2019 62.8 percent residential burglaries; NFPA 2024 home structure fire every 96 seconds; UL 1037 RSC level one five-minute attack one technician hand tools. Reddit quotes verified verbatim via search excerpts (r/Safes fire vs burglars title, r/homedefense bolt-down, r/Safes override key, r/preppers TL-15); collectors forum quote from pain-points page scrape. CNN BF2116 UL burglary + fire, r/Safes AMSEC/Gardall/Hollon B-rate burglary-only. Corrected: keypad digit count removed (not on listing), dent count reworded to dented or damaged, owner attribution fixed, 'every guide' -> 'most guides'. ASINs: B005P12C5A (SentrySafe 1-Hour Fireproof Safe Digital Keypad 1.2 Cu Ft STW123GDC listing, same model), B078K4W8N9 (Amazon Basics Steel Home Security Electronic Safe 1.2 Cubic Feet), B015PI6P3M (Viking Security Safe VS-20BLX Mini Biometric Safe). Video GoFP3AgBcVw is SentrySafe's fire protection and testing standards video, owner-side, placed in the fire ratings section.",
-    "at": "2026-10-21T11:02:14.430Z",
-    "hash": "a57d005c0b8e8e04"
+    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
+    "at": "2026-10-21T19:51:11.758Z",
+    "hash": "fd58427fef577c39"
   }
 }

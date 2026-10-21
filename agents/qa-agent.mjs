@@ -140,15 +140,10 @@ export function mediaRules(d, body, { pub, err, warn, info = !(d.products ?? [])
   if (new Set(ill.map((x) => x.afterHeading)).size < ill.length) err('two illustrations share one afterHeading; spread them over different sections');
   const videos = d.videos ?? [];
   for (const v of videos) if (!(v.afterHeading >= 1 && v.afterHeading <= h2)) err(`video ${v.id}: afterHeading ${v.afterHeading} is not one of the ${h2} H2 sections`);
-  // External-link density (owner concern 2026-10-21): too many outbound links dilute the page and look spammy.
-  const extAll = [...body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => m[1]).filter((u) => !/amazon\.|amzn\./i.test(u));
-  const words = body.trim().split(/\s+/).length;
-  const maxExt = Math.max(6, Math.round(words / 180));
-  if (extAll.length > maxExt) warn(`${extAll.length} external links in ${words} words (aim for at most ${maxExt}: link only the 2-4 most important stats and sources, not every claim)`);
-  const perDomain = {};
-  for (const u of extAll) { const h = u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]; perDomain[h] = (perDomain[h] ?? 0) + 1; }
-  for (const [h, n] of Object.entries(perDomain)) if (n > 2) warn(`${n} links to ${h}; link each outside site at most twice`);
-  if ((d.sources ?? []).length > 12) warn(`${d.sources.length} sources listed (aim for at most 12)`);
+  // External links (owner rule 2026-10-21): at most 3 outside links in the body, usually 2; more only rarely.
+  const extAll = [...body.matchAll(/(?<!!)\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => m[2]).filter((u) => !/amazon\.|amzn\./i.test(u));
+  const extDistinct = new Set(extAll);
+  if (extDistinct.size > 3) must(`${extDistinct.size} different outside links in the text (owner rule: at most 3, usually 2; keep only the strongest stat sources and write the rest as plain text)`);
   if (info && !videos.length) warn('no YouTube video; embed one that shows the task when a good one exists (frontmatter videos: id, afterHeading)');
   const statLinks = [...body.matchAll(/\[([^\]]*\d[^\]]*)\]\((https?:\/\/[^)\s]+)\)/g)].filter((m) => !/amazon\.|amzn\./i.test(m[2]));
   const need = info ? 2 : 1;
