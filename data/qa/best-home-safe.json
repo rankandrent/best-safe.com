@@ -1,12 +1,14 @@
 {
   "slug": "best-home-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T11:02:14.848Z",
+  "checkedAt": "2026-10-21T11:03:47.771Z",
   "errors": [],
   "warnings": [
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Amazon Basics Steel Home Security Electronic Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Viking Security Safe VS-20BLX\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"Viking Security Safe VS-20BLX\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/burglary",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jnot63/home_safe_recommendations/"
   ],
   "factCheck": {
     "verified": true,
