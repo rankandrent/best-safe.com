@@ -1,15 +1,17 @@
 {
   "slug": "how-to-bolt-down-a-safe",
   "pass": true,
-  "checkedAt": "2026-10-20T20:09:58.949Z",
+  "checkedAt": "2026-10-21T06:57:56.286Z",
   "errors": [],
   "warnings": [
-    "source didn't respond normally (403): https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified against scraped pages 2026-10-20: Liberty Safe anchoring page (wood kit 1/4in holes at four points, washers, 9/16in socket; concrete 3/8in bit, hammer drill, 1/2in socket; tile cannot be anchored, cracks); Winchester bolt-down page (1/2in bit + 17mm socket in note vs 5/8in bit + 19mm socket in steps; shims to level; remove caps; concrete-only, no liability on carpet/wood, lag screws and pilot holes for wood); Master Lock do's/don'ts (read manual, only some safes designed for bolting, drill only where manual notes usually feet, never drill back of fireproof safe); Northwest Safe (post-tension cables, in-floor heating, utilities, rentals/HOA; steel plate larger than rough opening; most safes fire-tested with floor bolt holes, wall bolting can compromise fire protection; tall/shallow safes tip forward); Guardian Safe & Vault (steel plate min 1/4in wider than door frames, cables, small safes carried away; vacuum dust); AR15.com PT-slab thread (quote verbatim, scanner/stud/base fixes). Fire ratings stated only with certifier (UL/Intertek); renter section framed as general info, not legal advice; no products, no prices. Re-verified after wording edits to link sentences (no new facts).",
-    "at": "2026-10-20T20:04:35.094Z",
-    "hash": "e2199cf77132639a"
+    "notes": "Body changed for the media-and-numbers rule; earlier facts unchanged. Re-opened 2026-10-21: Liberty anchoring page (libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor) says 'with a 3/8 concrete drill bit' -> linked '3/8-inch masonry bit', and 'consider the damage a 1,000-pound safe can do if it tips over' -> linked 'a 1,000-pound safe'; Guardian Safe & Vault page says 'A minimum steel thickness of 1/4 inches is recommended', wider than interior door frames -> linked 'at least 1/4 inch thick'. Video iGJL46vUWJ8 'How to Bolt Down a SentrySafe FP Series Safe' (SentrySafe channel). 3 illustration prompts (anchor bolt and socket wrench, safe on steel plate, anchored safe in office); no drilling into a safe, no brands. Trimmed hook wording for the word limit; no facts removed.",
+    "at": "2026-10-21T06:57:54.354Z",
+    "hash": "b4c6b4b9abeeec5b"
   }
 }

@@ -65,6 +65,8 @@ sources:
   - title: 'Quora: SentrySafe T6-331 lock and lever answer'
     url: >-
       https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position
+  - title: 'SentrySafe: How Do I Change the Batteries on My Safe?'
+    url: 'https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe'
 reviewedDate: '2026-10-20T00:00:00.000Z'
 faqs:
   - q: How do I open my safe if the battery is dead?
@@ -95,6 +97,22 @@ faqs:
       number, then contact the maker and ask what it accepts as proof of
       ownership. A safe that belongs to someone else is a matter for its owner,
       the maker or the police.
+illustrations:
+  - prompt: >-
+      An owner's hands fitting fresh AA batteries into the battery compartment under the keypad of their own small home safe on a closet shelf, a backup key resting beside it, soft warm home lighting, close-up at shelf height, realistic photograph, no visible brand.
+    alt: 'Owner replacing the keypad batteries on their own home safe, backup key beside it'
+    afterHeading: 3
+  - prompt: >-
+      A person at a kitchen table filling out a blank paper form beside a closed folder and an envelope, an ID card lying face down, a small home safe visible on a shelf in the background, daylight from a window, over-the-shoulder view with the face not shown, realistic photograph.
+    alt: 'Safe owner filling out the maker''s ownership request form at a kitchen table'
+    afterHeading: 4
+  - prompt: >-
+      A small fireproof document pouch and a key lock box on a wooden desk beside a phone, the papers inside the pouch seen only as blank white edges, a single key on a ring next to the box, soft morning light, top-down angle, realistic photograph, calm and organized.
+    alt: 'Fireproof document pouch and key lock box holding proof of ownership and a spare key outside the safe'
+    afterHeading: 6
+videos:
+  - id: 'gwpJeFzUuwY'
+    afterHeading: 2
 author: editorial-team
 heroImage: /images/featured/how-to-open-a-safe.png
 heroAlt: How to Open a Safe You Own When You Are Locked Out – Best Safe how-to
@@ -125,7 +143,7 @@ Here is the sequence we recommend:
 
 ## How to open a combination safe with the maker's dial sequence
 
-**A mechanical dial opens only when the maker's sequence is followed exactly: direction, number of turns per number, and where the dial stops.** If you lose count, start over rather than correct midway.
+**A mechanical dial opens only when the maker's sequence is followed exactly: direction, number of turns per number, and where the dial stops.** If you lose count, start over rather than correct midway. Liberty Safe's video below shows an owner dialing a mechanical combination the maker's way.
 
 ### Where to find the manual and sequence for your model
 
@@ -146,7 +164,7 @@ When new batteries don't work, stop entering codes and check your manual, becaus
 - a lever that won't reach the locked position
 - a failed keypad or solenoid
 
-Re-seat alkalines once. If the safe still refuses, call the maker.
+Re-seat alkalines once; SentrySafe, for one, asks for name-brand cells with expiration dates [as close to 10 years out](https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe) as possible. If the safe still refuses, call the maker.
 
 ## Lost safe combination or key? Use the maker route
 
@@ -154,7 +172,7 @@ Re-seat alkalines once. If the safe still refuses, call the maker.
 
 ### Register now so recovery is quick
 
-Safe registration creates the ownership record that makes recovery fastest. Liberty Safe's lost-combination policy is blunt: "[you must contact Liberty Safe first](https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe)". Registered owners get help quickly; unregistered owners may need a notarized request form, payment and about 3-5 business days. Register yours today.
+Safe registration creates the ownership record that makes recovery fastest. Liberty Safe's lost-combination policy is blunt: "[you must contact Liberty Safe first](https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe)". Registered owners get help quickly; unregistered owners may need a notarized request form and payment, then Liberty sends the combination within [three to five business days](https://libertysafe.com/blogs/the-vault/what-can-i-do-if-i-lose-the-combination-or-key-to-my-safe) of receiving them. Register yours today.
 
 ### What the maker asks for
 

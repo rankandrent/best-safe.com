@@ -101,6 +101,35 @@ const blog = defineCollection({
         }),
       )
       .default([]),
+    // AI illustrations (agents/ai-images.mjs, Cloudflare Workers AI) for posts
+    // without product photos. The writer sets prompt/alt/afterHeading; the
+    // workflow fills src once the image exists.
+    illustrations: z
+      .array(
+        z.object({
+          prompt: z.string(),
+          alt: z.string(),
+          afterHeading: z.number(),
+          src: z.string().optional(),
+          width: z.number().optional(),
+          height: z.number().optional(),
+        }),
+      )
+      .default([]),
+    // YouTube videos embedded after an H2. The ai-images workflow checks each
+    // id with YouTube oEmbed, fills title/channel and drops removed or
+    // non-embeddable videos.
+    videos: z
+      .array(
+        z.object({
+          id: z.string().regex(/^[\w-]{11}$/),
+          afterHeading: z.number(),
+          title: z.string().optional(),
+          channel: z.string().optional(),
+          checked: z.string().optional(),
+        }),
+      )
+      .default([]),
   }),
 });
 

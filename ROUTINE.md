@@ -391,3 +391,13 @@ build when a recorded URL has no post file and no redirect.
   goes through a redirect, and set `updatedDate` on the kept post.
 - Merging queued keywords (no post yet) needs no redirect: mark the entry `merged` with `mergedInto`.
 - The script collapses redirect chains (A → B → C becomes A → C) and warns about redirects to a missing post.
+
+## Media and numbers (owner rule, permanent, every site and language)
+
+No text-only posts. Every post that has no product photos (how-tos, guides, comparisons without picks) carries 2-3 AI illustrations, and every post backs its key numbers with a link on the number itself.
+- **Brief (step 4):** `stats` (3-6 numbers with the source URL and a verbatim quote) and `videos` (0-2 YouTube ids) from Firecrawl.
+- **Writer (step 6):** stats in the text as `[number and claim](source-url)` (2+ in a post without products, 1+ in roundups); `illustrations: [{prompt, alt, afterHeading}]` for posts without products (realistic scene, no brands, no text, no product models, no recognisable people); `videos: [{id, afterHeading}]` when the brief found a good one.
+- **AI images at deploy time** (this repo has no Cloudflare secret and no ai-images workflow): the RentersmartHome repo's `.github/workflows/launch-site.yml` runs `node agents/ai-images.mjs` in this site's checkout before every deploy. It generates each illustration with Cloudflare Workers AI (FLUX.1 schnell) into `public/images/ai/` (file names carry a prompt hash; the folder is kept in that workflow's Actions cache and is not committed here), fills `src` in the deployed copy, checks every video with YouTube oEmbed (fills title and channel, drops removed or non-embeddable videos). Illustrations are captioned "AI-generated illustration". Videos load as a thumbnail and play from youtube-nocookie.com only on click (no page-speed cost).
+- **Safe-site limits:** numbers come from the maker's spec page or the source that publishes them (FBI, NFPA, USFA, UL/ETL/Intertek for fire tests, always naming the certifier); illustrations never show breaking into, drilling or forcing open a safe (lockout scenes show an owner with their own safe: batteries, override key); videos show owner-side tasks only (the maker's channel, a professional mover or locksmith), never opening someone else's safe or bypassing a lock.
+- **QA (step 7b):** errors before go-live on a post without products with fewer than 2 illustrations or 2 sourced numbers (1 for roundups); warns on live posts so the backlog gets fixed. The qa-agent opens every number link and checks the number is on that page.
+- **Translations:** same illustrations (alt translated), same videos, same number links.

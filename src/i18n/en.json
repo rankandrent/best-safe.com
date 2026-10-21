@@ -126,5 +126,8 @@
   "score.criterion.fire": "Fire protection",
   "score.criterion.access": "Access (speed and ease)",
   "score.criterion.capacity": "Capacity",
-  "score.criterion.value": "Value"
+  "score.criterion.value": "Value",
+  "photo.ai": "AI-generated illustration",
+  "video.play": "Play video",
+  "video.caption": "Video: {title} ({channel} on YouTube)"
 }

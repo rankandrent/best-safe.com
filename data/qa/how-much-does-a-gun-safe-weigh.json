@@ -1,17 +1,17 @@
 {
   "slug": "how-much-does-a-gun-safe-weigh",
-  "pass": false,
-  "checkedAt": "2026-10-20T20:26:03.676Z",
-  "errors": [
-    "source returns 404: https://pasadenatx.gov/DocumentCenter/View/879/Residential-Building-Application-PDF"
-  ],
+  "pass": true,
+  "checkedAt": "2026-10-21T06:56:46.350Z",
+  "errors": [],
   "warnings": [
-    "source didn't respond normally (403): https://americansecuritysafes.com/product/bfii6636-configurator/"
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Re-confirmed after adding an internal link to /blog/how-to-bolt-down-a-safe/ (live before this post, QA pass). Facts unchanged from the earlier check: Liberty vault blog classes; Liberty Centurion specs (245/336/375/411 lb, 14-gauge, 30/40 min at 1200F by Liberty with no lab named, min doorway 18 and 25.75 in, 98% pro install, dealer bolt-down); Liberty HDV-150X 9.05 lb with cable; Cannon 24-gun 280 lb and 59-gun 552 lb; AMSEC BFII6636 1,716 lb, 11GA + 0.3125 in liner, 0.5 in door, ETL 120 min at 1200F, UL RSC Level II; Sportsman's 8-50 lb; 2024 IRC 40/30 psf via Pasadena TX; footprint math; quotes verified verbatim (High Road, FirearmsTalk).",
-    "at": "2026-10-20T20:07:53.046Z",
-    "hash": "9cabc0e9f575687a"
+    "notes": "Body changed for the media-and-numbers rule; all earlier facts unchanged (see previous check). New number links re-opened 2026-10-21 via Firecrawl: Liberty weight page (libertysafe.com/blogs/the-vault/how-much-do-gun-safes-weigh) says entry-level gun safes 'typically weigh between 200-600 pounds' -> linked 'between 200 and 600 lb'; AMSEC BFII6636 spec page (americansecuritysafes.com/product/bfii6636-configurator/) lists '1,716 lbs' -> linked '1,716 lb'. Video pSWI53Xbh5M 'How Much Do Gun Safes Weigh?' is the video embedded on that Liberty page. 3 AI illustration prompts with no brands, text or people's faces.",
+    "at": "2026-10-21T06:56:43.995Z",
+    "hash": "a7f81e5305f49b74"
   }
 }

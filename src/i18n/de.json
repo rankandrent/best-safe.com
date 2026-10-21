@@ -138,5 +138,8 @@
   "cat.wall-floor-safes": "Wand- & Bodentresore",
   "cat.lock-boxes": "Schlüssel- & Kassetten",
   "cat.safe-accessories": "Tresorzubehör & Munitionsaufbewahrung",
-  "cat.safe-guides": "Tresor-Anleitungen"
+  "cat.safe-guides": "Tresor-Anleitungen",
+  "photo.ai": "KI-generierte Illustration",
+  "video.play": "Video abspielen",
+  "video.caption": "Video: {title} ({channel} auf YouTube)"
 }

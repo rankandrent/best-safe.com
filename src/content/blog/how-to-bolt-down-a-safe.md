@@ -96,6 +96,22 @@ faqs:
       Ask the landlord in writing first. Without permission, a steel plate wider
       than the door frame or a tether to building framing makes the safe harder
       to remove, but neither matches real anchor bolts.
+illustrations:
+  - prompt: >-
+      Close-up of a gloved hand tightening a floor anchor bolt with a socket wrench inside the open bottom of a steel safe sitting on a concrete garage floor, a small box of anchor bolts and washers beside it, bright work light, low angle, realistic photograph.
+    alt: 'Tightening a floor anchor bolt with a socket wrench inside a safe on a concrete floor'
+    afterHeading: 2
+  - prompt: >-
+      A compact steel home safe bolted onto a thick flat steel plate on the closet floor of a rented apartment, the plate visibly wider than the closet door frame, neatly folded clothes on a shelf above, soft daylight from the doorway, eye-level view, realistic photograph.
+    alt: 'Small safe bolted to a steel plate wider than the closet door frame in a rented apartment'
+    afterHeading: 4
+  - prompt: >-
+      A small steel home safe anchored to the floor in the corner of a quiet home office, a child's toy truck on the rug nearby, calm evening lamp light, three-quarter view at seated eye level, realistic photograph with a homey, secure feeling.
+    alt: 'Small home safe anchored to the floor in a home office corner, with a child''s toy nearby'
+    afterHeading: 6
+videos:
+  - id: 'iGJL46vUWJ8'
+    afterHeading: 1
 author: editorial-team
 related:
   - sentry-safe-battery-replacement
@@ -105,11 +121,11 @@ heroImage: /images/featured/how-to-bolt-down-a-safe.png
 heroAlt: 'How to Bolt Down a Safe (Concrete, Wood Floors and Renters) – Best Safe how-to'
 ---
 
-Picture a new gun safe in the closet, still loose, its anchor bolts unopened beside it. **To bolt down a safe, set and level it, mark the floor through its pre-drilled holes, then drive the maker's anchors: expansion bolts set with a hammer drill in concrete, lag bolts into joists on a wood floor.** We'd skip the floor only on a post-tension slab, radiant heat, tile or a no-drill lease; each has a fix below.
+Picture a new gun safe in the closet, its anchor bolts unopened beside it. **To bolt down a safe, set and level it, mark the floor through its pre-drilled holes, then drive the maker's anchors: expansion bolts set with a hammer drill in concrete, lag bolts into joists on a wood floor.** We'd skip the floor only on a post-tension slab, radiant heat, tile or a no-drill lease; each has a fix below.
 
 ## How to bolt down a safe, step by step
 
-**The maker and installer guides we read follow the same order: position, level, bolt, then check the door.** Before anything, we'd read the manual. Master Lock notes that only some safes are built for it.
+**The maker and installer guides we read follow the same order: position, level, bolt, then check the door.** Before anything, we'd read the manual. Master Lock notes that only some safes are built for it. SentrySafe's video below shows this order on an FP series safe.
 
 1. Set the safe where it will live and shim it level.
 2. Lift the floor panel and pop the caps off the pre-drilled holes.
@@ -119,7 +135,7 @@ Picture a new gun safe in the closet, still loose, its anchor bolts unopened bes
 
 ## Concrete vs wood floor hardware
 
-**Concrete takes expansion anchors and a hammer drill; wood takes lag bolts driven into a joist, not just the subfloor.** Liberty's concrete kit calls for a 3/8-inch masonry bit and a 1/2-inch socket. Its wood kit calls for a 1/4-inch hole at each of the four anchor points and a 9/16-inch socket.
+**Concrete takes expansion anchors and a hammer drill; wood takes lag bolts driven into a joist, not just the subfloor.** Liberty's concrete kit calls for a [3/8-inch masonry bit](https://libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor) and a 1/2-inch socket. Its wood kit calls for a 1/4-inch hole at each of the four anchor points and a 9/16-inch socket.
 
 > **From our notes:** When we lined up the maker instructions side by side, the hardware didn't agree. Liberty's concrete steps use a 3/8-inch bit. Winchester's page names a 1/2-inch bit and a 17mm socket in its note, then a 5/8-inch bit and a 19mm socket in the steps. Winchester also says its steps cover concrete only and disclaims liability on carpet or wood. So no generic guide, ours included, should pick your bit; your kit and manual decide.
 
@@ -127,7 +143,7 @@ Picture a new gun safe in the closet, still loose, its anchor bolts unopened bes
 
 **Don't drill blind into a post-tension slab, over radiant floor heat or through tile.** Northwest Safe flags post-tension cables, in-floor heating lines and buried utilities. Liberty says a bolted safe will crack tile.
 
-Owners in an [AR15.com thread on post-tension slabs](https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/) were blunt: "OP you're not going to get anyone who recommends drilling into a PT slab." The fixes we saw there:
+Owners in an [AR15.com thread on post-tension slabs](https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/) were blunt: "OP you're not going to get anyone who recommends drilling into a PT slab." Their fixes:
 
 - Rent a concrete scanner, or have a safe company scan, and set anchors between the cables.
 - Lag the safe to wall studs to stop tip-over.
@@ -137,7 +153,7 @@ Owners in an [AR15.com thread on post-tension slabs](https://ar15.com/forums/gen
 
 **If your lease bars drilling, ask the landlord in writing before you anchor anything.** We offer this as general information, not legal advice; your lease and local rules decide. A few lag bolts into closet studs leave small holes you can patch at move-out.
 
-With no permission, Guardian Safe & Vault suggests bolting the safe to a steel plate at least 1/4 inch thick and wider than the door frame, so it can't leave the room. A steel cable to framing slows a casual thief but won't stop a determined one. For light safes and no-drill picks, see our [best gun safe for apartment renters](/blog/best-gun-safe-for-apartment/) guide.
+With no permission, Guardian Safe & Vault suggests bolting the safe to a steel plate [at least 1/4 inch thick](https://guardiansafeandvault.com/blog/how-to-secure-a-safe-without-bolting-it-to-the-floor) and wider than the door frame, so it can't leave the room. A steel cable to framing slows a casual thief but won't stop a determined one. For light safes and no-drill picks, see our [best gun safe for apartment renters](/blog/best-gun-safe-for-apartment/) guide.
 
 ## Does bolting a safe hurt its fire rating
 
@@ -145,6 +161,6 @@ With no permission, Guardian Safe & Vault suggests bolting the safe to a steel p
 
 ## Is a light safe worth bolting
 
-**A light safe is the one most worth anchoring, because a thief can carry it off to open later, as Guardian Safe & Vault notes.** Northwest Safe adds that tall or shallow safes can tip forward, so anchoring is a child-safety step too. When we compare safes, we look for bolt holes; our [safe buying checklist](/safe-buying-checklist/) lists them.
+**A light safe is the one most worth anchoring, because a thief can carry it off to open later, as Guardian Safe & Vault notes.** Northwest Safe adds that tall or shallow safes can tip forward, and Liberty Safe warns of the damage [a 1,000-pound safe](https://libertysafe.com/blogs/the-vault/anchoring-your-gun-safe-to-the-floor) can do if it tips over, so anchoring is a child-safety step too. When we compare safes, we look for bolt holes; our [safe buying checklist](/safe-buying-checklist/) lists them.
 
 Planning a move later? Unbolt first, then follow our guide on [how to move a gun safe](/blog/how-to-move-a-gun-safe/).

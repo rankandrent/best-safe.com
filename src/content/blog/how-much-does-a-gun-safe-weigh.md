@@ -96,6 +96,22 @@ faqs:
       Far less than a long-gun safe. Liberty's HDV-150X handgun vault weighs
       9.05 lb, and Sportsman's Warehouse puts extra-small safes at 8-50 lb,
       which is why they come with a cable or bolt-down holes.
+illustrations:
+  - prompt: >-
+      A row of empty steel gun safes of different sizes standing side by side on a concrete showroom floor, from a small handgun vault on a low shelf to a tall long-gun safe, plain unbranded doors, soft even overhead light, wide eye-level shot, realistic photograph.
+    alt: 'Gun safes of different sizes side by side, from a small handgun vault to a tall long-gun safe'
+    afterHeading: 1
+  - prompt: >-
+      A tall dark steel gun safe standing on a hardwood floor in an upstairs bedroom closet next to a load-bearing wall, a tape measure and a blank notepad lying on the floor in front of it, warm afternoon window light, eye-level view, realistic photograph.
+    alt: 'Heavy gun safe on an upstairs wood floor beside a load-bearing wall, with a tape measure for checking floor load'
+    afterHeading: 3
+  - prompt: >-
+      Three movers in plain gray work clothes, faces turned away from the camera, guiding a blanket-wrapped tall safe strapped to a heavy-duty appliance dolly through the front doorway of a suburban house, plywood protecting the threshold, overcast daylight, low side angle, realistic photograph.
+    alt: 'Three movers rolling a blanket-wrapped gun safe on a heavy-duty dolly through a front doorway'
+    afterHeading: 4
+videos:
+  - id: 'pSWI53Xbh5M'
+    afterHeading: 2
 author: editorial-team
 related:
   - how-to-move-a-gun-safe
@@ -104,7 +120,7 @@ heroImage: /images/featured/how-much-does-a-gun-safe-weigh.png
 heroAlt: 'How Much Does a Gun Safe Weigh (By Class, With Floor Math) – Best Safe guide'
 ---
 
-A gun safe weighs anywhere from about 9 lb for a handgun vault to well over 1,500 lb for a high-end long-gun safe. Most entry-level long-gun safes land between 200 and 600 lb, according to Liberty Safe. The number that matters for your floor and your stairs is the loaded weight, not the one on the box.
+A gun safe weighs anywhere from about 9 lb for a handgun vault to well over 1,500 lb for a high-end long-gun safe. Most entry-level long-gun safes land [between 200 and 600 lb](https://libertysafe.com/blogs/the-vault/how-much-do-gun-safes-weigh), according to Liberty Safe. The number that matters for your floor and your stairs is the loaded weight, not the one on the box.
 
 In owner threads, a renter on a second floor asks how heavy a safe they can get away with. We pulled the maker spec pages to answer how much does a gun safe weigh with real numbers.
 
@@ -124,12 +140,12 @@ Bands overlap: Cannon's 59-gun safe sits below Liberty's mid-range band, so we a
 
 ## Why two 24-gun safes can differ by 1,300 lb
 
-**Gun safe weight follows steel, fire insulation and door design, not gun count.** Liberty names size, steel gauge (lower means thicker), layers of fireboard and extras such as concrete liners.
+**Gun safe weight follows steel, fire insulation and door design, not gun count.** Liberty names size, steel gauge (lower means thicker), layers of fireboard and extras such as concrete liners. The short video below, which Liberty Safe embeds on its weight page, walks through what adds the pounds.
 
 Our clearest example from the spec sheets:
 
 - **Liberty Centurion 24:** 375 lb, 14-gauge body, up to 40 minutes at 1200°F by Liberty's own rating, with no outside lab named.
-- **AMSEC BFII6636:** 1,716 lb for 24 long guns. It has an 11-gauge outer body, a 0.3125-inch inner liner and a 0.5-inch plate door. AMSEC says ETL independently tested its 120-minute rating at 1200°F, and it carries a UL RSC Level II burglary rating.
+- **AMSEC BFII6636:** [1,716 lb](https://americansecuritysafes.com/product/bfii6636-configurator/) for 24 long guns. It has an 11-gauge outer body, a 0.3125-inch inner liner and a 0.5-inch plate door. AMSEC says ETL independently tested its 120-minute rating at 1200°F, and it carries a UL RSC Level II burglary rating.
 
 Our [fireproof safe guide](/blog/best-fireproof-safe/) explains how to read who certified a rating.
 

@@ -318,6 +318,18 @@ if (d.products.length) {
       try { await navigator.clipboard.writeText(b.dataset.url!); b.textContent = b.dataset.copied ?? 'Link copied'; } catch { b.textContent = b.dataset.url!; }
     }),
   );
+  // YouTube: the thumbnail links to the video; a click swaps in the player (privacy-enhanced domain).
+  document.addEventListener('click', (e) => {
+    const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('.yt-lite');
+    if (!a?.dataset.id) return;
+    e.preventDefault();
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${a.dataset.id}?autoplay=1&rel=0`;
+    f.title = a.getAttribute('aria-label') ?? 'YouTube video';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    a.replaceWith(f);
+  });
   // Product galleries: clicking a thumbnail swaps the main photo.
   document.addEventListener('click', (e) => {
     const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.pg-thumb');

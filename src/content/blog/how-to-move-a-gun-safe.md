@@ -109,6 +109,24 @@ faqs:
       Use plastic sliders on carpet and felt sliders on hard floors for short
       shifts, lay plywood or hardboard over finished floors on the dolly route,
       and pad door frames and thresholds with moving blankets.
+illustrations:
+  - prompt: >-
+      A person measuring the width of an interior basement doorway with a tape measure, face not visible, a tall empty gun safe with its door open and shelves removed and stacked in the background, cool overhead light, wide eye-level shot, realistic photograph.
+    alt: 'Measuring a basement doorway before moving an emptied gun safe'
+    afterHeading: 2
+  - prompt: >-
+      Moving gear laid out neatly on a garage floor: a heavy-duty appliance dolly with a strap, coiled ratchet straps, folded quilted moving blankets, plastic and felt furniture sliders and a roll of stretch wrap, morning light from an open garage door, top-down angle, realistic photograph.
+    alt: 'Gun safe moving gear: heavy-duty dolly, ratchet straps, moving blankets, sliders and stretch wrap'
+    afterHeading: 3
+  - prompt: >-
+      A tall steel gun safe being leveled with thin wooden shims under its front edge in a finished basement, a spirit level resting on top, a small dehumidifier rod plugged in beside it, warm light, side angle at knee height, realistic photograph, no people.
+    alt: 'Gun safe leveled with shims in a basement after the move, ready to be bolted down'
+    afterHeading: 6
+videos:
+  - id: 'II81lN6oASs'
+    afterHeading: 6
+  - id: '-lxi5SqJx9Y'
+    afterHeading: 4
 author: editorial-team
 heroImage: /images/featured/how-to-move-a-gun-safe.png
 heroAlt: >-
@@ -121,9 +139,9 @@ related:
   - best-gun-safe-for-apartment
 ---
 
-To move a gun safe, empty it, unbolt it, wrap it, and roll it upright on an appliance dolly rated above its weight, strapped tight, with at least three people. If the route has stairs or the safe weighs more than 500 lb (Kirby's Moving's cutoff), the best way to move a gun safe is to hire a safe mover with a stair climber.
+To move a gun safe, empty it, unbolt it, wrap it, and roll it upright on an appliance dolly rated above its weight, strapped tight, with at least three people. If the route has stairs or the safe weighs [more than 500 lb](https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist) (Kirby's Moving's cutoff), the best way to move a gun safe is to hire a safe mover with a stair climber.
 
-The scene in owner threads repeats: closing day is set, the household movers won't touch the safe, and several hundred pounds of steel waits at the bottom of the basement stairs. We read those threads so you don't have to learn on the first step.
+In owner threads, household movers often refuse the safe.
 
 ## Short answer – how to move a gun safe
 
@@ -135,7 +153,7 @@ The scene in owner threads repeats: closing day is set, the household movers won
 
 ## Before you touch it – weight, route and where the guns go
 
-**Moving a gun safe starts with three numbers: its empty weight, its depth with the handle on, and the narrowest doorway on the route.** Get the weight from the maker's spec page, then measure doorways, halls and every turn.
+**Moving a gun safe starts with three numbers: its empty weight, its depth with the handle on, and the narrowest doorway on the route.** Get the weight from the maker's spec page, then measure doorways, halls and every turn. Liberty Safe notes that a home-size gun safe with composite or concrete insulation [may weigh up to 3,100 pounds](https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own).
 
 ### Empty the safe and keep the firearms legal
 
@@ -143,7 +161,7 @@ Empty the safe completely; contents add weight and shift. Meanwhile, the guns st
 
 ## Gear that matters – dolly rating, sliders, straps and blankets
 
-**The single biggest mistake is rating the gear to "a dolly" instead of to the safe's weight.** One owner on The High Road put the [dolly limit](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/) plainly: "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#". Liberty Safe's [own moving guide](https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own) calls for a dolly that can hold at least 800 lb for its Fatboy Jr. Extreme model, and bigger safes can outweigh both.
+**The single biggest mistake is rating the gear to "a dolly" instead of to the safe's weight.** One owner on The High Road put the [dolly limit](https://www.thehighroad.org/index.php?threads/winchester-safe.917886/) plainly: "Ordinary appliance dolly will max out at 600#; heavy duty dolly right at 800#". Liberty Safe's own moving guide calls for a dolly that can hold [at least 800 lb](https://libertysafe.com/blogs/the-vault/tips-for-moving-a-gun-safe-on-your-own) for its Fatboy Jr. Extreme model, and bigger safes can outweigh both.
 
 The checklist we'd assemble:
 
@@ -155,7 +173,7 @@ The checklist we'd assemble:
 
 ## Step-by-step – moving a gun safe from the closet to the truck
 
-**Moving a gun safe is a slow sequence – slide, tilt, strap, roll – with hands on it the whole time.**
+**Moving a gun safe is a slow sequence – slide, tilt, strap, roll – with hands on it the whole time.** Tractor Supply's video below walks through the same tools and teamwork.
 
 1. Unbolt it. Kirby's Moving lists forgetting that the safe is [bolted down](https://www.kirbysmovingco.com/blog/gun-safe-moving-checklist) as mistake #8; look inside for bolts into the slab or framing.
 2. Close and lock the door so it cannot swing open mid-move.
@@ -202,7 +220,7 @@ A heavy safe can tear up "door frames and thresholds," as one [S&W forum](https:
 
 ## After the move – level, bolt down and recheck the lock
 
-**A gun safe move isn't done until the safe is level, anchored and opening normally.** Liberty Safe's guide says to bolt it down again.
+**A gun safe move isn't done until the safe is level, anchored and opening normally.** Liberty Safe's guide says to bolt it down again, and its video below shows how its dealers deliver and install a safe.
 
 ### Re-anchor and check the door and lock
 

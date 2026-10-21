@@ -138,5 +138,8 @@
   "cat.wall-floor-safes": "Cajas fuertes de pared y suelo",
   "cat.lock-boxes": "Cajas de seguridad y de llaves",
   "cat.safe-accessories": "Accesorios y almacenamiento de munición",
-  "cat.safe-guides": "Guías prácticas de cajas fuertes"
+  "cat.safe-guides": "Guías prácticas de cajas fuertes",
+  "photo.ai": "Ilustración generada con IA",
+  "video.play": "Reproducir vídeo",
+  "video.caption": "Vídeo: {title} ({channel} en YouTube)"
 }

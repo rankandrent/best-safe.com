@@ -119,6 +119,33 @@ async function urlOk(url) {
 }
 
 /** Run every check on one post. `online` adds network checks (CI only). */
+/**
+ * Owner rule (media and numbers): posts without product photos need at least 2
+ * AI illustrations, and every post backs its numbers with a link on the number
+ * itself to the page it came from. Errors before the post goes live, warnings
+ * after (older posts get fixed in the backlog). A video is asked for, not required.
+ */
+export function mediaRules(d, body, { pub, err, warn, info = !(d.products ?? []).length }) {
+  const strict = !(pub <= Date.now());
+  const must = (m) => (strict ? err(m) : warn(m));
+  const h2 = (body.match(/^## /gm) ?? []).length;
+  const ill = d.illustrations ?? [];
+  if (info && ill.length < 2) must(`${ill.length} AI illustrations; a post without product photos needs at least 2 (frontmatter illustrations: prompt, alt, afterHeading)`);
+  for (const [i, x] of ill.entries()) {
+    if (String(x.prompt ?? '').split(/\s+/).length < 8) err(`illustration ${i + 1}: prompt too short; describe the scene in at least 8 words`);
+    if (!x.alt) err(`illustration ${i + 1}: missing alt text`);
+    if (!(x.afterHeading >= 1 && x.afterHeading <= h2)) err(`illustration ${i + 1}: afterHeading ${x.afterHeading} is not one of the ${h2} H2 sections`);
+    if (!x.src) warn(`illustration ${i + 1} not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)`);
+  }
+  if (new Set(ill.map((x) => x.afterHeading)).size < ill.length) err('two illustrations share one afterHeading; spread them over different sections');
+  const videos = d.videos ?? [];
+  for (const v of videos) if (!(v.afterHeading >= 1 && v.afterHeading <= h2)) err(`video ${v.id}: afterHeading ${v.afterHeading} is not one of the ${h2} H2 sections`);
+  if (info && !videos.length) warn('no YouTube video; embed one that shows the task when a good one exists (frontmatter videos: id, afterHeading)');
+  const statLinks = [...body.matchAll(/\[([^\]]*\d[^\]]*)\]\((https?:\/\/[^)\s]+)\)/g)].filter((m) => !/amazon\.|amzn\./i.test(m[2]));
+  const need = info ? 2 : 1;
+  if (statLinks.length < need) must(`${statLinks.length} sourced numbers; put at least ${need} statistic${need > 1 ? 's' : ''} in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)`);
+}
+
 export async function qaPost(post, { posts = listPosts(), online = false, live = null } = {}) {
   const d = post.data;
   const body = post.content;
@@ -159,7 +186,9 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
   {
     const strict = pub >= Date.parse(SITE.qa?.styleRequiredFrom ?? '2100-01-01');
     const flag = strict ? err : warn;
-    const quotedOut = body.replace(/“[^”]*”|"[^"\n]*"/g, ' '); // a real person's quoted words may say I/my/me
+    // Link targets are URLs, not prose: a slug like /blog/...-for-my-height/ is not first-person voice.
+    const voiceText = body.replace(/\]\([^)]*\)/g, ']');
+    const quotedOut = voiceText.replace(/“[^”]*”|"[^"\n]*"/g, ' '); // a real person's quoted words may say I/my/me
     const singular = (quotedOut.match(/\b(I|I'd|I'm|I've|I'll|my|me)\b/g) ?? []).length;
     if (singular) flag(`${singular} first-person singular words (I, my, me): the byline is the editorial team, write "we/our/us"`);
     const words = body.split(/\s+/).filter(Boolean).length;
@@ -277,6 +306,9 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
   }
   const internal = [...body.matchAll(/\]\(\/(blog\/[^)]+|safe-buying-checklist\/)\)/g)].length;
   if (internal < 2) warn(`only ${internal} internal links (aim for 3-5)`);
+
+  // --- Media and sourced numbers
+  mediaRules(d, body, { pub, err, warn });
 
   // --- SEO
   const briefFile = path.join(BRIEFS, `${post.slug}.json`);
@@ -550,6 +582,15 @@ export async function qaTranslation(post, { posts = listPosts(), translations = 
     else if (!m[1]) warn(`internal link to the English post ${href}; link the ${lang} version once it exists`);
   }
   for (const r of d.related ?? []) if (!byId.has(r)) err(`related post "${r}" is not a ${lang} translation (use '${lang}/<slug>' ids or leave related empty)`);
+
+  // --- Media and sourced numbers: the English post's illustrations (alt translated) and videos
+  mediaRules(d, body, { pub, err, warn, info: !((en?.data.products ?? d.products ?? []).length) });
+  if (en) {
+    const enIll = en.data.illustrations ?? [];
+    if ((d.illustrations ?? []).length !== enIll.length) err(`${(d.illustrations ?? []).length} illustrations; the English post has ${enIll.length} (copy them with translated alt text)`);
+    const enVid = (en.data.videos ?? []).map((v) => v.id).sort().join();
+    if ((d.videos ?? []).map((v) => v.id).sort().join() !== enVid) warn('videos differ from the English post');
+  }
 
   // --- Online checks (CI): same URLs as English, checked the same way
   if (online) {

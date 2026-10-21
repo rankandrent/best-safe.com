@@ -138,5 +138,8 @@
   "cat.wall-floor-safes": "Wand- & vloerkluizen",
   "cat.lock-boxes": "Sleutel- & geldkistjes",
   "cat.safe-accessories": "Kluisaccessoires & munitieopslag",
-  "cat.safe-guides": "Kluis-handleidingen"
+  "cat.safe-guides": "Kluis-handleidingen",
+  "photo.ai": "Door AI gegenereerde illustratie",
+  "video.play": "Video afspelen",
+  "video.caption": "Video: {title} ({channel} op YouTube)"
 }

@@ -96,6 +96,24 @@ faqs:
       SentrySafe runs a key and combo replacement process for owners, linked
       from its Lost Key or Combo support page. Have the model and serial number
       ready, and store the new key outside the safe.
+illustrations:
+  - prompt: >-
+      Close-up of a person opening the door of their own small fire safe on a kitchen counter to look at a small blank white label along the hinge edge, the label out of focus, soft daylight, shallow depth of field, realistic photograph, no readable writing.
+    alt: 'Owner checking the model label along the hinge edge of their own fire safe'
+    afterHeading: 2
+  - prompt: >-
+      Hands sorting a matched set of four new AA alkaline batteries on a wooden table next to an open battery holder from a safe keypad, the old batteries set aside in a small dish, warm desk lamp light, top-down close-up, realistic photograph, no readable labels.
+    alt: 'A matched set of four new AA batteries beside an open safe keypad battery holder'
+    afterHeading: 5
+  - prompt: >-
+      A key lock box mounted inside a hallway closet with a single small key hanging inside, a compact home fire safe on the shelf below, tidy shelves, soft natural morning light, eye-level view, realistic photograph, calm and organized household.
+    alt: 'Override key kept in a key lock box outside the safe, with the fire safe on the shelf below'
+    afterHeading: 7
+videos:
+  - id: '3ENpTK07JtY'
+    afterHeading: 3
+  - id: 'TvMLBTWJEfE'
+    afterHeading: 4
 author: editorial-team
 heroImage: /images/featured/sentry-safe-battery-replacement.png
 heroAlt: >-
@@ -105,7 +123,7 @@ related:
   - how-to-bolt-down-a-safe
 ---
 
-The keypad flashes, you swap the cells, and the door still won't budge. Here is the short answer for Sentry safe battery replacement on your own safe: find the model prefix, open the battery compartment SentrySafe documents for it, and fit a fresh set of one name brand in the marked direction. Door shut and keypad dead? Use the override key or, on two families, the 9V auxiliary override. Every step comes from SentrySafe's support pages.
+Here is the short answer for Sentry safe battery replacement on your own safe: find the model prefix, open the battery compartment SentrySafe documents for it, and fit a fresh set of one name brand in the marked direction. Door shut and keypad dead? Use the override key or, on two families, the 9V auxiliary override. Every step comes from SentrySafe's support pages.
 
 ## Sentry safe battery replacement in four steps
 
@@ -119,9 +137,9 @@ The keypad flashes, you swap the cells, and the door still won't budge. Here is 
 SentrySafe's battery rules:
 
 - no rechargeable or non-alkaline cells on most models
-- quality name brand, with expiration dates as close to 10 years out as possible
+- quality name brand, with expiration dates [as close to 10 years out as possible](https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe)
 - never mix brands or old with new
-- FP and FPW models take two CR123 lithium cells instead
+- FP and FPW models take [two CR123 lithium cells](https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe) instead
 
 ## Find your model prefix first
 
@@ -129,7 +147,7 @@ SentrySafe's battery rules:
 
 ## Where the SentrySafe battery compartment is, by model
 
-**Many SentrySafe fire safes take batteries from outside; the last two rows need the door open first.** This table condenses SentrySafe's battery FAQ by prefix:
+**Many SentrySafe fire safes take batteries from outside; the last two rows need the door open first.** SentrySafe's own video below shows the swap on a basic keypad fire safe, and this table condenses its battery FAQ by prefix:
 
 | Model prefix | Battery location | Door open first? |
 |---|---|---|
@@ -142,13 +160,13 @@ SentrySafe's battery rules:
 
 ## Dead battery with the door shut
 
-**With the batteries inside the door and the keypad dead, SentrySafe documents two ways in: the 9V Battery Auxiliary Override on two families, the override key on the rest.**
+**With the batteries inside the door and the keypad dead, SentrySafe documents two ways in: the 9V Battery Auxiliary Override on two families, the override key on the rest.** SentrySafe's video below shows the 9V jump on a touch screen fire safe.
 
 For FP/FPW and SFW123T/U, SFW205T/U, SentrySafe's steps are:
 
 1. Open the silicone cap on the side of the electronic lock.
 2. Connect a 9V battery (FP/FPW: carefully remove the jumper wire first).
-3. Listen for 3 chirps (SFW T/U: touch the lock's center to wake it), enter your 5-digit code and turn or pull the handle.
+3. Listen for [3 chirps](https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe) (SFW T/U: touch the lock's center to wake it), enter your 5-digit code and turn or pull the handle.
 4. Change the inside batteries; on FP/FPW, put the jumper back and verify the lock before closing.
 
 SentrySafe says this override "should not be used as a primary means of gaining entry". ESB, PL, QAP, CA, HL, X and T models open with the override key. r/Safes threads like "[My Safe Batteries died , keypad doesn't respond and no key option](https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/)" show why that key matters.
@@ -162,7 +180,6 @@ SentrySafe says this override "should not be used as a primary means of gaining 
 Our check order:
 
 - one brand, all new, alkaline (or CR123 on FP/FPW)
-- expiration dates near 10 years out
 - every cell facing the marked direction
 - on twist-off keypads (DH), no wires pinched behind the keypad
 
