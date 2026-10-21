@@ -1,0 +1,120 @@
+{
+  "centralEntity": "gun safe in garage",
+  "entityVariants": ["gun safe in the garage", "garage gun safe", "safe in an unheated garage", "gun safe in basement", "storing a gun safe in the garage"],
+  "entities": [
+    {"name": "gun safe", "type": "product", "relation": "central entity placed in the garage or basement"},
+    {"name": "concrete slab", "type": "building element", "relation": "floor the safe sits and is bolted on; cold and damp surface"},
+    {"name": "post-tension slab", "type": "building element", "relation": "slab with tensioned cables that should not be drilled blind"},
+    {"name": "relative humidity", "type": "measure", "relation": "what owners track inside the safe; EPA advises below 60 percent"},
+    {"name": "condensation", "type": "process", "relation": "moisture forming on steel colder than the air"},
+    {"name": "dehumidifier rod", "type": "accessory", "relation": "low-heat element that warms the safe interior a few degrees"},
+    {"name": "desiccant", "type": "accessory", "relation": "rechargeable moisture absorber that works without power"},
+    {"name": "expansion anchor", "type": "hardware", "relation": "concrete anchor used to bolt the safe down"},
+    {"name": "garage door", "type": "building element", "relation": "exposes the safe to view and lets thieves work unseen"},
+    {"name": "fireboard", "type": "material", "relation": "gypsum fire insulation that can absorb moisture"},
+    {"name": "UL", "type": "organization", "relation": "independent lab that certifies fire and burglary ratings"},
+    {"name": "Intertek/ETL", "type": "organization", "relation": "independent lab that certifies fire ratings"},
+    {"name": "sump pump", "type": "equipment", "relation": "basement flood protection Liberty recommends testing"},
+    {"name": "USFA", "type": "organization", "relation": "publishes residential garage fire statistics"}
+  ],
+  "attributes": ["relative humidity inside the safe", "distance from exterior wall and garage door", "airflow gap under the safe", "anchor bolt size", "slab type and thickness", "fire rating certifier", "flood risk", "visibility from the street", "floor load in a basement or upstairs"],
+  "ngrams": ["gun safe in garage", "gun safe in the garage", "unheated garage", "concrete floor", "garage door", "dehumidifier rod", "bolt it to the floor", "post-tension slab", "exterior wall", "relative humidity"],
+  "skipgrams": ["safe…garage floor", "bolt…concrete", "humidity…safe", "garage…theft", "condensation…steel", "basement…flooding"],
+  "nlpTerms": ["humidity", "condensation", "rust", "mold", "dehumidifier", "desiccant", "anchor bolts", "shims", "vapor barrier", "climate-controlled", "burglar", "fire rating", "sump pump", "hygrometer"],
+  "questions": [
+    "Can you put a gun safe in the garage?",
+    "Will a gun safe rust in a garage?",
+    "How do I keep moisture out of a gun safe in an unheated garage?",
+    "Should a gun safe sit directly on a concrete floor?",
+    "Can you bolt a safe to a thin or post-tension slab?",
+    "Is a gun safe in the garage easier to steal?",
+    "Is a basement better than a garage for a gun safe?"
+  ],
+  "contentGaps": [
+    "Makers disagree on what goes under the safe (shims for airflow vs a rubber mat), and nobody explains the trade-off",
+    "Why a cold wall or slab makes the safe sweat, and why a heat rod beats more silica in that case",
+    "Theft exposure from an open garage door and what to do about sight lines",
+    "Raising the safe for flood protection versus making it easier to jack off its base",
+    "Garage fire risk and who certifies the safe's fire rating"
+  ],
+  "outline": [
+    {"h2": "Can you keep a gun safe in the garage", "intent": "short answer and the three risks", "h3": []},
+    {"h2": "Why a garage safe sweats (and the fix)", "intent": "condensation from cold walls and slabs, humidity target, rod plus desiccant", "h3": []},
+    {"h2": "What goes under the safe on a concrete floor", "intent": "shims vs rubber mat vs epoxy, airflow gap", "h3": []},
+    {"h2": "Bolting it to the garage slab", "intent": "anchor hardware, post-tension and thin slabs", "h3": []},
+    {"h2": "Theft exposure in a garage", "intent": "sight lines from the door, wall bolting, closets, alarms", "h3": []},
+    {"h2": "Garage fires and fire ratings", "intent": "USFA garage fire facts, UL/ETL vs maker claims, fireboard moisture", "h3": []},
+    {"h2": "Gun safe in the basement instead", "intent": "flooding, sump pump, raised base trade-off, stairs and floor load", "h3": []},
+    {"h2": "Problems owners run into, and the fix", "intent": "pain points: rod not warm, dehumidifier dies or freezes, silica saturates", "h3": []}
+  ],
+  "commonPoints": [
+    "Moisture is the biggest risk for a safe in a garage",
+    "Put a dehumidifier in the safe: an electric rod, or a rechargeable desiccant where there is no outlet",
+    "Temperature swings in a garage cause condensation inside the safe",
+    "Bolt the safe to the concrete floor so it can't be carried off",
+    "Garages are targets for break-ins, so keep the safe secure"
+  ],
+  "ourGain": [
+    {"point": "Makers disagree on what goes under the safe: Northwest Safe levels on wood and composite shims for an airflow pocket and says a rubber mat or plywood traps moisture; Liberty suggests an epoxied floor or a rubber mat. We explain the trade-off and side with airflow plus a vapor barrier owners report working", "source": "https://nwsafe.com/blogs/tips/put-a-gun-safe-in-the-garage and https://libertysafe.com/blogs/the-vault/protecting-your-gun-safe-with-basement-and-garage-installations and https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/"},
+    {"point": "The cold-wall effect: steel colder than the air sweats; the fix is a little heat inside (a rod that is warm to the touch), distance from the exterior wall and the slab, not more silica", "source": "data/pain-points.json gun-safes-cold-wall-condensation, https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/, https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"},
+    {"point": "Theft exposure: an open garage door shows the safe to the street, and a burglar can close the door and work unseen; place it out of the door's sight line, bolt to floor and wall, build it into a closet or alarm it", "source": "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/ and https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/"},
+    {"point": "Flood base vs theft: Liberty warns a raised base lets thieves jack the safe off it, so anchor a steel base to the floor and the safe to the base", "source": "https://libertysafe.com/blogs/the-vault/protecting-your-gun-safe-with-basement-and-garage-installations"},
+    {"point": "Garage fires: USFA counts about 6,600 residential garage fires a year that tend to be larger and spread farther, with fuels like paint and ammunition, so a garage safe's fire rating and who certified it matter more", "source": "https://www.usfa.fema.gov/downloads/pdf/statistics/v14i12.pdf"}
+  ],
+  "targetWords": 950,
+  "serpStructure": {
+    "analyzedUrls": [
+      "https://nwsafe.com/blogs/tips/put-a-gun-safe-in-the-garage",
+      "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/storing-a-gun-safe-in-the-garage-considerations",
+      "https://libertysafe.com/blogs/the-vault/protecting-your-gun-safe-with-basement-and-garage-installations",
+      "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/",
+      "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/",
+      "https://www.youtube.com/watch?v=awfFdiRZcWs"
+    ],
+    "productStyle": "specs",
+    "productStyleReason": "The SERP is forum threads and dealer/maker how-to posts with no product roundups; productCount is 0 and specs is the site's style for how-tos without picks",
+    "avgWords": 900,
+    "avgProducts": 0,
+    "commonSections": ["why a garage", "moisture and humidity", "temperature swings", "bolting to the floor", "dehumidifier options", "theft and security"],
+    "usesComparisonTable": false,
+    "usesFaq": false,
+    "usesBuyingGuide": false
+  },
+  "serpTitles": [
+    {"position": 1, "url": "https://www.reddit.com/r/TexasGuns/comments/16jqj8m/gun_safe_in_the_garage/", "title": "Gun safe in the garage. : r/TexasGuns - Reddit"},
+    {"position": 2, "url": "https://nwsafe.com/blogs/tips/put-a-gun-safe-in-the-garage", "title": "Can You Put a Gun Safe in the Garage? - Northwest Safe"},
+    {"position": 3, "url": "https://www.facebook.com/safeandvaultstore/videos/-thinking-about-putting-a-gun-safe-in-your-garage-smart-move-heres-what-you-need/654822847540916/", "title": "Thinking about putting a gun safe in your garage? Smart move! Here's ..."},
+    {"position": 4, "url": "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/", "title": "gun safe in the garage | Hunt Talk"},
+    {"position": 5, "url": "https://www.facebook.com/groups/arizonashootingsports/posts/1452790516436985/", "title": "Gun safe in the garage, or the back bedroom closet? What do you think?"},
+    {"position": 6, "url": "https://www.safeandvaultstore.com/blogs/expert-advice-on-safes-and-vault-doors/storing-a-gun-safe-in-the-garage-considerations", "title": "Storing a Gun Safe in the Garage: Considerations"},
+    {"position": 7, "url": "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/", "title": "A gun safe in the garage? | Shooters' Forum"},
+    {"position": 8, "url": "https://www.youtube.com/watch?v=awfFdiRZcWs", "title": "Why You Shouldn't Put a Safe in a Garage | Liberty Safe - YouTube"},
+    {"position": 9, "url": "https://rokslide.com/forums/threads/gun-safe-in-unheated-room-or-garage.376400/", "title": "Gun safe in unheated room or garage? | Rokslide Forum"},
+    {"position": 10, "url": "https://libertysafe.com/blogs/the-vault/protecting-your-gun-safe-with-basement-and-garage-installations", "title": "Protecting Your Gun Safe with Basement and Garage Installations"}
+  ],
+  "titlePattern": {
+    "keywordAtStart": 3,
+    "withYear": 0,
+    "withNumber": 0,
+    "commonModifiers": ["can you put", "storing", "considerations", "unheated", "basement"],
+    "gap": "no top result covers garage and basement together with the slab, theft and fire trade-offs; we add basement and the three fixes as the differentiator"
+  },
+  "painPoints": [
+    {"id": "gun-safes-cold-wall-condensation", "pain": "Safe against an exterior wall or garage slab sweats and the contents get damp", "details": "The steel is colder than the room air, so humidity stays high even with a room dehumidifier. Owners warm the safe, add a rod, insulate the back or lift it off the slab.", "sources": ["https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/", "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"], "quotes": [{"text": "Sounds like the outside wall is chilling the safe and causing condensation, like dew on a toilet bowl.", "url": "https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/"}, {"text": "I do not want to set it directly on the concrete as the concrete sweats and will cause rust.", "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"}]},
+    {"id": "gun-safes-rust-despite-dehumidifier", "pain": "Guns rust inside the safe even with silica packs and a dehumidifier", "details": "Silica saturates fast, gun socks and felt hold moisture, and owners are unsure what humidity to hold.", "sources": ["https://www.thehighroad.org/index.php?threads/rust-issues.814079/", "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/"], "quotes": [{"text": "Get rid of the gun socks, they attract moisture and don't allow for air to move evaporating moisture.", "url": "https://www.thehighroad.org/index.php?threads/rust-issues.814079/"}]},
+    {"id": "gun-safes-bolting-slab-or-wood-floor", "pain": "Not sure how to bolt a safe down on a post-tension or thin garage slab", "details": "Owners are told to check slab thickness first and not to drill a post-tension slab blind; options are scanning, wall studs or a base.", "sources": ["https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/", "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"], "quotes": [{"text": "the number one issue you need to check first, is how thick a slab the garage has.", "url": "https://www.thehighroad.org/index.php?threads/gun-safe-mounting-in-garage-rust-pedestal-bolt-down.551869/"}, {"text": "OP you're not going to get anyone who recommends drilling into a PT slab.", "url": "https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"}]},
+    {"id": "safe-guides-floor-and-stair-load", "pain": "Worry that the floor or stairs cannot take a loaded safe", "details": "Owners putting a safe in a basement or upstairs ask about floor load and the full weight with contents.", "sources": ["https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"], "quotes": [{"text": "Consider what the full of stuff weight will be, and plan accordingly.", "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"}]},
+    {"id": "safe-guides-moving-up-stairs", "pain": "A 500 lb+ safe can't be carried down basement stairs safely by the owner", "details": "Owners are told to hire safe movers and check the stairs; DIY stair dollies are described as dangerous.", "sources": ["https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/", "https://www.reddit.com/r/Safes/comments/1ftyphw/moving_a_600lb_safe_upstairs_to_its_final/"], "quotes": [{"text": "Hire a professional. Don't rent a stair climbing dolly.", "url": "https://www.thehighroad.org/index.php?threads/transporting-a-safe-up-a-flight-of-stairs.797917/"}]},
+    {"id": "gun-safes-garage-theft-exposure", "pain": "A safe in the garage is seen from the street and thieves can work on it unseen behind a closed door", "details": "Owners warn that an open garage door advertises the safe and that burglars can back a truck in, close the door and load up. Fixes: keep it out of sight from the door, bolt it to floor and wall, enclose it, add an alarm.", "sources": ["https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/", "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/", "https://www.reddit.com/r/TexasGuns/comments/16jqj8m/gun_safe_in_the_garage/"], "quotes": [{"text": "A gun safe in the garage is a burgular's dream.", "url": "https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/"}, {"text": "Make sure it can't be seen from the street when the door is open.", "url": "https://www.hunttalk.com/threads/gun-safe-in-the-garage.263050/"}]}
+  ],
+  "stats": [
+    {"number": "below 60 percent", "claim": "EPA advises keeping indoor relative humidity below 60 percent, ideally 30-50 percent", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home", "quote": "keep indoor humidity below 60 percent (ideally between 30 and 50 percent) relative humidity."},
+    {"number": "24-48 hours", "claim": "Dry wet materials within 24-48 hours and mold usually won't grow", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home", "quote": "If wet or damp materials or areas are dried 24-48 hours after a leak or spill happens, in most cases mold will not grow."},
+    {"number": "6,600", "claim": "Estimated residential building garage fires reported each year (USFA, 2009-2011)", "url": "https://www.usfa.fema.gov/downloads/pdf/statistics/v14i12.pdf", "quote": "An estimated 6,600 residential building garage fires were reported to United States fire departments each year"},
+    {"number": "3/8-inch bit and 3 x 3/8-inch bolt", "claim": "Northwest Safe's usual garage anchor hardware", "url": "https://nwsafe.com/blogs/tips/put-a-gun-safe-in-the-garage", "quote": "Typically we use a ⅜” bit and a 3” x ⅜” Bolt."}
+  ],
+  "videos": [
+    {"id": "awfFdiRZcWs", "title": "Why You Shouldn't Put a Safe in a Garage | Liberty Safe", "channel": "North 40 Hunt (Liberty Safe representative)", "url": "https://www.youtube.com/watch?v=awfFdiRZcWs", "section": "Why a garage safe sweats (and the fix)"}
+  ],
+  "linkPlan": ["/blog/best-dehumidifier-for-gun-safe/", "/blog/how-to-bolt-down-a-safe/", "/blog/how-to-move-a-gun-safe/", "/blog/how-much-does-a-gun-safe-weigh/", "/blog/best-fire-rated-gun-safe/"]
+}

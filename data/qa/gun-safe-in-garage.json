@@ -1,0 +1,17 @@
+{
+  "slug": "gun-safe-in-garage",
+  "pass": true,
+  "checkedAt": "2026-10-21T10:53:15.084Z",
+  "errors": [],
+  "warnings": [
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Guide, no products. Verified via Firecrawl 2026-10-21: Northwest Safe garage post (staff keep safes in garages; shims for airflow, no rubber mat/plywood; 3/8in bit + 3x3/8in bolt; rod at bottom needs electricity; rechargeable desiccant works without power, second dehumidifier layer); Liberty basement/garage post (epoxy floor or rubber mat; basements can flood, sump pump + regularly tested backup battery; raised base can be jacked, anchor steel base to floor and safe to base; fireboard absorbs moisture); Liberty rep video awfFdiRZcWs (12-inch rod covers 100 cu ft); EPA mold guide (below 60 percent, ideally 30-50; dried within 24-48 hours mold usually won't grow); USFA v14i12 PDF (6,600 residential garage fires per year, larger and spread farther, paint/chemicals/ammunition as fuel). Owner quotes checked verbatim at their URLs: AR15.com humidity thread (outside wall / dew on toilet bowl), High Road 551869 (slab thickness quote, wing wall tip, room dehumidifier froze despite defrost feature), High Road 814079 (gun socks quote), High Road 797917 (hire a professional quote), AR15.com PT slab quote, Shooters Forum (burgular's dream quote; rod never hot, 65 percent; bolt to floor and wall; closet build-in; alarm), Hunt Talk (seen from street quote; Idaho cold-and-dry; PVC strips; vapor barrier; silica recharged every other day then small heater). Fire ratings framed as UL or Intertek (ETL) third-party vs maker's own test; no legal advice, points to state official storage page.",
+    "at": "2026-10-21T10:53:14.710Z",
+    "hash": "92817d2ed233a43e"
+  }
+}

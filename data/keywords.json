@@ -2461,7 +2461,7 @@
     "slug": "sentry-safe-keypad-not-working"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-19T07:04:32.626Z",
     "secondaryKeywords": [
@@ -2500,7 +2500,8 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-19"
     },
-    "slug": "gun-safe-in-garage"
+    "slug": "gun-safe-in-garage",
+    "publishedAt": "2026-10-21T10:53:53.145Z"
   },
   {
     "status": "pending",

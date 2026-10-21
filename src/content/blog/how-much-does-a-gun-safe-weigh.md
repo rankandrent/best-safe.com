@@ -130,10 +130,10 @@ videos:
     afterHeading: 2
 author: editorial-team
 related:
+  - gun-safe-in-garage
   - floor-safe-installation
   - are-gun-safes-fireproof
   - how-to-move-a-gun-safe
-  - best-gun-safe-for-apartment
 heroImage: /images/featured/how-much-does-a-gun-safe-weigh.png
 heroAlt: 'How Much Does a Gun Safe Weigh (By Class, With Floor Math) – Best Safe guide'
 ---

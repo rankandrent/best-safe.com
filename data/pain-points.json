@@ -280,7 +280,8 @@
           "best gun safe"
         ],
         "coveredBy": [
-          "best-fire-rated-gun-safe"
+          "best-fire-rated-gun-safe",
+          "gun-safe-brands-to-avoid"
         ],
         "foundAt": "2026-10-19"
       },
@@ -1663,7 +1664,9 @@
         "keywords": [
           "best safe brands"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "gun-safe-brands-to-avoid"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -1711,7 +1714,9 @@
         "keywords": [
           "best safe brands"
         ],
-        "coveredBy": [],
+        "coveredBy": [
+          "gun-safe-brands-to-avoid"
+        ],
         "foundAt": "2026-10-19"
       },
       {
@@ -1761,7 +1766,8 @@
         ],
         "coveredBy": [
           "best-fireproof-safe",
-          "best-fire-rated-gun-safe"
+          "best-fire-rated-gun-safe",
+          "gun-safe-brands-to-avoid"
         ],
         "foundAt": "2026-10-19"
       }
