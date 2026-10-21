@@ -1,12 +1,17 @@
 {
   "slug": "sentry-safe-keypad-not-working",
   "pass": true,
-  "checkedAt": "2026-10-21T11:00:29.977Z",
+  "checkedAt": "2026-10-21T11:02:38.269Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "source didn't respond normally (403): https://www.justanswer.com/electronics/9ef53-sentry-personal-safe-keypad-will-not-light-up.html",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1pmtaa4/sentry_safe_no_power_to_keypad_fresh_batteries/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1owos4c/got_a_locked_safe_with_the_house_we_bought_any/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
   ],
   "factCheck": {
     "verified": true,
