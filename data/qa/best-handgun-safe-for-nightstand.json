@@ -1,7 +1,7 @@
 {
   "slug": "best-handgun-safe-for-nightstand",
   "pass": true,
-  "checkedAt": "2026-10-21T06:59:32.137Z",
+  "checkedAt": "2026-10-21T14:40:16.372Z",
   "errors": [],
   "warnings": [
     "product \"Fort Knox Original Pistol Box PB1\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -12,7 +12,8 @@
     "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)",
     "keyword overlaps /blog/best-pistol-safe/ (\"best handgun safe for nightstand\" overlaps \"best handgun safe\" (100%))",
     "source didn't respond normally (403): https://www.hornady.com/security/rapid-safes/rapid-safe-night-guard",
-    "source didn't respond normally (403): https://www.adorama.com/gunvault-sv500-speedvault-gun-safe/p/gvsv500"
+    "source didn't respond normally (403): https://www.adorama.com/gunvault-sv500-speedvault-gun-safe/p/gvsv500",
+    "source didn't respond normally (no response): https://capefearinvestigative.com/best-night-stand-pistol-safe/"
   ],
   "factCheck": {
     "verified": true,
