@@ -753,7 +753,7 @@
     "note": "2026-10-19: only Barska and KAER on 2+ top-10 pages."
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -792,7 +792,8 @@
       "home-safes-brand-warranty-and-support-poor",
       "home-safes-thin-steel-overpriced-brand",
       "home-safes-fire-and-security-ratings-hard-to-compare"
-    ]
+    ],
+    "publishedAt": "2026-10-21T10:52:50.705Z"
   },
   {
     "status": "parked",

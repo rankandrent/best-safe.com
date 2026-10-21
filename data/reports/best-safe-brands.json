@@ -1,0 +1,442 @@
+{
+  "keyword": "best safe brands",
+  "createdAt": "2026-10-21T10:52:50.707Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "safe brands",
+    "entityVariants": [
+      "best safe brands",
+      "safe brand",
+      "safe makers",
+      "safe manufacturers",
+      "gun safe brands",
+      "home safe brands"
+    ],
+    "entities": [
+      {
+        "name": "American Security",
+        "type": "brand",
+        "relation": "AMSEC: ETL-Intertek fire ratings on gun safe lines, UL TL-30x6 high-security safes"
+      },
+      {
+        "name": "SentrySafe",
+        "type": "brand",
+        "relation": "fire and water document safes; UL Classified fire, ETL Verified water"
+      },
+      {
+        "name": "Liberty Safe",
+        "type": "brand",
+        "relation": "largest US gun safe maker; fire ratings from its own furnace test; lifetime warranty"
+      },
+      {
+        "name": "Fort Knox",
+        "type": "brand",
+        "relation": "premium gun safes and pistol boxes; lifetime warranty that replaces a safe damaged by forced entry"
+      },
+      {
+        "name": "Hollon",
+        "type": "brand",
+        "relation": "UL Listed TL-15 safes and 2-hour home safes rated by the maker"
+      },
+      {
+        "name": "Browning",
+        "type": "brand",
+        "relation": "premium gun safes recommended by safe dealers"
+      },
+      {
+        "name": "Vaultek",
+        "type": "brand",
+        "relation": "biometric and smart quick-access pistol safes, no fire rating"
+      },
+      {
+        "name": "Hornady",
+        "type": "brand",
+        "relation": "RAPiD RFID bedside safes and a small fire safe rated by the maker"
+      },
+      {
+        "name": "UL",
+        "type": "certifier",
+        "relation": "Underwriters Laboratories: RSC and TL burglary ratings, UL 72 fire classes"
+      },
+      {
+        "name": "Intertek",
+        "type": "certifier",
+        "relation": "ETL fire and water verification"
+      },
+      {
+        "name": "Residential Security Container",
+        "type": "standard",
+        "relation": "UL RSC: one person, five minutes of attack"
+      },
+      {
+        "name": "TL-15",
+        "type": "standard",
+        "relation": "UL tool-resistant rating, 15 minutes net working time on the door"
+      },
+      {
+        "name": "fire rating",
+        "type": "attribute",
+        "relation": "minutes at an outside temperature; matters who ran the test"
+      },
+      {
+        "name": "warranty",
+        "type": "attribute",
+        "relation": "lifetime, transferable, break-in and fire replacement terms differ by brand"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "lower number means thicker steel"
+      },
+      {
+        "name": "backup key",
+        "type": "attribute",
+        "relation": "override entry when an electronic lock fails"
+      }
+    ],
+    "attributes": [
+      "burglary rating and who certified it (UL RSC, UL TL-15, TL-30)",
+      "fire rating with minutes, temperature and certifier (UL, ETL/Intertek or maker's own)",
+      "water rating and certifier",
+      "lock type and backup entry",
+      "steel gauge and door construction",
+      "warranty terms (lifetime, transferable, fire and break-in replacement)",
+      "dealer and support network",
+      "safe types offered (pistol, long gun, document, high-security)"
+    ],
+    "ngrams": [
+      "safe brands",
+      "best safe brands",
+      "gun safe brands",
+      "fire rating",
+      "burglary rating",
+      "lifetime warranty",
+      "electronic lock",
+      "UL RSC",
+      "steel gauge",
+      "home safe"
+    ],
+    "skipgrams": [
+      "fire…rating",
+      "steel…gauge",
+      "lifetime…warranty",
+      "backup…key",
+      "burglary…rating",
+      "safe…brand"
+    ],
+    "nlpTerms": [
+      "certified",
+      "Intertek",
+      "ETL",
+      "Underwriters Laboratories",
+      "fireboard",
+      "keypad",
+      "dial",
+      "biometric",
+      "bolt down",
+      "relocker",
+      "warranty",
+      "documents",
+      "handgun",
+      "long guns",
+      "minutes"
+    ],
+    "questions": [
+      "What is the best safe brand?",
+      "Which safe brands have independently certified fire ratings?",
+      "Is Liberty a good safe brand?",
+      "Are AMSEC safes better than Liberty?",
+      "What does a UL RSC rating mean?",
+      "Which safe brand is best for documents?",
+      "Which brand makes the best pistol safe?"
+    ],
+    "contentGaps": [
+      "Which brands name a lab for their fire rating and which rate themselves",
+      "What a UL RSC rating actually covers (one person, five minutes)",
+      "Warranty differences in plain words (fire, break-in, transferable)",
+      "Backup entry and what to do when an electronic lock fails on your own safe",
+      "Matching the brand to what you store, not to the logo",
+      "Law-enforcement access policies as a buying question"
+    ],
+    "outline": [
+      {
+        "h2": "Best safe brands at a glance",
+        "intent": "short answer and comparison table",
+        "h3": []
+      },
+      {
+        "h2": "How safe brands earn their ratings",
+        "intent": "UL RSC, TL-15, UL vs ETL vs maker's own fire rating",
+        "h3": []
+      },
+      {
+        "h2": "Safe brands for gun safes and burglary protection",
+        "intent": "AMSEC, Liberty, Fort Knox, Browning, Hollon",
+        "h3": [
+          "American Security (AMSEC)",
+          "Liberty Safe",
+          "Fort Knox",
+          "Browning",
+          "Hollon"
+        ]
+      },
+      {
+        "h2": "Safe brands for documents, pistols and the bedside",
+        "intent": "SentrySafe, Vaultek, Hornady",
+        "h3": [
+          "SentrySafe",
+          "Vaultek",
+          "Hornady"
+        ]
+      },
+      {
+        "h2": "Problems owners report with big safe brands, and the fix",
+        "intent": "pain points: lock failure, support, thin steel, ratings",
+        "h3": []
+      },
+      {
+        "h2": "How to choose a safe brand",
+        "intent": "checklist and choose X if / Y if verdict",
+        "h3": []
+      }
+    ],
+    "targetWords": 1850,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.topfirearmreviews.com/post/best-home-safes",
+        "https://www.thesafekeeper.com/blogs/news/what-is-the-best-fireproof-gun-safe-for-home-use",
+        "https://guardiansafeandvault.com/blog/gun-safe-brands-to-avoid",
+        "https://www.quora.com/What-are-the-world-famous-brands-of-safes",
+        "https://libertysafe.com/blogs/the-vault/gun-safe-ratings-explained"
+      ],
+      "productStyle": "paragraph",
+      "productStyleReason": "Brand pages (The Safe Keeper, Guardian Safe & Vault, Quora answers) describe each brand in a prose paragraph with one flagship spec; no pros/cons lists per brand.",
+      "avgWords": 1850,
+      "avgProducts": 6,
+      "commonSections": [
+        "what to look for (fire rating, lock, steel, bolts)",
+        "brand-by-brand list",
+        "summary verdict"
+      ],
+      "usesComparisonTable": false,
+      "usesFaq": true,
+      "usesBuyingGuide": true
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.reddit.com/r/homedefense/comments/le1ohg/anyone_know_a_good_safe_brand/",
+        "title": "Anyone know a good safe brand? : r/homedefense - Reddit"
+      },
+      {
+        "position": 2,
+        "url": "https://www.sentrysafe.com/products",
+        "title": "Find The Safe That's Right For You | SentrySafe"
+      },
+      {
+        "position": 3,
+        "url": "https://libertysafe.com/",
+        "title": "Liberty Safe | America's #1 Gun Safes, Fire Rated Safes and Home ..."
+      },
+      {
+        "position": 4,
+        "url": "https://www.topfirearmreviews.com/post/best-home-safes",
+        "title": "Best Home Safes [Hands-On]: All Sizes & Budgets"
+      },
+      {
+        "position": 5,
+        "url": "https://www.safeandvaultstore.com/pages/shop-by-brands",
+        "title": "Shop By Brand - Safe and Vault Store.com"
+      },
+      {
+        "position": 6,
+        "url": "https://deansafe.com/collections/home-safes",
+        "title": "Home Safes - Dean Safe"
+      },
+      {
+        "position": 7,
+        "url": "https://www.ftknox.com/",
+        "title": "Fort Knox gun safe"
+      },
+      {
+        "position": 8,
+        "url": "https://americansecuritysafes.com/product-category/residential/page/2/",
+        "title": "AMSEC Home Safe Solutions"
+      },
+      {
+        "position": 9,
+        "url": "https://www.quora.com/What-are-the-world-famous-brands-of-safes",
+        "title": "What are the world-famous brands of safes? - Quora"
+      },
+      {
+        "position": 10,
+        "url": "https://www.cnet.com/home/security/best-smart-home-safes/",
+        "title": "Best Smart Home Safes for 2026: Tamper Sensing and More - CNET"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 0,
+      "withYear": 1,
+      "withNumber": 0,
+      "commonModifiers": [
+        "home",
+        "gun safes",
+        "fire rated",
+        "all sizes & budgets"
+      ],
+      "gap": "None of the top 10 says which brands' fire ratings are certified by a lab and which are the maker's own."
+    },
+    "commonPoints": [
+      "Look at fire rating, lock type, steel thickness and locking bolts before the logo",
+      "Fort Knox, Liberty, Browning and AMSEC are the names safe dealers list most",
+      "Electronic locks can fail with dead batteries; mechanical locks keep working",
+      "Cheap no-name safes skip UL ratings and use thin steel",
+      "Match the brand and size to what you store"
+    ],
+    "ourGain": [
+      {
+        "point": "Brand-by-brand list of who certifies the fire rating: UL (SentrySafe), ETL-Intertek (AMSEC), maker's own test (Liberty, Hollon home safes, Hornady)",
+        "source": "https://americansecuritysafes.com/fire-ratings-explained/ ; https://www.sentrysafe.com/product/SFW123GDC ; https://libertysafesnj.com/pages/2022-fire-protection-ratings ; https://hollonsafe.com/2-hour-home-safes/"
+      },
+      {
+        "point": "What UL RSC means in practice: one person, five minutes, so it is a floor, not a vault rating; TL-15 is 15 minutes of net working time on the door",
+        "source": "https://libertysafe.com/blogs/the-vault/gun-safe-ratings-explained"
+      },
+      {
+        "point": "Warranty and support complaints by owners of a big brand, and what the warranty terms actually cover (Fort Knox replaces a safe broken into by forced entry)",
+        "source": "data/pain-points.json home-safes-brand-warranty-and-support-poor ; https://www.ftknox.com/fort-knox-difference/lifetime-warranty/"
+      },
+      {
+        "point": "Lock failure with no backup key as a brand-choice question: pick mechanical or a lock with a keyed override, and keep proof of ownership for a maker reset",
+        "source": "data/pain-points.json gun-safes-electronic-lock-fails-no-backup"
+      },
+      {
+        "point": "Law-enforcement access to factory codes as a buying question (Liberty controversy) and the mechanical-lock answer",
+        "source": "https://guardiansafeandvault.com/blog/gun-safe-brands-to-avoid"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "gun-safes-electronic-lock-fails-no-backup",
+        "pain": "Electronic keypad fails and the safe has no backup key",
+        "details": "Owners report keypads dying, safes sold without an override key, and a locked-out collection while the maker is closed. Recovery is through the maker, not tricks.",
+        "sources": [
+          "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+          "https://www.reddit.com/r/CAguns/comments/1gibfn5/winchester_safe_died_on_me_cant_open_with_key/"
+        ],
+        "quotes": [
+          {
+            "text": "Electronic locks fail. Mechanical locks keep working.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "Winchester is closed for the rest of the week. This safe has no back up key.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-brand-warranty-and-support-poor",
+        "pain": "Brand warranty and customer support are hard to get when the safe has a problem",
+        "details": "Owners of a popular brand report keypad parts breaking and little help from support.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1tol498/dont_buy_a_liberty_safe_rant/",
+          "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/"
+        ],
+        "quotes": [
+          {
+            "text": "the wiring pins on the keypad snapped like toothpicks.",
+            "url": "https://www.reddit.com/r/guns/comments/1mfdenh/dont_buy_liberty_safes/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-thin-steel-overpriced-brand",
+        "pain": "Safe felt thin and overpriced for the brand name",
+        "details": "Buyers say a big-name safe turned out to have thin steel and was not worth the price.",
+        "sources": [
+          "https://www.reddit.com/r/GarandThumb/comments/18cdt7o/liberty_safes_buyer_beware/",
+          "https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/"
+        ],
+        "quotes": [
+          {
+            "text": "They aren't the worst just not worth the price.",
+            "url": "https://www.reddit.com/r/Safes/comments/1knc7c2/why_do_liberty_safes_get_such_a_bad_rap/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+        "pain": "Brands advertise fire and security ratings that are hard to compare",
+        "details": "Shoppers compare fire minutes and temperatures across brands and ask what UL and TL ratings mean.",
+        "sources": [
+          "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/",
+          "https://www.reddit.com/r/Safes/comments/1kfru6j/is_liberty_safe_a_good_brand/"
+        ],
+        "quotes": [
+          {
+            "text": "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.",
+            "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "number": "five minutes",
+        "claim": "UL RSC level 1: a safe must withstand five minutes of break-in attempts by one person",
+        "url": "https://libertysafe.com/blogs/the-vault/gun-safe-ratings-explained",
+        "quote": "To qualify, a safe must withstand five minutes of vigorous break-in attempts by a single person."
+      },
+      {
+        "number": "232,400",
+        "claim": "average firearms stolen each year in burglaries and other property crimes, 2005-2010",
+        "url": "https://bjs.ojp.gov/press-release/firearms-stolen-during-household-burglaries-and-other-property-crimes-2005-2010",
+        "quote": "This number represents an estimated average of 232,400 firearms stolen each year"
+      },
+      {
+        "number": "120 minutes at 1,200ºF",
+        "claim": "AMSEC BF gun safes fire protection confirmed by ETL-Intertek",
+        "url": "https://americansecuritysafes.com/fire-ratings-explained/",
+        "quote": "ETL-INTERTEK LABORATORY TESTING CONFIRMS THAT AMERICAN SECURITY’S BF® GUN SAFES HAVE SUPERIOR FIRE PROTECTION FOR 120 MINUTES AT 1,200ºF."
+      },
+      {
+        "number": "1700°F for one hour",
+        "claim": "SentrySafe SFW123GDC UL-classified fire rating, ETL-verified water for 24 hours",
+        "url": "https://www.sentrysafe.com/product/SFW123GDC",
+        "quote": "UL-classified to endure flames up to 1700°F for one hour and ETL-verified to resist water for 24 hours"
+      },
+      {
+        "number": "1850° F",
+        "claim": "Hollon 2 Hour Home Safes tested at 1850°F outside, 350°F inside (maker's own claim, no lab named)",
+        "url": "https://hollonsafe.com/2-hour-home-safes/",
+        "quote": "Tested at a blazing 1850° F external temperature, this safe is still able to maintain an internal temp of only 350° F."
+      }
+    ],
+    "videos": [
+      {
+        "id": "eZY-sxGE_mw",
+        "title": "Fire Safe Ratings Explained (What Most Buyers Get Wrong)",
+        "channel": "Dean Safe",
+        "url": "https://www.youtube.com/watch?v=eZY-sxGE_mw",
+        "section": "How safe brands earn their ratings"
+      }
+    ],
+    "serpProducts": []
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "gun-safe-brands-to-avoid",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-pistol-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-handgun-safe-for-nightstand",
+      "mode": "related-box"
+    }
+  ]
+}

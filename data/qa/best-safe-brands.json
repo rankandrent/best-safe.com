@@ -1,0 +1,17 @@
+{
+  "slug": "best-safe-brands",
+  "pass": true,
+  "checkedAt": "2026-10-21T10:51:58.831Z",
+  "errors": [],
+  "warnings": [
+    "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Guide with 0 products (no model recommended by 2+ independent top-10 pages for this brand SERP). Verified: UL RSC level 1 = five minutes, one person, TL-15/TL-30/TL-30x6 definitions (libertysafe.com ratings explained); Liberty fire ratings 30 min-2.5 hr at 1200F from Liberty's own furnace test based on NIST research (libertysafesnj.com dealer page), lifetime transferable warranty (libertysafe.com gun-safes page); AMSEC ETL-Intertek fire ratings 45/60/90/120 min at 1200F, BF = 120 min, UL fire classes on high-security safes (americansecuritysafes.com/fire-ratings-explained), UL TL-30x6 gun safes (AMSEC); SentrySafe SFW123GDC UL-classified 1700F 1 hr and ETL-verified water 24 hr (sentrysafe.com product page); Hollon 2-hour home safes 1850F outside/350F inside with no lab named, dial or keypad, one anchor hole, PM series UL Listed TL-15 (hollonsafe.com); Fort Knox lifetime warranty replaces safe broken into by forced entry (ftknox.com), Titan 90 min at 1680F and 3/8 in body steel per The Safe Keeper; Browning/Pro Steel since 1982, 60-120 min at 1750F, Axis shelving per The Safe Keeper; Vaultek DS2i wall power + battery backup, 18-gauge and Hornady Night Guard CA DOJ approved, Hornady fire safe 30 min at 1400F maker's own (re-used verified facts from best-biometric-gun-safe, best-handgun-safe-for-nightstand, best-fire-rated-gun-safe); BJS 232,400 firearms stolen per year 2005-2010 (bjs.ojp.gov press release); Liberty FBI access criticism per Guardian Safe & Vault; pain-point quotes copied verbatim from data/pain-points.json. Video eZY-sxGE_mw confirmed as Dean Safe 'Fire Safe Ratings Explained'. No prices, no testing claims, no legal advice (points to state rules).",
+    "at": "2026-10-21T10:51:58.400Z",
+    "hash": "7233e7a6e0a82477"
+  }
+}

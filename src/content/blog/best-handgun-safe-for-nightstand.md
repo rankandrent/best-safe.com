@@ -548,6 +548,7 @@ author: editorial-team
 heroImage: /images/featured/best-handgun-safe-for-nightstand.png
 heroAlt: Best Handgun Safe for Nightstand Use – Best Safe buying guide
 related:
+  - best-safe-brands
   - best-under-bed-gun-safe
 ---
 
