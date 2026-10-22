@@ -228,7 +228,7 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "deferred",
+    "status": "replaced",
     "attempts": 1,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -278,7 +278,8 @@
       "vehicle-safes-cheap-lockbox-flimsy",
       "vehicle-safes-unsure-of-state-rules-when-mounting"
     ],
-    "note": "2026-10-19: only Vaultek LifePod on 2+ top-10 pages; 2 editorial pages in top 10."
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22",
+    "replacedAt": "2026-10-22T00:00:00.000Z"
   },
   {
     "status": "merged",
@@ -321,23 +322,31 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-pistol-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "parked",
+    "status": "pending",
     "attempts": 0,
-    "addedAt": "2026-10-18T00:00:00.000Z",
+    "addedAt": "2026-10-22T00:00:00.000Z",
     "secondaryKeywords": [
-      "jewelry safe"
+      "best safe for home jewelry",
+      "best safe for jewelry at home",
+      "best safe for jewelry",
+      "best safe for jewelry reddit",
+      "best fireproof safe for jewelry",
+      "best small safe for jewelry",
+      "best wall safe for jewelry",
+      "best jewelry safe for closet",
+      "what is the best safe for jewelry"
     ],
     "questions": [],
-    "priority": 320,
+    "priority": 900,
     "keyword": "best jewelry safe for home",
     "category": "home-safes",
     "articleType": "roundup",
     "intent": "commercial",
     "funnel": "bofu",
     "workingTitle": "Best Jewelry Safes for Home",
-    "cluster": "home safes",
-    "source": "ahrefs",
-    "rationale": "launch plan post (owner's first 25): Ahrefs US vol 300, KD 0, TP 1400; merged same-intent variants (1700 combined monthly searches)",
+    "cluster": "jewelry",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 10 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword).",
     "slug": "best-jewelry-safe-for-home",
     "ahrefs": {
       "volume": 300,
@@ -357,7 +366,10 @@
       "forums": 1,
       "videos": 0
     },
-    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22",
+    "productCount": 6
   },
   {
     "status": "merged",
@@ -708,7 +720,7 @@
     "lastError": "SERP: shares 7-8 of the top-10 URLs with /blog/best-fireproof-document-safe/ (same intent); covered there as a secondary keyword"
   },
   {
-    "status": "deferred",
+    "status": "replaced",
     "attempts": 1,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -751,7 +763,8 @@
       "gun-safes-capacity-overstated",
       "gun-safes-electronic-lock-fails-no-backup"
     ],
-    "note": "2026-10-19: only Barska and KAER on 2+ top-10 pages."
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22",
+    "replacedAt": "2026-10-22T00:00:00.000Z"
   },
   {
     "status": "published",
@@ -797,7 +810,7 @@
     "publishedAt": "2026-10-21T10:52:50.705Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -835,7 +848,9 @@
       "forums": 1,
       "videos": 2
     },
-    "lastError": "SERP 2026-10-18: 5 store pages plus Bob Vila and CNET; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: 5 store pages plus Bob Vila and CNET; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -1138,7 +1153,7 @@
     "publishedAt": "2026-10-20T20:24:18.639Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1174,7 +1189,9 @@
       "forums": 1,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: store pages, no article intent; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: store pages, no article intent; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -1261,7 +1278,7 @@
     "lastError": "SERP: same top-10 as \"best gun safe\" (5-9 shared URLs); cover it inside that page"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1301,7 +1318,9 @@
       "forums": 1,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: 6 of 10 store pages; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -1387,7 +1406,7 @@
     "publishedAt": "2026-10-22T10:51:11.834Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1421,10 +1440,12 @@
       "forums": 0,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: store and brand product pages hold the SERP; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: store and brand product pages hold the SERP; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1462,7 +1483,9 @@
       "forums": 1,
       "videos": 0
     },
-    "lastError": "SERP 2026-10-18: stores plus Business Insider and CNET; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: stores plus Business Insider and CNET; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -1555,7 +1578,7 @@
     "publishedAt": "2026-10-19T14:16:41.736Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1592,10 +1615,12 @@
       "forums": 0,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: store category pages hold the SERP; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: store category pages hold the SERP; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1629,10 +1654,12 @@
       "forums": 1,
       "videos": 1
     },
-    "lastError": "SERP 2026-10-18: stores (Amazon, Target, Walmart) hold the SERP; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: stores (Amazon, Target, Walmart) hold the SERP; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1668,7 +1695,9 @@
       "forums": 2,
       "videos": 0
     },
-    "lastError": "SERP 2026-10-18: 5 store pages; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: 5 store pages; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -1722,7 +1751,7 @@
     "publishedAt": "2026-10-20T13:55:53.505Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1760,7 +1789,9 @@
       "forums": 1,
       "videos": 2
     },
-    "lastError": "SERP 2026-10-18: SentrySafe support pages hold 5 of 10; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: SentrySafe support pages hold 5 of 10; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -1805,7 +1836,7 @@
     "publishedAt": "2026-10-20T20:03:41.777Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -1844,10 +1875,12 @@
     "lastError": "SERP 2026-10-18: brand/key-store pages hold 7 of 10; a new affiliate roundup is unlikely to rank",
     "painPoints": [
       "home-safes-lost-or-jammed-key"
-    ]
+    ],
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1881,7 +1914,9 @@
       "forums": 0,
       "videos": 0
     },
-    "lastError": "SERP 2026-10-18: government and advocacy pages only (legal YMYL); a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: government and advocacy pages only (legal YMYL); a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -1926,7 +1961,7 @@
     "lastError": "cannibalization: \"where to put a gun safe\" overlaps \"can you put a gun safe in the garage\" (100%)"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -1963,10 +1998,12 @@
     "lastError": "SERP 2026-10-18: store/brand pages, no roundup intent; a new affiliate roundup is unlikely to rank",
     "painPoints": [
       "gun-safes-capacity-overstated"
-    ]
+    ],
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -2000,10 +2037,12 @@
       "forums": 2,
       "videos": 3
     },
-    "lastError": "SERP 2026-10-18: Reddit, YouTube and Liberty pages, no review articles; a new affiliate roundup is unlikely to rank"
+    "lastError": "SERP 2026-10-18: Reddit, YouTube and Liberty pages, no review articles; a new affiliate roundup is unlikely to rank",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -2036,7 +2075,9 @@
       "stores": 1,
       "forums": 2,
       "videos": 2
-    }
+    },
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -2080,7 +2121,7 @@
     "publishedAt": "2026-10-21T11:02:47.131Z"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -2122,7 +2163,9 @@
     "painPoints": [
       "gun-safes-capacity-overstated",
       "gun-safes-electronic-lock-fails-no-backup"
-    ]
+    ],
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -2177,7 +2220,7 @@
     "publishedAt": "2026-10-20T20:05:04.108Z"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -2199,10 +2242,12 @@
       "date": "2026-10-18"
     },
     "lastError": "SERP 2026-10-18: Amazon search page, maker product pages and store collections hold 8 of 10; a roundup is unlikely to rank",
-    "slug": "best-biometric-wall-safe"
+    "slug": "best-biometric-wall-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -2222,10 +2267,12 @@
       "date": "2026-10-18"
     },
     "lastError": "SERP 2026-10-18: maker and store collection pages hold 8 of 10 (one travel article, two videos)",
-    "slug": "portable-safe"
+    "slug": "portable-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "parked",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [],
@@ -2245,7 +2292,9 @@
       "date": "2026-10-18"
     },
     "lastError": "SERP 2026-10-18: maker product pages and DIY videos only, no roundups",
-    "slug": "concealment-shelf"
+    "slug": "concealment-shelf",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "published",
@@ -2514,7 +2563,7 @@
     "publishedAt": "2026-10-21T10:53:53.145Z"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-19T07:04:32.626Z",
     "secondaryKeywords": [
@@ -2547,7 +2596,9 @@
       "source": "ahrefs keywords-explorer-overview us",
       "date": "2026-10-19"
     },
-    "slug": "gun-safe-rust-prevention"
+    "slug": "gun-safe-rust-prevention",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -2691,7 +2742,7 @@
     "publishedAt": "2026-10-20T10:18:05.954Z"
   },
   {
-    "status": "needs-data",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T10:23:29.159Z",
     "secondaryKeywords": [
@@ -2712,7 +2763,9 @@
     "source": "owner",
     "rationale": "owner request 2026-10-20: add to the queue and publish in its normal turn (not now). Volume/KD not measured yet (Ahrefs API key below the 10,000-unit floor until 2026-11-09); measure before writing if units allow. Secondary variants are unmeasured candidates; drop any the SERP shows as a different intent (e.g. winder-only products).",
     "slug": "luxury-watch-safe",
-    "lastError": "no Ahrefs data recorded (run keywords-explorer-overview, US) — not selectable until checked"
+    "lastError": "no Ahrefs data recorded (run keywords-explorer-overview, US) — not selectable until checked",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -2742,7 +2795,7 @@
     "lastError": "cannibalization: \"best gun safe for a garage\" overlaps \"gun safe in garage\" (100%)"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2763,10 +2816,12 @@
     "cluster": "storage and off-site",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is generic: no page targets the phrase; r/Firearms thread, usconcealedcarry forum, YouTube and generic gun-safe roundups plus Home Depot and Bass Pro. Autocomplete suggestion. Do not give legal advice on facility rules; only point the reader to check the facility lease.",
-    "slug": "best-gun-safe-for-a-storage-unit"
+    "slug": "best-gun-safe-for-a-storage-unit",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2787,7 +2842,9 @@
     "cluster": "remote and secondary homes",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: two hunting forums (Ultimate Pheasant, Long Range Hunting), Reddit, YouTube; maker blogs (SecureIt, Blacksmith) rank but no independent roundup. 5 of 10 are stores/makers, so only medium-weak.",
-    "slug": "best-gun-safe-for-hunting-cabin"
+    "slug": "best-gun-safe-for-hunting-cabin",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -2818,7 +2875,7 @@
     "lastError": "cannibalization: 4 of the top-10 Google results are shared with \"best pistol safe\" (same intent)"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2840,10 +2897,12 @@
     "cluster": "collectibles",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Reddit r/basketballcards #1, Facebook group #3, Blowout Cards forum #4, YouTube #6, plus Zion Cases/Fire Box maker pages and Spruce/Wirecutter generic. Collector forums dominate, no dedicated roundup.",
-    "slug": "best-fireproof-safe-for-sports-cards"
+    "slug": "best-fireproof-safe-for-sports-cards",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2866,10 +2925,12 @@
     "cluster": "data and media protection",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Reddit r/Safes #2 and r/DataHoarder #6, Dangerous Things forum #7, AnandTech forum #8; two retailer collections and Wirecutter/Spruce/BI generic. Hard-drive variants merged here to avoid cannibalization. Autocomplete suggestion.",
-    "slug": "best-fireproof-safe-for-digital-media"
+    "slug": "best-fireproof-safe-for-digital-media",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2891,7 +2952,9 @@
     "cluster": "data and media protection",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/preppers #1, YouTube #4, Facebook group #5, Scrapbook.com forum #7, an Amazon listing; no retailer category pages. Related to digital media post: keep photos (class 150/125 temperature limits) as the angle.",
-    "slug": "best-fireproof-safe-for-family-photos"
+    "slug": "best-fireproof-safe-for-family-photos",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -2921,7 +2984,7 @@
     "lastError": "cannibalization: 5 of the top-10 Google results are shared with \"best fireproof document safe\" (same intent)"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2944,10 +3007,12 @@
     "cluster": "specialty valuables",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is very weak: DPReview forum #1, r/photography #2, three photography blogs, B&H explainer #4, YouTube; no safe retailer in the top 10. Include humidity and desiccant notes (links to dehumidifier post).",
-    "slug": "best-safe-for-camera-gear"
+    "slug": "best-safe-for-camera-gear",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2970,10 +3035,12 @@
     "cluster": "mobile and secondary homes",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: r/RVLiving #1, Grand Design and iRV2 forums, Facebook group, YouTube, rv.com archive; 4 store pages (Bomb City, Mycubesafe, Amazon, RecPro). No independent roundup. Camper variant merged.",
-    "slug": "best-safe-for-rv"
+    "slug": "best-safe-for-rv",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -2996,10 +3063,12 @@
     "cluster": "mobile and secondary homes",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP is very weak: Trawler Forum threads #2 and #7, off-topic SAFE Boats and boating-safety pages, two Australian sites, YouTube, Vitrifrigo and Defender product pages. Keep to US-sold products only.",
-    "slug": "best-safe-for-a-boat"
+    "slug": "best-safe-for-a-boat",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-20T20:11:17.984Z",
     "secondaryKeywords": [
@@ -3022,35 +3091,34 @@
     "cluster": "specialty valuables",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-20. SERP: Wirecutter #5, GoodRx #3, Locks Save Lives nonprofit #2, r/Safes #4, Facebook group #9; 4 retailers (Amazon x2, Walmart, DisposeRx) and a niche seller. Safe-storage angle only; no medical or legal advice. Overlaps 'best key lock box' only slightly (cannibal check ok).",
-    "slug": "best-safe-for-medications"
+    "slug": "best-safe-for-medications",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "pending",
     "attempts": 0,
-    "addedAt": "2026-10-21T10:57:40.073Z",
+    "addedAt": "2026-10-22T00:00:00.000Z",
     "secondaryKeywords": [
-      "best safe for gold and silver",
-      "coin safe for collectors",
-      "safe for bullion at home"
+      "best safe for coins"
     ],
-    "questions": [
-      "What rating should a safe for a coin collection have?",
-      "How do I keep coins from toning or corroding inside a safe?"
-    ],
-    "priority": 600,
+    "questions": [],
+    "priority": 900,
     "keyword": "best safe for coin collection",
     "category": "home-safes",
     "articleType": "roundup",
     "intent": "commercial",
     "funnel": "bofu",
     "workingTitle": "Best Safe for a Coin Collection",
-    "cluster": "valuables",
-    "source": "no-ahrefs",
-    "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: r/coins thread #1, Collectors Universe forum #4, Facebook group #6, ANA (money.org) and COINage guides; only 2 store pages (Amazon, NationwideSafes) plus dealer blogs. No big-publisher roundup.",
-    "slug": "best-safe-for-coin-collection"
+    "cluster": "coins",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword).",
+    "slug": "best-safe-for-coin-collection",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T10:57:40.073Z",
     "secondaryKeywords": [
@@ -3072,10 +3140,12 @@
     "cluster": "portable and small safes",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: small blog (thedormguide.com) #1, Facebook, Reddit, Quora and TikTok results; 4 store/maker pages (Amazon, Mammoth, Safe and Vault Store, Stealth). UGC-heavy. Distinct from pending 'best travel safe'.",
-    "slug": "best-safe-for-dorm-room"
+    "slug": "best-safe-for-dorm-room",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T10:57:40.073Z",
     "secondaryKeywords": [
@@ -3097,10 +3167,12 @@
     "cluster": "placement",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: topfirearmreviews (small affiliate) #1, Reddit #5, americanfirearms, pewpewtactical, nwsafe blog; 4 store/maker collection pages, not dominated. Keep distinct from pending how-to 'where to put a gun safe'.",
-    "slug": "best-gun-safe-for-closet"
+    "slug": "best-gun-safe-for-closet",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.552Z",
     "secondaryKeywords": [
@@ -3122,10 +3194,12 @@
     "cluster": "safe interior",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: r/ar15 #2, Colt Forum #7, Northwest Firearms forum #10, 2 YouTube installs; 5 store/product pages (Dean Safe, SecureIt, Amazon store, storemoreguns, Torchstar) but no editorial roundup on page 1. Borderline (half stores) — the forum threads show readers want a comparison.",
-    "slug": "best-gun-safe-lighting"
+    "slug": "best-gun-safe-lighting",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3147,7 +3221,9 @@
     "cluster": "safe interior",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: 3 YouTube videos (#1), r/ar15 thread #2, Bass Pro and dealer blogs (nwsafe, Liberty dealer); 3 store/accessory pages. Matches pain point gun-safes-capacity-overstated.",
-    "slug": "how-to-organize-a-gun-safe"
+    "slug": "how-to-organize-a-gun-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
     "status": "merged",
@@ -3177,7 +3253,7 @@
     "lastError": "cannibalization: \"how to mount a gun safe in a car\" overlaps \"wall mount gun safe\" (75%)"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3199,10 +3275,12 @@
     "cluster": "garage and humidity",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: r/WA_guns #1, 5 gun forums (S&W, Trapshooters, Carolina, 1911Forum), Facebook, MeatEater, YouTube; no store pages. Uncovered pain point safe-accessories-ammo-humid-garage-storage. Link to best-ammo-can and gun-safe-in-garage.",
-    "slug": "how-to-store-ammo-in-a-garage"
+    "slug": "how-to-store-ammo-in-a-garage",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3224,10 +3302,12 @@
     "cluster": "placement",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: all informational — Arcas Gruber, Reolink and Liberty blog posts, YouTube, Reddit, AAA, a moving-company blog, Pinterest, Wirecutter hidden-safes; no catalog pages. Distinct from pending 'where to put a gun safe' (gun-safe placement) and 'best hidden gun safe' (product roundup).",
-    "slug": "where-to-hide-a-safe-in-your-house"
+    "slug": "where-to-hide-a-safe-in-your-house",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3249,10 +3329,12 @@
     "cluster": "installation",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: AR15.com forum #1, 2 YouTube videos, a small blog, r/HomeImprovement, Firing Line, Trapshooters and Stalking Directory forums, Rhino blog; no store pages. Complements how-to-bolt-down-a-safe without targeting bolting.",
-    "slug": "how-to-level-a-gun-safe"
+    "slug": "how-to-level-a-gun-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3274,10 +3356,12 @@
     "cluster": "locks and codes",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: YouTube #1 and #3, maker/dealer support pages (Liberty, Champion, TNT Liberty), 2 Quora threads, JustAnswer, Instagram, S&G PDF; no catalog pages. Owner with current code only — never bypassing a lock. Distinct from how-to-open-a-safe (locked out).",
-    "slug": "how-to-change-safe-combination"
+    "slug": "how-to-change-safe-combination",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3299,10 +3383,12 @@
     "cluster": "troubleshooting",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: JustAnswer #1, r/guns #2, YouTube hinge fix, S&G knowledgebase, Facebook, Firing Line forum, Cannon FAQ video; no store pages. Owner troubleshooting of own open safe.",
-    "slug": "gun-safe-door-wont-close"
+    "slug": "gun-safe-door-wont-close",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3324,10 +3410,12 @@
     "cluster": "garage and humidity",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: Nosler, Rimfire Central and Bayou Shooter forums, r/guns, all4shooters, YouTube; dealer blogs (Dean, SecureIt, Safe Keeper, S&V); no catalog pages. Practical recovery only; insurance mentioned factually, not as advice.",
-    "slug": "gun-safe-flood-damage"
+    "slug": "gun-safe-flood-damage",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3349,10 +3437,12 @@
     "cluster": "garage and humidity",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: Reddit #2, Facebook #3, SASS, LongRangeHunting and Sniper's Hide forums, CDC, Mental Floss, dealer blogs; no catalog pages. Pain point home-safes-mold-and-moisture-in-fire-safe (only touched by best-fireproof-document-safe).",
-    "slug": "how-to-clean-mold-out-of-a-safe"
+    "slug": "how-to-clean-mold-out-of-a-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:17:26.553Z",
     "secondaryKeywords": [
@@ -3374,10 +3464,12 @@
     "cluster": "valuables",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: thin SERP — 2 Liberty blog posts, r/Safes, YouTube, a storage-company guide, an AU dealer roundup, Brinks, a lifestyle blog; one product page (Traum). No strong US roundup.",
-    "slug": "best-safe-for-heirlooms"
+    "slug": "best-safe-for-heirlooms",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:18:06.535Z",
     "secondaryKeywords": [
@@ -3399,10 +3491,12 @@
     "cluster": "moving and removal",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data (key under unit floor until 2026-11-09); US SERP checked live via Firecrawl 2026-10-21: Facebook #1, r/recycling #3, Quora #7, dealer/maker blogs (Liberty, Guardian, Safe Keeper), 2 removal-service pages, 2 UK/Scotland pages; no catalog pages. Owner's own safe only.",
-    "slug": "how-to-dispose-of-an-old-safe"
+    "slug": "how-to-dispose-of-an-old-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
   },
   {
-    "status": "pending",
+    "status": "replaced",
     "attempts": 0,
     "addedAt": "2026-10-21T11:18:06.535Z",
     "secondaryKeywords": [
@@ -3424,6 +3518,1331 @@
     "cluster": "maintenance",
     "source": "no-ahrefs",
     "rationale": "no Ahrefs data; US SERP checked live via Firecrawl 2026-10-21: r/Locksmith #1, 3 YouTube projects, Facebook, AR15.com and GunSite forums, Dean/Liberty paint-care pages, r/clonewars; no catalog pages.",
-    "slug": "how-to-paint-a-gun-safe"
+    "slug": "how-to-paint-a-gun-safe",
+    "replacedAt": "2026-10-22T00:00:00.000Z",
+    "note": "Owner replaced the queue with a new keyword list on 2026-10-22"
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for gold and silver bullion",
+    "slug": "best-safe-for-gold-and-silver-bullion",
+    "secondaryKeywords": [
+      "best safe for bullion",
+      "best safe for gold and silver",
+      "best safe for gold",
+      "best safe for gold coins",
+      "best safe for gold storage",
+      "best safe for precious metals",
+      "best safe for storing precious metals"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "bullion",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 7 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best home safe under 500",
+    "slug": "best-home-safe-under-500",
+    "secondaryKeywords": [
+      "best safe for the money",
+      "best safe for under 1000",
+      "best safe for under 500",
+      "best safe for under 100",
+      "best safe for under 200",
+      "best safe for value",
+      "best safe for your money"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "budget",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 7 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for cash at home",
+    "slug": "best-safe-for-cash-at-home",
+    "secondaryKeywords": [
+      "best safe for money",
+      "best safe for cash",
+      "best safe for money at home",
+      "the best safe for money",
+      "what is the best safe for money"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "cash",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 6 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for an apartment",
+    "slug": "best-safe-for-an-apartment",
+    "secondaryKeywords": [
+      "best safe for apartment reddit",
+      "best safe for apartment living",
+      "best safe for nyc apartment",
+      "best safe for renters",
+      "what is the best safe for an apartment"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "apartment",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 6 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best gun safe for car",
+    "slug": "best-gun-safe-for-car",
+    "secondaryKeywords": [
+      "best safe for car",
+      "best safe for gun in car",
+      "best safe for vehicle",
+      "best gun safe for your car",
+      "best quick access gun safe for car",
+      "best gun safe for truck",
+      "best gun safe for your truck"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "vehicle-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "car",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 8 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for sports cards",
+    "slug": "best-safe-for-sports-cards",
+    "secondaryKeywords": [
+      "best safe for card collection",
+      "best safe for pokemon cards",
+      "best safe for trading cards"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "fireproof-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "cards",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 4 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for small business office",
+    "slug": "best-safe-for-small-business-office",
+    "secondaryKeywords": [
+      "best safe for office",
+      "best small safe for office",
+      "best safe for home office",
+      "best safe for small business"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "office",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 4 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for a college dorm room",
+    "slug": "best-safe-for-a-college-dorm-room",
+    "secondaryKeywords": [
+      "best safe for dorm rooms",
+      "best safe for college dorm",
+      "best safe for a dorm room"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "dorm",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 3 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for rv and motorhome",
+    "slug": "best-safe-for-rv-and-motorhome",
+    "secondaryKeywords": [
+      "best safe for campervan",
+      "best safe for motorhome"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "vehicle-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "rv",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for guns and documents",
+    "slug": "best-safe-for-guns-and-documents",
+    "secondaryKeywords": [
+      "best safe for documents and guns"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "gun-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "guns_docs",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for laptop and electronics",
+    "slug": "best-safe-for-laptop-and-electronics",
+    "secondaryKeywords": [
+      "best safe for electronics",
+      "best safe for laptop"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "laptop",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best safe for watches and jewelry",
+    "slug": "best-safe-for-watches-and-jewelry",
+    "secondaryKeywords": [
+      "best safe for watches"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "home-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "watches",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best wall safe for home",
+    "slug": "best-wall-safe-for-home",
+    "secondaryKeywords": [
+      "best safe for wall",
+      "what is the best fireproof wall safe for home use"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "wall-floor-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "wall",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "what should you keep in a safe at home",
+    "slug": "what-should-you-keep-in-a-safe-at-home",
+    "secondaryKeywords": [
+      "what should you keep in a safe",
+      "what should you put in a safe"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "safe-guides",
+    "intent": "informational",
+    "articleType": "guide",
+    "funnel": "tofu",
+    "cluster": "keep",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 2 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best drawer safe",
+    "slug": "best-drawer-safe",
+    "secondaryKeywords": [
+      "best safe for drawer"
+    ],
+    "questions": [],
+    "priority": 900,
+    "category": "handgun-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "drawer",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 1 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "pending",
+    "attempts": 0,
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "keyword": "best large fireproof safe for home",
+    "slug": "best-large-fireproof-safe-for-home",
+    "secondaryKeywords": [],
+    "questions": [],
+    "priority": 900,
+    "category": "fireproof-safes",
+    "intent": "commercial",
+    "articleType": "roundup",
+    "funnel": "bofu",
+    "cluster": "large_fire",
+    "source": "user",
+    "rationale": "Owner keyword list 2026-10-22; groups 1 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for guns",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for ar15",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for firearms",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for guns and jewelry",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for guns and valuables",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for long guns",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for rifles",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for rifles",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for shotgun",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for valuables and guns",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best safe for guns",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home fireproof and waterproof",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for fire and water protection",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best fireproof and waterproof safe for home use",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best fire and waterproof safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best waterproof and fireproof safe for documents",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best fireproof waterproof safe for documents",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "waterproof fireproof best safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for the money",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for your money",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for your buck",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best long gun safe for the money",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best gun safe for the money",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best large gun safe for the money",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best bang for your buck gun safe",
+    "mergedInto": "best-fire-rated-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents and jewelry",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for jewelry and documents",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best home safe for jewelry and documents",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best home safe for documents and jewelry",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "how to use a safe",
+    "mergedInto": "how-to-open-a-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "how to put in a safe combination",
+    "mergedInto": "how-to-open-a-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "how to use a safe combination",
+    "mergedInto": "how-to-open-a-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what's the best safe to buy",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what kind of safe is the best",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what type of safe is best for a home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best small safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "the best small safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for closet",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: same Google intent as a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home use",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for at home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe box for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home reddit",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home wirecutter",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for in house",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safes for in home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe lock for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for room",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for residential",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for the house",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for valuables",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for valuables at home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for valuables reddit",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for your home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for your house",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "gun best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "reddit best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "the best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe box for home use",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best home safe for valuables",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best safe for home use",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "wirecutter best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best safe for a house",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what the best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "the best safe box for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what's the best safe for home",
+    "mergedInto": "best-home-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents and valuables",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents reddit",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents and money",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents fireproof",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for documents at home",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for files",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for important documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for legal documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for money and documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for paperwork",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best at home safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best home safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "reddit best safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "the best fireproof safe for documents",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best home safe for documents reddit",
+    "mergedInto": "best-fireproof-document-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for handguns",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for handgun storage",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for multiple handguns",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for pistol",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for quick access",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best handgun safe for quick access",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best pistol safe for quick access",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for rifles and pistols",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best hand gun safe for home",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for handguns",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best safe for a handgun",
+    "mergedInto": "best-pistol-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for ammo",
+    "mergedInto": "best-ammo-can",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for ammo storage",
+    "mergedInto": "best-ammo-can",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for bedroom",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for bedside",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best handgun safe for bedroom",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for bedside",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for nightstand",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for nightstand",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best gun safe for next to bed",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best quick access gun safe for bedroom",
+    "mergedInto": "best-handgun-safe-for-nightstand",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe brands for home",
+    "mergedInto": "best-safe-brands",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for fire protection",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for fire",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for home fireproof",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "fireproof best safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best fire safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best fireproof safe for home use",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best fireproof safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best fire proof safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "what is the best small fireproof safe for home use",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "the best fireproof safe for home",
+    "mergedInto": "best-fireproof-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for keys",
+    "mergedInto": "best-key-lock-box",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best key safe for outside",
+    "mergedInto": "best-key-lock-box",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for travel",
+    "mergedInto": "best-travel-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best portable safe for travel",
+    "mergedInto": "best-travel-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "best safe for under the bed",
+    "mergedInto": "best-under-bed-gun-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "how to secure a safe at home",
+    "mergedInto": "how-to-bolt-down-a-safe",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
+  },
+  {
+    "status": "merged",
+    "keyword": "do safes protect from fire",
+    "mergedInto": "are-gun-safes-fireproof",
+    "addedAt": "2026-10-22T00:00:00.000Z",
+    "source": "user",
+    "note": "owner list 2026-10-22: covered by a live post"
   }
 ]
