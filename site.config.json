@@ -162,14 +162,13 @@
     "timezone": "America/New_York",
     "weeklyPostsPerDay": [],
     "randomPhase": {
-      "min": 2,
-      "max": 3,
+      "min": 1,
+      "max": 1,
       "weights": [
-        1,
         1
       ]
     },
-    "maxPostsPerRun": 3,
+    "maxPostsPerRun": 1,
     "publishHoursLocal": [
       7,
       9,
@@ -185,7 +184,7 @@
       "endHour": 21.5,
       "minGapMinutes": 60
     },
-    "note": "Owner rule 2026-10-21: 2-3 new English posts per day per site (was 10 on 2026-10-20, 4-5 before)."
+    "note": "Owner rule 2026-10-22: 1 new English post per day per site (Claude usage limit). Was 2-3 on 2026-10-21."
   },
   "organization": {
     "legalName": "Best Safe",
