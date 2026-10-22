@@ -125,13 +125,13 @@
   ],
   "outline": [
     {
-      "h2": "Best hidden gun safe – quick answer and top picks",
-      "intent": "answer + picks",
+      "h2": "Best hidden gun safe – the short answer",
+      "intent": "answer + 2 picks + why not a wood shelf",
       "h3": []
     },
     {
       "h2": "How we picked these hidden gun safes",
-      "intent": "method: 2+ independent pages, Amazon listing",
+      "intent": "method: 2+ independent top-10 pages, Amazon listing; why concealment furniture did not qualify",
       "h3": []
     },
     {
@@ -139,27 +139,26 @@
       "intent": "product detail",
       "h3": [
         "Vaultek DS2i Smart Station",
-        "Hornady RAPiD Safe Night Guard",
-        "Tactical Traps Freedom 52R"
+        "Hornady RAPiD Safe Night Guard"
       ]
     },
     {
       "h2": "Hidden or secure? What concealment furniture really stops",
-      "intent": "gap: steel vs wood, discovered = gone (pain point: pried/ripped out)",
+      "intent": "gap: steel vs wood, discovered = gone, RFID shelf latch reports (pain points)",
       "h3": []
     },
     {
       "h2": "Problems owners run into, and the fix",
-      "intent": "RFID/latch failures, batteries, fingerprint misreads, kids",
+      "intent": "fingerprint/battery, Bluetooth, kids, pried or carried off",
       "h3": []
     },
     {
-      "h2": "Hidden gun safe FAQs",
-      "intent": "questions incl. fire and legal-storage pointer (no legal advice)",
+      "h2": "Where to put a hidden gun safe",
+      "intent": "placement, OPSEC, no logos, anchoring, legal pointer",
       "h3": []
     }
   ],
-  "targetWords": 1800,
+  "targetWords": 2000,
   "serpStructure": {
     "analyzedUrls": [
       "https://www.pewpewtactical.com/secret-gun-safes-home/",
@@ -280,7 +279,8 @@
         "https://www.pewpewtactical.com/secret-gun-safes-home/",
         "https://www.topfirearmreviews.com/post/best-handgun-safes"
       ],
-      "asinCandidate": "B0BMB66WLS (DS2i; B0FV9Z4BQX is a newer 'Smart Station' listing, writer to confirm which is the DS2i)"
+      "asin": "B0BMB66WLS",
+      "status": "picked"
     },
     {
       "name": "Hornady RAPiD Safe Night Guard 98215",
@@ -288,30 +288,43 @@
         "https://www.gadgetreview.com/10-hidden-gun-safes-disguised-as-ordinary-items",
         "https://www.topfirearmreviews.com/post/best-handgun-safes"
       ],
-      "asinCandidate": "B081DK7DQH"
+      "asin": "B081DK7DQH",
+      "status": "picked"
     },
     {
-      "name": "Tactical Traps Freedom 52R (marginal: 1 recommendation + 1 critical review of the sibling Patriot 35S; feature only with the owner complaints)",
-      "pages": [
-        "https://www.pewpewtactical.com/secret-gun-safes-home/",
-        "https://www.youtube.com/watch?v=r1UsI24WUg4"
-      ],
-      "asinCandidate": "B09416MJNR (white; B09417LDPR unfinished, B0929DL5MS early american; /clp/B0941P3ZGZ cherry)"
-    },
-    {
-      "name": "Tactical Walls concealment shelf (1242 / 825)",
-      "pages": [
-        "https://www.gadgetreview.com/10-hidden-gun-safes-disguised-as-ordinary-items",
-        "https://www.youtube.com/watch?v=d6IwruFklJY"
-      ],
-      "asinCandidate": null
-    },
-    {
-      "name": "Liberty Home Concealment Peacemaker clock / GunVault SpeedVault SV500 / PS Products Peace Keeper clock (one independent page each)",
+      "name": "Tactical Traps Freedom 52R",
       "pages": [
         "https://www.pewpewtactical.com/secret-gun-safes-home/"
       ],
-      "asinCandidate": null
+      "status": "rejected: only one independent top-10 page; owner reliability warning on r/guns; discussed as a category, not a pick"
+    },
+    {
+      "name": "GunVault SpeedVault SV500",
+      "pages": [
+        "https://www.pewpewtactical.com/secret-gun-safes-home/"
+      ],
+      "status": "rejected: one top-10 page for this keyword, not disguised"
+    },
+    {
+      "name": "Tactical Walls 1242 shelf",
+      "pages": [
+        "https://www.gadgetreview.com/10-hidden-gun-safes-disguised-as-ordinary-items"
+      ],
+      "status": "rejected: one page, no Amazon listing"
+    },
+    {
+      "name": "PS Products Peace Keeper / Liberty Home Concealment Peacemaker clocks",
+      "pages": [
+        "https://www.pewpewtactical.com/secret-gun-safes-home/"
+      ],
+      "status": "rejected: one page each; magnetic latch, no lock on the Peace Keeper"
+    },
+    {
+      "name": "Bellewood Designs concealment shelves/cabinets",
+      "pages": [
+        "https://capefearinvestigative.com/best-hidden-gun-safe/"
+      ],
+      "status": "rejected: one page"
     }
   ],
   "painPoints": [
@@ -406,6 +419,27 @@
           "url": "https://www.topfirearmreviews.com/post/best-handgun-safes"
         }
       ]
+    },
+    {
+      "id": "gun-safes-hidden-shelf-rfid-latch-fails",
+      "pain": "A hidden RFID concealment shelf will not open reliably, so the hidden gun is not reachable when needed",
+      "details": "Owners of RFID concealment shelves report a finicky latch; others ask for a hidden gun safe that does not rely on RFID at all.",
+      "sources": [
+        "https://www.reddit.com/r/guns/comments/1sf4ydz/a_warning_about_tactical_traps_firearm/",
+        "https://www.reddit.com/r/guns/comments/1kuqrg1/hidden_gun_safe_that_doesnt_use_rfid/"
+      ],
+      "quotes": [
+        {
+          "text": "Do not buy from \"Tactical Traps\" the shelf simply doesn't work reliably.",
+          "url": "https://www.reddit.com/r/guns/comments/1sf4ydz/a_warning_about_tactical_traps_firearm/",
+          "via": "search-excerpt"
+        },
+        {
+          "text": "Your very best option is RFID or straight up a quick access mechanical safe in my opinion.",
+          "url": "https://www.reddit.com/r/guns/comments/1kuqrg1/hidden_gun_safe_that_doesnt_use_rfid/",
+          "via": "search-excerpt"
+        }
+      ]
     }
   ],
   "stats": [
@@ -426,15 +460,30 @@
       "claim": "Night Guard interior dimensions (Hornady)",
       "url": "https://www.hornady.com/security/rapid-safes/rapid-safe-night-guard",
       "quote": "Interior Dimensions: 2.2\" x 9.2\" x 6.9\""
+    },
+    {
+      "number": "18-gauge",
+      "claim": "DS2i steel; handguns up to 9 inches (Vaultek)",
+      "url": "https://vaulteksafe.com/blogs/news/ds2i-vs-ds5i-smart-station",
+      "quote": "The DS2i is constructed with 18-gauge progressive-formed steel"
+    },
+    {
+      "number": "four-foot",
+      "claim": "steel security cable included with the DS2i (Vaultek)",
+      "url": "https://vaulteksafe.com/blogs/news/ds2i-vs-ds5i-smart-station",
+      "quote": "an AC power adapter, a four-foot steel security cable, backup manual keys, and a quick setup guide"
     }
   ],
   "videos": [
     {
-      "id": "r1UsI24WUg4",
-      "title": "Tactical Trap Review: let's see if these work! Hidden storage in a shelf. [356]",
-      "channel": "Jeff Reviews4u",
-      "url": "https://www.youtube.com/watch?v=r1UsI24WUg4",
-      "section": "Hidden or secure? What concealment furniture really stops"
+      "id": "BS1f_17vU5A",
+      "title": "DS2i Smart Station VS. DS5i Smart Station | Which Safe is Right For You?",
+      "channel": "Vaultek Safe",
+      "url": "https://www.youtube.com/watch?v=BS1f_17vU5A",
+      "section": "Hidden gun safe reviews"
     }
-  ]
+  ],
+  "productCount": 2,
+  "productCountNote": "Only two products are recommended by 2+ independent top-10 pages; post written as a guide with 2 picks.",
+  "videosNote": "r1UsI24WUg4 (Jeff Reviews4u, Oct 2021) dropped: about 5 years old and shows the Patriot 35S, not a pick; cited in plain text instead."
 }

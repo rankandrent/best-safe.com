@@ -1,0 +1,16 @@
+{
+  "slug": "best-hidden-gun-safe",
+  "pass": true,
+  "checkedAt": "2026-10-22T10:50:48.327Z",
+  "errors": [],
+  "warnings": [
+    "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady RAPiD Safe Night Guard\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified 2026-10-22 via Firecrawl. Vaultek DS2i: 18-gauge progressive-formed steel, four-foot steel security cable, backup manual keys, AC adapter + backup battery, 20 fingerprints, 4-digit keypad, Bluetooth app, optional Nano Key, handguns up to 9 in, wireless pad + USB/USB-C (vaulteksafe.com DS2i vs DS5i blog); 12.125x8.25x3 in exterior, 9x7.5x1.5 in interior, 9.6 lb, 4-8 digit code, anti-pry, mounting plates extra (Athlon Outdoors/Personal Defense World; Pew Pew spec block). Pew Pew editor's pick, quote 'The best hidden gun safe is one that can be hidden in plain sight', con 'a bit more obvious that it is a safe', ball-bearing rails; TFR 'Best Smart Nightstand Gun Safe'. Amazon B0BMB66WLS title confirmed as VAULTEK DS2i Smart Station. Hornady Night Guard 98215: RFID/code/key, four RFID tags, 3x12x10.5 ext, 2.2x9.2x6.9 int, 18 lbs, 12V 2.0A or 4 AAA, 1,500-pound-rated cable, pre-drilled holes, tempered glass front, two USB-A, accommodates most full-size handguns, California DOJ approved, 'do not store loaded firearms' (hornady.com); 14-gauge, bright red digits, short cable, visitors didn't know it was a safe (TFR); Gadget Review lists it. ASIN B081DK7DQH title confirmed (Hornady Rapid Safe Night Guard). Concealment furniture facts (Peace Keeper 'Magnetic Latch (no lock)', Peacemaker removable magnetic key lock, Freedom 52R 46 in wood RFID + emergency lockout prevention, long gun storage, 'If It's Discovered, It's Gone', not fireproof, OPSEC/no logos) checked on pewpewtactical.com. Quotes verified verbatim at their URLs: Garage Journal (pulled the safe out of the wall), r/CAguns (battery/fingerprint tossed), r/guns Tactical Traps warning, r/guns RFID-or-mechanical reply (search excerpts at same thread URLs). Jeff Reviews4u 'a bit gimmicky' (Patriot 35S) from video description. Owner reports (r/liberalgunowners, r/CCW, r/guns Bluetooth, r/Safes, r/TexasGuns, r/tacticalgear x2, r/guns Night Guard owner) from search excerpts. No fire ratings claimed for any product; legal storage pointed to state rules and the California DOJ roster without legal advice. Video BS1f_17vU5A is Vaultek's own DS2i vs DS5i video, embedded on vaulteksafe.com.",
+    "at": "2026-10-22T10:50:47.736Z",
+    "hash": "fbce56e9f164fb3f"
+  }
+}

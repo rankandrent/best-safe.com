@@ -710,7 +710,8 @@
           "in wall gun safe"
         ],
         "coveredBy": [
-          "wall-mounted-gun-safe"
+          "wall-mounted-gun-safe",
+          "best-hidden-gun-safe"
         ],
         "foundAt": "2026-10-21"
       },
@@ -748,7 +749,8 @@
           "wall mounted gun safe"
         ],
         "coveredBy": [
-          "wall-mounted-gun-safe"
+          "wall-mounted-gun-safe",
+          "best-hidden-gun-safe"
         ],
         "foundAt": "2026-10-21"
       },
@@ -793,6 +795,50 @@
           "wall-mounted-gun-safe"
         ],
         "foundAt": "2026-10-21"
+      },
+      {
+        "id": "gun-safes-hidden-shelf-rfid-latch-fails",
+        "pain": "A hidden RFID concealment shelf will not open reliably, so the hidden gun is not reachable when needed",
+        "details": "Owners of RFID concealment shelves report a finicky latch that needs the card held in exactly the right spot; others ask for a hidden gun safe that does not rely on RFID at all. Replies point to quick-access mechanical or RFID safes with a backup entry, and to testing the latch often.",
+        "mentions": 2,
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/guns/comments/1sf4ydz/a_warning_about_tactical_traps_firearm/",
+            "platform": "reddit",
+            "title": "A Warning about 'Tactical Traps' firearm concealment shelves | r/guns",
+            "seen": "2026-10-22"
+          },
+          {
+            "url": "https://www.reddit.com/r/guns/comments/1kuqrg1/hidden_gun_safe_that_doesnt_use_rfid/",
+            "platform": "reddit",
+            "title": "Hidden gun safe that doesn't use RFID? | r/guns",
+            "seen": "2026-10-22"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Do not buy from \"Tactical Traps\" the shelf simply doesn't work reliably.",
+            "url": "https://www.reddit.com/r/guns/comments/1sf4ydz/a_warning_about_tactical_traps_firearm/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Your very best option is RFID or straight up a quick access mechanical safe in my opinion.",
+            "url": "https://www.reddit.com/r/guns/comments/1kuqrg1/hidden_gun_safe_that_doesnt_use_rfid/",
+            "via": "search-excerpt"
+          }
+        ],
+        "searches": [
+          "hidden gun safe rfid not working",
+          "concealment shelf won't open"
+        ],
+        "keywords": [
+          "best hidden gun safe",
+          "hidden gun safe furniture"
+        ],
+        "coveredBy": [
+          "best-hidden-gun-safe"
+        ],
+        "foundAt": "2026-10-22"
       }
     ],
     "safe-guides": [
@@ -2020,6 +2066,104 @@
           "best-home-safe"
         ],
         "foundAt": "2026-10-21"
+      },
+      {
+        "id": "home-safes-travel-safe-cut-or-carried-off",
+        "pain": "Travelers fear a fabric or cable-tethered travel safe can simply be cut open or carried off",
+        "details": "Readers of travel-safe reviews ask what stops a thief from slashing the bag or cutting the cable; reviewers and owners answer that mesh and cable stop opportunistic grab-and-go theft, not a prepared thief with cutters and time, so anchoring and keeping the most valuable items on you still matter.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+            "platform": "blog-comments",
+            "title": "The Most Important Item I Pack: Pacsafe Travelsafe Review (comments)",
+            "seen": "2026-10-22"
+          },
+          {
+            "url": "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe",
+            "platform": "quora",
+            "title": "What is the best portable, lightweight travel safe?",
+            "seen": "2026-10-22"
+          },
+          {
+            "url": "https://upgradedpoints.com/travel/best-portable-safes/",
+            "platform": "review",
+            "title": "The 9 Best Portable Safes for Travel",
+            "seen": "2026-10-22"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "What stops a thief from just cutting the bag open?",
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+          },
+          {
+            "text": "They’re not going to stop anyone serious.",
+            "url": "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
+          }
+        ],
+        "searches": [
+          "can a travel safe be cut open",
+          "are portable travel safes worth it",
+          "pacsafe travelsafe cut"
+        ],
+        "keywords": [
+          "best travel safe",
+          "portable travel safe"
+        ],
+        "coveredBy": [
+          "best-travel-safe"
+        ],
+        "foundAt": "2026-10-22"
+      },
+      {
+        "id": "home-safes-hotel-safe-distrust-too-small",
+        "pain": "Travelers don't trust the hotel room safe (staff can open it) or find it too small for a laptop",
+        "details": "Owners of portable safes say they use them because room safes can be opened by staff or are missing in guesthouses and rentals, and because many room safes barely fit a passport and a small laptop.",
+        "mentions": 3,
+        "sources": [
+          {
+            "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+            "platform": "retailer-reviews",
+            "title": "Pacsafe Travelsafe customer reviews",
+            "seen": "2026-10-22"
+          },
+          {
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+            "platform": "blog",
+            "title": "The Most Important Item I Pack: Pacsafe Travelsafe Review",
+            "seen": "2026-10-22"
+          },
+          {
+            "url": "https://blissmersion.com/best-portable-travel-safe-reviews/",
+            "platform": "blog-comments",
+            "title": "What Are the Best Portable Travel Safe Options? (comments)",
+            "seen": "2026-10-22"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "it feels like any staff member could potentially open a room safe if needed",
+            "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe"
+          },
+          {
+            "text": "But those hotel safes are often tiny",
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+          }
+        ],
+        "searches": [
+          "is a portable safe better than the hotel safe",
+          "hotel room safe portable",
+          "travel safe for laptop"
+        ],
+        "keywords": [
+          "best travel safe",
+          "hotel room safe portable"
+        ],
+        "coveredBy": [
+          "best-travel-safe"
+        ],
+        "foundAt": "2026-10-22"
       }
     ],
     "vehicle-safes": [
@@ -2767,7 +2911,8 @@
           "best bedside gun safe"
         ],
         "coveredBy": [
-          "best-under-bed-gun-safe"
+          "best-under-bed-gun-safe",
+          "best-hidden-gun-safe"
         ],
         "foundAt": "2026-10-20"
       },
@@ -2814,7 +2959,8 @@
           "best bedside gun safe"
         ],
         "coveredBy": [
-          "best-under-bed-gun-safe"
+          "best-under-bed-gun-safe",
+          "best-hidden-gun-safe"
         ],
         "foundAt": "2026-10-20"
       },

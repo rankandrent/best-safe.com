@@ -413,6 +413,7 @@ faqs:
       safety devices. This is general information, not legal advice.
 author: editorial-team
 related:
+  - best-hidden-gun-safe
   - how-to-bolt-down-a-safe
   - best-gun-safe-for-apartment
 heroImage: /images/featured/wall-mounted-gun-safe.png
