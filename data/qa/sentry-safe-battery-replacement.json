@@ -1,15 +1,12 @@
 {
   "slug": "sentry-safe-battery-replacement",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:36.789Z",
+  "checkedAt": "2026-10-22T14:40:41.225Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (503): https://www.sentrysafe.com/support/faqs/how-do-i-change-the-batteries-on-my-safe",
-    "source didn't respond normally (503): https://www.sentrysafe.com/support/lost-key-combo",
-    "source didn't respond normally (503): https://www.sentrysafe.com/support/product-manuals",
     "source didn't respond normally (503): https://www.lowes.com/n/how-to/change-batteries-in-a-safe",
     "source didn't respond normally (403): https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position",
     "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"

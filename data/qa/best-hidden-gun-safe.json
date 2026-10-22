@@ -1,11 +1,16 @@
 {
   "slug": "best-hidden-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-22T10:50:48.327Z",
+  "checkedAt": "2026-10-22T14:39:42.905Z",
   "errors": [],
   "warnings": [
     "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Hornady RAPiD Safe Night Guard\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"Hornady RAPiD Safe Night Guard\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://www.hornady.com/security/rapid-safes/rapid-safe-night-guard",
+    "source didn't respond normally (403): https://www.reddit.com/r/guns/comments/1sf4ydz/a_warning_about_tactical_traps_firearm/",
+    "source didn't respond normally (403): https://www.reddit.com/r/guns/comments/1kuqrg1/hidden_gun_safe_that_doesnt_use_rfid/",
+    "source didn't respond normally (403): https://www.reddit.com/r/CAguns/comments/1bof7uw/who_in_your_opinion_makes_the_best_quick_access/",
+    "source didn't respond normally (403): https://www.reddit.com/r/guns/comments/1ezeilr/about_to_become_a_dad_looking_for_advice_on/"
   ],
   "factCheck": {
     "verified": true,

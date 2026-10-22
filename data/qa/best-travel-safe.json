@@ -1,11 +1,12 @@
 {
   "slug": "best-travel-safe",
   "pass": true,
-  "checkedAt": "2026-10-22T10:51:53.595Z",
+  "checkedAt": "2026-10-22T14:40:01.343Z",
   "errors": [],
   "warnings": [
     "product \"Pacsafe Travelsafe GII 5L\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
   ],
   "factCheck": {
     "verified": true,
