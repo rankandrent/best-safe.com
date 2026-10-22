@@ -1,0 +1,16 @@
+{
+  "slug": "best-travel-safe",
+  "pass": true,
+  "checkedAt": "2026-10-22T10:51:53.595Z",
+  "errors": [],
+  "warnings": [
+    "product \"Pacsafe Travelsafe GII 5L\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified 2026-10-22 via Firecrawl: Pacsafe Travelsafe GII 5L specs (5 litres, 16.3x10.4x1.2 in, 0.91 lb, eXomesh 360, cut-resistant anchor strap, Travel Sentry approved combination lock, fits iPad Pro 11in, 750D recycled polyester water resistant 1000mm) and owner review quote on pacsafe.com product page; Vaultek LifePod 10 (interior 7.75x6x1.75 in, 2 lb 3 oz, T3 polymer, water resistant/airtight/dustproof, 4-digit backlit keypad, two backup keys, backup power port, up to 1 year battery, anti-impact latch, anti-picking switch, security cable attachment, TSA compliant) on vaulteksafe.com/pages/lifepod-10; AllOutdoor LifePod review (9V ~12 months, under driver's seat, 'just a lockbox', lid lip mitigates prying); Adventurous Kate review and comments (cut-open question, opportunistic vs professional thieves, bolt cutters, soaked under sink); Blissmersion (flimsy bundled lock); Quora answer quote; The High Road battery quote verbatim. ASINs: B074SQLBB3 = 'Pacsafe Travelsafe Gii 5 Liter Portable Safe (Black)', B07XTLXNJY = 'VAULTEK LifePod 10 Compact Lockable Weather Resistant Portable Case ... Steel Security Cable' (Amazon search results). Product selection: only these two were named by 2+ independent top-10 pages (UpgradedPoints, Adventurous Kate, Blissmersion, Joy and Journey; UpgradedPoints, Under30Experiences); other UpgradedPoints picks had only a YouTube video as second mention. No fire claims for either product; no legal advice, firearms/TSA rules pointed to official sources.",
+    "at": "2026-10-22T10:51:45.287Z",
+    "hash": "470da13c9ff85ff4"
+  }
+}

@@ -2248,7 +2248,7 @@
     "slug": "concealment-shelf"
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-18T00:00:00.000Z",
     "secondaryKeywords": [
@@ -2291,7 +2291,8 @@
       "forums": 2,
       "videos": 2
     },
-    "productCount": 15
+    "productCount": 15,
+    "publishedAt": "2026-10-22T10:52:20.483Z"
   },
   {
     "status": "published",

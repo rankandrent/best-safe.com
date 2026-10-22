@@ -358,10 +358,10 @@ faqs:
       electronic boxes.
 author: editorial-team
 related:
+  - best-travel-safe
   - best-home-safe
   - best-safe-brands
   - best-under-bed-gun-safe
-  - how-to-open-a-safe
 heroImage: /images/featured/best-pistol-safe.png
 heroAlt: >-
   Best Pistol Safe 2026 – 4 Quick-Access Picks for Home and Travel – Best Safe

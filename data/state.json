@@ -189,6 +189,13 @@
       "keyword": "best hidden gun safe",
       "category": "gun-safes",
       "funnel": "bofu"
+    },
+    {
+      "date": "2026-10-22",
+      "slug": "best-travel-safe",
+      "keyword": "best travel safe",
+      "category": "home-safes",
+      "funnel": "bofu"
     }
   ],
   "translated": []

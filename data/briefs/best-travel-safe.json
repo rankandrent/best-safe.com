@@ -10,34 +10,14 @@
   ],
   "entities": [
     {
-      "name": "Pacsafe Travelsafe GII",
+      "name": "Pacsafe Travelsafe GII 5L",
       "type": "product",
       "relation": "slash-resistant fabric safe with eXomesh wire and a locking cable, 3L, 5L and 12L"
     },
     {
-      "name": "Master Lock 5900D",
-      "type": "product",
-      "relation": "small hard-shell combination travel safe with a cable"
-    },
-    {
-      "name": "Vaultek LifePod",
+      "name": "Vaultek LifePod 10",
       "type": "product",
       "relation": "weather-resistant polymer lock box with keypad and backup key"
-    },
-    {
-      "name": "SAFEGO Portable Lock Box",
-      "type": "product",
-      "relation": "beach and pool lock box with key and 3-digit combination plus steel cable"
-    },
-    {
-      "name": "Amazon Basics Portable Security Case",
-      "type": "product",
-      "relation": "steel combination case with steel cable, California DOJ listed as a firearm safety device"
-    },
-    {
-      "name": "Dalmbox car gun safe",
-      "type": "product",
-      "relation": "steel combination lockbox with cable used for travel"
     },
     {
       "name": "hotel in-room safe",
@@ -75,7 +55,6 @@
     "portable travel safe",
     "hotel room safe",
     "steel security cable",
-    "set your own combination",
     "lock box",
     "passport and phone",
     "water resistant",
@@ -139,44 +118,40 @@
   "outline": [
     {
       "h2": "Best travel safe – quick answer and top picks",
-      "intent": "answer + picks by trip type",
+      "intent": "answer + 2 picks by trip type",
       "h3": []
     },
     {
       "h2": "How we picked these travel safes",
-      "intent": "method: products named by 2+ independent top-10 pages",
+      "intent": "method: only products named by 2+ independent top-10 pages; why the list is short",
       "h3": []
     },
     {
       "h2": "Travel safe reviews",
       "intent": "product detail",
       "h3": [
-        "Pacsafe Travelsafe GII",
-        "Master Lock 5900D",
-        "Vaultek LifePod",
-        "SAFEGO Portable Lock Box",
-        "Amazon Basics Portable Security Case",
-        "Dalmbox Car Safe"
+        "Pacsafe Travelsafe GII 5L",
+        "Vaultek LifePod 10"
       ]
     },
     {
       "h2": "Which travel safe for which trip",
-      "intent": "hotel, beach/pool, car, cruise, dorm (gap)",
+      "intent": "hotel, beach/pool, car, cruise, dorm with anchor points (gap)",
       "h3": []
     },
     {
-      "h2": "What a cable-tethered safe stops, and what it doesn't",
-      "intent": "honest security limits (pain point: cable not enough, flimsy lockbox)",
+      "h2": "Can a travel safe be cut open? What a cable stops, and what it doesn't",
+      "intent": "honest security limits (pain points: cut or carried off, cable not enough, flimsy lockbox)",
       "h3": []
     },
     {
-      "h2": "Locked out on the road: codes, batteries and the spare key",
-      "intent": "owner-side lockout prevention (pain point)",
+      "h2": "Locked out on the road – codes, batteries and the spare key",
+      "intent": "owner-side lockout prevention (pain points)",
       "h3": []
     },
     {
-      "h2": "Travel safe FAQs",
-      "intent": "questions",
+      "h2": "Are portable travel safes worth it?",
+      "intent": "verdict closing the opening scene, next links",
       "h3": []
     }
   ],
@@ -185,8 +160,9 @@
     "analyzedUrls": [
       "https://upgradedpoints.com/travel/best-portable-safes/",
       "https://blissmersion.com/best-portable-travel-safe-reviews/",
-      "https://www.youtube.com/watch?v=mx5ZtsDp2v4",
-      "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+      "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+      "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe",
+      "https://under30experiences.com/blog/travel-safety-items-you-cant-afford-to-travel-without"
     ],
     "productStyle": "pros-cons",
     "productStyleReason": "UpgradedPoints, the strongest roundup, gives each product What We Like / What We Don't Like bullets; Blissmersion uses paragraphs. The rest of the top 10 are stores, Reddit, Quora and videos.",
@@ -264,7 +240,7 @@
       "hotel, beach, pool",
       "reviews"
     ],
-    "gap": "No dedicated travel-safe roundup in the top 10: a page that matches the safe to the trip (hotel, beach, car) and is honest about what a cable stops"
+    "gap": "No dedicated travel-safe roundup in the top 10: a short, strict list that matches the safe to the trip (hotel, beach, car) and is honest about what a cable stops"
   },
   "commonPoints": [
     "Hotel safes are not fully trustworthy, so a portable safe adds a layer you control",
@@ -300,59 +276,35 @@
       "name": "Pacsafe Travelsafe GII 5L",
       "pages": [
         "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://blissmersion.com/best-portable-travel-safe-reviews/",
         "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
-        "https://www.tripadvisor.com/ShowTopic-g1-i12530-k10400416-Is_there_another_alternative_to_an_In_Room_Safe-Travel_Gadgets_and_Gear.html"
+        "https://blissmersion.com/best-portable-travel-safe-reviews/",
+        "https://joyandjourney.com/tuesday-travel-tools-portable-travel-safe/"
       ],
-      "asinCandidate": "B074SQLBB3 (5L; 12L is B074SQLGMT, 3L is B079Y7BZW6)"
+      "asin": "B074SQLBB3",
+      "note": "Top-10 pages for best travel safe / best portable safe for travel / portable travel safe (2026-10-22); Reddit r/TravelHacks thread (#4) also names Pacsafe"
     },
     {
-      "name": "Master Lock 5900D",
+      "name": "Vaultek LifePod 10",
       "pages": [
         "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://www.youtube.com/watch?v=mx5ZtsDp2v4"
+        "https://under30experiences.com/blog/travel-safety-items-you-cant-afford-to-travel-without"
       ],
-      "asinCandidate": "B005K6JQXQ"
+      "asin": "B07XTLXNJY"
     },
     {
-      "name": "Vaultek LifePod",
+      "name": "Master Lock 5900D, SAFEGO lock box, Amazon Basics security case, Dalmbox, SentrySafe portable, RPNB (not featured)",
       "pages": [
-        "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://www.youtube.com/watch?v=mx5ZtsDp2v4"
+        "https://upgradedpoints.com/travel/best-portable-safes/"
       ],
-      "asinCandidate": "B07XTLXNJY (LifePod 10 Covert Black, /clp/ page; writer to confirm the exact LifePod variant)"
+      "note": "Only one independent top-10 page each (the other mention is a YouTube video, which step 3 skips), so they do not qualify"
     },
     {
-      "name": "SAFEGO Portable Indoor/Outdoor Lock Box",
-      "pages": [
-        "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://www.youtube.com/watch?v=mx5ZtsDp2v4"
-      ],
-      "asinCandidate": "B017ROYKWK (black; B017RQUIC4 is another color)"
-    },
-    {
-      "name": "Amazon Basics Portable Security Case Lock Box",
-      "pages": [
-        "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://www.youtube.com/watch?v=mx5ZtsDp2v4"
-      ],
-      "asinCandidate": "B077K2QNVD (B077K3FJHC / B077K1YH8Z are size variants)"
-    },
-    {
-      "name": "Dalmbox Car Gun Safe (combination, cable)",
-      "pages": [
-        "https://upgradedpoints.com/travel/best-portable-safes/",
-        "https://www.youtube.com/watch?v=mx5ZtsDp2v4"
-      ],
-      "asinCandidate": "not searched (lower priority; writer to search 'Dalmbox car gun safe site:amazon.com' if used)"
-    },
-    {
-      "name": "Trova Biometric Vault / AquaVault FlexSafe / SentrySafe P005K (one page each, do not feature)",
+      "name": "Trova Biometric Vault, AquaVault FlexSafe (not featured)",
       "pages": [
         "https://www.travelandleisure.com/best-travel-safety-products-6833148",
         "https://blissmersion.com/best-portable-travel-safe-reviews/"
       ],
-      "asinCandidate": null
+      "note": "one top-10 page each"
     }
   ],
   "painPoints": [
@@ -452,20 +404,64 @@
           "via": "search-excerpt"
         }
       ]
+    },
+    {
+      "id": "home-safes-travel-safe-cut-or-carried-off",
+      "pain": "Travelers fear a fabric or cable-tethered travel safe can simply be cut open or carried off",
+      "details": "Mesh and cable stop opportunistic grab-and-go theft, not a prepared thief with cutters and time.",
+      "sources": [
+        "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+        "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
+      ],
+      "quotes": [
+        {
+          "text": "What stops a thief from just cutting the bag open?",
+          "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+        },
+        {
+          "text": "They’re not going to stop anyone serious.",
+          "url": "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
+        }
+      ]
+    },
+    {
+      "id": "home-safes-hotel-safe-distrust-too-small",
+      "pain": "Travelers don't trust the hotel room safe (staff can open it) or find it too small for a laptop",
+      "details": "Room safes can be opened by staff, are missing in guesthouses and rentals, and many barely fit a passport and a small laptop.",
+      "sources": [
+        "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+        "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+      ],
+      "quotes": [
+        {
+          "text": "it feels like any staff member could potentially open a room safe if needed",
+          "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe"
+        },
+        {
+          "text": "But those hotel safes are often tiny",
+          "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+        }
+      ]
     }
   ],
   "stats": [
     {
-      "number": "12 litres",
-      "claim": "capacity of the largest Pacsafe Travelsafe GII (maker spec)",
-      "url": "https://pacsafe.com/products/travelsafe-3l-gii-anti-theft-portable-safe",
-      "quote": "This portable, 12L safe packs 360° wire eXomesh® technology and a stainless steel locking cable to anchor your things to any immovable object"
-    },
-    {
       "number": "1000mm",
       "claim": "Pacsafe's stated water resistance for the Travelsafe fabric",
-      "url": "https://pacsafe.com/products/travelsafe-3l-gii-anti-theft-portable-safe",
+      "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
       "quote": "750D Recycled polyester, Water resistant 1000mm, PFC free"
+    },
+    {
+      "number": "5 litres",
+      "claim": "capacity of the Travelsafe 5L GII (maker spec)",
+      "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+      "quote": "Volume:5 litres"
+    },
+    {
+      "number": "7.75″ L x 6″ W x 1.75” H",
+      "claim": "Vaultek LifePod 10 interior (maker spec)",
+      "url": "https://vaulteksafe.com/pages/lifepod-10",
+      "quote": "With interior dimensions of 7.75″ L x 6″ W x 1.75” H in available space"
     },
     {
       "number": "2.3 in x 9.5 in x 4.9 in",
@@ -482,5 +478,6 @@
       "url": "https://www.youtube.com/watch?v=8a-g7XtHXIk",
       "section": "Which travel safe for which trip"
     }
-  ]
+  ],
+  "productCount": 2
 }

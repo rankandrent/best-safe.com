@@ -337,6 +337,8 @@ heroImage: /images/featured/best-home-safe.png
 heroAlt: >-
   Best Home Safe – 3 Picks Sorted by Fire, Theft and Size – Best Safe buying
   guide
+related:
+  - best-travel-safe
 ---
 
 The question comes up in nearly the same words on Reddit's safe forums: "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?" Picture the person asking. Passports, a house deed, some cash and a grandmother's ring are in a desk drawer, and the budget is modest. For that buyer, the best home safe is the SentrySafe SFW123GDC: it carries an independent UL fire rating and enough steel to slow a casual thief, as long as it is bolted down. If theft is the only worry, a budget steel keypad safe does more for the money, and a small biometric box suits a handgun or jewelry you reach for often.

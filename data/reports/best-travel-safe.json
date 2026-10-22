@@ -1,0 +1,503 @@
+{
+  "keyword": "best travel safe",
+  "createdAt": "2026-10-22T10:52:20.485Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "travel safe",
+    "entityVariants": [
+      "portable travel safe",
+      "portable safe",
+      "best portable safe for travel",
+      "hotel room safe portable",
+      "travel lock box",
+      "anti-theft portable safe"
+    ],
+    "entities": [
+      {
+        "name": "Pacsafe Travelsafe GII 5L",
+        "type": "product",
+        "relation": "slash-resistant fabric safe with eXomesh wire and a locking cable, 3L, 5L and 12L"
+      },
+      {
+        "name": "Vaultek LifePod 10",
+        "type": "product",
+        "relation": "weather-resistant polymer lock box with keypad and backup key"
+      },
+      {
+        "name": "hotel in-room safe",
+        "type": "concept",
+        "relation": "the safe the reader may not trust; staff hold override access"
+      },
+      {
+        "name": "steel security cable",
+        "type": "feature",
+        "relation": "tethers the safe to a fixed object; the weak point owners worry about"
+      },
+      {
+        "name": "TSA",
+        "type": "organization",
+        "relation": "air travel screening; TSA-accepted locks and firearm case rules"
+      },
+      {
+        "name": "eXomesh",
+        "type": "material",
+        "relation": "Pacsafe's stainless steel wire mesh in the fabric"
+      }
+    ],
+    "attributes": [
+      "lock type (combination, keypad, key, biometric)",
+      "backup entry",
+      "cable thickness and length",
+      "shell material (steel, ABS/zinc blend, mesh fabric)",
+      "interior size and what fits (passport, phone, tablet, laptop)",
+      "weight and packability",
+      "water resistance vs waterproof",
+      "TSA-accepted lock",
+      "anchor points in a hotel room, car or beach"
+    ],
+    "ngrams": [
+      "portable travel safe",
+      "hotel room safe",
+      "steel security cable",
+      "lock box",
+      "passport and phone",
+      "water resistant",
+      "beach and pool",
+      "anchor it to",
+      "fixed object",
+      "anti-theft"
+    ],
+    "skipgrams": [
+      "cable…fixed object",
+      "safe…hotel room",
+      "passport…phone",
+      "combination…backup key",
+      "water…resistant",
+      "lock…TSA"
+    ],
+    "nlpTerms": [
+      "portable safe",
+      "travel safe",
+      "lock box",
+      "cable",
+      "tether",
+      "combination",
+      "keypad",
+      "backup key",
+      "anti-pry",
+      "slash-resistant",
+      "wire mesh",
+      "steel",
+      "passport",
+      "phone",
+      "laptop",
+      "tablet",
+      "cash",
+      "jewelry",
+      "hotel",
+      "beach",
+      "pool",
+      "cruise",
+      "car",
+      "dorm",
+      "water resistant",
+      "TSA"
+    ],
+    "questions": [
+      "Are portable travel safes worth it?",
+      "Can a travel safe be cut open?",
+      "Is a portable safe better than the hotel safe?",
+      "What can I anchor a travel safe to in a hotel room?",
+      "Can I take a portable safe on a plane?",
+      "Which travel safe fits a laptop?",
+      "Are beach safes waterproof?"
+    ],
+    "contentGaps": [
+      "What a cable tether really stops (grab-and-go theft) and what it does not (cable cutters, time alone with the safe)",
+      "Matching the safe to the trip: beach/pool, hotel room, car, cruise cabin, dorm, each with a different anchor point",
+      "Lockouts on the road: a forgotten code or dead keypad battery with no locksmith nearby, and where to keep the backup key",
+      "Water resistant vs waterproof claims and what the maker actually rates (e.g. Pacsafe 1000mm)",
+      "Which travel cases double as firearm cases and that air travel and state firearm rules are the reader's to check (no legal advice)"
+    ],
+    "outline": [
+      {
+        "h2": "Best travel safe – quick answer and top picks",
+        "intent": "answer + 2 picks by trip type",
+        "h3": []
+      },
+      {
+        "h2": "How we picked these travel safes",
+        "intent": "method: only products named by 2+ independent top-10 pages; why the list is short",
+        "h3": []
+      },
+      {
+        "h2": "Travel safe reviews",
+        "intent": "product detail",
+        "h3": [
+          "Pacsafe Travelsafe GII 5L",
+          "Vaultek LifePod 10"
+        ]
+      },
+      {
+        "h2": "Which travel safe for which trip",
+        "intent": "hotel, beach/pool, car, cruise, dorm with anchor points (gap)",
+        "h3": []
+      },
+      {
+        "h2": "Can a travel safe be cut open? What a cable stops, and what it doesn't",
+        "intent": "honest security limits (pain points: cut or carried off, cable not enough, flimsy lockbox)",
+        "h3": []
+      },
+      {
+        "h2": "Locked out on the road – codes, batteries and the spare key",
+        "intent": "owner-side lockout prevention (pain points)",
+        "h3": []
+      },
+      {
+        "h2": "Are portable travel safes worth it?",
+        "intent": "verdict closing the opening scene, next links",
+        "h3": []
+      }
+    ],
+    "targetWords": 1400,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://upgradedpoints.com/travel/best-portable-safes/",
+        "https://blissmersion.com/best-portable-travel-safe-reviews/",
+        "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+        "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe",
+        "https://under30experiences.com/blog/travel-safety-items-you-cant-afford-to-travel-without"
+      ],
+      "productStyle": "pros-cons",
+      "productStyleReason": "UpgradedPoints, the strongest roundup, gives each product What We Like / What We Don't Like bullets; Blissmersion uses paragraphs. The rest of the top 10 are stores, Reddit, Quora and videos.",
+      "avgWords": 1300,
+      "avgProducts": 6,
+      "commonSections": [
+        "what to consider (lock type, material, size)",
+        "product picks with short reviews",
+        "why use a portable safe instead of the hotel safe",
+        "final thoughts"
+      ],
+      "usesComparisonTable": false,
+      "usesFaq": false,
+      "usesBuyingGuide": true
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://pacsafe.com/collections/portable-safes",
+        "title": "Buy Portable Travel Safes Online | Pacsafe Travel & Anti-Theft Gear"
+      },
+      {
+        "position": 2,
+        "url": "https://www.amazon.com/portable-travel-safe/s?k=portable+travel+safe",
+        "title": "Portable Travel Safe - Amazon.com"
+      },
+      {
+        "position": 3,
+        "url": "https://www.travelandleisure.com/best-travel-safety-products-6833148",
+        "title": "The 12 Best Travel Safety Devices, According to T+L Editors"
+      },
+      {
+        "position": 4,
+        "url": "https://www.reddit.com/r/TravelHacks/comments/189n4ym/can_anyone_recommend_a_small_travel_safe/",
+        "title": "Can anyone recommend a small travel safe? - Reddit"
+      },
+      {
+        "position": 5,
+        "url": "https://www.youtube.com/watch?v=mx5ZtsDp2v4",
+        "title": "Best Portable Travel Safe Reviews (2025) - YouTube"
+      },
+      {
+        "position": 6,
+        "url": "https://www.sentrysafe.com/portable-safes",
+        "title": "Portable Safes | SentrySafe"
+      },
+      {
+        "position": 7,
+        "url": "https://www.bestbuy.com/site/shop/travel-safes",
+        "title": "Travel Safes - Best Buy"
+      },
+      {
+        "position": 8,
+        "url": "https://www.youtube.com/watch?v=VqAmcpa3pfQ",
+        "title": "The Only Travel Safety Gear Worth Using (and what to skip) - YouTube"
+      },
+      {
+        "position": 9,
+        "url": "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe",
+        "title": "What is the best portable, lightweight travel safe? - Quora"
+      },
+      {
+        "position": 10,
+        "url": "https://under30experiences.com/blog/travel-safety-items-you-cant-afford-to-travel-without",
+        "title": "12 Travel Safety Items You Can't Afford to Travel Without"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 1,
+      "withYear": 1,
+      "withNumber": 3,
+      "commonModifiers": [
+        "portable",
+        "anti-theft",
+        "hotel, beach, pool",
+        "reviews"
+      ],
+      "gap": "No dedicated travel-safe roundup in the top 10: a short, strict list that matches the safe to the trip (hotel, beach, car) and is honest about what a cable stops"
+    },
+    "commonPoints": [
+      "Hotel safes are not fully trustworthy, so a portable safe adds a layer you control",
+      "Tether the safe to a fixed object with its steel cable",
+      "Pick the lock type you can live with: combination, key or keypad",
+      "Size it to what you carry: passport, phone, cards, cash, maybe a tablet or laptop",
+      "Most are water resistant, not waterproof"
+    ],
+    "ourGain": [
+      {
+        "point": "Trip-by-trip pick: beach/pool lock box vs hotel-room mesh safe vs car lockbox, with the anchor point for each",
+        "source": "https://upgradedpoints.com/travel/best-portable-safes/ (lists products but never matches them to a trip type)"
+      },
+      {
+        "point": "Honest limits: a cable and a 3-digit lock stop grab-and-go theft, not a thief with cutters and time; the reviews themselves concede the bag 'could theoretically be torn by heavy tools'",
+        "source": "https://upgradedpoints.com/travel/best-portable-safes/, pain point vehicle-safes-lockbox-cable-not-enough"
+      },
+      {
+        "point": "The bundled combination lock on the fabric safe is the weak part; reviewers suggest replacing it and practising before the trip",
+        "source": "https://blissmersion.com/best-portable-travel-safe-reviews/"
+      },
+      {
+        "point": "Maker-rated water resistance (Pacsafe 1000mm) vs 'water resistant' with no number (Master Lock), and why neither is a dry box for the surf",
+        "source": "https://pacsafe.com/products/travelsafe-3l-gii-anti-theft-portable-safe, https://www.masterlock.com/personal-use/product/5900D"
+      },
+      {
+        "point": "Lockout plan for the road: spare key carried apart from the safe, keypad battery swap before departure",
+        "source": "pain points safe-guides-battery-dies-locks-owner-out, lock-boxes-forgot-or-changed-own-code"
+      }
+    ],
+    "serpProducts": [
+      {
+        "name": "Pacsafe Travelsafe GII 5L",
+        "pages": [
+          "https://upgradedpoints.com/travel/best-portable-safes/",
+          "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+          "https://blissmersion.com/best-portable-travel-safe-reviews/",
+          "https://joyandjourney.com/tuesday-travel-tools-portable-travel-safe/"
+        ],
+        "asin": "B074SQLBB3",
+        "note": "Top-10 pages for best travel safe / best portable safe for travel / portable travel safe (2026-10-22); Reddit r/TravelHacks thread (#4) also names Pacsafe"
+      },
+      {
+        "name": "Vaultek LifePod 10",
+        "pages": [
+          "https://upgradedpoints.com/travel/best-portable-safes/",
+          "https://under30experiences.com/blog/travel-safety-items-you-cant-afford-to-travel-without"
+        ],
+        "asin": "B07XTLXNJY"
+      },
+      {
+        "name": "Master Lock 5900D, SAFEGO lock box, Amazon Basics security case, Dalmbox, SentrySafe portable, RPNB (not featured)",
+        "pages": [
+          "https://upgradedpoints.com/travel/best-portable-safes/"
+        ],
+        "note": "Only one independent top-10 page each (the other mention is a YouTube video, which step 3 skips), so they do not qualify"
+      },
+      {
+        "name": "Trova Biometric Vault, AquaVault FlexSafe (not featured)",
+        "pages": [
+          "https://www.travelandleisure.com/best-travel-safety-products-6833148",
+          "https://blissmersion.com/best-portable-travel-safe-reviews/"
+        ],
+        "note": "one top-10 page each"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "vehicle-safes-lockbox-cable-not-enough",
+        "pain": "A cable-tethered lockbox in the car feels like it only slows a thief, not stops one",
+        "details": "CCW carriers who must leave a pistol in the car worry about vehicle break-ins and ask whether a cable box is enough versus a safe bolted to the car. Many end up looking at console safes or bolted-down options.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/",
+          "https://www.reddit.com/r/CCW/comments/1u3w6fr/securing_carry_gun_in_car/",
+          "https://www.reddit.com/r/Firearms/comments/ccjka0/good_reminder_to_not_get_your_gun_stolen_outta/",
+          "https://www.reddit.com/r/concealedcarry/comments/1aqw3ms/keeping_a_weapon_in_the_car_is_it_safe/"
+        ],
+        "quotes": [
+          {
+            "text": "A console safe that is attached to the vehicle is quite a bit better than a lock box with a cable.",
+            "url": "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "Best would be an actual safe, bolted to the vehicle somewhere out of plain view.",
+            "url": "https://www.reddit.com/r/Firearms/comments/ccjka0/good_reminder_to_not_get_your_gun_stolen_outta/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "It absolutely is not safe to keep an unlocked weapon in a car, 70% of stolen firearms are from vehicles.",
+            "url": "https://www.reddit.com/r/concealedcarry/comments/1aqw3ms/keeping_a_weapon_in_the_car_is_it_safe/",
+            "via": "search-excerpt"
+          }
+        ]
+      },
+      {
+        "id": "vehicle-safes-cheap-lockbox-flimsy",
+        "pain": "Low-end pistol lockboxes feel flimsy and limited in protection for the price",
+        "details": "Buyers compare cheap lockboxes with real safes and find the cheap ones thin; they ask what a budget vehicle box can realistically do.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/",
+          "https://www.reddit.com/r/CCW/comments/11o3sdm/whats_the_best_way_to_secure_my_gun_in_a_vehicle/"
+        ],
+        "quotes": [
+          {
+            "text": "Compared to their actual safes, they're still incredibly cheap and very limited in terms of protection.",
+            "url": "https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/",
+            "via": "search-excerpt"
+          }
+        ]
+      },
+      {
+        "id": "safe-guides-battery-dies-locks-owner-out",
+        "pain": "Keypad battery dies and the owner is locked out, often with no spare key",
+        "details": "Owners report dead keypads and no key option, then pay a locksmith. Long-time owners swap the 9V on a schedule with a name-brand alkaline and note the date. Prevention and manufacturer support are the safe path.",
+        "sources": [
+          "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/",
+          "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/",
+          "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/",
+          "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/",
+          "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/",
+          "https://www.quora.com/Why-wont-my-SentrySafe-Security-Safe-T6-331-lock-I-changed-the-batteries-but-when-I-close-it-the-lever-will-not-go-all-the-way-to-the-right-into-the-locked-position"
+        ],
+        "quotes": [
+          {
+            "text": "I change the 9v battery on the keypad every 6 months whether it is needed or not.",
+            "url": "https://www.thehighroad.org/index.php?threads/winchester-safe.917886/"
+          },
+          {
+            "text": "If anything I would tape a date when you installed new batteries and just exchange them every year, regardless of use.",
+            "url": "https://www.thehighroad.org/index.php?threads/gun-safe-problem.913243/"
+          },
+          {
+            "text": "Safe batteries dead and key not unlocking.",
+            "url": "https://www.reddit.com/r/Safes/comments/1p4wqay/safe_batteries_dead_and_key_not_unlocking/"
+          },
+          {
+            "text": "My Safe Batteries died , keypad doesn't respond and no key option",
+            "url": "https://www.reddit.com/r/Safes/comments/1ndf1gh/my_safe_batteries_died_keypad_doesnt_respond_and/"
+          }
+        ]
+      },
+      {
+        "id": "lock-boxes-forgot-or-changed-own-code",
+        "pain": "The owner forgets the code, or someone in the household changes it, and the box will not close or open",
+        "details": "Resettable boxes are easy to change by accident: a partner removes the spare key, closes the box and resets the combination, or the owner forgets the code and the box will not latch. The safe path for your own box is to write the code down somewhere secure and use the maker's reset steps or code-recovery service with proof of ownership.",
+        "sources": [
+          "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/",
+          "https://www.reddit.com/r/lockpicking/comments/4xj4g9/forgot_code_to_my_master_lock_and_now_it_wont/",
+          "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/"
+        ],
+        "quotes": [
+          {
+            "text": "My partner managed to take the spare key out, close the box and somehow change the combination.",
+            "url": "https://www.reddit.com/r/DIYUK/comments/1130ufo/any_tips_for_opening_one_of_these/",
+            "via": "search-excerpt"
+          },
+          {
+            "text": "First hit the reset on the bottom, then punch in the code.",
+            "url": "https://www.reddit.com/r/maintenance/comments/1i28vtb/anyone_been_successful_at_opening_this_master/",
+            "via": "search-excerpt"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-travel-safe-cut-or-carried-off",
+        "pain": "Travelers fear a fabric or cable-tethered travel safe can simply be cut open or carried off",
+        "details": "Mesh and cable stop opportunistic grab-and-go theft, not a prepared thief with cutters and time.",
+        "sources": [
+          "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/",
+          "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
+        ],
+        "quotes": [
+          {
+            "text": "What stops a thief from just cutting the bag open?",
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+          },
+          {
+            "text": "They’re not going to stop anyone serious.",
+            "url": "https://www.quora.com/What-is-the-best-portable-lightweight-travel-safe"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-hotel-safe-distrust-too-small",
+        "pain": "Travelers don't trust the hotel room safe (staff can open it) or find it too small for a laptop",
+        "details": "Room safes can be opened by staff, are missing in guesthouses and rentals, and many barely fit a passport and a small laptop.",
+        "sources": [
+          "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+          "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+        ],
+        "quotes": [
+          {
+            "text": "it feels like any staff member could potentially open a room safe if needed",
+            "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe"
+          },
+          {
+            "text": "But those hotel safes are often tiny",
+            "url": "https://www.adventurouskate.com/the-most-important-item-i-pack-pacsafe-travelsafe-review/"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "number": "1000mm",
+        "claim": "Pacsafe's stated water resistance for the Travelsafe fabric",
+        "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+        "quote": "750D Recycled polyester, Water resistant 1000mm, PFC free"
+      },
+      {
+        "number": "5 litres",
+        "claim": "capacity of the Travelsafe 5L GII (maker spec)",
+        "url": "https://pacsafe.com/products/travelsafe-5l-gii-anti-theft-portable-safe",
+        "quote": "Volume:5 litres"
+      },
+      {
+        "number": "7.75″ L x 6″ W x 1.75” H",
+        "claim": "Vaultek LifePod 10 interior (maker spec)",
+        "url": "https://vaulteksafe.com/pages/lifepod-10",
+        "quote": "With interior dimensions of 7.75″ L x 6″ W x 1.75” H in available space"
+      },
+      {
+        "number": "2.3 in x 9.5 in x 4.9 in",
+        "claim": "Master Lock 5900D exterior size (maker spec)",
+        "url": "https://www.masterlock.com/personal-use/product/5900D",
+        "quote": "Set Your Own Combination Portable Personal Safe, 2.3 in x 9.5 in x 4.9 in"
+      }
+    ],
+    "videos": [
+      {
+        "id": "8a-g7XtHXIk",
+        "title": "Pacsafe Travelsafe | Portable Safe for Securing Your Valuables While Traveling",
+        "channel": "Trip Astute",
+        "url": "https://www.youtube.com/watch?v=8a-g7XtHXIk",
+        "section": "Which travel safe for which trip"
+      }
+    ],
+    "productCount": 2
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-home-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-safe-brands",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-pistol-safe",
+      "mode": "related-box"
+    }
+  ]
+}
