@@ -31,6 +31,8 @@ conflicts with an old one, ask the owner which wins and record the answer). Comm
   Search Console properties (secret GSC_SERVICE_ACCOUNT_JSON in the rentersmarthome.us repo).
 - www.<domain> 301s to the bare domain (functions/_middleware.js); /search/ stays noindex, follow.
 - Products are written in first person (I, my, me, we, our, us), never with fake testing or ownership claims.
+- Older posts are converted to first-person product write-ups gradually (owner decision 2026-10-23): only when the
+  daily improve-agent picks a post, never as a bulk rewrite. QA only warns on posts that went live before 2026-10-24.
 - Max 3 outside links in an article body; "best X for Y" keywords first; no fabricated prices, ratings or tests.
 - Backlinks: white-hat only (no paid links, PBNs, exchanges); the off-page agent prompt is
   rentersmarthome.us/docs/offpage-agent-prompt.md.
