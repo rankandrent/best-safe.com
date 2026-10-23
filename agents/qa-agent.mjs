@@ -184,6 +184,16 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     const firstPerson = (body.match(/\b(I|I'd|I'm|I've|my|me|we|we'd|we're|we've|our|us)\b/g) ?? []).length;
     if (firstPerson < 10) err(`only ${firstPerson} first-person words (I, my, me, we, our, us); use at least 10`);
     if (!/^>\s*\*\*From our notes:\*\*/m.test(body)) err('missing the "> **From our notes:**" personal story block');
+    // Owner rule 2026-10-23: the whole post, product write-ups included, reads in first person (I, my, me, we, our, us).
+    // Posts going live from 2026-10-24 must meet it; older posts get a warning until they are next improved.
+    {
+      const fpOf = (s) => (String(s ?? '').match(/\b(I|I'd|I'm|I've|I'll|my|me|we|we'd|we're|we've|our|us)\b/g) ?? []).length;
+      const fpFlag = pub >= Date.parse('2026-10-24T00:00:00Z') ? err : warn;
+      const need = Math.max(10, Math.round(body.split(/\s+/).filter(Boolean).length / 100));
+      if (firstPerson < need) fpFlag(`only ${firstPerson} first-person words; owner rule wants at least ${need} (about 1 per 100 words: I, my, me, we, our, us)`);
+      const thirdPerson = (d.products ?? []).filter((x) => !fpOf(`${x.summary ?? ''} ${x.scoreNote ?? ''}`)).map((x) => x.name);
+      if (thirdPerson.length) fpFlag(`product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. "I picked it because…"): ${thirdPerson.join('; ')}`);
+    }
   }
 
   // --- Style: locked "we" voice and no entity stuffing (errors from styleRequiredFrom, warnings before)
@@ -194,7 +204,8 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     const voiceText = body.replace(/\]\([^)]*\)/g, ']');
     const quotedOut = voiceText.replace(/“[^”]*”|"[^"\n]*"/g, ' '); // a real person's quoted words may say I/my/me
     const singular = (quotedOut.match(/\b(I|I'd|I'm|I've|I'll|my|me)\b/g) ?? []).length;
-    if (singular) flag(`${singular} first-person singular words (I, my, me): the byline is the editorial team, write "we/our/us"`);
+    // Owner rule 2026-10-23: first person singular (I, my, me) is welcome too, so `singular` is no longer flagged.
+    void singular;
     const words = body.split(/\s+/).filter(Boolean).length;
     const cap = Math.max(10, Math.round((words / 3000) * 10));
     for (const p of d.products ?? []) {

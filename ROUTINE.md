@@ -17,6 +17,13 @@ fingerprint readers and keypads), capacity, value}, each 1-10 using the rubric o
 one-line `scoreNote` with the reasons. The site computes the 1-5 score and the Product + Review schema. Never use or
 copy Amazon (or any store's) star ratings or review counts.
 
+**First-person product write-ups (owner rule 2026-10-23):** the whole post reads in first person, including every
+product write-up: the product `summary`, `scoreNote`, pros/cons wording and each product's section in the body
+(I, my, me, we, our, us; about 1 per 100 words, at least 10). Write it as the reviewer's own judgement from research:
+"I picked the X because…", "my pick for…", "what I like is…", "I'd skip it if…", "we found owners saying…". First
+person never turns into a fake experience: no "I tested / used / installed / bought" unless `data/stories.json` says
+so. QA errors on posts going live from 2026-10-24 (warns on older ones until they are next improved).
+
 **Voice and personal story (every post):** first person throughout (I, my, me, we, our, us; at least 10 uses),
 plus one `> **From our notes:**` story block (60-120 words). Use a real owner story from `data/stories.json` if one
 fits, otherwise a true research story (how we compared the products, what stood out in the manuals and specs), or a
