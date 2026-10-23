@@ -338,6 +338,7 @@ heroAlt: >-
   Best Home Safe – 3 Picks Sorted by Fire, Theft and Size – Best Safe buying
   guide
 related:
+  - best-jewelry-safe-for-home
   - best-travel-safe
 ---
 

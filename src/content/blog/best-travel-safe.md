@@ -273,6 +273,8 @@ videos:
     afterHeading: 4
 heroImage: /images/featured/best-travel-safe.png
 heroAlt: 'Best Travel Safe – 2 Picks for Hotel Rooms, Beaches and Cars – Best Safe guide'
+related:
+  - best-jewelry-safe-for-home
 ---
 
 You are heading to the pool, the room safe is too small for the tablet, and your passport is sitting on the nightstand of a guesthouse you checked into an hour ago. That moment is why people search for the best travel safe. Our short answer: a Pacsafe Travelsafe GII 5L for hotel rooms, hostels and beach loungers, and a Vaultek LifePod 10 for the car or a handgun on the road. Either portable travel safe stops a quick grab, as long as its cable is tied to a fixed object that cannot walk away.

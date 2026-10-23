@@ -1,0 +1,467 @@
+{
+  "keyword": "best jewelry safe for home",
+  "createdAt": "2026-10-23T10:48:42.740Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "jewelry safe",
+    "entityVariants": [
+      "jewelry safes",
+      "jewelry safe for home",
+      "best jewelry safe for home",
+      "safe for jewelry",
+      "home jewelry safe",
+      "jewelry safe for closet"
+    ],
+    "entities": [
+      {
+        "name": "jewelry safe",
+        "type": "product category",
+        "relation": "central entity"
+      },
+      {
+        "name": "burglary rating",
+        "type": "attribute",
+        "relation": "what matters most for small, high-value jewelry"
+      },
+      {
+        "name": "fire rating",
+        "type": "attribute",
+        "relation": "secondary protection; must name the certifier"
+      },
+      {
+        "name": "UL 1037",
+        "type": "standard",
+        "relation": "Residential Security Container burglary standard (5-minute hand-tool attack at level one)"
+      },
+      {
+        "name": "TL-15",
+        "type": "rating",
+        "relation": "UL tool-resistance rating owners recommend for high-value jewelry"
+      },
+      {
+        "name": "UL Classified",
+        "type": "certification",
+        "relation": "independent fire classification on the SentrySafe pick"
+      },
+      {
+        "name": "ETL",
+        "type": "certification",
+        "relation": "Intertek water verification on the SentrySafe pick"
+      },
+      {
+        "name": "SentrySafe SFW123GDC",
+        "type": "product",
+        "relation": "only pick that two independent top-10 pages recommend and Amazon sells"
+      },
+      {
+        "name": "bolt-down",
+        "type": "attribute",
+        "relation": "anchoring stops carry-off"
+      },
+      {
+        "name": "backup key",
+        "type": "attribute",
+        "relation": "secondary entry when the keypad fails"
+      },
+      {
+        "name": "desiccant",
+        "type": "accessory",
+        "relation": "controls moisture and tarnish in a sealed fire safe"
+      },
+      {
+        "name": "safe dealer",
+        "type": "seller",
+        "relation": "where burglary-rated jewelry safes with drawers are sold"
+      }
+    ],
+    "attributes": [
+      "burglary rating and certifier",
+      "fire rating, duration, temperature and certifier",
+      "water rating",
+      "lock type and backup entry",
+      "locking bolts",
+      "interior size and drawers",
+      "weight",
+      "bolt-down hardware",
+      "interior light"
+    ],
+    "ngrams": [
+      "jewelry safe",
+      "burglary rating",
+      "fire rating",
+      "bolt down",
+      "backup key",
+      "safe dealer",
+      "locking drawer",
+      "live-locking bolts",
+      "anti-tarnish"
+    ],
+    "skipgrams": [
+      "jewelry…burglars",
+      "fire…burglary",
+      "safe…bolted",
+      "keypad…backup key",
+      "UL…classified"
+    ],
+    "nlpTerms": [
+      "rings",
+      "necklaces",
+      "watches",
+      "heirlooms",
+      "closet",
+      "pry-resistant hinge bar",
+      "relative humidity",
+      "silica",
+      "decoy",
+      "insurance",
+      "forced entry",
+      "precious metals"
+    ],
+    "questions": [
+      "What is the best jewelry safe for home use?",
+      "Is a fireproof safe good enough for jewelry?",
+      "What burglary rating should a jewelry safe have?",
+      "Where should I put a jewelry safe at home?",
+      "Will jewelry tarnish inside a fire safe?",
+      "Should I bolt down a small jewelry safe?"
+    ],
+    "contentGaps": [
+      "Nobody ranks jewelry protection by recovery odds: the FBI recovers only 3.5 percent of the value of stolen jewelry and precious metals",
+      "Store pages blur fire labels and burglary labels; none say which certifier stands behind each",
+      "No affordable Amazon-sold safe in the SERP carries a burglary rating, and the guides do not say so plainly",
+      "Moisture and tarnish inside sealed fire safes is not covered for jewelry",
+      "Decoy and two-safe setups owners use are missing from the guides"
+    ],
+    "outline": [
+      {
+        "h2": "Best jewelry safe for home – short answer",
+        "intent": "direct answer and the one pick",
+        "h3": []
+      },
+      {
+        "h2": "Why a jewelry safe has to stop burglars first",
+        "intent": "FBI recovery stat; fire vs burglary choice",
+        "h3": []
+      },
+      {
+        "h2": "Our pick – a fire-rated jewelry safe you can buy today",
+        "intent": "the SentrySafe pick with specs and owner feedback",
+        "h3": [
+          "SentrySafe SFW123GDC: Best fire-rated jewelry safe on a budget"
+        ]
+      },
+      {
+        "h2": "When your jewelry needs a burglary-rated safe",
+        "intent": "UL RSC, TL-15, dealer safes",
+        "h3": []
+      },
+      {
+        "h2": "Where to put a jewelry safe and how to anchor it",
+        "intent": "closet placement, bolt-down, decoy",
+        "h3": []
+      },
+      {
+        "h2": "Problems jewelry safe owners run into, and the fix",
+        "intent": "pain points: lockout, moisture and tarnish, ratings confusion",
+        "h3": [
+          "Locked out by a dead keypad or lost key",
+          "Moisture, mold and tarnish",
+          "Ratings that are hard to compare"
+        ]
+      },
+      {
+        "h2": "Which jewelry safe should you buy?",
+        "intent": "verdict closing the opening scene",
+        "h3": []
+      }
+    ],
+    "targetWords": 1700,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://nwsafe.com/blogs/tips/best-jewelry-safe",
+        "https://coconosafes.com/blogs/piece-of-mind/best-jewelry-safes-2026",
+        "https://americansecuritysafes.com/how-to-choose-the-best-jewelry-safe-for-your-home/",
+        "https://www.businessinsider.com/guides/home/best-home-safe"
+      ],
+      "productStyle": "specs",
+      "productStyleReason": "The jewelry guides (Cocono, AMSEC, Northwest Safe) present each safe as a short bullet list of specs and features (fire minutes, door steel, size, weight, drawers) rather than pros/cons lists.",
+      "avgWords": 1750,
+      "avgProducts": 5,
+      "commonSections": [
+        "why you need a jewelry safe",
+        "features to look for (construction, lock, interior)",
+        "fire protection",
+        "where to install / bolting down",
+        "recommended safes",
+        "which to buy"
+      ],
+      "usesComparisonTable": true,
+      "usesFaq": true,
+      "usesBuyingGuide": true,
+      "note": "6 of the top 10 for the primary keyword are store or maker catalog pages (Mycube, TigerKing, Brown Safe, NationwideSafes, Dean Safe, Amazon search). The guide angle comes from Northwest Safe, Cocono, AMSEC and Business Insider. Word counts are approximate main-text counts: Northwest Safe ~950, Cocono ~1,250, AMSEC ~1,200, Business Insider ~3,600."
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://mycubesafe.com/collections/jewelry-safes",
+        "title": "Jewelry Safes - Mycube Safe"
+      },
+      {
+        "position": 2,
+        "url": "https://www.businessinsider.com/guides/home/best-home-safe",
+        "title": "The Best Home Safes for Flood, Fire, and Theft Protection"
+      },
+      {
+        "position": 3,
+        "url": "https://www.tigerkingsafe-us.com/collections/jewelry-safe",
+        "title": "Best Home Luxury Jewelry Safes with Drawers - TigerKing Safe"
+      },
+      {
+        "position": 4,
+        "url": "https://www.brownsafe.com/jewelry-safes/index.html",
+        "title": "Luxury Jewelry Safes - Brown Safe Manufacturing, Inc."
+      },
+      {
+        "position": 5,
+        "url": "https://www.reddit.com/r/homedefense/comments/rwd30c/affordable_jewelry_safe_options/",
+        "title": "Affordable Jewelry Safe Options : r/homedefense - Reddit"
+      },
+      {
+        "position": 6,
+        "url": "https://nationwidesafes.com/collections/jewelry-safes-residential",
+        "title": "Jewelry Safes (Residential) - NationwideSafes.com"
+      },
+      {
+        "position": 7,
+        "url": "https://nwsafe.com/blogs/tips/best-jewelry-safe",
+        "title": "How to Buy the Best Jewelry Safe: A Complete Guide"
+      },
+      {
+        "position": 8,
+        "url": "https://deansafe.com/collections/protect-jewelry",
+        "title": "Protect Jewelry - Dean Safe"
+      },
+      {
+        "position": 9,
+        "url": "https://www.amazon.com/jewelry-safes-home/s?k=jewelry+safes+for+home",
+        "title": "Jewelry Safes For Home - Amazon.com"
+      },
+      {
+        "position": 10,
+        "url": "https://coconosafes.com/blogs/piece-of-mind/best-jewelry-safes-2026",
+        "title": "Best Jewelry Safes 2026 – COCONO"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 0,
+      "withYear": 1,
+      "withNumber": 0,
+      "commonModifiers": [
+        "luxury",
+        "with drawers",
+        "residential",
+        "complete guide"
+      ],
+      "gap": "No title tells the reader that jewelry needs a burglary rating more than a fire label; we lead with what stops a burglar."
+    },
+    "commonPoints": [
+      "Buy bigger than you think: collections grow",
+      "Fire protection comes from a rating, not the word fireproof",
+      "Look at steel thickness, bolts and the lock",
+      "Bolt the safe down",
+      "Drawers, lining and lights keep jewelry organized",
+      "Put the safe where you get dressed, such as a bedroom closet"
+    ],
+    "ourGain": [
+      {
+        "point": "Only 3.5 percent of the value of stolen jewelry and precious metals was recovered in 2019, so theft resistance comes before fire protection",
+        "source": "https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-24"
+      },
+      {
+        "point": "Which certifier stands behind each label: UL fire classification and ETL water verification on the SentrySafe, versus no burglary rating; what UL 1037 level one actually tests",
+        "source": "https://www.ul.com/news/residential-security-container-standard-revised"
+      },
+      {
+        "point": "Owners' own problems with their safes (lockouts, dents on delivery, moisture) and the fix for each",
+        "source": "data/pain-points.json home-safes entries; Walmart and SentrySafe owner reviews"
+      },
+      {
+        "point": "A sealed fire safe holds moisture, which matters for silver jewelry; desiccant and anti-tarnish storage fix it",
+        "source": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+      },
+      {
+        "point": "A decoy safe and a hidden second spot, an owner tactic from Reddit that no ranking guide covers",
+        "source": "https://www.reddit.com/r/HENRYUKLifestyle/comments/1igsow7/recommendations_for_a_home_safe/"
+      }
+    ],
+    "serpProducts": [
+      {
+        "name": "SentrySafe SFW123GDC",
+        "pages": [
+          "https://www.businessinsider.com/guides/home/best-home-safe",
+          "https://www.cnet.com/home/security/best-smart-home-safes/"
+        ]
+      },
+      {
+        "name": "Gardall JS1718-W-C Jewelry Safe",
+        "pages": [
+          "https://coconosafes.com/blogs/piece-of-mind/best-jewelry-safes-2026",
+          "https://luxesafes.com/luxury-jewelry-safes/top-10-jewelry-safes/",
+          "https://www.reddit.com/r/Safes/comments/1qlzbt6/recommendation_for_closet_jewelry_safe/"
+        ],
+        "dropped": "no Amazon US listing; dealer-sold"
+      },
+      {
+        "name": "AMSEC JS5517E5",
+        "pages": [
+          "https://coconosafes.com/blogs/piece-of-mind/best-jewelry-safes-2026",
+          "https://americansecuritysafes.com/how-to-choose-the-best-jewelry-safe-for-your-home/"
+        ],
+        "dropped": "maker page only plus one competitor page; no Amazon US listing"
+      },
+      {
+        "name": "Viking Security Safe VS-20BLX",
+        "pages": [
+          "https://www.businessinsider.com/guides/home/best-home-safe"
+        ],
+        "dropped": "only one top-10 page"
+      },
+      {
+        "name": "Amazon Basics Steel Security Safe",
+        "pages": [
+          "https://www.businessinsider.com/guides/home/best-home-safe"
+        ],
+        "dropped": "only one top-10 page"
+      },
+      {
+        "name": "Liberty Premium Home 12 / American Security BF series",
+        "pages": [
+          "https://nwsafe.com/blogs/tips/best-jewelry-safe"
+        ],
+        "dropped": "one page; dealer-sold, not on Amazon"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "home-safes-fire-vs-burglary-choose",
+        "pain": "Buyers cannot tell whether one home safe can protect against both fire and burglars, or if they must choose",
+        "details": "Replies point to fire-rated consumer safes for papers and dealer-sold burglary-rated safes for theft, or a burglary safe with a fire box inside.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/"
+        ],
+        "quotes": [
+          {
+            "text": "Fire vs burglars: is there actually a home safe that does both well, or do I need to choose?",
+            "url": "https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-fire-and-security-ratings-hard-to-compare",
+        "pain": "Brands advertise fire and security ratings that are hard to compare (minutes, temperatures, UL vs untested)",
+        "details": "Shoppers compare fire minutes and temperatures, then ask what UL and TL ratings mean.",
+        "sources": [
+          "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"
+        ],
+        "quotes": [
+          {
+            "text": "TL-15 is tool resistant for 15 minutes, TL-30 is resistant for 30 minutes, etc.",
+            "url": "https://www.reddit.com/r/preppers/comments/u7m0jd/top_brands_for_safe_documents_gun_precious_metals/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-lightweight-needs-bolting",
+        "pain": "Small light safes can be carried off, and owners are unsure how or whether to bolt them",
+        "details": "Owners bolt in a corner or closet; light fire safes are reasonably secure only once bolted.",
+        "sources": [
+          "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"
+        ],
+        "quotes": [
+          {
+            "text": "not really fireproof, but if you bolt them down they are reasonably secure against most casual theft attempts.",
+            "url": "https://www.reddit.com/r/homedefense/comments/lx9hw5/looking_for_recommendation_on_a_safe/"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-mold-and-moisture-in-fire-safe",
+        "pain": "Papers, passports and coins grow mold inside a fire-rated home safe",
+        "details": "Fire-resistant safes hold moisture and seal closed; owners air them out and use desiccant.",
+        "sources": [
+          "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+        ],
+        "quotes": [
+          {
+            "text": "Fireproof safes are notorious for holding moisture.",
+            "url": "https://forums.collectors.com/discussion/995665/any-risks-of-humidity-in-a-safe"
+          }
+        ]
+      },
+      {
+        "id": "home-safes-lost-or-jammed-key",
+        "pain": "Backup key is lost, never supplied or jams in the lock",
+        "details": "Keep the key away from the safe and register the safe with the maker.",
+        "sources": [
+          "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+        ],
+        "quotes": [
+          {
+            "text": "If you lost the override key it's a problem.",
+            "url": "https://www.reddit.com/r/Safes/comments/1jw2ura/battery_dying_cant_get_it_open_any_advice/"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "number": "3.5 percent",
+        "claim": "share of the value of stolen jewelry and precious metals that was recovered in the US in 2019",
+        "url": "https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-24",
+        "quote": "Jewelry and precious metals | 1,057,763,740 | 36,890,088 | 3.5"
+      },
+      {
+        "number": "1 hour in up to 1700°F",
+        "claim": "UL fire classification of the SentrySafe SFW123GDC",
+        "url": "https://www.sentrysafe.com/product/SFW123GDC",
+        "quote": "UL Classified to protect your valuables in a fire for 1 hour in up to 1700°F (927°C)"
+      },
+      {
+        "number": "five-minute attack",
+        "claim": "UL 1037 Residential Security Container attack level one",
+        "url": "https://www.ul.com/news/residential-security-container-standard-revised",
+        "quote": "Attack level one requires the product to withstand a five-minute attack by one technician using common hand tools such as drills, screwdrivers and hammers."
+      },
+      {
+        "number": "86.69 lb",
+        "claim": "maker's weight for the SentrySafe SFW123GDC",
+        "url": "https://www.sentrysafe.com/product/SFW123GDC",
+        "quote": "Weight 86.69 lb"
+      }
+    ],
+    "videos": [
+      {
+        "id": "GoFP3AgBcVw",
+        "title": "SentrySafe SF Series Fire Protection & Testing Standards",
+        "channel": "SentrySafe",
+        "url": "https://www.youtube.com/watch?v=GoFP3AgBcVw",
+        "section": "Our pick – a fire-rated jewelry safe you can buy today"
+      }
+    ]
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-home-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-safe-brands",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-travel-safe",
+      "mode": "related-box"
+    }
+  ]
+}

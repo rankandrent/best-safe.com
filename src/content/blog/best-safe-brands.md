@@ -158,6 +158,7 @@ heroAlt: >-
   Best Safe Brands – Who Certifies Each Fire and Burglary Rating – Best Safe
   comparison
 related:
+  - best-jewelry-safe-for-home
   - best-travel-safe
   - best-home-safe
   - gun-safe-brands-to-avoid

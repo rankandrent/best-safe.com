@@ -1,0 +1,15 @@
+{
+  "slug": "best-jewelry-safe-for-home",
+  "pass": true,
+  "checkedAt": "2026-10-23T10:48:14.028Z",
+  "errors": [],
+  "warnings": [
+    "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified against sentrysafe.com/product/SFW123GDC: UL Classified 1 hour up to 1700F (927C), ETL Verified water 8 in for 24 h, four 1-inch live-locking bolts, pry-resistant hinge bar, bolt-down hardware, programmable 5-digit keypad + dual key that disables primary lock, interior 13.8x12.6x11.9 in, 1.23 cu ft, exterior 17.8x16.3x19.3 in, 86.69 lb, locking drawer/key rack/door pocket/interior light, desiccant accessory; no burglary rating claimed. Recommendations: Business Insider best overall (scraped), CNET best fireproof home safe (search excerpt). FBI UCR 2019 Table 24: jewelry and precious metals 1,057,763,740 stolen, 3.5 percent recovered. UL RSC page: level one five-minute attack, one technician, common hand tools; levels two/three two technicians, ten minutes. Owner reviews: 8 on SentrySafe page + 8 distinct on Walmart (4 dented/damaged, code/key trouble, battery-brand fix, visual-impairment keypad praise). Northwest Safe (match safe to value, TL-rated for top collections), Cocono (basement safes unused; Gardall JS1718 B-rated, dealer-sold), AMSEC (scratch/tangle/tarnish) all re-read. Reddit/forum quotes copied from data/pain-points.json; AMSEC/Hollon TL15 and decoy-safe points from search excerpts of r/Safes and r/HENRYUKLifestyle, paraphrased. Removed unverified water-seal drilling claim. No legal advice, no prices, no testing claims.",
+    "at": "2026-10-23T10:48:13.517Z",
+    "hash": "89a816742c77cedc"
+  }
+}
