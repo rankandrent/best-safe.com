@@ -1,10 +1,14 @@
 {
   "slug": "best-jewelry-safe-for-home",
   "pass": true,
-  "checkedAt": "2026-10-23T10:48:14.028Z",
+  "checkedAt": "2026-10-23T10:50:35.526Z",
   "errors": [],
   "warnings": [
-    "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-24",
+    "source didn't respond normally (403): https://americansecuritysafes.com/how-to-choose-the-best-jewelry-safe-for-your-home/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/",
+    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1qlzbt6/recommendation_for_closet_jewelry_safe/"
   ],
   "factCheck": {
     "verified": true,

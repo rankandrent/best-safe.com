@@ -1,7 +1,7 @@
 {
   "slug": "best-fireproof-document-safe",
   "pass": true,
-  "checkedAt": "2026-10-22T14:39:06.183Z",
+  "checkedAt": "2026-10-23T10:49:57.143Z",
   "errors": [],
   "warnings": [
     "product \"SentrySafe SFW123DSB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -12,7 +12,6 @@
     "source didn't respond normally (403): https://www.safelincs.co.uk/templates_safelincs/files/datasheets/1814_Sentry SFW123FSC Spec Sheet.pdf",
     "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-1-23-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960599",
     "source didn't respond normally (no response): https://punchout.acklandsgrainger.com/ec/pdf/Sentry-Safe-29RV60-1170-Sell-Sheet.pdf",
-    "LIVE POST, FIX: source returns 404: https://www.walmart.com/ip/SentrySafe-Fire-Safe-Waterproof-File-HD4100-Grey/5871659",
     "source didn't respond normally (403): https://datasheets.globalspec.com/ds/uls/ul-72/f932a78f-a584-49b1-be85-fa115777aa8e"
   ],
   "factCheck": {
