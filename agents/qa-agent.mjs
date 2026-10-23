@@ -196,6 +196,16 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     }
   }
 
+  // Patent rule 2026-10-23 (US11354342B2 + Google reviews guidance): picks are justified by our own analysis, not other publishers' picks.
+  {
+    const publisherNames = /\b(Wirecutter|Consumer Reports|RTINGS|CNET|Wired|Tom's Guide|PCMag|TechRadar|The Verge|Engadget|Good Housekeeping|The Strategist|TechGearLab|Business Insider|Popular Mechanics)\b/g;
+    const first150 = body.replace(/\]\([^)]*\)/g, ']').split(/\s+/).slice(0, 150).join(' ');
+    const early = first150.match(publisherNames) ?? [];
+    const all = body.match(publisherNames) ?? [];
+    if (early.length) warn(`review publisher named in the first 150 words (${[...new Set(early)].join(', ')}): lead with our own reason, mention others only in "How we picked"`);
+    if (all.length > 3) warn(`review publishers named ${all.length} times: justify picks by specs and owner facts, name other publishers at most once`);
+  }
+
   // --- Style: locked "we" voice and no entity stuffing (errors from styleRequiredFrom, warnings before)
   {
     const strict = pub >= Date.parse(SITE.qa?.styleRequiredFrom ?? '2100-01-01');

@@ -24,6 +24,14 @@ product write-up: the product `summary`, `scoreNote`, pros/cons wording and each
 person never turns into a fake experience: no "I tested / used / installed / bought" unless `data/stories.json` says
 so. QA errors on posts going live from 2026-10-24 (warns on older ones until they are next improved).
 
+**Information gain (patent rule 2026-10-23 (US11354342B2), with Google's helpful-content and reviews guidance):** the brief's
+ourGain needs at least 3 entries of `type` "analysis" (a comparison or calculation from verified specs), "decision" (a
+who-should-buy-which rule or chooser table no top result gives) or "situation" (a pain point answered with a concrete
+fix), each with `absentFrom` = the top-result URLs opened; a point found in 2+ of them is a commonPoint. Picks are
+justified by specs, calculations and owner-reported facts, not by other publishers' picks: no review publisher
+(Wirecutter, Consumer Reports, RTINGS, CNET, Wired…) is named in the first 150 words, and "who else recommends it"
+appears in the "How we picked" section, not as each product's reason. QA warns.
+
 **Voice and personal story (every post):** first person throughout (I, my, me, we, our, us; at least 10 uses),
 plus one `> **From our notes:**` story block (60-120 words). Use a real owner story from `data/stories.json` if one
 fits, otherwise a true research story (how we compared the products, what stood out in the manuals and specs), or a
@@ -225,7 +233,7 @@ outline[{h2,intent,h3[]}], targetWords, serpStructure`.
 `serpStructure`: `analyzedUrls`, `productStyle` ("pros-cons", "paragraph" or "specs": how most of them
 present each product) with `productStyleReason`, `avgWords`, `avgProducts`, `commonSections`,
 `usesComparisonTable`, `usesFaq`, `usesBuyingGuide`. Then build the outline from the sections most of
-them share, in a similar order, plus the content gaps; set `targetWords` 10-20% above `avgWords`; and set
+them share, in a similar order, plus the content gaps; set `targetWords` at most 10% above `avgWords` (owner rule: concise and new); and set
 `productStyle` in the post's frontmatter to the same value:
 - `pros-cons`: each product shows What we like / What we don't like lists (fill `pros` and `cons`).
 - `paragraph`: no lists are shown; write a 120-200 word review paragraph per product covering strengths
@@ -349,7 +357,7 @@ instead of guessed from snippets. WebFetch/WebSearch are the fallback. The conne
 repo or GitHub secrets; never write an API key into any file.
 
 ## Story-led posts (owner rule)
-Every post reads as one true story: an opening scene the reader recognizes (from the brief's questions and owner complaints), attributed owner moments in each product section, and a verdict that closes the opening scene. The narrator voice is "we/our/us". "I/my/me" appears only inside a quoted, named story from `data/stories.json` told by the person who lived it (the owner, a reviewer such as Damian, or a real owner who agreed to be quoted). Never invent a first-hand experience: fake "I tested / I bought" claims break Google's reviews guidance, the FTC rule on fake reviews and testimonials, and Amazon Associates policy. To add a real story, the owner sends it (voice note or text) and it goes into `data/stories.json` with who, what product, and when.
+Every post reads as one true story: an opening scene the reader recognizes (from the brief's questions and owner complaints), attributed owner moments in each product section, and a verdict that closes the opening scene. The narrator voice is first person (owner rule 2026-10-23: I, my, me, we, our, us are all fine, including in product write-ups); a story that someone else lived stays a quoted, named story from `data/stories.json`.json` told by the person who lived it (the owner, a reviewer such as Damian, or a real owner who agreed to be quoted). Never invent a first-hand experience: fake "I tested / I bought" claims break Google's reviews guidance, the FTC rule on fake reviews and testimonials, and Amazon Associates policy. To add a real story, the owner sends it (voice note or text) and it goes into `data/stories.json` with who, what product, and when.
 
 ## Keyword order (owner rule, permanent)
 
