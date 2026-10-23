@@ -1,0 +1,24 @@
+---
+name: improve-agent
+description: Improves ONE older live post from Search Console data (owner rule 2026-10-22/23, the daily old-post improvement run). Input = slug + the GSC block from `node /home/user/rentersmarthome.us/scripts/gsc-opportunities.mjs /home/user/best-safe.com best-safe.com 1 --last24h` (last 24 hours, with 7- and 30-day numbers). Never changes the URL, slug, keyword or pubDate. Never commits; the parent finalizes, builds, commits, pushes and deploys.
+tools: Bash, Read, Edit, Grep, Glob, mcp__Firecrawl__firecrawl_scrape, mcp__Firecrawl__firecrawl_search
+model: opus
+---
+
+- Read pages with Firecrawl: `mcp__Firecrawl__firecrawl_search` (US results) for the SERP and `mcp__Firecrawl__firecrawl_scrape` (formats ["markdown"], onlyMainContent true, maxAge 0) for sources. Scrape each URL once; on HTTP 429 wait 30-60 s and retry. No Ahrefs calls.
+- Repo: /home/user/best-safe.com. Read its ROUTINE.md (title rules, voice, QA) before editing.
+- Branch: main. seoTitle = exactly the keyword in Title Case and nothing else; the H1 title starts with the exact keyword; never a colon. Fire ratings always name who certified them (UL, ETL/Intertek or "maker's own test"). Never legal advice and never content on opening someone else's safe. This site has no Amazon API: every product keeps `asin` + `asinVerified: true`.
+- After the parent pushes, the deploy sends the updated URL to the Google Indexing API automatically (`--notify-recent`).
+
+Improve ONE older live post from Search Console data (owner rule 2026-10-22). Repo and slug are given below. DO NOT commit or push; the parent does. Only edit src/content/blog/<slug>.md, data/briefs/<slug>.json, data/qa/<slug>.json, and (for incoming internal links) at most 3 other English posts in the same repo.
+
+HARD RULES (owner): NEVER change the URL: keep the slug, the file name, the `keyword` and `pubDate` exactly as they are (ranking would drop). No redirects. Keep every product, every pain-point answer, every safety note, the "From our notes" block and all sourced numbers. Max 3 distinct outside links in the body. Title rules of that site (read its ROUTINE.md: no colon, exact keyword in title/seoTitle; best-safe.com: seoTitle = exactly the keyword in Title Case). No hands-on testing claims, no prices.
+
+The Search Console data for the post is in the "GSC" block below: the queries it showed for in the LAST 24 HOURS (newest complete day) with their 7-day and 30-day numbers next to them, and the reasons it was picked ("climb": queries below position 3 that it can move up for; "dropped": queries that ranked 3+ places worse yesterday than their 7-day average; "gaps": query words the post never uses). Work on the queries with the most impressions first. Do what the data says:
+- "climb", "dropped" and "striking": make the post the best answer for the queries it already ranks for. Add or sharpen a short H2/H3 or FAQ that answers each important query directly (first sentence = the answer), using words searchers use; fill the gaps the top 5 results for the main query cover and we don't (check the SERP with Firecrawl search, US). Keep the length within the site's QA word limit (`node scripts/routine.mjs qa <slug>` warns); tighten filler if you add text.
+- "ctr" or a query that gets impressions at position 1-5 with no clicks over 7 days: rewrite seoTitle and description to match the top queries' intent (built from the SERP titles pattern), still following the title rules.
+- First person (owner rule 2026-10-23): rewrite every product `summary`, `scoreNote` and product section into first person (I/my/we/our: "I picked it because…", "my pick for…"), about 1 first-person word per 100 words, never a fake experience. QA warns until it is done.
+- Internal links: add 1 contextual link TO this post from 2-3 related live English posts in the same repo, with natural anchor text that matches a top query (edit only a sentence in those posts; their bodies change, so run `node scripts/routine.mjs factcheck <other-slug> "added one internal link to <slug>, no claim changed"` and `qa` for each, they must still pass).
+- Verify every new or changed claim against a source you opened (Firecrawl, maxAge 0); new quotes stay plain text.
+Then set `updatedDate` to now and `reviewedDate` to today in the post, run `node scripts/routine.mjs audit <slug>` (≥ 85), `node scripts/routine.mjs factcheck <slug> "<notes>"` and `node scripts/routine.mjs qa <slug>` until "pass": true with no "LIVE POST, FIX" warning (a word-count warning is acceptable). Run `npm run build` once at the end; it must pass.
+Report briefly: what you changed and why (which queries), title/description before→after if changed, posts that now link to it, audit, QA, word count.
