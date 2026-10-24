@@ -201,7 +201,7 @@ From those threads, our short list:
 
 ## Garage fires and the fire rating
 
-**Garage fires burn bigger, so a garage safe's fire rating matters, and so does who certified it.** USFA counts about [6,600 residential garage fires](https://www.usfa.fema.gov/downloads/pdf/statistics/v14i12.pdf) a year, which tend to spread farther, fed by paint, chemicals and ammunition. A rating certified by UL or Intertek (ETL) comes from a third-party test; one based on the maker's own test is a claim. Liberty notes fireboard absorbs moisture, so humidity control matters more. See our [best fire rated gun safe](/blog/best-fire-rated-gun-safe/) guide for each certifier.
+**Garage fires burn bigger, so a garage safe's fire rating matters, and so does who certified it.** USFA counts about [6,600 residential garage fires](https://www.usfa.fema.gov/downloads/pdf/statistics/v14i12.pdf) a year, which tend to spread farther, fed by paint, chemicals and ammunition. A rating certified by UL or Intertek (ETL) comes from a third-party test; one based on the maker's own test is a claim, and our [best fireproof safe](/blog/best-fireproof-safe/) guide puts UL, ETL and maker tests side by side. Liberty notes fireboard absorbs moisture, so humidity control matters more. See our [best fire rated gun safe](/blog/best-fire-rated-gun-safe/) guide for each certifier.
 
 ## Gun safe in the basement instead
 

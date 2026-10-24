@@ -398,7 +398,7 @@ The UL 72 standard groups fire-rated record protection into classes. Class 350 k
 
 ### UL, ETL or the maker's word
 
-UL Classified means UL ran the fire test. ETL marks come from Intertek, an independent lab, and on these models they cover water, drop and media claims. A rating with no lab named is the maker's own claim. The Washington State Archives makes the same point bluntly: no safe is truly fire-proof, only rated to resist heat for a time. That is why we always cite the lab and the exact number.
+UL Classified means UL ran the fire test, as on every pick in our [UL fireproof safe](/blog/best-fireproof-safe/) comparison. ETL marks come from Intertek, an independent lab, and on these models they cover water, drop and media claims. A rating with no lab named is the maker's own claim. The Washington State Archives makes the same point bluntly: no safe is truly fire-proof, only rated to resist heat for a time. That is why we always cite the lab and the exact number.
 
 ## Will your papers fit? Letter, legal and file folders
 

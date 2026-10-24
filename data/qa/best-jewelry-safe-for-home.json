@@ -1,22 +1,18 @@
 {
   "slug": "best-jewelry-safe-for-home",
   "pass": true,
-  "checkedAt": "2026-10-24T10:55:12.946Z",
+  "checkedAt": "2026-10-24T12:37:03.804Z",
   "errors": [],
   "warnings": [
-    "only 12 first-person words; owner rule wants at least 16 (about 1 per 100 words: I, my, me, we, our, us)",
+    "only 13 first-person words; owner rule wants at least 16 (about 1 per 100 words: I, my, me, we, our, us)",
     "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): SentrySafe SFW123GDC",
     "review publishers named 5 times: justify picks by specs and owner facts, name other publishers at most once",
-    "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (403): https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-24",
-    "source didn't respond normally (403): https://americansecuritysafes.com/how-to-choose-the-best-jewelry-safe-for-your-home/",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1s8yeo1/fire_vs_burglars_is_there_actually_a_home_safe/",
-    "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1qlzbt6/recommendation_for_closet_jewelry_safe/"
+    "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified against sentrysafe.com/product/SFW123GDC: UL Classified 1 hour up to 1700F (927C), ETL Verified water 8 in for 24 h, four 1-inch live-locking bolts, pry-resistant hinge bar, bolt-down hardware, programmable 5-digit keypad + dual key that disables primary lock, interior 13.8x12.6x11.9 in, 1.23 cu ft, exterior 17.8x16.3x19.3 in, 86.69 lb, locking drawer/key rack/door pocket/interior light, desiccant accessory; no burglary rating claimed. Recommendations: Business Insider best overall (scraped), CNET best fireproof home safe (search excerpt). FBI UCR 2019 Table 24: jewelry and precious metals 1,057,763,740 stolen, 3.5 percent recovered. UL RSC page: level one five-minute attack, one technician, common hand tools; levels two/three two technicians, ten minutes. Owner reviews: 8 on SentrySafe page + 8 distinct on Walmart (4 dented/damaged, code/key trouble, battery-brand fix, visual-impairment keypad praise). Northwest Safe (match safe to value, TL-rated for top collections), Cocono (basement safes unused; Gardall JS1718 B-rated, dealer-sold), AMSEC (scratch/tangle/tarnish) all re-read. Reddit/forum quotes copied from data/pain-points.json; AMSEC/Hollon TL15 and decoy-safe points from search excerpts of r/Safes and r/HENRYUKLifestyle, paraphrased. Removed unverified water-seal drilling claim. No legal advice, no prices, no testing claims.",
-    "at": "2026-10-23T10:48:13.517Z",
-    "hash": "89a816742c77cedc"
+    "notes": "added one internal link to best-fireproof-safe, no claim changed",
+    "at": "2026-10-24T12:37:03.172Z",
+    "hash": "b3d7f6346889e605"
   }
 }

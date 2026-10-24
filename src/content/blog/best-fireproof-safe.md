@@ -22,6 +22,9 @@ secondaryKeywords:
   - small fireproof safe
   - fireproof lock box
   - best fireproof box
+  - best fire resistant safes
+  - best safe for home fireproof
+  - ul fireproof safe
 entities:
   - fireproof safe
   - UL 72
@@ -47,7 +50,8 @@ productStyle: pros-cons
 readingTime: 16
 productCount: 6
 author: editorial-team
-reviewedDate: '2026-10-18T00:00:00.000Z'
+reviewedDate: '2026-10-24T00:00:00.000Z'
+updatedDate: '2026-10-24T12:37:00.000Z'
 tldr:
   - >-
     Best overall: the SentrySafe SFW123GDC, UL Classified for 1 hour at up to
@@ -97,6 +101,19 @@ faqs:
       SentrySafe owners note the manual warns about this. First Alert sells a
       2087F-BD version with a Ready-Seal bolt-down system meant to keep the seal
       intact.
+  - q: What does UL fireproof safe mean?
+    a: >-
+      A UL fireproof safe is UL Classified: Underwriters Laboratories ran the
+      UL 72 furnace test and the inside stayed below the class limit (350°F for
+      paper) for the rated time, such as 1 hour at 1,700°F. Wording like
+      "tested to UL standards" without the UL mark means the maker ran the test,
+      not UL.
+  - q: What are the best fire resistant safes for home?
+    a: >-
+      I pick fire resistant safes by who certified them. My shortlist is the
+      SentrySafe SFW123GDC (keypad) and SFW123DSB (dial), both UL Classified for
+      1 hour at 1,700°F with an Intertek ETL water rating, and the SFW205CWB when
+      you need about 2 cubic feet.
   - q: Can you store USB drives in a fireproof safe?
     a: >-
       You can, but a 1-hour paper rating is not a digital media rating. Paper
@@ -145,10 +162,9 @@ products:
     matchName: SentrySafe 1-Hour Fireproof Digital Keypad 1.2 Cu Ft
     badge: Best overall
     summary: >-
-      A mid-size fire and water safe with a backlit digital keypad, UL
-      Classified for 1 hour at up to 1,700°F and ETL verified for 24 hours in 8
-      inches of water. It suits most households storing papers, passports and
-      cash.
+      My pick for most homes: a mid-size fire and water safe with a backlit
+      keypad, UL Classified for 1 hour at up to 1,700°F and ETL verified for 24
+      hours in 8 inches of water. I'd trust it with papers, passports and cash.
     renterNote: >-
       Homeowners and renters who want quick keypad access to documents and cash;
       it is a fire safe, not a burglary-rated one, and bolting it down affects
@@ -182,8 +198,9 @@ products:
       capacity: 7
       value: 8
     scoreNote: >-
-      Independent UL fire and ETL water ratings and fast keypad access; security
-      is entry level (no burglary rating) and battery reliance costs a point.
+      I scored it high for independent UL fire and ETL water ratings and fast
+      keypad access; security is entry level (no burglary rating) and battery
+      reliance costs a point.
     owners:
       read: 3
       praise:
@@ -219,9 +236,9 @@ products:
       | UL Classified Fire and Water Resistant Home
     badge: Best battery-free lock
     summary: >-
-      The dial-combination twin of our top pick, with the same UL 1-hour fire
-      rating and ETL water rating but no keypad or batteries to fail. It is the
-      safer bet for a safe you open only a few times a year.
+      I picked the dial-combination twin of my top pick for its same UL 1-hour
+      fire rating and ETL water rating with no keypad or batteries to fail. It is
+      my choice for a safe you open only a few times a year.
     renterNote: >-
       Anyone storing papers and valuables they rarely touch who never wants a
       dead battery between them and their passport; the dial is slower to open.
@@ -252,9 +269,9 @@ products:
       capacity: 7
       value: 8
     scoreNote: >-
-      Same independent fire and water ratings as our top pick with a
-      battery-free dial; slower access and a preset code hold the access score
-      down.
+      Same independent fire and water ratings as my top pick with a
+      battery-free dial; I marked access down for the slower dial and preset
+      code.
     owners:
       read: 3
       praise:
@@ -288,9 +305,9 @@ products:
     matchName: SentrySafe Fireproof Waterproof Floor Safe Dial Combination 2.05
     badge: Best large fireproof safe
     summary: >-
-      A tall 2-cubic-foot fire and water safe with a dial lock and six
-      live-locking bolts. It suits a household with binders, a laptop and a
-      family's worth of documents.
+      My large pick: a tall 2-cubic-foot fire and water safe with a dial lock and
+      six live-locking bolts. I'd choose it for binders, a laptop and a family's
+      worth of documents.
     renterNote: >-
       Families who need room for binders, hard drives and jewelry boxes in one
       place; at 125 lb it needs a floor that can take it and two people to move.
@@ -320,8 +337,9 @@ products:
       capacity: 9
       value: 7
     scoreNote: >-
-      The most room and bolt work here with independent fire and water ratings;
-      dial access is slower and its size limits where it fits.
+      I gave it top capacity for the most room and bolt work here, with
+      independent fire and water ratings; dial access is slower and its size
+      limits where it fits.
     owners:
       read: 3
       praise:
@@ -346,9 +364,9 @@ products:
       Lock
     badge: Best non-SentrySafe alternative
     summary: >-
-      A 0.94-cubic-foot combination safe UL Classified for 1 hour at 1,700°F
-      with the interior held below 350°F. First Alert says it stays dry even
-      when fully submerged.
+      My second-brand pick: a 0.94-cubic-foot combination safe UL Classified for
+      1 hour at 1,700°F with the interior held below 350°F. First Alert says it
+      stays dry when fully submerged, a claim I treat as the maker's own.
     renterNote: >-
       Buyers who want a battery-free dial safe from a second brand for papers
       and cash; owners say the four-step combination takes practice.
@@ -374,8 +392,9 @@ products:
       capacity: 6
       value: 7
     scoreNote: >-
-      UL 1-hour fire rating and a battery-free lock; the fiddly dial and a water
-      claim without third-party verification lower access and fire confidence.
+      I like its UL 1-hour fire rating and battery-free lock; the fiddly dial and
+      a water claim without third-party verification lower my access and fire
+      scores.
     owners:
       read: 3
       praise:
@@ -406,9 +425,9 @@ products:
       HD4100
     badge: Best for hanging files
     summary: >-
-      A top-opening file box that holds hanging folders, UL Classified for 30
+      My pick for hanging folders: a top-opening file box UL Classified for 30
       minutes at up to 1,550°F and ETL verified against flood damage for up to
-      72 hours. It suits a home office's tax files and records.
+      72 hours. I'd use it for a home office's tax files and records.
     renterNote: >-
       Anyone who keeps tax returns, deeds and medical records in hanging
       folders; the privacy key lock deters snooping, not tools.
@@ -439,9 +458,9 @@ products:
       capacity: 6
       value: 8
     scoreNote: >-
-      Independent fire and flood ratings and file-friendly storage; the
-      30-minute rating and a privacy-grade lock keep security and fire scores
-      modest.
+      I credit its independent fire and flood ratings and file-friendly
+      storage; the 30-minute rating and a privacy-grade lock keep my security
+      and fire scores modest.
     owners:
       read: 2
       praise:
@@ -470,9 +489,9 @@ products:
       CHW20221 with Key Lock, File and Document Safe,
     badge: Best budget fire chest
     summary: >-
-      A 20-pound fire and water chest for passports, birth certificates and a
-      little cash, UL Classified for 30 minutes at up to 1,550°F with
-      ETL-verified flood protection for up to 72 hours.
+      My budget pick: a 20-pound fire and water chest for passports, birth
+      certificates and a little cash, UL Classified for 30 minutes at up to
+      1,550°F with ETL-verified flood protection for up to 72 hours.
     renterNote: >-
       Renters and anyone on a tight budget who needs to protect a handful of
       irreplaceable papers; it carries easily, so a thief can carry it too.
@@ -499,8 +518,8 @@ products:
       capacity: 3
       value: 9
     scoreNote: >-
-      Real UL and ETL ratings at a budget level; minimal theft protection and
-      small capacity are the trade-off.
+      I value its real UL and ETL ratings at a budget level; minimal theft
+      protection and small capacity are the trade-off I scored down.
     owners:
       read: 3
       praise:
@@ -530,38 +549,38 @@ related:
   - best-ammo-can
 ---
 
-The best fireproof safe for most homes is the [SentrySafe SFW123GDC](amzn:SentrySafe+SFW123GDC+Fireproof+Waterproof+Safe+Digital+Keypad): a fireproof safe UL Classified for 1 hour at up to 1,700°F, verified by Intertek for 24 hours in 8 inches of water, with a keypad you can open fast. We compared six fire-rated safes from SentrySafe and First Alert on the details most roundups skip: who certified each fire rating, what that rating covers, how you get in when a battery dies, and whether the interior fits what you actually store. Every pick below carries a UL Classified fire rating, and we say plainly where a water or security claim is the maker's own.
+The best fireproof safe for most homes is the [SentrySafe SFW123GDC](amzn:SentrySafe+SFW123GDC+Fireproof+Waterproof+Safe+Digital+Keypad): a fireproof safe UL Classified for 1 hour at up to 1,700°F, verified by Intertek for 24 hours in 8 inches of water, with a keypad you can open fast. No safe is truly fireproof; the best fire resistant safes simply prove their minutes through an outside lab. I compared six from SentrySafe and First Alert on the details most roundups skip: who certified each fire rating, what it covers, how you get in when a battery dies, and whether the interior fits what you store. Every pick carries a UL Classified fire rating, and I say plainly where a water or security claim is the maker's own.
 
 ## The best fireproof safes at a glance
 
-**A fireproof safe protects paper for a rated time at a rated temperature, so the first number to compare is the fire rating and who certified it.** Here is how our six picks line up.
+**A fireproof safe protects paper for a rated time at a rated temperature, so the first number to compare is the fire rating and who certified it.** Here is how my six picks line up.
 
-The table below compares each safe's fire rating, water rating, lock and interior capacity, using manufacturer and retailer specifications.
+The table below shows who certified each fire and water rating, the minutes and °F, and the usable interior, from manufacturer and retailer specifications.
 
-| Safe | Best for | Fire rating (certifier) | Water rating | Lock | Capacity |
+| Safe | Best for | Fire rating (who certified) | Water rating (who verified) | Interior H x W x D | Lock |
 |---|---|---|---|---|---|
-| SentrySafe SFW123GDC | Most homes | UL Classified, 1 hr at 1,700°F | ETL, 24 hr in 8 in | Keypad + key | 1.23 cu ft |
-| SentrySafe SFW123DSB | No batteries | UL Classified, 1 hr at 1,700°F | ETL, 24 hr in 8 in | Dial + key | 1.19 cu ft |
-| SentrySafe SFW205CWB | Large storage | UL Classified, 1 hr at 1,700°F | ETL, 24 hr in 8 in | Dial | About 2 cu ft |
-| First Alert 2087F | Second brand | UL Classified, 1 hr at 1,700°F | Maker claim: submersible | Dial + keys | 0.94 cu ft |
-| SentrySafe HD4100 | Hanging files | UL Classified, 30 min at 1,550°F | ETL, 72 hr flood | Key | 0.65 cu ft |
-| SentrySafe CHW20221 | Tight budget | UL Classified, 30 min at 1,550°F | ETL, 72 hr flood | Key | 0.28 cu ft |
+| SentrySafe SFW123GDC | Most homes | UL: 1 hr at 1,700°F | Intertek ETL: 24 hr in 8 in | 13.8 x 12.6 x 11.9 in (1.23 cu ft) | Keypad + key |
+| SentrySafe SFW123DSB | No batteries | UL: 1 hr at 1,700°F | Intertek ETL: 24 hr in 8 in | 1.19 cu ft (maker figure) | Dial + key |
+| SentrySafe SFW205CWB | Large storage | UL: 1 hr at 1,700°F | Intertek ETL: 24 hr in 8 in | 19.6 x 14.8 x 11.9 in (about 2 cu ft) | Dial |
+| First Alert 2087F | Second brand | UL: 1 hr at 1,700°F, inside under 350°F | Maker's own claim: submersible | 12.88 x 10.38 x 12.25 in (0.94 cu ft) | Dial + keys |
+| SentrySafe HD4100 | Hanging files | UL: 30 min at 1,550°F | Intertek ETL: 72 hr flood | 11.5 x 12 x 8.1 in (0.65 cu ft) | Key |
+| SentrySafe CHW20221 | Tight budget | UL: 30 min at 1,550°F | Intertek ETL: 72 hr flood | 4.4 x 12.8 x 8.5 in (0.28 cu ft) | Key |
 
 ## Our picks for the best fireproof safe
 
-**Our picks cover the four sizes most people need: a 1-cubic-foot home safe, a large safe, a file box and a small fire chest.** We give each one a role, then cover what owners report and where it falls short.
+**My picks cover the four sizes most people need: a 1-cubic-foot home safe, a large safe, a file box and a small fire chest.** I give each one a role, then cover what owners report and where it falls short.
 
 ### SentrySafe SFW123GDC: Best overall
 
-This mid-size fire and water safe earns our top spot because it pairs independent ratings with everyday convenience. SentrySafe lists it as UL Classified to protect contents for 1 hour at up to 1,700°F (927°C). Intertek's ETL mark covers its water resistance: up to 24 hours in 8 inches of water. Staples adds an ETL-verified 15-foot drop rating, which matters if a floor gives way in a fire.
+This mid-size fire and water safe earns my top spot because it pairs independent ratings with everyday convenience. SentrySafe lists it as UL Classified to protect contents for 1 hour at up to 1,700°F (927°C). Intertek's ETL mark covers its water resistance: up to 24 hours in 8 inches of water. Staples adds an ETL-verified 15-foot drop rating, which matters if a floor gives way in a fire.
 
-Inside, the 13.8 x 12.6 x 11.9 in interior (1.23 cu ft) takes letter-size binders standing up, per the published dimensions. A backlit keypad and interior light help when the safe lives in a dark closet. Entry is a programmable code, and the listing describes a secondary locking key, so read the manual on how the two work together before you load it.
+Inside, the 13.8 x 12.6 x 11.9 in interior (1.23 cu ft) takes letter-size binders standing up, per the published dimensions. A backlit keypad and interior light help when the safe lives in a dark closet. Entry is a programmable code, and the listing describes a secondary locking key, so I'd read the manual on how the two work together before loading it.
 
-Owners are mostly positive. One Staples reviewer bought it after an earlier SentrySafe lasted about 15 years before its keypad wore out. The recurring complaint is about electronics: owners of sibling SFW123 keypad models report batteries dying with no warning and lockouts. We keep spare batteries next to the safe, never inside it.
+Owners are mostly positive. One Staples reviewer bought it after an earlier SentrySafe lasted about 15 years before its keypad wore out. The recurring complaint is about electronics: owners of sibling SFW123 keypad models report batteries dying with no warning and lockouts. My advice: keep spare batteries next to the safe, never inside it.
 
 ### SentrySafe SFW123DSB: Best battery-free lock
 
-Think of the SFW123DSB as our top pick with the electronics removed. It shares the same body, the same UL Classified 1-hour rating at up to 1,700°F and the same ETL water rating. Instead of a keypad, it uses a preset dial combination plus a key, so there is no battery to fail during the years it sits untouched.
+I think of the SFW123DSB as my top pick with the electronics removed. It shares the same body, the same UL Classified 1-hour rating at up to 1,700°F and the same ETL water rating. Instead of a keypad, it uses a preset dial combination plus a key, so there is no battery to fail during the years it sits untouched.
 
 Lowe's lists four live-locking bolts, a pry-resistant hinge bar, a shelf and bolt-down hardware. SentrySafe gives the interior as 1.19 cu ft, while the Amazon listing says 1.23 cu ft, so plan around the smaller figure. Master Lock lists the weight at 86.3 lb.
 
@@ -571,7 +590,7 @@ The trade-off is speed. A dial takes longer than a keypad, and it is harder in l
 
 When a 1-cubic-foot box is too tight, this 2-cubic-foot model is the step up. SentrySafe rates it UL Classified for 1 hour at up to 1,700°F and ETL Verified for 24 hours in 8 inches of water. The interior measures 19.6 x 14.8 x 11.9 in, tall enough for binders, a laptop and jewelry boxes together.
 
-Security hardware is the strongest in this group. Lowe's and Staples list six live-locking bolts, and SentrySafe adds a pry-resistant hinge bar. The cost is bulk: 125 lb and 23.8 in tall, with a door that needs about 17.5 in of clearance to swing fully open. Measure your closet before ordering.
+Security hardware is the strongest in this group. Lowe's and Staples list six live-locking bolts, and SentrySafe adds a pry-resistant hinge bar. The cost is bulk: 125 lb and 23.8 in tall, with a door that needs about 17.5 in of clearance to swing fully open. I'd measure your closet before ordering.
 
 Owner feedback on SentrySafe's own site is upbeat about daily use. One owner said the door swings easily and locking is easier than on their older 1.2 cu ft SentrySafe, and liked the large, clear dial numbers. Two owners reported shipping damage instead: one cosmetic, one unit that arrived damaged. Inspect it on delivery. The [SentrySafe SFW205CWB](amzn:SentrySafe+SFW205CWB+Fireproof+Waterproof+Safe+Dial+Combination+2.05+Cubic+Feet) suits a family that wants one safe for everything.
 
@@ -579,7 +598,7 @@ Owner feedback on SentrySafe's own site is upbeat about daily use. One owner sai
 
 First Alert's 0.94-cubic-foot safe is the pick for buyers who want a second brand with a comparable fire rating. First Alert lists it as UL Classified for 1 hour at an external 1,700°F while keeping the interior below 350°F. That interior figure is the useful part: paper chars well above it.
 
-The water claim is different. First Alert says the 2087F stays dry even when fully submerged, and that an empty safe floats so it is easy to find after a flood. We found no named lab verifying that, so we treat it as the maker's claim. Top Ten Reviews notes it is not UL-rated for burglary and not meant for gun storage. If you plan to anchor it, First Alert sells a 2087F-BD version with Ready-Seal bolt-down hardware designed to keep the seal intact.
+The water claim is different. First Alert says the 2087F stays dry even when fully submerged, and that an empty safe floats so it is easy to find after a flood. I found no named lab verifying that, so I treat it as the maker's claim. Top Ten Reviews notes it is not UL-rated for burglary and not meant for gun storage. If you plan to anchor it, First Alert sells a 2087F-BD version with Ready-Seal bolt-down hardware designed to keep the seal intact.
 
 Owners mainly struggle with the dial. Reviewers on Walmart and Best Buy describe the four-step combination as complicated, and one said it took practice. They like that the included override keys give immediate access. Check out the [First Alert 2087F](amzn:First+Alert+2087F+Waterproof+Fire+Safe+Combination+Lock) if you prefer a dial and four solid locking bolts.
 
@@ -587,17 +606,17 @@ Owners mainly struggle with the dial. Reviewers on Walmart and Best Buy describe
 
 Home offices with paper records should look at this top-opening file box. Retailers list room for up to 40 hanging folders inside its 0.65 cu ft interior (11.5 x 12 x 8.1 in). SentrySafe rates it UL Classified for 30 minutes at up to 1,550°F (843°C) and ETL Verified to protect against flood damage for up to 72 hours.
 
-Half an hour at 1,550°F is a lower rating than the 1-hour safes above. It still covers a typical room fire that firefighters reach quickly, but we would not store the only copy of anything here. At 38.85 lb, it is light enough to carry out in an evacuation.
+Half an hour at 1,550°F is a lower rating than the 1-hour safes above. It still covers a typical room fire that firefighters reach quickly, but I would not store the only copy of anything here. At 38.85 lb, it is light enough to carry out in an evacuation.
 
-Be clear about the lock. SentrySafe calls the key lock basic protection that deters children and snooping, not tool attacks. Review summaries flag the plastic latch for the same reason. One Staples owner reported the insulated top falling back and coming off the base when opened, and SentrySafe replaced it free. Get the [SentrySafe HD4100](amzn:SentrySafe+HD4100+Fire+and+Water+File+Safe) for organized files, not for cash.
+I want to be clear about the lock. SentrySafe calls the key lock basic protection that deters children and snooping, not tool attacks. Review summaries flag the plastic latch for the same reason. One Staples owner reported the insulated top falling back and coming off the base when opened, and SentrySafe replaced it free. Get the [SentrySafe HD4100](amzn:SentrySafe+HD4100+Fire+and+Water+File+Safe) for organized files, not for cash.
 
 ### SentrySafe CHW20221: Best budget fire chest
 
-For a renter who needs to protect a passport, a birth certificate and a few papers, this small chest does the job without a big outlay. SentrySafe lists it as UL Classified for 30 minutes at up to 1,550°F and ETL Verified against flood damage for up to 72 hours. Outside, it measures 6.6 x 15.4 x 14.3 in and weighs about 20.4 lb.
+For a renter who needs to protect a passport, a birth certificate and a few papers, this small chest does the job without a big outlay. It carries the same pair of ratings as the file box: UL for half an hour of fire and Intertek for three days of flood. Outside, it measures 6.6 x 15.4 x 14.3 in and weighs about 20.4 lb.
 
 The interior is 4.4 x 12.8 x 8.5 in, or 0.28 cu ft. Check letter-size paper against those numbers before you buy, because folders and binders will not fit. Owners on SentrySafe's site say it has plenty of space for its size.
 
-Security is minimal by design. The tubular key lock is a privacy latch, and Bob Vila found it a little sticky. One owner reported the key would not fully enter the lock, so check yours on day one. Because it is light, a burglar can carry it off, so hide it rather than display it. The [SentrySafe CHW20221](amzn:SentrySafe+CHW20221+Fireproof+Waterproof+Safe+Box+Key+Lock) is the cheapest way to get a real UL rating.
+Security is minimal by design. The tubular key lock is a privacy latch, and Bob Vila found it a little sticky. One owner reported the key would not fully enter the lock, so I'd check yours on day one. Because it is light, a burglar can carry it off, so hide it rather than display it. The [SentrySafe CHW20221](amzn:SentrySafe+CHW20221+Fireproof+Waterproof+Safe+Box+Key+Lock) is the cheapest way to get a real UL rating.
 
 > **From our notes:** When we lined up the spec sheets for these six safes, the first thing we noticed was how often the same safe was described three different ways. One SentrySafe listing called its 1.2-cubic-foot body 1.19 cu ft, another 1.23. Weights for our top pick ranged from about 87 to 90 lb depending on the retailer. The fire ratings, though, matched everywhere, because they come from UL's listing rather than marketing copy. That is why we built this guide around who certified each claim, and why we flag the one water claim that only the maker stands behind.
 
@@ -614,27 +633,50 @@ Our research steps were:
 
 This is research, not lab work: we did not set any of these safes on fire. Where listings disagree on a number, we give the range or the manufacturer's figure.
 
-## What a fireproof safe fire rating really means
+## What does a UL fireproof safe rating mean?
 
-**A fireproof safe rating tells you how long the inside stays cool enough for paper at a given furnace temperature, and the certifier tells you whether to trust it.** No home safe is truly fireproof; each is fire-resistant for its rated time.
+**A UL fireproof safe is UL Classified: Underwriters Laboratories ran the UL 72 furnace test, and the inside stayed below a set limit for the rated time.** For paper that limit is 350°F. In UL's test, [a Class 350 safe holds under 350°F for 1 hour at 1,700°F, or 2 hours at 1,850°F](https://americansecuritysafes.com/fire-ratings-explained/), then must also survive an explosion test in a furnace preheated to 2,000°F. No home safe is truly fireproof; each is fire-resistant for its rated time.
 
-### UL Classified vs ETL Verified vs maker claims
+### UL vs ETL vs the maker's own test
 
-UL 72 is the Underwriters Laboratories standard for fire-resistant record containers. A safe that passes is UL Classified for a duration and temperature, such as 1 hour at 1,700°F. UL 72 Class 350 means the interior stays below 350°F, the level paper documents tolerate.
+**Three kinds of label sit on fire safes, and only two involve an outside lab.** I sort every claim into one of these rows before comparing safes:
 
-Intertek is a separate testing lab whose ETL mark appears on many SentrySafe water and drop ratings. UL does not rate water resistance, so a water figure needs its own named verifier. When a box only says "fire resistant" with no certifier, the claim is the maker's alone. That is the difference we flag in our table for the First Alert water claim.
+| Who certified it | What the label says | What was tested | How much I trust it |
+|---|---|---|---|
+| UL (Underwriters Laboratories) | "UL Classified", e.g. 1 hr at 1,700°F | UL 72 fire endurance and explosion tests; a 30-foot drop while hot is optional | Highest: UL ran it to a published standard |
+| Intertek (ETL Verified) | "ETL Verified" fire, water or drop claim | The specific claim on the label, such as 24 hours in 8 inches of water | High, but only for the claim it names |
+| Maker's own test | "Fire resistant", "tested to 1,200°F" | A factory or contracted test, method not published | Low: compare only within that brand |
 
-### Paper vs digital media
+Two details matter here. "Tested to UL standards" is not UL Classified: the maker ran the test, not UL. And drop ratings differ: the 15-foot drop on the SFW123GDC is ETL Verified, while UL's optional impact test drops a hot safe 30 feet. Intertek also fire-tests gun safes; American Security's ETL ratings, for example, hold the furnace at 1,200°F, so check the temperature as well as the minutes. Our [fire-rated gun safe guide](/blog/best-fire-rated-gun-safe/) covers those.
 
-Paper survives an interior near 350°F, but USB drives, discs, photos and film fail at far lower temperatures. UL's media classes demand much cooler interiors than Class 350. If your backups matter, keep a second copy off-site or in the cloud, and treat a 1-hour paper rating as paper protection.
+### UL 72 classes: paper vs digital media
+
+**The class number is the hottest the inside may get, so it tells you what the safe protects.** [UL Class 125 keeps the interior below 125°F and 80% humidity](https://guardiansafeandvault.com/blog/fire-ratings), a level discs and drives need; Class 350 is for paper.
+
+| UL 72 class | Interior limit | Protects |
+|---|---|---|
+| Class 350 | Under 350°F | Paper, cash, passports |
+| Class 150 | Under 150°F, humidity under 85% | Magnetic media such as tapes |
+| Class 125 | Under 125°F, humidity under 80% | Discs, USB drives, photos |
+
+All six of my picks are paper-rated. If your backups matter, keep a second copy off-site or in the cloud.
 
 ## How to choose a fireproof safe for your home
 
-**Choose a fireproof safe by what you store, how often you open it and whether you can anchor it.** The best fireproof safe for home use is the one that fits your papers with room to spare and opens reliably when you need it.
+**Choose a fireproof safe by what you store, how often you open it and whether you can anchor it.** The best safe for home fireproof storage is the one that fits your papers with room to spare and opens reliably when you need it. This chooser is the rule I use:
+
+| What you store | Rating to look for | My pick |
+|---|---|---|
+| Passports and a few certificates | UL 30 min + ETL flood | CHW20221 chest |
+| Hanging tax and medical files | UL 30 min, file box | HD4100 |
+| Papers and cash you open weekly | UL 1 hr + named water rating, keypad | SFW123GDC |
+| Papers you open a few times a year | UL 1 hr, dial | SFW123DSB or 2087F |
+| Binders, a laptop, a family archive | UL 1 hr, 2 cu ft | SFW205CWB |
+| USB drives, photos, film | UL Class 125 media rating | A media chest inside the safe |
 
 ### Size it to what you store
 
-Measure your largest item first. Letter-size folders, passports and a few envelopes fit a 0.28 cu ft chest laid flat. Binders, a laptop or hard drives need a 1-cubic-foot safe or larger. Hanging files need a file box like the HD4100.
+Measure your largest item first against the interior column in my table above. Letter-size papers lie flat in the 0.28 cu ft chest; binders need a 1-cubic-foot safe or larger.
 
 ### Lock type and backup entry
 
@@ -648,17 +690,17 @@ Water from fire hoses or a flood can ruin papers that the flames never reach. Lo
 
 A fire chest, like the CHW20221, opens from the top and holds papers flat. It is light, cheap and easy to carry out of the house, which is both its strength and its weakness. A front-opening fire safe, like the SFW123 models, has a door, a shelf and bolts that shoot into the frame. It holds binders upright and is far heavier to steal.
 
-We usually suggest a front-opening safe for anyone storing cash or jewelry alongside papers. A chest makes sense for a short list of documents you want ready to grab, or as a second box inside a larger safe for passports and spare keys you might need in a hurry.
+I suggest a front-opening safe for anyone storing cash or jewelry alongside papers, and a chest for a short list of documents you want ready to grab.
 
 ### Rating duration: 30 minutes or 1 hour?
 
-Half an hour at 1,550°F and 1 hour at 1,700°F both come from UL's furnace test, but the longer rating buys margin. Response times, the floor the safe sits on and how long the fire burns near it all vary. If a 1-hour safe fits your space, we would choose it for anything irreplaceable. A 30-minute box is still far better than a drawer, and the ETL flood rating on our two 30-minute picks covers the water that usually follows a fire.
+Half an hour at 1,550°F and 1 hour at 1,700°F both come from UL's furnace test, but the longer rating buys margin. Response times, the floor the safe sits on and how long the fire burns near it all vary. If a 1-hour safe fits your space, I would choose it for anything irreplaceable. A 30-minute box is still far better than a drawer, and the ETL flood rating on our two 30-minute picks covers the water that usually follows a fire.
 
 ### Weight, placement and floors
 
-Heavier is not always better for a fire safe, but weight tells you something. A 20 lb chest is easy to carry off; an 86 lb safe is not. Check that the floor and the closet can take the weight before delivery, and plan the route: stairs, door widths and the door swing of the safe itself. The SFW205CWB, for example, needs about 17.5 in of clearance to open fully.
+A 20 lb chest is easy to carry off; an 86 lb safe is not. Check that the floor and the closet can take the weight before delivery, and plan the route: stairs, door widths and the door swing of the safe itself. The SFW205CWB, for example, needs about 17.5 in of clearance to open fully.
 
-Where you place it matters too. A corner of a ground-floor closet or a basement slab keeps it away from the hottest part of a house fire and makes it harder to wheel out. Avoid a spot below a bathroom or laundry if you can, because leaks are a slow kind of flood.
+Where you place it matters too. A corner of a ground-floor closet or a basement slab keeps it away from the hottest part of a house fire and makes it harder to wheel out.
 
 ### Bolt-down and theft
 
@@ -685,4 +727,4 @@ If you ever lose the code or key, contact the manufacturer with your proof of ow
 
 ## Which fireproof safe should you buy?
 
-**For most homes, the SentrySafe SFW123GDC is the fireproof safe we would choose.** Its UL Classified 1-hour rating, ETL water rating and quick keypad cover most households. If batteries worry you, choose its dial twin. Choose the SFW205CWB when you need room, the HD4100 for files and the CHW20221 for a few papers on a budget. Whatever you pick, store the backup key outside it, plan for a dehumidifier pack, and remember that fire protection is not theft protection. Our [safe buying checklist](/safe-buying-checklist/) walks through the rest.
+**For most homes, the SentrySafe SFW123GDC is the fireproof safe I would choose.** Its UL Classified 1-hour rating, ETL water rating and quick keypad cover most households. If batteries worry you, choose its dial twin. Choose the SFW205CWB when you need room, the HD4100 for files and the CHW20221 for a few papers on a budget. Whatever you pick, store the backup key outside it, plan for a dehumidifier pack, and remember that fire protection is not theft protection. Our [safe buying checklist](/safe-buying-checklist/) walks through the rest.

@@ -319,16 +319,139 @@
     }
   ],
   "serpTitles": [
-    {"position":1,"url":"https://store.sentrysafe.com/collections/water-fire-safes?srsltid=AU7gw4Umy5Q62pv4RMOfeRNyRV5ysrg5o3c1MnNRh_Stqbyz0eQLoeol","title":"Water & Fireproof Safes - SentrySafe Store"},
-    {"position":2,"url":"https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/","title":"The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter"},
-    {"position":3,"url":"https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/","title":"Advice on buying a small fireproof safe, please. - Reddit"},
-    {"position":4,"url":"https://www.businessinsider.com/guides/home/best-home-safe","title":"The Best Home Safes for Flood, Fire, and Theft Protection"},
-    {"position":5,"url":"https://deansafe.com/collections/fire-safes-for-the-home?srsltid=AU7gw4WA0iIPuxyspbqKx5gWrqbTracNaecONz5R9XEGZ18MKKXo3G-R","title":"Fire Safes - Dean Safe"},
-    {"position":6,"url":"https://www.topfirearmreviews.com/post/best-home-safes","title":"Best Home Safes [Hands-On]: All Sizes & Budgets"},
-    {"position":7,"url":"https://mammothsafes.com/collections/fireproof-safes?srsltid=AU7gw4WffgKNCWYXIKSZR6ORONvIqCzSOI8hoGSkiSuwLGX51gucVa_s","title":"Best Fireproof Safe Prices - Mammoth Safes"},
-    {"position":8,"url":"https://www.elitefourum.com/t/fireproof-safes-which-brand/18648","title":"Fireproof safes, which brand? - General - Elite Fourum"},
-    {"position":9,"url":"https://www.safeandvaultstore.com/collections/portable-fireproof-lock-boxes?srsltid=AU7gw4W2Me0_2wWVwSxxtwcbd4WqA2xncOiu0MDGFlLTxzDylb_SNjVj","title":"Best Rated Portable Fireproof Safes, Chests & Lock Boxes for Documents"},
-    {"position":10,"url":"https://www.thesafekeeper.com/collections/fireproof-safes?srsltid=AU7gw4Uu2dFkQa4pBtFrjaQpYZAemxR3JsVOp7KD2lBfH8HE2hQRx2Lr","title":"Large & Small Fireproof Safes for Home Use - The Safe Keeper"}
+    {
+      "position": 1,
+      "url": "https://store.sentrysafe.com/collections/water-fire-safes?srsltid=AU7gw4Umy5Q62pv4RMOfeRNyRV5ysrg5o3c1MnNRh_Stqbyz0eQLoeol",
+      "title": "Water & Fireproof Safes - SentrySafe Store"
+    },
+    {
+      "position": 2,
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/",
+      "title": "The 2 Best Fireproof Document Safes of 2026 | Reviews by Wirecutter"
+    },
+    {
+      "position": 3,
+      "url": "https://www.reddit.com/r/Safes/comments/1ig9v97/advice_on_buying_a_small_fireproof_safe_please/",
+      "title": "Advice on buying a small fireproof safe, please. - Reddit"
+    },
+    {
+      "position": 4,
+      "url": "https://www.businessinsider.com/guides/home/best-home-safe",
+      "title": "The Best Home Safes for Flood, Fire, and Theft Protection"
+    },
+    {
+      "position": 5,
+      "url": "https://deansafe.com/collections/fire-safes-for-the-home?srsltid=AU7gw4WA0iIPuxyspbqKx5gWrqbTracNaecONz5R9XEGZ18MKKXo3G-R",
+      "title": "Fire Safes - Dean Safe"
+    },
+    {
+      "position": 6,
+      "url": "https://www.topfirearmreviews.com/post/best-home-safes",
+      "title": "Best Home Safes [Hands-On]: All Sizes & Budgets"
+    },
+    {
+      "position": 7,
+      "url": "https://mammothsafes.com/collections/fireproof-safes?srsltid=AU7gw4WffgKNCWYXIKSZR6ORONvIqCzSOI8hoGSkiSuwLGX51gucVa_s",
+      "title": "Best Fireproof Safe Prices - Mammoth Safes"
+    },
+    {
+      "position": 8,
+      "url": "https://www.elitefourum.com/t/fireproof-safes-which-brand/18648",
+      "title": "Fireproof safes, which brand? - General - Elite Fourum"
+    },
+    {
+      "position": 9,
+      "url": "https://www.safeandvaultstore.com/collections/portable-fireproof-lock-boxes?srsltid=AU7gw4W2Me0_2wWVwSxxtwcbd4WqA2xncOiu0MDGFlLTxzDylb_SNjVj",
+      "title": "Best Rated Portable Fireproof Safes, Chests & Lock Boxes for Documents"
+    },
+    {
+      "position": 10,
+      "url": "https://www.thesafekeeper.com/collections/fireproof-safes?srsltid=AU7gw4Uu2dFkQa4pBtFrjaQpYZAemxR3JsVOp7KD2lBfH8HE2hQRx2Lr",
+      "title": "Large & Small Fireproof Safes for Home Use - The Safe Keeper"
+    }
   ],
-  "titlePattern": {"keywordAtStart":1,"withYear":1,"withNumber":1,"commonModifiers":["water & fireproof","home safes","fire safes for the home"],"gap":"What a UL fire rating really means for home use"}
+  "titlePattern": {
+    "keywordAtStart": 1,
+    "withYear": 1,
+    "withNumber": 1,
+    "commonModifiers": [
+      "water & fireproof",
+      "home safes",
+      "fire safes for the home"
+    ],
+    "gap": "What a UL fire rating really means for home use"
+  },
+  "commonPoints": [
+    "No safe is truly fireproof; fire safes resist heat for a rated time at a rated temperature",
+    "Paper needs an interior under about 350°F; digital media needs far lower",
+    "Look for a UL listing or ETL verification rather than an unnamed claim",
+    "Fire and water ratings are separate; check for a named water rating",
+    "Lock type trade-offs: keypad speed vs battery-free dial vs key",
+    "Place the safe on a low floor and bolt it down where the maker allows"
+  ],
+  "ourGain": [
+    {
+      "type": "analysis",
+      "point": "Per-product certifier table: who certified each fire rating (UL) and each water rating (Intertek ETL or the maker's own claim for the First Alert 2087F), with minutes, °F and interior H x W x D side by side",
+      "source": "https://www.sentrysafe.com/product/SFW123GDC ; https://www.firstalert.com/us/en/products/more-safety-products/safes/2087f-waterproof-and-fire-resistant-combination-safe-094-cubic-feet-2087f/",
+      "absentFrom": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.popsci.com/gear/best-fireproof-safes/",
+        "https://www.businessinsider.com/guides/home/best-home-safe"
+      ]
+    },
+    {
+      "type": "analysis",
+      "point": "UL vs ETL vs maker's own test table: what each label says, what was tested (UL 72 endurance + 2,000°F explosion test, optional 30-ft hot drop vs ETL's named claim such as a 15-ft drop), and how much to trust it; 'tested to UL standards' is not UL Classified",
+      "source": "https://americansecuritysafes.com/fire-ratings-explained/ ; https://guardiansafeandvault.com/blog/fire-ratings",
+      "absentFrom": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.popsci.com/gear/best-fireproof-safes/",
+        "https://www.businessinsider.com/guides/home/best-home-safe"
+      ]
+    },
+    {
+      "type": "decision",
+      "point": "Chooser table: what you store -> rating to look for -> which pick (passports, hanging files, weekly papers and cash, rarely opened papers, binders and laptop, USB drives and photos)",
+      "source": "product specs in this post",
+      "absentFrom": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.popsci.com/gear/best-fireproof-safes/",
+        "https://www.businessinsider.com/guides/home/best-home-safe"
+      ]
+    },
+    {
+      "type": "analysis",
+      "point": "UL 72 class table (350 / 150 / 125 with humidity limits) mapped to what each protects, and the note that all six picks are paper-rated",
+      "source": "https://guardiansafeandvault.com/blog/fire-ratings",
+      "absentFrom": [
+        "https://www.bobvila.com/reviews/best-fireproof-safes-2026/",
+        "https://www.popsci.com/gear/best-fireproof-safes/",
+        "https://www.businessinsider.com/guides/home/best-home-safe"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "number": "1,700°F",
+      "claim": "UL Class 350: interior under 350°F for one hour at 1700°F, or two hours at 1850°F",
+      "url": "https://americansecuritysafes.com/fire-ratings-explained/",
+      "quote": "The safe will maintain an interior temperature less than 350°F when exposed to fire for a period of one hour at 1700°F or for a period of two hours at 1850°F."
+    },
+    {
+      "number": "125°F",
+      "claim": "UL Class 125 keeps the interior below 125°F and humidity below 80%",
+      "url": "https://guardiansafeandvault.com/blog/fire-ratings",
+      "quote": "The interior temperature stays below 125°F and humidity below 80% for one hour in the furnace."
+    }
+  ],
+  "improvedFromGsc": {
+    "date": "2026-10-24",
+    "queries": [
+      "best fire resistant safes",
+      "best fireproof safe",
+      "best safe for home fireproof",
+      "ul fireproof safe"
+    ]
+  }
 }

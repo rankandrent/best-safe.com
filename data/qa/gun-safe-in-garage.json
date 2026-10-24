@@ -1,20 +1,17 @@
 {
   "slug": "gun-safe-in-garage",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:28.049Z",
+  "checkedAt": "2026-10-24T12:37:04.918Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (403): https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/",
-    "source didn't respond normally (403): https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
-    "source didn't respond normally (403): https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Removed surplus outside links only (owner rule: max 3 external links); no claim, number or source in the text changed.",
-    "at": "2026-10-21T19:51:17.042Z",
-    "hash": "40dbfc9e02b58d85"
+    "notes": "added one internal link to best-fireproof-safe, no claim changed",
+    "at": "2026-10-24T12:37:04.335Z",
+    "hash": "17d6091764b75be7"
   }
 }

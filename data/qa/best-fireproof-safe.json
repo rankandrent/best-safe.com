@@ -1,26 +1,20 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-24T10:54:49.728Z",
+  "checkedAt": "2026-10-24T12:36:20.625Z",
   "errors": [],
   "warnings": [
-    "only 21 first-person words; owner rule wants at least 30 (about 1 per 100 words: I, my, me, we, our, us)",
-    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): SentrySafe SFW123GDC; SentrySafe SFW205CWB; First Alert 2087F; SentrySafe HD4100; SentrySafe CHW20221",
-    "a sentence repeats an earlier one almost word for word: \"SentrySafe lists it as UL Classified for 30 minutes at up to 1,550°F and ETL Verified agai\"",
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe SFW123DSB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe SFW205CWB\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"First Alert 2087F\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe HD4100\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "0 sourced numbers; put at least 1 statistic in the text with the number itself linked to the page it comes from, e.g. [about 1,000 lb](https://maker-spec-page)",
-    "source didn't respond normally (no response): https://sentrysafe.com/product/SFW205CWB",
-    "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-1-23-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960599",
-    "source didn't respond normally (403): https://www.lowes.com/pd/SentrySafe-2-cu-ft-Combination-Lock-Residential-Floor-Safe/5012960587"
+    "product \"SentrySafe CHW20221\" has no Amazon photo yet (the Amazon refresh adds it after push)"
   ],
   "factCheck": {
     "verified": true,
-    "notes": "Verified via web search against manufacturer pages and retailer listings: SFW123GDC (sentrysafe.com, Staples): UL Classified 1 hr at 1700F, ETL 24 hr in 8 in water, ETL 15-ft drop, int 13.8x12.6x11.9 in 1.23 cu ft, ext 17.8x16.3x19.3 in, weight 87-90 lb varies by listing, backlit keypad + interior light, secondary key. SFW123DSB (sentrysafe.com, Lowe's, Master Lock): same UL/ETL ratings, dial + key, 1.19 cu ft per SentrySafe vs 1.23 on Amazon, 86.3 lb, four live-locking bolts and bolt-down hardware per Lowe's. SFW205CWB (sentrysafe.com, Lowe's/Staples): UL 1 hr 1700F, ETL 24 hr 8 in, int 19.6x14.8x11.9, ext 23.8x18.6x19.3, 125 lb, six live-locking bolts, 17.5 in door clearance. First Alert 2087F (firstalert.com, firstalertstore, TopTenReviews): UL Classified 1 hr 1700F interior <350F, waterproof submerged is maker claim (no named lab), int 12.88x10.38x12.25 0.94 cu ft, ext 16.5x14.5x19, 82-83 lb, 4 solid bolts, override keys, not burglary rated, 2087F-BD Ready-Seal. HD4100 (sentrysafe.com store, Staples): UL 1/2 hr 1550F, ETL 72 hr flood, int 11.5x12x8.1, 0.65 cu ft, ext 14.3x15.5x13.5, 38.85 lb, privacy key lock not for tool attacks, up to 40 hanging folders per retailers. CHW20221 (sentrysafe.com, Master Lock, Costco): UL 1/2 hr 1550F, ETL 72 hr flood, int 4.4x12.8x8.5 0.28 cu ft, ext 6.6x15.4x14.3, ~20.4 lb, key lock. Fire ratings stated with certifier exactly as published; no upgrades. Amazon ASINs from Creators API search (B005P12C5A listing title reads STW123GDC but describes the 1-hour 1.2 cu ft SFW123GDC specs; matchName set). Owner themes from Staples, Walmart, Best Buy, SentrySafe and ConsumerAffairs reviews and ShopSavvy summaries.",
-    "at": "2026-10-18T10:25:15.083Z"
+    "notes": "Improve run 2026-10-24 (GSC queries best fireproof safe / best fire resistant safes / best safe for home fireproof / ul fireproof safe). Product specs unchanged from the 2026-10-18 check (SentrySafe and First Alert maker pages, Staples, Lowe's). New claims verified with Firecrawl (maxAge 0): americansecuritysafes.com/fire-ratings-explained (UL Class 350 interior under 350F for 1 hr at 1700F or 2 hr at 1850F; explosion test in furnace preheated to 2000F; fire impact 30-ft drop is manufacturer's option; AMSEC ETL gun safe ratings at 1200F; factory test 'consistent with UL-72' is the maker's own); guardiansafeandvault.com/blog/fire-ratings (UL Class 150 under 150F and <85% humidity for magnetic media; Class 125 under 125F and <80% humidity for optical media; private testing less transparent). Interior dims in the table from the product specs already verified. SFW123GDC 15-ft drop is ETL Verified per Staples. 'Tested to UL standards' vs UL Classified also stated in Bob Vila's FAQ. Product summaries/scoreNotes rewritten to first person with no testing or ownership claims.",
+    "at": "2026-10-24T12:37:12.336Z",
+    "hash": "59177131534ba624"
   }
 }

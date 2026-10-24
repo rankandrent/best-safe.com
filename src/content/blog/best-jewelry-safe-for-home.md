@@ -288,7 +288,7 @@ A fire safe seals tight, and a Collectors Universe member warns that "Fireproof 
 
 ### Ratings that are hard to compare
 
-Store pages mix fire minutes, temperatures and burglary claims on one line. Sort every label into two piles before comparing. Fire: how long, how hot and which lab (UL, Intertek ETL or the maker's own test). Burglary: UL RSC, TL-15 or none. If a listing names no lab, treat it as the maker's own claim.
+Store pages mix fire minutes, temperatures and burglary claims on one line. Sort every label into two piles before comparing. Fire: how long, how hot and which lab (UL, Intertek ETL or the maker's own test). Burglary: UL RSC, TL-15 or none. If a listing names no lab, treat it as the maker's own claim; our guide to the [best fire resistant safes](/blog/best-fireproof-safe/) shows who certified each rating.
 
 ## Which jewelry safe should you buy?
 
