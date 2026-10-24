@@ -216,7 +216,7 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     if (/^when we lined up/.test(opener)) warn('"From our notes" opens with the repeated "When we lined up…": start with this post’s own product, number or situation');
     else if (opener.split(' ').length === 6) {
       const blogDir = path.join(DATA_DIR, '..', 'src/content/blog');
-      const same = fs.readdirSync(blogDir).filter((f) => f.endsWith('.md') && f !== `${slug}.md`).some((f) => {
+      const same = fs.readdirSync(blogDir).filter((f) => f.endsWith('.md') && f !== `${post.slug}.md`).some((f) => {
         const o = (fs.readFileSync(path.join(blogDir, f), 'utf8').match(/^>\s*\*\*From our notes:\*\*\s*(.+)$/m)?.[1] ?? '').replace(/[^A-Za-z0-9 ]/g, '').toLowerCase().split(/\s+/).slice(0, 6).join(' ');
         return o === opener;
       });
