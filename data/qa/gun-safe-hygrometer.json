@@ -1,7 +1,7 @@
 {
   "slug": "gun-safe-hygrometer",
   "pass": true,
-  "checkedAt": "2026-10-24T12:40:27.776Z",
+  "checkedAt": "2026-10-24T13:35:59.457Z",
   "errors": [],
   "warnings": [
     "only 15 first-person words; owner rule wants at least 21 (about 1 per 100 words: I, my, me, we, our, us)",
@@ -10,7 +10,6 @@
     "product \"Hornady Digital Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Lockdown Vault Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"TempPro TP49 Digital Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "source didn't respond normally (no response): https://www.howardenvironmental.com/gun-safe-dehumidifier-hygrometer-tips/",
     "source didn't respond normally (403): https://www.snipershide.com/shooting/threads/what-are-you-using-to-monitor-humidity-in-gun-safe.6926894/"
   ],
   "factCheck": {

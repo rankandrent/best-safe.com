@@ -1,13 +1,12 @@
 {
   "slug": "floor-safe-installation",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:13.521Z",
+  "checkedAt": "2026-10-24T13:35:49.219Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "source didn't respond normally (511): https://hoogerhydesafe.com/2013/11/floor-safes-part-2-downsides/",
     "source didn't respond normally (403): https://www.eichlernetwork.com/content/locating-radiant-heat-tubes-prior-cutting-slab",
     "source didn't respond normally (403): https://www.reddit.com/r/Locksmith/comments/1jn0ic7/in_floor_safes/",
     "source didn't respond normally (403): https://www.reddit.com/r/Safes/comments/1vdwgmr/infloor_versus_abovefloor_mounted_safe/"
