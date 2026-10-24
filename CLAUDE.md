@@ -19,7 +19,8 @@ conflicts with an old one, ask the owner which wins and record the answer). Comm
 - Talk to the owner in Roman Urdu. Agent prompts and files stay in English.
 - LIGHT MODE (2026-10-22, Claude usage limit): exactly 1 new English post per day per site, one agent per post;
   translations, trim backlog, pre-research and backfills are paused until the owner says otherwise.
-- Deploy a post only after its pubDate; go-live check = 200 + product photos, then a phone notification "Live: <title> – <url>".
+- Deploy a post only after its pubDate. Go-live: first `node scripts/apply-inlinks.mjs <slug>` (patent rule 2026-10-24: 2 in-body links
+  from related live posts), commit + push, then deploy; check = 200 + product photos, then a phone notification "Live: <title> – <url>".
 - Never change a live post's URL, slug, keyword or pubDate (rankings drop). Old URLs get 301s, never 404s.
 - Old posts are improved daily from the last 24 hours of Search Console (2026-10-23): 1 post per site per day,
   `scripts/gsc-opportunities.mjs <repo> <site> 1 --last24h` in the rentersmarthome.us repo, then improve-agent.

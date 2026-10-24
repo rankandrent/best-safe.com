@@ -206,6 +206,24 @@ export async function qaPost(post, { posts = listPosts(), online = false, live =
     if (all.length > 3) warn(`review publishers named ${all.length} times: justify picks by specs and owner facts, name other publishers at most once`);
   }
 
+  // Patent rules 2026-10-24: US7716225B1 (reasonable surfer: early, in-context links count most) and
+  // US9767157B2 (site quality predicted from phrases repeated across the site's pages).
+  {
+    const words = body.split(/\s+/);
+    const firstThird = words.slice(0, Math.ceil(words.length / 3)).join(' ');
+    if (!/\]\(\/blog\//.test(firstThird)) warn('no internal /blog/ link in the first third of the body: put one in running text in the intro or first two H2 sections');
+    const opener = (body.match(/^>\s*\*\*From our notes:\*\*\s*(.+)$/m)?.[1] ?? '').replace(/[^A-Za-z0-9 ]/g, '').toLowerCase().split(/\s+/).slice(0, 6).join(' ');
+    if (/^when we lined up/.test(opener)) warn('"From our notes" opens with the repeated "When we lined up…": start with this post’s own product, number or situation');
+    else if (opener.split(' ').length === 6) {
+      const blogDir = path.join(DATA_DIR, '..', 'src/content/blog');
+      const same = fs.readdirSync(blogDir).filter((f) => f.endsWith('.md') && f !== `${slug}.md`).some((f) => {
+        const o = (fs.readFileSync(path.join(blogDir, f), 'utf8').match(/^>\s*\*\*From our notes:\*\*\s*(.+)$/m)?.[1] ?? '').replace(/[^A-Za-z0-9 ]/g, '').toLowerCase().split(/\s+/).slice(0, 6).join(' ');
+        return o === opener;
+      });
+      if (same) warn('"From our notes" opens with the same 6 words as another post: make the first sentence specific to this post');
+    }
+  }
+
   // --- Style: locked "we" voice and no entity stuffing (errors from styleRequiredFrom, warnings before)
   {
     const strict = pub >= Date.parse(SITE.qa?.styleRequiredFrom ?? '2100-01-01');

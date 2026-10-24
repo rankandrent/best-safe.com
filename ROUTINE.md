@@ -32,6 +32,13 @@ justified by specs, calculations and owner-reported facts, not by other publishe
 (Wirecutter, Consumer Reports, RTINGS, CNET, Wired…) is named in the first 150 words, and "who else recommends it"
 appears in the "How we picked" section, not as each product's reason. QA warns.
 
+**Internal links that count (patent rule 2026-10-24 (US7716225B1), and (US9767157B2) for repeated phrases):** at least 1
+internal link in running text in the first third; descriptive 2-6 word anchors. Every new post's brief carries
+`pendingInlinks` (2 related live posts + exact sentence + replacement); at go-live, before the deploy, run
+`node scripts/apply-inlinks.mjs <slug>` (it edits only those sentences, re-runs factcheck + QA, reverts on failure),
+commit and push, then deploy. The "From our notes" first sentence is specific to the post, never "When we lined up…".
+QA warns on both.
+
 **Voice and personal story (every post):** first person throughout (I, my, me, we, our, us; at least 10 uses),
 plus one `> **From our notes:**` story block (60-120 words). Use a real owner story from `data/stories.json` if one
 fits, otherwise a true research story (how we compared the products, what stood out in the manuals and specs), or a
