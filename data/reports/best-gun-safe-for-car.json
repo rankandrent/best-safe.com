@@ -1,0 +1,572 @@
+{
+  "keyword": "best gun safe for car",
+  "createdAt": "2026-10-24T10:53:38.392Z",
+  "via": "claude-routine",
+  "brief": {
+    "centralEntity": "car gun safe",
+    "entityVariants": [
+      "gun safe for car",
+      "car gun safe",
+      "vehicle gun safe",
+      "car safe",
+      "truck gun safe",
+      "vehicle safe",
+      "gun safe for your car"
+    ],
+    "entities": [
+      {
+        "name": "car gun safe",
+        "type": "product category",
+        "relation": "central entity"
+      },
+      {
+        "name": "security cable",
+        "type": "component",
+        "relation": "how most portable car safes stay in the vehicle; the weak link owners name"
+      },
+      {
+        "name": "seat frame",
+        "type": "anchor point",
+        "relation": "where makers tell owners to loop the cable"
+      },
+      {
+        "name": "center console",
+        "type": "vehicle location",
+        "relation": "where console vaults and bladder-mounted safes sit"
+      },
+      {
+        "name": "RFID",
+        "type": "lock technology",
+        "relation": "touch-free entry on the Hornady RAPiD safes"
+      },
+      {
+        "name": "keypad",
+        "type": "lock type",
+        "relation": "electronic entry on LifePod, RAPiD and Grimtron"
+      },
+      {
+        "name": "backup key",
+        "type": "backup entry",
+        "relation": "what opens the box when batteries or electronics fail"
+      },
+      {
+        "name": "mechanical lock",
+        "type": "lock type",
+        "relation": "battery-free entry (Simplex on the Fort Knox, key on the SnapSafe)"
+      },
+      {
+        "name": "steel gauge",
+        "type": "attribute",
+        "relation": "lower number = thicker steel (10-gauge Fort Knox, 14-gauge RAPiD 2700KP, 16-gauge SnapSafe)"
+      },
+      {
+        "name": "California DOJ",
+        "type": "regulator",
+        "relation": "roster of approved firearm safety devices"
+      },
+      {
+        "name": "TSA",
+        "type": "agency",
+        "relation": "rules for flying with a locked hard-sided case"
+      },
+      {
+        "name": "Everytown Research",
+        "type": "source",
+        "relation": "analysis of FBI NIBRS data on guns stolen from cars"
+      },
+      {
+        "name": "Hornady",
+        "type": "brand",
+        "relation": "makes the RAPiD Vehicle Safe, RAPiD 2700KP and SnapSafe lock boxes"
+      },
+      {
+        "name": "Vaultek",
+        "type": "brand",
+        "relation": "makes the LifePod 20"
+      },
+      {
+        "name": "Fort Knox",
+        "type": "brand",
+        "relation": "makes the PB1 Original Pistol Box"
+      },
+      {
+        "name": "Console Vault",
+        "type": "brand",
+        "relation": "vehicle-specific console safes, sold per vehicle"
+      }
+    ],
+    "attributes": [
+      "lock type and backup entry",
+      "interior depth vs pistol with optic",
+      "security cable rating",
+      "bolt-down holes",
+      "steel gauge or shell material",
+      "power source in a hot or cold car",
+      "visibility through the window",
+      "fits under seat or beside console"
+    ],
+    "ngrams": [
+      "car gun safe",
+      "security cable",
+      "seat frame",
+      "center console",
+      "under the seat",
+      "backup key",
+      "quick access",
+      "lock box"
+    ],
+    "skipgrams": [
+      "cable…seat frame",
+      "safe…center console",
+      "backup…key",
+      "pistol…optic"
+    ],
+    "nlpTerms": [
+      "smash-and-grab",
+      "tether",
+      "RFID",
+      "keypad",
+      "16-gauge",
+      "batteries",
+      "truck",
+      "concealed carry",
+      "gun-free zone",
+      "state law"
+    ],
+    "questions": [
+      "What is the best gun safe for a car?",
+      "Is a cable lock box enough to secure a gun in a car?",
+      "Where should a gun safe go in a car or truck?",
+      "Do electronic car safes fail in heat or cold?",
+      "Is it legal to keep a gun in a car safe?",
+      "Can I bolt a gun safe into my car?"
+    ],
+    "contentGaps": [
+      "Interior depth of each pick compared with a pistol carrying an optic or light",
+      "Where each pick's backup key or backup power lives when the electronics fail in a parked car",
+      "A chooser by how long the gun stays in the car and whether you drive one vehicle or several",
+      "What the cable is rated for vs what bolting down adds",
+      "Pointing to the reader's own state rules without giving legal advice"
+    ],
+    "outline": [
+      {
+        "h2": "Best gun safe for car – the short answer",
+        "intent": "direct answer, top picks",
+        "h3": []
+      },
+      {
+        "h2": "Our car gun safe picks compared",
+        "intent": "comparison table: lock, backup, interior depth, anchoring",
+        "h3": []
+      },
+      {
+        "h2": "The 6 best car gun safes, reviewed",
+        "intent": "one section per product, pros/cons and owner reports",
+        "h3": [
+          "Hornady Rapid Vehicle Safe: Best quick access from the driver's seat",
+          "Hornady RAPiD Safe 2700KP: Best portable steel box",
+          "Fort Knox PB1 Original Pistol Box: Best to bolt into a truck",
+          "Vaultek LifePod 20: Best for weather and car-to-hotel moves",
+          "SnapSafe Lock Box XL: Best budget cable box",
+          "Grimtron Portable Electronic Car Gun Safe: Best budget keypad box"
+        ]
+      },
+      {
+        "h2": "Will your pistol fit? Interior depth vs an optic",
+        "intent": "analysis from maker interior dimensions",
+        "h3": []
+      },
+      {
+        "h2": "Cable or bolts – how a car gun safe stays in the car",
+        "intent": "cable ratings vs bolt-down; pain points: cable not enough, slides around",
+        "h3": []
+      },
+      {
+        "h2": "Problems car safe owners run into, and the fix",
+        "intent": "pain points: won't open after heat/battery, visible through window, cheap box flimsy",
+        "h3": []
+      },
+      {
+        "h2": "Which car gun safe should you get?",
+        "intent": "our own chooser rule",
+        "h3": []
+      },
+      {
+        "h2": "How we picked these car gun safes",
+        "intent": "method, who else recommends them (once), no testing claim",
+        "h3": []
+      },
+      {
+        "h2": "Car gun storage laws vary by state",
+        "intent": "point to official sources, no legal advice",
+        "h3": []
+      }
+    ],
+    "targetWords": 2300,
+    "serpStructure": {
+      "analyzedUrls": [
+        "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+        "https://gununiversity.com/best-vehicle-safes/",
+        "https://www.rifleconfigurator.com/guides/best-car-gun-safes",
+        "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+        "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+        "https://huntingmark.com/best-car-gun-safe/",
+        "https://www.boostedsafe.com/blogs/news/best-vehicle-gun-safes-2026"
+      ],
+      "productStyle": "pros-cons",
+      "productStyleReason": "Gun University, Rifle Configurator and Cape Fear Investigative show each car safe with pros and cons lists; Top Firearm Reviews, Pew Pew Tactical and Huntingmark use paragraphs. Pros/cons is the most common structured format.",
+      "avgWords": 2900,
+      "avgProducts": 8,
+      "commonSections": [
+        "why you need a car gun safe (a car is not a holster)",
+        "product reviews",
+        "anchor with a security cable or mount",
+        "lock types (key, combination, keypad, biometric, RFID)",
+        "console vaults as the fitted option",
+        "check your state's transport rules"
+      ],
+      "usesComparisonTable": true,
+      "usesFaq": true,
+      "usesBuyingGuide": true,
+      "note": "avgWords is an estimate of main-content words across the five editorial roundups opened (Top Firearm Reviews ~3,100, Gun University ~2,300, Rifle Configurator ~3,800, Pew Pew Tactical ~1,500, Cape Fear Investigative ~3,800); maker pages excluded."
+    },
+    "serpTitles": [
+      {
+        "position": 1,
+        "url": "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+        "title": "Best Car Gun Safes Of 2026 [Testing Results] - Top Firearm Reviews"
+      },
+      {
+        "position": 2,
+        "url": "https://www.reddit.com/r/concealedcarry/comments/1fe081q/good_pistol_safes_for_a_car/",
+        "title": "Good pistol safes for a car : r/concealedcarry - Reddit"
+      },
+      {
+        "position": 3,
+        "url": "https://www.pewpewtactical.com/best-gun-safes/",
+        "title": "15 Best Gun Safes 2026: Every Type & Budget Tested"
+      },
+      {
+        "position": 4,
+        "url": "https://www.consolevault.com/",
+        "title": "Console Vault: Anti-Theft Car Safes | Shop Truck Safes"
+      },
+      {
+        "position": 5,
+        "url": "https://www.thesafekeeper.com/collections/car-gun-safes",
+        "title": "Car Gun Safes for Sale | Buy Vehicle Gun Safe at The Safe Keeper"
+      },
+      {
+        "position": 6,
+        "url": "https://kwickstrike.com/kwick-strike-quick-access-gun-storage/",
+        "title": "Car Gun Safe That Draws in Under a Second | Kwick Strike"
+      },
+      {
+        "position": 7,
+        "url": "https://community.usconcealedcarry.com/t/looking-for-recommendations-on-vehicle-safes/98920",
+        "title": "Looking for recommendations on Vehicle Safes - Guns & Gear"
+      },
+      {
+        "position": 8,
+        "url": "https://vaulteksafe.com/collections/vehicle-safes",
+        "title": "Vehicle Safes - Vaultek Safe"
+      },
+      {
+        "position": 9,
+        "url": "https://www.youtube.com/watch?v=99fhFT4PlaE",
+        "title": "Top 7 Car Gun Safe That Your Firearm Is Secure - YouTube"
+      },
+      {
+        "position": 10,
+        "url": "https://www.boostedsafe.com/blogs/news/best-vehicle-gun-safes-2026",
+        "title": "Best Vehicle Gun Safes of 2026: Honest Buyer's Guide"
+      }
+    ],
+    "titlePattern": {
+      "keywordAtStart": 0,
+      "withYear": 3,
+      "withNumber": 2,
+      "commonModifiers": [
+        "car gun safes",
+        "vehicle",
+        "2026",
+        "tested",
+        "for sale"
+      ],
+      "gap": "No title tells the reader which safe fits their pistol, how it stays in the car and how it opens when the battery dies; we sort the picks by lock, mount and pistol fit."
+    },
+    "commonPoints": [
+      "A car is not a holster: an unsecured gun in a vehicle is easy to steal",
+      "Car safes are short-term storage that stops a smash-and-grab, not a determined thief with tools",
+      "Anchor the box with its security cable or mount it; a loose box gets carried off",
+      "Console vaults that bolt into a factory console are the most hidden option when one fits your vehicle",
+      "Check your own state's rules for carrying or storing a gun in a vehicle"
+    ],
+    "ourGain": [
+      {
+        "type": "analysis",
+        "point": "Interior depth of every pick from the maker's own dimensions (1.7 in on the RAPiD Vehicle Safe up to 2.2 in on the RAPiD 2700KP and a much deeper Fort Knox PB1) compared with a pistol wearing an optic or light, so readers measure before buying",
+        "source": "https://static.hornady.media/presscenter/docs/1410995037-RAPiD---Vehicle-Safe-Instructions1641942488.pdf; https://static.hornady.media/presscenter/docs/1410992287-1779119460-RAPiD-Safes-2600KP-2700KP-Instructions.pdf; https://vaulteksafe.com/lifepod-20/; https://www.snapsafe.com/lock-boxes/lock-box-xl/",
+        "absentFrom": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ]
+      },
+      {
+        "type": "analysis",
+        "point": "What holds each pick in the car, in numbers: SnapSafe's 1,500 lb rated 4 ft cable, Grimtron's 1,900 lb breaking-strength cable, the Fort Knox PB1's four 3/8-inch bolt holes, and the RAPiD Vehicle Safe's air bladder that only positions the safe (the cable does the securing)",
+        "source": "https://www.snapsafe.com/lock-boxes/lock-box-xl/; https://manuals.plus/asin/B0D567QTGN; https://deansafe.com/products/fort-knox-original-handgun-safe-pb1-pistol-box-ftk-pb; https://static.hornady.media/presscenter/docs/1410995037-RAPiD---Vehicle-Safe-Instructions1641942488.pdf",
+        "absentFrom": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ]
+      },
+      {
+        "type": "situation",
+        "point": "The safe will not open after months in a hot or cold car: plan the backup for each pick (Hornady will not send replacement keys and its manual says replace batteries every 12 months; the RAPiD Vehicle Safe runs off the 12V socket; LifePod and Grimtron take emergency USB power; the Fort Knox and SnapSafe need no battery) and keep the key outside the car",
+        "source": "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/; https://static.hornady.media/presscenter/docs/1410995037-RAPiD---Vehicle-Safe-Instructions1641942488.pdf",
+        "absentFrom": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+          "https://huntingmark.com/best-car-gun-safe/",
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes"
+        ]
+      },
+      {
+        "type": "decision",
+        "point": "Our chooser: one car or several, a few minutes or a full workday, batteries or none, mapped to one pick each",
+        "source": "data/pain-points.json vehicle-safes entries; maker specs above",
+        "absentFrom": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ]
+      },
+      {
+        "type": "situation",
+        "point": "The safe advertises a gun through the window: which picks hide under a seat and which mount in plain view, and the habit of locking up before you park",
+        "source": "https://www.reddit.com/r/CCW/comments/n4k1mw/hornady_rapid_safe_or_similar_for_vehicles/; https://shoot-on.com/field-test-hornady-rapid-vehicle-safe/",
+        "absentFrom": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/",
+          "https://huntingmark.com/best-car-gun-safe/",
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes"
+        ]
+      }
+    ],
+    "serpProducts": [
+      {
+        "name": "Vaultek LifePod 20 (LifePod 2.0 / 20)",
+        "pages": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/"
+        ]
+      },
+      {
+        "name": "Hornady RAPiD Vehicle Safe",
+        "pages": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ]
+      },
+      {
+        "name": "Console Vault",
+        "pages": [
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ],
+        "dropped": "sold per vehicle model; no single Amazon US listing fits every car (covered in text as the fitted option)"
+      },
+      {
+        "name": "Hornady RAPiD Safe 2700KP",
+        "pages": [
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes",
+          "https://www.pewpewtactical.com/best-car-gun-safes-pistols-rifles/"
+        ]
+      },
+      {
+        "name": "SnapSafe Lock Box XL",
+        "pages": [
+          "https://www.rifleconfigurator.com/guides/best-car-gun-safes",
+          "https://huntingmark.com/best-car-gun-safe/"
+        ]
+      },
+      {
+        "name": "Fort Knox PB1 Original Pistol Box",
+        "pages": [
+          "https://huntingmark.com/best-car-gun-safe/",
+          "https://www.pewpewtactical.com/best-gun-safes/"
+        ]
+      },
+      {
+        "name": "Grimtron Portable Electronic Car Gun Safe",
+        "pages": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/"
+        ]
+      },
+      {
+        "name": "Dalmbox compact lock box",
+        "pages": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/"
+        ],
+        "dropped": "the two pages describe different lock variants (key vs combination); kept the SnapSafe as the budget cable box"
+      },
+      {
+        "name": "Younion pistol lock box",
+        "pages": [
+          "https://www.topfirearmreviews.com/post/best-vehicle-gun-safes",
+          "https://capefearinvestigative.com/best-vehicle-gun-safe/"
+        ],
+        "dropped": "the two pages describe different lock variants; SnapSafe covers the same role with maker-published specs"
+      },
+      {
+        "name": "StopBox Pro",
+        "pages": [
+          "https://gununiversity.com/best-vehicle-safes/",
+          "https://www.boostedsafe.com/blogs/news/best-vehicle-gun-safes-2026"
+        ],
+        "dropped": "second page is a competing maker's blog, so only one independent page"
+      }
+    ],
+    "painPoints": [
+      {
+        "id": "vehicle-safes-lockbox-cable-not-enough",
+        "pain": "A cable-tethered lockbox in the car feels like it only slows a thief, not stops one",
+        "details": "CCW carriers ask whether a cable box is enough versus a safe bolted to the car.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/"
+        ],
+        "quotes": [
+          {
+            "text": "A console safe that is attached to the vehicle is quite a bit better than a lock box with a cable.",
+            "url": "https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/"
+          }
+        ]
+      },
+      {
+        "id": "vehicle-safes-wont-open-battery-heat-age",
+        "pain": "Vehicle safe will not open when needed: dead battery, or keypad and RFID stop working after heat and age",
+        "details": "Owners report keypads and RFID failing in cars; USB power as a backup saved others.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/"
+        ],
+        "quotes": [
+          {
+            "text": "Went to go open it one day recently and the lock won't open. RFID doesn't work, code doesn't work.",
+            "url": "https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/"
+          }
+        ]
+      },
+      {
+        "id": "vehicle-safes-slides-around-needs-mounting",
+        "pain": "Car safe slides around or is loose; owners want a bracket, bolt pattern or console fit that actually mounts",
+        "details": "Owners recommend floor brackets, console vaults that use the console's bolt pattern, or models with predrilled holes.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/13sncob/recommendation_for_vehicle_gun_safe/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "vehicle-safes-visible-from-outside",
+        "pain": "Worry that the safe is visible through the window and advertises a gun in the car",
+        "details": "Owners recommend concealed spots such as under the seat or inside the console.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/n4k1mw/hornady_rapid_safe_or_similar_for_vehicles/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "vehicle-safes-cheap-lockbox-flimsy",
+        "pain": "Low-end pistol lockboxes feel flimsy and limited in protection for the price",
+        "details": "Buyers ask what a budget vehicle box can realistically do.",
+        "sources": [
+          "https://www.reddit.com/r/CCW/comments/dghk9n/i_genuinely_dont_understand_why_the_lowestend/"
+        ],
+        "quotes": []
+      },
+      {
+        "id": "vehicle-safes-unsure-of-state-rules-when-mounting",
+        "pain": "Unsure whether permanently attaching a safe in the car changes how a firearm may be stored or carried there",
+        "details": "Only point readers to their own state's rules.",
+        "sources": [
+          "https://www.reddit.com/r/CAguns/comments/69g862/how_does_the_law_around_car_safes_work_its_legal/"
+        ],
+        "quotes": []
+      }
+    ],
+    "stats": [
+      {
+        "number": "nearly 62,000",
+        "claim": "guns stolen from cars in 2022 across 337 US cities (Everytown analysis of FBI NIBRS data)",
+        "url": "https://everytownresearch.org/report/gun-thefts-from-cars-the-largest-source-of-stolen-guns-2/",
+        "quote": "This amounted to nearly 62,000 guns stolen from cars in 2022 across these 337 cities."
+      },
+      {
+        "number": "51 percent",
+        "claim": "share of reported gun thefts in those cities that were from cars in 2022",
+        "url": "https://everytownresearch.org/report/gun-thefts-from-cars-the-largest-source-of-stolen-guns-2/",
+        "quote": "in 2022, just over half (51 percent) were stolen from cars."
+      },
+      {
+        "number": "1500 lb",
+        "claim": "rating of the 4 ft steel security cable that ships with the SnapSafe Lock Box XL",
+        "url": "https://www.snapsafe.com/lock-boxes/lock-box-xl/",
+        "quote": "1500 lb. rated 4 ft. steel security cable"
+      },
+      {
+        "number": "1.7\"",
+        "claim": "interior depth of the Hornady RAPiD Vehicle Safe (interior 7.5 x 5.6 x 1.7 in)",
+        "url": "https://static.hornady.media/presscenter/docs/1410995037-RAPiD---Vehicle-Safe-Instructions1641942488.pdf",
+        "quote": "Interior: 7.5\" x 5.6\" x 1.7\""
+      },
+      {
+        "number": "1900lbs",
+        "claim": "breaking strength of the Grimtron VT1136's 3.28 ft security cable",
+        "url": "https://manuals.plus/asin/B0D567QTGN",
+        "quote": "A strong 3.28ft security cable with a breaking strength of 1900lbs is included."
+      }
+    ],
+    "videos": [
+      {
+        "id": "dVu1YG4ZjZg",
+        "title": "Hornady® RAPiD® Vehicle Safe",
+        "channel": "Hornady",
+        "url": "https://www.youtube.com/watch?v=dVu1YG4ZjZg",
+        "section": "The 6 best car gun safes, reviewed"
+      }
+    ]
+  },
+  "sources": [],
+  "backlinks": [
+    {
+      "slug": "best-dehumidifier-for-gun-safe",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-gun-safe-for-apartment",
+      "mode": "related-box"
+    },
+    {
+      "slug": "best-biometric-gun-safe",
+      "mode": "related-box"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "best-gun-safe-for-car",
+  "pass": true,
+  "checkedAt": "2026-10-24T10:52:46.654Z",
+  "errors": [],
+  "warnings": [
+    "product \"Hornady Rapid Vehicle Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Hornady RAPiD Safe 2700KP\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Fort Knox PB1 Original Pistol Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Vaultek LifePod 20\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"SnapSafe Lock Box XL\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "product \"Grimtron Portable Electronic Car Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+  ],
+  "factCheck": {
+    "verified": true,
+    "notes": "Verified 2026-10-24 against maker sources: Hornady RAPiD Vehicle Safe 98210 owner's manual (RFID up to 5 tags, 4-6 digit code, 2 barrel keys, exterior 12.0x6.4x2.2 in, interior 7.5x5.6x1.7 in, 12V adapter or 4 AAA, bladder plate between seat and console, cable to seat frame, batteries every 12 months, electronic systems may fail, no replacement keys, not for fire, California-approved device); Hornady 2600KP/2700KP manual (2700KP exterior 12.7x8.7x2.9, interior 9.0x7.7x2.2, 4 AA or AC, RFID/code/keys, California-approved) and Hornady store listing (14-gauge steel, two hardened locking lugs); Vaultek LifePod 20 page (12.25x8.5x2.875 ext, 9.625x7.25x2.125 int, firearms to 9.25 in, 9V up to 1 yr, micro-USB backup, 48 in cable, 2 keys, 3.3 lb, water resistant/airtight/dustproof, maker claim); SnapSafe Lock Box XL page (75210 key lock, 7x10x2 in, 6 lb, 16-gauge, 1500 lb rated 4 ft cable, CA DOJ approved, meets TSA guidelines, lifetime warranty); Dean Safe Fort Knox PB1 page (10-gauge body, 4 x 3/8 in holes, 10.25x12.5x4.35 in) and XDTalk owner review (3/16 in door, Simplex lock, ~24 lb); Manuals+ Grimtron VT1136 (3-8 digit keypad, 2 keys, silent mode, 4 AAA, 3.28 ft cable 1900 lb breaking strength, alloy steel, not water resistant, 11.02x7x1.85 in / 11.42x7.09x1.97 in, 3.97 lb) plus Amazon listing title (emergency USB power). Stats: Everytown report quotes (nearly 62,000 guns stolen from cars in 2022 across 337 cities; 51 percent). Owner claims checked against OpticsPlanet 2700KP reviews, OpticsPlanet Rapid Vehicle review, Shoot On field test, r/CCW / r/NJGuns / r/austinguns excerpts, Grimtron store reviews, XDTalk and USCCA PB1 reviews. Both Reddit quotes confirmed verbatim via site:reddit.com exact-phrase search. No fire ratings claimed (none of the six has one). Legal section points to state AG/state police sites only, no legal claims. Re-checked after wording-only edits (first-person phrasing, no new facts).",
+    "at": "2026-10-24T10:52:46.128Z",
+    "hash": "88bff87b8abe88c1"
+  }
+}

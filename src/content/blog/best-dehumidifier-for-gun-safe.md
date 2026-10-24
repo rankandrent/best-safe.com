@@ -330,10 +330,10 @@ faqs:
       the safe.
 author: editorial-team
 related:
+  - best-gun-safe-for-car
   - gun-safe-hygrometer
   - gun-safe-in-garage
   - best-fire-rated-gun-safe
-  - how-much-does-a-gun-safe-weigh
 heroImage: /images/featured/best-dehumidifier-for-gun-safe.png
 heroAlt: >-
   Best Dehumidifier for Gun Safe – 3 Picks Sized by Cubic Feet – Best Safe

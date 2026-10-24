@@ -3620,7 +3620,7 @@
     "rationale": "Owner keyword list 2026-10-22; groups 6 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
   },
   {
-    "status": "pending",
+    "status": "published",
     "attempts": 0,
     "addedAt": "2026-10-22T00:00:00.000Z",
     "keyword": "best gun safe for car",
@@ -3642,7 +3642,9 @@
     "funnel": "bofu",
     "cluster": "car",
     "source": "user",
-    "rationale": "Owner keyword list 2026-10-22; groups 8 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword)."
+    "rationale": "Owner keyword list 2026-10-22; groups 8 owner keywords with the same Google intent (checked: no 4+ shared top-10 URLs with any live post or other new keyword).",
+    "productCount": 6,
+    "publishedAt": "2026-10-24T10:53:38.385Z"
   },
   {
     "status": "pending",

@@ -369,10 +369,10 @@ faqs:
       certified, rather than the maker's own claim.
 author: editorial-team
 related:
+  - best-gun-safe-for-car
   - best-hidden-gun-safe
   - wall-mounted-gun-safe
   - best-fire-rated-gun-safe
-  - how-much-does-a-gun-safe-weigh
 heroImage: /images/featured/best-gun-safe-for-apartment.png
 heroAlt: >-
   Best Gun Safe for Apartment Renters – 3 Picks and How to Anchor Them – Best
