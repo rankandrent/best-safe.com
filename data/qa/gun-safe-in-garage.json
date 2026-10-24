@@ -1,12 +1,15 @@
 {
   "slug": "gun-safe-in-garage",
   "pass": true,
-  "checkedAt": "2026-10-24T12:37:04.918Z",
+  "checkedAt": "2026-10-24T12:40:30.140Z",
   "errors": [],
   "warnings": [
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
-    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)"
+    "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
+    "source didn't respond normally (403): https://forum.accurateshooter.com/threads/a-gun-safe-in-the-garage.3814148/",
+    "source didn't respond normally (403): https://ar15.com/forums/general/humidity-problems-in-the-gunsafe--help-needed/5-2079886/",
+    "source didn't respond normally (403): https://ar15.com/forums/general/Bolting-down-a-safe-post-tension-slab-/5-2608811/"
   ],
   "factCheck": {
     "verified": true,
