@@ -1,9 +1,11 @@
 {
   "slug": "best-handgun-safe-for-nightstand",
   "pass": true,
-  "checkedAt": "2026-10-21T19:54:48.518Z",
+  "checkedAt": "2026-10-24T10:55:06.676Z",
   "errors": [],
   "warnings": [
+    "only 24 first-person words; owner rule wants at least 34 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Fort Knox Original Pistol Box PB1; Vaultek 20 Series Essential Biometric; Hornady RAPiD Safe Night Guard; SentrySafe QAP2EL; GunVault SpeedVault SV500",
     "product \"Fort Knox Original Pistol Box PB1\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek 20 Series Essential Biometric\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Hornady RAPiD Safe Night Guard\" has no Amazon photo yet (the Amazon refresh adds it after push)",

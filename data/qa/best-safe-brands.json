@@ -1,9 +1,10 @@
 {
   "slug": "best-safe-brands",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:00.334Z",
+  "checkedAt": "2026-10-24T10:55:24.479Z",
   "errors": [],
   "warnings": [
+    "only 13 first-person words; owner rule wants at least 19 (about 1 per 100 words: I, my, me, we, our, us)",
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",

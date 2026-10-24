@@ -1,9 +1,11 @@
 {
   "slug": "best-home-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T19:54:50.490Z",
+  "checkedAt": "2026-10-24T10:55:10.746Z",
   "errors": [],
   "warnings": [
+    "only 20 first-person words; owner rule wants at least 24 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): SentrySafe SFW123GDC; Amazon Basics Steel Home Security Electronic Safe; Viking Security Safe VS-20BLX",
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Amazon Basics Steel Home Security Electronic Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Viking Security Safe VS-20BLX\" has no Amazon photo yet (the Amazon refresh adds it after push)",

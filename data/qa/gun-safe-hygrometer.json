@@ -1,9 +1,11 @@
 {
   "slug": "gun-safe-hygrometer",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:24.962Z",
+  "checkedAt": "2026-10-24T10:55:53.371Z",
   "errors": [],
   "warnings": [
+    "only 15 first-person words; owner rule wants at least 21 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Hornady Wireless Hygrometer; Hornady Digital Hygrometer; Lockdown Vault Hygrometer; TempPro TP49 Digital Hygrometer",
     "product \"Hornady Wireless Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Hornady Digital Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Lockdown Vault Hygrometer\" has no Amazon photo yet (the Amazon refresh adds it after push)",

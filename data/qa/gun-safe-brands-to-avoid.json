@@ -1,9 +1,10 @@
 {
   "slug": "gun-safe-brands-to-avoid",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:15.141Z",
+  "checkedAt": "2026-10-24T10:55:45.926Z",
   "errors": [],
   "warnings": [
+    "only 11 first-person words; owner rule wants at least 15 (about 1 per 100 words: I, my, me, we, our, us)",
     "illustration 1 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 2 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",
     "illustration 3 not generated yet (launch-site.yml in the RentersmartHome repo generates it at deploy time)",

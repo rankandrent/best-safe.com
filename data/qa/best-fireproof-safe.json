@@ -1,9 +1,11 @@
 {
   "slug": "best-fireproof-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T06:59:13.046Z",
+  "checkedAt": "2026-10-24T10:54:49.728Z",
   "errors": [],
   "warnings": [
+    "only 21 first-person words; owner rule wants at least 30 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): SentrySafe SFW123GDC; SentrySafe SFW205CWB; First Alert 2087F; SentrySafe HD4100; SentrySafe CHW20221",
     "a sentence repeats an earlier one almost word for word: \"SentrySafe lists it as UL Classified for 30 minutes at up to 1,550°F and ETL Verified agai\"",
     "product \"SentrySafe SFW123GDC\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SentrySafe SFW123DSB\" has no Amazon photo yet (the Amazon refresh adds it after push)",

@@ -1,9 +1,11 @@
 {
   "slug": "best-ammo-can",
   "pass": true,
-  "checkedAt": "2026-10-20T20:09:09.718Z",
+  "checkedAt": "2026-10-24T10:54:25.720Z",
   "errors": [],
   "warnings": [
+    "only 21 first-person words; owner rule wants at least 24 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): MTM ACR8-72 Ammo Crate Utility Box; Plano Field Ammo Box; Solid Tactical Metal Ammo Can",
     "body has 2358 words, over the 1840 limit (top results average 1600): cut repetition and filler",
     "product \"MTM ACR8-72 Ammo Crate Utility Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Plano Field Ammo Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",

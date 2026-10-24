@@ -1,15 +1,16 @@
 {
   "slug": "best-fire-rated-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-23T14:24:49.843Z",
+  "checkedAt": "2026-10-24T10:54:37.823Z",
   "errors": [],
   "warnings": [
+    "only 16 first-person words; owner rule wants at least 18 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Steelwater Heavy Duty 20 Long Gun; Kodiak KBX5629; Fortress 24 Gun Fire Safe; Hornady Fireproof Keypad Safe",
     "product \"Steelwater Heavy Duty 20 Long Gun\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Kodiak KBX5629\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Fortress 24 Gun Fire Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Hornady Fireproof Keypad Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "keyword overlaps /blog/are-gun-safes-fireproof/ (\"best fire rated gun safe\" overlaps \"are gun safes fire resistant\" (75%))",
-    "source didn't respond normally (403): https://gunsafesresource.com/best-fireproof-gun-safe/"
+    "keyword overlaps /blog/are-gun-safes-fireproof/ (\"best fire rated gun safe\" overlaps \"are gun safes fire resistant\" (75%))"
   ],
   "factCheck": {
     "verified": true,

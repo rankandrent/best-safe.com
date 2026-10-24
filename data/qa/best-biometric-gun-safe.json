@@ -1,9 +1,11 @@
 {
   "slug": "best-biometric-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T06:58:56.352Z",
+  "checkedAt": "2026-10-24T10:54:30.538Z",
   "errors": [],
   "warnings": [
+    "only 19 first-person words; owner rule wants at least 23 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Vaultek DS2i Smart Station; Vaultek LifePod 20 Biometric; BILLCONCH Biometric Gun Safe; ONNAIS Iron SE Biometric Gun Safe; awesafe Biometric Gun Safe; Barska Biometric Rifle Safe",
     "product \"Vaultek DS2i Smart Station\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek LifePod 20 Biometric\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"BILLCONCH Biometric Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",

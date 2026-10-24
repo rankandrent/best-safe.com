@@ -1,9 +1,11 @@
 {
   "slug": "best-key-lock-box",
   "pass": true,
-  "checkedAt": "2026-10-21T19:54:52.721Z",
+  "checkedAt": "2026-10-24T10:55:15.576Z",
   "errors": [],
   "warnings": [
+    "only 21 first-person words; owner rule wants at least 26 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Kidde AccessPoint 001166 KeySafe; Master Lock 5400D Portable Lock Box; igloohome Smart Keybox 3",
     "body has 2554 words, over the 2185 limit (top results average 1900): cut repetition and filler",
     "product \"Kidde AccessPoint 001166 KeySafe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Master Lock 5400D Portable Lock Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",

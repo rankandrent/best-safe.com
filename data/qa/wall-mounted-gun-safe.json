@@ -1,9 +1,11 @@
 {
   "slug": "wall-mounted-gun-safe",
   "pass": true,
-  "checkedAt": "2026-10-21T19:55:41.566Z",
+  "checkedAt": "2026-10-24T10:56:18.345Z",
   "errors": [],
   "warnings": [
+    "only 17 first-person words; owner rule wants at least 19 (about 1 per 100 words: I, my, me, we, our, us)",
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): SnapSafe In-Wall Safe Tall 75414; SnapSafe In-Wall Safe 75413; Barska Biometric Wall Safe AX12038; Protex PWS-1814E Wall Safe",
     "product \"SnapSafe In-Wall Safe Tall 75414\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SnapSafe In-Wall Safe 75413\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Barska Biometric Wall Safe AX12038\" has no Amazon photo yet (the Amazon refresh adds it after push)",

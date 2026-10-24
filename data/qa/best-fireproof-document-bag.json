@@ -1,9 +1,10 @@
 {
   "slug": "best-fireproof-document-bag",
   "pass": true,
-  "checkedAt": "2026-10-21T19:54:25.051Z",
+  "checkedAt": "2026-10-24T10:54:42.527Z",
   "errors": [],
   "warnings": [
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): ENGPOW 5200°F Fireproof Document Bag with Lock; ROLOWAY Fireproof Document & Money Bags",
     "product \"ENGPOW 5200°F Fireproof Document Bag with Lock\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"ROLOWAY Fireproof Document & Money Bags\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "source didn't respond normally (403): https://wgntv.com/reviews/br/home-br/storage-organization-br/best-fireproof-safes-and-document-storage-to-have-in-your-home/",

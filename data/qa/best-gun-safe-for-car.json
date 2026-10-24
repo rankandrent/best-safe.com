@@ -1,7 +1,7 @@
 {
   "slug": "best-gun-safe-for-car",
   "pass": true,
-  "checkedAt": "2026-10-24T10:52:46.654Z",
+  "checkedAt": "2026-10-24T10:54:58.932Z",
   "errors": [],
   "warnings": [
     "product \"Hornady Rapid Vehicle Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
@@ -9,7 +9,11 @@
     "product \"Fort Knox PB1 Original Pistol Box\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek LifePod 20\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"SnapSafe Lock Box XL\" has no Amazon photo yet (the Amazon refresh adds it after push)",
-    "product \"Grimtron Portable Electronic Car Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)"
+    "product \"Grimtron Portable Electronic Car Gun Safe\" has no Amazon photo yet (the Amazon refresh adds it after push)",
+    "source didn't respond normally (403): https://www.snapsafe.com/lock-boxes/lock-box-xl/",
+    "source didn't respond normally (403): https://manuals.plus/asin/B0D567QTGN",
+    "source didn't respond normally (403): https://www.reddit.com/r/CCW/comments/1gzp6qw/center_console_safe_yay_or_nay/",
+    "source didn't respond normally (403): https://www.reddit.com/r/CCW/comments/1nupdnw/hornady_rapid_vehicle_safe_just_shit_the_bed_they/"
   ],
   "factCheck": {
     "verified": true,

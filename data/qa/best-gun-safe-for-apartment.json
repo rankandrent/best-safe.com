@@ -1,9 +1,10 @@
 {
   "slug": "best-gun-safe-for-apartment",
   "pass": true,
-  "checkedAt": "2026-10-21T19:54:37.017Z",
+  "checkedAt": "2026-10-24T10:54:54.537Z",
   "errors": [],
   "warnings": [
+    "product write-ups not in first person (summary/scoreNote need I/my/we/our, e.g. \"I picked it because…\"): Vaultek RS500i; KAER Biometric Gun Safe Rifle 14-15 (2412C-1447); Vaultek LifePod 10",
     "product \"Vaultek RS500i\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"KAER Biometric Gun Safe Rifle 14-15 (2412C-1447)\" has no Amazon photo yet (the Amazon refresh adds it after push)",
     "product \"Vaultek LifePod 10\" has no Amazon photo yet (the Amazon refresh adds it after push)",
